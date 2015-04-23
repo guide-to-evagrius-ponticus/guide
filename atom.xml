@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml"
+   xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
+   <id>http://evagriusponticus.net/</id>
+   <title>Guide to Evagrius Ponticus</title>
+   <updated>2015-06-01T09:00:00Z</updated>
+   <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
+
+   <entry>
+      <title>Guide to Evagrius Ponticus, summer 2015 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:1a16d520-a661-11e4-8705-0002a5d5c51b</id>
+      <updated>2015-06-01T09:00:00Z</updated>
+      <published>2015-06-01T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2015 edition of the <em>Guide to
+            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>General</em>: Viewport added, for mobile accessibility; minor adjustments in CSS</li>
+               <li><em>Bibliography</em>: • items added</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, spring 2015 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:1a16d520-a661-11e4-8705-0002a5d5c51b</id>
+      <updated>2015-03-02T09:00:00Z</updated>
+      <published>2015-03-02T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2015 edition of the <em>Guide to
+            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 5 items added</li>
+               <li><em>Corpus</em>: corrections made to English titles of CPG 2432 (Kephalaia gnostika) and CPG 2436 (Chapters to a Virgin)</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, winter 2014 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:B923DA50-7E1B-11E4-BD34-06791D5D46B0</id>
+      <updated>2014-12-08T09:00:00Z</updated>
+      <published>2014-12-08T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2014 edition of the <em>Guide to
+            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 2 items added, 62 additional items updated</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, fall 2014 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:2e9df7f0-b731-42fe-b0ed-86359b688576</id>
+      <updated>2014-09-01T09:00:00Z</updated>
+      <published>2014-09-01T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2014 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Life</em>: English translations for three new sources added: the
+                  entirety of the Coptic Life of Evagrius by Tim Vivian (courtesy St. Vladimir's
+                  Seminary Press); testimonia from the Virtues of Saint Macarius of Egypt; and
+                  further testimonia from Palladius, Historia Lausiaca
+               </li>
+               <li><em>Bibliography</em>: 6 items added, 3 additional items updated</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, summer 2014 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:2e90a292-78bc-4303-ab4f-a60a14b8534c</id>
+      <updated>2014-06-02T09:00:00Z</updated>
+      <published>2014-06-02T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2014 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 7 items added</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, spring 2014 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:8383a002-1331-4031-8793-216ff0cc3989</id>
+      <updated>2014-03-03T09:00:00Z</updated>
+      <published>2014-03-03T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2014 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 5 items added, 3 older items updated</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, winter 2013 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:756b2240-5a91-11e3-949a-0800200c9a66</id>
+      <updated>2013-12-02T09:00:00Z</updated>
+      <published>2013-12-02T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2013 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 6 items added, 7 older items updated</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, fall 2013 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:62469e80-1291-11e3-bc6d-0002a5d5c51b</id>
+      <updated>2013-09-02T09:00:00Z</updated>
+      <published>2013-09-02T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2013 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 18 items added, 2 older items updated</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
+
+   <entry>
+      <title>Guide to Evagrius Ponticus, summer 2013 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:dbe43022-91d6-11e2-b8f8-e9da6188709b</id>
+      <updated>2013-06-03T09:00:00Z</updated>
+      <published>2013-06-03T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2013 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>Images</em>: Cod. Ambr. E.49-50 caption has been corrected and expanded.</li>
+               <li><em>Bibliography</em>: 12 items added, 65 older items updated, editor and
+                  translator information given</li>
+            </ul>
+            <p>In addition, the bibliography is now available as RDF serialized as XML at
+               http://evagriusponticus.net/bibliography.rdf</p>
+         </div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>Guide to Evagrius Ponticus, spring 2013 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:1a7b3510-52d5-11e2-bcfd-0800200c9a66</id>
+      <updated>2013-03-04T09:00:00Z</updated>
+      <published>2013-03-04T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2013 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li>Adobe Garamond Premier Pro embedded for better reading.</li>
+               <li><em>Bibliography</em>: 22 items added, 17 older items updated</li></ul>
+            <p>Vitaly Permiakovs joins as a bibliography editor for 2013. Thanks go to Scott Johnson
+               for his work as a bibliography editor in 2012.</p>
+         </div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>Guide to Evagrius Ponticus, winter 2012 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:666ab080-3b1b-11e2-81c1-0800200c9a66</id>
+      <updated>2012-12-03T09:00:00Z</updated>
+      <published>2012-12-03T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2012 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul><li><em>Bibliography</em>: 8 items added, 10 older items updated</li></ul></div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>Guide to Evagrius Ponticus, fall 2012 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:11aa3380-f391-11e1-b7c0-0002a5d5c51b</id>
+      <updated>2012-09-03T09:00:00Z</updated>
+      <published>2012-09-03T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2012 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul><li><em>Bibliography</em>: 19 items added, 11 others corrected</li></ul></div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>Guide to Evagrius Ponticus, summer 2012 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:83df2600-4c5b-11e1-9929-0002a5d5c51b</id>
+      <updated>2012-05-14T09:00:00Z</updated>
+      <published>2012-05-14T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2012 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul><li><em>Images</em>: chapter restructured; one post-Byzantine image
+                     added</li><li><em>Corpus</em>: <em>The Just and the Perfect</em> (CPG 2465) now
+                  assigned to dubia (= <em>Liber graduum</em> 14)</li><li><em>Bibliography</em>: 35
+                  items added</li></ul></div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>Guide to Evagrius Ponticus arrives</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:045fab20-3fb3-11e1-accd-0002a5d5c51b</id>
+      <updated>2012-01-17T09:00:00Z</updated>
+      <published>2012-01-17T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>We are pleased to announce the appearance of
+               the <em>Guide to Evagrius Ponticus</em>, a digital-only, peer-reviewed reference
+               work. Updated quarterly, the Guide provides definitive lists of Evagrius's works, of
+               editions and translations of those works, and of studies related to his life and
+               thought. The <em>Guide</em> includes a sourcebook of key ancient testimonies to
+               Evagrius and his reception, as well as a checklist of images from the ancient world.
+               Updated quarterly, the <em>Guide</em> will gradually introduce a manuscript
+               checklist, images of manuscripts, transcriptions of those manuscripts, and open
+               source critical editions of Evagrius's writings.</p></div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>New Guide two weeks away</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>urn:uuid:e7822800-37e9-11e1-b6f8-0002a5d5c51b</id>
+      <updated>2012-01-05T17:09:02Z</updated>
+      <published>2012-01-05T17:09:02Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml" xml:lang="en">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>Guide to Evagrius Ponticus arriving 17 January
+               2012. This peer-reviewed reference work will be updated quarterly, presenting
+               critical reference tools for the study of this fourth-century monastic
+               theologian.</p></div>
+      </content>
+   </entry>
+
+   <entry xmlns="http://www.w3.org/2005/Atom">
+      <title>New Guide Coming</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <author>
+         <name>Staff</name>
+      </author>
+      <id>urn:uuid:2d18174c-6670-4842-9b41-ed6ca201bc78</id>
+      <updated>2011-12-08T18:30:02Z</updated>
+      <published>2011-12-08T18:30:02Z</published>
+      <summary>The Guide to Evagrius Ponticus will be released 17 January 2012</summary>
+   </entry>
+
+</feed>

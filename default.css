@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+/* major sections */
+header,
+aside,
+nav,
+article,
+footer {
+    display : block;
+}
+body {
+    background-color : #FCFCFF;
+    font-family : 'garamond-premier-pro', garamond, serif;
+    font-weight: normal; 
+    font-style: normal; 
+    color : #1A001A;
+    margin : 0px 30px 0px 30px;
+}
+header {
+    display : table;
+    left : 0;
+    width : 100%;
+    padding : 0px;
+}
+article {
+    line-height : 150%;
+    font-size : 16px;
+    margin : 0px 30px 0px 30px;
+    text-align : justify;
+}
+article.b-article,
+article.c-article {
+    text-align : left;
+    margin : 0px;
+}
+aside {
+    width : 30%;
+    display : table-cell;
+}
+footer
+{
+    text-align : center;
+    font-variant : small-caps;
+    text-transform : lowercase;
+}
+
+/* header, footer */
+figure.toplogo {
+    font-size : 12px;
+    font-style : italic;
+    position : absolute;
+    left : 0px;
+    top : 0px;
+    opacity : 0.6;
+    z-index : -1;
+}
+div.masthead
+{
+    display : table-cell;
+    text-align : center;
+    width : 60%;
+}
+div.nav {
+    display : table-cell;
+    text-align : right;
+    width : 20%;
+    font-family : tahoma, geneva, sans-serif;
+    font-size : 16px;
+    list-style-type : none;
+    padding : 0;
+    overflow : hidden;
+}
+ul.banner {
+    list-style-type : none;
+}
+a.banner {
+    display : block;
+    border-radius : 8px;
+}
+a.banner:link,
+a.banner:visited {
+    display : block;
+    padding : 4px;
+    text-decoration : none;
+    text-transform : uppercase;
+    color : black;
+}
+a.banner:hover,
+a.banner:active {
+    background-color : #F3BDA2;
+}
+.twitter
+{
+    font-size : 10px;
+    float : right;
+    vertical-align : bottom;
+    text-align : left;
+    opacity : 0.4;
+    /* filter : alpha(opacity=60); For IE8 and earlier */
+}
+.twitter:hover
+{
+    opacity : 1;
+    /* filter : alpha(opacity=99); For IE8 and earlier */
+}
+
+/* main text */
+h1,
+h2,
+h3,
+h4 {
+    text-align : left;
+    font-family : helvetica, sans-serif;
+    font-weight : lighter;
+    letter-spacing : 1px;
+    z-index : 1;
+}
+h1 {
+    text-shadow : 1px 1px #808080;
+}
+h1.title {
+    font-size : 180%;
+    text-align : center;
+}
+h1.siteeditor {
+    font-size : 110%;
+    font-style : italic;
+    text-align : center;
+    text-shadow : 0px 0px #808080;
+}
+h1.dateline {
+    font-size : 100%;
+    text-align : center;
+    text-shadow : 0px 0px #808080;
+}
+p
+{
+    margin : 0px;
+    text-indent : 2em;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+    text-indent : 0em;
+}
+h2 + p:first-letter
+{
+    font-size : 96px;
+    float : left;
+    margin-right : 4px;
+    margin-top : 8px;
+}
+ul
+{
+    list-style-type : none;
+}
+
+/* bibliography styles */
+div.b-nav,
+div.c-nav {
+    display : table-cell;
+    width : 20%;
+    font-size : 16px;
+    padding : 0;
+    overflow : hidden;
+    text-indent : 0em;
+    line-height : 100%;
+    margin-left : 20px;
+}
+div.b-body,
+div.c-body {
+    display : table-cell;
+    width : 80%;
+    text-indent : 0;
+    padding : 0px 10px 0px 0px;
+    margin : 0px 10px 0px 0px;
+}
+div.b-publication {
+    margin-bottom : 1em;
+    padding : 0em;
+    border : 0px solid #ccc;
+    list-style-type : none;
+}
+.b-abstract {
+    font-size : 21px;
+    line-height : 100%;
+    text-indent : 0em;
+}
+.b-author {
+    font-size : 16px
+}
+.b-extlink {
+    float : right;
+    font-weight : 300;
+    margin-left : 10px;
+    font-size : 12px;
+    font-style : italic;
+    background-color : #FAE5DA;
+    padding : 4px;
+}
+.b-journal {
+    font-style : italic;
+}
+.b-pages {
+}
+.b-preface, 
+.c-preface {
+    margin-left : 30px;
+    margin-right : 30px;
+}
+.b-published {
+    font-size : 16px;
+}
+.b-title {
+    font-weight : 550;
+    font-size : 18px;
+    line-height : 100%;
+}
+.b-title-book {
+    font-style : italic;
+}
+.b-title-book i {
+    font-style : normal;
+}
+ol.b-publications {
+    font-style : oblique;
+    list-style-type : none;
+}
+.bibsig {font-style:italic;}
+
+/* corpus of writings styles */
+div.c-minutiae {
+    float : right;
+}
+.c-authorship {
+    text-align : right;
+    font-variant : small-caps;
+}
+.c-comment {
+    font-variant : normal;
+    font-size : 12px;
+    font-style : italic;
+}
+.c-cpg {
+    text-align : right;
+}
+.c-description {
+    text-indent : 1em;
+}
+.c-images {
+    font-size : 10px;
+}
+.c-incipit
+{
+    font-style : italic;
+    font-weight : normal;
+}
+.c-literature {
+    text-indent : 0em;
+    font-size : 12px;
+    line-height : 100%;
+}
+.c-title-en {
+    font-weight : bold;
+    font-size : 18px;
+}
+.c-title-el,
+.c-title-la {
+    font-weight : bold;
+    font-size : 16px;
+}
+
+/* ancient testimonia styles */
+.t-item {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.t-meta {
+}
+.t-meta-au {
+    font-weight : bold;
+}
+.t-meta-ti {
+    font-style : italic;
+}
+.t-meta-da {
+    font-variant : small-caps;
+    color : gray;
+    float : right;
+}
+.t-meta-da:before {
+     content: " ";    
+}
+.t-comm {
+    margin-left: 15px;
+    font-style: italic;
+}
+.t-comm .t-meta-ti, .t-comm em {
+    font-style: normal;
+}
+.t-text-et {
+    margin-left: 45px;
+ }
+ .t-cred {
+     font-size : 12px;
+ }
+ .t-cred .t-meta-au {
+     font-weight: normal;
+ }
+ .t-cred:before {
+     content: " —";
+ }

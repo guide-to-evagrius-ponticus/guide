@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Guide to Evagrius Ponticus: Bibliography</title>
+		<link rel="stylesheet" type="text/css" href="default.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+		<link rel="exhibit/data" href="corpus.js" type="application/json" />
+		<link rel="exhibit/data" href="bibliography.js" type="application/json" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js?autoCreate=false" type="text/javascript"></script>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/banner.js"></script>
+		<script type="text/javascript">
+             SimileAjax.jQuery(document).ready(function() {
+                 var fDone = function() {
+                    var params = SimileAjax.parseURLParameters();
+                    var options = ["year", "author", "search", "keywords", "key"];
+                     for ( var i in options ) {
+                       var option = options[i];
+                       if (option in params) {
+                         if (params[option]) {
+                           document.getElementById(option +
+                             "-facet").setAttribute("ex:selection", params[option]);
+                          }
+                          else {
+                           document.getElementById(option +
+                             "-facet").setAttribute("ex:selectMissing", "true");
+                          }
+                       }
+                     }
+                     window.exhibit = Exhibit.create();
+                     window.exhibit.configureFromDOM();
+                 };
+                 window.database = Exhibit.Database.create();
+                 window.database.loadDataLinks(fDone);
+             });
+       </script>
+
+		<!--Fonts-->
+		<script type="text/javascript" src="//use.typekit.net/xsq4rhz.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<!--Google Analytics-->
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27587668-1']);
+  _gaq.push(['_setDomainName', 'evagriusponticus.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		<!-- mark header for the current page -->
+		<style type="text/css">
+			a[href = 'bibliography.htm']
+			{
+			    font-weight:bolder;
+			}</style>
+	</head>
+	<body onload="Exhibit.create(null, 'Publication');" ex:exporters="Bibtex">
+		<script type="text/javascript">
+			document.write(fBanner());
+		</script>
+		<article class="b-article">
+			<p style="float:right; font-size:smaller;"> Alternate versions: <a
+					href="http://www.zotero.org/groups/evagrius_ponticus">Zotero</a>, <a
+					href="bibliography.rdf">RDF</a>, <a href="bibliography.bib.zip">BibTeX</a>.</p>
+			<h2 class="b-preface"> Bibliography</h2>
+			<div class="b-body">
+				<div ex:role="collection" ex:itemTypes="Author" id="AuthorCollection"></div>
+				<div ex:role="collection" ex:itemTypes="Publication" id="PublicationCollection"></div>
+				<!-- This next div styles the lens box for the main bibliographical entry -->
+				<div ex:role="lens" ex:itemTypes="Publication" class="b-publication"
+					style="display: none">
+					<span ex:control="copy-button" style="float: right"></span>
+					<div ex:select=".pub-type">
+						<div ex:case="article">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div><span ex:content=".journal" class="b-journal"></span>
+								<span ex:content=".volume"></span> (<span ex:content=".year"
+								></span>): <span ex:content=".pages"></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+						<!-- books -->
+						<div ex:case="book">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label" class="b-title-book"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div ex:if-exists=".translator" class="b-author"> Translated by <span
+									ex:content=".translator"></span>
+							</div>
+							<div ex:if-exists=".editor" class="b-author"> Edited by <span
+									ex:content=".editor"></span>
+							</div>
+							<div class="b-published">
+								<span ex:content=".series"></span>
+								<span ex:content=".number"></span>
+							</div>
+							<div class="b-published"><span ex:content=".address"></span>: <span
+									ex:content=".publisher"></span>, <span ex:content=".date"
+								></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+						<!-- book chapters -->
+						<div ex:case="book chapter">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div ex:if-exists=".translator" class="b-author"> Translated by <span
+									ex:content=".translator"></span>
+							</div>
+							<div>In <i><span ex:content=".booktitle"></span></i><span
+									ex:if-exists=".editor" class="b-author">, ed. <span
+										ex:content=".editor"></span></span><span
+									ex:if-exists=".pages">, pages <span ex:content=".pages"
+									></span></span></div>
+							<div ex:if-exists=".series" class="b-published">
+								<span ex:content=".series"></span>
+								<span ex:content=".number"></span>
+							</div>
+							<div class="b-published"><span ex:content=".address"></span>: <span
+									ex:content=".publisher"></span>, <span ex:content=".date"
+								></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+						<div ex:case="conference paper">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div ex:if-exists=".translator" class="b-author"> Translated by <span
+									ex:content=".translator"></span>
+							</div>
+							<div ex:if-exists=".editor" class="b-author"> Edited by <span
+									ex:content=".editor"></span>
+							</div>
+							<div class="b-published">Conference paper delivered <span
+									ex:content=".date"></span>, in <span ex:content=".address"
+								></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+						<div ex:case="misc">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label" class="b-title-book"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div ex:if-exists=".translator" class="b-author"> Translated by <span
+									ex:content=".translator"></span>
+							</div>
+							<div ex:if-exists=".editor" class="b-author"> Edited by <span
+									ex:content=".editor"></span>
+							</div>
+							<div class="b-published">
+								<i>
+									<span ex:content=".journal"></span>
+								</i>
+								<span ex:content="if(exists(.volume), concat(.volume, ':'), ' ')"></span>
+								<span ex:content=".pages"></span>
+								<div
+									ex:content="if(exists(.howpublished), 'digital-only publication', ' ')"
+								></div>
+							</div>
+							<div ex:if-exists=".address" class="b-published"><span
+									ex:content=".address"></span>: <span ex:content=".publisher"
+								></span>, <span ex:content=".date"></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+						<div ex:case="thesis">
+							<div ex:if-exists=".url" class="b-extlink">
+								<span ex:content=".url"></span>
+							</div>
+							<div class="b-title">
+								<span ex:content=".label"></span>
+							</div>
+							<div ex:content=".author" class="b-author"></div>
+							<div ex:if-exists=".translator" class="b-author"> Translated by <span
+									ex:content=".translator"></span>
+							</div>
+							<div ex:if-exists=".editor" class="b-author"> Edited by <span
+									ex:content=".editor"></span>
+							</div>
+							<div ex:if-exists=".publisher" class="b-published"><span
+									ex:content=".pub-type"></span>, <span ex:content=".publisher"
+								></span>, <span ex:content=".date"></span></div>
+							<div ex:if-exists=".keywords!edition-possibilities" class="b-abstract"
+								>Edits CPG <span ex:content=".keywords!edition-possibilities"
+								></span></div>
+							<div ex:if-exists=".keywords!translation-possibilities"
+								class="b-abstract">Translates CPG <span
+									ex:content=".keywords!translation-possibilities"></span></div>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<span ex:content=".abstract"></span>
+							</div>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<span ex:content=".annote"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- This next div defines the popup box that appears when one clicks an author name -->
+				<div ex:role="lens" ex:itemTypes="Author" class="b-author" style="display: none">
+					<span ex:control="copy-button" style="float: right"></span>
+					<div class="b-title">
+						<span ex:content=".label"></span>
+					</div>
+					<ol class="b-publication" ex:content="!author">
+						<li ex:content="value"></li>
+					</ol>
+				</div>
+				<!-- This next div defines the popup box that appears when one clicks a CPG work-->
+				<div ex:role="lens" ex:itemTypes="texts" class="b-author" style="display: none">
+					<span ex:control="copy-button" style="float: right"></span>
+					<div class="b-title">
+						<div class="c-minutiae">
+							<div ex:if-exists=".cpg" class="c-cpg">CPG no. <span ex:content=".cpg"></span><br />
+								<span class="c-authorship">authorship <span ex:content=".authorship"
+									></span></span><br />
+								<span class="c-authorship">greek text <span ex:content=".greek-text"></span>
+									<span ex:select=".greek-text"><span ex:case="not extant"
+											></span><span class="c-comment">(<a
+												ex:href-subcontent="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre?filterauteur=&filter_auteur=&filter_oeuvre=&filter_cpg={{.cpg}}&filter_bhg=&filter_siecle=&filter_datems=&filter_commentaire=&filter_titulus=&filter_incipit=&filter_deinit=&filterville=&filter_ville=&filter_depot=&filter_copiste=&filter_possesseur=&commit=Rechercher"
+												>find MSS</a>)</span></span></span>
+							</div>
+						</div>
+					</div>
+					<span ex:content=".title-en"></span>
+					<div ex:select=".osce">
+						<div ex:case="pending">
+							<span ex:content=".title-el" class="c-title-el"></span>
+						</div>
+						<a ex:href-content=".osce">
+							<span ex:content=".title-el" class="c-title-el"></span>
+						</a>
+					</div>
+					<div ex:content=".title-en" class="c-title-en"></div>
+					<span ex:if-exists=".osce"></span>
+					<div>
+						<span ex:content=".title-la" class="c-title-la"></span>
+					</div>
+					<div ex:if-exists=".incipit" class="c-incipit">Incipit: <span
+							ex:content=".incipit"></span></div>
+					<div ex:content=".description" class="c-description"></div>
+					<div ex:if-exists=".translations-ancient" class="c-description">
+						<span style="font-variant: small-caps;">Ancient translations</span>: <span
+							ex:content=".translations-ancient"></span>
+					</div>
+					<div ex:if-exists=".mss" class="c-literature">
+						<span style="font-variant: small-caps;">Manuscript images</span>: <span
+							ex:content=".mss"></span>
+					</div>
+					<div ex:if-exists=".edition-possibilities!keywords" class="c-literature">
+						<span style="font-variant: small-caps;">Editions</span>: <span
+							ex:content=".edition-possibilities!keywords"></span>
+					</div>
+					<div ex:if-exists=".translation-possibilities!keywords" class="c-literature"
+							><span style="font-variant: small-caps;">Modern translations</span>:
+							<span ex:content=".translation-possibilities!keywords"></span>
+					</div>
+				</div>
+				<div ex:role="view" ex:collectionID="PublicationCollection"
+					ex:viewClass="Exhibit.TileView" ex:grouped="false" ex:showAll="false"
+					ex:abbreviatedCount="20" ex:directions="descending" ex:orders=".year"
+					ex:possibleOrders=".pub-type, .author, .year, .label, .howpublished"></div>
+			</div>
+			<div class="b-nav">
+				<div ex:role="facet" ex:facetClass="TextSearch"
+					ex:collectionID="PublicationCollection" ex:facetLabel="search" id="search-facet"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection" ex:expression=".year"
+					ex:facetClass="Slider" ex:horizontal="true" ex:precision="1" ex:histogram="true"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection" ex:expression=".author"
+					id="author-facet"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection"
+					ex:expression=".pub-type" ex:facetLabel="type"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection"
+					ex:expression=".journal" ex:facetLabel="journal" ex:showMissing="false"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection" ex:expression=".series"
+					ex:facetLabel="series" ex:showMissing="false"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection"
+					ex:expression=".address" ex:facetLabel="place" ex:showMissing="false"></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection"
+					ex:expression=".keywords" id="keywords-facet" ex:height="1px" ex:facetLabel="."></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection" ex:expression=".year"
+					id="year-facet" ex:height="1px" ex:facetLabel="."></div>
+				<div ex:role="facet" ex:collectionID="PublicationCollection" ex:expression=".key"
+					id="key-facet" ex:height="1px" ex:facetLabel="."></div>
+				<!--div ex:role="facet" ex:collectionID="PublicationCollection" ex:facetClass="Cloud"
+					ex:expression=".keywords"> </div-->
+			</div>
+		</article>
+		<script type="text/javascript">
+		document.write(evfooter());
+        $(document).ready(function(){
+        	cformprep();
+        });
+	</script>
+	</body>
+</html>

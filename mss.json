@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "label": "Paris. Cois. 109",
+            "type": "manuscripts",
+            "city": "Paris",
+            "date-after": 1000,
+            "date-before": 1100,
+            "texts": {
+                "cpg": "2430",
+                "begin": "137r",
+                "end": "149v"
+            }
+        },
+        {
+            "label": "Paris. gr. 1056",
+            "type": "manuscripts",
+            "city": "Paris",
+            "date-after": 1000,
+            "date-before": 1100,
+            "texts": {
+                "cpg": "2430",
+                "begin": "1r",
+                "end": "22r"
+            }
+        }
+    ],
+    "properties": {"date-after": {"valueType": "number"}}
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Guide to Evagrius Ponticus: Writings</title>
+		<link rel="stylesheet" type="text/css" href="default.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
+		<link href="corpus.js" type="application/json" rel="exhibit/data" />
+		<link href="bibliography.js" type="application/json" rel="exhibit/data" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>
+		<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/time/time-extension.js" type="text/javascript"></script>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/banner.js"></script>
+
+		<!--Fonts-->
+		<script type="text/javascript" src="//use.typekit.net/xsq4rhz.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+		<!--Google Analytics-->
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27587668-1']);
+  _gaq.push(['_setDomainName', 'evagriusponticus.net']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		<!-- mark header for the current page -->
+		<style type="text/css">
+			a[href = 'corpus.htm']{
+			    font-weight:bolder;
+			}</style>
+	</head>
+	<body>
+		<div ex:role="collection" ex:itemTypes="texts" id="EvagriusText"></div>
+		<div ex:role="collection" ex:itemTypes="Publication" id="PublicationCollection"></div>
+		<div ex:role="lens" ex:itemTypes="Publication" style="display: none"></div>
+		<script type="text/javascript">
+		document.write(fBanner());
+	</script>
+		<article class="c-article">
+			<h2 class="c-preface"> Writings of Evagrius Ponticus </h2>
+			<p class="c-preface"> The works of Evagrius, few of which are preserved entire in Greek,
+				survive haphazardly: in anthologies; in quotations; in ancient Syriac, Armenian, or
+				Latin translations; or in pseudonymous collections ascribed to more acceptable
+				authors, such as St. Basil or St. Nilus. Because of the complexity of the manuscript
+				tradition, editing Evagrius's writings is an ongoing, painstaking process. Below is
+				the list of all known works, along with editions and translations in the
+				bibliography. The <em>Clavis patrum graecorum</em> (CPG) has been followed for
+				assigning certainty of authorship.</p>
+			<div class="c-body">
+				<div ex:role="viewPanel">
+					<!--This lens is the card view of Evagrius's texts-->
+					<div ex:role="lens" ex:itemTypes="texts" style="display: none">
+						<span ex:control="copy-button" style="float: left"></span>
+						<div class="c-minutiae">
+							<div ex:if-exists=".cpg" class="c-cpg">CPG no. <span ex:content=".cpg"></span><br />
+								<span class="c-authorship">authorship <span ex:content=".authorship"
+									></span></span><br />
+								<span class="c-authorship">greek text <span ex:content=".greek-text"></span>
+									<span ex:select=".greek-text"><span ex:case="not extant"
+											></span><span class="c-comment">(<a
+												ex:href-subcontent="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre?filterauteur=&filter_auteur=&filter_oeuvre=&filter_cpg={{.cpg}}&filter_bhg=&filter_siecle=&filter_datems=&filter_commentaire=&filter_titulus=&filter_incipit=&filter_deinit=&filterville=&filter_ville=&filter_depot=&filter_copiste=&filter_possesseur=&commit=Rechercher"
+												>find MSS</a>)</span></span></span>
+							</div>
+						</div>
+						<div ex:select=".osce">
+							<div ex:case="pending">
+								<span ex:content=".title-el" class="c-title-el"></span>
+							</div>
+							<a ex:href-content=".osce">
+								<span ex:content=".title-el" class="c-title-el"></span>
+							</a>
+						</div>
+						<div ex:content=".title-en" class="c-title-en"></div>
+						<span ex:if-exists=".osce"></span>
+						<div>
+							<span ex:content=".title-la" class="c-title-la"></span>
+						</div>
+						<div ex:if-exists=".incipit" class="c-incipit">Incipit: <span
+								ex:content=".incipit"></span></div>
+						<div ex:content=".description" class="c-description"></div>
+						<div ex:content=".textual-notes" class="c-description"></div>
+						<div ex:if-exists=".attribution-notes" class="c-description">
+							<span style="font-variant: small-caps;">Authorship</span>: <span
+								ex:content=".attribution-notes"></span>
+						</div>
+						<div ex:if-exists=".translations-ancient" class="c-literature">
+							<span style="font-variant: small-caps;">Ancient translations</span>:
+								<span ex:content=".translations-ancient"></span>
+						</div>
+						<div ex:if-exists=".mss" class="c-literature">
+							<span style="font-variant: small-caps;">Manuscript images</span>: <span
+								ex:content=".mss"></span>
+						</div>
+						<div ex:if-exists=".edition-possibilities!keywords" class="c-literature">
+							<span style="font-variant: small-caps;">Editions</span>: <span
+								ex:content=".edition-possibilities!keywords"></span>
+							<!--<span id="test1" ex:content="concat(.cpg, ' edition Greek')!keywords"></span>-->
+						</div>
+						<div ex:if-exists=".translation-possibilities!keywords" class="c-literature"
+								><span style="font-variant: small-caps;">Modern translations</span>:
+								<span ex:content=".translation-possibilities!keywords"></span>
+						</div>
+						<hr />
+					</div>
+					<!-- This next div defines the popup box that appears when one clicks an edition -->
+					<div ex:role="lens" ex:itemTypes="Publication" class="c-publication"
+						style="display: none">
+						<span ex:control="copy-button" style="float: right"></span>
+						<div class="b-title">
+							<span ex:content=".label"></span>
+						</div>
+						<div class="b-author">
+							<span ex:content=".author"></span>
+						</div>
+						<div ex:if-exists=".booktitle" class="incollection">In <i><span
+									ex:content=".booktitle"></span></i></div>
+						<div ex:if-exists=".journal" class="b-journal"><i><span
+									ex:content=".journal"></span></i>
+							<span ex:content=".volume"></span> (<span ex:content=".year"
+							></span>)</div>
+						<div ex:if-exists=".series" class="b-published">
+							<span ex:content=".series"></span>
+							<span ex:content=".number"></span>
+						</div>
+						<div ex:if-exists=".address" class="b-published"><span ex:content=".address"
+							></span>: <span ex:content=".publisher"></span>, <span
+								ex:content=".date"></span></div>
+						<div ex:if-exists=".pages" class="b-pages">pages: <span ex:content=".pages"
+							></span></div>
+						<p>
+							<div ex:if-exists=".abstract" class="b-abstract">
+								<small>ABSTRACT </small>
+								<span ex:content=".abstract"></span>
+							</div>
+						</p>
+						<p>
+							<div ex:if-exists=".annote" class="b-abstract">
+								<small>NOTES </small>
+								<span ex:content=".annote"></span>
+							</div>
+						</p>
+					</div>
+					<!-- This next div defines the popup box that appears when one clicks an author name -->
+					<div ex:role="lens" ex:itemTypes="Author" class="b-author" style="display: none">
+						<span ex:control="copy-button" style="float: right"></span>
+						<div class="title">
+							<span ex:content=".label"></span>
+						</div>
+						<ol class="b-publications" ex:content="!author">
+							<li ex:content="value"></li>
+						</ol>
+					</div>
+					<div ex:role="view" ex:collectionID="EvagriusText" ex:orders=".cpg"
+						ex:label="paragraph view" ex:showAll="true"
+						ex:possibleOrders=".title-en, .title-el, .title-la, .incipit, .cpg"> </div>
+					<div ex:role="view" ex:collectionID="EvagriusText" ex:border="0"
+						ex:viewClass="Exhibit.TabularView"
+						ex:columns=".cpg, .title-en, .title-el, .incipit, .description, .edition-possibilities!keywords, .translation-possibilities!keywords"
+						ex:columnLabels="CPG, English title, Greek title, incipit, description, editions, translations"
+						ex:columnFormats="list, list, list, list, list" ex:label="table view"
+						ex:sortColumn="0" ex:showAll="true" ex:sortAscending="true"> </div>
+				</div>
+			</div>
+			<div class="c-nav">
+				<div ex:role="facet" ex:collectionID="EvagriusText" ex:facetClass="TextSearch"
+					ex:facetLabel="search"></div>
+				<div ex:role="facet" ex:collectionID="EvagriusText"
+					ex:expression=".translations-ancient" ex:facetLabel="ancient translations"></div>
+				<div ex:role="facet" ex:collectionID="EvagriusText" ex:height="60px"
+					ex:expression=".authorship" ex:facetLabel="authorship by Evagrius"></div>
+				<div ex:role="facet" ex:collectionID="EvagriusText" ex:height="60px"
+					ex:expression=".greek-text" ex:facetLabel="Greek text"></div>
+			</div>
+		</article>
+		<script type="text/javascript">
+		document.write(evfooter());
+        $(document).ready(function(){
+        	cformprep();
+        });
+	</script>
+	</body>
+</html>
