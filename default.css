@@ -24,7 +24,7 @@ header {
 }
 article {
     line-height : 150%;
-    font-size : 16px;
+    font-size : 20px;
     margin : 0px 30px 0px 30px;
     text-align : justify;
 }
@@ -65,7 +65,7 @@ div.nav {
     text-align : right;
     width : 20%;
     font-family : tahoma, geneva, sans-serif;
-    font-size : 16px;
+    font-size : 20px;
     list-style-type : none;
     padding : 0;
     overflow : hidden;
@@ -146,7 +146,7 @@ h4 + p {
 }
 h2 + p:first-letter
 {
-    font-size : 96px;
+    font-size : 84px;
     float : left;
     margin-right : 4px;
     margin-top : 8px;

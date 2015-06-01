@@ -8,7 +8,7 @@ var evbanner = '<header>\
 		    </figure>\
             <h1 class="title">Guide to Evagrius Ponticus</h1>\
 		    <h1 class="siteeditor">edited by Joel Kalvesmaki</h1>\
-	        <h1 class="dateline">spring 2015</h1>\
+	        <h1 class="dateline">summer 2015</h1>\
 	    </div>\
     	<div class="nav">\
 			<ul class="banner">\

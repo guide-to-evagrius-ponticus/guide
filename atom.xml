@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml"
+   xsi:schemaLocation="http://www.w3.org/2005/Atom atom.xsd"
    xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
@@ -21,7 +21,6 @@
             Evagrius Ponticus</em> is available. Revisions include the following:</p>
             <ul>
                <li><em>General</em>: Viewport added, for mobile accessibility; minor adjustments in CSS</li>
-               <li><em>Bibliography</em>: • items added</li>
             </ul>
          </div>
       </content>

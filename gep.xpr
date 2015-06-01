@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="16.0">
+<project version="17.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="16.0" xml:space="preserve">
-                <map>
+            <serialized version="17.0" xml:space="preserve">
+                <serializableOrderedMap>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
@@ -74,6 +74,9 @@
                                 <field name="outputFile">
                                     <File>bibliography.js</File>
                                 </field>
+                                <field name="outputResource">
+                                    <String>bibliography.js</String>
+                                </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
@@ -113,7 +116,7 @@
                             </scenario>
                         </scenario-array>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
@@ -135,7 +138,6 @@
         <file name="corpus.js"/>
         <file name="corpus.ttl"/>
         <file name="default.css"/>
-        <file name="editions.css"/>
         <file name="favicon.ico"/>
         <file name="gep.xpr"/>
         <file name="images.htm"/>
