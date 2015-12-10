@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.w3.org/2005/Atom atom.xsd"
-   xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
+   xsi:schemaLocation="http://www.w3.org/2005/Atom atom.xsd" xmlns="http://www.w3.org/2005/Atom"
+   xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2015-06-01T09:00:00Z</updated>
+   <updated>2015-12-09T09:00:00Z</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
+   <entry>
+      <title>Guide to Evagrius Ponticus, winter 2015 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2015-4</id>
+      <updated>2015-12-09T09:00:00Z</updated>
+      <published>2015-12-09T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2015 edition of the <em>Guide to
+            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul><li><em>Bibliography</em>: 3 items added, 24 additional items updated</li></ul>
+         </div>
+      </content>
+   </entry>
+   <entry>
+      <title>Guide to Evagrius Ponticus, autumn 2015 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2015-3</id>
+      <updated>2015-09-08T09:00:00Z</updated>
+      <published>2015-09-08T09:00:00Z</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml"><p>The autumn 2015 edition of the <em>Guide to
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+            <ul>
+               <li><em>corpus</em>: permanent, unique URNs have been assigned to all the works of
+                  Evagrius. These are itemized for each work, and follow the formula
+                  "tag:evagriusponticus.net,2015:" + "cpg" + [CPG number]. If the work is not listed
+                  in the Clavis patrium graecorum, the URN is constructed
+                  "tag:evagriusponticus.net,2015:" + "nocpg" + [2-digit number]. These URNs are
+                  suitable for naming the abstract concept of the works of Evagrius, and may be used
+                  by anyone in any digital data set or project. Note, these URNs apply only to the
+                  work level of Evagrius's works, and should not be used to name any manuscript or
+                  edition that carries a particular work. </li>
+               <li><em>transcriptions</em>: In preparation for publishing multiple versions of
+                  transcriptions of each of Evagrius's works, the Github repository
+                  https://github.com/Arithmeticus/TAN-Evagrius has been prepared and will be
+                  deployed in a future version. </li>
+            </ul>
+         </div>
+      </content>
+   </entry>
    <entry>
       <title>Guide to Evagrius Ponticus, summer 2015 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>
@@ -18,9 +64,10 @@
       </author>
       <content type="xhtml">
          <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2015 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
             <ul>
-               <li><em>General</em>: Viewport added, for mobile accessibility; minor adjustments in CSS</li>
+               <li><em>General</em>: Viewport added, for mobile accessibility; minor adjustments in
+                  CSS</li>
             </ul>
          </div>
       </content>
@@ -36,10 +83,11 @@
       </author>
       <content type="xhtml">
          <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2015 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 5 items added</li>
-               <li><em>Corpus</em>: corrections made to English titles of CPG 2432 (Kephalaia gnostika) and CPG 2436 (Chapters to a Virgin)</li>
+               <li><em>Corpus</em>: corrections made to English titles of CPG 2432 (Kephalaia
+                  gnostika) and CPG 2436 (Chapters to a Virgin)</li>
             </ul>
          </div>
       </content>
@@ -55,7 +103,7 @@
       </author>
       <content type="xhtml">
          <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2014 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 2 items added, 62 additional items updated</li>
             </ul>
@@ -75,11 +123,10 @@
          <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2014 edition of the <em>Guide to
                   Evagrius Ponticus</em> is available. Revisions include the following:</p>
             <ul>
-               <li><em>Life</em>: English translations for three new sources added: the
-                  entirety of the Coptic Life of Evagrius by Tim Vivian (courtesy St. Vladimir's
-                  Seminary Press); testimonia from the Virtues of Saint Macarius of Egypt; and
-                  further testimonia from Palladius, Historia Lausiaca
-               </li>
+               <li><em>Life</em>: English translations for three new sources added: the entirety of
+                  the Coptic Life of Evagrius by Tim Vivian (courtesy St. Vladimir's Seminary
+                  Press); testimonia from the Virtues of Saint Macarius of Egypt; and further
+                  testimonia from Palladius, Historia Lausiaca </li>
                <li><em>Bibliography</em>: 6 items added, 3 additional items updated</li>
             </ul>
          </div>

@@ -1,5 +1,6 @@
 {"items": [
     {
+        "URN": "tag:evagriusponticus.net,2015:nocpg01",
         "cpg": "nocpg01",
         "label": "nocpg01",
         "title-en": "Letter of Loukios",
@@ -49,6 +50,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:nocpg02",
         "cpg": "nocpg02",
         "label": "nocpg02",
         "title-en": "14 Chapters",
@@ -101,6 +103,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:nocpg03",
         "cpg": "nocpg03",
         "label": "nocpg03",
         "title-en": "Definitions",
@@ -148,6 +151,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:nocpg04",
         "cpg": "nocpg04",
         "label": "nocpg04",
         "title-en": "Excerpts",
@@ -195,6 +199,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2430",
         "cpg": 2430,
         "label": 2430,
         "title-en": "Praktikos",
@@ -254,6 +259,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2431",
         "cpg": 2431,
         "label": 2431,
         "title-en": "Gnostikos",
@@ -311,6 +317,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2432",
         "cpg": 2432,
         "label": 2432,
         "title-en": "Kephalaia gnostika",
@@ -368,6 +375,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2433",
         "cpg": 2433,
         "label": 2433,
         "title-en": "Skemmata or Reflections",
@@ -423,6 +431,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2434",
         "cpg": 2434,
         "label": 2434,
         "title-en": "Antirrhetikos",
@@ -481,6 +490,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2435",
         "cpg": 2435,
         "label": 2435,
         "title-en": "Chapters to Monks",
@@ -541,6 +551,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2436",
         "cpg": 2436,
         "label": 2436,
         "title-en": "Chapters to a Virgin",
@@ -598,6 +609,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2437",
         "cpg": 2437,
         "label": 2437,
         "title-en": "62 Letters",
@@ -651,6 +663,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2438",
         "cpg": 2438,
         "label": 2438,
         "title-en": "Letter to Melania",
@@ -702,6 +715,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2439",
         "cpg": 2439,
         "label": 2439,
         "title-en": "Dogmatic Letter",
@@ -754,6 +768,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2440",
         "cpg": 2440,
         "label": 2440,
         "title-en": "Protrepticus",
@@ -805,6 +820,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2441",
         "cpg": 2441,
         "label": 2441,
         "title-en": "Hypotyposis or Principles of the Monastic Life",
@@ -857,6 +873,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2442",
         "cpg": 2442,
         "label": 2442,
         "title-en": "Thirty-Three Chapters",
@@ -908,6 +925,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2443",
         "cpg": 2443,
         "label": 2443,
         "title-en": "Paraeneticus",
@@ -963,6 +981,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2444",
         "cpg": 2444,
         "label": 2444,
         "title-en": "Spiritual Chapters Alphabetized",
@@ -1015,6 +1034,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2445",
         "cpg": 2445,
         "label": 2445,
         "title-en": "Assorted Chapters",
@@ -1066,6 +1086,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2446",
         "cpg": 2446,
         "label": 2446,
         "title-en": "Six Chapters",
@@ -1114,6 +1135,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2447",
         "cpg": 2447,
         "label": 2447,
         "title-en": "Treatise to the Monk Eulogius or To Eulogius on the Confession of Thoughts and Counsel in Their Regard",
@@ -1173,6 +1195,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2448",
         "cpg": 2448,
         "label": 2448,
         "title-en": "On the Vices Opposed to the Virtues",
@@ -1229,6 +1252,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2449",
         "cpg": 2449,
         "label": 2449,
         "title-en": "On Masters and Disciples",
@@ -1282,6 +1306,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2450",
         "cpg": 2450,
         "label": 2450,
         "title-en": "On the [Evil] Thoughts",
@@ -1335,6 +1360,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2451",
         "cpg": 2451,
         "label": 2451,
         "title-en": "The Eight Spirits of Wickedness",
@@ -1396,6 +1422,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2452",
         "cpg": 2452,
         "label": 2452,
         "title-en": "On Prayer",
@@ -1455,6 +1482,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2453",
         "cpg": 2453,
         "label": 2453,
         "title-en": "Three Chapters on Prayer",
@@ -1504,6 +1532,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2454",
         "cpg": 2454,
         "label": 2454,
         "title-en": "Counsel to Monks",
@@ -1556,6 +1585,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2455",
         "cpg": 2455,
         "label": 2455,
         "title-en": "Scholia on the Psalms",
@@ -1613,6 +1643,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2456",
         "cpg": 2456,
         "label": 2456,
         "title-en": "Commentary on the Proverbs",
@@ -1662,6 +1693,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2457",
         "cpg": 2457,
         "label": 2457,
         "title-en": "Commentary on the Parables and the Proverbs",
@@ -1710,6 +1742,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.1",
         "cpg": 2458.1,
         "label": 2458.1,
         "title-en": "Scholia on Genesis, Numbers, and Kings",
@@ -1759,6 +1792,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.2",
         "cpg": 2458.2,
         "label": 2458.2,
         "title-en": "Scholia on Job",
@@ -1808,6 +1842,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.3",
         "cpg": 2458.3,
         "label": 2458.3,
         "title-en": "Scholia on the Song of Songs",
@@ -1857,6 +1892,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.4",
         "cpg": 2458.4,
         "label": 2458.4,
         "title-en": "Scholia on the Proverbs",
@@ -1906,6 +1942,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.5",
         "cpg": 2458.5,
         "label": 2458.5,
         "title-en": "Scholia on Ecclesiastes",
@@ -1957,6 +1994,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2458.6",
         "cpg": 2458.6,
         "label": 2458.6,
         "title-en": "Scholia on Luke",
@@ -2005,6 +2043,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2459",
         "cpg": 2459,
         "label": 2459,
         "title-en": "Commentary on the Cherubim",
@@ -2056,6 +2095,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2460",
         "cpg": 2460,
         "label": 2460,
         "title-en": "Commentary on the Seraphim",
@@ -2104,6 +2144,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2461",
         "cpg": 2461,
         "label": 2461,
         "title-en": "Commentary on the Lord's Prayer",
@@ -2156,6 +2197,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2462",
         "cpg": 2462,
         "label": 2462,
         "title-en": "Apophthegmata",
@@ -2205,6 +2247,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2463",
         "cpg": 2463,
         "label": 2463,
         "title-en": "On the Imitation of the Song of Songs",
@@ -2254,6 +2297,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2464a",
         "cpg": "2464a",
         "label": "2464a",
         "title-en": "On the Imitation of Proverbs",
@@ -2302,6 +2346,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2464",
         "cpg": 2464,
         "label": 2464,
         "title-en": "On the Imitation of Ecclesiastes",
@@ -2351,6 +2396,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2465",
         "cpg": 2465,
         "label": 2465,
         "title-en": "The Just and the Perfect",
@@ -2400,6 +2446,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2466",
         "cpg": 2466,
         "label": 2466,
         "title-en": "Humility",
@@ -2448,6 +2495,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2467",
         "cpg": 2467,
         "label": 2467,
         "title-en": "Fasting",
@@ -2496,6 +2544,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2468",
         "cpg": 2468,
         "label": 2468,
         "title-en": "Silence",
@@ -2544,6 +2593,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2469",
         "cpg": 2469,
         "label": 2469,
         "title-en": "Admonition on the Marks of Serenity",
@@ -2593,6 +2643,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2470",
         "cpg": 2470,
         "label": 2470,
         "title-en": "Dialogue of a Master with his Student",
@@ -2644,6 +2695,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2471",
         "cpg": 2471,
         "label": 2471,
         "title-en": "The Defense of One Led by God",
@@ -2692,6 +2744,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2472",
         "cpg": 2472,
         "label": 2472,
         "title-en": "Instructive Admonition",
@@ -2740,6 +2793,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2473",
         "cpg": 2473,
         "label": 2473,
         "title-en": "Counsel of the Mind",
@@ -2788,6 +2842,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2474",
         "cpg": 2474,
         "label": 2474,
         "title-en": "Teaching",
@@ -2836,6 +2891,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2475",
         "cpg": 2475,
         "label": 2475,
         "title-en": "Counsel",
@@ -2884,6 +2940,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2476",
         "cpg": 2476,
         "label": 2476,
         "title-en": "Perfection",
@@ -2932,6 +2989,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2477",
         "cpg": 2477,
         "label": 2477,
         "title-en": "Proverbs and their Interpretation",
@@ -2985,6 +3043,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2478",
         "cpg": 2478,
         "label": 2478,
         "title-en": "Profession of Faith",
@@ -3033,6 +3092,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2479",
         "cpg": 2479,
         "label": 2479,
         "title-en": "Excerpt",
@@ -3080,6 +3140,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2480",
         "cpg": 2480,
         "label": 2480,
         "title-en": "Chapters of Counsel and Instructive Sermon",
@@ -3128,6 +3189,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.1",
         "cpg": 2481.1,
         "label": 2481.1,
         "title-en": "Syriac Fragments",
@@ -3176,6 +3238,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.2",
         "cpg": 2481.2,
         "label": 2481.2,
         "title-en": "Armenian Fragments",
@@ -3224,6 +3287,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.3",
         "cpg": 2481.3,
         "label": 2481.3,
         "title-en": "Coptic Fragments",
@@ -3272,6 +3336,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.4",
         "cpg": 2481.4,
         "label": 2481.4,
         "title-en": "Ethiopic Fragments",
@@ -3320,6 +3385,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.5",
         "cpg": 2481.5,
         "label": 2481.5,
         "title-en": "Georgian Fragments",
@@ -3368,6 +3434,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2481.6",
         "cpg": 2481.6,
         "label": 2481.6,
         "title-en": "Doubtful Arabic Fragments",
@@ -3416,6 +3483,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2482a",
         "cpg": "2482a",
         "label": "2482a",
         "title-en": "Letter to a Bishop of Antioch Concerning Patience",
@@ -3464,6 +3532,7 @@
         ]
     },
     {
+        "URN": "tag:evagriusponticus.net,2015:cpg2483",
         "cpg": 2483,
         "label": 2483,
         "title-en": "199 Chapters of Evagrius's Disciples",

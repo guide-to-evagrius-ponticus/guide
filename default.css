@@ -242,6 +242,10 @@ div.c-minutiae {
     font-size : 12px;
     font-style : italic;
 }
+.c-urn {
+    text-Align: right;
+    font-size : 16px;
+}
 .c-cpg {
     text-align : right;
 }
