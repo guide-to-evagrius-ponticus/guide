@@ -6,6 +6,10 @@
             <serialized version="17.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
@@ -134,6 +138,7 @@
         <file name="bibliography.rdf"/>
         <file name="bibliography.zip"/>
         <file name="contact.aspx"/>
+        <file name="corpus-test.htm"/>
         <file name="corpus.htm"/>
         <file name="corpus.js"/>
         <file name="corpus.ttl"/>
