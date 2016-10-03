@@ -1,3 +1,6 @@
 [submodule "transcriptions"]
 	path = transcriptions
 	url = https://github.com/Arithmeticus/TAN-Evagrius.git
+[submodule "tablesorter"]
+	path = tablesorter
+	url = https://github.com/Mottie/tablesorter.git
