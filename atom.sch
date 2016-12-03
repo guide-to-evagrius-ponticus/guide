@@ -32,7 +32,7 @@
                         <link href="http://evagriusponticus.net/index.htm"/>
                         <id>
                             <xsl:value-of
-                                select="concat('tag:evagriusponticus.net,2015:ed:2016-', $this-month)"
+                                select="concat('tag:evagriusponticus.net,2015:ed:2016-', $this-quarter)"
                             />
                         </id>
                         <updated>
