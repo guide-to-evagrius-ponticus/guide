@@ -18,21 +18,19 @@
       <content type="xhtml">
          <div xmlns="http://www.w3.org/1999/xhtml">
             <p>The winter 2016 edition of the <em>Guide to Evagrius Ponticus</em> is now available.</p>
-            <p>This edition constitutes a major update to the bibliography and corpus pages and they
+            <p>This edition constitutes a major update to the bibliography and corpus pages and the
                way they are populated. The data for the corpus is now housed primarily in a TAN-rdf
-               file (see <a href="http://textalign.net/">http://textalign.net/</a>) and partly in
-               the Zotero database, which is the primary source for the bibliography. Exhibit, the
-               javascript library that undergirded the corpus and bibliography, has been replaced by
-               Tablesorter, written by Christian Bach and updated by Rob Garrison (<a
-                  href="https://github.com/Mottie/tablesorter"
-                  >https://github.com/Mottie/tablesorter</a>). Between the data and the javascript library rests
-               several custom-written XSLT files that transform the TAN-rdf and Zotero.rdf into the html tables that
-               populate the now-static website.
-            </p>
-            <p>The advantage to this approach is that all editions of the <i>Guide</i> are now archivable by 
-               <a href="http://archive.org">archive.org</a>. They are also
-               slightly smaller and more responsive, overall. The pages are cleaner and more book-like.
-            </p>
+               file (part of a new format of XML files; see <a href="http://textalign.net/"
+                  >http://textalign.net/</a>) and partly in the Zotero database, which is the
+               primary source for the bibliography. Exhibit, the javascript library that undergirded
+               the corpus and bibliography, has been replaced by Tablesorter, written by Christian
+               Bach and updated by Rob Garrison (<a href="https://github.com/Mottie/tablesorter"
+                  >https://github.com/Mottie/tablesorter</a>). Between the data and the javascript
+               library rests several custom-written XSLT files that transform the TAN-rdf and
+               Zotero.rdf into the html tables that populate the now-static website. </p>
+            <p>The advantage to this approach is that all editions of the <i>Guide</i> are now
+               archivable by <a href="http://archive.org">archive.org</a>. The two pages slightly
+               smaller and more responsive, generally. They are cleaner and more book-like. </p>
             <p>Along with the data overhaul has come a revision of the CSS, which is now designed to
                be adequate for both small and large screens.</p>
             <p>Other revisions include the following:</p>

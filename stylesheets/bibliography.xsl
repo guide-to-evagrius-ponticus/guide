@@ -25,7 +25,7 @@
         mode="template-to-bibliography">
         <div class="links-to-other-formats">Other formats: <a
                 href="http://www.zotero.org/groups/evagrius_ponticus">Zotero</a> (master), <a
-                href="bibliography.rdf">RDF</a>, <a href="bibliography.bib.zip">BibTeX</a>.</div>
+                href="bibliography.rdf">RDF</a>, <a href="bibliography.zip">BibTeX</a>.</div>
         <input class="search" type="search" data-column="all"/>
         <table class="tablesorter show-last-col-only" id="bibliography-table">
             <thead>

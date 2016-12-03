@@ -31,10 +31,10 @@
         <table class="tablesorter show-last-col-only" id="corpus-table">
             <thead>
                 <tr>
-                    <td rowspan="2">CPG</td>
+                    <td rowspan="2">Title and description</td>
                     <td rowspan="2">Author</td>
                     <td colspan="2">Original</td>
-                    <td rowspan="2">Title and description</td>
+                    <td rowspan="2">CPG</td>
                     <!-- we add a filler because in our css, we are going to hide the first four columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
                     <td colspan="4" rowspan="2" class="filler"/>
                 </tr>
