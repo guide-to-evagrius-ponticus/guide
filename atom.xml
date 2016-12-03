@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.w3.org/2005/Atom atom.xsd" xmlns="http://www.w3.org/2005/Atom"
-   xml:base="http://evagriusponticus.net/">
+<?xml-model href="atom.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="atom.xsd"
+   xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2016-09-12T09:00:00Z</updated>
+   <updated>2016-12-03T09:20:03.107-05:00</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
+   <entry>
+      <title>Guide to Evagrius Ponticus, winter 2016 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2016-12</id>
+      <updated>2016-12-03T09:20:03.107-05:00</updated>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2016 edition of the <em>Guide to Evagrius Ponticus</em> is now available.</p>
+            <p>This edition constitutes a major update to the bibliography and corpus pages and they
+               way they are populated. The data for the corpus is now housed primarily in a TAN-rdf
+               file (see <a href="http://textalign.net/">http://textalign.net/</a>) and partly in
+               the Zotero database, which is the primary source for the bibliography. Exhibit, the
+               javascript library that undergirded the corpus and bibliography, has been replaced by
+               Tablesorter, written by Christian Bach and updated by Rob Garrison (<a
+                  href="https://github.com/Mottie/tablesorter"
+                  >https://github.com/Mottie/tablesorter</a>). Between the data and the javascript library rests
+               several custom-written XSLT files that transform the TAN-rdf and Zotero.rdf into the html tables that
+               populate the now-static website.
+            </p>
+            <p>The advantage to this approach is that all editions of the <i>Guide</i> are now archivable by 
+               <a href="http://archive.org">archive.org</a>. They are also
+               slightly smaller and more responsive, overall. The pages are cleaner and more book-like.
+            </p>
+            <p>Along with the data overhaul has come a revision of the CSS, which is now designed to
+               be adequate for both small and large screens.</p>
+            <p>Other revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 1 item added, 31 additional items updated.</li>
+            </ul>
+         </div></content>
+   </entry>
    <entry>
       <title>Guide to Evagrius Ponticus, autumn 2016 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>
       <id>tag:evagriusponticus.net,2015:ed:2016-3</id>
       <updated>2016-09-12T09:00:00Z</updated>
-      <published>2016-09-12T09:00:00Z</published>
+      <published>2012-01-17T09:00:00Z</published>
       <author>
          <name>Staff</name>
       </author>
@@ -34,8 +68,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2016 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The summer 2016 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 11 items added, 2 additional items updated.</li>
             </ul>
@@ -52,11 +87,15 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2016 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The spring 2016 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
-               <li><em>Corpus:</em> Work ascribed to Evagrius newly added, under the title Scholia in Acta apostolorum. Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in novum testamentum, 3:177.</li>
-               <li><em>Bibliography</em>: 13 items added, 1 additional item updated. Notable additions include the Slovenian translation of the corpus.</li>
+               <li><em>Corpus:</em> Work ascribed to Evagrius newly added, under the title Scholia
+                  in Acta apostolorum. Fragment preserved on Acts 10:11-12; edited in Cramer’s
+                  Catenæ græcorum patrum in novum testamentum, 3:177.</li>
+               <li><em>Bibliography</em>: 13 items added, 1 additional item updated. Notable
+                  additions include the Slovenian translation of the corpus.</li>
                <li><em>Images</em>: Reference updated for fresco image from Farfa.</li>
                <li><em>Staff</em>: Bibliography editors updated.</li>
             </ul>
@@ -73,9 +112,12 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2015 edition of the <em>Guide to
-            Evagrius Ponticus</em> is available. Revisions include the following:</p>
-            <ul><li><em>Bibliography</em>: 3 items added, 24 additional items updated</li></ul>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2015 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 3 items added, 24 additional items updated</li>
+            </ul>
          </div>
       </content>
    </entry>
@@ -89,8 +131,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The autumn 2015 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The autumn 2015 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>corpus</em>: permanent, unique URNs have been assigned to all the works of
                   Evagrius. These are itemized for each work, and follow the formula
@@ -119,8 +162,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2015 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The summer 2015 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>General</em>: Viewport added, for mobile accessibility; minor adjustments in
                   CSS</li>
@@ -138,8 +182,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2015 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The spring 2015 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 5 items added</li>
                <li><em>Corpus</em>: corrections made to English titles of CPG 2432 (Kephalaia
@@ -158,8 +203,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2014 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2014 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 2 items added, 62 additional items updated</li>
             </ul>
@@ -176,8 +222,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2014 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The fall 2014 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Life</em>: English translations for three new sources added: the entirety of
                   the Coptic Life of Evagrius by Tim Vivian (courtesy St. Vladimir's Seminary
@@ -198,8 +245,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2014 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The summer 2014 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 7 items added</li>
             </ul>
@@ -216,8 +264,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2014 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The spring 2014 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 5 items added, 3 older items updated</li>
             </ul>
@@ -234,8 +283,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2013 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2013 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 6 items added, 7 older items updated</li>
             </ul>
@@ -252,8 +302,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2013 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The fall 2013 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Bibliography</em>: 18 items added, 2 older items updated</li>
             </ul>
@@ -271,8 +322,9 @@
          <name>Staff</name>
       </author>
       <content type="xhtml">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2013 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The summer 2013 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li><em>Images</em>: Cod. Ambr. E.49-50 caption has been corrected and expanded.</li>
                <li><em>Bibliography</em>: 12 items added, 65 older items updated, editor and
@@ -294,11 +346,13 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The spring 2013 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The spring 2013 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
             <ul>
                <li>Adobe Garamond Premier Pro embedded for better reading.</li>
-               <li><em>Bibliography</em>: 22 items added, 17 older items updated</li></ul>
+               <li><em>Bibliography</em>: 22 items added, 17 older items updated</li>
+            </ul>
             <p>Vitaly Permiakovs joins as a bibliography editor for 2013. Thanks go to Scott Johnson
                for his work as a bibliography editor in 2012.</p>
          </div>
@@ -315,9 +369,13 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The winter 2012 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
-            <ul><li><em>Bibliography</em>: 8 items added, 10 older items updated</li></ul></div>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2012 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 8 items added, 10 older items updated</li>
+            </ul>
+         </div>
       </content>
    </entry>
 
@@ -331,9 +389,13 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The fall 2012 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
-            <ul><li><em>Bibliography</em>: 19 items added, 11 others corrected</li></ul></div>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The fall 2012 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 19 items added, 11 others corrected</li>
+            </ul>
+         </div>
       </content>
    </entry>
 
@@ -347,12 +409,16 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>The summer 2012 edition of the <em>Guide to
-                  Evagrius Ponticus</em> is available. Revisions include the following:</p>
-            <ul><li><em>Images</em>: chapter restructured; one post-Byzantine image
-                     added</li><li><em>Corpus</em>: <em>The Just and the Perfect</em> (CPG 2465) now
-                  assigned to dubia (= <em>Liber graduum</em> 14)</li><li><em>Bibliography</em>: 35
-                  items added</li></ul></div>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The summer 2012 edition of the <em>Guide to Evagrius Ponticus</em> is available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Images</em>: chapter restructured; one post-Byzantine image added</li>
+               <li><em>Corpus</em>: <em>The Just and the Perfect</em> (CPG 2465) now assigned to
+                  dubia (= <em>Liber graduum</em> 14)</li>
+               <li><em>Bibliography</em>: 35 items added</li>
+            </ul>
+         </div>
       </content>
    </entry>
 
@@ -366,15 +432,17 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>We are pleased to announce the appearance of
-               the <em>Guide to Evagrius Ponticus</em>, a digital-only, peer-reviewed reference
-               work. Updated quarterly, the Guide provides definitive lists of Evagrius's works, of
-               editions and translations of those works, and of studies related to his life and
-               thought. The <em>Guide</em> includes a sourcebook of key ancient testimonies to
-               Evagrius and his reception, as well as a checklist of images from the ancient world.
-               Updated quarterly, the <em>Guide</em> will gradually introduce a manuscript
-               checklist, images of manuscripts, transcriptions of those manuscripts, and open
-               source critical editions of Evagrius's writings.</p></div>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>We are pleased to announce the appearance of the <em>Guide to Evagrius Ponticus</em>,
+               a digital-only, peer-reviewed reference work. Updated quarterly, the Guide provides
+               definitive lists of Evagrius's works, of editions and translations of those works,
+               and of studies related to his life and thought. The <em>Guide</em> includes a
+               sourcebook of key ancient testimonies to Evagrius and his reception, as well as a
+               checklist of images from the ancient world. Updated quarterly, the <em>Guide</em>
+               will gradually introduce a manuscript checklist, images of manuscripts,
+               transcriptions of those manuscripts, and open source critical editions of Evagrius's
+               writings.</p>
+         </div>
       </content>
    </entry>
 
@@ -388,10 +456,11 @@
          <name>Staff</name>
       </author>
       <content type="xhtml" xml:lang="en">
-         <div xmlns="http://www.w3.org/1999/xhtml"><p>Guide to Evagrius Ponticus arriving 17 January
-               2012. This peer-reviewed reference work will be updated quarterly, presenting
-               critical reference tools for the study of this fourth-century monastic
-               theologian.</p></div>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>Guide to Evagrius Ponticus arriving 17 January 2012. This peer-reviewed reference
+               work will be updated quarterly, presenting critical reference tools for the study of
+               this fourth-century monastic theologian.</p>
+         </div>
       </content>
    </entry>
 

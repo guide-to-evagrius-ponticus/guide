@@ -1,317 +1,251 @@
 @charset "UTF-8";
 
-/* major sections */
-header,
-aside,
-nav,
-article,
-footer {
-    display : block;
-}
-body {
-    background-color : #FCFCFF;
-    font-family : 'garamond-premier-pro', garamond, serif;
-    font-weight: normal; 
-    font-style: normal; 
-    color : #1A001A;
-    margin : 0px 30px 0px 30px;
-}
-header {
-    display : table;
-    left : 0;
-    width : 100%;
-    padding : 0px;
-}
-article {
-    line-height : 150%;
-    font-size : 20px;
-    margin : 0px 30px 0px 30px;
-    text-align : justify;
-}
-article.b-article,
-article.c-article {
-    text-align : left;
-    margin : 0px;
-}
-aside {
-    width : 30%;
-    display : table-cell;
-}
-footer
-{
-    text-align : center;
-    font-variant : small-caps;
-    text-transform : lowercase;
+@media only screen and (min-width : 600px){
+/* For desktop: */
+    header{
+        display: flex
+    }
+    .toplogo,
+    .nav{
+        width: 20%
+    }
+    .masthead{
+        width: 60%
+    }
+    .nav{
+        align-content: center
+    }
 }
 
-/* header, footer */
-figure.toplogo {
-    font-size : 12px;
-    font-style : italic;
-    position : absolute;
-    left : 0px;
-    top : 0px;
-    opacity : 0.6;
-    z-index : -1;
+/* general: header  */
+header{
+    font-family: tahoma, geneva, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+.toplogo{
+    font-size: 12px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.6;
+    /*width: 100%*/
+}
+.toplogo > *{
+    margin: auto;
+    display: block
+}
+figcaption{
+    line-height: 120%
 }
 div.masthead
 {
-    display : table-cell;
-    text-align : center;
-    width : 60%;
+    text-align: center;
 }
-div.nav {
-    display : table-cell;
-    text-align : right;
-    width : 20%;
-    font-family : tahoma, geneva, sans-serif;
-    font-size : 20px;
-    list-style-type : none;
-    padding : 0;
-    overflow : hidden;
+h1.title{
+    font-size: 180%;
+    text-align: center;
+    margin: 12px 0px;
 }
-ul.banner {
-    list-style-type : none;
+h1.siteeditor{
+    font-size: 110%;
+    font-style: italic;
+    line-height: 100%;
+    margin: 0px
 }
-a.banner {
-    display : block;
-    border-radius : 8px;
+.dateline{
+    margin: 6px
 }
-a.banner:link,
-a.banner:visited {
-    display : block;
-    padding : 4px;
-    text-decoration : none;
-    text-transform : uppercase;
-    color : black;
+.nav{
+    vertical-align: middle;
+    text-align: center;
+    font-size: smaller;
+    line-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
-a.banner:hover,
-a.banner:active {
-    background-color : #F3BDA2;
+.nav a{
+    display: block;
+    border-radius: 8px;
 }
-.twitter
+.nav a:link,
+.nav a:visited{
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav a:hover,
+.nav a:active{
+    background-color: #F3BDA2;
+}
+/* footer */
+footer
 {
-    font-size : 10px;
-    float : right;
-    vertical-align : bottom;
-    text-align : left;
-    opacity : 0.4;
-    /* filter : alpha(opacity=60); For IE8 and earlier */
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    justify-content: center;
 }
-.twitter:hover
-{
-    opacity : 1;
-    /* filter : alpha(opacity=99); For IE8 and earlier */
+footer > *{
+    margin: 0px 5px
 }
-
-/* main text */
+#contact{
+    display: none
+}
+/* general: main text */
+body{
+    background-color: #FCFCFF;
+    font-family: 'garamond-premier-pro', garamond, serif;
+    color: #1A001A;
+    line-height: 150%;
+    font-size: 20px;
+    text-align: justify;
+}
 h1,
 h2,
 h3,
-h4 {
-    text-align : left;
-    font-family : helvetica, sans-serif;
-    font-weight : lighter;
-    letter-spacing : 1px;
-    z-index : 1;
+h4{
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 150%;
+    letter-spacing: 1px;
+    z-index: 1;
 }
-h1 {
-    text-shadow : 1px 1px #808080;
+h1{
+    text-align: center;
+    text-shadow: 0px 0px #808080;
 }
-h1.title {
-    font-size : 180%;
-    text-align : center;
+h2{
+    margin-top: 12px
 }
-h1.siteeditor {
-    font-size : 110%;
-    font-style : italic;
-    text-align : center;
-    text-shadow : 0px 0px #808080;
-}
-h1.dateline {
-    font-size : 100%;
-    text-align : center;
-    text-shadow : 0px 0px #808080;
-}
-p
+body > div
 {
-    margin : 0px;
-    text-indent : 2em;
+    text-indent: 2em;
 }
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p {
-    text-indent : 0em;
+h1 + div,
+h2 + div,
+h3 + div,
+h4 + div{
+    text-indent: 0em;
+    margin-top: 10px
 }
-h2 + p:first-letter
+h2 + div:first-letter
 {
-    font-size : 84px;
-    float : left;
-    margin-right : 4px;
-    margin-top : 8px;
-}
-ul
-{
-    list-style-type : none;
+    font-size: 72px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 16px;
 }
 
-/* bibliography styles */
-div.b-nav,
-div.c-nav {
-    display : table-cell;
-    width : 20%;
-    font-size : 16px;
-    padding : 0;
-    overflow : hidden;
-    text-indent : 0em;
-    line-height : 100%;
-    margin-left : 20px;
+/* corpus and bibliography (tables) */
+table{
+    table-layout: fixed;
 }
-div.b-body,
-div.c-body {
-    display : table-cell;
-    width : 80%;
-    text-indent : 0;
-    padding : 0px 10px 0px 0px;
-    margin : 0px 10px 0px 0px;
+thead{
+    text-align: center
 }
-div.b-publication {
-    margin-bottom : 1em;
-    padding : 0em;
-    border : 0px solid #ccc;
-    list-style-type : none;
+table tbody{
+    font-family: 'garamond-premier-pro', garamond, serif;
+    font-size: 20px;
+    line-height: 140%
 }
-.b-abstract {
-    font-size : 21px;
-    line-height : 100%;
-    text-indent : 0em;
+.book-title{
+    font-style: italic;
+    display: inline;
 }
-.b-author {
-    font-size : 16px
+.book-title > i{
+    font-style: normal;
 }
-.b-extlink {
-    float : right;
-    font-weight : 300;
-    margin-left : 10px;
-    font-size : 12px;
-    font-style : italic;
-    background-color : #FAE5DA;
-    padding : 4px;
+.show-last-col-only tbody > tr > td:not(:last-of-type),
+td.filler,
+.show-last-col-only tr.tablesorter-filter-row td:last-of-type /* preceding two items allow for hidden sorting columns using tablesorter */{
+    display: none
 }
-.b-journal {
-    font-style : italic;
+.show-last-col-only tbody > tr > td:last-of-type{
+    /*width: 130%*/
 }
-.b-pages {
+.dc-identifier,
+.abstract,
+.corpus-xref,
+.pub,
+.IRI{
+    margin-left: 10px;
+    font-size: smaller
 }
-.b-preface, 
-.c-preface {
-    margin-left : 30px;
-    margin-right : 30px;
+#corpus-table tbody td:nth-child(2){
+    padding-left: 10px;
+    text-indent: -10px
 }
-.b-published {
-    font-size : 16px;
+.id-label{
+    float: right;
+    color: gray;
+    margin-left: 3px;
 }
-.b-title {
-    font-weight : 550;
-    font-size : 18px;
-    line-height : 100%;
+.orig-lang,
+.orig-extant,
+.authorship{
+    display: inline;
 }
-.b-title-book {
-    font-style : italic;
+.names,
+.pub-prefix{
+    font-weight: 700
 }
-.b-title-book i {
-    font-style : normal;
+.clip-after-line-1{
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 80px;
 }
-ol.b-publications {
-    font-style : oblique;
-    list-style-type : none;
+.clip-after-line-1:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 50px, white);
+    content: "";
 }
-.bibsig {font-style:italic;}
-
-/* corpus of writings styles */
-div.c-minutiae {
-    float : right;
+.links-to-other-formats{
+    float: right;
+    font-size: smaller;
 }
-.c-authorship {
-    text-align : right;
-    font-variant : small-caps;
-}
-.c-comment {
-    font-variant : normal;
-    font-size : 12px;
-    font-style : italic;
-}
-.c-urn {
-    text-Align: right;
-    font-size : 16px;
-}
-.c-cpg {
-    text-align : right;
-}
-.c-description {
-    text-indent : 1em;
-}
-.c-images {
-    font-size : 10px;
-}
-.c-incipit
-{
-    font-style : italic;
-    font-weight : normal;
-}
-.c-literature {
-    text-indent : 0em;
-    font-size : 12px;
-    line-height : 100%;
-}
-.c-title-en {
-    font-weight : bold;
-    font-size : 18px;
-}
-.c-title-el,
-.c-title-la {
-    font-weight : bold;
-    font-size : 16px;
+.pub > *{
+    display: inline
 }
 
 /* ancient testimonia styles */
-.t-item {
-    margin-left: 10px;
+#life .item{
+    margin-left: 5px;
     margin-top: 10px;
 }
-.t-meta {
+.meta .au{
+    font-weight: bold;
 }
-.t-meta-au {
-    font-weight : bold;
+.title{
+    font-style: italic;
 }
-.t-meta-ti {
-    font-style : italic;
+.date{
+    font-variant: small-caps;
+    color: gray;
+    float: right;
 }
-.t-meta-da {
-    font-variant : small-caps;
-    color : gray;
-    float : right;
+.date:before{
+    content: " ";
 }
-.t-meta-da:before {
-     content: " ";    
-}
-.t-comm {
+.comment{
     margin-left: 15px;
     font-style: italic;
 }
-.t-comm .t-meta-ti, .t-comm em {
-    font-style: normal;
+.text{
+    margin-left: 25px;
 }
-.t-text-et {
-    margin-left: 45px;
- }
- .t-cred {
-     font-size : 12px;
- }
- .t-cred .t-meta-au {
-     font-weight: normal;
- }
- .t-cred:before {
-     content: " —";
- }
+.credit{
+    font-size: 12px;
+}
+.credit:before{
+    content: " —";
+}
