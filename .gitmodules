@@ -1,5 +1,5 @@
 [submodule "transcriptions"]
-	path = transcriptions
+	path = tan
 	url = https://github.com/Arithmeticus/TAN-Evagrius.git
 [submodule "tablesorter"]
 	path = tablesorter
