@@ -8,7 +8,7 @@
     <!-- This is the master stylesheet for generating the Guide to Evagrius Ponticus -->
     <!-- Input: any XML document whatsoever -->
     <!-- Output: the static html pages that constitute the Guide -->
-    <!-- This stylesheet can be run on any XML document because the core -->
+    <!-- This stylesheet can be run on any XML document because the core input documents are defined by parameters -->
     <xsl:include href="corpus.xsl"/>
     <xsl:include href="bibliography.xsl"/>
     <xsl:include href="core.xsl"/>

@@ -44,6 +44,20 @@
                     select="$bibliography-prepped/*/bib:*[not((self::bib:memo, self::bib:Memo, self::bib:Journal))]">
                     <xsl:sort select="dc:date" order="descending"/>
                     <xsl:variable name="this-item" select="."/>
+                    <xsl:variable name="this-item-tan-id" as="xs:string*">
+                        <xsl:for-each select="dc:description">
+                            <xsl:analyze-string select="."
+                                regex="tag:evagriusponticus.net,2012:scriptum:\S+">
+                                <xsl:matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:variable name="this-item-other-ids" as="xs:string*"
+                        select="dc:identifier/text()"/>
+                    <xsl:variable name="this-item-all-ids" select="$this-item-tan-id, $this-item-other-ids" as="xs:string*"/>
+                    <xsl:variable name="this-item-transcriptions" select="$corpus-collection/*[tan:head/tan:source[tan:IRI = $this-item-tan-id]]"/>
                     <xsl:text>&#xa;</xsl:text>
                     <tr id="{@rdf:about}">
                         <td>
@@ -60,9 +74,20 @@
                             <xsl:value-of select="z:itemType"/>
                         </td>
                         <td colspan="5">
+                            <xsl:if test="exists($this-item-all-ids)">
+                                <div class="id-label">
+                                    <xsl:for-each select="$this-item-all-ids">
+                                        <div class="id">
+                                            <xsl:copy-of
+                                                select="tan:hyperlink-text(normalize-space(.), 30)"
+                                            />
+                                        </div>
+                                    </xsl:for-each>
+                                </div>
+                            </xsl:if>
                             <xsl:copy-of
                                 select="tan:rdf-bib-to-chicago-humanities-bibliography-html(., $bibliography-prepped)"/>
-                            <xsl:apply-templates select="dc:identifier" mode="bib-rdf-to-html"/>
+                            
                             <xsl:apply-templates select="dcterms:abstract" mode="bib-rdf-to-html"/>
                             <xsl:apply-templates
                                 select="root()/*/bib:Memo[@rdf:about = $this-item/dcterms:isReferencedBy/@rdf:resource]"
@@ -90,7 +115,7 @@
                                     </xsl:for-each>
                                 </div>
                             </xsl:for-each-group>
-                            <!--<xsl:apply-templates select="dc:subject" mode="bib-rdf-to-html"/>-->
+                            <xsl:copy-of select="tan:transcription-hyperlink($this-item-transcriptions)"/>
                         </td>
                     </tr>
                 </xsl:for-each>
@@ -98,12 +123,6 @@
         </table>
     </xsl:template>
 
-    <xsl:template match="dc:identifier" mode="bib-rdf-to-html">
-        <xsl:variable name="this-text" select="." as="xs:string"/>
-        <div class="dc-identifier">
-            <xsl:copy-of select="tan:hyperlink-text(normalize-space($this-text), 30)"/>
-        </div>
-    </xsl:template>
     <xsl:template match="dcterms:abstract | bib:Memo" mode="bib-rdf-to-html">
         <xsl:variable name="this-text" select="string-join(.//text()[matches(., '\S')], '&#xa;')"/>
         <div class="abstract clip-after-line-1">

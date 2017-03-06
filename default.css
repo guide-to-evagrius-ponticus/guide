@@ -172,7 +172,8 @@ td.filler,
 .abstract,
 .corpus-xref,
 .pub,
-.IRI{
+.IRI,
+.transcriptions{
     margin-left: 10px;
     font-size: smaller
 }
@@ -182,8 +183,12 @@ td.filler,
 }
 .id-label{
     float: right;
+    background: lightgray;
     color: gray;
     margin-left: 3px;
+    font-size: 12px;
+    line-height: initial;
+    text-align: right;
 }
 .orig-lang,
 .orig-extant,
@@ -215,6 +220,11 @@ td.filler,
 }
 .pub > *{
     display: inline
+}
+
+.transcriptions > *{
+    display: inline;
+    padding-left: 4px;
 }
 
 /* ancient testimonia styles */

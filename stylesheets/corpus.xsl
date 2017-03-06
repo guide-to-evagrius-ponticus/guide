@@ -5,7 +5,7 @@
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
     
-    <xsl:include href="../../TAN/stylesheets/prepare/TAN-rdf-prepare-for-reuse.xsl"/>
+    <xsl:include href="../../TAN/stylesheets/prepare/TAN-c-prepare-for-reuse.xsl"/>
 
     <xsl:variable name="corpus-data-prepped-for-reuse" as="document-node()">
         <xsl:document>
@@ -25,7 +25,7 @@
     
     <xsl:template match="div[@class = 'body']|table[@id = 'corpus-table']" mode="template-to-corpus">
         <div class="links-to-other-formats">Other formats: <a
-                href="{($corpus-data-prepped-for-reuse//tan:master-location/@href)[1]}">TAN-rdf</a>
+                href="{($corpus-data-prepped-for-reuse//tan:master-location/@href)[1]}">TAN-c</a>
             (master)</div>
         <input class="search" type="search" data-column="all"/>
         <table class="tablesorter show-last-col-only" id="corpus-table">
@@ -47,6 +47,9 @@
                 <xsl:for-each select="$corpus-data-prepped-for-reuse/*/tan:head/tan:declarations/tan:work">
                     <xsl:sort select="@xml:id"/>
                     <xsl:variable name="this-work" select="."/>
+                    <xsl:variable name="this-work-iris" select="tan:IRI"/>
+                    <xsl:variable name="this-work-tan-transcriptions"
+                        select="$corpus-collection-resolved/*[tan:head/tan:declarations/tan:work/tan:IRI = $this-work-iris]"/>
                     <xsl:variable name="these-claims"
                         select="
                             $corpus-data-prepped-for-reuse/*/tan:body/tan:claim[(tan:object, tan:subject) = $this-work/@xml:id]"/>
@@ -212,6 +215,19 @@
                                     group-by="../@*:about">
                                     <xsl:sort select="current-group()[1]/../*:date"
                                         order="descending"/>
+                                    <xsl:variable name="this-item-tan-id" as="xs:string*">
+                                        <xsl:for-each select="current-group()[1]/../*:description">
+                                            <xsl:analyze-string select="."
+                                                regex="tag:evagriusponticus.net,2012:scriptum:\S+">
+                                                <xsl:matching-substring>
+                                                    <xsl:value-of select="."/>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:for-each>
+                                    </xsl:variable>
+                                    <xsl:variable name="this-item-transcriptions"
+                                        select="$this-work-tan-transcriptions[tan:head/tan:source/tan:IRI = $this-item-tan-id]"
+                                    />
                                     <xsl:variable name="these-refs" as="element()*">
                                         <xsl:for-each select="current-group()">
                                             <div>
@@ -235,6 +251,7 @@
                                         <xsl:copy-of
                                             select="tan:rdf-bib-to-chicago-humanities-bibliography-html(current-group()[1]/.., $bibliography-prepped)"
                                         />
+                                        <xsl:copy-of select="tan:transcription-hyperlink($this-item-transcriptions)"/>
                                     </div>
                                 </xsl:for-each-group></div>
                         </td>

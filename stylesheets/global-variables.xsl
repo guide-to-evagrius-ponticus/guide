@@ -6,6 +6,10 @@
     version="2.0">
 
     <xsl:variable name="content" select="collection('../?select=content-*.htm')"/>
+    <xsl:variable name="corpus-collection" select="collection('../tan/?select=cpg*.xml')"/>
+    <xsl:variable name="corpus-collection-resolved"
+        select="tan:resolve-doc($corpus-collection, false(), (), (), (), ())"/>
+    <xsl:variable name="site-base-uri" select="base-uri($content[1]/*)"/>
     <xsl:variable name="this-year" select="year-from-date(current-date())"/>
     <xsl:variable name="this-month" select="month-from-date(current-date())"/>
     <xsl:variable name="this-quarter" select="ceiling($this-month div 3)"/>

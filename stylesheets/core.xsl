@@ -11,7 +11,7 @@
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
     <xsl:output method="xhtml" indent="no"/>
-    <xsl:include href="../../TAN/TAN-1-dev/functions/TAN-rdf-functions.xsl"/>
+    <xsl:include href="../../TAN/TAN-1-dev/functions/TAN-c-functions.xsl"/>
     <xsl:include href="../../TAN/stylesheets/prepare/TAN-to-HTML-core.xsl"/>
     <xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>
     <xsl:variable name="gep-template" select="doc('../template.html')"/>
@@ -26,7 +26,7 @@
             <xsl:apply-templates select="$bibliography" mode="prep-rdf"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="corpus" select="doc('../../TAN/library/evagrius/TAN-rdf/evagrius-corpus-TAN-rdf.xml')"/>
+    <xsl:variable name="corpus" select="doc('../tan/TAN-c/evagrius-corpus-TAN-c.xml')"/>
     <xsl:variable name="corpus-resolved" select="tan:resolve-doc($corpus)"/>
 
     <xsl:template match="comment()" mode="html-cleanup insert-tablesorter prep-rdf">
@@ -385,4 +385,22 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:function>
+    
+    <xsl:function name="tan:transcription-hyperlink" as="element()?">
+        <!-- Input: a transcription file (member of $corpus-collection) -->
+        <!-- Output: <div> with hyperlink to transcription -->
+        <xsl:param name="transcriptions" as="item()*"/>
+        <xsl:if test="exists($transcriptions)">
+            <div class="transcriptions">
+                Transcriptions: 
+                <xsl:for-each select="$transcriptions">
+                    <div>
+                        <a href="{tan:uri-relative-to(tan:base-uri(.), $site-base-uri)}">
+                            <xsl:value-of select=".//*:body/@xml:lang"/>
+                        </a>
+                    </div>
+                </xsl:for-each>
+            </div></xsl:if>
+    </xsl:function>
+    
 </xsl:stylesheet>
