@@ -1624,9 +1624,6 @@
     </bib:Book>
     <bib:Memo rdf:about="#item_21733">
         <rdf:value>&lt;p&gt;Version A of De octo spiritibus malitiae (Latin): 356-82. -cat&lt;/p&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
-        <rdf:value>&lt;p&gt;Version A of De octo spiritibus malitiae (Latin): 356-82. -cat&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_10475">
         <z:itemType>journalArticle</z:itemType>
@@ -7860,7 +7857,7 @@ Provider: OCLC</dc:description>
         <dc:date>1951</dc:date>
         <dc:title>L'ancienne version latine des Sentences d'Évagre pour les Moines</dc:title>
     </bib:Article>
-    <bib:Book rdf:about="http://timiosprodromos4.blogspot.com/2006/01/description-of-work.html">
+    <bib:Book rdf:about="http://timiosprodromos2.blogspot.com/">
         <z:itemType>book</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -7890,7 +7887,7 @@ Provider: OCLC</dc:description>
         <dc:subject>2450 translation English</dc:subject>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://timiosprodromos4.blogspot.com/2006/01/description-of-work.html</rdf:value>
+               <rdf:value>http://timiosprodromos2.blogspot.com/</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <dc:date>2006</dc:date>
@@ -10574,9 +10571,6 @@ Los demonios y los ángeles poseen un papel protagónico en la configuración y 
     </bib:Book>
     <bib:Memo rdf:about="#item_21955">
         <rdf:value>&lt;p&gt;Critical edition of the Greek fragments, with complete translation of those fragments integrated with the Syriac and Armenian versions. Includes commentary and tables. Reviewed: E. Desplaces, &lt;em&gt;Revue de Philologie de Litterature et d'Histoire Anciennes &lt;/em&gt;63, no. 2 (1989): 305-6. F. X. Druet, &lt;em&gt;Etudes Classiques&lt;/em&gt; 59, no. 1 (1991): 82. Graham Gould, &lt;em&gt;Journal of Theological Studies&lt;/em&gt; 41 (1990): 687-90. J. Mallet, &lt;em&gt;Rivista di Storia e Letteratura Religiosa &lt;/em&gt;26, no. 1 (1990): 188-90. A. Pasquier, &lt;em&gt;Laval Theologique et Philosophique&lt;/em&gt; 48, no. 3 (1992): 473-74. -jk&lt;/p&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
-        <rdf:value>&lt;p&gt;Critical edition of the Greek fragments, with complete translation of those fragments integrated with the Syriac and Armenian versions. Includes commentary and tables. Reviewed: E. Desplaces, &lt;em&gt;Revue de Philologie de Litterature et d'Histoire Anciennes &lt;/em&gt;63, no. 2 (1989): 305-6. F. X. Druet, &lt;em&gt;Etudes Classiques&lt;/em&gt; 59, no. 1 (1991): 82. Graham Gould, &lt;em&gt;Journal of Theological Studies&lt;/em&gt; 41 (1990): 687-90. J. Mallet, &lt;em&gt;Rivista di Storia e Letteratura Religiosa &lt;/em&gt;26, no. 1 (1990): 188-90. A. Pasquier, &lt;em&gt;Laval Theologique et Philosophique&lt;/em&gt; 48, no. 3 (1992): 473-74. -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="http://onlinelibrary.wiley.com/doi/10.1111/j.1468-2265.2008.00428.x/abstract">
         <z:itemType>journalArticle</z:itemType>
@@ -10982,23 +10976,8 @@ Los demonios y los ángeles poseen un papel protagónico en la configuración y 
     <bib:Memo rdf:about="#item_21753">
         <rdf:value>&lt;p&gt;The Apophthegmata patrum is generally considered as one of the best witnesses about early monasticism in Egypt, especially about its spirituality. But it is equally well known that manuscript traditions of this document are extremely complicated, and one still does not know its primitive form nor the extent of the apophthegmata contained in that primitive form. Then, which elements that one finds in the extant form of the Apophthegmata patrum can be considered as deriving authentically from monks of the 4th century? To answer this question, the present paper compares the Apophthegmata patrum with the writings of Evagrius, a productive monastic author in the last two decades of the 4th century, and this comparison gives following results:-The image presented in the Apophthegmata patrum about the material (or physical) aspect of monastic life is more or less the same as Evagrius wrote in his writings, and this shows that the image presented in the Apophthegmata patrum is probably authentic on this point.-On the other hand, the image drawn in the Apophthegmata patrum about the spiritual aspect of monastic life differs on certain points from that of Evagrius, and this is possibly connected with the existence of different spiritual currents in the Egyptian monastic milieu.-The comparison in the present paper reveals also some criticism directed against Evagrius by the compiler (s) of the Apophthegmata patrum, and thus confirmed is the often suggested impression of the anti-Origenist tendency of the document. -cat&lt;/p&gt;
 &lt;p&gt;For author, also see under Toda. -jk&lt;/p&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
-        <rdf:value>&lt;p&gt;The Apophthegmata patrum is generally considered as one of the best witnesses about early monasticism in Egypt, especially about its spirituality. But it is equally well known that manuscript traditions of this document are extremely complicated, and one still does not know its primitive form nor the extent of the apophthegmata contained in that primitive form. Then, which elements that one finds in the extant form of the Apophthegmata patrum can be considered as deriving authentically from monks of the 4th century? To answer this question, the present paper compares the Apophthegmata patrum with the writings of Evagrius, a productive monastic author in the last two decades of the 4th century, and this comparison gives following results:-The image presented in the Apophthegmata patrum about the material (or physical) aspect of monastic life is more or less the same as Evagrius wrote in his writings, and this shows that the image presented in the Apophthegmata patrum is probably authentic on this point.-On the other hand, the image drawn in the Apophthegmata patrum about the spiritual aspect of monastic life differs on certain points from that of Evagrius, and this is possibly connected with the existence of different spiritual currents in the Egyptian monastic milieu.-The comparison in the present paper reveals also some criticism directed against Evagrius by the compiler (s) of the Apophthegmata patrum, and thus confirmed is the often suggested impression of the anti-Origenist tendency of the document. -cat&lt;/p&gt;
-&lt;p&gt;For author, also see under Toda. -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <z:Attachment rdf:about="#item_21929">
-        <z:itemType>attachment</z:itemType>
-        <dc:identifier>
-            <dcterms:URI>
-               <rdf:value>http://ci.nii.ac.jp/naid/130000841614</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2011-10-26 16:05:27</dcterms:dateSubmitted>
-        <dc:title>『師父たちの金言』とポントスのエウアグリオス Snapshot</dc:title>
-        <z:linkMode>3</z:linkMode>
-        <link:type>text/html</link:type>
-        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#Attachment"/>
         <z:itemType>attachment</z:itemType>
         <dc:identifier>
             <dcterms:URI>
@@ -17499,9 +17478,6 @@ Publisher: self</dc:description>
         <dc:title>À propos d'Évagre le Pontique</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21979">
-        <rdf:value>&lt;p&gt;Compte rendu de l'édition de l'oeuvre d'Évagre le Pontique &quot;Le gnostique ou A celui qui est devenu digne de la science&quot; édité par Antoine et Claire Guillaumont (Sources chrétiennes 356). L'ouvrage qui &quot;s'adresse au maître spirituel, lui indique les voies à suivre dans son enseignement, des conseils de méthode&quot;, l'attitude qu'il doit adopter face à ses élèves. L'enseignement dispensé suivra les trois grandes étapes du progrès spirituel: pratique ou éthique, physique et théologique. (p. 264) -cat&lt;/p&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
         <rdf:value>&lt;p&gt;Compte rendu de l'édition de l'oeuvre d'Évagre le Pontique &quot;Le gnostique ou A celui qui est devenu digne de la science&quot; édité par Antoine et Claire Guillaumont (Sources chrétiennes 356). L'ouvrage qui &quot;s'adresse au maître spirituel, lui indique les voies à suivre dans son enseignement, des conseils de méthode&quot;, l'attitude qu'il doit adopter face à ses élèves. L'enseignement dispensé suivra les trois grandes étapes du progrès spirituel: pratique ou éthique, physique et théologique. (p. 264) -cat&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Thesis rdf:about="http://ecommons.luc.edu/luc_diss/516/">
@@ -27662,4 +27638,150 @@ SPISI DVOMLJIVEGA AVTORSTVA IN NEPRISTNI SPISI
         <dc:title>HOLLIS Permalink</dc:title>
         <z:linkMode>3</z:linkMode>
     </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-90-04-28440-1%2090-04-28440-0">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Supplements to Vigiliae Christianae</dc:title>
+                <dc:identifier>128</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leiden</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Brill</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kavvadas</foaf:surname>
+                        <foaf:givenname>Nestor</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>ISBN 978-90-04-28440-1 90-04-28440-0</dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>BT 119 .K38 2015</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <z:language>German</z:language>
+        <dcterms:abstract>&quot;Isaac of Nineveh (7th century AD), or Isaac the Syrian, was, among all the Syriac writers, the one to exert the greatest influence outside the Syriac-speaking world, becoming a highly venerated Father of Byzantine Orthodox spirituality and theology. In Isaak von Nineve und seine Kephalaia Gnostika, Nestor Kavvadas first draws out the frictions between East Syrian episcopacy and the anchorite mystical movement as represented by Isaac, in search of the historical context of Isaac's teaching on the working of the Holy Spirit on the monk. Then, he draws out of Isaac's writings, and especially the Kephalaia Gnostika, the underlying structure of Isaac's thought on the working of the Holy Spirit, with the tension here between the here and now and the 'New World' that can be momentarily anticipated in the present world.&quot;--Provided by publisher.</dcterms:abstract>
+        <dc:title>Isaak von Ninive und seine Kephalaia Gnostika: Die Pneumatologie und ihr Kontext</dc:title>
+        <z:numPages>vii, 193</z:numPages>
+    </bib:Book>
+    <bib:BookSection rdf:about="urn:isbn:978-0-19-875825-9">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-0-19-875825-9</dc:identifier>
+                <dc:title>The Greek Historia Monachorum in Aegypto: Monastic Hagiography in the Late Fourth Century</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Oxford</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Oxford University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cain</foaf:surname>
+                        <foaf:givenname>Andrew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198758259.001.0001/acprof-9780198758259-chapter-12</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016</dc:date>
+        <dc:description>DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
+        <dcterms:dateSubmitted>2017-03-30 17:15:08</dcterms:dateSubmitted>
+        <dcterms:abstract>In this chapter it is proposed that the anonymous author had his own propagandistic agenda for the Greek Historia monachorum beyond simply providing generic edification, which (it is argued) passed through a specific ideological filter before it reached its readers. It is demonstrated first of all that most of the Egyptian monks’ discourses about practical ascetic spirituality betray strong affinities with core teachings of the famed ascetic theologian Evagrius of Pontus. On the basis of this finding, it is argued that these affinities reflect the anonymous author’s own intellectual and spiritual sympathies and provide valuable clues about his motivations for composing the Historia monachorum.</dcterms:abstract>
+        <dc:title>Piety and Propaganda</dc:title>
+    </bib:BookSection>
+    <bib:Thesis rdf:about="https://www.scribd.com/document/326478475/2015EPHE5008">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>École pratique des hautes études</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fogielman</foaf:surname>
+                        <foaf:givenname>Charles-Antoine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2447 edition Greek</dc:subject>
+        <dc:subject>2447 translation French</dc:subject>
+        <dc:subject>2448 edition Greek</dc:subject>
+        <dc:subject>2448 translation French</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.scribd.com/document/326478475/2015EPHE5008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:fogielman-2015</dc:description>
+        <z:type>PhD diss.</z:type>
+        <z:language>fra</z:language>
+        <dcterms:abstract>Evagrius Ponticus expounded his ascetic philosophy, centered on the notion of a list of vices and corresponding virtues, in several treatises, several of which have already been critically edited. The present work consists of an introduction, an edition, and a French translation of two texts which stand out, to a certain degree, within the Evagrian opus. The treatise addressed to the monk Eulogius, along with its appendix describing the Vices opposed to Virtues, which appears adjoined to the former in a majority of manuscripts, display stylistic and doctrinal characteristics which have often called its authenticity into question. A detailed study of the manuscript testimony, both of the Greek original and of the various oriental versions (Syriac, Arabic, Armenian, Georgian and Ethiopic), has allowed us to confirm the treatises' authenticity and to establish their text reliably, as it can be seen to have suffered considerable turmoil during its transmission. Aside from material damage, Evagrius' works, in the Greek medium, were mainly distributed under the name of Nilus of Ancyra, owing to Evagrius' condemnation for alleged Origenism, at the council of Constantinople II in 553. The accompanying commentary aims at addressing the proximity of Evagrian thought with the legacy of Origen, as well as highlighting the formation, formulation, and posterity of that most remarkable of Evagrian doctrines, the list of vices, and the philosophical and ascetic context wherein it originated.</dcterms:abstract>
+        <dc:title>Les deux traités à Euloge d'Evagre le Pontique: Introduction, édition critique, traduction, commentaire et notes</dc:title>
+    </bib:Thesis>
+    <bib:Book rdf:about="urn:isbn:978-1-291-01733-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rome</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nau</foaf:surname>
+                        <foaf:givenname>Sr. Pascale-Dominique</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2452 translation English</dc:subject>
+        <dc:identifier>ISBN 978-1-291-01733-5</dc:identifier>
+        <dc:date>2012</dc:date>
+        <dc:title>Evagrius Ponticus' Chapters on Prayer: Introduction, English Translation and Notes</dc:title>
+    </bib:Book>
 </rdf:RDF>

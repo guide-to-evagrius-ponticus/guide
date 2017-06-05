@@ -5,7 +5,7 @@
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
 
-    <!-- This is the master stylesheet for generating the Guide to Evagrius Ponticus -->
+    <!-- This is the master stylesheet for generating the everything in the Guide to Evagrius Ponticus except the transcriptions (see transcriptions.xsl) -->
     <!-- Input: any XML document whatsoever -->
     <!-- Output: the static html pages that constitute the Guide -->
     <!-- This stylesheet can be run on any XML document because the core input documents are defined by parameters -->

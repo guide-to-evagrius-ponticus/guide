@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reorder-and-relabel-TAN-nodes xmlns="tag:textalign.net,2015:ns" action="shallow-copy" priority="5"
+    label="" group-item-label="" group-min="3" group-label="{name($p1)}s" format-label="1"
+    convert-attributes-to-elements="y">
+    
+    <!-- skips -->
+    <attribute name="q" action="deep-skip"/>
+    <attribute name="TAN-version" action="deep-skip"/>
+    <attribute name="id" action="deep-skip"/>
+    <attribute name="base-uri" action="deep-skip"/>
+    <attribute name="defective" action="deep-skip"/>
+    <attribute name="org" action="deep-skip"/>
+    <attribute name="part" action="deep-skip"/>
+    <attribute name="sample" action="deep-skip"/>
+    <element name="teiHeader" action="deep-skip"/>
+    <element name="warning" action="deep-skip"/>
+    
+    <element name="head" label="{$p1/tan:name[1]}"
+        replace-content-with="{$p1/tan:master-location, $p1/tan:declarations/tan:work, $p1/tan:source}"/>
+    <element name="master-location" label="Master TAN XML file"/>
+    <element name="work" label="{name($p1)}"/>
+    <element name="source" label="{name($p1)}"/>
+
+    <element name="name" label="" priority="2" group-min="6" group-label="{$p1}, ..."/>
+    <element name="desc" label="" priority="3"/>
+    <element name="IRI" priority="4"/>
+    
+    <element name="div" group-min="1000000"/>
+    
+    
+    <!-- parameters to format labels -->
+    <format-label xml:id="1">
+        <replace pattern="-" replacement=" "/>
+        <change-case to="upper" words="1" initial-only="t"/>
+    </format-label>
+    <format-label xml:id="no-first-label">
+        <replace pattern="^[a1i]$" replacement=""/>
+    </format-label>
+</reorder-and-relabel-TAN-nodes>

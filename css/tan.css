@@ -1,0 +1,434 @@
+/* display and flex flow */
+.error,
+.info,
+.fatal,
+div[class ^= tei-attr-],
+div[class ^= attr-],
+.head .label ~ div,
+.tei-label ~ div,
+.equate-works .source .location .label ~ div,
+.comment,
+.change,
+.role,
+.realign,
+.align,
+.work .IRI,
+.source > .IRI,
+div.source > div.attr-src,
+table.claim tbody,
+div.name > div.attr-lang,
+.TAN-A-tok .TAN-T .attr-orig-ref,
+.TAN-A-tok .TAN-T .attr-gloss,
+.TAN-A-tok .TAN-T .attr-cert,
+.TAN-A-tok .TAN-T .attr-reuse-type,
+.TAN-LM .TAN-T .attr-orig-ref,
+.TAN-LM .TAN-T .attr-gloss,
+.TAN-LM .TAN-T .attr-which,
+.group:not(*),
+.xref,
+.anas > *:not(.label),
+.m > .f,
+div.f div,
+div.f > div.attr-id,
+div.f > div.attr-code{
+    display: none;
+}
+.body > * div[class ^= tei-attr-],
+.body > * div[class ^= attr-],
+div[class ^= tei-attr-].tei-label,
+div[class ^= attr-].label{
+    display: inherit
+}
+td div{
+    display: initial;
+}
+.leaf > div.attr-ref,
+tr:first-of-type > td div.attr-src,
+td div.attr-pre-realign-ref,
+div.f div.name:nth-of-type(1){
+    display: block;
+}
+.mixed,
+.tok,
+.non-tok,
+.comment > div.attr-when,
+.comment > div.attr-who,
+.change > div.attr-when,
+.change > div.attr-who{
+    display: inline;
+}
+.claim,
+.claim > div,
+.TAN-A-tok .TAN-T .div,
+.TAN-A-tok .TAN-T .non-tok,
+.TAN-A-tok .TAN-T .tok,
+.TAN-LM .TAN-T .div,
+.TAN-LM .TAN-T .non-tok,
+.TAN-LM .TAN-T .tok
+{
+    display: flex
+}
+.claim > * > .label
+{
+    display: inline-block
+}
+.claim > div.claimant{
+    display: block
+}
+.TAN-A-tok .TAN-T,
+.TAN-LM .TAN-T{
+    display: table-cell
+}
+/* height, width */
+.gloss{
+    height: auto;
+    width: auto;
+}
+/* alignment, position, flex-flow */
+.claim > div,
+.TAN-A-tok .TAN-T .div,
+.TAN-LM .TAN-T .div{
+    align-items: flex-end;
+    flex-flow: row wrap;
+}
+.anchor,
+.xref{
+    position: relative;
+}
+.gloss,
+.xref > .attr-cert,
+.attr-reuse-type{
+    position: absolute;
+}
+.xref > .attr-cert,
+.attr-reuse-type{
+    bottom: 36px;
+}
+
+/*td[rowspan]{
+    flex-flow: wrap
+}*/
+.equate-works .source{
+    display: inline-block
+}
+/* font faces */
+@font-face
+{
+    font-family: "Rosario";
+    src: url('../../fonts/Rosario-Regular.ttf');
+}
+@font-face{
+    font-family: "Rosario";
+    src: url("../../fonts/Rosario-Bold.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Rosario";
+    src: url("../../fonts/Rosario-Italic.ttf");
+    font-style: italic, oblique;
+}
+@font-face{
+    font-family: "Rosario";
+    src: url("../../fonts/Rosario-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Sorts Mill Goudy";
+    src: url("../../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face{
+    font-family: "Sorts Mill Goudy";
+    src: url("../../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+@font-face
+{
+    font-family: noto;
+    src: url('../../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: antinoou;
+    src: url('../../fonts/Antinoou.ttf') format('truetype');
+}
+body{
+    font-family: 'Sorts Mill Goudy';
+}
+div[dir = rtl]{
+    font-family: 'noto';
+}
+body > * > .name,
+.type--title{
+    font-family: 'Rosario';
+}
+.comment > .attr-when,
+.comment > .attr-who,
+.change > .attr-when,
+.change > .attr-who,
+.attr-matches-m{
+    font-family: courier, fixed, monospace
+}
+td[class *= notes]{
+    font-family: sans-serif
+}
+/* font attributes */
+.head,
+.tei-teiHeader,
+.IRI,
+.comment > .attr-when,
+.comment > .attr-who,
+.change > .attr-when,
+.change > .attr-who,
+.claimant,
+.desc,
+.attr-group,
+.attr-src,
+td div.label,
+td div.attr-pre-realign-ref,
+td div.attr.src,
+td[class *= notes],
+.attr-orig-ref{
+    font-size: smaller;
+}
+body > * .name
+{
+    font-size: large;
+}
+.TAN-A-tok .TAN-T .tok,
+.TAN-A-tok .TAN-T .non-tok,
+.TAN-LM .TAN-T .tok,
+.TAN-LM.TAN-T .non-tok{
+    font-size: 36px
+}
+.gloss,
+.xref{
+    font-size: 16px
+}
+div.f div{
+    font-size: 12px
+}
+body > * .name,
+.boldface{
+    font-weight: 900;
+}
+.anchor{
+    font-weight: initial;
+}
+/* text */
+.type--para,
+.desc{
+    text-indent: 10px
+}
+div[class ^= attr-]{
+    text-indent: 0px
+}
+
+/* decoration */
+.underline,
+.a{
+    text-decoration: underline;
+}
+.b{
+    text-decoration: line-through;
+}
+
+/* color */
+body > * > .name,
+.label,
+td div.attr-pre-realign-ref,
+.tei-label,
+.attr-orig-ref{
+    color: sienna;
+}
+.attr-ref,
+.TAN-A-div .attr-orig-ref,
+.claimant,
+td div.attr-src{
+    color: gray;
+}
+.gloss,
+.tok[class *= gloss]{
+    color: blue;
+}
+.warning,
+.warning.gloss,
+.refmatch,
+.b{
+    color: red;
+}
+.a{
+    color: green;
+}
+.gloss .f{
+    color: initial;
+}
+/* background */
+.label:not(.mixed):hover,
+.tei-label:not(.mixed):hover,
+.claimant:hover,
+.subject:hover,
+.adverb:hover,
+.verb:hover,
+.object:hover,
+.where:hover,
+.equate-works .location .label:hover,
+.attr-ref:not(.mixed):hover,
+div.f > div.name:hover{
+    background-color: lightgreen;
+}
+.head,
+.tei-teiHeader,
+.TAN-A-div .attr-orig-ref,
+.claimant,
+.attr-group,
+.attr-code{
+    background: lightgray;
+}
+.lookatme{
+    background: green;
+}
+.highlight0{
+    background: yellow;
+    opacity: 0.8;
+}
+.highlight1{
+    background: orange;
+    opacity: 0.8;
+}
+.highlight2{
+    background: lightgreen;
+    opacity: 0.8;
+}
+.highlight0 > *,
+.highlight1 > *,
+.highlight2 > *{
+    background: initial;
+    opacity: initial;
+}
+/* float */
+.leaf > div.attr-ref,
+.leaf > div.attr-orig-ref,
+td > div.label,
+td div.attr-pre-realign-ref{
+    float: left
+}
+.comment > .attr-when,
+.comment > .attr-who,
+.change > .attr-when,
+.change > .attr-who,
+.claimant,
+.attr-group,
+.TAN-A-div .attr-orig-ref{
+    float: right
+}
+/* align */
+.TAN-A-div .attr-orig-ref,
+tr:first-of-type > td div.attr-src,
+.gloss,
+.xref > .attr-cert,
+.attr-reuse-type{
+    text-align: center
+}
+div.f > div.desc{
+    text-align: left
+}
+/* cursor */
+.equate-works .source{
+    cursor: move;
+}
+.label:not(.mixed),
+.tei-label:not(.mixed),
+.claimant,
+.subject,
+.adverb,
+.verb,
+.object,
+.where,
+.attr-ref:not(.mixed),
+.gloss{
+    cursor: pointer
+}
+.gloss .desc,
+.gloss .IRI{
+    cursor: initial;
+}
+/* width */
+.leaf > div.attr-ref,
+.leaf > div.attr-orig-ref{
+    width: 40px
+}
+.equate-works .source{
+    width: 200px
+}
+/* margins */
+div{
+    margin-left: 6px;
+}
+div[class ^= tei],
+div.tok,
+div.non-tok,
+.anchor,
+.declarations,
+.gloss,
+.gloss *,
+.attr-cert,
+.attr-reuse-types,
+.ver *{
+    margin-left: 0px;
+}
+.label,
+.tei-label{
+    margin-right: 6px;
+}
+.leading-start,
+.body > div > div,
+.feature{
+    margin-top: 12px;
+}
+.head > .name:first-of-type,
+.TAN-A-div > .body > div{
+    margin-top: 24px;
+}
+.leading-end,
+.equate-works,
+.TAN-A-div > .work > *{
+    margin-bottom: 12px;
+}
+.leaf > div.attr-ref,
+.leaf > div.attr-orig-ref,
+.comment > .attr-when,
+.comment > .attr-who,
+.change > .attr-when,
+.change > .attr-who{
+    margin: 0px 6px;
+}
+td > div.label,
+td div.attr-pre-realign-ref{
+    margin: 0px 3px;
+}
+/* content */
+td div.attr-pre-realign-ref:before,
+.TAN-A-div .attr-orig-ref:before{
+    content: "= "
+}
+/* opacity */
+.suppressed{
+    opacity: 0.5;
+}
+/* buttons */
+.equate-works .source{
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 2px 2px 2px #bbb;
+    border: solid thin #882d13;
+    border-radius: .7em;
+}
+/* transition */
+.lookatme{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}

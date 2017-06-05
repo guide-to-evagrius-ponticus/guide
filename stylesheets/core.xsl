@@ -12,7 +12,7 @@
     version="2.0">
     <xsl:output method="xhtml" indent="no"/>
     <xsl:include href="../../TAN/TAN-1-dev/functions/TAN-c-functions.xsl"/>
-    <xsl:include href="../../TAN/stylesheets/prepare/TAN-to-HTML-core.xsl"/>
+    <xsl:include href="../../TAN/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>
     <xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>
     <xsl:variable name="gep-template" select="doc('../template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
@@ -394,10 +394,25 @@
             <div class="transcriptions">
                 Transcriptions: 
                 <xsl:for-each select="$transcriptions">
+                    <xsl:variable name="this-transcription-filename" select="tan:cfn(.)"/>
+                    <xsl:variable name="location-of-possible-html-file"
+                        select="resolve-uri(concat('../', $this-transcription-filename, '.html'), static-base-uri())"
+                    />
                     <div>
+                        <xsl:value-of select=".//*:body/@xml:lang"/>
+                        <xsl:if test="doc-available($location-of-possible-html-file)">
+                            <xsl:text> </xsl:text>
+                            <a href="{concat($this-transcription-filename,'.html')}">html</a>
+                        </xsl:if>
+                        <xsl:text> </xsl:text>
                         <a href="{tan:uri-relative-to(tan:base-uri(.), $site-base-uri)}">
-                            <xsl:value-of select=".//*:body/@xml:lang"/>
-                        </a>
+                            <xsl:value-of
+                                select="
+                                    if (name(/*) = 'TEI') then
+                                        'tan-tei'
+                                    else
+                                        'tan'"
+                            /></a>
                     </div>
                 </xsl:for-each>
             </div></xsl:if>

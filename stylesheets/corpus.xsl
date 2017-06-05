@@ -5,7 +5,7 @@
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
     
-    <xsl:include href="../../TAN/stylesheets/prepare/TAN-c-prepare-for-reuse.xsl"/>
+    <xsl:include href="../../TAN/TAN-1-dev/do%20things/get%20inclusions/TAN-c-prepare-for-reuse.xsl"/>
 
     <xsl:variable name="corpus-data-prepped-for-reuse" as="document-node()">
         <xsl:document>
@@ -150,7 +150,7 @@
                                 </xsl:for-each>
                             </div>
                             <div class="names">
-                                <xsl:for-each select="distinct-values((@which, tan:name))">
+                                <xsl:for-each select="distinct-values((@which, tan:name[not(@common)]))">
                                     <div>
                                         <xsl:value-of select="."/>
                                     </div>

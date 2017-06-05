@@ -1,0 +1,84 @@
+@import "tan-core.css";
+/* collapsed metadata */
+.tei-teiHeader *:not(:first-of-type),
+.head *:not(:first-of-type),
+div[class ^= tei-attr-],
+div[class ^= attr-]{
+    display: none;
+    font-size: smaller
+}
+/* expandable stubs */
+.tei-teiHeader > div:first-of-type,
+.head > div:first-of-type{
+    text-align: right
+}
+.tei-teiHeader *:first-of-type:hover,
+.head *:first-of-type:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+/* attribute exceptions */
+div.attr-type--title{
+    font-weight: 900;
+    font-size: larger;
+}
+div.attr-ref{
+    display: block;
+    text-indent: 0px;
+    font-weight: normal;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+}
+/* TEI */
+.tei-pb,
+.tei-cit,
+.tei-cit *,
+.tei-ref,
+.tei-lb,
+.tei-milestone,
+.tei-seg,
+.tei-alt,
+.tei-w{
+    display: inline;
+}
+/*.tei-lb:after{
+    content: '|';
+    color: lightgray;
+}
+.tei-pb:after{
+    content: '‖';
+    color: lightgray;
+}*/
+.tei-add,
+.tei-certainty,
+.tei-supplied{
+    display: inline;
+    color: green;
+}
+.tei-note{
+    display: inline;
+    color: blue;
+    margin: 0px 6px;
+}
+.tei-corr{
+    display: inline;
+    color: green;
+    text-decoration: underline;
+}
+.tei-quote{
+    font-style: italic;
+}
+div.tei-attr-cRef:before{
+    content: ' ('
+}
+div.tei-attr-cRef,
+.tei-milestone > .tei-attr-rend,
+.tei-certainty > .tei-attr-rend{
+    display: inline;
+    margin: 0px 6px;
+    color: gray;
+}
+div.tei-attr-cRef:after{
+    content: ')'
+}
