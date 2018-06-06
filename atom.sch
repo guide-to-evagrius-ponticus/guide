@@ -3,8 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/2005/Atom">
-    <xsl:include href="stylesheets/global-variables.xsl"/>
-    <xsl:include href="stylesheets/core.xsl"/>
+    <xsl:import href="stylesheets/global-variables-for-schematron-validation.xsl"/>
+    <!--<xsl:import href="stylesheets/core.xsl"/>-->
     <!--<xsl:include href="stylesheets/content.xsl"/>-->
     <!--<xsl:output indent="yes"/>-->
     <sch:ns uri="http://www.w3.org/2005/Atom" prefix="atom"/>
@@ -34,7 +34,7 @@
                         <link href="http://evagriusponticus.net/index.htm"/>
                         <id>
                             <xsl:value-of
-                                select="concat('tag:evagriusponticus.net,2015:ed:2016-', $this-quarter)"
+                                select="concat('tag:evagriusponticus.net,2015:ed:', $this-year, '-', $this-quarter)"
                             />
                         </id>
                         <updated>

@@ -57,7 +57,7 @@
                     <xsl:variable name="this-item-other-ids" as="xs:string*"
                         select="dc:identifier/text()"/>
                     <xsl:variable name="this-item-all-ids" select="$this-item-tan-id, $this-item-other-ids" as="xs:string*"/>
-                    <xsl:variable name="this-item-transcriptions" select="$corpus-collection/*[tan:head/tan:source[tan:IRI = $this-item-tan-id]]"/>
+                    <xsl:variable name="this-item-transcriptions" select="$corpus-collection[*/tan:head/tan:source[tan:IRI = $this-item-tan-id]]"/>
                     <xsl:text>&#xa;</xsl:text>
                     <tr id="{@rdf:about}">
                         <td>
@@ -107,7 +107,7 @@
                                     <xsl:for-each select="$subject-parsed">
                                         <xsl:variable name="corpus-id"
                                             select="replace(., '^(\d)', 'cpg$1')"/>
-                                        <a href="corpus-build.htm#{$corpus-id}">
+                                        <a href="corpus.htm#{$corpus-id}">
                                             <xsl:value-of
                                                 select="replace($corpus-id, 'cpg', ' CPG ')"/>
                                         </a>

@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tan="tag:textalign.net,2015:ns"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:z="http://www.zotero.org/namespaces/export#" xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:bib="http://purl.org/net/biblio#"
     xmlns:vcard="http://nwalsh.com/rdf/vCard#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -10,10 +10,13 @@
     xmlns:link="http://purl.org/rss/1.0/modules/link/"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
-    <xsl:output method="xhtml" indent="no"/>
-    <xsl:include href="../../TAN/TAN-1-dev/functions/TAN-c-functions.xsl"/>
-    <xsl:include href="../../TAN/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>
-    <xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>
+    <!--<xsl:output method="xhtml" indent="no"/>-->
+    <!--<xsl:include href="../../TAN/TAN-1-dev/functions/TAN-c-functions.xsl"/>-->
+    <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/functions/TAN-c-functions.xsl"/>-->
+    <!--<xsl:include href="../../TAN/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
+    <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
+    <!--<xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>-->
+    <xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>
     <xsl:variable name="gep-template" select="doc('../template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
         <xsl:document>
@@ -26,21 +29,22 @@
             <xsl:apply-templates select="$bibliography" mode="prep-rdf"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="corpus" select="doc('../tan/TAN-c/evagrius-corpus-TAN-c.xml')"/>
+    <xsl:variable name="corpus" select="doc('../tan/TAN-A-div/evagrius.TAN-A-div.xml')"/>
     <xsl:variable name="corpus-resolved" select="tan:resolve-doc($corpus)"/>
+    <xsl:variable name="corpus-expanded" select="tan:expand-doc($corpus-resolved)"/>
 
-    <xsl:template match="comment()" mode="html-cleanup insert-tablesorter prep-rdf">
+    <!--<xsl:template match="comment()" mode="html-cleanup insert-tablesorter prep-rdf">
         <xsl:copy-of select="."/>
-    </xsl:template>
-    <xsl:template match="text()" mode="insert-tablesorter prep-rdf">
+    </xsl:template>-->
+    <!--<xsl:template match="text()" mode="insert-tablesorter prep-rdf">
         <xsl:copy-of select="."/>
-    </xsl:template>
-    <xsl:template match="*" mode="html-cleanup insert-tablesorter prep-rdf">
+    </xsl:template>-->
+    <!--<xsl:template match="*" mode="html-cleanup insert-tablesorter prep-rdf">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates mode="#current"/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="head" mode="insert-tablesorter">
         <xsl:copy>
             <xsl:copy-of select="node()"/>
@@ -349,20 +353,21 @@
         <xsl:variable name="pass4" select="replace($pass3, '\.,', ',')"/>
         <xsl:copy-of select="tan:text-tags-to-html($pass4)"/>
     </xsl:template>
-    <xsl:variable name="element-regex" as="xs:string" select="'&lt;([a-zA-Z0-9]+)([^&gt;]*)&gt;(.+?)&lt;/\1&gt;'"/>
+    <xsl:variable name="element-regex" as="xs:string"
+        select="'&lt;([a-zA-Z0-9]+)([^&gt;]*)&gt;(.+?)&lt;/\1&gt;'"/>
     <xsl:function name="tan:text-tags-to-html" as="item()*">
         <xsl:param name="raw-text" as="xs:string?"/>
-        
-        <xsl:analyze-string select="$raw-text" regex="{$element-regex}"
-            flags="ms">
+
+        <xsl:analyze-string select="$raw-text" regex="{$element-regex}" flags="ms">
             <xsl:matching-substring>
                 <xsl:variable name="this-element-name" select="regex-group(1)"/>
                 <xsl:variable name="this-element-attributes" as="element()">
                     <attr>
                         <!--<xsl:attribute name="test" select="regex-group(2)"></xsl:attribute>-->
-                        <xsl:analyze-string select="regex-group(2)" regex="(\w+)\s*=\s*[&quot;&apos;&#34;](.+?)[&quot;&apos;&#34;]">
+                        <xsl:analyze-string select="regex-group(2)"
+                            regex="(\w+)\s*=\s*[&quot;&apos;&#34;](.+?)[&quot;&apos;&#34;]">
                             <xsl:matching-substring>
-                                <xsl:attribute name="{regex-group(1)}" select="regex-group(2)"></xsl:attribute>
+                                <xsl:attribute name="{regex-group(1)}" select="regex-group(2)"/>
                             </xsl:matching-substring>
                         </xsl:analyze-string>
                     </attr>
@@ -385,37 +390,90 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:function>
-    
+
     <xsl:function name="tan:transcription-hyperlink" as="element()?">
         <!-- Input: a transcription file (member of $corpus-collection) -->
         <!-- Output: <div> with hyperlink to transcription -->
-        <xsl:param name="transcriptions" as="item()*"/>
+        <xsl:param name="transcriptions" as="document-node()*"/>
         <xsl:if test="exists($transcriptions)">
             <div class="transcriptions">
-                Transcriptions: 
-                <xsl:for-each select="$transcriptions">
-                    <xsl:variable name="this-transcription-filename" select="tan:cfn(.)"/>
-                    <xsl:variable name="location-of-possible-html-file"
-                        select="resolve-uri(concat('../', $this-transcription-filename, '.html'), static-base-uri())"
-                    />
+                <xsl:text>Transcriptions:</xsl:text>
+                <xsl:for-each-group select="$transcriptions" group-by=".//*:body/@xml:lang">
+                    <xsl:variable name="this-lang" select="current-grouping-key()"/>
+                    <xsl:value-of select="concat(' ', $this-lang)"/>
+                    <xsl:variable name="group-count" select="count(current-group())"/>
                     <div>
-                        <xsl:value-of select=".//*:body/@xml:lang"/>
-                        <xsl:if test="doc-available($location-of-possible-html-file)">
+                        <xsl:for-each select="current-group()">
+                            <xsl:variable name="this-transcription" select="."/>
+                            <xsl:variable name="this-transcription-filename" select="tan:cfn(.)"/>
+                            <xsl:variable name="location-of-possible-html-file"
+                                select="resolve-uri(concat('../', $this-transcription-filename, '.html'), static-base-uri())"/>
+                            <xsl:if test="$group-count gt 1">
+                                <xsl:variable name="this-name"
+                                    select="$this-transcription/*/tan:head/tan:name[1]"/>
+                                <xsl:value-of select="concat(' (', $this-name, ')')"/>
+                            </xsl:if>
+
+                            <xsl:if test="doc-available($location-of-possible-html-file)">
+                                <xsl:text> </xsl:text>
+                                <a href="{concat($this-transcription-filename,'.html')}">html</a>
+                            </xsl:if>
                             <xsl:text> </xsl:text>
-                            <a href="{concat($this-transcription-filename,'.html')}">html</a>
-                        </xsl:if>
-                        <xsl:text> </xsl:text>
-                        <a href="{tan:uri-relative-to(tan:base-uri(.), $site-base-uri)}">
-                            <xsl:value-of
-                                select="
-                                    if (name(/*) = 'TEI') then
-                                        'tan-tei'
-                                    else
-                                        'tan'"
-                            /></a>
+                            <a href="{tan:uri-relative-to(tan:base-uri(.), $site-base-uri)}">
+                                <xsl:value-of
+                                    select="
+                                        if (name(/*) = 'TEI') then
+                                            'tan-tei'
+                                        else
+                                            'tan'"
+                                />
+                            </a>
+                        </xsl:for-each>
                     </div>
-                </xsl:for-each>
-            </div></xsl:if>
+
+                </xsl:for-each-group>
+            </div>
+        </xsl:if>
     </xsl:function>
-    
+
+
+    <xsl:function name="tan:hyperlink-text" as="item()*">
+        <xsl:param name="text" as="xs:string*"/>
+        <xsl:copy-of select="tan:hyperlink-text($text, ())"/>
+    </xsl:function>
+    <xsl:function name="tan:hyperlink-text" as="item()*">
+        <!-- Input: any text that might have URLs to be hyperlinked in HTML -->
+        <!-- Output: the same text with <a href=""> enclosing any URLs that are picked up. -->
+        <xsl:param name="text" as="xs:string*"/>
+        <xsl:param name="truncate-long-urls-at-length" as="xs:integer?"/>
+        <xsl:for-each select="$text">
+            <xsl:analyze-string select="." regex="((ht|f)tps?://|file:/)[\w+]+\.[\S]+">
+                <xsl:matching-substring>
+                    <xsl:variable name="url-norm" select="."/>
+                    <a href="{$url-norm}">
+                        <xsl:choose>
+                            <xsl:when test="$truncate-long-urls-at-length gt 0">
+                                <xsl:value-of
+                                    select="
+                                        concat(substring($url-norm, 1, $truncate-long-urls-at-length), if (string-length($url-norm) gt $truncate-long-urls-at-length) then
+                                            '&#x2026;'
+                                        else
+                                            ())"
+                                />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$url-norm"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </a>
+                </xsl:matching-substring>
+                <xsl:non-matching-substring>
+                    <xsl:value-of select="."/>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
+        </xsl:for-each>
+    </xsl:function>
+
+    <xsl:template match="atom:squelch"/>
+
 </xsl:stylesheet>

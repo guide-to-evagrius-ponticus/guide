@@ -133,12 +133,13 @@ h4 + div{
     text-indent: 0em;
     margin-top: 10px
 }
+/* drop cap initial letter */
 h2 + div:first-letter
 {
     font-size: 72px;
     float: left;
     margin-right: 4px;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 /* corpus and bibliography (tables) */
@@ -228,9 +229,9 @@ td.filler,
 }
 
 /* ancient testimonia styles */
-#life .item{
+.item{
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .meta .au{
     font-weight: bold;
@@ -258,4 +259,22 @@ td.filler,
 }
 .credit:before{
     content: " —";
+}
+ /* Exceptions to the collated parallel editions */
+.transcriptions div {
+    padding: 0px 4px 0px 0px;
+}
+div.TAN-T-merge > div.body{
+    padding-left: 24px;
+}
+div.div > div.ref {
+    margin: 6px 0px 0px -42px;
+    height: 3px;
+    font-variant: small-caps;
+    width: 42px;
+    font-size: 14px;
+    line-height: 18px;
+}
+div.version{
+    text-indent: initial;
 }

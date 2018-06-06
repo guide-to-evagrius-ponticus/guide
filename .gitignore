@@ -2,3 +2,7 @@ temp/*
 *.zip
 exhibit*
 *.php
+*.DS_Store
+*feedback*
+test-*
+scripts/jquery*
