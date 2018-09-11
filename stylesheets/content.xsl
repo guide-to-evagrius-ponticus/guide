@@ -55,8 +55,8 @@
                     <xsl:message>Diagnostics on</xsl:message>
                     <xsl:if test="$is-corpus">
                         <!--<xsl:copy-of select="$corpus-resolved"/>-->
-                        <!--<xsl:copy-of select="$corpus-expanded"/>-->
-                        <xsl:copy-of select="$pass3"/>
+                        <xsl:copy-of select="$corpus-expanded"/>
+                        <!--<xsl:copy-of select="$pass3"/>-->
                     </xsl:if>
                 </xsl:when>
                 <xsl:otherwise>

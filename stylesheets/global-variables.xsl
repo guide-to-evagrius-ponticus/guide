@@ -8,6 +8,6 @@
     <xsl:variable name="content" select="collection('../?select=content-*.htm')"/>
     <xsl:variable name="corpus-collection" select="collection('../tan/?select=cpg*.xml')"/>
     <xsl:variable name="corpus-collection-resolved"
-        select="tan:resolve-doc($corpus-collection, false(), (), (), (), ())"/>
+        select="tan:resolve-doc($corpus-collection)"/>
     <xsl:variable name="site-base-uri" select="resolve-uri('..', static-base-uri())"/>
 </xsl:stylesheet>

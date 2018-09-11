@@ -16,7 +16,8 @@
     <!--<xsl:include href="../../TAN/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
     <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
     <!--<xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>-->
-    <xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>
+    <!--<xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>-->
+    <xsl:import href="../../TAN/TAN-2019/applications/display/display%20TAN%20as%20HTML.xsl"/>
     <xsl:variable name="gep-template" select="doc('../template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
         <xsl:document>
