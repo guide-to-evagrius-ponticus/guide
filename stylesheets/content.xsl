@@ -15,7 +15,7 @@
     <xsl:include href="global-variables.xsl"/>
     <xsl:output method="xhtml" indent="yes"/>
 
-    <xsl:param name="diagnostics" as="xs:boolean" select="false()"/>
+    <xsl:param name="diagnostics" as="xs:boolean" select="true()"/>
     <xsl:param name="validation-phase" select="'normal'"/>
 
     <xsl:template match="/" priority="5">

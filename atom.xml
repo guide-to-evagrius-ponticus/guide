@@ -4,9 +4,28 @@
    xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2018-09-11T17:02:41.063-04:00</updated>
+   <updated>2018-12-07T08:42:48.621-05:00</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
+   <entry>
+      <title>Guide to Evagrius Ponticus, winter 2018 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2018-4</id>
+      <updated>2018-12-07T08:42:48.621-05:00</updated>
+      <published>2018-12-07T08:42:48.621-05:00</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The winter 2018 edition of the <em>Guide to Evagrius Ponticus</em> is now available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Bibliography</em>: 57 items updated.</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
    <entry>
       <title>Guide to Evagrius Ponticus, autumn 2018 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>
