@@ -6,6 +6,7 @@
     version="2.0">
     <xsl:include href="global-variables-for-schematron-validation.xsl"/>
     <xsl:variable name="content" select="collection('../?select=content-*.htm')"/>
+    <!--<xsl:variable name="content" select="collection('../?select=content-corpus.htm')"/>-->
     <xsl:variable name="corpus-collection" select="collection('../tan/?select=cpg*.xml')"/>
     <xsl:variable name="corpus-collection-resolved"
         select="tan:resolve-doc($corpus-collection)"/>

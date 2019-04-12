@@ -15,7 +15,7 @@
     <xsl:include href="global-variables.xsl"/>
     <xsl:output method="xhtml" indent="yes"/>
 
-    <xsl:param name="diagnostics" as="xs:boolean" select="true()"/>
+    <xsl:param name="diagnostics-on" as="xs:boolean" select="false()"/>
     <xsl:param name="validation-phase" select="'normal'"/>
 
     <xsl:template match="/" priority="5">
@@ -51,8 +51,8 @@
                 </xsl:choose>
             </xsl:variable>
             <xsl:choose>
-                <xsl:when test="$diagnostics">
-                    <xsl:message>Diagnostics on</xsl:message>
+                <xsl:when test="$diagnostics-on">
+                    <xsl:message>Diagnostics on; turn off to produce intended output</xsl:message>
                     <xsl:if test="$is-corpus">
                         <!--<xsl:copy-of select="$corpus-resolved"/>-->
                         <xsl:copy-of select="$corpus-expanded"/>

@@ -24,6 +24,11 @@
     
     <xsl:param name="works-to-exclude-regex-on-IRI">fra-Guillaumont</xsl:param>
     <xsl:template match="div[@class = 'body']|table[@id = 'corpus-table']" mode="template-to-corpus">
+        <xsl:variable name="diagnostics-on" select="true()"/>
+        <xsl:if test="$diagnostics-on">
+            <xsl:message select="'diagnostics on for template mode template-to-corpus'"/>
+            <xsl:message select="'TAN-A work elements: ', $corpus-expanded/tan:TAN-A-div/tan:head/tan:definitions/tan:work"/>
+        </xsl:if>
         <div class="links-to-other-formats">Other formats: <a
                 href="{($corpus-expanded/tan:TAN-A-div/tan:head/tan:master-location/@href)[1]}">TAN-A-div</a>
             (master)</div>
@@ -44,6 +49,7 @@
                 </tr>
             </thead>
             <tbody>
+                
                 <xsl:for-each
                     select="$corpus-expanded/tan:TAN-A-div/tan:head/tan:definitions/tan:work[tan:IRI[not(matches(., $works-to-exclude-regex-on-IRI))]]">
                     <xsl:sort select="@xml:id"/>
