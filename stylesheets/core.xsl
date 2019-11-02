@@ -17,22 +17,22 @@
     <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
     <!--<xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>-->
     <!--<xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>-->
-    <xsl:import href="../../TAN/TAN-2019/applications/display/display%20TAN%20as%20HTML.xsl"/>
+    <xsl:import href="../../TAN/TAN-2020/applications/display/display%20TAN%20as%20HTML.xsl"/>
     <xsl:variable name="gep-template" select="doc('../template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
         <xsl:document>
             <xsl:apply-templates select="$gep-template" mode="insert-tablesorter"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="bibliography" select="doc('../bibliography.rdf')"/>
+    <xsl:variable name="bibliography-rdf-file" select="doc('../bibliography.rdf')"/>
     <xsl:variable name="bibliography-prepped" as="document-node()">
         <xsl:document>
-            <xsl:apply-templates select="$bibliography" mode="prep-rdf"/>
+            <xsl:apply-templates select="$bibliography-rdf-file" mode="prep-rdf"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="corpus" select="doc('../tan/TAN-A-div/evagrius.TAN-A-div.xml')"/>
-    <xsl:variable name="corpus-resolved" select="tan:resolve-doc($corpus)"/>
-    <xsl:variable name="corpus-expanded" select="tan:expand-doc($corpus-resolved)"/>
+    <xsl:variable name="corpus-claims-file" select="doc('../tan/TAN-A/evagrius.TAN-A.xml')"/>
+    <xsl:variable name="corpus-claims-resolved" select="tan:resolve-doc($corpus-claims-file)"/>
+    <xsl:variable name="corpus-claims-expanded" select="tan:expand-doc($corpus-claims-resolved)"/>
 
     <!--<xsl:template match="comment()" mode="html-cleanup insert-tablesorter prep-rdf">
         <xsl:copy-of select="."/>
@@ -396,6 +396,12 @@
         <!-- Input: a transcription file (member of $corpus-collection) -->
         <!-- Output: <div> with hyperlink to transcription -->
         <xsl:param name="transcriptions" as="document-node()*"/>
+        <xsl:variable name="diagnostics-on" select="exists($transcriptions)"/>
+        <xsl:if test="$diagnostics-on">
+            <xsl:message select="'Diagnostics on for tan:transcription-hyperlink()'"/>
+            <xsl:message select="'Static base uri: ', static-base-uri()"/>
+            <xsl:message select="'Site base uri: ', $site-base-uri"/>
+        </xsl:if>
         <xsl:if test="exists($transcriptions)">
             <div class="transcriptions">
                 <xsl:text>Transcriptions:</xsl:text>
@@ -403,12 +409,25 @@
                     <xsl:variable name="this-lang" select="current-grouping-key()"/>
                     <xsl:value-of select="concat(' ', $this-lang)"/>
                     <xsl:variable name="group-count" select="count(current-group())"/>
+                    <xsl:if test="$diagnostics-on">
+                        <xsl:message select="'This lang: ', $this-lang"/>
+                        <xsl:message select="'Group count: ', $group-count"/>
+                    </xsl:if>
                     <div>
                         <xsl:for-each select="current-group()">
                             <xsl:variable name="this-transcription" select="."/>
+                            <xsl:variable name="this-transcription-base-uri" select="tan:base-uri(.)"/>
                             <xsl:variable name="this-transcription-filename" select="tan:cfn(.)"/>
                             <xsl:variable name="location-of-possible-html-file"
                                 select="resolve-uri(concat('../', $this-transcription-filename, '.html'), static-base-uri())"/>
+                            
+                            <xsl:if test="$diagnostics-on">
+                                <xsl:message select="'Transcription root: ', tan:shallow-copy(*)"/>
+                                <xsl:message select="'Transcription filename: ', $this-transcription-filename"/>
+                                <xsl:message select="'Transcription base uri: ', tan:base-uri(.)"/>
+                                <xsl:message select="'Location of possible html file: ', $location-of-possible-html-file"/>
+                            </xsl:if>
+                            
                             <xsl:if test="$group-count gt 1">
                                 <xsl:variable name="this-name"
                                     select="$this-transcription/*/tan:head/tan:name[1]"/>
@@ -475,6 +494,6 @@
         </xsl:for-each>
     </xsl:function>
 
-    <xsl:template match="atom:squelch"/>
+    <xsl:template match="atom:squelch | xsl:squelch"/>
 
 </xsl:stylesheet>

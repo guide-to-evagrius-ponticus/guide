@@ -4,7 +4,8 @@
     xmlns:tan="tag:textalign.net,2015:ns" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
-    <xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20merged%20sources%20as%20HTML.xsl"/>
+    <!--<xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20merged%20sources%20as%20HTML.xsl"/>-->
+    <xsl:import href="../../TAN/TAN-2020/applications/display/display%20merged%20sources%20as%20HTML.xsl"/>
     
     <xsl:param name="template-url-resolved"
         select="resolve-uri('../template.html', static-base-uri())"/>

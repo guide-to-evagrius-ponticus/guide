@@ -7,8 +7,8 @@
 
     <xsl:variable name="this-year" select="year-from-date(current-date())"/>
     <xsl:variable name="this-month" select="month-from-date(current-date())"/>
-    <!--<xsl:variable name="this-quarter" select="ceiling($this-month div 3)"/>-->
-    <!--<xsl:variable name="seasons" select="('spring', 'summer', 'autumn', 'winter')" as="xs:string+"/>-->
+    <xsl:variable name="this-quarter" select="ceiling($this-month div 3)"/>
+    <xsl:variable name="seasons" select="('spring', 'summer', 'autumn', 'winter')" as="xs:string+"/>
     <!--<xsl:variable name="this-season" as="xs:string?" select="$seasons[$this-quarter]"/>-->
     <xsl:variable name="this-season" as="xs:string">
         <xsl:choose>

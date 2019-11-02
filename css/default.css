@@ -149,10 +149,17 @@ table{
 thead{
     text-align: center
 }
-table tbody{
+table > tbody{
     font-family: 'garamond-premier-pro', garamond, serif;
     font-size: 20px;
     line-height: 140%
+}
+.ancient-translations > table{
+    margin-left: 10px
+}
+.ancient-translations > table > tbody{
+    font-size: 14px;
+    line-height: 120%
 }
 .book-title{
     font-style: italic;
