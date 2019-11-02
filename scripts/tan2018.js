@@ -223,6 +223,9 @@ jQuery.fn.justtext = function () {
 $(".label").click(function () {
     $(this).nextAll().toggle("fast");
 });
+/*$("*:has(.item)").click(function () {
+    $(this).children('.item').toggle("fast");
+});*/
 prepareDocument = function () {
     repositionTokClaims();
 };

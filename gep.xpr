@@ -29,6 +29,21 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tan/cpg2430.eng.dysinger.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>stylesheets/content.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -105,21 +120,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>tan/cpg2430.grc.guillaumonts.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430.eng.dysinger.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
