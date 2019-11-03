@@ -267,7 +267,25 @@ td.filler,
 .credit:before{
     content: " —";
 }
- /* Exceptions to the collated parallel editions */
+
+ /* Exceptions for the collated parallel editions */
+.head{
+   line-height:120%;
+   font-size:smaller;
+   margin-left: -6px;
+}
+.head .label{
+   font-variant:small-caps;
+}
+.accessed-when{
+   display:inline;
+}
+.accessed-when:before{
+   content:"(accessed "
+}
+.accessed-when:after{
+   content:") "
+}
 .transcriptions div {
     padding: 0px 4px 0px 0px;
 }
@@ -282,6 +300,13 @@ div.div > div.ref {
     font-size: 14px;
     line-height: 18px;
 }
-div.version{
+.body div.version,
+.head{
     text-indent: initial;
+}
+.tei.p * {
+   margin-left: initial;
+}
+.list > .item{
+   margin: 0px 24px;
 }

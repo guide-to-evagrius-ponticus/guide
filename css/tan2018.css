@@ -1,6 +1,8 @@
-/* css for 2018 version of schemas */
+/* css for 2018 version of TAN */
 
-/* background */
+
+/* BACKGROUND */
+
 .group > .label:hover,
 .TAN-T-merge .head > .src:hover
 {
@@ -12,6 +14,10 @@ div.claim > div:first-of-type,
 tr > td.irrelevant
 {
     background: lightgray;
+}
+.change > .who,
+.change > .when{
+   background: gray;
 }
 .lookatme {
     background: green;
@@ -79,9 +85,12 @@ tr > td.irrelevant
     background-color: #ffccff !important;
 }
 
-/* borders */
 
-.head {
+/* BORDERS */
+
+.head,
+.head .item,
+.resp{
     border: 1px solid tan;
     border-radius: 5px;
 }
@@ -90,7 +99,9 @@ body > div:first-child ~ div {
     border-top: 2px solid black
 }
 
-/* color */
+
+/* COLOR */
+
 .div > .tok > *,
 .score
 {
@@ -106,22 +117,31 @@ tr td.irrelevant {
     color: lightgray;
 }
 
-/* cursor */
+
+/* CONTENT */
+
+.licensor:before{
+   content: "licensor: ";
+}
+
+
+/* CURSOR */
+
 .TAN-T-merge .head {
     cursor: move;
 }
-.group > .label,
-.head > .label,
+* > .label,
 .TAN-T-merge .head > .src,
 .switch
 {
     cursor: pointer
 }
 
-/* display and flex flow */
 
-.group > .label ~ *,
-.head > .label ~ *,
+/* DISPLAY AND FLEX FLOW */
+
+/* A label signals information that should be hidden unless the label is clicked */
+* > .label ~ *,
 /* hide specific elements that you wish to suppress */
 .error,
 .warning,
@@ -140,10 +160,7 @@ tr td.irrelevant {
 .TAN-T-merge .orig-ref,
 .TAN-T-merge .version > .ref > *,
 .TAN-T-merge .version > .n,
-/* suppress the info in each TAN-T-merge head so the source id can fit a single cell */
 .TAN-T-merge .head > .label ~ *,
-/* suppress TEI in leaf divs, to avoid duplication */
-.tan .tei,
 .tok-ref > .max,
 .tok > .tok-ref ~ *,
 .div .tok-ref > .src,
@@ -155,18 +172,20 @@ div.version > div.ref
 }
 .tok,
 .non-tok,
-div.p > *,
 .when,
-.who,
 .tok *,
+div.tei.p *
 {
     display: inline;
 }
 .TAN-T-merge .head,
 .div.version > .orig-ref,
+.head .item,
 .div > .claim,
 .claim .score,
-.claim .ref
+.claim .ref,
+.change > .who,
+.change > .when
 {
     display: inline-block
 }
@@ -179,16 +198,10 @@ table {
 }
 .table {
     display: table;
-    /*width: 100%;*/
-    /*display: flex;*/
-    /*flex-direction: column*/
 }
 .tr {
     display: table-row;
     border: 1px solid blue;
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-    /*align-items: center;*/
 }
 .TAN-T-merge .version,
 .align > .tok,
@@ -198,19 +211,6 @@ table {
     /*border: 1px solid green;*/
     vertical-align: middle;
 }
-/*.version{
-    width: 33%
-}*/
-/*.tr > .td {
-    flex-grow: 3;
-    flex-shrink: 2
-}
-.tr > .version{
-    flex-grow: 1;
-    flex-shrink: 3;
-}*/
-/* float */
-/* leaf-div metadata */
 .TAN-T .n
 {
     float: left;
@@ -218,7 +218,7 @@ table {
     color: gray
 }
 .when,
-.who,
+/*.who,*/
 .claimant,
 .switch,
 .filter
@@ -233,47 +233,48 @@ table {
 
 
 /* FONTS */
+
 /* font faces */
 @font-face
 {
     font-family: "Rosario";
-    src: url('../../fonts/Rosario-Regular.ttf');
+    src: url('../fonts/Rosario-Regular.ttf');
 }
 @font-face {
     font-family: "Rosario";
-    src: url("../../fonts/Rosario-Bold.ttf");
+    src: url("../fonts/Rosario-Bold.ttf");
     font-weight: bold;
 }
 @font-face {
     font-family: "Rosario";
-    src: url("../../fonts/Rosario-Italic.ttf");
+    src: url("../fonts/Rosario-Italic.ttf");
     font-style: italic, oblique;
 }
 @font-face {
     font-family: "Rosario";
-    src: url("../../fonts/Rosario-BoldItalic.ttf");
+    src: url("../fonts/Rosario-BoldItalic.ttf");
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "Sorts Mill Goudy";
-    src: url("../../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+    src: url("../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
     font-style: normal;
 }
 @font-face {
     font-family: "Sorts Mill Goudy";
-    src: url("../../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+    src: url("../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
     font-style: italic;
 }
 @font-face
 {
     font-family: noto;
-    src: url('../../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
+    src: url('../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
 }
 @font-face
 {
     font-family: antinoou;
-    src: url('../../fonts/Antinoou.ttf') format('truetype');
+    src: url('../fonts/Antinoou.ttf') format('truetype');
 }
 body {
     font-family: 'Sorts Mill Goudy';
@@ -286,7 +287,7 @@ body > * > .name,
     font-family: 'Rosario';
 }
 .when,
-.who,
+/*.who,*/
 .matches-m,
 .IRI {
     font-family: courier, fixed, monospace
@@ -296,7 +297,7 @@ body > * > .name,
 .head,
 .teiHeader,
 .IRI,
-.who,
+/*.who,*/
 .when
 .claimant,
 .desc,
@@ -308,7 +309,8 @@ body > * > .name,
 {
     font-size: large;
 }
-.div > .tok > * {
+.div > .tok > *,
+.head .item {
     font-size: smaller;
 }
 .name,
@@ -319,21 +321,27 @@ body > * > .name,
     font-weight: 900;
 }
 
+.quote{
+   font-style:italic;
+}
 
 
-/* height */
-/*div.ref
-{
-    height: 6px
-}*/
+/* LINE HEIGHT */
 
-/* margins */
+.head .item{
+   line-height: 120%;
+}
+
+
+/* MARGINS */
+
 .TAN-A-tok ~ .TAN-T .div,
 .TAN-A-lm ~ .TAN-T .div {
     margin-top: 60px;
 }
-
-/* margins */
+.head .item{
+   margin:inherit;
+}
 div {
     margin-left: 6px;
 }
@@ -349,19 +357,32 @@ div.group.sortable,
 .claim{
     margin-bottom: 20px
 }
-/* opacity */
+.change > .who,
+.change > .when{
+   margin-right: 6px;
+}
+
+
+/* OPACITY */
+
 .suppressed {
     opacity: 0.5;
 }
 
 
-/* padding */
+/* PADDING */
+
 .div.version,
 #parameters .td{
     padding: 0px 8px;
 }
+.head .item{
+   padding-right: 6px;
+}
 
-/* position */
+
+/* POSITION */
+
 .div > .tok > * {
     position: absolute;
 }
@@ -369,8 +390,11 @@ div.group.sortable,
     position: relative;
 }
 
-/* text */
-thead td {
+
+/* TEXT */
+
+thead td,
+.affects-element{
     text-align: center;
 }
 table.tablesorter > tbody > tr > td {
@@ -382,219 +406,8 @@ table.tablesorter > tbody > tr > td {
 .b {
     text-decoration: line-through;
 }
-div.ref
+div.ref,
+.head .item > *
 {
     text-indent: 0px
 }
-
-/* ITEMS BELOW HAVE BEEN RETAINED FROM AN OLD VERSION OF THIS CSS */
-
-/*/\* display and flex flow *\/
-.error,
-.info,
-.fatal,
-.head .label ~ div,
-.tei-label ~ div,
-.source .location .label ~ div,
-.comment,
-.change,
-.role,
-.realign,
-.align,
-.work .IRI,
-.source > .IRI,
-div.source > div.src,
-table.claim tbody,
-div.name > div.lang,
-.TAN-A-tok .TAN-T .orig-ref,
-.TAN-A-tok .TAN-T .gloss,
-.TAN-A-tok .TAN-T .cert,
-.TAN-A-tok .TAN-T .reuse-type,
-.TAN-LM .TAN-T .orig-ref,
-.TAN-LM .TAN-T .gloss,
-.TAN-LM .TAN-T .which,
-.group:not(*),
-.xref,
-.anas > *:not(.label),
-.m > .f,
-div.f div,
-div.f > div.id,
-div.f > div.code{
-    display: none;
-}
-td div{
-    display: initial;
-}
-.leaf > div.ref,
-div.rend,
-tr:first-of-type > td div.src,
-td div.pre-realign-ref,
-div.f div.name:nth-of-type(1){
-    display: block;
-}
-.claim,
-.claim > div,
-.TAN-A-tok .TAN-T .div,
-.TAN-A-tok .TAN-T .non-tok,
-.TAN-A-tok .TAN-T .tok,
-.TAN-LM .TAN-T .div,
-.TAN-LM .TAN-T .non-tok,
-.TAN-LM .TAN-T .tok
-{
-    display: flex
-}
-.claim > * > .label
-{
-    display: inline-block
-}
-.claim > div.claimant{
-    display: block
-}
-.TAN-A-tok .TAN-T,
-.TAN-LM .TAN-T{
-    display: table-cell
-}
-/\* height, width *\/
-.gloss{
-    height: auto;
-    width: auto;
-}
-/\* alignment, position, flex-flow *\/
-.claim > div,
-.TAN-A-tok .TAN-T .div,
-.TAN-LM .TAN-T .div{
-    align-items: flex-end;
-    flex-flow: row wrap;
-}
-.anchor,
-.xref{
-    position: relative;
-}
-.gloss,
-.xref > .cert,
-.reuse-type{
-    position: absolute;
-}
-.xref > .cert,
-.reuse-type{
-    bottom: 36px;
-}
-
-/\*td[rowspan]{
-    flex-flow: wrap
-}*\/
-/\* text *\/
-.type--para,
-.desc{
-    text-indent: 10px
-}
-
-/\* color *\/
-body > * > .name,
-.label,
-td div.pre-realign-ref,
-.tei-label,
-div.rend,
-.orig-ref{
-    color: sienna;
-}
-.ref,
-.TAN-A-div .orig-ref,
-.claimant,
-td div.src{
-    color: gray;
-}
-.gloss,
-.tok[class *= gloss]{
-    color: blue;
-}
-.warning,
-.warning.gloss,
-.refmatch{
-    color: red;
-}
-.gloss .f{
-    color: initial;
-}
-/\* align *\/
-.TAN-A-div .orig-ref,
-tr:first-of-type > td div.src,
-.gloss,
-.xref > .cert,
-.reuse-type{
-    text-align: center
-}
-div.f > div.desc{
-    text-align: left
-}
-/\* width *\/
-.leaf > div.ref,
-.leaf > div.orig-ref{
-    width: 40px
-}
-.equate-works .source{
-    width: 200px
-}
-
-div[class ^= tei],
-div.tok,
-div.non-tok,
-.anchor,
-.declarations,
-.gloss,
-.gloss *,
-.cert,
-.reuse-types,
-.ver *{
-    margin-left: 0px;
-}
-.label,
-.tei-label{
-    margin-right: 6px;
-}
-.leading-start,
-.body > div > div,
-.feature{
-    margin-top: 12px;
-}
-.head > .name:first-of-type,
-.TAN-A-div > .body > div{
-    margin-top: 24px;
-}
-.leading-end,
-.equate-works,
-.TAN-A-div > .work > *{
-    margin-bottom: 12px;
-}
-.leaf > div.ref,
-.leaf > div.orig-ref,
-.comment > .when,
-.comment > .who,
-.change > .when,
-.change > .who{
-    margin: 0px 6px;
-}
-td > div.label,
-td div.pre-realign-ref{
-    margin: 0px 3px;
-}
-/\* content *\/
-td div.pre-realign-ref:before,
-.TAN-A-div .orig-ref:before{
-    content: "= "
-}
-/\* buttons *\/
-.equate-works .source{
-    text-shadow: 1px 1px 1px white;
-    box-shadow: 2px 2px 2px #bbb;
-    border: solid thin #882d13;
-    border-radius: .7em;
-}
-/\* transition *\/
-.lookatme{
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}*/

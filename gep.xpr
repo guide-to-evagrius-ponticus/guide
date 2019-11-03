@@ -29,7 +29,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
+                                    <String>tan/cpg2430.eng.dysinger.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -44,11 +44,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>stylesheets/transcriptions.xsl</String>
+                                    <String>stylesheets/content.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>run XSLT against itself</String>
+                                        <String>Create GEP content</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -59,11 +59,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>stylesheets/content.xsl</String>
+                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Create GEP content</String>
+                                        <String>TAN-T to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
