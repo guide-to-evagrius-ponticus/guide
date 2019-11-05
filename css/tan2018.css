@@ -4,7 +4,7 @@
 /* BACKGROUND */
 
 .group > .label:hover,
-.TAN-T-merge .head > .src:hover
+.TAN-T_merge .head > .src:hover
 {
     background-color: lightgreen;
 }
@@ -127,11 +127,11 @@ tr td.irrelevant {
 
 /* CURSOR */
 
-.TAN-T-merge .head {
+.TAN-T_merge .head {
     cursor: move;
 }
 * > .label,
-.TAN-T-merge .head > .src,
+.TAN-T_merge .head > .src,
 .switch
 {
     cursor: pointer
@@ -154,13 +154,13 @@ tr td.irrelevant {
 /* TAN-T expansions produce both <ref> and <n>s. Your choice as to which to display */
 .TAN-T .ref,
 .div > .src,
-.TAN-T-merge > .label,
-.TAN-T-merge .n,
-.TAN-T-merge .tr > .src,
-.TAN-T-merge .orig-ref,
-.TAN-T-merge .version > .ref > *,
-.TAN-T-merge .version > .n,
-.TAN-T-merge .head > .label ~ *,
+.TAN-T_merge > .label,
+.TAN-T_merge .n,
+.TAN-T_merge .tr > .src,
+.TAN-T_merge .orig-ref,
+.TAN-T_merge .version > .ref > *,
+.TAN-T_merge .version > .n,
+.TAN-T_merge .head > .label ~ *,
 .tok-ref > .max,
 .tok > .tok-ref ~ *,
 .div .tok-ref > .src,
@@ -178,7 +178,7 @@ div.tei.p *
 {
     display: inline;
 }
-.TAN-T-merge .head,
+.TAN-T_merge .head,
 .div.version > .orig-ref,
 .head .item,
 .div > .claim,
@@ -189,7 +189,7 @@ div.tei.p *
 {
     display: inline-block
 }
-.TAN-T-merge .td > .version {
+.TAN-T_merge .td > .version {
     display: block;
 }
 
@@ -203,7 +203,7 @@ table {
     display: table-row;
     border: 1px solid blue;
 }
-.TAN-T-merge .version,
+.TAN-T_merge .version,
 .align > .tok,
 .td,
 .claim > *{

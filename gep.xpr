@@ -14,11 +14,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2430.eng.dysinger.xml</String>
+                                    <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>TAN-T to HTML</String>
+                                        <String>TAN-A to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -39,21 +39,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/content.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Create GEP content</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -199,21 +184,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Create GEP content</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A-div/cpg2439.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -704,86 +674,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/TAN-A-div/cpg2458.4.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A-div/cpg2430.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A-div/cpg2432.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A-div/cpg2431.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>tan/cpg2447.grc.PG.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A-div/cpg2447.TAN-A-div.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A-div to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1215,7 +1110,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>TAN-A-div to HTML</String>
+                                    <String>TAN-A to HTML</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -1233,7 +1128,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/stylesheets/transcriptions-tan-a-div.xsl</String>
+                                    <String>${pdu}/stylesheets/transcriptions-tan-a.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>

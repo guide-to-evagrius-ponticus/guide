@@ -18,6 +18,7 @@
     <xsl:param name="validation-phase" select="'terse'"/>
     <xsl:param name="distribute-vocabulary" select="true()"/>
     
+
     <!-- STEP 1: ADJUST INPUT (SELF EXPANDED) -->
     <xsl:variable name="input-adjusted-for-gep" as="document-node()?">
         <xsl:apply-templates select="$self-expanded" mode="adjust-tan-t-for-gep"/>
@@ -35,7 +36,6 @@
         select="()"/>
     <!-- skip tei elements, errors, warnings -->
     <xsl:template match="tei:teiHeader | tan:div[tei:*]/text() | tan:error | tan:warning | tan:help" mode="tan-to-html-pass-2"/>
-    
     
     
     <!-- STEP 3: GET TEMPLATE AND INFUSE IT WITH INPUT CONTENT -->
@@ -87,6 +87,10 @@
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates mode="#current"/>
         </xsl:copy>
+    </xsl:template>
+    <!-- text changes -->
+    <xsl:template match="html:div[@class = ('n', 'ref')]/text()" mode="infuse-gep-template">
+        <xsl:value-of select="replace(., '_', ' ')"/>
     </xsl:template>
     <xsl:template match="html:div[@class = 'IRI']/text()[matches(., '^http')]" mode="infuse-gep-template">
         <a href="{.}">

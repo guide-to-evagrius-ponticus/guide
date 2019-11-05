@@ -114,6 +114,8 @@ h4{
     line-height: 150%;
     letter-spacing: 1px;
     z-index: 1;
+    text-indent:initial;
+    margin-left: 6px;
 }
 h1{
     text-align: center;
@@ -289,7 +291,7 @@ td.filler,
 .transcriptions div {
     padding: 0px 4px 0px 0px;
 }
-div.TAN-T-merge > div.body{
+div.TAN-T_merge > div.body{
     padding-left: 24px;
 }
 div.div > div.ref {
