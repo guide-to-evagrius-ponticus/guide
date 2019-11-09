@@ -288,6 +288,10 @@ td.filler,
 .accessed-when:after{
    content:") "
 }
+.when{
+   margin-left: 6px;
+}
+
 .transcriptions div {
     padding: 0px 4px 0px 0px;
 }
@@ -295,17 +299,53 @@ div.TAN-T_merge > div.body{
     padding-left: 24px;
 }
 div.div > div.ref {
-    margin: 6px 0px 0px -42px;
-    height: 3px;
+    /*margin: 6px 0px 0px -24px;*/
+    /*height: 3px;*/
     font-variant: small-caps;
-    width: 42px;
+    /*width: 42px;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18px;*/
+}
+div.control-wrapper div.sortable{
+   display: table-row;
+}
+div.control-wrapper div.sortable > *{
+   display: table-cell;
+}
+.primary-ns,
+div.ref > div.n{
+   display: none;
+}
+/* generally, groups and items are like table cells... */
+div.group,
+div.item{
+   display:table-cell;
+}
+/* ...unless if they enclose metadata, in which case they are blocks, or... */
+div.head div.group,
+div.head div.item{
+   display:block;
+}
+/* ...unless they are top-level categories of a head, in which case they're hidden until the user wants to see. */
+div.head > div.label ~ div.group{
+   display: none;
+}
+/*div.sortable > *{
+   display:inline-block;
+}*/
+.control-wrapper div.info.label{
+   display:inline-block;
+   /*width: 24px;*/
+   /*background-color:inherit;*/
 }
 .body div.version,
-.head{
+.control-wrapper{
     text-indent: initial;
 }
+div.version-wrapper > div.item{
+   background-color: initial;
+}
+/* TEI modifications */
 .tei.p * {
    margin-left: initial;
 }

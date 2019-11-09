@@ -206,6 +206,7 @@ table {
 .TAN-T_merge .version,
 .align > .tok,
 .td,
+.version-wrapper > .group > .group,
 .claim > *{
     display: table-cell;
     /*border: 1px solid green;*/

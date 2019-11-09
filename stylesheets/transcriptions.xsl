@@ -73,7 +73,7 @@
         <!-- Insert an info icon label for anything that's a vocab item not preceded by a sibling label -->
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-            <div class="label">🛈</div>
+            <div class="label info">🛈</div>
             <xsl:apply-templates mode="#current"/>
         </xsl:copy>
     </xsl:template>

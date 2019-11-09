@@ -14,11 +14,71 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tan/TAN-A/cpg2432.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2431.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2431.grc.frankenberg.tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>TAN-A to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>template.html</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Create GEP content</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -44,11 +104,26 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
+                                    <String>stylesheets/transcriptions.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>TAN-T to HTML</String>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/content.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Create GEP content</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -59,11 +134,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>template.html</String>
+                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Create GEP content</String>
+                                        <String>TAN-T to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -644,21 +719,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2431.grc.frankenberg.tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>tan/cpg2431.eng.dysinger.tei.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -1149,7 +1209,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/test-${cfn}.html</String>
+                                    <String>${pd}/${xpath_eval(replace(base-uri(),'.+((no)?cpg.+).TAN-A.+','$1'))}.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
