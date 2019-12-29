@@ -2,11 +2,15 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tan="tag:textalign.net,2015:ns"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="2.0">
     
     <xsl:param name="distribute-vocabulary" select="true()"/>
+    
+    <!-- When citing scripta, what actions should have priority? -->
+    <xsl:param name="scripta-claim-priority-sequence" as="xs:string+" select="('edits', 'transcribes', 'translates', 'quotes')"/>
+    <xsl:param name="scripta-claim-priority-sequence-labels" as="xs:string+" select="('editions', 'transcriptions', 'translations', 'extracts')"/>
     
     <xsl:template match="tan:item/tan:desc" mode="reduce-tan-voc-files">
         <xsl:copy-of select="."/>
@@ -32,27 +36,37 @@
             href="{($corpus-claims-expanded/tan:TAN-A/tan:head/tan:master-location/@href)[1]}">TAN-A</a>
             (master)</div>
         <input class="search" type="search" data-column="all"/>
-        <table class="tablesorter show-last-col-only" id="corpus-table">
+        <table class="tablesorter search show-last-col-only" id="corpus-table">
             <thead>
                 <tr>
+                    <td>Title and description</td>
+                    <td>Author</td>
+                    <td>Language</td>
+                    <td>Portion extant</td>
+                    <td>CPG</td>
+                    <!-- we add a filler because in our css, we are going to hide the first five columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
+                    <td colspan="5" class="filler"/>
+                </tr>
+                <!--<tr>
                     <td rowspan="2">Title and description</td>
                     <td rowspan="2">Author</td>
                     <td colspan="2">Original</td>
                     <td rowspan="2">CPG</td>
-                    <!-- we add a filler because in our css, we are going to hide the first four columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
-                    <td colspan="4" rowspan="2" class="filler"/>
+                    <td colspan="5" rowspan="2" class="filler"/>
                 </tr>
                 <tr>
                     <td>lang</td>
                     <td>extant (%)</td>
-                </tr>
+                </tr>-->
             </thead>
             <tbody>
                 <xsl:for-each
                     select="$work-vocab-items/(tan:item[tan:affects-element = 'work'], tan:work)[tan:IRI[not(matches(., $works-to-exclude-regex-on-IRI))]]">
                     <!-- Sort the table rows by CPG number, putting the 'nocpg' numbers at the end -->
                     <xsl:sort select="(tan:IRI[matches(., 'cpg')])[1]"/>
-                    <xsl:apply-templates select="." mode="#current"/>
+                    <xsl:apply-templates select="." mode="#current">
+                        <xsl:with-param name="number-of-visible-sort-columns" select="5" tunnel="yes"/>
+                    </xsl:apply-templates>
                 </xsl:for-each>
                 
             </tbody>
@@ -63,12 +77,16 @@
         <xsl:apply-templates mode="#current"/>
     </xsl:template>
     <xsl:template match="tan:item | tan:work | tan:version" mode="template-to-corpus">
+        <xsl:param name="number-of-visible-sort-columns" as="xs:integer" select="4" tunnel="yes"/>
+        <!-- In the variables below we use "work" to refer not merely to works but to work-versions. This template applies first to Evagrius's work such
+            -and-such, and then to the X translation of work such-and-such. -->
         <xsl:variable name="this-work-item" select="."/>
         <!--<xsl:variable name="this-work-id" select="(tan:id, @xml:id)[1]"/>-->
         <xsl:variable name="this-work-id" select="(tan:name[matches(., 'cpg')])[1]"/>
         <xsl:variable name="this-is-a-version" select="(name(.) = 'version') or (tan:affects-element = 'version')"/>
         <xsl:variable name="these-work-names-sorted" as="element()*">
             <xsl:for-each select="$this-work-item/tan:name[not(@norm)]">
+                <!-- Sort the names according to language priority -->
                 <xsl:sort
                     select="
                         if (exists(@xml:lang)) then
@@ -79,6 +97,7 @@
             </xsl:for-each>
         </xsl:variable>
         <xsl:variable name="these-work-iris" select="tan:IRI"/>
+        <!-- Find transcriptions for the work at hand -->
         <xsl:variable name="corresponding-transcription-vocabulary-item"
             select="$corpus-collection-resolved/*/tan:head//(tan:work, tan:version, tan:item[tan:affects-element = ('work', 'version')])[tan:IRI = $these-work-iris]"
         />
@@ -86,16 +105,31 @@
             select="$corresponding-transcription-vocabulary-item/root()"/>
         <!--<xsl:variable name="this-work-tan-transcriptions-without-bibliography" select="$corresponding-transcription-vocabulary-item[not(tan:IRI = $bibliography-prepped/*/*/dc:description)]"/>-->
         
-        <xsl:variable name="claims-about-this-work"
+        <!-- Find all assertions about the work at hand -->
+        <xsl:variable name="claims-with-this-work-as-subject"
             select="
-                $corpus-claims-expanded/tan:TAN-A/tan:body/tan:claim[*[*/tan:IRI = $these-work-iris]]"/>
+                $corpus-claims-expanded/tan:TAN-A/tan:body/tan:claim[tan:subject/(self::tan:subject, tan:which)[*/tan:IRI = $these-work-iris]]"
+        />
+        <xsl:variable name="claims-with-this-work-as-object"
+            select="
+                $corpus-claims-expanded/tan:TAN-A/tan:body/tan:claim[tan:object/(self::tan:object, tan:which)[*/tan:IRI = $these-work-iris]]"
+        />
+        <!-- If the work is merely an object filter, then the claim is really about two or more other things, e.g., scriptum A transcribes scriptum B's version
+        of work such-and-such. -->
+        <xsl:variable name="claims-with-this-work-as-object-filter"
+            select="
+                $corpus-claims-expanded/tan:TAN-A/tan:body/tan:claim[tan:object[tan:which]/(tan:work, tan:version)[*/tan:IRI = $these-work-iris]]"
+        />
+
+        <!-- How does the work-version begin? -->
         <xsl:variable name="work-claims-re-incipit"
-            select="$claims-about-this-work[tan:verb[*/tan:name = 'has incipit']]"/>
+            select="$claims-with-this-work-as-subject[tan:verb[*/tan:name = 'has incipit']]"/>
+        <!-- In what language was the work originally written? (Some spurious works were really written not in Greek but in Syriac.) -->
         <xsl:variable name="work-claims-re-original-language"
-            select="$claims-about-this-work[tan:verb[*/tan:name = 'originally written']]"/>
+            select="$claims-with-this-work-as-subject[tan:verb[*/tan:name = 'originally written']]"/>
         <xsl:variable name="this-orig-lang-code"
             select="$work-claims-re-original-language/tan:in-lang"/>
-        <xsl:variable name="this-orig-lang"
+        <xsl:variable name="this-orig-lang-statement"
             select="
                 for $i in $work-claims-re-original-language
                 return
@@ -103,18 +137,47 @@
                         concat(' (', $i/tan:adverb/text(), ')')
                     else
                         ())"/>
-        <xsl:variable name="work-claims-re-ancient-translations"
-            select="$claims-about-this-work[tan:verb[*/tan:name = 'translates']]"/>
+        
+        <!-- Look for claims about what scripta edit, translate, transcribe, etc. the work at hand. -->
+        <xsl:variable name="work-claims-involving-scripta"
+            select="$claims-with-this-work-as-object[tan:subject[(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])]]"
+        />
+        
+        
+        <xsl:variable name="work-claims-re-translations"
+            select="$claims-with-this-work-as-object[tan:verb[*/tan:name = 'translates']]"/>
         <!--<xsl:variable name="ancient-translation-idrefs"
             select="$work-claims-re-ancient-translations/tan:subject"/>-->
         <!--<xsl:variable name="ancient-translation-vocabulary-items" select="tan:vocabulary('version', false(), $ancient-translation-idrefs, $corpus-claims-expanded/tan:TAN-A/tan:head)"/>-->
-        <xsl:variable name="ancient-translation-vocabulary-items" select="$work-claims-re-ancient-translations/tan:subject//*[tan:IRI]"/>
+        
+        <!-- The following scripta are claimed to translate the work at hand -->
+        <xsl:variable name="scripta-translation-items"
+            select="$work-claims-re-translations/tan:subject/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'][not(tan:IRI = $these-work-iris)])"
+        />
+        <!-- The following translations are not scripta but abstract entities, i.e., work-versions in their own right, all of them ancient translations. -->
+        <xsl:variable name="version-translation-items"
+            select="$work-claims-re-translations/tan:subject/(self::*, tan:which)/(tan:version, tan:item[not(tan:affects-element = 'scriptum')][not(tan:IRI = $these-work-iris)])"
+        />
+        <!--<xsl:variable name="ancient-translation-vocabulary-items" select="$work-claims-re-translations/tan:subject//*[tan:IRI]"/>-->
+        
+        <!-- Who or what has edited the work-version at hand? -->
+        <xsl:variable name="work-claims-re-editions"
+            select="$claims-with-this-work-as-object[tan:verb[*/tan:name = 'edits']]"/>
+        <!-- What scripta provide editions of the work-version at hand? -->
+        <xsl:variable name="scripta-edition-items"
+            select="$work-claims-re-editions/tan:subject/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'][not(tan:IRI = $these-work-iris)])"
+        />
+        
+        <!-- Who is claimed to be the author/creator? Not all works attributed to Evagrius are reliably attributed to him. -->
         <xsl:variable name="work-claims-re-authorship"
-            select="$claims-about-this-work[tan:verb[*/tan:name = 'is author of']]"/>
+            select="$claims-with-this-work-as-object[tan:verb[*/tan:name = 'is author of']]"/>
+        <!-- How much of the work-version at hand survives? -->
         <xsl:variable name="work-claims-re-portion-extant"
-            select="$claims-about-this-work[tan:verb[*/tan:IRI = 'tag:kalvesmaki.com,2014:verb:work-survives-in-original-language']]"/>
-        <xsl:variable name="work-claims-re-modern-editions" select="$claims-about-this-work[tan:subject[.//tan:affects-element = 'scriptum']]"/>
-        <xsl:variable name="modern-edition-iris" select="$work-claims-re-modern-editions/tan:subject//tan:IRI"/>
+            select="$claims-with-this-work-as-subject[tan:verb[*/tan:IRI = 'tag:kalvesmaki.com,2014:verb:work-survives-in-original-language']]"/>
+        <!-- Is the work extant? -->
+        <xsl:variable name="work-is-extant" select="not(matches(normalize-space($work-claims-re-portion-extant/tan:object/text()), '^0?\.?0$'))"/>
+        <!--<xsl:variable name="work-claims-re-modern-editions" select="$claims-with-this-work-as-object[tan:subject[.//tan:affects-element = 'scriptum']]"/>-->
+        <!--<xsl:variable name="modern-edition-iris" select="$work-claims-re-modern-editions/tan:subject//tan:IRI"/>-->
         <!--<xsl:variable name="this-id-to-be-searched-in-bibliography"
             select="concat(replace($this-work-id, '^cpg', ''), ' (translation|edition)')"/>-->
         <!--<xsl:variable name="this-id-regex-for-bibliography">
@@ -132,15 +195,19 @@
         </xsl:variable>-->
         <!--<xsl:variable name="bibliography-refs-to-this-work" as="element()*"
             select="$bibliography-prepped/*/*[*:subject[matches(., $this-id-regex-for-bibliography)]]"/>-->
+        
+        <!-- Find all bibliographical entries that are said to be editions or translations of the work -->
         <xsl:variable name="bibliography-refs-to-this-work" as="element()*"
-            select="$bibliography-prepped/*/*[dc:description = $modern-edition-iris]"/>
+            select="$bibliography-rdf-file/*/*[dc:description = ($scripta-translation-items/tan:IRI, $scripta-edition-items/tan:IRI)]"/>
+        
+        <!-- Look for a collated parallel HTML edition. -->
         <xsl:variable name="this-collated-edition-url" select="concat($this-work-id, '.html')"/>
         <xsl:variable name="collated-edition-available"
             select="doc-available(concat('../', $this-collated-edition-url))"/>
         <xsl:variable name="this-cpg-norm"
             select="normalize-space(replace($this-work-id, 'cpg', ' CPG '))"/>
         
-        <xsl:variable name="diagnostics-on" select="true()"/>
+        <xsl:variable name="diagnostics-on" select="false()"/>
         <xsl:if test="$diagnostics-on">
             <xsl:message select="'Diagnostics on, template mode template-to-corpus'"/>
             <xsl:message select="'This work item: ', $this-work-item"/>
@@ -148,17 +215,15 @@
             <!--<xsl:message select="'This work id:', $this-work-id"/>-->
             <xsl:message select="'This is a version: ', $this-is-a-version"/>
             <xsl:message select="'Work TAN transcriptions: ', count($this-work-tan-transcriptions), tan:shallow-copy($this-work-tan-transcriptions/*)"/>
-            <xsl:message select="'Claims about this work: ', $claims-about-this-work"/>
+            <xsl:message select="'Claims with this work as subject: ', $claims-with-this-work-as-subject"/>
+            <xsl:message select="'Claims with this work as object: ', $claims-with-this-work-as-object"/>
             <!--<xsl:message select="'ID regex for bibliography: ', $this-id-regex-for-bibliography"/>-->
             <xsl:message select="'Bibliography refs to this work: ', $bibliography-refs-to-this-work"/>
         </xsl:if>
 
-        <!--<test15a this=""><xsl:copy-of select="$this-work-item"/></test15a>-->
-        <!--<test15c><xsl:copy-of select="$corresponding-transcription-vocabulary-item"/></test15c>-->
-        <!--<test15b transcriptions=""><xsl:copy-of select="tan:shallow-copy($this-work-tan-transcriptions, 2)"/></test15b>-->
-        <!--<test15c claims-about-this=""><xsl:copy-of select="$claims-about-this-work"/></test15c>-->
-        <!--<test15f mod-edn-iris=""><xsl:copy-of select="$modern-edition-iris"/></test15f>-->
+        <!--<test23a><xsl:copy-of select="$claims-with-this-work-as-object-filter"/></test23a>-->
         <tr id="{$this-work-id}">
+            <!-- Next several <td>s are invisible, corresponding to sort columns in <thead> -->
             <td>
                 <xsl:apply-templates select="$these-work-names-sorted"
                     mode="template-to-corpus-td-content"/>
@@ -166,22 +231,25 @@
             <td>
                 <div>
                     <xsl:value-of
-                        select="$work-claims-re-authorship/ancestor-or-self::*[tan:subject][1]/tan:subject/text()"/>
-                    <xsl:value-of
-                        select="$work-claims-re-authorship/ancestor-or-self::*[tan:adverb][1]/tan:adverb/text()"
-                    />
+                        select="string-join(($work-claims-re-authorship/ancestor-or-self::*[tan:subject][1]/tan:subject/text(), $work-claims-re-authorship/ancestor-or-self::*[tan:adverb][1]/tan:adverb/text()), ' ')"/>
                 </div>
             </td>
             <td>
-                <xsl:apply-templates select="$work-claims-re-original-language/tan:object"
+                <xsl:apply-templates select="$work-claims-re-original-language/tan:in-lang"
                     mode="template-to-corpus-td-content"/>
             </td>
             <td>
                 <xsl:apply-templates select="$work-claims-re-portion-extant/tan:object"
                     mode="template-to-corpus-td-content"/>
             </td>
-            <td colspan="{if ($this-is-a-version) then 3 else 5}">
-                <!-- The main column of the table -->
+            <xsl:if test="$number-of-visible-sort-columns = 5">
+                <td>
+                    <xsl:value-of select="$this-cpg-norm"/>
+                </td>
+            </xsl:if>
+            <!-- The only column of the table that's visible -->
+            <!-- The trick here is that @colspan should be identical to the number of visible sort columns in the thead -->
+            <td colspan="{$number-of-visible-sort-columns}">
                 <div class="id-label">
                     <div class="cpg-no">
                         <xsl:value-of select="$this-cpg-norm"/>
@@ -206,7 +274,7 @@
                 </div>
                 <xsl:if test="not($this-orig-lang-code = 'grc') and not($this-is-a-version)">
                     <div class="orig-lang">Written originally in <xsl:value-of
-                            select="$this-orig-lang"/>. </div>
+                            select="$this-orig-lang-statement"/>. </div>
                 </xsl:if>
                 <xsl:apply-templates select="$work-claims-re-portion-extant/tan:object"
                     mode="template-to-corpus-portion-extant"/>
@@ -215,85 +283,262 @@
                 <xsl:apply-templates select="tan:desc" mode="template-to-corpus-td-content"/>
                 <xsl:apply-templates select="$work-claims-re-incipit/tan:object"
                     mode="template-to-corpus-incipit"/>
-                <!--<xsl:if
-                    test="exists($ancient-translation-vocabulary-items) and not($this-is-a-version)">
+                <xsl:if test="exists($version-translation-items)">
                     <xsl:variable name="ancient-translations-grouped" as="element()*"
-                        select="tan:group-elements-by-IRI($ancient-translation-vocabulary-items/(tan:item, tan:version))"
-                    />
-                    <div class="ancient-translations">
-                        <div>Ancient translations</div>
+                        select="tan:group-elements-by-IRI($version-translation-items)"/>
+                    <div class="ancient-translations collapse">
+                        <div class="label">Ancient translations</div>
+                        
                         <table class="tablesorter show-last-col-only">
                             <thead>
                                 <tr>
+                                    <td>Title and description</td>
+                                    <td>Creator</td>
+                                    <td>Language</td>
+                                    <td>Portion extant</td>
+                                    <td colspan="4" class="filler"/>
+                                </tr>
+                                <!--<tr>
                                     <td rowspan="2">Title and description</td>
+                                    <td rowspan="2">Authorship</td>
                                     <td colspan="2">Original</td>
-                                    <!-\- we add a filler because in our css, we are going to hide the first four columns in the tbody, and we need to balance them with an equal number of columns in the thead -\->
+                                    <!-\- the last <td>'s @colspan is equal to the number of preceding columns; it is invisible, 
+                                        counterbalancing the initial hidden columns in the table's body -\->
                                     <td colspan="4" rowspan="2" class="filler"/>
                                 </tr>
                                 <tr>
                                     <td>lang</td>
                                     <td>extant (%)</td>
-                                </tr>
+                                </tr>-->
                             </thead>
                             <tbody>
-                                <xsl:apply-templates select="$ancient-translations-grouped/*[1]"
-                                    mode="#current"/>
+                                <xsl:for-each select="$ancient-translations-grouped/*[1]">
+                                    <xsl:sort select="(.//tan:name[matches(., 'cpg')])[1]"/>
+                                    <xsl:apply-templates select="." mode="#current">
+                                        <xsl:with-param name="number-of-visible-sort-columns"
+                                            tunnel="yes" select="4"/>
+                                    </xsl:apply-templates>
+                                </xsl:for-each>
                             </tbody>
                         </table>
                     </div>
-                </xsl:if>-->
-                <!--<div class="ed-and-tr">
-                    <xsl:choose>
-                        <xsl:when test="count($bibliography-refs-to-this-work) gt 0">
-                            <xsl:text>Published editions and translations (</xsl:text>
-                            <xsl:value-of
-                                select="count(distinct-values($bibliography-refs-to-this-work/@*:about))"/>
-                            <xsl:text>): </xsl:text>
-                            <xsl:for-each-group select="$bibliography-refs-to-this-work"
-                                group-by="@*:about">
-                                <xsl:sort select="current-group()[1]/*:date" order="descending"/>
-                                <xsl:variable name="this-item-tan-id" as="xs:string*"
-                                    select="current-group()[1]/*:description"/>
-                                <xsl:variable name="this-item-transcriptions"
-                                    select="$this-work-tan-transcriptions[*/tan:head/tan:source/tan:IRI = $this-item-tan-id]"/>
-                                <xsl:variable name="these-refs" as="element()*">
-                                    <xsl:for-each select="current-group()">
-                                        <div>
-                                            <xsl:copy-of select="tan:analyze-subject-tag(.)"/>
-                                        </div>
+                </xsl:if>
+                <div class="ed-and-tr">
+                    <!-- Group scripta according to type. -->
+                    <xsl:for-each-group select="$work-claims-involving-scripta"
+                        group-by="tan:verb//tan:name[. = $scripta-claim-priority-sequence]">
+                        <xsl:sort
+                            select="index-of($scripta-claim-priority-sequence, current-grouping-key())"/>
+                        <xsl:variable name="this-type-index"
+                            select="index-of($scripta-claim-priority-sequence, current-grouping-key())"/>
+                        <xsl:variable name="this-type"
+                            select="$scripta-claim-priority-sequence-labels[$this-type-index]"/>
+                        <div class="{current-grouping-key()} collapse">
+                            <div class="label">
+                                <xsl:value-of select="$this-type"/>
+                            </div>
+                            <table class="tablesorter scripta">
+                                <thead>
+                                    <tr>
+                                        <xsl:if test="$this-type = 'translations'">
+                                            <td class="scriptum-lang">Language</td>
+                                        </xsl:if>
+                                        <td class="scriptum-date">Date</td>
+                                        <td class="scriptum-data">Source</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <xsl:for-each select="current-group()/tan:subject">
+                                        <!-- The date needs to be finagled a bit, because some dc:date values are ranges of years. -->
+                                        <xsl:sort order="descending"
+                                            select="number(replace(($bibliography-rdf-file/*/*[dc:description = current()/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI]/dc:date)[1],'^\D*(\d+)\D.*$','$1'))"/>
+                                        <xsl:variable name="these-scriptum-iris"
+                                            select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI"/>
+                                        <xsl:variable name="these-bib-records"
+                                            select="$bibliography-rdf-file/*/*[dc:description = $these-scriptum-iris]"/>
+                                        <xsl:variable name="this-date"
+                                            select="(($these-bib-records/dc:date), '?')[1]"/>
+                                        <!-- We adjust the language name to avoid parenthetical dates -->
+                                        <xsl:variable name="these-lang-codes" select="../tan:in-lang"/>
+                                        <xsl:variable name="this-lang"
+                                            select="
+                                                for $i in $these-lang-codes
+                                                return
+                                                    replace(tan:lang-name($i)[1], ' \(\d+-\)|\(to \d+\)', '')"/>
+                                        <xsl:variable name="this-work-object"
+                                            select="../tan:object[.//tan:IRI = $these-work-iris]"/>
+                                        <xsl:variable name="these-author-names"
+                                            select="$these-bib-records//foaf:surname"/>
+                                        <xsl:variable name="this-short-identifier"
+                                            select="
+                                                string-join(if (exists($these-author-names)) then
+                                                    $these-author-names
+                                                else
+                                                    $these-bib-records/dc:title, ', ')"/>
+                                        <xsl:variable name="this-where" as="item()*">
+                                            <xsl:copy-of
+                                                select="tan:rdf-bib-to-chicago-humanities-bibliography-html($these-bib-records)"
+                                            />
+                                        </xsl:variable>
+                                        <xsl:variable
+                                            name="these-relevant-supplementary-claims-with-this-scriptum-as-subject"
+                                            select="$claims-with-this-work-as-object-filter[tan:subject[descendant::tan:IRI = $these-scriptum-iris]]"/>
+                                        <xsl:variable
+                                            name="these-relevant-supplementary-claims-with-this-scriptum-as-object"
+                                            select="$claims-with-this-work-as-object-filter[tan:object[descendant::tan:IRI = $these-scriptum-iris]]"/>
+                                        <!-- grab all html pages that have a head entry for that particular scriptum and work combo; the XPath is unfortunately too long to read easily -->
+                                        <xsl:variable name="these-html-editions-first-check"
+                                            select="$html-transcription-collection[html:html/html:body//html:div[tokenize(@class, ' ') = 'head'][.//html:div[@class = 'source' and .//html:div[@class = 'IRI'] = $these-scriptum-iris]][.//html:div[@class = ('work', 'version') and .//html:div[@class = 'IRI'] = $these-work-iris]]]"/>
+                                       <!-- We refine further, to avoid cases where we're listing translations, and other version of that work have leaked in. This is not an accurate
+                                       fix, but it has to do for now, so as not to delay the 2020 edition any further. --> 
+                                        <xsl:variable name="these-html-editions"
+                                            select="
+                                                if (exists($these-lang-codes)) then
+                                                    $these-html-editions-first-check[html:html/html:body//html:div[tokenize(@class, ' ') = 'body'][.//@lang = $these-lang-codes]]
+                                                else
+                                                    $these-html-editions-first-check"
+                                        />
+                                        <!--<test29scriptum-iris><xsl:copy-of select="$these-scriptum-iris"/></test29scriptum-iris>
+                                        <test29work-version-iris><xsl:copy-of select="$these-work-iris"/></test29work-version-iris>
+                                        <test29lang-codes><xsl:copy-of select="$these-lang-codes"/></test29lang-codes>-->
+                                        <!--<xsl:if test="$these-scriptum-iris = 'tag:evagriusponticus.net,2012:scriptum:guillaumont-1958'">
+                                            <test29a><xsl:copy-of select="$html-transcription-collection/html:html/html:body//html:div[tokenize(@class, ' ') = 'head']//html:div[@class = 'source' and .//html:div[@class = 'IRI'] = $these-scriptum-iris]"/></test29a>
+                                            <test29b><xsl:copy-of select="$html-transcription-collection/html:html/html:body//html:div[tokenize(@class, ' ') = 'head']//html:div[@class = ('work', 'version') and .//html:div[@class = 'IRI'] = $these-work-iris]"/></test29b>
+                                        </xsl:if>-->
+                                        <xsl:variable name="these-comments" as="item()*">
+                                            <xsl:if test="exists(../@adverb)">
+                                                <div class="adverb">
+                                                    <!-- We expect that if there are multiple values of @adverb, the order and terminology is already best expressed in the original attribute. -->
+                                                    <xsl:value-of select="tan:initial-upper-case(../@adverb || ' ' || ../@verb || '. ')"/>
+                                                </div>
+                                            </xsl:if>
+                                            <xsl:apply-templates select="." mode="explain-div-filter">
+                                                <xsl:with-param name="initial-text" select="'See '"/>
+                                                <xsl:with-param name="final-text" select="'. '"/>
+                                            </xsl:apply-templates>
+                                            <xsl:apply-templates select="$this-work-object" mode="explain-div-filter">
+                                                <xsl:with-param name="initial-text" select="'Restricted to '"/>
+                                                <xsl:with-param name="final-text" select="'. '"/>
+                                            </xsl:apply-templates>
+                                            <!--<xsl:if test="exists($this-work-object/tan:div)">
+                                                <div class="object-div">
+                                                    <xsl:text>Restricted to </xsl:text>
+                                                    <xsl:for-each-group select="$this-work-object/tan:div"
+                                                        group-by="@type">
+                                                        <xsl:if test="position() gt 1">
+                                                          <xsl:text>, </xsl:text>
+                                                        </xsl:if>
+                                                        <xsl:value-of
+                                                          select="current-grouping-key() || ' ' || string-join(current-group()/@n, ', ')"
+                                                        />
+                                                    </xsl:for-each-group>
+                                                    <xsl:text>. </xsl:text>
+                                                </div>
+                                            </xsl:if>-->
+                                            <!-- We now add comments about how one scriptum relates with another, e.g., Dysinger transcribes Guillaumont's edition of work such-and-such -->
+                                            <!--<xsl:message select="'xrefs: ', $these-relevant-supplementary-claims-with-this-scriptum-as-subject, $these-relevant-supplementary-claims-with-this-scriptum-as-object"/>-->
+                                            <xsl:if test="exists($these-relevant-supplementary-claims-with-this-scriptum-as-subject) or exists($these-relevant-supplementary-claims-with-this-scriptum-as-object)">
+                                                <div class="xrefs collapse">
+                                                    <div class="label">cross-references</div>
+                                                    <xsl:apply-templates
+                                                        select="$these-relevant-supplementary-claims-with-this-scriptum-as-subject"
+                                                        mode="claim-to-comments-subject-understood">
+                                                        <xsl:with-param name="subject-iris" select="$these-scriptum-iris" tunnel="yes"/>
+                                                        <xsl:with-param name="work-version-iris" select="$these-work-iris" tunnel="yes"/>
+                                                    </xsl:apply-templates>
+                                                    <xsl:apply-templates
+                                                        select="$these-relevant-supplementary-claims-with-this-scriptum-as-object"
+                                                        mode="claim-to-comments-object-understood">
+                                                        <xsl:with-param name="object-iris" select="$these-scriptum-iris" tunnel="yes"/>
+                                                        <xsl:with-param name="work-version-iris" select="$these-work-iris" tunnel="yes"/>
+                                                    </xsl:apply-templates>
+                                                </div>
+                                            </xsl:if>
+                                        </xsl:variable>
+                                        
+                                        
+        
+                                        <tr>
+                                            <xsl:if test="$this-type = 'translations'">
+                                                <td class="scriptum-lang">
+                                                  <xsl:value-of select="$this-lang"/>
+                                                </td>
+                                            </xsl:if>
+                                            <td class="scriptum-date">
+                                                <xsl:value-of select="$this-date"/>
+                                            </td>
+                                            <td class="scriptum-data">
+                                                <div class="scriptum-bibl">
+                                                    <xsl:copy-of select="$this-where"/>
+                                                </div>
+                                                <div class="comment">
+                                                    <xsl:copy-of select="$these-comments"/>
+                                                </div>
+                                                <div class="html-editions">
+                                                    <xsl:for-each select="$these-html-editions">
+                                                        <xsl:sort
+                                                          select="exists(html:html/html:body/html:div[matches(@class, 'merge')])"/>
+                                                        <div>
+                                                          <a href="{tan:cfne(.)}">
+                                                          <xsl:choose>
+                                                          <xsl:when
+                                                          test="exists(html:html/html:body/html:div[matches(@class, 'merge')])">
+                                                          <xsl:text>collated parallel edition</xsl:text>
+                                                          </xsl:when>
+                                                          <xsl:otherwise>
+                                                          <xsl:text>transcription</xsl:text>
+                                                          </xsl:otherwise>
+                                                          </xsl:choose>
+                                                          </a>
+                                                        </div>
+                                                    </xsl:for-each>
+                                                </div>
+                                            </td>
+                                            
+                                        </tr>
                                     </xsl:for-each>
-                                </xsl:variable>
-                                <xsl:variable name="pub-prefix" as="xs:string*">
-                                    <xsl:for-each-group select="$these-refs" group-by="*[2]">
-                                        <xsl:value-of
-                                            select="concat(tan:item-sequence(current-group()/*[3]), current-grouping-key())"
-                                        />
-                                    </xsl:for-each-group>
-                                </xsl:variable>
-                                <xsl:if test="$diagnostics-on">
-                                    <xsl:message select="'This item TAN id: ', $this-item-tan-id"/>
-                                    <xsl:message select="'Item transcriptions: ', count($this-item-transcriptions), tan:shallow-copy($this-item-transcriptions/*)"/>
-                                    <xsl:message select="'Pub prefix: ', $pub-prefix"/>
-                                </xsl:if>
-                                <div class="pub">
-                                    <div class="pub-prefix">
-                                        <xsl:value-of
-                                            select="concat(normalize-space(tan:item-sequence($pub-prefix)), ': ')"
-                                        />
-                                    </div>
-                                    <xsl:copy-of
-                                        select="tan:rdf-bib-to-chicago-humanities-bibliography-html(current-group()[1]/.., $bibliography-prepped)"/>
-                                    <xsl:copy-of
-                                        select="tan:transcription-hyperlink($this-item-transcriptions)"
-                                    />
-                                </div>
-                            </xsl:for-each-group>
+                                </tbody>
+                            </table>
+                        </div>
+                    </xsl:for-each-group>
+                    <xsl:if test="not(exists($work-claims-involving-scripta)) and $work-is-extant">
+                        <div class="pending">List of sources pending.</div>
+                    </xsl:if>
+                </div>
+                <!--<div class="ed-and-tr collapse">
+                    <xsl:choose>
+                        <xsl:when test="exists($work-claims-involving-scripta) and ($work-is-extant)">
+                            <div class="label">
+                                <xsl:text>Editions and translations (</xsl:text>
+                                <xsl:value-of
+                                    select="count(distinct-values($bibliography-refs-to-this-work/@*:about))"/>
+                                <xsl:text>)</xsl:text>
+                            </div>
+                            <!-\-<test06a><xsl:copy-of select="$work-claims-involving-scripta"/></test06a>-\->
+                            <!-\-<test05a><xsl:copy-of select="$bibliography-refs-to-this-work"/></test05a>-\->
+                            <table class="tablesorter">
+                                <thead>
+                                    <tr>
+                                        <td>Type</td>
+                                        <td>Date</td>
+                                        <td>Language</td>
+                                        <td>Where</td>
+                                        <td>Online</td>
+                                        <td>Comments</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                     
+                                    
+                                </tbody>
+                            </table>
                         </xsl:when>
                         <xsl:when
                             test="exists($work-claims-re-portion-extant/tan:object[number(.) le 0])"
-                        /><!-\- Ignore works that no longer survive -\->
+                        />
                         <xsl:otherwise>
-                            <xsl:text>No published editions or translations are known</xsl:text>
+                            <xsl:text>List of editions or translations pending</xsl:text>
                         </xsl:otherwise>
                     </xsl:choose>
 
@@ -301,17 +546,20 @@
             </td>
         </tr>
     </xsl:template>
-    <xsl:template match="*" mode="template-to-corpus-td-content template-to-corpus-portion-extant template-to-corpus-authorship-claim">
+    <xsl:template match="*"
+        mode="template-to-corpus-td-content template-to-corpus-portion-extant template-to-corpus-authorship-claim 
+        claim-to-comments-subject-understood claim-to-comments-object-understood explain-div-filter">
         <!-- These subtemplates are shallow skips. -->
         <xsl:apply-templates mode="#current"/>
     </xsl:template>
+    <!-- These subtemplates should not include text unless explicitly told to do so -->
+    <xsl:template match="text()" mode="template-to-corpus-authorship-claim explain-div-filter claim-to-comments-subject-understood claim-to-comments-object-understood"/>
     <xsl:template match="tan:in-lang" mode="template-to-corpus-td-content">
         <div class="in-lang">
             <xsl:value-of select="tan:lang-name(text())"/>
         </div>
     </xsl:template>
-    <xsl:template match="tan:name | tan:in-lang | tan:object | tan:IRI | tan:desc" mode="template-to-corpus-td-content">
-        <xsl:variable name="is-language-code" select="self::tan:in-lang"/>
+    <xsl:template match="tan:name | tan:object | tan:IRI | tan:desc" mode="template-to-corpus-td-content">
         <div class="{name(.)}">
             <xsl:value-of select="text()"/>
         </div>
@@ -348,20 +596,32 @@
             <div class="claim">
                 <xsl:apply-templates select="$this-subject" mode="#current"/>
                 <xsl:apply-templates select="$this-adverb" mode="#current"/>
-                <xsl:text> wrote this work.</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="$this-adverb/text() = 'improbably'">
+                        <xsl:text> write this work.</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text> wrote this work.</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
             </div>
         </xsl:if>
     </xsl:template>
     <xsl:template match="tan:subject" mode="template-to-corpus-authorship-claim">
-        <!--<xsl:variable name="this-idref" select="text()"/>-->
-        <!--<xsl:variable name="this-vocab-item" as="element()*" select="tan:vocabulary('person', false(), $this-idref, root(.)/tan:TAN-A/tan:head)"/>-->
         <xsl:variable name="this-vocab-item" select="*"/>
         <xsl:variable name="this-first-name" select="($this-vocab-item//tan:name)[1]"/>
         <xsl:value-of select="tan:title-case($this-first-name)"/>
         <xsl:text> </xsl:text>
     </xsl:template>
     <xsl:template match="tan:adverb" mode="template-to-corpus-authorship-claim">
-        <xsl:value-of select="text()"/>
+        <xsl:choose>
+            <xsl:when test="text() = 'improbably'">
+                <xsl:text>probably did not</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="text()"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="tan:object" mode="template-to-corpus-incipit">
         <div class="incipit">
@@ -370,282 +630,124 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="div[@class = 'body']|table[@id = 'corpus-table']" mode="template-to-corpus-prev">
-        <xsl:variable name="work-vocab-items" select="tan:vocabulary('work', (), $corpus-claims-expanded/tan:TAN-A/tan:head)"/>
-        <xsl:variable name="diagnostics-on" select="true()"/>
-        <xsl:if test="$diagnostics-on">
-            <xsl:message select="'diagnostics on for template mode template-to-corpus'"/>
-        </xsl:if>
-        <div class="links-to-other-formats">Other formats: <a
-                href="{($corpus-claims-expanded/tan:TAN-A/tan:head/tan:master-location/@href)[1]}">TAN-A</a>
-            (master)</div>
-        <input class="search" type="search" data-column="all"/>
-        <table class="tablesorter show-last-col-only" id="corpus-table">
-            <thead>
-                <tr>
-                    <td rowspan="2">Title and description</td>
-                    <td rowspan="2">Author</td>
-                    <td colspan="2">Original</td>
-                    <td rowspan="2">CPG</td>
-                    <!-- we add a filler because in our css, we are going to hide the first four columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
-                    <td colspan="4" rowspan="2" class="filler"/>
-                </tr>
-                <tr>
-                    <td>lang</td>
-                    <td>extant (%)</td>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- $corpus-expanded/tan:TAN-A/tan:head/tan:definitions/tan:work[tan:IRI[not(matches(., $works-to-exclude-regex-on-IRI))]] -->
-                <xsl:for-each
-                    select="$work-vocab-items/tan:item[tan:IRI[not(matches(., $works-to-exclude-regex-on-IRI))]]">
-                    <xsl:sort select="(tan:id, @xml:id)[1]"/>
-                    <xsl:variable name="this-work" select="."/>
-                    <xsl:variable name="this-work-id" select="(tan:id, @xml:id)[1]"/>
-                    <xsl:variable name="this-work-iris" select="tan:IRI"/>
-                    <!--<xsl:variable name="this-work-tan-transcriptions"
-                        select="$corpus-collection-resolved[*/tan:head/tan:work/tan:IRI = $this-work-iris]"/>-->
-                    <xsl:variable name="this-work-tan-transcriptions"
-                        select="$corpus-collection-resolved[tan:vocabulary('work', (), */tan:head)/tan:item/tan:IRI = $this-work-iris]"
-                    />
-                    <xsl:variable name="these-claims"
-                        select="
-                            $corpus-claims-expanded/tan:TAN-A/tan:body/tan:claim[(tan:object, tan:subject) = $this-work-id]"/>
-                    <xsl:variable name="incipit-claims"
-                        select="$these-claims[tan:verb = 'has-incipit']"/>
-                    <xsl:variable name="orig-language-claims"
-                        select="$these-claims[tan:verb = 'written-in']"/>
-                    <xsl:variable name="ancient-translation-claims"
-                        select="$these-claims[tan:verb = 'is-translation-of']"/>
-                    <xsl:variable name="this-id-to-be-searched-in-bibliography"
-                        select="concat(replace(@xml:id, '^cpg', ''), ' (translation|edition)')"/>
-                    <xsl:variable name="bibliography-refs-to-this-work" as="element()*"
-                        select="$bibliography-prepped/*/*/*:subject[matches(., $this-id-to-be-searched-in-bibliography)]"/>
-                    <xsl:variable name="this-collated-edition-url"
-                        select="concat($this-work-id, '.html')"/>
-                    <xsl:variable name="collated-edition-available"
-                        select="doc-available(concat('../', $this-collated-edition-url))"/>
-                    <xsl:variable name="this-cpg-norm"
-                        select="normalize-space(replace($this-work-id, 'cpg', ' CPG '))"/>
-                    <xsl:variable name="this-authorship-claim"
-                        select="$these-claims[tan:verb = 'wrote']"/>
-                    <xsl:variable name="these-adverbs-and-authors" as="xs:string*">
-                        <xsl:for-each select="$this-authorship-claim[not(tan:adverb = 'not')]">
-                            <xsl:variable name="this-claim" select="."/>
-                            <xsl:for-each select="tan:subject">
-                                <xsl:variable name="this-person" select="."/>
-                                <xsl:variable name="this-person-name"
-                                    select="
-                                        if (. = 'evagrius') then
-                                            'Evagrius'
-                                        else
-                                            $corpus-claims-expanded/*/tan:head/tan:definitions/tan:person[@xml:id = $this-person]/tan:name[1]"/>
-                                <xsl:value-of
-                                    select="string-join((../tan:adverb, $this-person-name), ' ')"/>
-                            </xsl:for-each>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="these-adverbs-and-nonauthors" as="xs:string*">
-                        <xsl:for-each select="$this-authorship-claim[tan:adverb = 'not']">
-                            <xsl:variable name="this-claim" select="."/>
-                            <xsl:for-each select="tan:subject">
-                                <xsl:variable name="this-person" select="."/>
-                                <xsl:variable name="this-person-name"
-                                    select="
-                                        if (. = 'evagrius') then
-                                            'Evagrius'
-                                        else
-                                            $corpus-claims-expanded/*/tan:head/tan:definitions/tan:person[@xml:id = $this-person]/tan:name[1]"/>
-                                <xsl:value-of
-                                    select="string-join((../tan:adverb, $this-person-name), ' ')"/>
-                            </xsl:for-each>
-                        </xsl:for-each>
-                    </xsl:variable>
-                    <xsl:variable name="this-author-formatted-pass-1" as="xs:string*">
-                        <xsl:value-of select="tan:item-sequence($these-adverbs-and-nonauthors)"/>
-                        <xsl:if
-                            test="exists($these-adverbs-and-nonauthors) and exists($these-adverbs-and-authors)">
-                            <xsl:text>, but rather </xsl:text>
-                        </xsl:if>
-                        <xsl:value-of select="tan:item-sequence($these-adverbs-and-authors)"/>
-                    </xsl:variable>
-                    <xsl:variable name="this-author-formatted"
-                        select="replace(string-join($this-author-formatted-pass-1, ''), 'improbably', 'probably not')"/>
-                    <xsl:variable name="this-orig-lang-code" select="$orig-language-claims/tan:object"/>
-                    <xsl:variable name="this-orig-lang"
-                        select="
-                            for $i in $orig-language-claims
-                            return
-                                concat(tan:lang-name($i/tan:object)[1], if (exists($i/tan:adverb)) then
-                                    concat(' (', $i/tan:adverb, ')')
-                                else
-                                    ())"/>
-                    <xsl:variable name="this-orig-survival-qty" as="xs:double?"
-                        select="$these-claims[tan:verb = 'survives-in-original-language']/tan:object/text()"/>
-                    <xsl:variable name="this-orig-survival"
-                        select="format-number($this-orig-survival-qty, '#%')"/>
-                    <xsl:if test="$diagnostics-on">
-                        <xsl:message select="'this work id:', $this-work-id"/>
-                        <xsl:message select="'transcription count: ', count($this-work-tan-transcriptions)"/>
-                        <xsl:message select="'these claims: ', $these-claims"/>
-                    </xsl:if>
-                    <xsl:text>&#xa;</xsl:text>
-                    <tr id="{$this-work-id}">
-                        <td>
-                            <xsl:for-each select="tan:name">
-                                <div>
-                                    <xsl:value-of select="."/>
-                                </div>
-                            </xsl:for-each>
-                        </td>
-                        <td>
-                            <div>
-                                <xsl:value-of select="$this-authorship-claim/ancestor-or-self::*[tan:subject][1]/tan:subject"/>
-                                <xsl:value-of select="$this-authorship-claim/ancestor-or-self::*[tan:adverb][1]/tan:adverb"/>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <xsl:value-of select="$this-orig-lang-code"/>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <xsl:value-of select="$this-orig-survival-qty"/>
-                            </div>
-                        </td>
-                        <td colspan="5">
-                            <!-- The main lens of the table -->
-                            <div class="id-label">
-                                <div class="cpg-no">
-                                    <xsl:value-of select="$this-cpg-norm"/>
-                                </div>
-                                <xsl:for-each select="tan:IRI">
-                                    <div class="IRI">
-                                        <xsl:value-of select="."/>
-                                    </div>
-                                </xsl:for-each>
-                            </div>
-                            <div class="names">
-                                <xsl:for-each
-                                    select="distinct-values((@which, tan:name[not(@common)]))">
-                                    <div>
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="$collated-edition-available and position() = 1">
-                                                <a href="{$this-collated-edition-url}">
-                                                  <xsl:value-of select="."/>
-                                                </a>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="."/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </div>
-                                </xsl:for-each>
-                            </div>
-                            <xsl:if test="not($this-orig-lang-code = 'grc')">
-                                <div class="orig-lang">Written originally in <xsl:value-of
-                                        select="$this-orig-lang"/>. </div>
-                            </xsl:if>
-                            <xsl:choose>
-                                <xsl:when test="$this-orig-survival-qty = 0">
-                                    <div class="orig-extant">None of the original composition
-                                        survives. </div>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$this-orig-survival-qty gt 0 and $this-orig-survival-qty le .7">
-                                    <div class="orig-extant">Only <xsl:value-of
-                                            select="$this-orig-survival"/> of the original is
-                                        extant. </div>
-                                </xsl:when>
-                                <xsl:when
-                                    test="$this-orig-survival-qty gt .7 and $this-orig-survival-qty lt 1">
-                                    <div class="orig-extant"><xsl:value-of
-                                            select="$this-orig-survival"/> of the original is
-                                        extant. </div>
-                                </xsl:when>
-                            </xsl:choose>
-                            <xsl:if
-                                test="
-                                    not(every $i in $these-adverbs-and-authors
-                                        satisfies $i = 'Evagrius')">
-                                <div class="authorship">The author was <xsl:value-of
-                                        select="$this-author-formatted"/>. </div>
-                            </xsl:if>
-                            <div class="desc">
-                                <xsl:value-of select="tan:desc"/>
-                            </div>
-                            <xsl:if test="exists($incipit-claims)">
-                                <div class="incipit">Incipit: <xsl:value-of
-                                        select="$incipit-claims/tan:object"/></div>
-                            </xsl:if>
-                            <xsl:if test="exists($ancient-translation-claims)">
-                                <div class="ancient-translations">Ancient translations:
-                                        <xsl:for-each select="$ancient-translation-claims">
-                                        <xsl:variable name="this-transl-id" select="tan:subject"/>
-                                        <xsl:variable name="these-translation-claims"
-                                            select="$corpus-claims-expanded/*/tan:body/tan:claim[(tan:object, tan:subject) = $this-transl-id]"/>
-                                        <xsl:variable name="these-lang-codes"
-                                            select="distinct-values($these-translation-claims[tan:verb = 'written-in']/tan:object)"/>
-                                        <xsl:value-of
-                                            select="
-                                                tan:item-sequence(for $i in $these-lang-codes
-                                                return
-                                                    tan:lang-name($i)[1])"
-                                        />
-                                    </xsl:for-each>
-                                </div>
-                            </xsl:if>
-                            <div class="ed-and-tr">Editions and translations (<xsl:value-of
-                                    select="count(distinct-values($bibliography-refs-to-this-work/../@*:about))"
-                                />): <xsl:for-each-group select="$bibliography-refs-to-this-work"
-                                    group-by="../@*:about">
-                                    <xsl:sort select="current-group()[1]/../*:date"
-                                        order="descending"/>
-                                    <xsl:variable name="this-item-tan-id" as="xs:string*">
-                                        <xsl:for-each select="current-group()[1]/../*:description">
-                                            <xsl:analyze-string select="."
-                                                regex="tag:evagriusponticus.net,2012:scriptum:\S+">
-                                                <xsl:matching-substring>
-                                                  <xsl:value-of select="."/>
-                                                </xsl:matching-substring>
-                                            </xsl:analyze-string>
-                                        </xsl:for-each>
-                                    </xsl:variable>
-                                    <xsl:variable name="this-item-transcriptions"
-                                        select="$this-work-tan-transcriptions[*/tan:head/tan:source/tan:IRI = $this-item-tan-id]"/>
-                                    <xsl:variable name="these-refs" as="element()*">
-                                        <xsl:for-each select="current-group()">
-                                            <div>
-                                                <xsl:copy-of select="tan:analyze-subject-tag(.)"/>
-                                            </div>
-                                        </xsl:for-each>
-                                    </xsl:variable>
-                                    <xsl:variable name="pub-prefix" as="xs:string*">
-                                        <xsl:for-each-group select="$these-refs" group-by="*[2]">
-                                            <xsl:value-of
-                                                select="concat(tan:item-sequence(current-group()/*[3]), current-grouping-key())"
-                                            />
-                                        </xsl:for-each-group>
-                                    </xsl:variable>
-                                    <div class="pub">
-                                        <div class="pub-prefix">
-                                            <xsl:value-of
-                                                select="concat(normalize-space(tan:item-sequence($pub-prefix)), ': ')"
-                                            />
-                                        </div>
-                                        <xsl:copy-of
-                                            select="tan:rdf-bib-to-chicago-humanities-bibliography-html(current-group()[1]/.., $bibliography-prepped)"/>
-                                        <xsl:copy-of
-                                            select="tan:transcription-hyperlink($this-item-transcriptions)"
-                                        />
-                                    </div>
-                                </xsl:for-each-group></div>
-                        </td>
-                    </tr>
-                </xsl:for-each>
-            </tbody>
-        </table>
+    <xsl:template match="tan:subject[tan:div] | tan:object[tan:div] | tan:work[tan:div]" mode="explain-div-filter">
+        <xsl:param name="initial-text" as="xs:string?"/>
+        <xsl:param name="final-text" as="xs:string?"/>
+        <xsl:variable name="div-count" select="count(tan:div)"/>
+        <div class="{name(.)}-div">
+            <xsl:value-of select="$initial-text"/>
+            <xsl:apply-templates select="tan:div" mode="explain-div-filter"/>
+            <!--<xsl:for-each-group select="tan:div" group-by="@type">
+                <xsl:variable name="is-plural"
+                    select="
+                        count(current-group()/@n) gt 1 or (some $i in current-group()/@n
+                            satisfies matches($i, '[,-]'))"/>
+                <xsl:variable name="type-suffix"
+                    select="
+                        if ($is-plural) then
+                            's'
+                        else
+                            ()"/>
+                <xsl:value-of
+                    select="current-grouping-key() || $type-suffix || ' ' || string-join(current-group()/@n, ', ')"
+                />
+                <xsl:if test="position() lt $div-count">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:for-each-group>-->
+            <xsl:value-of select="$final-text"/>
+        </div>
     </xsl:template>
+    <xsl:template match="tan:div" mode="explain-div-filter">
+        <xsl:variable name="is-plural" select="matches(@n, '[,-]')"/>
+        <xsl:variable name="type-suffix"
+            select="
+                if ($is-plural) then
+                    's '
+                else
+                    ' '"/>
+        <xsl:value-of
+            select="@type || $type-suffix || ' ' || @n"/>
+        <xsl:if test="exists(tan:div)">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:apply-templates select="tan:div" mode="#current"/>
+        <xsl:if test="exists(following-sibling::tan:div)">
+            <xsl:text>, </xsl:text>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="tan:claim" mode="claim-to-comments-subject-understood">
+        <xsl:param name="subject-iris" tunnel="yes"/>
+        <xsl:param name="work-version-iris" tunnel="yes"/>
+        <!-- We make the shaky assumption that an embedded work-version filter is always in the
+            object, not the subject. -->
+        <xsl:variable name="relevant-objects" select="tan:object[.//tan:IRI = $work-version-iris]"/>
+        <div class="claim">
+            <xsl:apply-templates select="tan:subject[.//tan:IRI = $subject-iris]"
+                mode="explain-div-filter">
+                <xsl:with-param name="initial-text" select="'→ At '"/>
+            </xsl:apply-templates>
+            <xsl:if test="exists(@adverb)">
+                <div class="adverb">
+                    <!-- We expect that if there are multiple values of @adverb, the order and terminology is already best expressed in the original attribute. -->
+                    <xsl:value-of select="@adverb"/>
+                </div>
+            </xsl:if>
+            <div class="verb">
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="tan:commas-and-ands(tan:verb//tan:name[1])"/>
+            </div>
+            <xsl:for-each select="$relevant-objects">
+                <xsl:variable name="this-scriptum-iris" select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI"/>
+                <xsl:variable name="this-bib-item" select="$bibliography-rdf-file/*/*[dc:description = $this-scriptum-iris]"/>
+                <xsl:copy-of
+                    select="tan:rdf-bib-to-chicago-humanities-bibliography-html($this-bib-item)"
+                />
+                <xsl:apply-templates select="." mode="explain-div-filter"/>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+    <xsl:template match="tan:claim" mode="claim-to-comments-object-understood">
+        <xsl:param name="object-iris" tunnel="yes"/>
+        <xsl:param name="work-version-iris" tunnel="yes"/>
+        <!-- We make the shaky assumption that an embedded work-version filter is always in the
+            object, not the subject. -->
+        <xsl:variable name="relevant-subjects" select="tan:subject"/>
+        <div class="claim">
+            <xsl:text>→ </xsl:text>
+            <xsl:for-each select="$relevant-subjects">
+                <xsl:variable name="this-scriptum-iris" select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI"/>
+                <xsl:variable name="this-bib-item" select="$bibliography-rdf-file/*/*[dc:description = $this-scriptum-iris]"/>
+                <xsl:copy-of
+                    select="tan:rdf-bib-to-chicago-humanities-bibliography-html($this-bib-item)"
+                />
+                <xsl:apply-templates select="." mode="explain-div-filter"/>
+            </xsl:for-each>
+            <xsl:if test="exists(@adverb)">
+                <div class="adverb">
+                    <!-- We expect that if there are multiple values of @adverb, the order and terminology is already best expressed in the original attribute. -->
+                    <xsl:value-of select="@adverb"/>
+                </div>
+            </xsl:if>
+            <div class="verb">
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="tan:commas-and-ands(tan:verb//tan:name[1])"/>
+            </div>
+            <xsl:apply-templates select="tan:object[.//tan:IRI = $object-iris]"
+                mode="explain-div-filter">
+                <xsl:with-param name="initial-text" select="' at '"/>
+            </xsl:apply-templates>
+        </div>
+    </xsl:template>
+    <!--<xsl:template match="tan:subject" mode="claim-to-comments-subject-understood">
+        <xsl:apply-templates select="." mode="explain-div-filter">
+        </xsl:apply-templates>
+    </xsl:template>-->
+    <!--<xsl:template match="tan:object" mode="claim-to-comments-object-understood">
+        <xsl:apply-templates select="." mode="explain-div-filter">
+            <xsl:with-param name="initial-text" select="'At '"/>
+        </xsl:apply-templates>
+    </xsl:template>-->
+    
 </xsl:stylesheet>

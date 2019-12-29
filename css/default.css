@@ -156,12 +156,20 @@ table > tbody{
     font-size: 20px;
     line-height: 140%
 }
-.ancient-translations > table{
+div.ancient-translations{
+    background-color:#ccccff;
+}
+div.ed-and-tr{
+    background-color:#e6e6ff;
+}
+.ancient-translations > table,
+div.ed-and-tr > * > .label ~ *{
     margin-left: 10px
 }
-.ancient-translations > table > tbody{
-    font-size: 14px;
-    line-height: 120%
+.ancient-translations > table > tbody,
+.ed-and-tr > table > tbody{
+    font-size: 18px;
+    line-height: 130%
 }
 .book-title{
     font-style: italic;
@@ -170,27 +178,32 @@ table > tbody{
 .book-title > i{
     font-style: normal;
 }
-.show-last-col-only tbody > tr > td:not(:last-of-type),
+table.show-last-col-only > tbody > tr > td:not(:last-of-type),
 td.filler,
-.show-last-col-only tr.tablesorter-filter-row td:last-of-type /* preceding two items allow for hidden sorting columns using tablesorter */{
+table.show-last-col-only > thead > tr > td:last-of-type 
+/* preceding two items swap all previous columns for the last, so that the hidden columns can be sorted using tablesorter */{
     display: none
 }
 .show-last-col-only tbody > tr > td:last-of-type{
     /*width: 130%*/
+}
+body > table.tablesorter-default > tbody > tr > td{
+    border-bottom:2px solid #000066;
 }
 .dc-identifier,
 .abstract,
 .corpus-xref,
 .pub,
 .IRI,
+.html-editions,
 .transcriptions{
     margin-left: 10px;
     font-size: smaller
 }
-#corpus-table tbody td:nth-child(2){
+/*#corpus-table tbody td:nth-child(2){
     padding-left: 10px;
     text-indent: -10px
-}
+}*/
 .id-label{
     float: right;
     background: lightgray;
@@ -206,7 +219,8 @@ td.filler,
     display: inline;
 }
 .names,
-.pub-prefix{
+.pub-prefix,
+.scriptum-lang{
     font-weight: 700
 }
 .clip-after-line-1{
@@ -269,6 +283,27 @@ td.filler,
 .credit:before{
     content: " —";
 }
+.scriptum-data .comment{
+    font-style:inherit
+}
+.scriptum-data > div.comment > div.claim *{
+    background: inherit;
+}
+div.translates > * > div{
+    display: table-cell;
+}
+td.scriptum-lang,
+td.scriptum-date
+{
+    width: 100px;
+}*/
+div.claim{
+    margin-bottom: inherit
+}
+.xrefs > .claim > *,
+div.manuscript-title{
+    display: inline
+}
 
  /* Exceptions for the collated parallel editions */
 .head{
@@ -276,7 +311,8 @@ td.filler,
    font-size:smaller;
    margin-left: -6px;
 }
-.head .label{
+.head .label,
+.collapse > .label{
    font-variant:small-caps;
 }
 .accessed-when{
@@ -321,13 +357,15 @@ div.group,
 div.item{
    display:table-cell;
 }
-/* ...unless if they enclose metadata, in which case they are blocks, or... */
+/* ...unless if they enclose metadata or ar top-level elements, in which case they are blocks, or... */
 div.head div.group,
-div.head div.item{
+div.head div.item,
+body > div.item{
    display:block;
 }
 /* ...unless they are top-level categories of a head, in which case they're hidden until the user wants to see. */
-div.head > div.label ~ div.group{
+div.head > div.label ~ div.group,
+.collapse > .label ~ *{
    display: none;
 }
 /*div.sortable > *{

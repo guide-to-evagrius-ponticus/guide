@@ -6,7 +6,7 @@
     version="2.0">
 
     <!-- This is the master stylesheet for generating the everything in the Guide to Evagrius Ponticus except the transcriptions (see transcriptions.xsl) -->
-    <!-- Input: any XML document whatsoever -->
+    <!-- Input: any XML document whatsoever, including this one -->
     <!-- Output: the static html pages that constitute the Guide -->
     <!-- This stylesheet can be run on any XML document because the core input documents are defined by parameters -->
     <xsl:include href="corpus.xsl"/>
@@ -99,7 +99,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <xsl:variable name="diagnostics-on" as="xs:boolean" select="true()"/>
+            <xsl:variable name="diagnostics-on" as="xs:boolean" select="false()"/>
             <xsl:if test="$diagnostics-on">
                 <xsl:message select="'diagnostics on for doc base uri:', $this-doc-base-uri"/>
                 <xsl:message select="'is corpus?', $is-corpus"/>
@@ -118,6 +118,7 @@
                                     </text>
                                 </xsl:for-each>
                             </corpus-collection>-->
+                            <!--<html-coll><xsl:copy-of select="tan:shallow-copy($html-transcription-collection, 2)"/></html-coll>-->
                             <!--<corpus-claims-resolved><xsl:copy-of select="$corpus-claims-resolved"/></corpus-claims-resolved>-->
                             <corpus-claims-expanded><xsl:copy-of select="$corpus-claims-expanded"/></corpus-claims-expanded>
                             <!--<pass1><xsl:copy-of select="$pass1"/></pass1>-->

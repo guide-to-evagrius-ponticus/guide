@@ -55,7 +55,7 @@
             <script type="text/javascript" src="tablesorter/js/jquery.tablesorter.combined.js"/>
             <script>
                 $(function(){
-                $('table').tablesorter({
+                $('table.search').tablesorter({
                 widgets: ["filter"],
                 widgetOptions : {
                 filter_external : '.search',
@@ -65,6 +65,8 @@
                 filter_saveFilters : true,
                 filter_reset: '.reset'
                 }
+                });
+                $('table').tablesorter({
                 });
                 $('button[data-column]').on('click', function(){
                 var $this = $(this),
@@ -96,7 +98,7 @@
 
     <xsl:function name="tan:rdf-bib-to-chicago-humanities-bibliography-html" as="element()*">
         <xsl:param name="bib-elements" as="element()*"/>
-        <xsl:param name="rdf-context" as="document-node()*"/>
+        <!--<xsl:param name="rdf-context" as="document-node()*"/>-->
         <xsl:variable name="primary-creators"
             select="($bib-elements/(bib:authors, bib:editors, z:presenters))[1]"/>
         <xsl:for-each select="$bib-elements">
@@ -109,8 +111,10 @@
                         (.//dc:title)[1]"/>
             <xsl:variable name="citation-raw" as="element()">
                 <div>
-                    <xsl:value-of select="tan:name-sequence($primary-creators, true())"/>
-                    <xsl:text>. </xsl:text>
+                    <xsl:if test="exists($primary-creators)">
+                        <xsl:value-of select="tan:name-sequence($primary-creators, true())"/>
+                        <xsl:text>. </xsl:text>
+                    </xsl:if>
                     <xsl:copy-of select="tan:dc-title-to-chicago-html($this-title, '.')"/>
                     <xsl:text> </xsl:text>
                     <xsl:choose>
@@ -143,6 +147,8 @@
                             </xsl:if>
                             <xsl:value-of select="tan:publisher-info($this-pub)"/>
                             <xsl:text>. </xsl:text>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
                         </xsl:when>
                         <xsl:when test="self::bib:Article">
                             <!-- Cases where the item is a journal article -->
@@ -158,7 +164,9 @@
                             <xsl:value-of select="dc:date"/>
                             <xsl:text>): </xsl:text>
                             <xsl:value-of select="bib:pages"/>
-                            <xsl:text>.</xsl:text>
+                            <xsl:text>. </xsl:text>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
                         </xsl:when>
                         <xsl:when test="self::bib:Book">
                             <!-- cases where the item is a book -->
@@ -167,13 +175,23 @@
                                 <xsl:value-of select="tan:name-sequence(z:translators, false())"/>
                                 <xsl:text>. </xsl:text>
                             </xsl:if>
+                            <xsl:if test="exists(bib:editors)">
+                                <xsl:text>Edited by </xsl:text>
+                                <xsl:value-of select="tan:name-sequence(bib:editors, false())"/>
+                                <xsl:text>. </xsl:text>
+                            </xsl:if>
                             <xsl:if test="exists(dcterms:isPartOf/bib:Series)">
                                 <xsl:value-of
                                     select="concat(string-join(dcterms:isPartOf/bib:Series//text()[matches(., '\S')], ' '), '. ')"
                                 />
                             </xsl:if>
+                            <xsl:if test="exists(prism:volume)">
+                                <xsl:value-of select="concat('Vol. ', prism:volume, '. ')"/>
+                            </xsl:if>
                             <xsl:value-of select="tan:publisher-info($this-pub)"/>
                             <xsl:text>. </xsl:text>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
                         </xsl:when>
                         <xsl:when test="self::bib:Thesis">
                             <!-- cases where the item is a thesis -->
@@ -183,6 +201,8 @@
                             <xsl:text>, </xsl:text>
                             <xsl:value-of select="dc:date"/>
                             <xsl:text>. </xsl:text>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
                         </xsl:when>
                         <xsl:when test="self::bib:ConferenceProceedings">
                             <!-- cases where the item is a lecture or oral paper -->
@@ -204,6 +224,16 @@
                             </xsl:if>
                             <xsl:value-of select="tan:publisher-info($this-pub)"/>
                             <xsl:text>. </xsl:text>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
+                        </xsl:when>
+                        <xsl:when test="self::bib:Manuscript">
+                            <!-- cases where the item is a manuscript -->
+                            <xsl:if test="exists(dc:date)">
+                                <xsl:value-of select="concat(' ', dc:date, '. ')"/>
+                            </xsl:if>
+                            <xsl:apply-templates select="dc:identifier/dcterms:URI/rdf:value"
+                                mode="bib-rdf-to-html"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <div class="warning">Content Pending</div>
@@ -226,6 +256,13 @@
                 </div>
                 <xsl:value-of select="$terminal-punctuation"/>
             </xsl:when>
+            <xsl:when
+                test="$dc-title-element/(parent::bib:Manuscript)">
+                <div class="manuscript-title">
+                    <xsl:value-of select="$dc-title-element"/>
+                </div>
+                <xsl:value-of select="$terminal-punctuation"/>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:text>“</xsl:text>
                 <xsl:value-of select="concat($dc-title-element, $terminal-punctuation)"/>
@@ -241,25 +278,26 @@
         <xsl:variable name="person-count" select="count($persons)"/>
         <xsl:variable name="results" as="xs:string*">
             <xsl:for-each select="$persons">
-                <xsl:variable name="this-name" as="xs:string*">
-                    <xsl:choose>
-                        <xsl:when test="$surname-first = true()">
-                            <xsl:value-of select="foaf:surname"/>
-                            <xsl:if test="exists(foaf:givenname) and exists(foaf:surname)">
-                                <xsl:text>, </xsl:text>
-                            </xsl:if>
-                            <xsl:value-of select="foaf:givenname"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="foaf:givenname"/>
-                            <xsl:if test="exists(foaf:givenname) and exists(foaf:surname)">
-                                <xsl:text> </xsl:text>
-                            </xsl:if>
-                            <xsl:value-of select="foaf:surname"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:value-of select="string-join($this-name, '')"/>
+                <xsl:choose>
+                    <xsl:when test="$surname-first = true()">
+                        <xsl:value-of select="string-join((foaf:surname, foaf:givenName), ', ')"/>
+                        <!--<xsl:if test="exists(foaf:givenName) and exists(foaf:surname)">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                        <xsl:value-of select="foaf:givenName"/>-->
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="string-join((foaf:givenName, foaf:surname), ' ')"/>
+                        <!--<xsl:value-of select="foaf:givenName"/>
+                        <xsl:if test="exists(foaf:givenName) and exists(foaf:surname)">
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
+                        <xsl:value-of select="foaf:surname"/>-->
+                    </xsl:otherwise>
+                </xsl:choose>
+                <!--<xsl:variable name="this-name" as="xs:string*">
+                </xsl:variable>-->
+                <!--<xsl:value-of select="string-join($this-name, '')"/>-->
             </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="tan:item-sequence($results)"/>
@@ -493,6 +531,15 @@
             </xsl:analyze-string>
         </xsl:for-each>
     </xsl:function>
+    
+    <xsl:template match="dcterms:URI/rdf:value" mode="bib-rdf-to-html">
+        <xsl:for-each select="tokenize(normalize-space(.), ' ')">
+            <xsl:variable name="this-domain" select="replace(., '^(https?://)?([^/.]+\.)*([^/.]+\.)([^/.]+).*', '$3$4')"/>
+            <a href="{.}">
+                <xsl:value-of select="$this-domain"/>
+            </a>
+        </xsl:for-each>
+    </xsl:template>
 
     <xsl:template match="atom:squelch | xsl:squelch"/>
 

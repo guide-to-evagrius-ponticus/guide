@@ -39,12 +39,12 @@
             <link rel="stylesheet" type="text/css" href="css/tan2018.css" />
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="html:body" mode="revise-infused-template">
+    <!--<xsl:template match="html:body" mode="revise-infused-template">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates mode="#current"/>
             <script type="text/javascript" src="scripts/tan2018.js"/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
     
 </xsl:stylesheet>

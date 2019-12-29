@@ -10,7 +10,7 @@
 }
 .head,
 .teiHeader,
-div.claim > div:first-of-type,
+/*div.claim > div:first-of-type,*/
 tr > td.irrelevant
 {
     background: lightgray;
@@ -618,8 +618,9 @@ div.ref
 table {
     width: 100%
 }
+
 td:first-child {
-    width: 20px;
+    width: 15%;
 }
 /*td:first-child ~ td {
     width: 33%;

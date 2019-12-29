@@ -4,25 +4,38 @@
    xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2019-07-05T22:04:26.497-04:00</updated>
+   <updated>2019-12-29T03:04:26.497-04:00</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
    <entry>
-      <title>Guide to Evagrius Ponticus, summer 2019 edition</title>
+      <title>Guide to Evagrius Ponticus, winter 2019 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>
-      <id>tag:evagriusponticus.net,2015:ed:2019-3</id>
-      <updated>2019-07-05T22:04:26.497-04:00</updated>
-      <published>2019-07-05T22:04:26.497-04:00</published>
+      <id>tag:evagriusponticus.net,2015:ed:2019-4</id>
+      <updated>2019-12-29T03:04:26.497-04:00</updated>
+      <published>2019-12-29T03:04:26.497-04:00</published>
       <author>
          <name>Staff</name>
       </author>
       <content type="xhtml">
          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>The summer 2019 edition of the <em>Guide to Evagrius Ponticus</em> is now available.
-               Revisions include the following:</p>
-            <ul>
-               <li><em>Bibliography</em>: 00000 items added, 00000 additional items updated.</li>
-            </ul>
+            <p>The winter 2019 edition of the <em>Guide to Evagrius Ponticus</em> is now available.
+               Summer and autumn 2019 editions were not created because major work was being
+               performed, upgrading features of the <em>Guide</em>.</p>
+            <p>The <a href="corpus.htm">checklist of writings</a> has been completely overhauled
+               with a new transformation algorithm. Most importantly, the checklist of editions,
+               translations, transcriptions, etc. has been moved from the Zotero database to a TAN-A
+               file, which allows for RDF-like assertions with great precision. I am not very happy
+               with the state of the XSLT that does the transformation, because nearly every
+               template feels like a hack. But in the interest of getting out a new version of the
+                  <em>Guide</em>, I have decided to let it stand, warts and all. For the first time,
+               now, users will be able to find easily transcriptions from manuscripts, previously on
+               the site but not integrated into the checklist. So far, only CPG 2430 and CPG 2431
+               (Praktikos and Gnostikos) have entries that exhibit the kind of accuracy I'd like to
+               see across the entire publication. </p>
+            <p>The <a href="bibliography.htm">bibliography</a> now has a tag urn for every entry,
+               logged in the field labeled "extra". This makes it possible to use the Zotero
+               database in conjunction with the TAN library, so that assertions made in the TAN
+               files can be linked to more complete metadata.</p>
          </div>
       </content>
    </entry>

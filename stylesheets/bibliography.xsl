@@ -85,8 +85,10 @@
                                     </xsl:for-each>
                                 </div>
                             </xsl:if>
+                            <!--<xsl:copy-of
+                                select="tan:rdf-bib-to-chicago-humanities-bibliography-html(., $bibliography-prepped)"/>-->
                             <xsl:copy-of
-                                select="tan:rdf-bib-to-chicago-humanities-bibliography-html(., $bibliography-prepped)"/>
+                                select="tan:rdf-bib-to-chicago-humanities-bibliography-html(.)"/>
                             
                             <xsl:apply-templates select="dcterms:abstract" mode="bib-rdf-to-html"/>
                             <xsl:apply-templates

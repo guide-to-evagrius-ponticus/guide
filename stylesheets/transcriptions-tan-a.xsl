@@ -11,7 +11,7 @@
     <!--<xsl:import href="../../TAN/TAN-2020/functions/TAN-extra-functions.xsl"/>-->
     <!--<xsl:import href="../../TAN/TAN-2020/applications/get%20inclusions/convert-TAN-to-HTML.xsl"/>-->
     
-    <xsl:param name="diagnostics-on" select="true()" static="yes"/>
+    <xsl:param name="diagnostics-on" select="false()" static="yes"/>
     
     <!-- Input: A TAN-A file from the sibling directory tan -->
     <!-- Output: the html page for the TAN file -->
@@ -25,7 +25,7 @@
     <xsl:param name="table-layout-fixed" select="false()"/>
     <xsl:param name="td-widths-proportionate-to-string-length" select="true()"/>
     <xsl:param name="fill-defective-merges" select="false()"/>
-    <xsl:param name="sort-and-group-by-what-alias" as="xs:string*" select="('Greek', 'Syriac', 'English')"/>
+    <xsl:param name="sort-and-group-by-what-alias" as="xs:string*" select="('Greek', 'Syriac', 'Latin', 'English')"/>
     <xsl:param name="attributes-to-convert-to-elements" as="xs:string*"
         select="('href', 'accessed-when', 'when', 'resp', 'wit')"/>
     <xsl:param name="add-controller-label" as="xs:boolean" select="false()"/>
@@ -56,6 +56,44 @@
     <xsl:param name="output-url-relative-to-template" as="xs:string?"
         select="'../' || $this-cpg || '.html'"/>
     
+    <!-- preliminary changes -->
+    <xsl:template match="processing-instruction()" mode="first-stamp-shallow-copy"/>
+    
+    <!-- ad hoc changes for the Scholia -->
+    <xsl:template match="tan:body/tan:div[lower-case(@n) = 'prov']" mode="first-stamp-shallow-copy">
+        <!-- We need to adjust the scholia and avoid situations where the Bible verses get merged together -->
+        <xsl:variable name="first-div-with-multiple-children"
+            select="descendant-or-self::tan:div[count(tan:div) gt 1]"/>
+        <xsl:variable name="new-n-first-part" select="@n || '_' || tan:div[1]/@n || '_' || tan:div[1]/tan:div[1]/@n"/>
+        <xsl:variable name="new-n-second-part"
+            select="
+                string-join((for $i in $first-div-with-multiple-children//tan:div[not(@n = 'pt')][last()]
+                return
+                    $i/@n), '_')"
+        />
+        <!-- Note: in the following @select that's not a hyphen, it's an en dash, –, to avoid messing up the reset of the hierarchy -->
+        <xsl:variable name="new-n"
+            select="string-join(($new-n-first-part, $new-n-second-part[string-length(.) gt 0]), '–')"
+        />
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:attribute name="q" select="generate-id(.)"/>
+            <xsl:attribute name="type" select="'bible-ref'"/>
+            <!-- Just in case, we replace hyphens with en dashes again -->
+            <xsl:attribute name="n" select="replace($new-n, '-', '–')"/>
+            <!--<xsl:apply-templates select="tan:div/tan:div" mode="scholia-special"/>-->
+            <xsl:value-of select="tan:text-join(.)"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="tan:div" mode="scholia-special">
+        <!-- this is at the verse level of a Biblical verse cited, where we choose to ignore the subverse numbers -->
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:attribute name="q" select="generate-id(.)"/>
+            <xsl:value-of select="tan:text-join(.)"/>
+        </xsl:copy>
+    </xsl:template>
+    
     <!-- Input pass 1 -->
     <!-- We turn on TEI formatting, and suppress the plain-text surrogate -->
     <xsl:param name="tei-should-be-plain-text" select="false()"/>
@@ -64,22 +102,7 @@
         match="tan:name[@norm] | tan:vocabulary-key | tan:vocabulary | tan:tan-vocabulary 
         | tan:annotation | tan:to-do | tan:expanded | tan:resolved | tan:stamped"
         mode="input-pass-1"/>
-    <!--<xsl:template match="*[@when]" mode="input-pass-1">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <when xmlns="">
-                <xsl:choose>
-                    <xsl:when test="@when castable as xs:dateTime">
-                        <xsl:value-of select="format-dateTime(@when, '[FNn], [MNn] [D], [Y], [H01]:[m01]:[s01] [z,6-6]', 'en', (), ())"/>
-                    </xsl:when>
-                    <xsl:when test="@when castable as xs:date">
-                        <xsl:value-of select="format-date(@when, '[FNn], [MNn] [D], [Y]', 'en', (), ())"/>
-                    </xsl:when>
-                </xsl:choose>
-            </when>
-            <xsl:apply-templates mode="#current"/>
-        </xsl:copy>
-    </xsl:template>-->
+    
     
     <!-- Infuse template -->
     <!-- Override the default behavior -->
@@ -128,7 +151,7 @@
         <xsl:copy>
             <xsl:copy-of select="@*"/>
             <div class="control-instructions">
-                <div class="label info">⍰</div>
+                <div class="label info">Sources</div>
                 <div>Drag any panel below to reorder the sources; click the checkbox to turn texts
                     on and off; click a label to learn more about the source.</div>
             </div>
@@ -155,132 +178,7 @@
         </xsl:copy>
     </xsl:template>-->
     
-    <xsl:variable name="items-to-collate" as="element()">
-        <sort-key-prep>
-            <a src="S1-Guill">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-                <ref>ep1</ref>
-                <ref>ep2</ref>
-            </a>
-            <a src="S1-Dy">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-            </a>
-            <a src="S1-Fr">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-                <ref>ep1</ref>
-            </a>
-            <a src="S2-Guill">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-                <ref>ep1</ref>
-                <ref>ep2</ref>
-            </a>
-            <a src="S2-Dy">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-                <ref>ep1</ref>
-                <ref>ep2</ref>
-            </a>
-            <a src="grc-PG4">
-                <ref>2</ref>
-                <ref>5</ref>
-            </a>
-            <a src="grc-PG12">
-                <ref>3</ref>
-                <ref>1</ref>
-                <ref>6</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-            </a>
-            <a src="grc-PG86a">
-                <ref>4</ref>
-            </a>
-            <a src="grc-PG39">
-                <ref>4</ref>
-            </a>
-            <a src="grc-Bars">
-                <ref>2</ref>
-            </a>
-            <a src="grc-Dor">
-                <ref>4</ref>
-            </a>
-            <a src="grc-Oct">
-                <ref>6</ref>
-            </a>
-            <a src="grc-DP">
-                <ref>4</ref>
-                <ref>6</ref>
-            </a>
-            <a src="grc-EpF">
-                <ref>4</ref>
-            </a>
-            <a src="grc-Géh1987">
-                <ref>5</ref>
-                <ref>1</ref>
-            </a>
-            <a src="grc-Géh1996">
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-            </a>
-            <a src="grc-Géh1998">
-                <ref>3</ref>
-                <ref>1</ref>
-                <ref>4</ref>
-            </a>
-            <a src="grc-Hau">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>6</ref>
-            </a>
-            <a src="grc-Mu1931">
-                <ref>1</ref>
-                <ref>2</ref>
-                <ref>3</ref>
-                <ref>4</ref>
-            </a>
-            <a src="grc-Mu1932">
-                <ref>1</ref>
-                <ref>3</ref>
-            </a>
-            <a src="grc-Pitra">
-                <ref>4</ref>
-                <ref>5</ref>
-                <ref>1</ref>
-                <ref>6</ref>
-            </a>
-            <a src="grc-Wolf">
-                <ref>4</ref>
-            </a>
-        </sort-key-prep>
-        
-    </xsl:variable>
+    
     
     <xsl:template match="/">
         <xsl:choose>
@@ -318,16 +216,17 @@
                     <!--<self-expanded><xsl:copy-of select="$self-expanded"/></self-expanded>-->
                     <!--<in1><xsl:copy-of select="$input-pass-1"/></in1>-->
                     <!--<in1b><xsl:copy-of select="$input-pass-1b"/></in1b>-->
-                    <in2-new><xsl:copy-of select="$input-pass-2"/></in2-new>
-                    <in2-comparison><xsl:copy-of select="tan:merge-expanded-docs-old($input-pass-1b)"/></in2-comparison>
+                    <!--<test><xsl:copy-of select="tan:int-to-aaa(999999)"/></test>-->
+                    <!--<in2><xsl:copy-of select="$input-pass-2"/></in2>-->
+                    <!--<in2-comparison><xsl:copy-of select="tan:merge-expanded-docs-old($input-pass-1b)"/></in2-comparison>-->
                     <!--<in3><xsl:copy-of select="$input-pass-3"/></in3>-->
                     <!--<source-bib><xsl:copy-of select="$source-bibliography"/></source-bib>-->
-                    <!--<in4><xsl:copy-of select="$input-pass-4"/></in4>-->
+                    <in4><xsl:copy-of select="$input-pass-4"/></in4>
                     <!--<template-url><xsl:copy-of select="$template-url-resolved"/></template-url>-->
                     <!--<template><xsl:copy-of select="$template-doc"/></template>-->
                     <!--<template-infused><xsl:copy-of select="$template-infused-with-revised-input"/></template-infused>-->
                     <!--<output-url><xsl:copy-of select="$output-url-resolved"/></output-url>-->
-                    <!--<infusion-revised><xsl:copy-of select="$infused-template-revised"/></infusion-revised>-->
+                    <infusion-revised><xsl:copy-of select="$infused-template-revised"/></infusion-revised>
                 </diagnostics>
             </xsl:when>
             <xsl:otherwise>
