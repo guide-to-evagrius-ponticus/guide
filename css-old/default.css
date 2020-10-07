@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+@media only screen and (min-width : 600px){
+/* For desktop: */
+    header{
+        display: flex
+    }
+    .toplogo,
+    .nav{
+        width: 20%
+    }
+    .masthead{
+        width: 60%
+    }
+    .nav{
+        align-content: center
+    }
+}
+
+/* general: header  */
+header{
+    font-family: tahoma, geneva, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+.toplogo{
+    font-size: 12px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    opacity: 0.6;
+    /*width: 100%*/
+}
+.toplogo > *{
+    margin: auto;
+    display: block
+}
+figcaption{
+    line-height: 120%
+}
+div.masthead
+{
+    text-align: center;
+}
+h1.title{
+    font-size: 180%;
+    text-align: center;
+    margin: 12px 0px;
+}
+h1.siteeditor{
+    font-size: 110%;
+    font-style: italic;
+    line-height: 100%;
+    margin: 0px
+}
+.dateline{
+    margin: 6px
+}
+.nav{
+    vertical-align: middle;
+    text-align: center;
+    font-size: smaller;
+    line-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.nav a{
+    display: block;
+    border-radius: 8px;
+}
+.nav a:link,
+.nav a:visited{
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav a:hover,
+.nav a:active{
+    background-color: #F3BDA2;
+}
+/* footer */
+footer
+{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    justify-content: center;
+}
+footer > *{
+    margin: 0px 5px
+}
+#contact{
+    display: none
+}
+/* general: main text */
+body{
+    background-color: #FCFCFF;
+    font-family: 'garamond-premier-pro', garamond, serif;
+    color: #1A001A;
+    line-height: 150%;
+    font-size: 20px;
+    text-align: justify;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 150%;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-indent:initial;
+    margin-left: 6px;
+}
+h1{
+    text-align: center;
+    text-shadow: 0px 0px #808080;
+}
+h2{
+    margin-top: 12px
+}
+body > div
+{
+    text-indent: 2em;
+}
+h1 + div,
+h2 + div,
+h3 + div,
+h4 + div{
+    text-indent: 0em;
+    margin-top: 10px
+}
+/* drop cap initial letter */
+h2 + div:first-letter
+{
+    font-size: 72px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+/* corpus and bibliography (tables) */
+table{
+    table-layout: fixed;
+}
+thead{
+    text-align: center
+}
+table > tbody{
+    font-family: 'garamond-premier-pro', garamond, serif;
+    font-size: 20px;
+    line-height: 140%
+}
+div.ancient-translations{
+    background-color:#ccccff;
+}
+div.ed-and-tr{
+    background-color:#e6e6ff;
+}
+.ancient-translations > table,
+div.ed-and-tr > * > .label ~ *{
+    margin-left: 10px
+}
+.ancient-translations > table > tbody,
+.ed-and-tr > table > tbody{
+    font-size: 18px;
+    line-height: 130%
+}
+.book-title{
+    font-style: italic;
+    display: inline;
+}
+.book-title > i{
+    font-style: normal;
+}
+table.show-last-col-only > tbody > tr > td:not(:last-of-type),
+td.filler,
+table.show-last-col-only > thead > tr > td:last-of-type 
+/* preceding two items swap all previous columns for the last, so that the hidden columns can be sorted using tablesorter */{
+    display: none
+}
+.show-last-col-only tbody > tr > td:last-of-type{
+    /*width: 130%*/
+}
+body > table.tablesorter-default > tbody > tr > td{
+    border-bottom:2px solid #000066;
+}
+.dc-identifier,
+.abstract,
+.corpus-xref,
+.pub,
+.IRI,
+.html-editions,
+.transcriptions{
+    margin-left: 10px;
+    font-size: smaller
+}
+/*#corpus-table tbody td:nth-child(2){
+    padding-left: 10px;
+    text-indent: -10px
+}*/
+.id-label{
+    float: right;
+    background: lightgray;
+    color: gray;
+    margin-left: 3px;
+    font-size: 12px;
+    line-height: initial;
+    text-align: right;
+}
+.orig-lang,
+.orig-extant,
+.authorship{
+    display: inline;
+}
+.names,
+.pub-prefix,
+.scriptum-lang{
+    font-weight: 700
+}
+.clip-after-line-1{
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 80px;
+}
+.clip-after-line-1:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 50px, white);
+    content: "";
+}
+.links-to-other-formats{
+    float: right;
+    font-size: smaller;
+}
+.pub > *{
+    display: inline
+}
+
+.transcriptions > *{
+    display: inline;
+    padding-left: 4px;
+}
+
+/* ancient testimonia styles */
+.item{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.meta .au{
+    font-weight: bold;
+}
+.title{
+    font-style: italic;
+}
+.date{
+    font-variant: small-caps;
+    color: gray;
+    float: right;
+}
+.date:before{
+    content: " ";
+}
+.comment{
+    margin-left: 15px;
+    font-style: italic;
+}
+.text{
+    margin-left: 25px;
+}
+.credit{
+    font-size: 12px;
+}
+.credit:before{
+    content: " —";
+}
+.scriptum-data .comment{
+    font-style:inherit
+}
+.scriptum-data > div.comment > div.claim *{
+    background: inherit;
+}
+div.translates > * > div{
+    display: table-cell;
+}
+td.scriptum-lang,
+td.scriptum-date
+{
+    width: 100px;
+}*/
+div.claim{
+    margin-bottom: inherit
+}
+.xrefs > .claim > *,
+div.manuscript-title{
+    display: inline
+}
+
+ /* Exceptions for the collated parallel editions */
+.head{
+   line-height:120%;
+   font-size:smaller;
+   margin-left: -6px;
+}
+.head .label,
+.collapse > .label{
+   font-variant:small-caps;
+}
+.accessed-when{
+   display:inline;
+}
+.accessed-when:before{
+   content:"(accessed "
+}
+.accessed-when:after{
+   content:") "
+}
+.when{
+   margin-left: 6px;
+}
+
+.transcriptions div {
+    padding: 0px 4px 0px 0px;
+}
+div.TAN-T_merge > div.body{
+    padding-left: 24px;
+}
+div.div > div.ref {
+    /*margin: 6px 0px 0px -24px;*/
+    /*height: 3px;*/
+    font-variant: small-caps;
+    /*width: 42px;
+    font-size: 14px;
+    line-height: 18px;*/
+}
+div.control-wrapper div.sortable{
+   display: table-row;
+}
+div.control-wrapper div.sortable > *{
+   display: table-cell;
+}
+.primary-ns,
+div.ref > div.n{
+   display: none;
+}
+/* generally, groups and items are like table cells... */
+div.group,
+div.item{
+   display:table-cell;
+}
+/* ...unless if they enclose metadata or ar top-level elements, in which case they are blocks, or... */
+div.head div.group,
+div.head div.item,
+body > div.item{
+   display:block;
+}
+/* ...unless they are top-level categories of a head, in which case they're hidden until the user wants to see. */
+div.head > div.label ~ div.group,
+.collapse > .label ~ *{
+   display: none;
+}
+/*div.sortable > *{
+   display:inline-block;
+}*/
+.control-wrapper div.info.label{
+   display:inline-block;
+   /*width: 24px;*/
+   /*background-color:inherit;*/
+}
+.body div.version,
+.control-wrapper{
+    text-indent: initial;
+}
+div.version-wrapper > div.item{
+   background-color: initial;
+}
+/* TEI modifications */
+.tei.p * {
+   margin-left: initial;
+}
+.list > .item{
+   margin: 0px 24px;
+}
