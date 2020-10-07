@@ -2,5 +2,5 @@
 	path = tan
 	url = https://github.com/Arithmeticus/TAN-Evagrius.git
 [submodule "tablesorter"]
-	path = tablesorter
+	path = js/tablesorter
 	url = https://github.com/Mottie/tablesorter.git
