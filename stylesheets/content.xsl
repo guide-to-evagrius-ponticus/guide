@@ -9,10 +9,10 @@
     <!-- Input: any XML document whatsoever, including this one -->
     <!-- Output: the static html pages that constitute the Guide -->
     <!-- This stylesheet can be run on any XML document because the core input documents are defined by parameters -->
-    <xsl:include href="corpus.xsl"/>
-    <xsl:include href="bibliography.xsl"/>
-    <xsl:include href="core.xsl"/>
-    <xsl:include href="global-variables.xsl"/>
+    <xsl:include href="incl/corpus.xsl"/>
+    <xsl:include href="incl/bibliography.xsl"/>
+    <xsl:include href="incl/core.xsl"/>
+    <xsl:include href="incl/global-variables.xsl"/>
     <xsl:output method="xhtml" indent="yes"/>
 
     <xsl:param name="validation-phase" select="'normal'"/>
