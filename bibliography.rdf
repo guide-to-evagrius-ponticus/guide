@@ -146,15 +146,15 @@
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_20919"/>
-        <dc:subject>2442 edition Greek</dc:subject>
-        <dc:subject>2442 translation French</dc:subject>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2456 edition Greek</dc:subject>
         <dc:subject>2456 translation French</dc:subject>
-        <dc:subject>2457 edition Greek</dc:subject>
-        <dc:subject>2457 translation French</dc:subject>
         <dc:subject>2458.4 edition Greek</dc:subject>
         <dc:subject>2458.4 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2442 edition Greek</dc:subject>
+        <dc:subject>2442 translation French</dc:subject>
+        <dc:subject>2457 edition Greek</dc:subject>
+        <dc:subject>2457 translation French</dc:subject>
         <dc:identifier>ISBN 2-204-02885-1</dc:identifier>
         <dc:date>1987</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:géhin-1987</dc:description>
@@ -270,6 +270,7 @@
         <dc:description>tag:evagriusponticus.net,2012:scriptum:cain-2016
 DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dcterms:dateSubmitted>2017-03-30 17:15:08</dcterms:dateSubmitted>
+        <z:language>eng</z:language>
         <dcterms:abstract>In this chapter it is proposed that the anonymous author had his own propagandistic agenda for the Greek Historia monachorum beyond simply providing generic edification, which (it is argued) passed through a specific ideological filter before it reached its readers. It is demonstrated first of all that most of the Egyptian monks’ discourses about practical ascetic spirituality betray strong affinities with core teachings of the famed ascetic theologian Evagrius of Pontus. On the basis of this finding, it is argued that these affinities reflect the anonymous author’s own intellectual and spiritual sympathies and provide valuable clues about his motivations for composing the Historia monachorum.</dcterms:abstract>
         <dc:title>Piety and Propaganda</dc:title>
     </bib:BookSection>
@@ -572,22 +573,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
     </bib:Article>
     <bib:Memo rdf:about="#item_20925">
         <rdf:value>&lt;div id=&quot;noScriptWarning&quot;&gt;Study of the transmission of Evagrius's works in Syriac, through the lens of ten manuscripts. Focusing on BL Add. 14578, which contains virtually the entire corpus of Evagrius in Syriac, Géhin explores the way the works were aggregated and disaggregated through time. He compares this 7th-c. MS with later ones, exploring basic ways copyists and compilers reorganized Evagrius's writings. The article concludes with two appendixes: an analysis of the 48 pieces in BL Add. 14578 and a table of the order of Evagrius's works as attested in ten Syriac MSS (following principally the sequence of BL Add. 14578). -jk&lt;/div&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
-        <rdf:value>&lt;div id=&quot;noScriptWarning&quot;&gt;Study of the transmission of Evagrius's works in Syriac, through the lens of ten manuscripts. Focusing on BL Add. 14578, which contains virtually the entire corpus of Evagrius in Syriac, Géhin explores the way the works were aggregated and disaggregated through time. He compares this 7th-c. MS with later ones, exploring basic ways copyists and compilers reorganized Evagrius's writings. The article concludes with two appendixes: an analysis of the 48 pieces in BL Add. 14578 and a table of the order of Evagrius's works as attested in ten Syriac MSS (following principally the sequence of BL Add. 14578). -jk&lt;/div&gt;</rdf:value>
     </bib:Memo>
     <z:Attachment rdf:about="#item_21240">
-        <z:itemType>attachment</z:itemType>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=24247001</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
-        <dcterms:dateSubmitted>2011-08-23 01:24:54</dcterms:dateSubmitted>
-        <dc:title>EN MARGE DE LA CONSTITUTION D'UN REPERTORIUM EVAGRIANUM SYRIACUM, QUELQUES REMARQUES SUR L'ORGANISATION EN CORPUS DES ŒUVRES D'ÉVAGRE</dc:title>
-        <z:linkMode>3</z:linkMode>
-        <link:type>text/html</link:type>
-        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#Attachment"/>
         <z:itemType>attachment</z:itemType>
         <dc:identifier>
             <dcterms:URI>
@@ -958,9 +945,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21271"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2458.5 edition Greek</dc:subject>
         <dc:subject>2458.5 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 2-204-04873-9</dc:identifier>
         <dc:date>1993</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:géhin-1993</dc:description>
@@ -1095,9 +1082,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21245"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2450 edition Greek</dc:subject>
         <dc:subject>2450 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 2-204-06081-X</dc:identifier>
         <dc:date>1998</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:géhin-1998</dc:description>
@@ -1227,9 +1214,13 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2437 edition Greek</dc:subject>
+        <dc:subject>2437 translation French</dc:subject>
         <bib:pages>151-162</bib:pages>
         <dc:date>1991</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:guillaumont-1991a</dc:description>
+        <z:language>fra</z:language>
+        <dcterms:abstract>Provides an overview of the status of the Greek, Syriac, and Armenian versions of the 62 letters, as well as Conybeare's partial Latin translation of the Armenian version. A table provides a correspondence across these versions, and notes where other texts have been included in the Armenian tradition, which, the authors argue, is dependent upon the Syriac, not the Greek. This article includes Greek fragments from letters 4, 56. The longer edition of the fragments were published by C. Guillaumont in 1987.</dcterms:abstract>
         <dc:title>Les versions orientales et le texte grec des Lettres d'Evagre le Pontique</dc:title>
     </bib:BookSection>
     <bib:BookSection rdf:about="urn:isbn:3-05-000117-8">
@@ -1295,9 +1286,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:bookAuthors>
         <dcterms:isReferencedBy rdf:resource="#item_21292"/>
-        <dc:subject>2437 edition Greek</dc:subject>
         <dc:subject>JK NEH</dc:subject>
         <dc:subject>need to check</dc:subject>
+        <dc:subject>2437 edition Greek</dc:subject>
         <bib:pages>209-221</bib:pages>
         <dc:date>1987</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:guillaumont-1987c</dc:description>
@@ -1325,8 +1316,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>2431 edition Syriac</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2431 edition Syriac</dc:subject>
         <bib:pages>161-69</bib:pages>
         <dc:date>1987</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:guillaumont-1987b</dc:description>
@@ -2599,8 +2590,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21244"/>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
         <dc:date>1960</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:hausherr-1960</dc:description>
         <dc:title>Les leçons d'un contemplatif: Le traité de l'oraison d'Évagre le Pontique</dc:title>
@@ -2852,6 +2843,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>229-33</bib:pages>
         <dc:date>1939</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:hausherr-1939b</dc:description>
+        <z:language>fra; grc</z:language>
         <dc:title>Nouveaux fragments grecs d'Évagre le Pontique</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21010">
@@ -2881,6 +2873,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>7-71</bib:pages>
         <dc:date>1939</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:hausherr-1939a</dc:description>
+        <z:language>fra</z:language>
         <dc:title>Le &lt;i&gt;De Oratione&lt;/i&gt; d'Évagre le Pontique en Syriaque et en Arabe</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21011">
@@ -2907,6 +2900,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>497-520</bib:pages>
         <dc:date>1938</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:hausherr-1938</dc:description>
+        <z:language>fra</z:language>
         <dc:title>Aux origines de la mystique syrienne: Grégoire de Chypre ou Jean de Lycopolis?</dc:title>
     </bib:Article>
     <bib:Article rdf:about="#item_20190">
@@ -2930,6 +2924,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>351-62</bib:pages>
         <dc:date>1936</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:hausherr-1936</dc:description>
+        <z:language>fra</z:language>
         <dc:title>Ignorance infinie</dc:title>
     </bib:Article>
     <bib:Article rdf:about="#item_20191">
@@ -3315,7 +3310,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
     <bib:Memo rdf:about="#item_21344">
         <rdf:value>&lt;p&gt;&quot;Appendice au fascicule 69: Les versions syriaque et arménienne d'Évagre le Pontique [par I. Hausherr]&quot; issued in vol. XXIV-1, num. 73, p. [38]-40. -cat&lt;/p&gt;</rdf:value>
     </bib:Memo>
-    <bib:Book rdf:about="#item_20204">
+    <bib:Book rdf:about="https://archive.org/embed/bub_gb_y9E_AAAAcAAJ">
         <z:itemType>book</z:itemType>
         <dc:publisher>
             <foaf:Organization>
@@ -3339,12 +3334,17 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21223"/>
         <dc:subject>2458.6 edition Greek</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://archive.org/embed/bub_gb_y9E_AAAAcAAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
         <dc:date>1825-1838</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:mai-1825</dc:description>
         <dc:title>Scriptorum veterum nova collectio e vaticanis codicibus</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21223">
-        <rdf:value>&lt;p&gt;Scholia on Luke: 9:675ff , 688, 713, 715-16, 721-22. -cat&lt;/p&gt;</rdf:value>
+        <rdf:value>&lt;p&gt;Vol. 9 contains scholia on Luke, at pp. 675-76, 688, 713-14, 715-16, 721-22.&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_20205">
         <z:itemType>journalArticle</z:itemType>
@@ -3655,9 +3655,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21045"/>
-        <dc:subject>2434 translation English</dc:subject>
-        <dc:subject>2437 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2437 translation English</dc:subject>
+        <dc:subject>2434 translation English</dc:subject>
         <dc:subject>nocpg01 translation English</dc:subject>
         <dc:identifier>ISBN 9780879073299 (pbk.)</dc:identifier>
         <dc:date>2009</dc:date>
@@ -3792,18 +3792,18 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:editors>
         <dcterms:isReferencedBy rdf:resource="#item_21198"/>
+        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2432 edition Greek</dc:subject>
+        <dc:subject>need to check</dc:subject>
+        <dc:subject>2431 translation Greek</dc:subject>
+        <dc:subject>2432 translation Greek</dc:subject>
+        <dc:subject>2436 translation Greek</dc:subject>
+        <dc:subject>2431 edition Greek</dc:subject>
+        <dc:subject>2435 edition Greek</dc:subject>
+        <dc:subject>2436 edition Greek</dc:subject>
         <dc:subject>2430 edition Greek</dc:subject>
         <dc:subject>2430 translation Greek</dc:subject>
-        <dc:subject>2431 edition Greek</dc:subject>
-        <dc:subject>2431 translation Greek</dc:subject>
-        <dc:subject>2432 edition Greek</dc:subject>
-        <dc:subject>2432 translation Greek</dc:subject>
-        <dc:subject>2435 edition Greek</dc:subject>
         <dc:subject>2435 translation Greek</dc:subject>
-        <dc:subject>2436 edition Greek</dc:subject>
-        <dc:subject>2436 translation Greek</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
-        <dc:subject>need to check</dc:subject>
         <dc:identifier>ISBN 960-315-479-2</dc:identifier>
         <dc:date>2002</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-moutsoulas-2002</dc:description>
@@ -3964,8 +3964,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21270"/>
-        <dc:subject>2435 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2435 translation English</dc:subject>
         <dc:identifier>ISBN 0-8146-2208-9</dc:identifier>
         <dc:date>1993</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-driscoll-1993</dc:description>
@@ -4114,6 +4114,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
            <dcterms:LCC><rdf:value>LC: BR65</rdf:value></dcterms:LCC>
         </dc:subject>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:nilus-1673</dc:description>
+        <z:language>grc; lat</z:language>
         <dc:title>Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Νείλου Ἡγουμένου λόγοι / Sancti patris nostri Nili Abbatis tractatus, seu opscula ex codicibus manuscriptis Vaticanis, Cassinensibus, Barberinis, &amp; Altaempsianis eruta</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21012">
@@ -4556,6 +4557,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>121-35</bib:pages>
         <dc:date>1964</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:lantschoot-1964</dc:description>
+        <z:language>fra</z:language>
         <dc:title>Un opuscule inédit de F. C. Conybeare</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21235">
@@ -4669,8 +4671,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>2430 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2430 translation German</dc:subject>
         <prism:edition>2., verb. und verm. Aufl.</prism:edition>
         <dc:identifier>ISBN 978-3-87071-170-2</dc:identifier>
         <dc:date>2008</dc:date>
@@ -4852,8 +4854,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21336"/>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>checked by jk</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
         <dc:date>1953</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-1953</dc:description>
         <dc:title>Petite Philocalie de la prière du coeur</dc:title>
@@ -4900,11 +4902,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21260"/>
-        <dc:subject>2430 translation French</dc:subject>
-        <dc:subject>2441 translation French</dc:subject>
-        <dc:subject>2450 translation French</dc:subject>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>checked by jk</dc:subject>
+        <dc:subject>2450 translation French</dc:subject>
+        <dc:subject>2430 translation French</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
+        <dc:subject>2441 translation French</dc:subject>
         <dc:identifier>ISBN 2-220-03585-9</dc:identifier>
         <dc:date>1995-</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-1995</dc:description>
@@ -4959,11 +4961,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21305"/>
-        <dc:subject>2430 translation French</dc:subject>
-        <dc:subject>2441 translation French</dc:subject>
-        <dc:subject>2450 translation French</dc:subject>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>checked by jk</dc:subject>
+        <dc:subject>2450 translation French</dc:subject>
+        <dc:subject>2430 translation French</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
+        <dc:subject>2441 translation French</dc:subject>
         <dc:date>1982-</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-1982</dc:description>
         <dc:title>La Filocalia</dc:title>
@@ -5024,8 +5026,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21226"/>
-        <dc:subject>2434 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2434 translation German</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                <rdf:value>http://www.tesserae.de/anti/index.html</rdf:value>
@@ -5169,8 +5171,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21279"/>
-        <dc:subject>2434 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2434 translation English</dc:subject>
         <bib:pages>243-262</bib:pages>
         <dc:date>1990</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-wimbush-1990</dc:description>
@@ -5773,7 +5775,6 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21188"/>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 83-7354-158-6</dc:identifier>
         <dc:date>2006</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-2006</dc:description>
@@ -5822,10 +5823,10 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_20962"/>
         <dc:relation rdf:resource="#item_20266"/>
-        <dc:subject>2437 translation German</dc:subject>
-        <dc:subject>2438 translation German</dc:subject>
-        <dc:subject>2439 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2437 translation German</dc:subject>
+        <dc:subject>2439 translation German</dc:subject>
+        <dc:subject>2438 translation German</dc:subject>
         <dc:identifier>ISBN 3-7902-1410-8</dc:identifier>
         <dc:date>1986</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bunge-1986</dc:description>
@@ -5990,10 +5991,10 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21261"/>
         <dc:relation rdf:resource="urn:isbn:3-7902-1410-8"/>
-        <dc:subject>2437 translation Italian</dc:subject>
-        <dc:subject>2438 translation Italian</dc:subject>
         <dc:subject>2439 translation Italian</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2437 translation Italian</dc:subject>
+        <dc:subject>2438 translation Italian</dc:subject>
         <dc:date>1995</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bunge-1995</dc:description>
         <dc:title>Lettere dal Deserto: Epistulae</dc:title>
@@ -6711,11 +6712,15 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </z:bookAuthors>
+        <dcterms:isReferencedBy rdf:resource="#item_35697"/>
         <bib:pages>17-29</bib:pages>
         <dc:date>1966</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:lackner-1966</dc:description>
         <dc:title>Zur profanen Bildung des Euagrios Pontikos</dc:title>
     </bib:BookSection>
+    <bib:Memo rdf:about="#item_35697">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif;&quot;&gt;Lackner surveys the evidence for Evagrius&amp;rsquo; secular education in grammar, rhetoric, and philosophy. Evidence from Palladius and the &lt;em&gt;Historia Monachorum&lt;/em&gt; suggest that Evagrius had at least a basic education before he came under the influence of the Cappadocians. That he was accomplished in rhetoric is suggested by his being recommended to Nectarius as a dialectician after the departure of Gregory Nazianzus from Constantinople and by his supposed debates with philosophers in Alexandria. More concretely, one can see Evagrius&amp;rsquo; rhetorical education appear in the letters, where he uses tropes common during the second sophistic. Of Evagrius&amp;rsquo; philosophical education, Lackner finds even more direct evidence. He focuses on allusions to Porphyry&amp;rsquo;s &lt;em&gt;Isagoge&lt;/em&gt; and Aristotle&amp;rsquo;s &lt;em&gt;Categories &lt;/em&gt;in the &lt;em&gt;KG&lt;/em&gt;. Though he does not wish to decide definitively whether Evagrius&amp;rsquo; allusions came directly from a reading of philosophical texts or not, he is relatively sure that Evagrius read the &lt;em&gt;Isagoge&lt;/em&gt;. --CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:BookSection rdf:about="urn:isbn:3-923119-33-X">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -6972,13 +6977,17 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35692"/>
         <dcterms:isReferencedBy rdf:resource="#item_21326"/>
-        <dc:relation rdf:resource="#item_20480"/>
+        <dc:relation rdf:resource="https://vdokument.com/balthasar-metaphysik-und-mystik-von-evagrius.html"/>
         <bib:pages>183-195</bib:pages>
         <dc:date>1965</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:balthasar-1965</dc:description>
         <dc:title>The Metaphysics and Mystical Theology of Evagrius</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35692">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif;&quot;&gt;Balthasar proceeds systematically through a highly compressed description of Evagrian mysticism, cosmology, eschatology, and metaphysics. First, he gives an account of the relationship of the divine to spirit (nous), and spirit’s relationship to body; next, he illustrates how spirit takes on different states and progresses through various stages (demonic, human, angelic), wherein Balthasar emphasizes the fluidity of everything except for spirit; and, finally he describes the way in which body and soul pass away and leave spirit alone with itself, in reflection of the divine unity. He comes to several striking conclusions in light of this account, namely, that the Evagrian teaching is closer to Buddhism than to Christianity, that Evagrius preserves only a husk of Cappadocian Trinitarianism, and that the essential features of historical Christianity—the priesthood, orthodoxy, love, faith, and the Eucharist—melt under his symbolic gaze. As to whether this quasi-Christian mysticism was a help or hindrance to those who took up Evagrius’ teachings after him, Balthasar prefers to remain silent. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Memo rdf:about="#item_21326">
         <rdf:value>&lt;p&gt;English translation of &quot;Metaphyzik und Mystik des Evagrius Pontikus.&quot; -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
@@ -8829,11 +8838,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:contributors>
         <dcterms:isReferencedBy rdf:resource="#item_21262"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2430 translation Spanish</dc:subject>
         <dc:subject>2435 translation Spanish</dc:subject>
         <dc:subject>2436 translation Spanish</dc:subject>
         <dc:subject>2452 translation Spanish</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 84-86987-84-9</dc:identifier>
         <dc:date>1995</dc:date>
         <dc:subject>
@@ -8890,9 +8899,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2435 edition Greek</dc:subject>
         <dc:subject>2435 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <bib:pages>389-93</bib:pages>
         <dc:date>1994</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-1994</dc:description>
@@ -9021,8 +9030,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21086"/>
-        <dc:subject>2451 edition Coptic</dc:subject>
         <dc:subject>2451 edition Greek</dc:subject>
+        <dc:subject>2451 edition Coptic</dc:subject>
         <dc:subject>2451 translation German</dc:subject>
         <bib:pages>90-107</bib:pages>
         <dc:date>1989</dc:date>
@@ -10350,6 +10359,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <bib:pages>268-79; 385-406</bib:pages>
         <dc:date>1939</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:calvi-1939</dc:description>
+        <z:language>ita</z:language>
         <dc:title>La storia Lausiaca di Palladdio</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21155">
@@ -10504,8 +10514,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>need to check</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
         <bib:pages>472-97</bib:pages>
         <dc:date>1925</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-1925</dc:description>
@@ -10557,8 +10567,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21169"/>
-        <dc:subject>2481.4 edition Ethiopic</dc:subject>
         <dc:subject>need to check</dc:subject>
+        <dc:subject>2481.4 edition Ethiopic</dc:subject>
         <bib:pages>211-14, 435-39; 206-11</bib:pages>
         <dc:date>1915-1921</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:grébaut-1915</dc:description>
@@ -10874,8 +10884,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21273"/>
-        <dc:subject>2430 translation French</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2430 translation French</dc:subject>
         <dc:identifier>ISBN 2226060898; ISSN 0755-1835</dc:identifier>
         <dc:date>1992</dc:date>
         <dc:subject>
@@ -11859,8 +11869,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21242"/>
-        <dc:subject>2451 edition Old Russian</dc:subject>
         <dc:subject>need to check</dc:subject>
+        <dc:subject>2451 edition Old Russian</dc:subject>
         <dc:date>1868</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:makariem-1868</dc:description>
         <dc:title>Velikija Minei Cetij sobrannyja vserossijskim mitropolitom Makariem</dc:title>
@@ -12260,6 +12270,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21293"/>
+        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>need to check</dc:subject>
         <dc:subject>2430 translation Dutch</dc:subject>
         <dc:subject>2431 translation Dutch</dc:subject>
         <dc:subject>2433 translation Dutch</dc:subject>
@@ -12276,8 +12288,6 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:subject>2451 translation Dutch</dc:subject>
         <dc:subject>2452 translation Dutch</dc:subject>
         <dc:subject>2454 translation Dutch</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
-        <dc:subject>need to check</dc:subject>
         <dc:identifier>ISBN 90-71837-03-3</dc:identifier>
         <dc:date>1987</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-wagenaar-1987</dc:description>
@@ -12320,9 +12330,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21255"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2450 translation Italian</dc:subject>
         <dc:subject>2451 translation Italian</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 88-215-3279-8</dc:identifier>
         <dc:date>1996</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-moscatelli-1996</dc:description>
@@ -12375,9 +12385,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21275"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2447 translation French</dc:subject>
         <dc:subject>2452 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:date>1992</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-jourdan-gueyer-goudet-1992</dc:description>
         <dc:title>De la prière à la perfection: Au moine euloge</dc:title>
@@ -12423,8 +12433,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21197"/>
-        <dc:subject>2435 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2435 translation English</dc:subject>
         <dc:identifier>ISBN 0809105608 (alk. paper)</dc:identifier>
         <dc:date>2003</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-driscoll-2003</dc:description>
@@ -12464,8 +12474,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21325"/>
-        <dc:subject>2452 translation Dutch</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2452 translation Dutch</dc:subject>
         <dc:date>1965</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-1965</dc:description>
         <dc:title>In geest en Waarheid</dc:title>
@@ -12544,8 +12554,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21295"/>
-        <dc:subject>2430 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2430 translation German</dc:subject>
         <dc:identifier>ISBN 3-87868-238-7</dc:identifier>
         <dc:date>1986</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bamberger-1986</dc:description>
@@ -12586,12 +12596,12 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21256"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2430 translation Italian</dc:subject>
         <dc:subject>2431 translation Italian</dc:subject>
         <dc:subject>2435 translation Italian</dc:subject>
         <dc:subject>2436 translation Italian</dc:subject>
         <dc:subject>2441 translation Italian</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 88-85227-82-1</dc:identifier>
         <dc:date>1996</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bettiolo-1996</dc:description>
@@ -13199,7 +13209,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:lienhard-1980</dc:description>
         <dc:title>On 'Discernment of Spirits' in the Early Church</dc:title>
     </bib:Article>
-    <bib:Article rdf:about="#item_20480">
+    <bib:Article rdf:about="https://vdokument.com/balthasar-metaphysik-und-mystik-von-evagrius.html">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
@@ -13216,13 +13226,22 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35693"/>
         <dc:relation rdf:resource="#item_20288"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://vdokument.com/balthasar-metaphysik-und-mystik-von-evagrius.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
         <bib:pages>31-47</bib:pages>
         <dc:date>1939</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:balthasar-1939a</dc:description>
         <z:language>deu</z:language>
         <dc:title>Metaphysik und Mystik des Evagrius Pontikus</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35693">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif;&quot;&gt;Balthasar proceeds systematically through a highly compressed description of Evagrian mysticism, cosmology, eschatology, and metaphysics. First, he gives an account of the relationship of the divine to spirit (nous), and spirit&amp;rsquo;s relationship to body; next, he illustrates how spirit takes on different states and progresses through various stages (demonic, human, angelic), wherein Balthasar emphasizes the fluidity of everything except for spirit; and, finally he describes the way in which body and soul pass away and leave spirit alone with itself, in reflection of the divine unity. He comes to several striking conclusions in light of this account, namely, that the Evagrian teaching is closer to Buddhism than to Christianity, that Evagrius preserves only a husk of Cappadocian Trinitarianism, and that the essential features of historical Christianity&amp;mdash;the priesthood, orthodoxy, love, faith, and the Eucharist&amp;mdash;melt under his symbolic gaze. As to whether this quasi-Christian mysticism was a help or hindrance to those who took up Evagrius&amp;rsquo; teachings after him, Balthasar prefers to remain silent. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Article rdf:about="#item_20481">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -13659,6 +13678,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dc:subject>2458.1 edition Greek</dc:subject>
         <bib:pages>86-106; 181-206</bib:pages>
         <dc:date>1939</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:balthasar-1939b</dc:description>
@@ -14356,8 +14376,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21327"/>
-        <dc:subject>2438 edition Syriac</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2438 edition Syriac</dc:subject>
         <dc:date>1964</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-vitestam-1964</dc:description>
         <dc:title>Seconde partie du traité, qui passe sous le nom de &quot;La grande lettre d'Évagre le Pontique à Mélanie l'Ancienne&quot;</dc:title>
@@ -14441,6 +14461,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35690"/>
         <dcterms:isReferencedBy rdf:resource="#item_20989"/>
         <dc:relation rdf:resource="urn:isbn:978-3-87071-243-3"/>
         <dc:subject>JK NEH</dc:subject>
@@ -14449,6 +14470,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-1994a</dc:description>
         <dc:title>&quot;Der mystische Sinn der Schrift&quot;: Anlässlich der Veroffentlichung der Scholien zum Ecclesiasten des Evagrios Pontikos</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35690">
+        <rdf:value>&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: Garamond, serif;&quot;&gt;Gabriel Bunge situates the scholia collections within Evagrius’ monastic period, as texts written “as a monk for monks.” He provides detail on their utility within the ancient monastic discipline of reading and provides ways in which the scholia collections could be profitably read today. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Memo rdf:about="#item_20989">
         <rdf:value>&lt;p&gt;Reprinted 2011 in &lt;em&gt;&quot;Die Lehren der heiligen Väter&quot; (RB 73, 2): Aufsätze zu Evagrios Pontikos aus drei Jahrzehnten&lt;/em&gt;&lt;/p&gt;</rdf:value>
     </bib:Memo>
@@ -14666,8 +14690,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_20993"/>
         <dc:relation rdf:resource="urn:isbn:978-3-87071-243-3"/>
-        <dc:subject>2434 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2434 translation German</dc:subject>
         <bib:pages>77-106</bib:pages>
         <dc:date>1997</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-1997c</dc:description>
@@ -14734,8 +14758,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21294"/>
-        <dc:subject>2461 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2461 translation German</dc:subject>
         <dc:identifier>ISBN 3-922727-35-2</dc:identifier>
         <dc:date>1987</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-1987a</dc:description>
@@ -14905,8 +14929,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:editors>
         <dcterms:isReferencedBy rdf:resource="#item_21186"/>
-        <dc:subject>2452 translation English</dc:subject>
         <dc:subject>checked by jk</dc:subject>
+        <dc:subject>2452 translation English</dc:subject>
         <dc:identifier>ISBN 1-59473-103-9</dc:identifier>
         <dc:date>2006</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:smith-2006</dc:description>
@@ -14955,11 +14979,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21030"/>
+        <dc:subject>checked by jk</dc:subject>
         <dc:subject>2430 translation English</dc:subject>
         <dc:subject>2441 translation English</dc:subject>
         <dc:subject>2450 translation English</dc:subject>
         <dc:subject>2452 translation English</dc:subject>
-        <dc:subject>checked by jk</dc:subject>
         <dc:identifier>ISBN 1-884729-79-7</dc:identifier>
         <dc:date>2008-2009</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-2008</dc:description>
@@ -15062,9 +15086,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </z:translators>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2430 translation English</dc:subject>
         <dc:subject>2452 translation English</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:date>1987</dc:date>
         <dc:subject>
            <dcterms:LCC><rdf:value>LC: BV5039.G7</rdf:value></dcterms:LCC>
@@ -15106,6 +15130,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21196"/>
+        <dc:subject>checked by jk</dc:subject>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2430 translation English</dc:subject>
         <dc:subject>2435 translation English</dc:subject>
         <dc:subject>2436 translation English</dc:subject>
@@ -15121,8 +15147,6 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:subject>2451 translation English</dc:subject>
         <dc:subject>2452 translation English</dc:subject>
         <dc:subject>2454 translation English</dc:subject>
-        <dc:subject>checked by jk</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 0-19-925993-3</dc:identifier>
         <dc:date>2003</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-sinkewicz-2003</dc:description>
@@ -15397,6 +15421,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:subject>2451 edition Latin</dc:subject>
         <dc:date>1680</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bigot-1680</dc:description>
+        <z:language>lat</z:language>
         <dc:title>Palladii episcopi helenopolitani De vita s. Johannis Chrysostomi dialogus: Accedunt homilia Sancti Johannis chrysostomi in laudem Diodori, Tarsensis episcopi, Acta Tarachi, Probi et andronici, Passio Banifatii Romani, Evagrius de octo cogitationibus, Nilus de octo vitiis</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21224">
@@ -15434,10 +15459,12 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:editors>
         <dcterms:isReferencedBy rdf:resource="#item_21213"/>
+        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2435 edition Armenian</dc:subject>
+        <dc:subject>need to check</dc:subject>
         <dc:subject>2431 edition Armenian</dc:subject>
         <dc:subject>2432 edition Armenian</dc:subject>
         <dc:subject>2434 edition Armenian</dc:subject>
-        <dc:subject>2435 edition Armenian</dc:subject>
         <dc:subject>2436 edition Armenian</dc:subject>
         <dc:subject>2437 edition Armenian</dc:subject>
         <dc:subject>2443 edition Armenian</dc:subject>
@@ -15445,8 +15472,6 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:subject>2470 edition Armenian</dc:subject>
         <dc:subject>2477 edition Armenian</dc:subject>
         <dc:subject>2481.2 edition Armenian</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
-        <dc:subject>need to check</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>http://archive.org/details/VarkEwMatenagrutiwnkTargmanealkIHunIHayBarbaIE.Daru</rdf:value>
@@ -15758,12 +15783,12 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </bib:editors>
         <dcterms:isReferencedBy rdf:resource="#item_21018"/>
         <dc:subject>
-           <z:AutomaticTag><rdf:value>Christianity</rdf:value></z:AutomaticTag>
-        </dc:subject>
-        <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Religious aspects</rdf:value>
             </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Christianity</rdf:value></z:AutomaticTag>
         </dc:subject>
         <dc:subject>
            <z:AutomaticTag><rdf:value>Violence</rdf:value></z:AutomaticTag>
@@ -16082,8 +16107,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21267"/>
-        <dc:subject>2452 translation Italian</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2452 translation Italian</dc:subject>
         <dc:identifier>ISBN 88-311-3117-6</dc:identifier>
         <dc:date>1994</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-messana-1994</dc:description>
@@ -17112,11 +17137,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21290"/>
-        <dc:subject>2430 translation French</dc:subject>
-        <dc:subject>2441 translation French</dc:subject>
-        <dc:subject>2450 translation French</dc:subject>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>checked by jk</dc:subject>
+        <dc:subject>2450 translation French</dc:subject>
+        <dc:subject>2430 translation French</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
+        <dc:subject>2441 translation French</dc:subject>
         <prism:volume>8</prism:volume>
         <dc:identifier>ISBN 2855899516 (fasc.1)</dc:identifier>
         <dc:date>1987</dc:date>
@@ -17258,8 +17283,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21254"/>
-        <dc:subject>2430 translation French</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2430 translation French</dc:subject>
         <dc:identifier>ISBN 2855893679 (invalid)</dc:identifier>
         <dc:date>1996</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bunge-1996</dc:description>
@@ -17438,10 +17463,14 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_35689"/>
         <dc:date>2004</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:casiday-2004a</dc:description>
         <dc:title>Christ, the Icon of the Father, in Evagrian Theology</dc:title>
     </bib:BookSection>
+    <bib:Memo rdf:about="#item_35689">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif; background: white;&quot;&gt;In this chapter, Casiday disputes Elizabeth Clark&amp;rsquo;s depiction of Evagrius as iconoclastic. To do so, he distinguishes Evagrius&amp;rsquo; teachings from those of iconoclasts from later centuries, and presents parallels from his present day that reflect an openness to the use of sacred images; he presents the importance of the body in the Neoplatonic philosophies of Plotinus and Porphyry; he shows the importance of Christ as an image of the Father, and presents Evagrius&amp;rsquo; own pedagogical use of images and symbols on the way to imagelessness. To close, Casiday argues for taking the tradition of monastic theology found in the Philokalia tradition as a useful interpretive key. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:BookSection rdf:about="#item_20602">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
@@ -17546,8 +17575,8 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </z:bookAuthors>
-        <dc:subject>2437 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2437 translation English</dc:subject>
         <bib:pages>130-139</bib:pages>
         <dc:date>2007</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:young-2007</dc:description>
@@ -17768,15 +17797,10 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_20909"/>
         <dc:subject>
-           <z:AutomaticTag><rdf:value>Asceticism</rdf:value></z:AutomaticTag>
+           <z:AutomaticTag><rdf:value>History</rdf:value></z:AutomaticTag>
         </dc:subject>
         <dc:subject>
            <z:AutomaticTag><rdf:value>Christianity</rdf:value></z:AutomaticTag>
-        </dc:subject>
-        <dc:subject>
-            <z:AutomaticTag>
-               <rdf:value>Early church, ca. 30-600</rdf:value>
-            </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
@@ -17784,7 +17808,12 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
-           <z:AutomaticTag><rdf:value>History</rdf:value></z:AutomaticTag>
+           <z:AutomaticTag><rdf:value>Asceticism</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Early church, ca. 30-600</rdf:value>
+            </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
            <z:AutomaticTag><rdf:value>Prayer</rdf:value></z:AutomaticTag>
@@ -18049,11 +18078,11 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21185"/>
-        <dc:subject>2430 translation English</dc:subject>
-        <dc:subject>2431 translation English</dc:subject>
         <dc:subject>2432 translation English</dc:subject>
-        <dc:subject>2433 translation English</dc:subject>
+        <dc:subject>2430 translation English</dc:subject>
         <dc:subject>2450 translation English</dc:subject>
+        <dc:subject>2431 translation English</dc:subject>
+        <dc:subject>2433 translation English</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                <rdf:value>http://timiosprodromos2.blogspot.com/</rdf:value>
@@ -18560,11 +18589,11 @@ Los demonios y los ángeles poseen un papel protagónico en la configuración y 
                 </rdf:li>
             </rdf:Seq>
         </bib:editors>
+        <dc:subject>2454 edition Greek</dc:subject>
         <dc:subject>2435 edition Greek</dc:subject>
         <dc:subject>2435 translation German</dc:subject>
         <dc:subject>2436 edition Greek</dc:subject>
         <dc:subject>2436 translation German</dc:subject>
-        <dc:subject>2454 edition Greek</dc:subject>
         <dc:subject>2454 translation German</dc:subject>
         <dc:subject>
             <z:AutomaticTag>
@@ -20149,12 +20178,12 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
         <dc:relation rdf:resource="#item_20944"/>
         <dc:subject>
             <z:AutomaticTag>
-               <rdf:value>Cassian, the Sabaite, approximately 470-548.</rdf:value>
+                <rdf:value>Church history -- Primitive and early church, approximately 30-600.</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
-                <rdf:value>Church history -- Primitive and early church, approximately 30-600.</rdf:value>
+               <rdf:value>Cassian, the Sabaite, approximately 470-548.</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
@@ -20272,12 +20301,16 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35688"/>
         <bib:pages>143-157</bib:pages>
         <dc:date>2005</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:casiday-2005</dc:description>
         <dcterms:abstract>Using the Scholia on Job as his starting point (on Job 1:5, 10:2, 30:24, 40:25), the author notes that Evagrius availed himeslf of readings other than those attested in the Septuagint, and perhaps had the rudiments of Hebrew. Of particular note is the discussion of the so-called Eἰς τὸ Πιπι (On the Tetragrammaton) that is identical to the scholion on on Job 1:5. Casiday argues against Devreesse's attribution of the short piece to Origen, and further suggests that Evagrius had available in Egypt a copy of the Tetrapla. -jk</dcterms:abstract>
         <dc:title>Evagrius Ponticus' Use of Different Versions of Scripture with Special Reference to his Scholia on Job</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35688">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif; background: white;&quot;&gt;Casiday advances several arguments alongside each other. At the most generic level, he argues that Evagrius&amp;rsquo; interest in the allegorical meaning of the text of Scripture did not preclude him from interest in its literal meaning, and that he can be shown to have had great interest in the literal meaning, as did the Antiochians. More specifically, he argues that a scholion on the Tetragrammaton and the Hebrew names of God, previously thought to be written by Origen, should be attributed to Evagrius. Besides internal paleographic proof, Casiday provides external proof to make the attribution more probable by showing that, as a scribe, Evagrius could very well have had a copy of Origen&amp;rsquo;s Hexapla. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Book rdf:about="urn:isbn:0524051429%20(microfiche)">
         <z:itemType>book</z:itemType>
         <dcterms:isPartOf>
@@ -20375,10 +20408,10 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21217"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2443 edition Greek</dc:subject>
         <dc:subject>2444 edition Greek</dc:subject>
         <dc:subject>2445 edition Greek</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>http://books.google.com/books?id=8zo8AAAAMAAJ&amp;ots=GSJhhdrAi2&amp;dq=elter%20gnomica&amp;pg=PP1#v=onepage&amp;q&amp;f=false</rdf:value>
@@ -20425,10 +20458,10 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21212"/>
-        <dc:subject>2435 edition Greek</dc:subject>
-        <dc:subject>2435 edition Syriac</dc:subject>
-        <dc:subject>2436 edition Greek</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2435 edition Greek</dc:subject>
+        <dc:subject>2436 edition Greek</dc:subject>
+        <dc:subject>2435 edition Syriac</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://archive.org/details/texteunduntersuc3839akad</rdf:value>
@@ -20500,6 +20533,7 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
         </dc:subject>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:graf-1944</dc:description>
         <z:numberOfVolumes>5</z:numberOfVolumes>
+        <z:language>deu</z:language>
         <dc:title>Geschichte der Christlichen Arabischen Literatur</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21339">
@@ -20773,6 +20807,7 @@ SPISI DVOMLJIVEGA AVTORSTVA IN NEPRISTNI SPISI
         <dc:date>1857-1887</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:migne-1857</dc:description>
         <dcterms:dateSubmitted>2010-08-13 19:56:42</dcterms:dateSubmitted>
+        <z:language>grc; lat</z:language>
         <dc:title>Patrologiae cursus completus</dc:title>
         <z:shortTitle>PG</z:shortTitle>
     </bib:Book>
@@ -20893,7 +20928,7 @@ SPISI DVOMLJIVEGA AVTORSTVA IN NEPRISTNI SPISI
     <bib:Memo rdf:about="#item_21257">
        <rdf:value>&lt;p&gt;Includes summary in German. -cat&lt;/p&gt;</rdf:value>
     </bib:Memo>
-    <bib:Article rdf:about="#item_20677">
+    <bib:Article rdf:about="https://www.academia.edu/9455493/The_Relationship_between_nous_pneuma_and_logistikon_in_Evagrius_Ponticus_Anthropology">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
@@ -20911,6 +20946,11 @@ SPISI DVOMLJIVEGA AVTORSTVA IN NEPRISTNI SPISI
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/9455493/The_Relationship_between_nous_pneuma_and_logistikon_in_Evagrius_Ponticus_Anthropology</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
         <bib:pages>149-154</bib:pages>
         <dc:date>2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:misiarczyk-2013</dc:description>
@@ -21436,6 +21476,7 @@ systematizer, the philosopher monk Evagrius Ponticus, this paper, firstly, propo
         <dc:date>1860</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:tischendorf-1860</dc:description>
         <dcterms:dateSubmitted>2010-08-25 17:12:40</dcterms:dateSubmitted>
+        <z:language>lat; grc</z:language>
         <dcterms:abstract>See pp. 76-122 for Scholia on Proverbs</dcterms:abstract>
         <dc:title>Notitia editionis codicis bibliorum Sinaitici auspiciis Imperatoris Alexandri II. susceptae: Accedit catalogus codicum nuper ex oriente Petropolin perlatorum; Item Origenis Scholia in Proverbia Salomonis; Partim nunc primum partim secundum atque emendatius edita</dc:title>
         <z:shortTitle>Notitia editionis codicis bibliorum Sinaitici auspiciis Imperatoris Alexandri II. susceptae</z:shortTitle>
@@ -21513,8 +21554,8 @@ systematizer, the philosopher monk Evagrius Ponticus, this paper, firstly, propo
             </rdf:Seq>
         </bib:editors>
         <dc:subject>2447 edition Greek</dc:subject>
-        <dc:subject>2447 translation French</dc:subject>
         <dc:subject>2448 edition Greek</dc:subject>
+        <dc:subject>2447 translation French</dc:subject>
         <dc:subject>2448 translation French</dc:subject>
         <dc:identifier>ISBN 978-2-204-12617-5</dc:identifier>
         <dc:date>2017</dc:date>
@@ -21584,12 +21625,12 @@ systematizer, the philosopher monk Evagrius Ponticus, this paper, firstly, propo
             </rdf:Seq>
         </bib:editors>
         <dc:subject>
-           <z:AutomaticTag><rdf:value>Antike.</rdf:value></z:AutomaticTag>
-        </dc:subject>
-        <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Criticism, interpretation, etc.</rdf:value>
             </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Antike.</rdf:value></z:AutomaticTag>
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
@@ -21785,9 +21826,9 @@ HOLLIS number: 015218583</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21322"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2430 translation English</dc:subject>
         <dc:subject>2452 translation English</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>ISBN 0-87907-804-9</dc:identifier>
         <dc:date>1970</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bamberger-1970</dc:description>
@@ -21886,8 +21927,8 @@ HOLLIS number: 015218583</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21214"/>
-        <dc:subject>2439 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2439 translation English</dc:subject>
         <dc:date>1895</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:jackson-1895</dc:description>
         <dc:title>St. Basil: Letters and Select Works</dc:title>
@@ -22004,7 +22045,7 @@ HOLLIS number: 013091287</dc:description>
         <dc:title>Liber graduum</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_20918">
-        <rdf:value>&lt;p&gt;Pp. 325-334 for Syriac and Latin translation of &lt;em&gt;The Just and the Perfect&lt;/em&gt;.&lt;/p&gt;</rdf:value>
+        <rdf:value>&lt;p&gt;Pp. 325-334 for Syriac and Latin translation of &lt;em&gt;The Just and the Perfect&lt;/em&gt; (CPG 2465).&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_20709">
         <z:itemType>journalArticle</z:itemType>
@@ -22074,12 +22115,12 @@ HOLLIS number: 013091287</dc:description>
             </rdf:Seq>
         </bib:editors>
         <dcterms:isReferencedBy rdf:resource="#item_20942"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2441 edition Syriac</dc:subject>
         <dc:subject>2444 edition Syriac</dc:subject>
         <dc:subject>2445 edition Syriac</dc:subject>
         <dc:subject>2451 edition Syriac</dc:subject>
         <dc:subject>2452 edition Greek</dc:subject>
-        <dc:subject>2452 translation French</dc:subject>
         <dc:subject>2457 edition Syriac</dc:subject>
         <dc:subject>2465 edition Syriac</dc:subject>
         <dc:subject>2465 translation French</dc:subject>
@@ -22109,9 +22150,9 @@ HOLLIS number: 013091287</dc:description>
         <dc:subject>2478 translation French</dc:subject>
         <dc:subject>2479 edition Syriac</dc:subject>
         <dc:subject>2479 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:subject>JK roundtable</dc:subject>
         <dc:subject>need to check</dc:subject>
+        <dc:subject>2452 translation French</dc:subject>
         <dc:date>1952</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1952</dc:description>
         <dc:title>Evagriana syriaca: Textes inedits du British Museum et de la Vaticane</dc:title>
@@ -22123,7 +22164,8 @@ HOLLIS number: 013091287</dc:description>
 &lt;li&gt;S&lt;sub&gt;2&lt;/sub&gt; (executed after S&lt;sub&gt;1&lt;/sub&gt;; inferior translation; distinguishes the P from the G and retains the letter to Anatolios)&lt;/li&gt;
 &lt;li&gt;S&lt;sub&gt;3&lt;/sub&gt; (late 6th c.; depends upon S&lt;sub&gt;1&lt;/sub&gt; and S&lt;sub&gt;2&lt;/sub&gt;, but makes adjustment to the Greek; found in MSS only as extracts, not the complete text)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Syriac texts: Hypotyposis: 31-33. Spiritual Chapters Alphabetized: 33; On Prayer: 41-43 (includes critical Greek text of the proemion); The Eight Spirits of Wickedness: 55-59; The Just and the Perfect: 105-9, 142-46; Humility: 109-14, 146-50; Fasting: 115-17, 150-53; Silence: 118-20 , 153-54; Admonition on the Marks of Serenity: 120-22, 154-56; Dialogue of a Master with his Student: 123, 156; The Defense of One Led by God: 124, 157; Instructive Admonition: 125-28, 157-59; Counsel of the Mind: 128, 159; Teaching: 129, 160; Counsel: 130-33; 160-63; Expositio in Parabolas et in Proverbia Salomonis: 133-35, 163-65; Proverbs and their Interpretation: 135-38; 165-67; Profession of Faith: 139-40, 167-69; Excerpt: 141-42, 169-71. -jk&lt;/p&gt;</rdf:value>
+&lt;p&gt;Syriac texts: Hypotyposis: 31-33 (CPG 2441). Spiritual Chapters Alphabetized: 33 (CPG 2444); On Prayer: 41-43 (CPG 2452; includes critical Greek text of the proemion); The Eight Spirits of Wickedness: 55-59 (CPG 2451)&lt;/p&gt;
+&lt;p&gt;This volume is the key edition for a number of texts that are of variable authenticity: The Just and the Perfect: 105-9, 142-46 (CPG 2465); Humility: 109-14, 146-50 (CPG 2466); Fasting: 115-17, 150-53 (CPG 2467); Silence: 118-20 (CPG 2468), 153-54; Admonition on the Marks of Serenity: 120-22, 154-56 (CPG 2469); Dialogue of a Master with His Student: 123, 156 (CPG 2470); The Defense of One Led by God: 124, 157 (CPG 2471); Instructive Admonition: 125-28, 157-59 (CPG 2472); Counsel of the Mind: 128, 159 (CPG 2473); Teaching: 129, 160 (CPG 2474); Counsel: 130-33; 160-63 (CPG 2475); Expositio in Parabolas et in Proverbia Salomonis: 133-35, 163-65 (CPG 2457); Proverbs and Their Interpretation: 135-38; 165-67 (CPG 2477); Profession of Faith: 139-40, 167-69 (CPG 2478); Excerpt: 141-42, 169-71 (CPG 2479). -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_20711">
         <z:itemType>journalArticle</z:itemType>
@@ -22181,10 +22223,11 @@ HOLLIS number: 013091287</dc:description>
         <bib:pages>77-113</bib:pages>
         <dc:date>1943</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1943</dc:description>
+        <z:language>fra; hye</z:language>
         <dc:title>S. Nil en version arménienne</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21150">
-        <rdf:value>&lt;p&gt;Recension de &quot;Vitae Patrum&quot;, t. 2, pp. 637-725 contenant la version arménienne d'écrits attribués à Nil d'Ancyre. Identification des textes et rapports avec le texte grec original. Traduction française de: &quot;Instructio utilis&quot; d'Eznik de Kolb, &quot;Sermo 6&quot; (excerpta) d'Aphraate; &quot;De magistris et discipulis&quot; (&quot;uersio syriaca&quot;) (fragmenta) de Nil d'Ancyre; &quot;Adhortatio ad monachos&quot; (&quot;uersio armeniaca&quot;) (supplementum) de Nil d'Ancyre; &quot;Sententiae&quot; (&quot;uersio armeniaca&quot;) d'Hésychius de Jérusalem, attribuées à Nil d'Ancyre. French trans. of Captia paraenetica pp. 80, 84-85. -cat&lt;/p&gt;</rdf:value>
+        <rdf:value>&lt;p&gt;Recension de &quot;Vitae Patrum&quot;, t. 2, pp. 637-725 contenant la version arménienne d'écrits attribués à Nil d'Ancyre. Identification des textes et rapports avec le texte grec original. Traduction française de: &quot;Instructio utilis&quot; d'Eznik de Kolb, &quot;Sermo 6&quot; (excerpta) d'Aphraate; &quot;De magistris et discipulis&quot; (&quot;uersio syriaca&quot;) (fragmenta) de Nil d'Ancyre; &quot;Adhortatio ad monachos&quot; (&quot;uersio armeniaca&quot;) (supplementum) de Nil d'Ancyre; &quot;Sententiae&quot; (&quot;uersio armeniaca&quot;) d'Hésychius de Jérusalem, attribuées à Nil d'Ancyre. French trans. of Capita paraenetica pp. 80, 84-85. -cat&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_20713">
         <z:itemType>journalArticle</z:itemType>
@@ -22355,13 +22398,15 @@ HOLLIS number: 013091287</dc:description>
         <dc:subject>JK NEH</dc:subject>
         <dc:subject>need to check</dc:subject>
         <dc:subject>2476 edition Syriac</dc:subject>
+        <dc:subject>2476 translation French</dc:subject>
         <bib:pages>73-106</bib:pages>
         <dc:date>1934</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1934a</dc:description>
         <dc:title>Évagre le Pontique: Les &lt;i&gt;Capita cognoscitiua&lt;/i&gt; dans les versions syriaque et arménienne</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21158">
-        <rdf:value>&lt;p&gt;Edition des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;Principium scientiae ueritatis in anima (est) motio eius a Spiritu Sancto&quot;) et des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;De perfectione&quot; [99-102]) d'Évagre le Pontique d'après le ms. Vaticano (Città del), Biblioteca apostolica Vaticana, Vat. sir. 509, f. 93 et 96a-97a. Etude comparative des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;Rursus capita cognoscitiua sancti Mar Euagrii&quot;) et des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (1-42) d'Évagre le Pontique, à partir du ms. Vaticano (Città del), Biblioteca apostolica Vaticana, Vat. sir. 509, f. 92b-93a et 94a-96a. Introduction sur les versions syriaque et arménienne des &quot;Capita cognoscitiua&quot; d'Évagre le Pontique. -cat&lt;/p&gt;</rdf:value>
+        <rdf:value>&lt;p&gt;Edition des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;Principium scientiae ueritatis in anima (est) motio eius a Spiritu Sancto&quot;) et des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;De perfectione&quot; [99-102]) d'Évagre le Pontique d'après le ms. Vaticano (Città del), Biblioteca apostolica Vaticana, Vat. sir. 509, f. 93 et 96a-97a. Etude comparative des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (&quot;Rursus capita cognoscitiua sancti Mar Euagrii&quot;) et des &quot;Capita cognoscitiua&quot; (&quot;uersio syriaca&quot;) (1-42) d'Évagre le Pontique, à partir du ms. Vaticano (Città del), Biblioteca apostolica Vaticana, Vat. sir. 509, f. 92b-93a et 94a-96a. Introduction sur les versions syriaque et arménienne des &quot;Capita cognoscitiua&quot; d'Évagre le Pontique. -cat&lt;/p&gt;
+&lt;p&gt;Introduction, Syriac text, and French translation of On Perfection (CPG 2476) is at 97-106 -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Book rdf:about="#item_20719">
         <z:itemType>book</z:itemType>
@@ -22468,7 +22513,9 @@ HOLLIS number: 013091287</dc:description>
         <dc:subject>2433 edition Greek</dc:subject>
         <dc:date>1931</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1931b</dc:description>
+        <dcterms:abstract>This brief reprint from &lt;i&gt;Le Muséon&lt;/i&gt;, 49-59 presents about twenty-five Greek fragments from Cod. Ambr. gr. 681 (q 74 sup; 10th century). Because of its date and title, it is easily confused with Muyldermans's other 1931 publication &quot;Evagriana.&quot;</dcterms:abstract>
         <dc:title>Evagriana: Extrait de la revue &lt;i&gt;Le Muséon&lt;/i&gt;, vol. 44, augmenté de nouveax fragments grecs inédits</dc:title>
+        <z:numPages>11</z:numPages>
     </bib:Book>
     <bib:Memo rdf:about="#item_21006">
         <rdf:value>&lt;p&gt;This reprint of an article published that same year is important for containing Greek fragments of the &lt;em&gt;Kephalaia Gnostika&lt;/em&gt; found in codex Ambrosianus graecus 681 (q 74 sup), 166v-167v. The book is very scarce. -jk&lt;/p&gt;</rdf:value>
@@ -22767,10 +22814,10 @@ HOLLIS number: 013091287</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21332"/>
+        <dc:subject>JK NEH</dc:subject>
         <dc:subject>2432 edition Greek</dc:subject>
         <dc:subject>2432 edition Syriac</dc:subject>
         <dc:subject>2432 translation French</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://www.academia.edu/10534935/Evagrios_Kephalaia_Gnostica_ed._Guillaumont_</rdf:value>
@@ -22876,10 +22923,10 @@ HOLLIS number: 013091287</dc:description>
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21282"/>
-        <dc:subject>2431 edition Greek</dc:subject>
-        <dc:subject>2431 edition Syriac</dc:subject>
-        <dc:subject>2431 translation French</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2431 edition Syriac</dc:subject>
+        <dc:subject>2431 edition Greek</dc:subject>
+        <dc:subject>2431 translation French</dc:subject>
         <dc:identifier>ISBN 2-204-03190-9</dc:identifier>
         <dc:date>1989</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:guillaumont-1989</dc:description>
@@ -22979,16 +23026,13 @@ HOLLIS number: 013091287</dc:description>
            <dcterms:LCC><rdf:value>LC: AS182</rdf:value></dcterms:LCC>
         </dc:subject>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:frankenberg-1912</dc:description>
+        <z:language>syr; grc; deu</z:language>
         <dc:title>Euagrius Ponticus</dc:title>
         <z:shortTitle>Frankenberg</z:shortTitle>
     </bib:Book>
     <bib:Memo rdf:about="#item_21028">
         <rdf:value>&lt;p&gt;Evagrius's works from Cod. vatic. syr. n. 178, and selections from his other works from British museum ms. Addit. 14578, supplemented by Addit. 17167. The Syriac text of the Centuries is accompanied by a German translation of the commentary of Babhai, on opposite pages (p.8-471) The text of the selections is in Syriac with retroverted Greek on facing page.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Kephalaia Gnostica &lt;/em&gt;comes with commentary by Mar Babai; pseudo-supplement: 422-471; &lt;em&gt;Skemmata&lt;/em&gt;: 452-467; &lt;em&gt;Antirrheticus&lt;/em&gt;: 472-545 (parts &lt;a href=&quot;http://www.mediafire.com/?jmmnetzwjdz&quot; target=&quot;_blank&quot;&gt;one&lt;/a&gt; and &lt;a href=&quot;http://www.mediafire.com/?qmzgwtzrfyb&quot; target=&quot;_blank&quot;&gt;two&lt;/a&gt;); &lt;em&gt;Gnosticus&lt;/em&gt;: 546-53; &lt;em&gt;Protrepticus&lt;/em&gt;: 554-56; &lt;em&gt;Paraeneticus&lt;/em&gt;: 556-62; &lt;em&gt;Ad virginem &lt;/em&gt;562-65; &lt;em&gt;Letters&lt;/em&gt;: 564-611; &lt;em&gt;Dogmatic letter&lt;/em&gt;: 620-35. -jk&lt;/p&gt;</rdf:value>
-        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
-        <z:itemType>note</z:itemType>
-        <rdf:value>&lt;p&gt;Evagrius's works from Cod. vatic. syr. n. 178, and selections from his other works from British museum ms. Addit. 14578, supplemented by Addit. 17167. The Syriac text of the Centuries is accompanied by a German translation of the commentary of Babhai, on opposite pages (p.8-471) The text of the selections is in Syriac with retroverted Greek on facing page.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Kephalaia Gnostica &lt;/em&gt;comes with commentary by Mar Babai; pseudo-supplement: 422-471; &lt;em&gt;Skemmata&lt;/em&gt;: 452-467; &lt;em&gt;Antirrheticus&lt;/em&gt;: 472-545 (parts &lt;a href=&quot;http://www.mediafire.com/?jmmnetzwjdz&quot; target=&quot;_blank&quot;&gt;one&lt;/a&gt; and &lt;a href=&quot;http://www.mediafire.com/?qmzgwtzrfyb&quot; target=&quot;_blank&quot;&gt;two&lt;/a&gt;); &lt;em&gt;Gnosticus&lt;/em&gt;: 546-53; &lt;em&gt;Protrepticus&lt;/em&gt;: 554-56; &lt;em&gt;Paraeneticus&lt;/em&gt;: 556-62; &lt;em&gt;Ad virginem &lt;/em&gt;562-65; &lt;em&gt;Letters&lt;/em&gt;: 564-611; &lt;em&gt;Dogmatic letter&lt;/em&gt;: 620-35. -jk&lt;/p&gt;</rdf:value>
+&lt;p&gt;&lt;em&gt;Kephalaia Gnostica &lt;/em&gt;comes with commentary by Mar Babai; pseudo-supplement: 422-471; &lt;em&gt;Skemmata&lt;/em&gt;: 452-467; &lt;em&gt;Antirrheticus&lt;/em&gt;: 472-545 (parts &lt;a rel=&quot;noopener&quot; href=&quot;http://www.mediafire.com/?jmmnetzwjdz&quot; target=&quot;_blank&quot;&gt;one&lt;/a&gt; and &lt;a rel=&quot;noopener&quot; href=&quot;http://www.mediafire.com/?qmzgwtzrfyb&quot; target=&quot;_blank&quot;&gt;two&lt;/a&gt;); &lt;em&gt;Gnosticus&lt;/em&gt;: 546-53; &lt;em&gt;Protrepticus&lt;/em&gt;: 554-56; &lt;em&gt;Paraeneticus&lt;/em&gt;: 556-62; &lt;em&gt;Ad virginem &lt;/em&gt;562-65; &lt;em&gt;Letters&lt;/em&gt;: 564-611; &lt;em&gt;Great Letter&lt;/em&gt;, 612-19 (§§1-32; BL Add. 17,162 has §§17, 24, 33-68); &lt;em&gt;Dogmatic letter&lt;/em&gt;: 620-35. -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Document rdf:about="http://www.ldysinger.com/Evagrius/00a_start.htm">
         <z:itemType>webpage</z:itemType>
@@ -23303,24 +23347,24 @@ HOLLIS number: 013091287</dc:description>
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21187"/>
-        <dc:subject>2436 translation English</dc:subject>
-        <dc:subject>2437 translation English</dc:subject>
+        <dc:subject>checked by jk</dc:subject>
         <dc:subject>2438 translation English</dc:subject>
-        <dc:subject>2439 translation English</dc:subject>
+        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2436 translation English</dc:subject>
         <dc:subject>2441 translation English</dc:subject>
         <dc:subject>2445 translation English</dc:subject>
         <dc:subject>2450 translation English</dc:subject>
         <dc:subject>2452 translation English</dc:subject>
+        <dc:subject>2437 translation English</dc:subject>
+        <dc:subject>2439 translation English</dc:subject>
         <dc:subject>2453 translation English</dc:subject>
         <dc:subject>2458.2 translation English</dc:subject>
         <dc:subject>2458.5 translation English</dc:subject>
         <dc:subject>2458.6 translation English</dc:subject>
         <dc:subject>2461 translation English</dc:subject>
-        <dc:subject>2482 translation English</dc:subject>
-        <dc:subject>checked by jk</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
         <dc:subject>nocpg03 translation English</dc:subject>
         <dc:subject>nocpg04 translation English</dc:subject>
+        <dc:subject>2482 translation English</dc:subject>
         <dc:identifier>ISBN 0415324467 (hbk); 0415324475 (pbk); 0203356977 (ebk); 9780415324465 (hbk); 9780415324472 (pbk)</dc:identifier>
         <dc:date>2006</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-casiday-2006</dc:description>
@@ -23634,6 +23678,7 @@ HOLLIS number: 013091287</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_35691"/>
         <dc:subject>
             <z:AutomaticTag>
                 <rdf:value>Asceticism -- History -- Early church, ca. 30-600.</rdf:value>
@@ -23644,6 +23689,11 @@ HOLLIS number: 013091287</dc:description>
                 <rdf:value>Bible -- Criticism, interpretation, etc. -- History -- Early church, ca. 30-600 -- Congresses.</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/4022116/Reading_the_New_Testament_and_Transforming_the_Self_in_Evagrius_of_Pontus</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
         <bib:pages>284-299</bib:pages>
         <dc:date>2013</dc:date>
         <dc:subject>
@@ -23655,6 +23705,9 @@ HOLLIS number: 013091287</dc:description>
         <z:libraryCatalog>Library Catalog (Aquabrowser)</z:libraryCatalog>
         <dc:title>Reading the New Testament and Transforming the Self in Evagrius of Pontus</dc:title>
     </bib:BookSection>
+    <bib:Memo rdf:about="#item_35691">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif; background: white;&quot;&gt;Brakke gives an introduction to the exegesis of Evagrius by way of the scholia collections on Proverbs, Ecclesiastes, some scholia on Luke, and the &lt;em&gt;Antirrhetikos, &lt;/em&gt;or &lt;em&gt;Talking Back&lt;/em&gt;. To frame his argument, Brakke asserts that for Evagrius Christianity is doctrinal, monastic, and philosophical. The encounter with Scripture is privileged form of contemplation, which ultimately will lead its reader to assimilation with the text. Finally, Brakke examines Evagrius&amp;rsquo; treatment of the Old and New Testaments and concludes that there is not a great difference between them in the eyes of Evagrius; each are spoken as parables by the voice of Christ. -&lt;/span&gt;&lt;span style=&quot;font-family: Garamond, serif; background: white;&quot; lang=&quot;DE&quot;&gt;CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Document rdf:about="http://evagriusponticus.net/">
         <z:itemType>webpage</z:itemType>
         <dcterms:isPartOf>
@@ -23947,12 +24000,12 @@ Publisher: self</dc:description>
         <dc:relation rdf:resource="#item_20199"/>
         <dc:subject>
             <z:AutomaticTag>
-               <rdf:value>Christian literature, Early Congresses.</rdf:value>
+               <rdf:value>Christian literature, Early.</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
-               <rdf:value>Christian literature, Early.</rdf:value>
+               <rdf:value>Christian literature, Early Congresses.</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
         <dc:subject>
@@ -24254,6 +24307,7 @@ Publisher: self</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35698"/>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://www.academia.edu/15629517/Universal_Restoration_in_Evagrius_Ponticus_Great_Letter</rdf:value>
@@ -24265,6 +24319,9 @@ Publisher: self</dc:description>
         <z:language>eng</z:language>
         <dc:title>Universal Restoration in Evagrius Ponticus’ ‘Great Letter’</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35698">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: 'Times New Roman', serif;&quot;&gt;Casiday claims that there is not a firm evidence for an &amp;lsquo;isochristic&amp;rsquo; Christology in Evagrius&amp;rsquo; &lt;em&gt;Great Letter.&lt;/em&gt; His belief is that confusion has resulted from this letter being read through the condemnations of Constantinople II, and then the &lt;em&gt;Great Letter &lt;/em&gt;being read as a key for the &lt;em&gt;Kephalaia Gnostika&lt;/em&gt;. Casiday notes that the term &amp;ldquo;isochrist&amp;rdquo; does not appear in Evagrius&amp;rsquo; corpus, no less in the &lt;em&gt;Great Letter&lt;/em&gt;, even though there is firm evidence for universal salvation. From there, he analyzes evidence from the &lt;em&gt;Great Letter &lt;/em&gt;about the dissolution of names and numbers and argues, contrary to some previous scholars, that Evagrius may suggest the eternal preservation of the tripartite soul and personal difference, even after the final unification with God. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Article rdf:about="https://www.academia.edu/36110235/Negligence_as_the_Cause_of_the_Fall_of_Souls_in_Origen_and_its_Reinterpretation_by_Evagrius_Ponticus">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -24496,8 +24553,8 @@ A revised version, translated into English, is available under the title &quot;N
                 </rdf:li>
             </rdf:Seq>
         </z:translators>
-        <dc:subject>2451 translation Italian</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2451 translation Italian</dc:subject>
         <dc:identifier>ISBN 978-88-311-8215-7</dc:identifier>
         <dc:date>2010</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-coco-2010</dc:description>
@@ -24768,8 +24825,8 @@ A revised version, translated into English, is available under the title &quot;N
             </rdf:Seq>
         </bib:contributors>
         <dcterms:isReferencedBy rdf:resource="#item_21283"/>
-        <dc:subject>2430 translation German</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2430 translation German</dc:subject>
         <dc:identifier>ISBN 3-922727-46-8</dc:identifier>
         <dc:date>1989</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-bunge-1989</dc:description>
@@ -25205,8 +25262,8 @@ A revised version, translated into English, is available under the title &quot;N
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <dc:subject>2433 translation English</dc:subject>
         <dc:subject>JK NEH</dc:subject>
+        <dc:subject>2433 translation English</dc:subject>
         <bib:pages>493-529</bib:pages>
         <dc:date>2001</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:harmless-fitzgerald-2001</dc:description>
@@ -25726,6 +25783,7 @@ A revised version, translated into English, is available under the title &quot;N
         <bib:pages>110-119</bib:pages>
         <dc:date>1860-1865</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:ceillier-1860</dc:description>
+        <z:language>fra</z:language>
         <dc:title>Évagre de Pont, archidiacre de Constantinople et abbé dans le désert des Cellules</dc:title>
     </bib:BookSection>
     <bib:Memo rdf:about="#item_21222">
@@ -25816,6 +25874,7 @@ A revised version, translated into English, is available under the title &quot;N
             <bib:Journal>
                 <prism:volume>32</prism:volume>
                 <dc:title>Revue d'Histoire des Textes</dc:title>
+                <dc:identifier>DOI https://doi.org/10.3406/rht.2003.1525</dc:identifier>
             </bib:Journal>
         </dcterms:isPartOf>
         <bib:authors>
@@ -25838,6 +25897,7 @@ A revised version, translated into English, is available under the title &quot;N
         <bib:pages>63-72</bib:pages>
         <dc:date>2002</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:bady-tchernetska-2002</dc:description>
+        <dcterms:abstract>The manuscript Cambridge, Trinity College, 0.1.55 is one on the rare witnesses to the direct textual tradition of the scholia on Proverbs by Evagrius of Pontus and contains the first twenty-eight scholia. These must have been copied in the fourteenth century from a rather old model, which had itself been modified by the insertion of lemmata from a text of the Hexapla accompanied by kephalaia and a variety of additional glosses. -pub</dcterms:abstract>
         <dc:title>Un nouveau témoin direct des &lt;i&gt;Scholies aux Proverbes&lt;/i&gt; d'Évagre le Pontique (Cambridge, Trinity Coll. O.1.55)</dc:title>
     </bib:Article>
     <bib:Memo rdf:about="#item_21200">
@@ -26052,10 +26112,10 @@ A revised version, translated into English, is available under the title &quot;N
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21296"/>
+        <dc:subject>need to check</dc:subject>
         <dc:subject>2430 edition Ethiopic</dc:subject>
         <dc:subject>2435 edition Ethiopic</dc:subject>
         <dc:subject>2452 edition Ethiopic</dc:subject>
-        <dc:subject>need to check</dc:subject>
         <dc:date>1986</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:arras-1986</dc:description>
         <dc:title>Geronticon</dc:title>
@@ -26167,6 +26227,9 @@ A revised version, translated into English, is available under the title &quot;N
             </rdf:Seq>
         </z:translators>
         <dcterms:isReferencedBy rdf:resource="#item_21208"/>
+        <dc:subject>JK NEH</dc:subject>
+        <dc:subject>need to check</dc:subject>
+        <dc:subject>2450 translation Polish</dc:subject>
         <dc:subject>2430 translation Polish</dc:subject>
         <dc:subject>2431 translation Polish</dc:subject>
         <dc:subject>2433 translation Polish</dc:subject>
@@ -26184,13 +26247,10 @@ A revised version, translated into English, is available under the title &quot;N
         <dc:subject>2446 translation Polish</dc:subject>
         <dc:subject>2447 translation Polish</dc:subject>
         <dc:subject>2448 translation Polish</dc:subject>
-        <dc:subject>2450 translation Polish</dc:subject>
         <dc:subject>2451 translation Polish</dc:subject>
         <dc:subject>2452 translation Polish</dc:subject>
         <dc:subject>2453 translation Polish</dc:subject>
         <dc:subject>2454 translation Polish</dc:subject>
-        <dc:subject>JK NEH</dc:subject>
-        <dc:subject>need to check</dc:subject>
         <dc:identifier>ISBN 83-87525-18-9</dc:identifier>
         <dc:date>1998–2005</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-nieścior-1998</dc:description>
@@ -26319,10 +26379,10 @@ A revised version, translated into English, is available under the title &quot;N
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21329"/>
-        <dc:subject>2435 edition Ethiopic</dc:subject>
-        <dc:subject>2435 translation French</dc:subject>
-        <dc:subject>2451 edition Ethiopian</dc:subject>
         <dc:subject>2451 translation French</dc:subject>
+        <dc:subject>2451 edition Ethiopian</dc:subject>
+        <dc:subject>2435 translation French</dc:subject>
+        <dc:subject>2435 edition Ethiopic</dc:subject>
         <dc:date>1963</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:arras-1963</dc:description>
         <z:language>lat</z:language>
@@ -26764,6 +26824,9 @@ A revised version, translated into English, is available under the title &quot;N
         </bib:authors>
         <link:link rdf:resource="#item_20950"/>
         <dc:subject>
+           <z:AutomaticTag><rdf:value>Patristics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Augustine Casiday</rdf:value>
             </z:AutomaticTag>
@@ -26776,9 +26839,6 @@ A revised version, translated into English, is available under the title &quot;N
         </dc:subject>
         <dc:subject>
            <z:AutomaticTag><rdf:value>Monasticism</rdf:value></z:AutomaticTag>
-        </dc:subject>
-        <dc:subject>
-           <z:AutomaticTag><rdf:value>Patristics</rdf:value></z:AutomaticTag>
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
@@ -26885,6 +26945,7 @@ A revised version, translated into English, is available under the title &quot;N
         <bib:pages>1-49</bib:pages>
         <dc:date>2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:ramelli-2013a</dc:description>
+        <z:language>eng</z:language>
         <dcterms:abstract>This study investigates the idea of harmony as a protological and eschatological principle in three outstanding Patristic philosophers, well steeped in the Platonic tradition: Origen, Gregory Nyssen, and Evagrius. All of them attached an extraordinary importance to harmony, homonoia, and unity in the arkhē and, even more, in the telos. This ideal is opposed to the disagreement/dispersion of rational creatures’ acts of volition after their fall and before the eventual apokatastasis. These Christian Platonists are among the strongest supporters of the final universal restoration. Their reflection on the unity-multiplicity dialectic, which parallels that between harmony and disorder/discord/dissonance, is informed by the Platonic tradition. In Gregory, the idea of harmony assumes musical connotations, especially in relation to the telos. In this connection, I examine the relationship between their notion of harmony in the arkhē and telos and Plotinus’ concept of harmony. Plotinus was well known to Gregory, the author of a Christianized version of Plato’s Phaedo in which apokatastasis is prominent. Origen, whose readings included many Middle-Platonic and Neo-Pythagorean texts, in Alexandria attended the classes of the “proto-Neoplatonist” Ammonius, who was also Plotinus’ teacher. A wide-ranging methodical investigation of the relation between Origen’s and Plotinus’ philosophical thoughts is still a notable desideratum. Finally, I concentrate on the concept of harmony in astronomy as a metaphor for intellectual harmony and apokatastasis in Patristic Platonism, especially in Evagrius’ Kephalaia Gnōstika. The noun apokatastasis was used in an astronomical sense, and employed in Stoicism for the conclusion of a cosmic cycle. Evagrius, who loved astronomical metaphors, focussed a kephalaion on a wordplay—which escaped Guillaumont and all other scholars—concerning the astronomical meaning of apokatastasis, thus embedding his theory of the eventual restoration in an allegorical framework that rests on a notion of astronomical harmony. A strong case is made in this connection that Evagrius was elaborating on Plato’s pivotal link between cosmological (astronomical) and intellectual harmony, and was aware that the Stoic theory of cosmological apokatastasis drew on Plato. -au</dcterms:abstract>
         <dc:title>Harmony between Arkhē and Telos in Patristic Platonism and the Imagery of Astronomical Harmony Applied to Apokatastasis 1</dc:title>
     </bib:Article>
@@ -26970,11 +27031,15 @@ A revised version, translated into English, is available under the title &quot;N
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35686"/>
         <bib:pages>55-69</bib:pages>
         <dc:date>2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:ramelli-2013d</dc:description>
         <dc:title>A Rhetorical Device in Evagrius: Allegory, the Bible, and Apokatastasis</dc:title>
     </bib:BookSection>
+    <bib:Memo rdf:about="#item_35686">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif; background: white;&quot;&gt;Ramelli starts by presenting scriptural interpretation from the &lt;em&gt;Kephalaia Gnostika &lt;/em&gt;as a means of illustrating Evagrius&amp;rsquo; allegorical methods, with background from Origen. She emphasizes the tight bond between virtue and knowledge evident in Evagrius&amp;rsquo; interpretations. Next, she argues that Evagrius used &amp;ldquo;astronomical allegory&amp;rdquo; to illustrate his teachings on &lt;em&gt;apokatastasis&lt;/em&gt;, with background from Basil&amp;rsquo;s &lt;em&gt;Homilies on Isaiah&lt;/em&gt;. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Thesis rdf:about="http://www.academia.edu/4754719/MPhil_thesis_On_the_Texture_of_an_Invisible_God_Biblical_Exegesis_and_Imageless_Prayer_in_Evagrius_Ponticus._University_of_Wales_Lampeter_2010_">
         <z:itemType>thesis</z:itemType>
         <dc:publisher>
@@ -27150,6 +27215,7 @@ A revised version, translated into English, is available under the title &quot;N
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_35687"/>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://www.academia.edu/keypass/bmJpeEZDRGU4WGVldmMyL25jOFp2ZXZyYkkvMUxoSDltQkhkQlFESjJDQT0tLXo4MTlraFNoaGNOam9qV1VQaUlmY3c9PQ==--4be8ab51d0785409bfec1eff17f1f97026cc5ee0/t/HeR-NhqBRMk-bwFbQ2/resource/work/9074925/An_Exegetical_Way_of_Seeing_Contemplation_and_Spiritual_Guidance_in_Evagrius_Ponticus</rdf:value>
@@ -27161,6 +27227,9 @@ A revised version, translated into English, is available under the title &quot;N
         <z:language>eng</z:language>
         <dc:title>An Exegetical Way of Seeing: Contemplation and Spiritual Guidance in Evagrius Ponticus</dc:title>
     </bib:Article>
+    <bib:Memo rdf:about="#item_35687">
+        <rdf:value>&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;span style=&quot;font-family: Garamond, serif;&quot;&gt;Dysinger presents the theoretical foundations for Evagrius&amp;rsquo; interpretation of and use of Scripture, and argues that his theory and praxis for interpretation of Scripture and for the diagnosis of spiritual maladies in others is very similar, if not identical. To prove his argument, Dysinger first lays out Evagrius&amp;rsquo; theory of interpretation through quotations from the scholia collections and the &lt;em&gt;Gnostikos&lt;/em&gt;, and then he gives an extended interpretation of Letter 25 to Anatolius, in which Evagrius uses encoded scriptural language, which he himself decodes in his other works (the scholia and the &lt;em&gt;Kephalaia Gnostika&lt;/em&gt;). Scripture is the Gnostic&amp;rsquo;s study and his tool. As a Gnostic, Evagrius sees both the particular human soul under his guidance and the particular passage of Scripture within the context of the ultimate goal of all a creation, a return to unity with God. -CSV&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
     <bib:Article rdf:about="#item_20854">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
@@ -29212,6 +29281,7 @@ DOI: 10.2307/j.ctvbqs3t3.7</dc:description>
                 <rdf:value>https://www.academia.edu/36991290/_Words_Spoken_in_Silence_the_Missing_Chapters_of_Evagrius_Kephalaia_Gnostika_Studia_Patristica_vol._LXXII_Proceedings_of_the_British_Patristics_Conference_Exeter_2012._Leuven_Peeters</rdf:value>
             </dcterms:URI>
         </dc:identifier>
+        <bib:pages>197-210</bib:pages>
         <dc:date>2014</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:tobon-2014</dc:description>
         <dcterms:dateSubmitted>2019-08-11 08:13:42</dcterms:dateSubmitted>
@@ -29271,6 +29341,7 @@ DOI: 10.2307/j.ctvbqs3t3.7</dc:description>
                 <rdf:value>https://www.academia.edu/34056368/Two_Poor_Ones_in_the_Desert_Vestiges_of_Evagrius_in_Bonaventures_Itinerarium</rdf:value>
             </dcterms:URI>
         </dc:identifier>
+        <bib:pages>95-105</bib:pages>
         <dc:date>2017</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:tobon-2017</dc:description>
         <dcterms:dateSubmitted>2019-08-11 08:22:36</dcterms:dateSubmitted>
@@ -29309,6 +29380,7 @@ DOI: 10.2307/j.ctvbqs3t3.7</dc:description>
         </bib:authors>
         <dc:date>2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:tobon-2013b</dc:description>
+        <z:language>eng</z:language>
         <dc:title>From Evagrian Prayer to Centering Prayer</dc:title>
     </bib:BookSection>
     <bib:Thesis rdf:about="https://www.academia.edu/1756316/The_Influence_of_Evagrius_Ponticus_on_the_Thought_of_Maximus_the_Confessor">
@@ -29702,33 +29774,29 @@ We will examine in the Second Part of our thesis the role of the wisdom of creat
         <dcterms:abstract>‘L’examen de conscience est chez Évagre un cas particulier de la connaissance de soi, passage indispensable pour tout progrès spirituel : la conscience d’un manque conduit à attendre du Christ le complément nécessaire pour atteindre la plénitude, et porter à sa perfection « l’icône inachevée ».</dcterms:abstract>
         <dc:title>Connaissance de soi et examen de conscience – Évagre le Pontique (IVe siècle)</dc:title>
     </bib:Article>
-    <bib:Manuscript rdf:about="#item_34171">
+    <bib:Manuscript rdf:about="https://digi.vatlib.it/view/MSS_Vat.gr.754">
         <z:itemType>manuscript</z:itemType>
         <dc:publisher>
             <foaf:Organization>
                 <vcard:adr>
                     <vcard:Address>
-                       <vcard:locality>London</vcard:locality>
+                       <vcard:locality>Rome</vcard:locality>
                     </vcard:Address>
                 </vcard:adr>
             </foaf:Organization>
         </dc:publisher>
-        <dc:date>6th or 7th c.</dc:date>
-        <dc:description>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14578</dc:description>
-        <z:language>syr</z:language>
-        <dcterms:abstract>This manuscript (= Wright no. 567, pp. 445-449) contains only works by Evagrius. Approximately 45 works, including the following:
-1r-2v: Life of Evagrius (without title)
-2v-11v: Praktikos (cpg2430), translation S1
-11v-16v: Gnostikos (cpg2431), translation S1
-17r- : To Eulogius (cpg2447)
-102r-v: The Just and the Perfect (cpg2465)
-152r-153v: Praktikos (cpg2430), prefatory Letter to Anatolius (cpg2430), translation S2
-158v-159v: Ad virginem (cpg2436)
-160r-186v: Letters (cpg2437)
-187r-198v: Letter to Melania (cpg2438)
--jk</dcterms:abstract>
-        <dc:title>British Library Add. 14578</dc:title>
-        <z:numPages>195</z:numPages>
+        <dc:subject>2455 edition Greek</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digi.vatlib.it/view/MSS_Vat.gr.754</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>11th c.</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:ms:va:vat.gr.754</dc:description>
+        <z:language>grc</z:language>
+        <dcterms:abstract>This manuscript contains complete the scholia on Psalms (CPG 2455), through a labeling and numeration device first discerned by M.-J. Rondeau (1960).</dcterms:abstract>
+        <dc:title>Vaticanus Graecus 754</dc:title>
+        <z:numPages>356</z:numPages>
     </bib:Manuscript>
     <bib:Manuscript rdf:about="#item_34197">
         <z:itemType>manuscript</z:itemType>
@@ -29818,4 +29886,1768 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
         <dc:title>British Library Add. 17165</dc:title>
         <z:numPages>145</z:numPages>
     </bib:Manuscript>
+    <bib:Article rdf:about="#item_34238">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>64</prism:volume>
+                <dc:title>Studia Patristica</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conroy</foaf:surname>
+                        <foaf:givenName>Katie Hager</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/4411679/John_Cassian_The_Devil_in_the_Details</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>59-64</bib:pages>
+        <dc:date>2013</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:conroy-2013</dc:description>
+        <z:language>eng</z:language>
+        <dcterms:abstract>It is widely accepted that Evagrius Ponticus had a large influence on the writings of John Cassian. Cassian’s use of the eight vices compiled by Evagrius are a clear indication of this influence. Many scholars also deem Cassian’s demonology to be an inheritance of Evagrius, but a closer look shows how Cassian both inherits and develops Evagrian concepts. An important part of his demonology is his conception of the person of the Devil. Cassian’s origin story of the Devil vastly departs from Evagrius’ making the role of the Devil in either theologian’s writings serve a different purpose and openup questions concerning Evagrius’ influence on Cassian. -pub</dcterms:abstract>
+        <dc:title>John Cassian: The Devil in the Details</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-204-13243-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Les éditions du Cerf</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Godo</foaf:surname>
+                        <foaf:givenName>Emmanuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Evagrius</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>345?-399</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Fiction.</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Houellebecq Michel</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Imaginary interviews</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ponticus</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-2-204-13243-5</dc:identifier>
+        <dc:date>2019</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>PQ2667.O3545 C65 2019</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>HOLLIS number: 99153844841703941</dc:description>
+        <z:libraryCatalog>hollis.harvard.edu</z:libraryCatalog>
+        <z:language>fra</z:language>
+        <dc:title>Conversation avenue de France, Paris 13e, entre Michel Houellebecq, écrivain et Évagre le Pontique, moine du désert</dc:title>
+    </bib:Book>
+    <bib:BookSection rdf:about="tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>The Cambridge Edition of Early Christian Writings, vol. 2, Practice</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muehlberger</foaf:surname>
+                        <foaf:givenName>Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muehlberger</foaf:surname>
+                        <foaf:givenName>Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2440 translation English</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>75-79</bib:pages>
+        <dc:date>2017</dc:date>
+        <z:language>eng</z:language>
+        <dc:title>Evagrius of Pontus, &lt;i&gt;Protrepticus&lt;/i&gt;</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>The Cambridge Edition of Early Christian Writings, vol. 2, Practice</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muehlberger</foaf:surname>
+                        <foaf:givenName>Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Muehlberger</foaf:surname>
+                        <foaf:givenName>Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2440 translation English</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>80-85</bib:pages>
+        <dc:date>2017</dc:date>
+        <z:language>eng</z:language>
+        <dc:title>Evagrius of Pontus, &lt;i&gt;Paraeneticus&lt;/i&gt;</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="https://www.academia.edu/37574204/_Evagrius_Ponticus_at_the_Monastery_of_the_Syrians_Newly_Documented_Evidence_for_an_Arabic_Reception_History._In_Heirs_of_the_Apostles_The_Story_of_Arabic_Christianity_ed._D._Bertaina_S._Keating_M._N._Swanson_and_A._Treiger_Leiden_Brill_2018_347_92">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Heirs of the Apostles: The Story of Arabic Christianity</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leiden</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Brill</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davis</foaf:surname>
+                        <foaf:givenName>Stephen J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bertaina</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keating</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Swanson</foaf:surname>
+                        <foaf:givenName>M. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Treiger</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/37574204/_Evagrius_Ponticus_at_the_Monastery_of_the_Syrians_Newly_Documented_Evidence_for_an_Arabic_Reception_History._In_Heirs_of_the_Apostles_The_Story_of_Arabic_Christianity_ed._D._Bertaina_S._Keating_M._N._Swanson_and_A._Treiger_Leiden_Brill_2018_347_92</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>347-92</bib:pages>
+        <dc:date>2018</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:davis-2018</dc:description>
+        <dcterms:dateSubmitted>2020-05-24 11:00:27</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>... [I survey] the Dayr al-Suryān collection as evidence for the Christian Arabic reception of Evagrius Ponticus and will raise questions about the indirect transmission of Origen’s thought into that language. In the process, I will report on my discovery of two previously undocumented manuscripts at the Monastery of the Syrians containing the only complete, currently extant Arabic copies of Evagrius’ Kephalaia Gnostika. -pub</dcterms:abstract>
+        <dc:title>Evagrius Ponticus at the Monastery of the Syrians: Newly Documented Evidence for an Arabic Reception History</dc:title>
+        <z:shortTitle>Evagrius Ponticus at the Monastery of the Syrians</z:shortTitle>
+    </bib:BookSection>
+    <bib:Book rdf:about="#item_34831">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>J. B. Coignard</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Basil of Caesarea</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Garnier</foaf:surname>
+                        <foaf:givenName>Julien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <dc:subject>2439 edition Greek</dc:subject>
+        <dc:subject>2439 translation Latin</dc:subject>
+        <prism:volume>3</prism:volume>
+        <dc:date>1839</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>603.5 B, C 617.2 F</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:garnier-1857</dc:description>
+        <z:libraryCatalog>hollis.harvard.edu</z:libraryCatalog>
+        <z:language>grc;lat</z:language>
+        <dcterms:abstract>See 3:114-126 for the Dogmatic Letter in Greek with facing Latin translation.</dcterms:abstract>
+        <dc:title>Opera omnia: quae exstant, vel quae ejus nomine circumferuntur, ad MSS. codices Gallicanos ..</dc:title>
+        <z:shortTitle>Opera omnia</z:shortTitle>
+        <z:archive>https://archive.org/details/pt1operaomniaqua03basi/page/114/mode/2up</z:archive>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-1-291-04044-9">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Place of publication not identified</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>lulu.com</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nau</foaf:surname>
+                        <foaf:givenName>Sr Pascale-Dominique</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34875"/>
+        <dc:subject>2452 translation French</dc:subject>
+        <dc:identifier>ISBN 978-1-291-04044-9</dc:identifier>
+        <dc:date>2012</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-nau-2012b</dc:description>
+        <z:libraryCatalog>Amazon</z:libraryCatalog>
+        <z:language>French</z:language>
+        <dc:title>Évagre le Pontique: Sentences sur la prière</dc:title>
+        <z:shortTitle>Évagre le Pontique</z:shortTitle>
+        <z:numPages>62</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_34875">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://smile.amazon.com/%C3%89vagre-Pontique-Sentences-pri%C3%A8re-French/dp/1291040447/ref=sr_1_1?dchild=1&amp;keywords=priere+evagre&amp;qid=1600065920&amp;sr=8-1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-09-14 06:47:47</dcterms:dateSubmitted>
+        <dc:title>Amazon.com Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="https://archive.org/details/TraitDeLaPrirevagreLePontique">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Ligugé, Vienna</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>E. Aubin</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joliet</foaf:surname>
+                        <foaf:givenName>Jehan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <link:link rdf:resource="#item_34877"/>
+        <dc:subject>2452 translation French</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://archive.org/details/TraitDeLaPrirevagreLePontique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1925</dc:date>
+        <z:libraryCatalog>Amazon</z:libraryCatalog>
+        <z:language>fra</z:language>
+        <dcterms:abstract>Traité de la Prière, écrit par le moine ascétique Évagre le Pontique (345 – 399). Traduit par le moine français Jehan Joliet (1870 – 1937).Evrage est un moine du IVe siècle, vivant dans le désert d'Égypte, premier systématicien de la pensée ascétique chrétienne.Originaire d'Ibora, dans la région du Pont (actuelle Turquie), Évagre a été ordonné lecteur par Basile de Césarée.L'évêque Grégoire de Nazianze l'ayant ordonné diacre, il l'accompagna à Constantinople, où sa prédication connut un grand succès.En 382, Évagre quitta cette capitale et se retira d’abord à Jérusalem, puis en Égypte, où il devint disciple de Macaire de Scété.Il mena jusqu’à sa mort la vie monastique dans le désert de Nitrie, et gagnait sa vie en copiant des manuscrits.</dcterms:abstract>
+        <dc:title>Traité de la Prière</dc:title>
+        <z:numPages>30</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_34877">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.amazon.fr/Trait%C3%A9-Pri%C3%A8re-%C3%89vagre-Pontique-ebook/dp/B077MRN9M9/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=evagre+priere&amp;qid=1600066253&amp;sr=8-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-09-14 06:51:16</dcterms:dateSubmitted>
+        <dc:title>Amazon.com Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Manuscript rdf:about="#item_34932">
+        <z:itemType>manuscript</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:date>6th or 7th c.</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14578</dc:description>
+        <z:language>syr</z:language>
+        <dcterms:abstract>This manuscript (= Wright no. 567, pp. 445-449) contains only works by Evagrius. Approximately 45 works, including the following:
+1r-2v: Life of Evagrius (without title)
+2v-11v: Praktikos (cpg2430), translation S1
+11v-16v: Gnostikos (cpg2431), translation S1
+17r- : To Eulogius (cpg2447)
+102r-v: The Just and the Perfect (cpg2465)
+152r-153v: Praktikos (cpg2430), prefatory Letter to Anatolius (cpg2430), translation S2
+158v-159v: Ad virginem (cpg2436)
+160r-186v: Letters (cpg2437)
+187r-198v: Letter to Melania (cpg2438)
+-jk</dcterms:abstract>
+        <dc:title>British Library Add. 14578</dc:title>
+        <z:numPages>195</z:numPages>
+    </bib:Manuscript>
+    <bib:Article rdf:about="#item_34955">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2020</prism:volume>
+                <dc:title>Vigiliae Christianae</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1163/15700720-12341462</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rydell Johnsén</foaf:surname>
+                        <foaf:givenName>Henrik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:abstract>How Evagrius Ponticus (d. 399) composed his highly influential treatises of short and succinct chapters (kepahalaia) is bewildering and has been discussed by many scholars. In this essay the literary composition of Evagrius’ To monks in monasteries and communities, or Ad monachos, a typical text of short chapters, is examined from a literary perspective by relating the text to literary conventions, common in late antique literature and in rhetorical handbooks and exercises (progymnasmata). It is demonstrated how the teaching develops gradually in accordance with a pattern for a so-called amplified argument (epicheireme) codified in Pseudo-Hermogenes Progymnasmata. By this arrangement of the teaching, the reader is offered, not just a random taste of various aspects of the monastic life, but a set of specific conclusions to implement or to be aware of practically in the life as monk; conclusions that are perceptible not at just a cursory glance, but at a careful and repeated reading. -pub</dcterms:abstract>
+        <dc:title>Reading kephalaia: The Composition of Evagrius Ponticus’ Ad monachos Reconsidered</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-37234-154-7">
+        <z:itemType>book</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cairn.info/revue-esprit-2020-12.htm?WT.tsrc=cairnHeaderNotif</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-2-37234-154-7</dc:identifier>
+        <dc:description>ISSN: 0014-0759</dc:description>
+        <dcterms:dateSubmitted>2021-01-05 13:42:54</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.cairn.info</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>Aux couleurs de la Chine</dcterms:abstract>
+        <dc:title>Esprit 2020/12 (Décembre)</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.persee.fr/doc/rebyz_0766-5598_1970_num_28_1_1438">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>28</prism:volume>
+                <dc:title>Revue des études byzantines</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Richard</foaf:surname>
+                        <foaf:givenName>Marcel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.persee.fr/doc/rebyz_0766-5598_1970_num_28_1_1438</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>239-269</bib:pages>
+        <dc:date>1970</dc:date>
+        <dcterms:abstract>Critical edition of On Heresies by Hieromonk George, early 7th c. In this text, chapter 9, on Origen, provides an independent account that independently parallels the anathemas of 543 and 553. -jk</dcterms:abstract>
+        <dc:title>Le traité sur les hérésies de Georges hiéromoine</dc:title>
+    </bib:Article>
+    <bib:BookSection rdf:about="https://www.academia.edu/30231990/Apocastastasis_in_the_Syrian_Christian_tradition_Evagrius_and_Isaac">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>St Isaac the Syrian and His Spiritual Legacy: Proceedings from the International Patristics Conference, Moscow, October 10-11, 2013</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Crestwood, N.Y.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>St. Vladimir's Seminary Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fokin</foaf:surname>
+                        <foaf:givenName>A. R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/30231990/Apocastastasis_in_the_Syrian_Christian_tradition_Evagrius_and_Isaac</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>123-134</bib:pages>
+        <dc:date>2015</dc:date>
+        <z:language>eng</z:language>
+        <dcterms:abstract>The author argues that Evagrius's eschatology significantly influenced Isaac the Syrian's teaching on universal salvation. Parallels are traced between the two author's views on creation, rational beings, judgment, providence, and the final state. -jk</dcterms:abstract>
+        <dc:title>Apocatastasis in the Syrian Christian Tradition: Evagrius and Isaac</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="https://doi.org/10.1080/09608788.2021.1924116">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0960-8788"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Podbielski</foaf:surname>
+                        <foaf:givenName>Marcin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>corporeal reality</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Evagrius of Pontus</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>intellect</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Stoicism (reception)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>subjectivity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.1080/09608788.2021.1924116</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-21</bib:pages>
+        <dc:date>May 20, 2021</dc:date>
+        <dcterms:dateSubmitted>2021-05-28 11:21:34</dcterms:dateSubmitted>
+        <z:libraryCatalog>Taylor and Francis+NEJM</z:libraryCatalog>
+        <dcterms:abstract>In this article, the issue of corporeal reality in Evagrius is discussed in abstraction – to the extent that this is possible – from its soteriological purpose. An analysis of Evagrius’ statements about corporeal reality reveals a world that cannot be known in itself, but which is established through a hierarchy of qualifications. Evagrius’ account of the elements and their features, of the relationship of qualities to matter, and of the process in which the intellect apprehends bodies, appears to be deeply indebted to the Stoic account of bodily reality. Evagrius differs, however, in that the corporeal reality he describes is inherently unknowable and lifeless. As he develops Stoic intuitions about the commanding faculty into a vision of an intellect holding within itself a model of its bearer’s body, and as he moves the logoi of judgement and providence outside of corporeal reality, the latter turns into a desert from which life and rationality are absent. An intellect, as a soul, is only liminally present in corporeal reality. Focused on itself, it becomes a subjectivity that only interacts with the external bodily world through a model of the latter that it constructs within the boundaries of the soul itself.</dcterms:abstract>
+        <dc:title>Evagrius of Pontus on corporeal reality: Taking the Stoics to the desert</dc:title>
+        <z:shortTitle>Evagrius of Pontus on corporeal reality</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0960-8788">
+        <prism:volume>0</prism:volume>
+        <prism:number>0</prism:number>
+        <dc:title>British Journal for the History of Philosophy</dc:title>
+        <dc:identifier>ISSN 0960-8788</dc:identifier>
+        <dc:identifier>DOI 10.1080/09608788.2021.1924116</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.academia.edu/41489025/PRAYER_WITHOUT_ANGER_AND_SADNESS_THE_SYRIAC_ADAPTATION_OF_EVAGRIUS_CHAPTERS_ON_PRAYER?email_work_card=title">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>45</prism:volume>
+                <dc:title>Parole de l'Orient</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stadel</foaf:surname>
+                        <foaf:givenName>Seth M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2452 translation English</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/41489025/PRAYER_WITHOUT_ANGER_AND_SADNESS_THE_SYRIAC_ADAPTATION_OF_EVAGRIUS_CHAPTERS_ON_PRAYER?email_work_card=title</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>341-362</bib:pages>
+        <dc:date>2019</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:stadel-2019</dc:description>
+        <dcterms:dateSubmitted>2021-06-24 10:39:34</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Study of the Syriac version of the Chapters on Prayer, which consists of the first 35 chapters, roughly corresponding to Prayer 1-32. Includes a table of correspondence between Syriac and Greek chapters, and concludes with an English translation of the text. -jk</dcterms:abstract>
+        <dc:title>Prayer without Anger and Sadness: The Syriac Adaptation of Evagrius' Chapters on Prayer</dc:title>
+        <z:shortTitle>Prayer Without Anger and Sadness</z:shortTitle>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-204-14186-4">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Sources chrétiennes</dc:title>
+                <dc:identifier>614</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Les Éditions du Cerf</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rondeau</foaf:surname>
+                        <foaf:givenName>Marie-Josèphe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Géhin</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cassin</foaf:surname>
+                        <foaf:givenName>Matthieu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2455 edition Greek</dc:subject>
+        <dc:subject>2455 translation French</dc:subject>
+        <dc:identifier>ISBN 978-2-204-14186-4</dc:identifier>
+        <dc:date>2021</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021a</dc:description>
+        <z:language>grc</z:language>
+        <dc:title>Scholies aux Psaumes I, Psaumes 1-70</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-2-204-14205-2">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Sources chrétiennes</dc:title>
+                <dc:identifier>615</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Les Éditions du Cerf</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rondeau</foaf:surname>
+                        <foaf:givenName>Marie-Josèphe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Géhin</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cassin</foaf:surname>
+                        <foaf:givenName>Matthieu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2455 edition Greek</dc:subject>
+        <dc:subject>2455 translation French</dc:subject>
+        <dc:identifier>ISBN 978-2-204-14205-2</dc:identifier>
+        <dc:date>2021</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021b</dc:description>
+        <z:language>grc</z:language>
+        <dc:title>Scholies aux Psaumes II, Psaumes 71-150</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_35661">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>284</prism:volume>
+                <dc:title>Lettre de Ligugé</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ducos</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Desprez</foaf:surname>
+                        <foaf:givenName>V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2433 translation French</dc:subject>
+        <bib:pages>14-29</bib:pages>
+        <dc:date>1998</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-ducos-desprez-1998</dc:description>
+        <z:language>fra</z:language>
+        <dc:title>[untitled]</dc:title>
+    </bib:Article>
+    <bib:BookSection rdf:about="#item_35694">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Christianity and Judaism in Antiquity</dc:title>
+                        <dc:identifier>20</dc:identifier>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>The Harp of Prophecy: Early Christian Interpretation of the Psalms</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>South Bend</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>University of Notre Dame Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dysinger</foaf:surname>
+                        <foaf:givenName>Luke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daley, S.J.</foaf:surname>
+                        <foaf:givenName>Brian E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kolbet</foaf:surname>
+                        <foaf:givenName>Paul R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_35695"/>
+        <bib:pages>97-125</bib:pages>
+        <dc:date>2015</dc:date>
+        <z:language>eng</z:language>
+        <dc:title>Evagrius Ponticus: The Psalter as a Handbook for the Christian Contemplative.</dc:title>
+    </bib:BookSection>
+    <bib:Memo rdf:about="#item_35695">
+        <rdf:value>&lt;p&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Dysinger approaches Evagrius’&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;em style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Scholia on Psalms&lt;/em&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt; &lt;/span&gt;through the levels of&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;em style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;praktikē, physikē,&lt;span&gt; &lt;/span&gt;&lt;/em&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;and&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;em style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;theologikē&lt;/em&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;. At each level he presents examples and explains the relationship between the&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;em style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Scholia on Psalms&lt;/em&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt; &lt;/span&gt;and the rest of the corpus. He draws out how the text may have been used by other&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;em style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;gnostikoi&lt;/em&gt;&lt;span style=&quot;color: #222222; font-family: Garamond, serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt; &lt;/span&gt;to understand their own spiritual progress and to offer guidance to those who approached them for advice. -CSV.&lt;/span&gt;&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="https://www.academia.edu/26141921/_If_You_Pray_Truly_What_Happens_Next_On_the_Uses_and_Abuses_of_an_Evagrian_Dictum">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>56</prism:volume>
+                <prism:number>3-4</prism:number>
+                <dc:title>Logos: A Journal of Eastern Christian Studies, Revue des études de l’Orient chrétien</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Casiday</foaf:surname>
+                        <foaf:givenName>Augustine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/26141921/_If_You_Pray_Truly_What_Happens_Next_On_the_Uses_and_Abuses_of_an_Evagrian_Dictum</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>431-450</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:dateSubmitted>2021-08-23 15:32:05</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Based on a lecture, this essay surveys four recent interpretations of On Prayer 61. The author argues that those interpretations have little concern with what the aphorism meant for Evagrius himself. -jk</dcterms:abstract>
+        <dc:title>&quot;If You Pray Truly...&quot; What Happens Next? On the Uses and Abuses of an Evagrian Dictum</dc:title>
+        <z:shortTitle>If You Pray Truly</z:shortTitle>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-90-429-4701-6">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Corpus Scriptorum Christianorum Orientalium</dc:title>
+                <dc:identifier>704</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Louvain</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Peeters</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Young</foaf:surname>
+                        <foaf:givenName>Robin Darling</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karapetian</foaf:surname>
+                        <foaf:givenName>Hovsep</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2437 translation English</dc:subject>
+        <dc:subject>2437 edition Armenian</dc:subject>
+        <dc:identifier>ISBN 978-90-429-4701-6</dc:identifier>
+        <dc:date>2022</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:young-karapetian-2021</dc:description>
+        <dc:title>Evagrius Letters in Armenian Translation</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_35744">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>30</prism:volume>
+                <prism:number>5</prism:number>
+                <dc:title>Patrologia Orientalis</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lavenant</foaf:surname>
+                        <foaf:givenName>René</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>1963</dc:date>
+        <dcterms:abstract>Pp. 812, 854-856, 872 contains quotes from Prak. 15 and 79, as well as Gnost. 25 and 36</dcterms:abstract>
+        <dc:title>La lettre à Patricius (Philoxenus Mabbugensis)</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.academia.edu/731041/Finding_a_Place_for_the_Erotapokriseis_of_Pseudo_Caesarius_A_New_Document_of_Sixth_century_Palestinian_Origenism">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>18-19</prism:volume><dc:title>ARAM</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perczel</foaf:surname>
+                        <foaf:givenName>István</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/731041/Finding_a_Place_for_the_Erotapokriseis_of_Pseudo_Caesarius_A_New_Document_of_Sixth_century_Palestinian_Origenism</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>49-83</bib:pages>
+        <dc:date>2006-2007</dc:date>
+        <dcterms:dateSubmitted>2021-10-13 11:43:49</dcterms:dateSubmitted>
+        <dcterms:abstract>Author argues that the Question-and-answer text by pseudo-Caesarius, datable to 550, is an Origenist text, despite its anti-Origen polemics. More precisely, the author is Theodore Ascidas, who adopts ideas from Evagrius. -jk</dcterms:abstract>
+        <dc:title>Finding a Place for the Erotapokriseis of Pseudo-Caesarius: A New Document of Sixth-century Palestinian Origenism</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-3-8306-7995-0">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Theologie der Spiritualität. Quellen und Studien</dc:title>
+                <dc:identifier>10</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sankt Ottilien</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Editions Sankt Ottilien</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buijkx</foaf:surname>
+                        <foaf:givenName>Thirza S. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eos-verlag.de/beholding-the-luminous-nous/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-3-8306-7995-0</dc:identifier>
+        <dc:date>2021</dc:date>
+        <dcterms:dateSubmitted>2021-10-28 10:43:15</dcterms:dateSubmitted>
+        <z:language>eng</z:language>
+        <dcterms:abstract>In a society increasingly bombarded by contrasting information, the question of how to interpret reality has become more and more important. This same question, though in a vastly different setting, also existed in the times of Evagrius of Pontus, a fourth-century desert father who was later condemned for his speculative teachings. In the writings of Evagrius, we see his profound fascination with the problem of delusion: of whether one’s experience or interpretation of reality can be trusted. This problem is at the heart of this study, where the author argues that Evagrius’ accounts of the vision of the light of the Holy Trinity cannot be properly understood without also taking into account his warnings against delusion. -pub</dcterms:abstract>
+        <dc:title>Beholding the Luminous Nous: Trinitarian and Demonic Light-Visions in Evagrius of Pontus’ Prayer Trilogy</dc:title>
+        <z:numPages>106</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35802">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Iaşi</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Polirom</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bădiliţă</foaf:surname>
+                        <foaf:givenName>Cristian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2430 translation Romanian</dc:subject>
+        <dc:subject>2431 translation Romanian</dc:subject>
+        <prism:edition>2nd</prism:edition>
+        <dc:date>2003</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-badilita-2003</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Tratatul practic; Gnosticul</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35803">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bucurest</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Herald</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duma</foaf:surname>
+                        <foaf:givenName>Radu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2430 translation Romanian</dc:subject>
+        <dc:subject>2431 translation Romanian</dc:subject>
+        <dc:subject>2441 translation Romanian</dc:subject>
+        <dc:subject>2450 translation Romanian</dc:subject>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:date>2000</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-duma-2000</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Scrieri alese</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35804">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sibiu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Deisis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ică</foaf:surname>
+                        <foaf:givenName>Ioan I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2430 translation Romanian</dc:subject>
+        <dc:date>2016</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-ica-2016</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Monahul sau Faptuitorul: Praktikos</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35805">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sibiu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Deisis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ică</foaf:surname>
+                        <foaf:givenName>Ioan I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2433 translation Romanian</dc:subject>
+        <dc:subject>2434 translation Romanian</dc:subject>
+        <dc:subject>2448 translation Romanian</dc:subject>
+        <dc:subject>2451 translation Romanian</dc:subject>
+        <dc:date>2006</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-ica-2006</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>În luptă cu gândurile</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35806">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sibiu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Deisis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ică</foaf:surname>
+                        <foaf:givenName>Ioan I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2435 translation Romanian</dc:subject>
+        <dc:subject>2436 translation Romanian</dc:subject>
+        <dc:date>2010</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-ica-2010</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Maximele Părinţilor</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35807">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sibiu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Deisis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bunge</foaf:surname>
+                        <foaf:givenName>Gabriel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ică</foaf:surname>
+                        <foaf:givenName>Ioan I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2438 translation Romanian</dc:subject>
+        <dc:subject>2439 translation Romanian</dc:subject>
+        <dc:date>1997</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-1997d</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Evagrie Ponticul: O introducere</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35808">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bucurest</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>EIBMBOR</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stăniloae</foaf:surname>
+                        <foaf:givenName>Dumitru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2441 translation Romanian</dc:subject>
+        <dc:subject>2450 translation Romanian</dc:subject>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <prism:volume>1</prism:volume>
+        <dc:date>2008</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:staniloae-2008</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Filocalia</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35809">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sibiu</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Deisis</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bunge</foaf:surname>
+                        <foaf:givenName>Gabriel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ică</foaf:surname>
+                        <foaf:givenName>Ioan I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:date>2015</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:bunge-2015b</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Rugăciunea în Duh şi Adevăr</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35810">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Arad</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Sfântul Nectarie</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aimilianos</foaf:surname>
+                        <foaf:givenName>Elder</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:date>2019</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:aemilianos-2019</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Despre rugăciune: Tâlcuire la Avva Evagrie</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="https://www.academia.edu/43086336/Studiu_introductiv_la_Evagrie_Ponticul_Scolii_la_Pilde_%C5%9Fi_Ecclesiast">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bucurest</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IBMO</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2458.4 translation Romanian</dc:subject>
+        <dc:subject>2458.5 translation Romanian</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/43086336/Studiu_introductiv_la_Evagrie_Ponticul_Scolii_la_Pilde_%C5%9Fi_Ecclesiast</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-corbu-2017</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Scolii la Pilde şi Ecclesiast</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="https://www.academia.edu/44065183/Ucenicii_lui_Evagrie_Capete_filocalice_Traduse_%C5%9Fi_comentate_de_Ieromonah_Agapie_Corbu_Ed_Sf_Nectarie_Arad_2020_Philokalical_Chapters_of_Evagriuss_Disciples_Bilingual_Edition_Romanian_Translation_and_Commentaries_by_Hieromonk_Agapie_Corbu_St_Nectarie_Publishing_House_Arad_2020_">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Arad</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Sfântul Nectarie</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2483 edition Greek</dc:subject>
+        <dc:subject>2483 translation Romanian</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/44065183/Ucenicii_lui_Evagrie_Capete_filocalice_Traduse_%C5%9Fi_comentate_de_Ieromonah_Agapie_Corbu_Ed_Sf_Nectarie_Arad_2020_Philokalical_Chapters_of_Evagriuss_Disciples_Bilingual_Edition_Romanian_Translation_and_Commentaries_by_Hieromonk_Agapie_Corbu_St_Nectarie_Publishing_House_Arad_2020_</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2020</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:corbu-2020</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Capete filocalice</dc:title>
+    </bib:Book>
+    <bib:BookSection rdf:about="https://www.academia.edu/32830861/Pov%C4%83%C5%A3uiri_duhovnice%C5%9Fti_ale_Avvei_Evagrie_metamorfozele_lor_peste_veacuri_%C5%9Fi_semnifica%C5%A3iile_contemporane_pdf">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Liturghie şi povăţuire duhovnicească în parohia de azi, în lumina scrierilor filocalice ale primului mileniu</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Alba Iulia, Deva</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Reîntregirea, Devei şi Hunedoarei</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Herban</foaf:surname>
+                        <foaf:givenName>Mihai Laurenţiu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/32830861/Pov%C4%83%C5%A3uiri_duhovnice%C5%9Fti_ale_Avvei_Evagrie_metamorfozele_lor_peste_veacuri_%C5%9Fi_semnifica%C5%A3iile_contemporane_pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>7-23</bib:pages>
+        <dc:date>2015</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:corbu-2015a</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Povăţuiri duhovniceşti ale Avvei Evagrie: Metamorfozele lor peste veacuri şi semnificaţiile contemporane</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="https://www.academia.edu/43687126/Avva_Evagrie_Ponticul_pov%C4%83%C5%A3uitor_spre_lumina_dumnezeiasc%C4%83_%C3%AEn_vol_DUMNEZEU_IZVORUL_%C3%8EN%C5%A2ELEPCIUNII_TEOLOGIE_%C5%9EI_EDUCA%C5%A2IE_ASCETIC%C4%82_LA_SFIN%C5%A2II_P%C4%82RIN%C5%A2I_coord_Daniel_Lemeni_ASTRA_MUSEUM_2016">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Dumnezeu - izvorul înţelepciunii: Teologie şi educaţie ascetică la sfinţii părinţi</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Astra Museum</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lemeni</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/43687126/Avva_Evagrie_Ponticul_pov%C4%83%C5%A3uitor_spre_lumina_dumnezeiasc%C4%83_%C3%AEn_vol_DUMNEZEU_IZVORUL_%C3%8EN%C5%A2ELEPCIUNII_TEOLOGIE_%C5%9EI_EDUCA%C5%A2IE_ASCETIC%C4%82_LA_SFIN%C5%A2II_P%C4%82RIN%C5%A2I_coord_Daniel_Lemeni_ASTRA_MUSEUM_2016</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>10-31</bib:pages>
+        <dc:date>2016</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:corbu-2016a</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Avva Evagrie Ponticul, povăţuitor spre lumina dumnezeiască</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="https://www.academia.edu/44033570/Vederea_luminii_dumnezeie%C5%9Fti_potrivit_scrierilor_Avvei_Evagrie_Ponticul_Altarul_Re%C3%AEntregirii_1_2015_">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1</prism:volume>
+                <dc:title>Altarul Reîntregirii</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2452 translation Romanian</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/44033570/Vederea_luminii_dumnezeie%C5%9Fti_potrivit_scrierilor_Avvei_Evagrie_Ponticul_Altarul_Re%C3%AEntregirii_1_2015_</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>25-42</bib:pages>
+        <dc:date>2015</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:corbu-2016a</dc:description>
+        <z:language>rom</z:language>
+        <dc:title>Vederea luminii dumnezeieşti potrivit scrierilor Avvei Evagrie Ponticul</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="#item_35816">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Speliote</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Evagrius Ponticus</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dionysatos</foaf:surname>
+                        <foaf:givenName>Theokletos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dc:subject>2452 translation Greek</dc:subject>
+        <dc:date>2012</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:evagrius-dionysatos</dc:description>
+        <z:language>el</z:language>
+        <dc:title>Τα ρνγ΄ κεφαλαια περι προσευχης</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:960-7407-03-2%20(volume%201)%20960-7407-02-04%20(set)">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Thessalonike</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Τὸ περιβολαὶ τῆς Παναγίας</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nicodemus the Hagiorite</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Makarios</foaf:surname>
+                        <foaf:givenName>Saint</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galites</foaf:surname>
+                        <foaf:givenName>Antonios G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galites</foaf:surname>
+                        <foaf:givenName>Georgios A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_35819"/>
+        <dc:subject>2430 translation Greek</dc:subject>
+        <dc:subject>2452 translation Greek</dc:subject>
+        <dc:subject>2441 translation Greek</dc:subject>
+        <dc:subject>2450 translation Greek</dc:subject>
+        <prism:edition>6th</prism:edition>
+        <dc:identifier>ISBN 960-7407-03-2 (volume 1) 960-7407-02-04 (set)</dc:identifier>
+        <dc:date>2004</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-galites-1984</dc:description>
+        <z:numberOfVolumes>5</z:numberOfVolumes>
+        <z:language>grc</z:language>
+        <dc:title>Φιλοκαλία τῶν ἱερῶν Νηπτικῶν</dc:title>
+        <z:shortTitle>Φιλοκαλία</z:shortTitle>
+    </bib:Book>
+    <bib:Memo rdf:about="#item_35819">
+        <rdf:value>&lt;p&gt;First edition, 1984. Introduction: 1:63-65; Hypotyposis: 1:66-72; On the [Evil] Thoughts, 73–86; 5 chapters from the Praktikos (29, 32, 91, 94, 15; uncredited): 87; On Prayer: 1:219-234 (ascribed to St. Nilus). -jk&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Book rdf:about="urn:isbn:978-960-99525-1-4%20(volume%201)%20978-960-99525-0-7%20(set)">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Thessalonike</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Ἱερᾶς Μονῆς Κοιμήσεως Θεοτόκου Μπούρα</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nicodemus the Hagiorite</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Makarios</foaf:surname>
+                        <foaf:givenName>Saint</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <z:translators>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname></foaf:surname>
+                        <foaf:givenName>Monk Theologia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:translators>
+        <dcterms:isReferencedBy rdf:resource="#item_35821"/>
+        <dc:subject>2452 edition Greek</dc:subject>
+        <dc:subject>2450 edition Greek</dc:subject>
+        <dc:subject>2441 edition Greek</dc:subject>
+        <dc:subject>2430 edition Greek</dc:subject>
+        <dc:subject>2430 translation Greek</dc:subject>
+        <dc:subject>2452 translation Greek</dc:subject>
+        <dc:subject>2441 translation Greek</dc:subject>
+        <dc:subject>2450 translation Greek</dc:subject>
+        <prism:edition>1st</prism:edition>
+        <dc:identifier>ISBN 978-960-99525-1-4 (volume 1) 978-960-99525-0-7 (set)</dc:identifier>
+        <dc:date>2010</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:philokalia-galites-1984</dc:description>
+        <z:numberOfVolumes>6</z:numberOfVolumes>
+        <z:language>grc</z:language>
+        <dc:title>Φιλοκαλία τῶν ἱερῶν Νηπτικῶν</dc:title>
+        <z:shortTitle>Φιλοκαλία</z:shortTitle>
+    </bib:Book>
+    <bib:Memo rdf:about="#item_35821">
+        <rdf:value>&lt;p&gt;Introduction: 1:181-182; Hypotyposis: 1:183-201; On the [Evil] Thoughts, 202-240; 5 chapters from the Praktikos (29, 32, 91, 94, 15; uncredited): 242-244; On Prayer: 2:125-164 (ascribed to St. Nilus, notes at 165-172). -jk&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Book rdf:about="https://hdl.handle.net/2027/mdp.39015056300117">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Palladius of Helenopolis</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Butler</foaf:surname>
+                        <foaf:givenName>Dom Cuthbert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hdl.handle.net/2027/mdp.39015056300117</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1904</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:palladius-1904</dc:description>
+        <dcterms:dateSubmitted>2021-12-09 14:37:08</dcterms:dateSubmitted>
+        <z:libraryCatalog>hollis.harvard.edu</z:libraryCatalog>
+        <z:language>eng</z:language>
+        <dcterms:abstract>Critical edition of Palladius's text. See pp. 116-123 for sect. 38, dealing with Evagrius.</dcterms:abstract>
+        <dc:title>The Lausiac History of Palladius, vol. 2: The Greek Text Edited with Introduction and Notes</dc:title>
+    </bib:Book>
 </rdf:RDF>

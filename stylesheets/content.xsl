@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tan="tag:textalign.net,2015:ns"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
 
-    <!-- This is the master stylesheet for generating the everything in the Guide to Evagrius Ponticus except the transcriptions (see transcriptions.xsl) -->
+    <xsl:param name="output-diagnostics-on" as="xs:boolean" static="true" select="false()"/>
+    
+    <!-- This is the master stylesheet for generating the everything in the Guide to Evagrius Ponticus except the 
+        single-source transcriptions (see transcriptions.xsl) and the parallel editions (see transcriptions-tan-a.xsl) -->
     <!-- Input: any XML document whatsoever, including this one -->
     <!-- Output: the static html pages that constitute the Guide -->
     <!-- This stylesheet can be run on any XML document because the core input documents are defined by parameters -->
@@ -13,7 +17,9 @@
     <xsl:include href="incl/bibliography.xsl"/>
     <xsl:include href="incl/core.xsl"/>
     <xsl:include href="incl/global-variables.xsl"/>
-    <xsl:output method="xhtml" indent="yes"/>
+    
+    <xsl:output indent="yes" use-when="$output-diagnostics-on"/>
+    <xsl:output indent="no" method="xhtml" use-when="not($output-diagnostics-on)"/>
 
     <xsl:param name="validation-phase" select="'normal'"/>
 
@@ -40,6 +46,17 @@
         <title>
             <xsl:value-of select="concat(., ': ', ($content-doc//h2)[1])"/>
         </title>
+    </xsl:template>
+    <!-- The templates point accurately to their relative location, which is perfect for transcriptions and parallel editions,
+    but the main pages are up a level, and the relative hrefs need to be adjusted -->
+    <xsl:template match="link[@href[starts-with(., '../')]] | img[@src[starts-with(., '../')]] | script[@src[starts-with(., '../')]] | a[@href[starts-with(., '../')]]" mode="content-into-template">
+        <xsl:copy>
+            <xsl:copy-of select="@* except (@href | @src)"/>
+            <xsl:for-each select="@href | @src">
+                <xsl:attribute name="{name(.)}" select="replace(., '^\.\./', '')"/>
+            </xsl:for-each>
+            <xsl:apply-templates mode="#current"/>
+        </xsl:copy>
     </xsl:template>
     
     <xsl:template match="div[@class = 'body']" mode="content-into-template">
@@ -70,9 +87,9 @@
         <xsl:for-each select="$content">
             <xsl:variable name="this-doc" select="."/>
             <xsl:variable name="this-doc-base-uri" select="base-uri(.)"/>
-            <xsl:variable name="new-uri" select="replace($this-doc-base-uri, 'content-', '')"/>
-            <xsl:variable name="is-corpus" select="matches(base-uri(.), 'content-corpus.htm')" as="xs:boolean"/>
-            <xsl:variable name="is-bibliography" select="matches(base-uri(.), 'content-bibliography.htm')" as="xs:boolean"/>
+            <xsl:variable name="new-uri" select="replace($this-doc-base-uri, 'templates/', '')"/>
+            <xsl:variable name="is-corpus" select="$run-corpus-only or matches(base-uri(.), 'corpus\.htm')" as="xs:boolean"/>
+            <xsl:variable name="is-bibliography" select="matches(base-uri(.), 'bibliography\.htm')" as="xs:boolean"/>
             <xsl:variable name="pass1" as="document-node()">
                 <xsl:apply-templates select="$gep-template" mode="content-into-template">
                     <xsl:with-param name="content-doc" select="$this-doc" tunnel="yes"/>
@@ -99,16 +116,18 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <xsl:variable name="diagnostics-on" as="xs:boolean" select="false()"/>
-            <xsl:if test="$diagnostics-on">
+            
+            <xsl:if test="$output-diagnostics-on">
                 <xsl:message select="'diagnostics on for doc base uri:', $this-doc-base-uri"/>
                 <xsl:message select="'is corpus?', $is-corpus"/>
                 <xsl:message select="'is bibliography?', $is-bibliography"/>
             </xsl:if>
+            
             <xsl:choose>
-                <xsl:when test="$diagnostics-on">
+                <xsl:when test="$output-diagnostics-on">
                     <xsl:if test="$is-corpus">
                         <diagnostics>
+                            <tan-folder-uris-resolved><xsl:value-of select="$tan-folder-uris-resolved"/></tan-folder-uris-resolved>
                             <!--<xsl:copy-of select="$corpus-collection-resolved/*/tan:head"/>-->
                             <!--<corpus-collection>
                                 <xsl:for-each select="$corpus-collection-resolved">
@@ -120,20 +139,20 @@
                             </corpus-collection>-->
                             <!--<html-coll><xsl:copy-of select="tan:shallow-copy($html-transcription-collection, 2)"/></html-coll>-->
                             <!--<corpus-claims-resolved><xsl:copy-of select="$corpus-claims-resolved"/></corpus-claims-resolved>-->
-                            <corpus-claims-expanded><xsl:copy-of select="$corpus-claims-expanded"/></corpus-claims-expanded>
+                            <!--<corpus-claims-expanded><xsl:copy-of select="$corpus-claims-expanded"/></corpus-claims-expanded>-->
                             <!--<pass1><xsl:copy-of select="$pass1"/></pass1>-->
-                            <!--<pass2><xsl:copy-of select="$pass2"/></pass2>-->
+                            <pass2><xsl:copy-of select="$pass2"/></pass2>
                             <pass3><xsl:copy-of select="$pass3"/></pass3>
                         </diagnostics>
                     </xsl:if>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:message select="'File saved at', $new-uri"/>
                     <xsl:result-document href="{$new-uri}">
                         <xsl:apply-templates select="$pass3" mode="content-post-prepped">
                             <xsl:with-param name="edition" select="$this-edition" tunnel="yes"/>
                         </xsl:apply-templates>
                     </xsl:result-document>
+                    <xsl:message select="'File saved at', $new-uri"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>

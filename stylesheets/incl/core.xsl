@@ -18,19 +18,19 @@
     <!--<xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>-->
     <!--<xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>-->
     <xsl:import href="../../../TAN/TAN-2020/applications/display/display%20TAN%20as%20HTML.xsl"/>
-    <xsl:variable name="gep-template" select="doc('../template.html')"/>
+    <xsl:variable name="gep-template" select="doc('../../templates/template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
         <xsl:document>
             <xsl:apply-templates select="$gep-template" mode="insert-tablesorter"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="bibliography-rdf-file" select="doc('../bibliography.rdf')"/>
+    <xsl:variable name="bibliography-rdf-file" select="doc('../../bibliography.rdf')"/>
     <xsl:variable name="bibliography-prepped" as="document-node()">
         <xsl:document>
             <xsl:apply-templates select="$bibliography-rdf-file" mode="prep-rdf"/>
         </xsl:document>
     </xsl:variable>
-    <xsl:variable name="corpus-claims-file" select="doc('../tan/TAN-A/evagrius.TAN-A.xml')"/>
+    <xsl:variable name="corpus-claims-file" select="doc('../../tan/TAN-A/evagrius.TAN-A.xml')"/>
     <xsl:variable name="corpus-claims-resolved" select="tan:resolve-doc($corpus-claims-file)"/>
     <xsl:variable name="corpus-claims-expanded" select="tan:expand-doc($corpus-claims-resolved)"/>
 
@@ -49,10 +49,11 @@
     <xsl:template match="head" mode="insert-tablesorter">
         <xsl:copy>
             <xsl:copy-of select="node()"/>
-            <link rel="stylesheet" type="text/css" href="tablesorter/css/theme.default.css">
+            <!-- We assume that the only files that have the tablesorter are on the root folder level -->
+            <link rel="stylesheet" type="text/css" href="js/tablesorter/css/theme.default.css">
                 <xsl:comment/>
             </link>
-            <script type="text/javascript" src="tablesorter/js/jquery.tablesorter.combined.js"/>
+            <script type="text/javascript" src="js/tablesorter/js/jquery.tablesorter.combined.js"/>
             <script>
                 $(function(){
                 $('table.search').tablesorter({

@@ -18,5 +18,6 @@
             <xsl:otherwise>winter</xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="this-edition" select="string-join(($this-season, string($this-year)), ' ')"/>
+    <!--<xsl:variable name="this-edition" select="string-join(($this-season, string($this-year)), ' ')"/>-->
+    <xsl:param name="this-edition" select="'2022'" as="xs:string"/>
 </xsl:stylesheet>

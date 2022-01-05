@@ -178,7 +178,7 @@ $(function () {
     function updateSourceOrder(key) {
         console.log('Updating order of sources');
         /* The control might itself be a .sortable, so we need addBack() */
-        srcKey = $(key).parents('.control').addBack('.control').find('.head').children('.label');
+        srcKey = $(key).parents('.control').addBack('.control').find('.e-head').children('.label');
         srcClasses =[];
         for (i = 0; i < srcKey.length; i++) {
             srcClasses.push(srcKey[i].innerHTML)
@@ -251,8 +251,11 @@ $(function () {
     $(".lem").click(function () {
         $(this).parent().children('.rdg').toggleClass('hidden');
     });
-    $(".label, .signal").click(function () {
+    $(".label").click(function () {
         $(this).nextAll().toggle("fast");
+    });
+    $(".hideNext").click(function () {
+        $(this).toggleClass("hideNext");
     });
 });
 

@@ -27,7 +27,7 @@
                 href="http://www.zotero.org/groups/evagrius_ponticus">Zotero</a> (master), <a
                 href="bibliography.rdf">RDF</a>, <a href="bibliography.zip">BibTeX</a>.</div>
         <input class="search" type="search" data-column="all"/>
-        <table class="tablesorter show-last-col-only" id="bibliography-table">
+        <table class="tablesorter search show-last-col-only" id="bibliography-table">
             <thead>
                 <tr>
                     <td>Year</td>

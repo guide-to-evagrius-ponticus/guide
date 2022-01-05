@@ -4,7 +4,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tan="tag:textalign.net,2015:ns"
     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
     
     <xsl:param name="distribute-vocabulary" select="true()"/>
     
@@ -16,26 +16,31 @@
         <xsl:copy-of select="."/>
     </xsl:template>
     
-    <xsl:variable name="corpus-collection-adjusted" as="document-node()*">
+    <!--<xsl:variable name="corpus-collection-adjusted" as="document-node()*">
         <xsl:apply-templates select="$corpus-collection-resolved" mode="expand-work-element"/>
-    </xsl:variable>
-    <xsl:template match="tan:work" mode="expand-work-element">
+    </xsl:variable>-->
+    <!--<xsl:template match="tan:work" mode="expand-work-element">
         <xsl:variable name="this-vocabulary" select="tan:element-vocabulary(.)" as="element()*"/>
         <xsl:copy>
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates mode="#current"/>
             <xsl:copy-of select="$this-vocabulary/tan:item/*"/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:param name="works-to-exclude-regex-on-IRI">fra-Guillaumont</xsl:param>
     <xsl:variable name="language-priority-list" as="xs:string+" select="('grc', 'lat', 'eng')"/>
+    
     <xsl:template match="table[@id = 'corpus-table']" mode="template-to-corpus">
         <xsl:variable name="work-vocab-items" select="tan:vocabulary('work', (), $corpus-claims-expanded/tan:TAN-A/tan:head)"/>
+        
         <div class="links-to-other-formats">Other formats: <a
             href="{($corpus-claims-expanded/tan:TAN-A/tan:head/tan:master-location/@href)[1]}">TAN-A</a>
             (master)</div>
-        <input class="search" type="search" data-column="all"/>
+        <div class="search">
+            <div>Search</div>
+            <input class="search" type="search" data-column="all"/>
+        </div>
         <table class="tablesorter search show-last-col-only" id="corpus-table">
             <thead>
                 <tr>
@@ -44,7 +49,7 @@
                     <td>Language</td>
                     <td>Portion extant</td>
                     <td>CPG</td>
-                    <!-- we add a filler because in our css, we are going to hide the first five columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
+                    <!-- we add a filler because in our css we are going to hide the first five columns in the tbody, and we need to balance them with an equal number of columns in the thead -->
                     <td colspan="5" class="filler"/>
                 </tr>
                 <!--<tr>
@@ -76,19 +81,47 @@
         <!-- This template shallow skips tan elements, but shallow copies html elements -->
         <xsl:apply-templates mode="#current"/>
     </xsl:template>
+    <xsl:variable name="base-evagrius-folder" select="resolve-uri('../..', static-base-uri())"/>
     <xsl:template match="tan:item | tan:work | tan:version" mode="template-to-corpus">
+        <!-- This very long template builds a <td> row corresponding to a single work or work-version.
+            Because this deals with versions, it is recursive/nestable. Each row's <td> cells are data about the work-version. -->
         <xsl:param name="number-of-visible-sort-columns" as="xs:integer" select="4" tunnel="yes"/>
-        <!-- In the variables below we use "work" to refer not merely to works but to work-versions. This template applies first to Evagrius's work such
-            -and-such, and then to the X translation of work such-and-such. -->
+        <!-- In the variables below we use "work" to refer not merely to works but to work-versions. This template applies first to Evagrius's work 
+            such-and-such, and then to each translation of work such-and-such. -->
         <xsl:variable name="this-work-item" select="."/>
         <!--<xsl:variable name="this-work-id" select="(tan:id, @xml:id)[1]"/>-->
         <xsl:variable name="this-work-id" select="(tan:name[matches(., 'cpg')])[1]"/>
+        <xsl:variable name="this-cpg-id" as="xs:string?"
+            select="analyze-string($this-work-id, '(no)?cpg[\d.]+[ab]?')/*:match"/>
+        <!-- The primary subfolder should be in the form (no)?cpg\d+ -->
+        <xsl:variable name="this-base-html-folder-uri-resolved"
+            select="resolve-uri('../../' || $this-cpg-id, static-base-uri())"/>
+        <xsl:variable name="these-html-uris-resolved" as="xs:anyURI*">
+            <xsl:try select="uri-collection($this-base-html-folder-uri-resolved)">
+                <xsl:catch>
+                    <xsl:message select="'No HTML files at ' || $this-base-html-folder-uri-resolved"
+                    />
+                </xsl:catch>
+            </xsl:try>
+        </xsl:variable>
+        <xsl:variable name="this-html-transcription-collection" as="document-node()*">
+            <xsl:for-each select="$these-html-uris-resolved">
+                <xsl:choose>
+                    <xsl:when test="doc-available(.)">
+                        <xsl:sequence select="doc(.)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:message select="'Doc not available at ' || ."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:variable>
+        
         <xsl:variable name="this-is-a-version" select="(name(.) = 'version') or (tan:affects-element = 'version')"/>
         <xsl:variable name="these-work-names-sorted" as="element()*">
-            <xsl:for-each select="$this-work-item/tan:name[not(@norm)]">
-                <!-- Sort the names according to language priority -->
-                <xsl:sort
-                    select="
+            <xsl:for-each select="$this-work-item/tan:name[not(@norm)][not(matches(., 'cpg'))]">
+                <!-- Sort the names by language priority -->
+                <xsl:sort select="
                         if (exists(@xml:lang)) then
                             index-of($language-priority-list, @xml:lang)
                         else
@@ -98,7 +131,7 @@
         </xsl:variable>
         <xsl:variable name="these-work-iris" select="tan:IRI"/>
         <!-- Find transcriptions for the work at hand -->
-        <xsl:variable name="corresponding-transcription-vocabulary-item"
+        <xsl:variable name="corresponding-transcription-vocabulary-item" as="element()*"
             select="$corpus-collection-resolved/*/tan:head//(tan:work, tan:version, tan:item[tan:affects-element = ('work', 'version')])[tan:IRI = $these-work-iris]"
         />
         <xsl:variable name="this-work-tan-transcriptions"
@@ -201,27 +234,45 @@
             select="$bibliography-rdf-file/*/*[dc:description = ($scripta-translation-items/tan:IRI, $scripta-edition-items/tan:IRI)]"/>
         
         <!-- Look for a collated parallel HTML edition. -->
-        <xsl:variable name="this-collated-edition-url" select="concat($this-work-id, '.html')"/>
-        <xsl:variable name="collated-edition-available"
-            select="doc-available(concat('../', $this-collated-edition-url))"/>
+        <!--<xsl:variable name="this-collated-edition-url" select="concat($this-work-id, '.html')"/>-->
+        <!--<xsl:variable name="collated-edition-available"
+            select="doc-available(concat('../', $this-collated-edition-url))"/>-->
         <xsl:variable name="this-cpg-norm"
             select="normalize-space(replace($this-work-id, 'cpg', ' CPG '))"/>
-        
+        <!-- contains($this-cpg-id, '2430') and exists($work-claims-involving-scripta) and $this-is-a-version -->
         <xsl:variable name="diagnostics-on" select="false()"/>
         <xsl:if test="$diagnostics-on">
             <xsl:message select="'Diagnostics on, template mode template-to-corpus'"/>
-            <xsl:message select="'This work item: ', $this-work-item"/>
-            <xsl:message select="'CPG norm: ', $this-cpg-norm"/>
-            <!--<xsl:message select="'This work id:', $this-work-id"/>-->
+            <xsl:message select="'Work item: ', $this-work-item"/>
+            <xsl:message select="'Work id: ' || $this-work-id"/>
+            <xsl:message select="'CPG id: ' || $this-cpg-id"/>
+            <xsl:message select="'Base HTML folder uri: ' || $this-base-html-folder-uri-resolved"/>
+            <xsl:message select="'HTML URIs: ' || string-join($these-html-uris-resolved, ' ')"/>
             <xsl:message select="'This is a version: ', $this-is-a-version"/>
-            <xsl:message select="'Work TAN transcriptions: ', count($this-work-tan-transcriptions), tan:shallow-copy($this-work-tan-transcriptions/*)"/>
+            <xsl:message select="'Work names sorted: ' || string-join($these-work-names-sorted, '; ')"/>
+            <xsl:message select="'Work IRIs: ' || string-join($these-work-iris, '; ')"/>
+            <xsl:message select="'Transcription vocab item: ', $corresponding-transcription-vocabulary-item"/>
+            <xsl:message select="'TAN transcriptions for this work (' || string(count($this-work-tan-transcriptions)) || ')'"/>
             <xsl:message select="'Claims with this work as subject: ', $claims-with-this-work-as-subject"/>
             <xsl:message select="'Claims with this work as object: ', $claims-with-this-work-as-object"/>
-            <!--<xsl:message select="'ID regex for bibliography: ', $this-id-regex-for-bibliography"/>-->
+            <xsl:message select="'Claims with this work as object filter: ', $claims-with-this-work-as-object-filter"/>
+            <xsl:message select="'Work claims re incipit:', $work-claims-re-incipit"/>
+            <xsl:message select="'Work claims re original language:', $work-claims-re-original-language"/>
+            <xsl:message select="'This orig. lang code: ' || string-join($this-orig-lang-code, ', ')"/>
+            <xsl:message select="'This orig. lang statement: ' || $this-orig-lang-statement"/>
+            <xsl:message select="'Work claims involving scripta: ', $work-claims-involving-scripta"/>
+            <xsl:message select="'Work claims re translations:', $work-claims-re-translations"/>
+            <xsl:message select="'Scripta translation items: ', $scripta-translation-items"/>
+            <xsl:message select="'Version translation items: ', $version-translation-items"/>
+            <xsl:message select="'Work claims re editions:', $work-claims-re-editions"/>
+            <xsl:message select="'Scripta edition items: ', $scripta-edition-items"/>
+            <xsl:message select="'Work claims re authorship:', $work-claims-re-authorship"/>
+            <xsl:message select="'Work claims re portion extant:', $work-claims-re-portion-extant"/>
+            <xsl:message select="'Work is extant?', $work-is-extant"/>
             <xsl:message select="'Bibliography refs to this work: ', $bibliography-refs-to-this-work"/>
+            <xsl:message select="'CPG norm: ', $this-cpg-norm"/>
         </xsl:if>
 
-        <!--<test23a><xsl:copy-of select="$claims-with-this-work-as-object-filter"/></test23a>-->
         <tr id="{$this-work-id}">
             <!-- Next several <td>s are invisible, corresponding to sort columns in <thead> -->
             <td>
@@ -257,20 +308,20 @@
                     <xsl:apply-templates select="tan:IRI" mode="template-to-corpus-td-content"/>
                 </div>
                 <div class="names">
-                    <xsl:for-each select="$these-work-names-sorted">
-                        <div>
-                            <xsl:choose>
-                                <xsl:when test="$collated-edition-available and position() = 1">
-                                    <a href="{$this-collated-edition-url}">
-                                        <xsl:value-of select="."/>
-                                    </a>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="."/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </div>
-                    </xsl:for-each>
+                    <div><xsl:value-of select="$these-work-names-sorted[1]"/></div>
+                    <div class="aliases">
+                        <xsl:if test="count($these-work-names-sorted) gt 1">
+                            <xsl:value-of select="'Other names: '"/> 
+                        </xsl:if>
+                        <xsl:for-each-group select="$these-work-names-sorted[position() gt 1]"
+                            group-by="replace(lower-case(.), '[\W]+', '')">
+                            <xsl:if test="position() gt 1">
+                                <xsl:value-of select="', '"/>
+                            </xsl:if>
+                            <xsl:value-of select="current-group()[1]"/>
+                        </xsl:for-each-group> 
+                    </div>
+                    
                 </div>
                 <xsl:if test="not($this-orig-lang-code = 'grc') and not($this-is-a-version)">
                     <div class="orig-lang">Written originally in <xsl:value-of
@@ -283,6 +334,42 @@
                 <xsl:apply-templates select="tan:desc" mode="template-to-corpus-td-content"/>
                 <xsl:apply-templates select="$work-claims-re-incipit/tan:object"
                     mode="template-to-corpus-incipit"/>
+                
+                <xsl:if test="exists($these-html-uris-resolved) and not($this-is-a-version)">
+                    <div class="html-editions">
+                        <select onchange="location = this.options[this.selectedIndex].value;">
+                            <option>Read transcriptions</option>
+                            <xsl:for-each select="$these-html-uris-resolved">
+                                <xsl:sort
+                                    select="
+                                        if (contains(., '-full-')) then
+                                            1
+                                        else
+                                            2"
+                                />
+                                <xsl:sort select="."/>
+                                <xsl:variable name="this-doc" select="doc(.)"/>
+                                <xsl:variable name="these-titles" 
+                                    select="$this-doc/html:html/html:body/html:div/(html:h1 | html:div[contains-token(@class, 'e-head')]//html:div[contains-token(@class, 'e-name')])"/>
+                                <xsl:variable name="this-clarification" as="xs:string?">
+                                    <xsl:choose>
+                                        <xsl:when test="contains(., 'full-for-reading')">
+                                            <xsl:value-of select="' (reading optimized)'"/>
+                                        </xsl:when>
+                                        <xsl:when test="contains(., 'full-for-search')">
+                                            <xsl:value-of select="' (search optimized)'"/>
+                                        </xsl:when>
+                                    </xsl:choose>
+                                </xsl:variable>
+                                <option value="{tan:uri-relative-to(., $base-evagrius-folder)}">
+                                    <xsl:value-of select="$these-titles[1] || $this-clarification"/>
+                                </option>
+                                
+                            </xsl:for-each> 
+                        </select>​
+                    </div>
+                </xsl:if>
+                
                 <xsl:if test="exists($version-translation-items)">
                     <xsl:variable name="ancient-translations-grouped" as="element()*"
                         select="tan:group-elements-by-IRI($version-translation-items)"/>
@@ -323,6 +410,7 @@
                         </table>
                     </div>
                 </xsl:if>
+                
                 <div class="ed-and-tr">
                     <!-- Group scripta according to type. -->
                     <xsl:for-each-group select="$work-claims-involving-scripta"
@@ -388,24 +476,19 @@
                                             name="these-relevant-supplementary-claims-with-this-scriptum-as-object"
                                             select="$claims-with-this-work-as-object-filter[tan:object[descendant::tan:IRI = $these-scriptum-iris]]"/>
                                         <!-- grab all html pages that have a head entry for that particular scriptum and work combo; the XPath is unfortunately too long to read easily -->
+                                        <!--<xsl:variable name="these-html-editions-first-check"
+                                            select="$html-transcription-collection[html:html/html:body//html:div[tokenize(@class, ' ') = 'head'][.//html:div[@class = 'source' and .//html:div[@class = 'IRI'] = $these-scriptum-iris]][.//html:div[@class = ('work', 'version') and .//html:div[@class = 'IRI'] = $these-work-iris]]]"/>-->
                                         <xsl:variable name="these-html-editions-first-check"
-                                            select="$html-transcription-collection[html:html/html:body//html:div[tokenize(@class, ' ') = 'head'][.//html:div[@class = 'source' and .//html:div[@class = 'IRI'] = $these-scriptum-iris]][.//html:div[@class = ('work', 'version') and .//html:div[@class = 'IRI'] = $these-work-iris]]]"/>
+                                            select="$this-html-transcription-collection[html:html/html:body//html:div[contains-token(@class, 'e-head')][.//html:div[contains-token(@class, 'e-source') and .//html:div[contains-token(@class, 'e-IRI')] = $these-scriptum-iris]][.//html:div[tokenize(@class, ' ') = ('e-work', 'e-version') and .//html:div[contains-token(@class, 'e-IRI')] = $these-work-iris]]]"/>
                                        <!-- We refine further, to avoid cases where we're listing translations, and other version of that work have leaked in. This is not an accurate
                                        fix, but it has to do for now, so as not to delay the 2020 edition any further. --> 
                                         <xsl:variable name="these-html-editions"
                                             select="
                                                 if (exists($these-lang-codes)) then
-                                                    $these-html-editions-first-check[html:html/html:body//html:div[tokenize(@class, ' ') = 'body'][.//@lang = $these-lang-codes]]
+                                                    $these-html-editions-first-check[html:html/html:body//html:div[contains-token(@class, 'e-body')][.//@lang = $these-lang-codes]]
                                                 else
                                                     $these-html-editions-first-check"
                                         />
-                                        <!--<test29scriptum-iris><xsl:copy-of select="$these-scriptum-iris"/></test29scriptum-iris>
-                                        <test29work-version-iris><xsl:copy-of select="$these-work-iris"/></test29work-version-iris>
-                                        <test29lang-codes><xsl:copy-of select="$these-lang-codes"/></test29lang-codes>-->
-                                        <!--<xsl:if test="$these-scriptum-iris = 'tag:evagriusponticus.net,2012:scriptum:guillaumont-1958'">
-                                            <test29a><xsl:copy-of select="$html-transcription-collection/html:html/html:body//html:div[tokenize(@class, ' ') = 'head']//html:div[@class = 'source' and .//html:div[@class = 'IRI'] = $these-scriptum-iris]"/></test29a>
-                                            <test29b><xsl:copy-of select="$html-transcription-collection/html:html/html:body//html:div[tokenize(@class, ' ') = 'head']//html:div[@class = ('work', 'version') and .//html:div[@class = 'IRI'] = $these-work-iris]"/></test29b>
-                                        </xsl:if>-->
                                         <xsl:variable name="these-comments" as="item()*">
                                             <xsl:if test="exists(../@adverb)">
                                                 <div class="adverb">
@@ -421,21 +504,7 @@
                                                 <xsl:with-param name="initial-text" select="'Restricted to '"/>
                                                 <xsl:with-param name="final-text" select="'. '"/>
                                             </xsl:apply-templates>
-                                            <!--<xsl:if test="exists($this-work-object/tan:div)">
-                                                <div class="object-div">
-                                                    <xsl:text>Restricted to </xsl:text>
-                                                    <xsl:for-each-group select="$this-work-object/tan:div"
-                                                        group-by="@type">
-                                                        <xsl:if test="position() gt 1">
-                                                          <xsl:text>, </xsl:text>
-                                                        </xsl:if>
-                                                        <xsl:value-of
-                                                          select="current-grouping-key() || ' ' || string-join(current-group()/@n, ', ')"
-                                                        />
-                                                    </xsl:for-each-group>
-                                                    <xsl:text>. </xsl:text>
-                                                </div>
-                                            </xsl:if>-->
+                                            
                                             <!-- We now add comments about how one scriptum relates with another, e.g., Dysinger transcribes Guillaumont's edition of work such-and-such -->
                                             <!--<xsl:message select="'xrefs: ', $these-relevant-supplementary-claims-with-this-scriptum-as-subject, $these-relevant-supplementary-claims-with-this-scriptum-as-object"/>-->
                                             <xsl:if test="exists($these-relevant-supplementary-claims-with-this-scriptum-as-subject) or exists($these-relevant-supplementary-claims-with-this-scriptum-as-object)">
@@ -483,8 +552,12 @@
                                                           <a href="{tan:cfne(.)}">
                                                           <xsl:choose>
                                                           <xsl:when
+                                                          test="exists(html:html/html:body/html:div[matches(@class, 'merge')]) and contains(base-uri(.), 'for-reading')">
+                                                          <xsl:text>collated parallel edition (reading optimized)</xsl:text>
+                                                          </xsl:when>
+                                                          <xsl:when
                                                           test="exists(html:html/html:body/html:div[matches(@class, 'merge')])">
-                                                          <xsl:text>collated parallel edition</xsl:text>
+                                                          <xsl:text>collated parallel edition (search optimized)</xsl:text>
                                                           </xsl:when>
                                                           <xsl:otherwise>
                                                           <xsl:text>transcription</xsl:text>
@@ -506,43 +579,7 @@
                         <div class="pending">List of sources pending.</div>
                     </xsl:if>
                 </div>
-                <!--<div class="ed-and-tr collapse">
-                    <xsl:choose>
-                        <xsl:when test="exists($work-claims-involving-scripta) and ($work-is-extant)">
-                            <div class="label">
-                                <xsl:text>Editions and translations (</xsl:text>
-                                <xsl:value-of
-                                    select="count(distinct-values($bibliography-refs-to-this-work/@*:about))"/>
-                                <xsl:text>)</xsl:text>
-                            </div>
-                            <!-\-<test06a><xsl:copy-of select="$work-claims-involving-scripta"/></test06a>-\->
-                            <!-\-<test05a><xsl:copy-of select="$bibliography-refs-to-this-work"/></test05a>-\->
-                            <table class="tablesorter">
-                                <thead>
-                                    <tr>
-                                        <td>Type</td>
-                                        <td>Date</td>
-                                        <td>Language</td>
-                                        <td>Where</td>
-                                        <td>Online</td>
-                                        <td>Comments</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                     
-                                    
-                                </tbody>
-                            </table>
-                        </xsl:when>
-                        <xsl:when
-                            test="exists($work-claims-re-portion-extant/tan:object[number(.) le 0])"
-                        />
-                        <xsl:otherwise>
-                            <xsl:text>List of editions or translations pending</xsl:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-
-                </div>-->
+                
             </td>
         </tr>
     </xsl:template>

@@ -3,11 +3,25 @@
     xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tan="tag:textalign.net,2015:ns"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
+    
     <xsl:include href="global-variables-for-schematron-validation.xsl"/>
-    <xsl:variable name="content" select="collection('../?select=content-*.htm')"/>
-    <!--<xsl:variable name="content" select="collection('../?select=content-corpus.htm')"/>-->
-    <xsl:variable name="corpus-collection" select="collection('../tan/?select=cpg*.xml')"/>
+    
+    <xsl:param name="run-corpus-only" as="xs:boolean" select="false()"/>
+    
+    <xsl:variable name="content" as="document-node()*"
+        select="
+            if ($run-corpus-only) then
+                doc('../../templates/corpus.htm')
+            else
+                collection('../../templates/?select=*.htm')"
+    />
+    
+    <xsl:variable name="tan-collection-base-uri" select="resolve-uri('../../tan/', static-base-uri())"/>
+    
+    <xsl:variable name="main-tan-voc-uri-resolved" select="resolve-uri('../../tan/TAN-voc/evagrius.TAN-voc.xml', static-base-uri())"/>
+    <xsl:variable name="tan-folder-uris-resolved" select="uri-collection($tan-collection-base-uri)"/>
+    <xsl:variable name="corpus-collection" select="collection('../../tan/?select=cpg*.xml')"/>
     <xsl:variable name="corpus-collection-resolved" as="document-node()*"
         select="
             for $i in $corpus-collection

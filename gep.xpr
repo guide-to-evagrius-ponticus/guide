@@ -1,35 +1,390 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="22.1">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="22.1" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
+                    <entry>
+                        <String>document.types</String>
+                        <documentTypeDescriptor-array>
+                            <documentTypeDescriptor>
+                                <field name="webResources">
+                                    <null/>
+                                </field>
+                                <field name="extensionPatch">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>TAN</String>
+                                </field>
+                                <field name="schemaDescriptor">
+                                    <null/>
+                                </field>
+                                <field name="classpath">
+                                    <String-array/>
+                                </field>
+                                <field name="parentClassLoaderID">
+                                    <null/>
+                                </field>
+                                <field name="authorExtensionDescriptor">
+                                    <authorExtension>
+                                        <field name="cssDescriptors">
+                                            <cssFile-array/>
+                                        </field>
+                                        <field name="mergeCSSsFromDocument">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="multipleAlternateSelectionEnabled">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="actionDescriptors">
+                                            <action-array/>
+                                        </field>
+                                        <field name="menubarDescriptor">
+                                            <menu>
+                                                <field name="label">
+                                                    <String>Menu</String>
+                                                </field>
+                                                <field name="accessKey">
+                                                    <null/>
+                                                </field>
+                                                <field name="iconPath">
+                                                    <null/>
+                                                </field>
+                                                <field name="menuEntriesDescriptorList">
+                                                    <menuEntry-array/>
+                                                </field>
+                                                <field name="context">
+                                                    <null/>
+                                                </field>
+                                            </menu>
+                                        </field>
+                                        <field name="popupMenuDescriptor">
+                                            <menu>
+                                                <field name="label">
+                                                    <String>Contextual menu</String>
+                                                </field>
+                                                <field name="accessKey">
+                                                    <null/>
+                                                </field>
+                                                <field name="iconPath">
+                                                    <null/>
+                                                </field>
+                                                <field name="menuEntriesDescriptorList">
+                                                    <menuEntry-array/>
+                                                </field>
+                                                <field name="context">
+                                                    <null/>
+                                                </field>
+                                            </menu>
+                                        </field>
+                                        <field name="toolbarDescriptor">
+                                            <toolbar>
+                                                <field name="id">
+                                                    <String>Toolbar</String>
+                                                </field>
+                                                <field name="type">
+                                                    <Integer>2</Integer>
+                                                </field>
+                                                <field name="largeIconPath">
+                                                    <null/>
+                                                </field>
+                                                <field name="smallIconPath">
+                                                    <null/>
+                                                </field>
+                                                <field name="toolbarEntriesDescriptorList">
+                                                    <toolbarEntry-array/>
+                                                </field>
+                                            </toolbar>
+                                        </field>
+                                        <field name="additionalToolbarsDescriptors">
+                                            <null/>
+                                        </field>
+                                        <field name="contextualItems">
+                                            <contextProvider>
+                                                <field name="items">
+                                                    <contextItem-array/>
+                                                </field>
+                                                <field name="removeItems">
+                                                    <null/>
+                                                </field>
+                                            </contextProvider>
+                                        </field>
+                                        <field name="tableSupportClassName">
+                                            <null/>
+                                        </field>
+                                        <field name="tableCellSeparatorSupportClassName">
+                                            <null/>
+                                        </field>
+                                        <field name="tableColWidthSupportClassName">
+                                            <null/>
+                                        </field>
+                                        <field name="customReferencesResolver">
+                                            <null/>
+                                        </field>
+                                        <field name="editPropertiesHandler">
+                                            <null/>
+                                        </field>
+                                        <field name="authorExtensionStateListener">
+                                            <null/>
+                                        </field>
+                                        <field name="attributesRecognizer">
+                                            <null/>
+                                        </field>
+                                        <field name="authorActionEventHandler">
+                                            <null/>
+                                        </field>
+                                        <field name="authorImageDecorator">
+                                            <null/>
+                                        </field>
+                                    </authorExtension>
+                                </field>
+                                <field name="templatesLocations">
+                                    <String-array/>
+                                </field>
+                                <field name="xmlCatalogs">
+                                    <String-array/>
+                                </field>
+                                <field name="description">
+                                    <String>TAN file handling</String>
+                                </field>
+                                <field name="doctypeRules">
+                                    <documentTypeRule-array>
+                                        <documentTypeRule>
+                                            <field name="namespace">
+                                                <String>tag:textalign.net,2015:ns</String>
+                                            </field>
+                                            <field name="rootElem">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="fileName">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="publicID">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="javaRuleClass">
+                                                <String></String>
+                                            </field>
+                                            <field name="attributeLocalName">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="attributeNamespace">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="attributeValue">
+                                                <String>*</String>
+                                            </field>
+                                        </documentTypeRule>
+                                        <documentTypeRule>
+                                            <field name="namespace">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="rootElem">
+                                                <String>TEI</String>
+                                            </field>
+                                            <field name="fileName">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="publicID">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="javaRuleClass">
+                                                <String></String>
+                                            </field>
+                                            <field name="attributeLocalName">
+                                                <String>TAN-version</String>
+                                            </field>
+                                            <field name="attributeNamespace">
+                                                <String>*</String>
+                                            </field>
+                                            <field name="attributeValue">
+                                                <String>*</String>
+                                            </field>
+                                        </documentTypeRule>
+                                    </documentTypeRule-array>
+                                </field>
+                                <field name="scenarios">
+                                    <scenario-array/>
+                                </field>
+                                <field name="validationScenarios">
+                                    <validationScenario-array>
+                                        <validationScenario>
+                                            <field name="pairs">
+                                                <list>
+                                                    <validationUnit>
+                                                        <field name="validationType">
+                                                            <validationUnitType>
+                                                                <field name="validationInputType">
+                                                                    <String>text/xml</String>
+                                                                </field>
+                                                            </validationUnitType>
+                                                        </field>
+                                                        <field name="url">
+                                                            <String>${currentFileURL}</String>
+                                                        </field>
+                                                        <field name="validationEngine">
+                                                            <validationEngine>
+                                                                <field name="engineType">
+                                                                    <String>&lt;Default engine></String>
+                                                                </field>
+                                                                <field name="allowsAutomaticValidation">
+                                                                    <Boolean>true</Boolean>
+                                                                </field>
+                                                            </validationEngine>
+                                                        </field>
+                                                        <field name="allowAutomaticValidation">
+                                                            <Boolean>true</Boolean>
+                                                        </field>
+                                                        <field name="extensions">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="validationSchema">
+                                                            <validationUnitSchema>
+                                                                <field name="dtdSchemaPublicID">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="schematronPhase">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="type">
+                                                                    <Integer>3</Integer>
+                                                                </field>
+                                                                <field name="uri">
+                                                                    <String>file:/E:/Joel/Dropbox/TAN/TAN-2022/schemas/${xpath_eval(name(/*))}.rnc</String>
+                                                                </field>
+                                                            </validationUnitSchema>
+                                                        </field>
+                                                        <field name="validationAdvancedSettings">
+                                                            <null/>
+                                                        </field>
+                                                    </validationUnit>
+                                                    <validationUnit>
+                                                        <field name="validationType">
+                                                            <validationUnitType>
+                                                                <field name="validationInputType">
+                                                                    <String>text/xml</String>
+                                                                </field>
+                                                            </validationUnitType>
+                                                        </field>
+                                                        <field name="url">
+                                                            <String>${currentFileURL}</String>
+                                                        </field>
+                                                        <field name="validationEngine">
+                                                            <validationEngine>
+                                                                <field name="engineType">
+                                                                    <String>&lt;Default engine></String>
+                                                                </field>
+                                                                <field name="allowsAutomaticValidation">
+                                                                    <Boolean>true</Boolean>
+                                                                </field>
+                                                            </validationEngine>
+                                                        </field>
+                                                        <field name="allowAutomaticValidation">
+                                                            <Boolean>true</Boolean>
+                                                        </field>
+                                                        <field name="extensions">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="validationSchema">
+                                                            <validationUnitSchema>
+                                                                <field name="dtdSchemaPublicID">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="schematronPhase">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="type">
+                                                                    <Integer>7</Integer>
+                                                                </field>
+                                                                <field name="uri">
+                                                                    <String>file:/E:/Joel/Dropbox/TAN/TAN-2022/schemas/${xpath_eval(name(/*))}.sch</String>
+                                                                </field>
+                                                            </validationUnitSchema>
+                                                        </field>
+                                                        <field name="validationAdvancedSettings">
+                                                            <null/>
+                                                        </field>
+                                                    </validationUnit>
+                                                </list>
+                                            </field>
+                                            <field name="type">
+                                                <String>Validation_scenario</String>
+                                            </field>
+                                            <field name="name">
+                                                <String>TAN 2020 validation, E drive</String>
+                                            </field>
+                                        </validationScenario>
+                                    </validationScenario-array>
+                                </field>
+                                <field name="defaultValidationScenarios">
+                                    <list>
+                                        <String>TAN 2020 validation, E drive</String>
+                                    </list>
+                                </field>
+                                <field name="defaultTransformationScenarios">
+                                    <null/>
+                                </field>
+                                <field name="extensionsBundleClassName">
+                                    <null/>
+                                </field>
+                                <field name="useImposedInitialPage">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="imposedInitialPage">
+                                    <String>Text</String>
+                                </field>
+                                <field name="elementLocatorExtension">
+                                    <null/>
+                                </field>
+                                <field name="schemaManagerFilterExtension">
+                                    <null/>
+                                </field>
+                                <field name="authorSWTDndExtension">
+                                    <null/>
+                                </field>
+                                <field name="textSWTDndExtension">
+                                    <null/>
+                                </field>
+                                <field name="authorSwingDndExtension">
+                                    <null/>
+                                </field>
+                                <field name="cssStylesFilterExtension">
+                                    <null/>
+                                </field>
+                                <field name="attributesValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="priority">
+                                    <Integer>3</Integer>
+                                </field>
+                                <field name="xmlNodeCustomizerExtension">
+                                    <null/>
+                                </field>
+                                <field name="externalObjectInsertionHandler">
+                                    <null/>
+                                </field>
+                                <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
+                            </documentTypeDescriptor>
+                        </documentTypeDescriptor-array>
+                    </entry>
                     <entry>
                         <String>enable.project.master.files.support</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.editor.document.type.association.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>stylesheets/content.xsl</String>
@@ -45,439 +400,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430.syr.bl14578.s2.tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
                                     <list>
-                                        <String>TAN-T to HTML</String>
+                                        <Byte>2</Byte>
                                     </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-voc/evagrius-scripta-TAN-voc.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>update evagrius-scripta-TAN-voc</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/transcriptions.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>run XSLT against itself</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>bibliography.rdf</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Create GEP content</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2458.4.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2431.eng.dysinger.tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2450.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2449.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2447.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2442.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2441.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2439.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2432.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2432.grc.cordier.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2432.eng.dysinger-s2.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2432.eng.dysinger-s1.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2431.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2431.grc.frankenberg.tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>template.html</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Create GEP content</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430.eng.dysinger.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430.syr.bl14578.tei.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430.grc.guillaumonts.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2431.syr.BLAdd17167.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list/>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -495,7 +420,896 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions-tan-a-old.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2432.quotations.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for search</String>
+                                        <String>TAN-A to HTML for reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2431.quotations.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2430.quotations.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2475/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2458.4/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2455/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2450/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2449/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2447/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2442/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2441/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2439/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2438/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2437/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2432/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2431/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2475.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2450.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2449.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2439.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2438.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2437.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2431.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading - diagnostics</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-voc/evagrius-scripta-TAN-voc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>update evagrius-scripta-TAN-voc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/test2.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../TAN/TAN-2022/applications/display/test2.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>template.html</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Create GEP content</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430.syr.bl14578.s2.tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>bibliography.rdf</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Create GEP content</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2431.eng.dysinger.tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2432.grc.cordier.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2432.eng.dysinger-s2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2432.eng.dysinger-s1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2431.grc.frankenberg.tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430.eng.dysinger.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430.syr.bl14578.tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430.grc.guillaumonts.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2431.syr.BLAdd17167.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -513,7 +1327,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -531,7 +1347,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -549,7 +1367,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -567,7 +1387,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -585,7 +1407,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -603,7 +1427,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -621,7 +1447,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -639,7 +1467,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -657,7 +1487,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -675,7 +1507,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -693,7 +1527,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -711,7 +1547,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -729,7 +1567,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -747,7 +1587,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -765,7 +1607,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -783,7 +1627,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -801,7 +1647,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -819,7 +1667,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -837,7 +1687,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -855,7 +1707,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -873,7 +1727,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -891,7 +1747,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -909,7 +1767,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -927,7 +1787,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -945,7 +1807,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -963,7 +1827,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -981,7 +1847,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -999,7 +1867,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1017,7 +1887,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1035,7 +1907,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1053,7 +1927,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1071,7 +1947,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1089,7 +1967,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1107,7 +1987,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1125,7 +2007,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1143,7 +2027,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1161,7 +2047,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1179,7 +2067,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1197,7 +2087,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1215,7 +2107,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1233,7 +2127,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1251,7 +2147,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1269,7 +2167,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1287,7 +2187,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1305,7 +2207,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1323,7 +2227,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1341,7 +2247,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1359,7 +2267,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1377,7 +2287,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1395,7 +2307,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1413,7 +2327,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1431,7 +2347,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -1449,7 +2367,9 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list/>
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
                                 </field>
                             </scenarioAssociation>
                         </scenarioAssociation-array>
@@ -1545,7 +2465,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>TAN-A to HTML</String>
+                                    <String>TAN-A to HTML for reading</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -1584,7 +2504,115 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/${xpath_eval(replace(base-uri(),'.+((no)?cpg.+).TAN-A.+','$1'))}.html</String>
+                                    <String>${pd}/${xpath_eval(analyze-string(base-uri(), '(no)?cpg[\dabcd]+', 'i')/*:match/text())}/${xpath_eval(analyze-string(base-uri(), '(no)?cpg[\dabcd]+', 'i')/*:match/text())}-full-for-reading.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>is-reading-edition</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>true()</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="isStatic">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                    </list>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>TAN-A to HTML for reading - diagnostics</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/stylesheets/transcriptions-tan-a.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}/output/${cfn}-diagnostics.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -1611,7 +2639,164 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="xsltParams">
-                                    <list/>
+                                    <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>is-reading-edition</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>true()</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="isStatic">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>output-diagnostics-on</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>true()</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="isStatic">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                    </list>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>TAN-A to HTML for search</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/stylesheets/transcriptions-tan-a.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${pd}/${xpath_eval(analyze-string(base-uri(), '(no)?cpg[\dabcd]+', 'i')/*:match/text())}/${xpath_eval(analyze-string(base-uri(), '(no)?cpg[\dabcd]+', 'i')/*:match/text())}-full-for-search.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>is-reading-edition</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>false()</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="isStatic">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                    </list>
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array/>
@@ -1667,7 +2852,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/${cfn}.html</String>
+                                    <String>${pd}/${xpath_eval(replace(base-uri(.), '.+/([^/]+)/[^/]+', '$1'))}/${cfn}.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -1711,7 +2896,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>TAN-T to HTML - testing</String>
+                                    <String>TAN-T to HTML - diagnostics</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -1729,7 +2914,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/../TAN/TAN-1-dev/do%20things/display/TAN-T(EI)%20HTML%20display.xsl</String>
+                                    <String>${pdu}/stylesheets/transcriptions.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -1750,7 +2935,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${pd}/output/${cfn}-diagn.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -1782,7 +2967,7 @@
                                             <field name="paramDescription">
                                                 <paramDescriptor>
                                                     <field name="localName">
-                                                        <String>css-urls-to-include</String>
+                                                        <String>output-diagnostics-on</String>
                                                     </field>
                                                     <field name="prefix">
                                                         <null/>
@@ -1793,109 +2978,13 @@
                                                 </paramDescriptor>
                                             </field>
                                             <field name="value">
-                                                <String>css/tan-t.css</String>
+                                                <String>true()</String>
                                             </field>
                                             <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
+                                                <Boolean>true</Boolean>
                                             </field>
                                             <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                        </transformationParameter>
-                                        <transformationParameter>
-                                            <field name="paramDescription">
-                                                <paramDescriptor>
-                                                    <field name="localName">
-                                                        <String>html-template-url-relative-to-input</String>
-                                                    </field>
-                                                    <field name="prefix">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="namespace">
-                                                        <null/>
-                                                    </field>
-                                                </paramDescriptor>
-                                            </field>
-                                            <field name="value">
-                                                <String>${pdu}/template.html</String>
-                                            </field>
-                                            <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                        </transformationParameter>
-                                        <transformationParameter>
-                                            <field name="paramDescription">
-                                                <paramDescriptor>
-                                                    <field name="localName">
-                                                        <String>id-of-html-element-to-be-replaced-by-tan-file</String>
-                                                    </field>
-                                                    <field name="prefix">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="namespace">
-                                                        <null/>
-                                                    </field>
-                                                </paramDescriptor>
-                                            </field>
-                                            <field name="value">
-                                                <String>content</String>
-                                            </field>
-                                            <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                        </transformationParameter>
-                                        <transformationParameter>
-                                            <field name="paramDescription">
-                                                <paramDescriptor>
-                                                    <field name="localName">
-                                                        <String>javascript-urls-to-include-at-body-end</String>
-                                                    </field>
-                                                    <field name="prefix">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="namespace">
-                                                        <null/>
-                                                    </field>
-                                                </paramDescriptor>
-                                            </field>
-                                            <field name="value">
-                                                <String>scripts/tan.js</String>
-                                            </field>
-                                            <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                        </transformationParameter>
-                                        <transformationParameter>
-                                            <field name="paramDescription">
-                                                <paramDescriptor>
-                                                    <field name="localName">
-                                                        <String>reorder-param-url-relative-to-input</String>
-                                                    </field>
-                                                    <field name="prefix">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="namespace">
-                                                        <null/>
-                                                    </field>
-                                                </paramDescriptor>
-                                            </field>
-                                            <field name="value">
-                                                <String>${pdu}/stylesheets/params/reorder-and-relabel-TAN-nodes%20GEP.xml</String>
-                                            </field>
-                                            <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                            <field name="isStatic">
-                                                <Boolean>false</Boolean>
+                                                <Boolean>true</Boolean>
                                             </field>
                                         </transformationParameter>
                                     </list>
@@ -2165,6 +3254,292 @@
                         <String>validation.relax-ng.id-idref</String>
                         <Boolean>false</Boolean>
                     </entry>
+                    <entry>
+                        <String>validation.scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions-tan-a-old.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XSLT and declared schemas</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XSLT and declared schemas</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>validation.scenarios</String>
+                        <validationScenario-array>
+                            <validationScenario>
+                                <field name="pairs">
+                                    <list>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/any</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <null/>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <null/>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/xml</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <null/>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <validationUnitSchema>
+                                                    <field name="dtdSchemaPublicID">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="schematronPhase">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="type">
+                                                        <Integer>7</Integer>
+                                                    </field>
+                                                    <field name="uri">
+                                                        <String>${frameworks}/xslt/sch/xsltDocCheck.sch</String>
+                                                    </field>
+                                                </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/xml</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <null/>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <validationUnitSchema>
+                                                    <field name="dtdSchemaPublicID">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="schematronPhase">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="type">
+                                                        <Integer>7</Integer>
+                                                    </field>
+                                                    <field name="uri">
+                                                        <String>${frameworks}/xslt/sch/xsltCodeQA.sch</String>
+                                                    </field>
+                                                </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/xml</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <null/>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <validationUnitSchema>
+                                                    <field name="dtdSchemaPublicID">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="schematronPhase">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="type">
+                                                        <Integer>7</Integer>
+                                                    </field>
+                                                    <field name="uri">
+                                                        <String>${frameworks}/xslt/sch/xsltBadPractices.sch</String>
+                                                    </field>
+                                                </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/xml</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <String-array>
+                                                    <String>${pdu}/schemas/transcriptions.sch</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <validationUnitSchema>
+                                                    <field name="dtdSchemaPublicID">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="schematronPhase">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="type">
+                                                        <Integer>7</Integer>
+                                                    </field>
+                                                    <field name="uri">
+                                                        <String>${pdu}/stylesheets/schemas/transcriptions.sch</String>
+                                                    </field>
+                                                </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                    </list>
+                                </field>
+                                <field name="type">
+                                    <String>Validation_scenario</String>
+                                </field>
+                                <field name="name">
+                                    <String>XSLT and declared schemas</String>
+                                </field>
+                            </validationScenario>
+                        </validationScenario-array>
+                    </entry>
                 </serializableOrderedMap>
             </serialized>
         </options>
@@ -2172,13 +3547,14 @@
     <projectTree name="gep.xpr">
         <folder masterFiles="true" name="Master Files">
             <file name="stylesheets/content.xsl"/>
-            <file name="stylesheets/transcriptions-tan-a.xsl"/>
+            <file name="../TAN/TAN-2021/applications/Parabola/Parabola.xsl"/>
+            <file name="stylesheets/transcriptions-tan-a-old.xsl"/>
             <file name="stylesheets/transcriptions.xsl"/>
             <file name="stylesheets/update%20scriptum%20vocabulary.xsl"/>
         </folder>
         <folder path="../TAN/library-arithmeticus/evagrius/"/>
         <folder path="../TAN/output/"/>
-        <folder path="../TAN/TAN-2020/"/>
+        <folder path="../TAN/TAN-2021/"/>
         <folder path="../TAN/TAN-2022/"/>
         <folder path="."/>
     </projectTree>

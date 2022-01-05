@@ -1,238 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/transcriptions.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml"
     xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tan="tag:textalign.net,2015:ns" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:array="http://www.w3.org/2005/xpath-functions/array"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
     version="3.0">
-    <!--<xsl:import href="transcriptions-core.xsl"/>-->
-    <xsl:import href="../../TAN/TAN-2020/applications/display/display%20merged%20sources%20as%20HTML.xsl"/>
-    <!--<xsl:import href="../../TAN/TAN-2020/functions/TAN-T-functions.xsl"/>-->
-    <!--<xsl:import href="../../TAN/TAN-2020/functions/TAN-extra-functions.xsl"/>-->
-    <!--<xsl:import href="../../TAN/TAN-2020/applications/get%20inclusions/convert-TAN-to-HTML.xsl"/>-->
+
+    <!-- Configuration of Parabola for reading output -->
+    <!-- Catalyzing (main) input: a TAN-A file -->
+    <!-- Secondary input: an HTML template -->
+    <!-- Primary output: perhaps diagnostics -->
+    <!-- Secondary output: one html page per primary alias group -->
+    <!-- Relative URLs are resolved under the presumtion that output will be put into a child folder of the root. -->
     
-    <xsl:param name="diagnostics-on" select="false()" static="yes"/>
     
-    <!-- Input: A TAN-A file from the sibling directory tan -->
-    <!-- Output: the html page for the TAN file -->
     
-    <xsl:output indent="yes" use-when="$diagnostics-on"/>
+    <xsl:param name="is-reading-edition" select="true()"/>
     
-    <xsl:param name="validation-phase" select="'terse'"/>
-    <xsl:param name="distribute-vocabulary" select="true()"/>
-    <xsl:param name="add-bibliography" select="false()"/>
-    <xsl:param name="tables-via-css" select="true()"/>
-    <xsl:param name="table-layout-fixed" select="false()"/>
-    <xsl:param name="td-widths-proportionate-to-string-length" select="true()"/>
-    <xsl:param name="fill-defective-merges" select="false()"/>
-    <xsl:param name="sort-and-group-by-what-alias" as="xs:string*" select="('Greek', 'Syriac', 'Latin', 'English')"/>
-    <xsl:param name="attributes-to-convert-to-elements" as="xs:string*"
-        select="('href', 'accessed-when', 'when', 'resp', 'wit')"/>
-    <xsl:param name="add-controller-label" as="xs:boolean" select="false()"/>
-    <xsl:param name="add-controller-options" as="xs:boolean" select="false()"/>
-    <xsl:param name="calculate-width-at-td-or-leaf-div-level" select="true()"/>
-    <xsl:variable name="rgb-color-1" as="xs:integer+" select="(228, 209, 209)"/>
-    <xsl:variable name="rgb-color-2" as="xs:integer+" select="(185, 176, 176)"/>
-    <xsl:variable name="rgb-color-3" as="xs:integer+" select="(217, 236, 208)"/>
-    <xsl:variable name="rgb-color-4" as="xs:integer+" select="(119, 168, 168)"/>
-    <xsl:variable name="rgb-color-5" as="xs:integer+" select="(126, 74, 53)"/>
-    <xsl:variable name="rgb-color-6" as="xs:integer+" select="(202, 181, 119)"/>
-    <xsl:variable name="rgb-color-7" as="xs:integer+" select="(219, 206, 176)"/>
-    <xsl:variable name="rgb-color-8" as="xs:integer+" select="(131, 128, 96)"/>
-    <xsl:param name="primary-color-array" as="array(xs:integer+)"
-        select="[$rgb-color-1, $rgb-color-2, $rgb-color-3, $rgb-color-4, $rgb-color-5, $rgb-color-6, $rgb-color-7, $rgb-color-8]"/>
+    <xsl:import href="../../TAN/TAN-2021/applications/Parabola/Parabola.xsl"/>
+    <xsl:include href="incl/transcriptions-core.xsl"/>
     
-    <xsl:param name="output-directory-relative-to-catalyzing-input" select="'../..'"/>
-    <xsl:param name="template-url-resolved"
-        select="resolve-uri('../template.html', static-base-uri())"/>
+    <xsl:variable name="full-edition-for-reading-target-uri" as="xs:string"
+        select="$tan:default-output-directory-resolved || $this-cpg-no || '-full-for-reading.html'"/>
+    <xsl:variable name="full-edition-for-search-target-uri" as="xs:string"
+        select="$tan:default-output-directory-resolved || $this-cpg-no || '-full-for-search.html'"/>
     
-    <xsl:variable name="this-cpg" as="xs:string">
-        <xsl:analyze-string select="tan:cfn(/)" regex="(no)?cpg\d+(a|\.\d)?">
-            <xsl:matching-substring>
-                <xsl:value-of select="."/>
-            </xsl:matching-substring>
-        </xsl:analyze-string>
+    <xsl:variable name="this-cpg-no" as="xs:string"
+        select="analyze-string($tan:doc-uri, '(no)?cpg[\dabcd]+', 'i')/*:match"/>
+    <xsl:variable name="edition-title-map" as="map(*)">
+        <xsl:map>
+            <xsl:map-entry key="'cpg2430'">Evagrius of Pontus, Praktikos</xsl:map-entry>
+            <xsl:map-entry key="'cpg2431'">Evagrius of Pontus, Gnostikos</xsl:map-entry>
+            <xsl:map-entry key="'cpg2432'">Evagrius of Pontus, Kephalaia gnostika</xsl:map-entry>
+            <xsl:map-entry key="'cpg2437'">Evagrius of Pontus, Letters</xsl:map-entry>
+            <xsl:map-entry key="'cpg2438'">Evagrius of Pontus, Great Letter (Letter to Melania)</xsl:map-entry>
+            <xsl:map-entry key="'cpg2439'">Evagrius of Pontus, Letter on Faith</xsl:map-entry>
+            <xsl:map-entry key="'cpg2449'">Evagrius of Pontus, On Masters and Disciples</xsl:map-entry>
+            <xsl:map-entry key="'cpg2450'">Evagrius of Pontus, On Evil Thoughts</xsl:map-entry>
+            <xsl:map-entry key="'cpg2475'">Evagrius of Pontus, Counsel</xsl:map-entry>
+        </xsl:map>
     </xsl:variable>
-    <xsl:param name="output-url-relative-to-template" as="xs:string?"
-        select="'../' || $this-cpg || '.html'"/>
     
-    <!-- preliminary changes -->
-    <xsl:template match="processing-instruction()" mode="first-stamp-shallow-copy"/>
-    
-    <!-- ad hoc changes for the Scholia -->
-    <xsl:template match="tan:body/tan:div[lower-case(@n) = 'prov']" mode="first-stamp-shallow-copy">
-        <!-- We need to adjust the scholia and avoid situations where the Bible verses get merged together -->
-        <xsl:variable name="first-div-with-multiple-children"
-            select="descendant-or-self::tan:div[count(tan:div) gt 1]"/>
-        <xsl:variable name="new-n-first-part" select="@n || '_' || tan:div[1]/@n || '_' || tan:div[1]/tan:div[1]/@n"/>
-        <xsl:variable name="new-n-second-part"
-            select="
-                string-join((for $i in $first-div-with-multiple-children//tan:div[not(@n = 'pt')][last()]
-                return
-                    $i/@n), '_')"
-        />
-        <!-- Note: in the following @select that's not a hyphen, it's an en dash, –, to avoid messing up the reset of the hierarchy -->
-        <xsl:variable name="new-n"
-            select="string-join(($new-n-first-part, $new-n-second-part[string-length(.) gt 0]), '–')"
-        />
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:attribute name="q" select="generate-id(.)"/>
-            <xsl:attribute name="type" select="'bible-ref'"/>
-            <!-- Just in case, we replace hyphens with en dashes again -->
-            <xsl:attribute name="n" select="replace($new-n, '-', '–')"/>
-            <!--<xsl:apply-templates select="tan:div/tan:div" mode="scholia-special"/>-->
-            <xsl:value-of select="tan:text-join(.)"/>
-        </xsl:copy>
-    </xsl:template>
-    <xsl:template match="tan:div" mode="scholia-special">
-        <!-- this is at the verse level of a Biblical verse cited, where we choose to ignore the subverse numbers -->
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:attribute name="q" select="generate-id(.)"/>
-            <xsl:value-of select="tan:text-join(.)"/>
-        </xsl:copy>
-    </xsl:template>
-    
-    <!-- Input pass 1 -->
-    <!-- We turn on TEI formatting, and suppress the plain-text surrogate -->
-    <xsl:param name="tei-should-be-plain-text" select="false()"/>
-    
-    <xsl:template
-        match="tan:name[@norm] | tan:vocabulary-key | tan:vocabulary | tan:tan-vocabulary 
-        | tan:annotation | tan:to-do | tan:expanded | tan:resolved | tan:stamped"
+    <!-- Skip all the verbiage in @n vocabulary; skip other nodes -->
+    <xsl:template match="tan:tan-vocabulary[tan:IRI[matches(., 'tag:textalign.net,2015:tan-voc:n:.+')]]
+        | tei:quote/@defective | tei:cit/@type | tei:alt | tei:w/@xml:id | @instant | @status
+        | tei:certainty/@target | tei:certainty/@locus | @break | @anchored | @precision"
         mode="input-pass-1"/>
+
+    <xsl:param name="omit-tei-elements-without-text" as="xs:boolean"
+        select="not($is-reading-edition)"/>
+
+    <xsl:variable name="this-cpg-work-vocabulary"
+        select="tan:vocabulary('work', (), $tan:self-expanded-vocabulary)/*[tan:IRI[matches(., $this-cpg-no, 'i')]]"/>
     
-    
-    <!-- Infuse template -->
-    <!-- Override the default behavior -->
-    <xsl:template match="html:body" mode="infuse-template">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="#current"/>
-        </xsl:copy>
-    </xsl:template>
-    <!-- Find the element that's marked to be exchanged -->
-    <xsl:template match="html:div[@class = 'body']" mode="infuse-template">
-        <xsl:param name="new-content" tunnel="yes"/>
-        <xsl:copy-of select="$new-content"/>
-    </xsl:template>
-    
-    <!-- Revising infused template -->
-    <!--<xsl:template match="html:head" mode="revise-infused-template">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="#current"/>
-            <!-\-<link rel="stylesheet" type="text/css" href="css/tan2018.css" />-\->
-            <link rel="stylesheet" type="text/css" href="css/tan2019.css" />
-        </xsl:copy>
-    </xsl:template>-->
-    <xsl:template match="html:body" mode="revise-infused-template">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="#current"/>
-            <!--<script type="text/javascript" src="scripts/tan2018.js"/>-->
-            <script type="text/javascript" src="scripts/tan2019.js"/>
-        </xsl:copy>
-    </xsl:template>
-    
-    
-    <xsl:template match="html:head/html:script[last()]" mode="revise-infused-template">
-        <xsl:copy-of select="."/>
-        <script type="application/javascript" src="scripts/jquery-ui-1.12.1/jquery-ui.js"/>
-    </xsl:template>
-    <xsl:template match="html:div[tokenize(@class, ' ') = 'TAN-T-merge']/html:h1"
-        mode="revise-infused-template">
-        <h2>
-            <xsl:value-of select="."/>
-        </h2>
-    </xsl:template>
-    <xsl:template match="html:div[@class = 'control-wrapper']" mode="revise-infused-template">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <div class="control-instructions">
-                <div class="label info">Sources</div>
-                <div>Drag any panel below to reorder the sources; click the checkbox to turn texts
-                    on and off; click a label to learn more about the source.</div>
+    <xsl:variable name="intro-opener" as="element()*">
+        <xsl:for-each-group select="$this-cpg-work-vocabulary/tan:desc" group-by="normalize-space(.)">
+            <div>
+                <xsl:if test="position() gt 1">
+                    <xsl:attribute name="class" select="'indent'"/>
+                </xsl:if>
+                <xsl:value-of select="current-grouping-key()"/>
             </div>
-            <xsl:apply-templates mode="#current"/>
-        </xsl:copy>
-    </xsl:template>
-    <xsl:template match="html:div[html:div[@class = 'IRI']][not(preceding-sibling::html:div[@class = 'label'])]"
-        mode="revise-infused-template">
-        <!-- Insert an info icon label for anything that's a vocab item not preceded by a sibling label -->
+        </xsl:for-each-group>
+    </xsl:variable>
+    <xsl:variable name="about-this-edition-closer" as="element()*">
+        <div class="indent">Click Options below to rearrange or (de)select versions, or to learn
+            about the underlying sources.</div>
+        <div class="indent">The edition below has been generated by TAN Parabola, one of the
+            flagship applications of the Text Alignment Network (<a
+                href="https://github.com/textalign/TAN-2021">version 2021</a>), based on the <a
+                href="https://github.com/Arithmeticus/TAN-Evagrius">master TAN/TEI files</a>. For
+            more about the Text Alignment Network, visit <a href="http://textalign.net"
+                >textalign.net</a>.</div>
+    </xsl:variable>
+    
+    
+    <xsl:param name="preferred-html-title" as="xs:string" select="
+            if (map:keys($edition-title-map) = $this-cpg-no) then
+                map:get($edition-title-map, $this-cpg-no)
+            else
+                /*/tan:head/tan:title[1]/text()"/>
+    <xsl:param name="preferred-html-subtitle" as="xs:string" select="
+            if ($is-reading-edition) then
+                'Comprehensive parallel edition, reading-optimized'
+            else
+                'Comprehensive parallel edition, search-optimized'"/>
+    <xsl:param name="introductory-text" as="item()*">
+        <div class="intro" xmlns="http://www.w3.org/1999/xhtml">
+            <xsl:copy-of select="$intro-opener"/>
+            <div class="about">
+                <div class="label">About this edition</div>
+                <xsl:choose>
+                    <xsl:when test="$is-reading-edition">
+                        <div>The full parallel edition below has been optimized for reading. Old
+                            Testament references follow the Septuagint. Select TEI markup has been
+                            retained. If a passage has a grouped set of versions that are extremely
+                            close to each other, they have been combined into one reading, with
+                            redlining and embedded statistical charts to show exactly where and how
+                            much each version differs from the others. Vertical bars mark the
+                            beginning of lines in the source. Annotations marking words have been
+                            retained. </div>
+                        <div class="indent">Such rich enhancements have a major drawback, in that
+                            they break up words and phrases, compromising browser-based searches. If
+                            you prioritize finding text, visit the <a
+                                href="{$full-edition-for-search-target-uri}">search-optimized
+                                version</a>.</div>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <div>The full parallel edition below has been optimized for search-based
+                            research. Old Testament references follow the Septuagint. Anything that
+                            might break up words has been dropped: Granular TEI (e.g., milestones)
+                            or TAN markup (e.g., tokenization) has been removed; very similar
+                            versions are given in full (i.e., no differences or collations are
+                            applied). Such alterations support browser-based searches (CTRL+F),
+                            which can be quite useful, since this will normally ignore modifying
+                            characters, accents, or variations in case. If you prefer some of the
+                            features that have been suppressed, visit the <a
+                                href="{$full-edition-for-reading-target-uri}">reading-optimized
+                                version</a>.</div>
+
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:copy-of select="$about-this-edition-closer"/>
+            </div>
+        </div>
+    </xsl:param>
+    
+    
+    <xsl:param name="tan:distribute-vocabulary" select="true()"/>
+    <xsl:param name="tan:default-output-directory-resolved" as="xs:string"
+        select="resolve-uri('../' || $this-cpg-no || '/', static-base-uri())"/>
+    <xsl:param name="claim-component-batch-replacements" as="element()*">
+        <replace pattern="(refer|allude)s.+to" replacement="cf."/>
+    </xsl:param>
+    <xsl:param name="add-display-n" as="xs:boolean" select="false()"/>
+    <xsl:param name="render-as-diff-threshhold" as="xs:decimal" select="
+            if ($is-reading-edition) then
+                0.6
+            else
+                1.0"/>
+    <xsl:param name="tan:ignore-case-differences" as="xs:boolean" select="true()"/>
+    <xsl:param name="tan:ignore-punctuation-differences" as="xs:boolean" select="true()"/>
+    <xsl:param name="tan:ignore-control-format-characters" as="xs:boolean" select="true()"/>
+    <xsl:param name="tan:ignore-character-component-differences" as="xs:boolean" select="true()"/>
+    
+    <xsl:param name="html-template-uri-resolved" select="$gep-template-uri-resolved"/>
+    
+    <xsl:param name="tan:html-out.remove-what-attributes-regex" as="xs:string" select="'^_'"/>
+    
+    
+    <!-- Negate Parabola's default placement -->
+    <xsl:template match="html:body/node()[1]" priority="1" mode="infuse-html-template">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-            <div class="label info">🛈</div>
             <xsl:apply-templates mode="#current"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="text()" mode="revise-infused-template">
-        <xsl:value-of select="replace(., '_', ' ')"/>
+    <!-- Specify where the content should be placed -->
+    <xsl:template match="html:div[@id = 'content']" priority="2" mode="infuse-html-template">
+        <xsl:apply-templates select="$input-pass-4" mode="#current"/>
     </xsl:template>
-    <!--<xsl:template match="html:div[tokenize(@class,' ') = 'version'][1]" mode="revise-infused-template">
-        <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:copy-of select="../html:div[@class = 'ref']"/>
-            <xsl:apply-templates mode="#current"/>
-        </xsl:copy>
-    </xsl:template>-->
     
-    
-    
-    <xsl:template match="/">
-        <xsl:choose>
-            <!--<xsl:when test="true()">
-                <xsl:variable name="color-tan" as="xs:double+" select="(210, 180, 140)"/>
-                <xsl:variable name="color-lightblue" as="xs:double+" select="(173, 216, 230)"/>
-                <xsl:variable name="blend-1" as="xs:double+" select="tan:blend-colors($color-tan, $color-lightblue, .5)"/>
-                <xsl:variable name="blend-2" select="tan:blend-colors($rgb-red, $rgb-green, 0.2)"/>
-                <xsl:variable name="blend-3" select="tan:blend-colors(array:get($color-array, 1), array:get($color-array, 2), 0.5)"/>
-                <html>
-                    <head/>
-                    <body>
-                        <div
-                            style="background-color: rgba({string-join((for $i in $blend-1 return string($i)), ', ')})"
-                            >blend 1: <xsl:value-of select="$blend-1"/></div>
-                        <div
-                            style="background-color: rgba({string-join((for $i in $blend-2 return string($i)), ', ')})"
-                            >blend 2: <xsl:value-of select="$blend-2"/></div>
-                        <div
-                            style="background-color: rgba({string-join((for $i in $blend-3 return string($i)), ', ')})"
-                            >blend 3: <xsl:value-of select="$blend-3"/></div>
-                        <div>Color array size: <xsl:value-of select="array:size($color-array)"/></div>
-                    </body>
-                </html>
-            </xsl:when>-->
-            <xsl:when test="$diagnostics-on">
-                <!-- diagnostics -->
-                <diagnostics>
-                    <!--<sequence-to-collate><xsl:copy-of select="$items-to-collate"/></sequence-to-collate>-->
-                    <!--<collation><xsl:copy-of select="tan:collate-sequences($items-to-collate/*)"/></collation>-->
-                    <!--<alias-based-group-and-sort-pattern><xsl:copy-of select="$alias-based-group-and-sort-pattern"/></alias-based-group-and-sort-pattern>-->
-                    <!--<source-group-and-sort-pattern><xsl:copy-of select="$source-group-and-sort-pattern"/></source-group-and-sort-pattern>-->
-                    <!--<sources-expanded><xsl:copy-of select="$self-expanded[position() gt 1]"/></sources-expanded>-->
-                    <!--<self-resolved><xsl:copy-of select="$self-resolved"/></self-resolved>-->
-                    <!--<self-expanded><xsl:copy-of select="$self-expanded"/></self-expanded>-->
-                    <!--<in1><xsl:copy-of select="$input-pass-1"/></in1>-->
-                    <!--<in1b><xsl:copy-of select="$input-pass-1b"/></in1b>-->
-                    <!--<test><xsl:copy-of select="tan:int-to-aaa(999999)"/></test>-->
-                    <!--<in2><xsl:copy-of select="$input-pass-2"/></in2>-->
-                    <!--<in2-comparison><xsl:copy-of select="tan:merge-expanded-docs-old($input-pass-1b)"/></in2-comparison>-->
-                    <!--<in3><xsl:copy-of select="$input-pass-3"/></in3>-->
-                    <!--<source-bib><xsl:copy-of select="$source-bibliography"/></source-bib>-->
-                    <in4><xsl:copy-of select="$input-pass-4"/></in4>
-                    <!--<template-url><xsl:copy-of select="$template-url-resolved"/></template-url>-->
-                    <!--<template><xsl:copy-of select="$template-doc"/></template>-->
-                    <!--<template-infused><xsl:copy-of select="$template-infused-with-revised-input"/></template-infused>-->
-                    <!--<output-url><xsl:copy-of select="$output-url-resolved"/></output-url>-->
-                    <infusion-revised><xsl:copy-of select="$infused-template-revised"/></infusion-revised>
-                </diagnostics>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:copy-of select="$infused-template-revised"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
     
 </xsl:stylesheet>
