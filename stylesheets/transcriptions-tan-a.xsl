@@ -19,6 +19,8 @@
     
     <xsl:param name="is-reading-edition" select="true()"/>
     
+    <xsl:output method="xhtml"/>
+    
     <xsl:import href="../../TAN/TAN-2021/applications/Parabola/Parabola.xsl"/>
     <xsl:include href="incl/transcriptions-core.xsl"/>
     
@@ -81,7 +83,7 @@
             if (map:keys($edition-title-map) = $this-cpg-no) then
                 map:get($edition-title-map, $this-cpg-no)
             else
-                /*/tan:head/tan:title[1]/text()"/>
+                /*/tan:head/(tan:title, tan:name)[1]/text()"/>
     <xsl:param name="preferred-html-subtitle" as="xs:string" select="
             if ($is-reading-edition) then
                 'Comprehensive parallel edition, reading-optimized'

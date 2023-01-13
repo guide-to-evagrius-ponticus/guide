@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/2005/Atom">
-    <xsl:import href="stylesheets/global-variables-for-schematron-validation.xsl"/>
+    <xsl:import href="stylesheets/incl/global-variables-for-schematron-validation.xsl"/>
     <!--<xsl:import href="stylesheets/core.xsl"/>-->
     <!--<xsl:include href="stylesheets/content.xsl"/>-->
     <!--<xsl:output indent="yes"/>-->

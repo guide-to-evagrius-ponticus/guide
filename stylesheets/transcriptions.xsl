@@ -25,7 +25,8 @@
     
     
     <xsl:output indent="yes" use-when="$output-diagnostics-on"/>
-    <xsl:output indent="no" method="html" use-when="not($output-diagnostics-on)"/>
+    <!--<xsl:output indent="no" method="html" use-when="not($output-diagnostics-on)"/>-->
+    <xsl:output indent="no" method="xhtml" use-when="not($output-diagnostics-on)"/>
     
     <xsl:param name="tan:default-validation-phase" select="'terse'"/>
     <xsl:param name="tan:distribute-vocabulary" select="true()"/>

@@ -441,10 +441,47 @@
                                         <!-- The date needs to be finagled a bit, because some dc:date values are ranges of years. -->
                                         <xsl:sort order="descending"
                                             select="number(replace(($bibliography-rdf-file/*/*[dc:description = current()/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI]/dc:date)[1],'^\D*(\d+)\D.*$','$1'))"/>
-                                        <xsl:variable name="these-scriptum-iris"
-                                            select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI"/>
-                                        <xsl:variable name="these-bib-records"
-                                            select="$bibliography-rdf-file/*/*[dc:description = $these-scriptum-iris]"/>
+                                        
+                                        <!--<subject xmlns="tag:textalign.net,2015:ns" scriptum="BL_Add_14578" q="d41e592">
+                                            <scriptum attr="">BL_Add_14578<item include="scripta">
+                                                <affects-element>source</affects-element>
+                                                <affects-element>scriptum</affects-element>
+                                                <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14578</IRI>
+                                                <name>BL Add 14578</name>
+                                                <name norm="">bl add 14578</name>
+                                                <name>B.L. Add. 14,578</name>
+                                                <name norm="">b.l. add. 14,578</name>
+                                                <name>British Library, Add. 14,578</name>
+                                                <name norm="">british library, add. 14,578</name>
+                                                <name>Wright 557</name>
+                                                <name norm="">wright 557</name>
+                                                <id/>
+                                            </item>
+                                            </scriptum>
+                                            <div type="folio" n="2b-11b" q="d41e594">
+                                                <n attr="" from="" orig="2b">2#2</n>
+                                                <n attr="" to="" orig="11b">11#2</n>
+                                                <ref>2#2<n>2#2</n>
+                                                </ref>
+                                                <ref>11#2<n>11#2</n>
+                                                </ref>
+                                                <type attr="">folio<item group="page-start page-end">
+                                                    <affects-element>div-type</affects-element>
+                                                    <type>scriptum</type>
+                                                    <IRI>tag:textalign.net,2015:div-type:folio</IRI>
+                                                    <IRI>http://dbpedia.org/resource/Recto_and_verso</IRI>
+                                                    <name>folio</name>
+                                                    <id/>
+                                                </item>
+                                                </type>
+                                            </div>
+                                        </subject>-->
+                                        <xsl:variable name="these-scriptum-iris" as="xs:string*"
+                                            select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])//tan:IRI"/>
+                                        <xsl:variable name="these-bib-records" select="
+                                                $bibliography-rdf-file/*/*[dc:description[some $i in $these-scriptum-iris
+                                                    satisfies contains(., $i)]]"
+                                        />
                                         <xsl:variable name="this-date"
                                             select="(($these-bib-records/dc:date), '?')[1]"/>
                                         <!-- We adjust the language name to avoid parenthetical dates -->
@@ -526,7 +563,11 @@
                                             </xsl:if>
                                         </xsl:variable>
                                         
-                                        
+                                        <xsl:if test="not(exists($these-bib-records))">
+                                            <xsl:message select="'No bibliographic records found for ', ."/>
+                                            <xsl:message select="'Scriptum IRIs (' || string(count($these-scriptum-iris)) || '): ' || string-join($these-scriptum-iris, '; ')"/>
+                                            <xsl:message select="'Looking for IRIs here: ', (self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI"/>
+                                        </xsl:if>
         
                                         <tr>
                                             <xsl:if test="$this-type = 'translations'">

@@ -4,9 +4,54 @@
    xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2022-01-04T22:00:00-04:00</updated>
+   <updated>2023-01-12T14:23:00.9035997-05:00</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
+   <entry>
+      <title>Guide to Evagrius Ponticus, 2023 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2023</id>
+      <updated>2023-01-12T14:23:00.9035997-05:00</updated>
+      <published>2023-01-12T14:23:00.9035997-05:00</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The 2023 edition of the <em>Guide to Evagrius Ponticus</em> is now available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Corpus</em>:
+                  <ul>
+                     <li>CPG 2433: Added seven new transcriptions.</li>
+                     <li>CPG 2440: changed authorship to improbable, reflecting Géhin's viewpoint.</li>
+                     <li>CPG 2443: added two Greek editions, one translation.</li>
+                     <li>CPG 2444: added reference to Armenian version; added one Greek edition, one translation.</li>
+                     <li>CPG 2445: added reference to Armenian version; added two Greek editions, one translation.</li>
+                     <li>CPG 2448: removed references to Armenian version (none is known).</li>
+                     <li>CPG 2455: added transcription for Vat. gr. 754.</li>
+                     <li>CPG 2463: added transcriptions for Greek, Arabic</li>
+                     <li>CPG 2464: added transcription for Arabic</li>
+                     <li>CPG 2464a: added transcription for Arabic</li>
+                     <li>NO CPG 06: newly added Word of Instruction, eighteen kephalaia preserved
+                        in Barb. gr. 515 and in various Armenian manuscripts. Not yet properly
+                        edited. Because these kephalaia were presented in the context of
+                        Muyldermans's studies on the Capita cognoscitiva (CPG 2433), and because
+                        they did not feature in the KG supplements, they have been overlooked by
+                        modern cataloguing efforts.</li>
+                     <li>NO CPG 07: newly added. A block of nine kephalaia, preserved in Syriac,
+                        the Armenian KG Supplement (nos. 13-22) and Armenian letter 24. The title is
+                        identical to Disciples 191, and kephalaia nos. 1, 5, 6, and 7 correspond to
+                        Disciples 192, 220, 221, and 222 in the Greek. But the independent
+                        manuscript witness suggests that this was a small work in its own right, and
+                        that compiler of Disciples selectively drew from it.</li>
+                  </ul>
+               </li>
+               <li><em>Bibliography</em>: 7 items added.</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
    <entry>
       <title>Guide to Evagrius Ponticus, 2022 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>

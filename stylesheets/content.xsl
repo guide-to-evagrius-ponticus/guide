@@ -84,6 +84,9 @@
     </xsl:template>
 
     <xsl:template match="/" priority="5">
+        <xsl:if test="$run-corpus-only">
+            <xsl:message select="'Running only the corpus page'"/>
+        </xsl:if>
         <xsl:for-each select="$content">
             <xsl:variable name="this-doc" select="."/>
             <xsl:variable name="this-doc-base-uri" select="base-uri(.)"/>

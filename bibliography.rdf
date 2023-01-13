@@ -9981,6 +9981,10 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
     <bib:Memo rdf:about="#item_21131">
         <rdf:value>&lt;p&gt;Etude du &quot;Vat.&quot; gr. 754 de la &quot;Biblioteca apostolica Vaticana&quot;. Description du ms. Etude des lemmes et des gloses. Attribution d'une oeuvre contenue dans une série de gloses (&quot;Scholia in Psalmos&quot;) à Évagre le Pontique et non à Origène comme le prétendent les éditions de de la Rue et de Pitra. Liste des gloses du ms. -cat&lt;/p&gt;
 &lt;p&gt;This work is key to reconstituting Evagrius's Scholia on the Psalms, which have not yet been edited. Rondeau is said to be preparing an edition. -jk&lt;/p&gt;</rdf:value>
+        <rdf:type rdf:resource="http://purl.org/net/biblio#Memo"/>
+        <z:itemType>note</z:itemType>
+        <rdf:value>&lt;p&gt;Etude du &quot;Vat.&quot; gr. 754 de la &quot;Biblioteca apostolica Vaticana&quot;. Description du ms. Etude des lemmes et des gloses. Attribution d'une oeuvre contenue dans une série de gloses (&quot;Scholia in Psalmos&quot;) à Évagre le Pontique et non à Origène comme le prétendent les éditions de de la Rue et de Pitra. Liste des gloses du ms. -cat&lt;/p&gt;
+&lt;p&gt;This work is key to reconstituting Evagrius's Scholia on the Psalms, which have not yet been edited. Rondeau is said to be preparing an edition. -jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
     <bib:Article rdf:about="#item_20382">
         <z:itemType>journalArticle</z:itemType>
@@ -10938,6 +10942,7 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
             </dcterms:LCC>
         </dc:subject>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:furrer-pilliod-2000</dc:description>
+        <z:language>grc</z:language>
         <dc:title>Oroi kai ypographai: Collections alphabétiques de définitions profanes et sacrées</dc:title>
         <z:shortTitle>Oroi kai ypographai</z:shortTitle>
     </bib:Book>
@@ -16023,7 +16028,9 @@ DOI: 10.1093/acprof:oso/9780198758259.001.0001</dc:description>
         <dc:date>2000</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:lugaresi-2000</dc:description>
         <z:libraryCatalog>BR1720.E9 G78 2000</z:libraryCatalog>
+        <z:language>ita</z:language>
         <dc:title>'Non disprezziamo l'economia': L'influsso del pensiero teologico di Gregorio Nazianzeno sull'&lt;i&gt;Epistula fidei&lt;/i&gt;</dc:title>
+        <z:shortTitle>Non disprezziamo l'economia</z:shortTitle>
     </bib:BookSection>
     <bib:Memo rdf:about="#item_21051">
         <rdf:value>&lt;p&gt;To date the most thorough comparison of Evagrius and Gregory of Nazianzus. The author goes through the &lt;em&gt;Orations&lt;/em&gt; and notes similarities in ideas, style, etc. -jk&lt;/p&gt;</rdf:value>
@@ -19206,7 +19213,7 @@ long disappeared from people’s affective horizon. Our main landmark in the rec
         <dc:date>Fall 2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:krawiec-2013</dc:description>
         <z:language>eng</z:language>
-        <dcterms:abstract>his paper examines Evagrius’s monastic literacy, that is, his views on how to write and read monastic texts, in order to argue for the central role of memory in that literacy. Evagrius’s textuality is Origenist because of the hierarchical relationship between material text and spiritual meaning; that textuality shapes Evagrius’s identity as a monastic writer and the esoteric quality of reading in his monastic community. A collective monastic memory is one element that is necessary to read his texts properly, namely, in a way that will allow access to the spiritual strength in the text. Yet memory, like texts, engages the same tension between corporeal reality and immaterial goals that is at the heart of Evagrius’s monasticism. The relationship between literacy and monasticism shapes the memory of Evagrius in the works of two of his followers, Palladius and John Cassian.</dcterms:abstract>
+        <dcterms:abstract>This paper examines Evagrius’s monastic literacy, that is, his views on how to write and read monastic texts, in order to argue for the central role of memory in that literacy. Evagrius’s textuality is Origenist because of the hierarchical relationship between material text and spiritual meaning; that textuality shapes Evagrius’s identity as a monastic writer and the esoteric quality of reading in his monastic community. A collective monastic memory is one element that is necessary to read his texts properly, namely, in a way that will allow access to the spiritual strength in the text. Yet memory, like texts, engages the same tension between corporeal reality and immaterial goals that is at the heart of Evagrius’s monasticism. The relationship between literacy and monasticism shapes the memory of Evagrius in the works of two of his followers, Palladius and John Cassian.</dcterms:abstract>
         <dc:title>Literacy and Memory in Evagrius’s Monasticism</dc:title>
     </bib:Article>
     <bib:Book rdf:about="urn:isbn:978-0-19-872296-0">
@@ -20418,7 +20425,7 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
             </dcterms:URI>
         </dc:identifier>
         <dc:date>1892</dc:date>
-        <dc:description>tag:evagriusponticus.net,2012:scriptum:gressmann-1913a</dc:description>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:elter-1892</dc:description>
         <dc:title>Gnomica</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21217">
@@ -20469,7 +20476,7 @@ The purpose of this paper is to reassess Leontios’ notion of hypostasis in Con
         </dc:identifier>
         <dc:identifier>ISBN 0790518317 (microfiche)</dc:identifier>
         <dc:date>1913</dc:date>
-        <dc:description>tag:evagriusponticus.net,2012:scriptum:gressmann-1913b</dc:description>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:gressmann-1913</dc:description>
         <dc:title>Nonnenspiegel und Mönchsspiegel des Euagrios Pontikos: Zum ersten Male in der Urschrift</dc:title>
     </bib:Book>
     <bib:Memo rdf:about="#item_21212">
@@ -20831,6 +20838,7 @@ SPISI DVOMLJIVEGA AVTORSTVA IN NEPRISTNI SPISI
 &lt;li&gt;&lt;em&gt;De oratione: &lt;/em&gt;79:1165a-1200c [attr. Nilus]&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;De malignis cogationibus: &lt;/em&gt;79:1200d-33a [attr. Nilus; partial; selective overlap with by PG 40, above]&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Institutio seu Paraenesis ad monachos: &lt;/em&gt;79:1235-40 [attr. Nilus]&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Spiritales sententiae per alphabeticum dispositae &lt;/em&gt;(&lt;em&gt;Maxims&lt;/em&gt; 1): 79:1250-1252&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;-jk&lt;/p&gt;</rdf:value>
     </bib:Memo>
@@ -21560,6 +21568,7 @@ systematizer, the philosopher monk Evagrius Ponticus, this paper, firstly, propo
         <dc:identifier>ISBN 978-2-204-12617-5</dc:identifier>
         <dc:date>2017</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:fogielman-2018</dc:description>
+        <z:language>grc; fra</z:language>
         <dc:title>A Euloge: Les vices opposés aux vertus</dc:title>
     </bib:Book>
     <bib:BookSection rdf:about="urn:isbn:978-90-04-27069-5">
@@ -22513,7 +22522,7 @@ HOLLIS number: 013091287</dc:description>
         <dc:subject>2433 edition Greek</dc:subject>
         <dc:date>1931</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1931b</dc:description>
-        <dcterms:abstract>This brief reprint from &lt;i&gt;Le Muséon&lt;/i&gt;, 49-59 presents about twenty-five Greek fragments from Cod. Ambr. gr. 681 (q 74 sup; 10th century). Because of its date and title, it is easily confused with Muyldermans's other 1931 publication &quot;Evagriana.&quot;</dcterms:abstract>
+        <dcterms:abstract>This brief reprint from &lt;i&gt;Le Muséon&lt;/i&gt;, includes the main article (= tag:evagriusponticus.net,2012:scriptum:muyldermans-1931a), its supplementary note (= tag:evagriusponticus.net,2012:scriptum:muyldermans-1931c), and new material at 49-59, &quot;Nouveaux fragments grecs inedits&quot;, which presents about twenty-five Greek fragments from Cod. Ambr. gr. 681 (q 74 sup; 10th century). Because of its date and title, it is easily confused with Muyldermans's other 1931 publication &quot;Evagriana.&quot; -jk</dcterms:abstract>
         <dc:title>Evagriana: Extrait de la revue &lt;i&gt;Le Muséon&lt;/i&gt;, vol. 44, augmenté de nouveax fragments grecs inédits</dc:title>
         <z:numPages>11</z:numPages>
     </bib:Book>
@@ -22542,6 +22551,9 @@ HOLLIS number: 013091287</dc:description>
         <dc:relation rdf:resource="#item_20721"/>
         <dc:subject>JK NEH</dc:subject>
         <dc:subject>2433 edition Greek</dc:subject>
+        <dc:subject>nocpg06 edition Greek</dc:subject>
+        <dc:subject>nocpg06 edition Armenian</dc:subject>
+        <dc:subject>nocpg06 translation French</dc:subject>
         <bib:pages>37-68</bib:pages>
         <dc:date>1931</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:muyldermans-1931a</dc:description>
@@ -22878,6 +22890,7 @@ HOLLIS number: 013091287</dc:description>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:guillaumont-1971</dc:description>
         <z:numberOfVolumes>2</z:numberOfVolumes>
         <dc:title>Traité pratique, ou, Le moine</dc:title>
+        <z:shortTitle>Traité pratique</z:shortTitle>
     </bib:Book>
     <bib:Memo rdf:about="#item_21320">
         <rdf:value>&lt;p&gt;Contents: vol. 1. Introduction; vol. 2. critical edition with facing French translation, along with commentary and tables. Reviewed: M. Nin, &lt;em&gt;Studia Monastica&lt;/em&gt; 40, no. 2 (1998): 396. Jean-Michel Hornus, &lt;em&gt;Revue d'Histoire et de Philosophie Religieuses&lt;/em&gt; 55 (1975): 297-301. Pierre Courcelle, &lt;em&gt;Revue des Études Anciennes&lt;/em&gt; 74 (1972): 334; 336-42. Courcelle's review suggests, among other things, emendations to the Guillaumonts' text. -jk&lt;/p&gt;</rdf:value>
@@ -23825,6 +23838,7 @@ Publisher: self</dc:description>
         <dc:date>2015</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:arzhanov-2015</dc:description>
         <z:language>deu</z:language>
+        <dcterms:abstract>Traces the origin of &quot;Abba Plato&quot; from the Apophthegmata to the medieval period (Sin. Syr. 14, 10th c.), whose teaching was essentially Evagrius's. The author argues that the Platonic dialogues were replaced by Evagrius and related texts (e.g., Dionysius, Hierotheos) -jk</dcterms:abstract>
         <dc:title>Abba Platon und Abba Evagrius</dc:title>
     </bib:BookSection>
     <bib:Article rdf:about="#item_20755">
@@ -25347,7 +25361,7 @@ A revised version, translated into English, is available under the title &quot;N
         <dc:description>tag:evagriusponticus.net,2012:scriptum:parys-1981</dc:description>
         <dc:title>La lettre de Saint Arsène</dc:title>
     </bib:Article>
-    <bib:Article rdf:about="#item_20799">
+    <bib:Article rdf:about="https://www.academia.edu/keypass/OG5tNUE4MjIrSlhNUXR1bmVxYVQyK1ZCYW1ITndVaW9TcFNSQjB4Y0JzMD0tLUh3TGJaa0orclk4cDQxWEtaMlRpUGc9PQ==--8fbf9e9579eebbbf9a78a4f38c9732ccddc570aa/t/HeR-P8bjn70-baejtu/resource/work/3305738/Une_th%C3%A9ologie_de_la_lumi%C3%A8re_Denys_lAr%C3%A9opagite_et_Evagre_le_Pontique_A_light_theology_Dionysius_the_Areopagite_and_Evagrius_of_Pontus">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
@@ -25367,6 +25381,11 @@ A revised version, translated into English, is available under the title &quot;N
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_21069"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/keypass/OG5tNUE4MjIrSlhNUXR1bmVxYVQyK1ZCYW1ITndVaW9TcFNSQjB4Y0JzMD0tLUh3TGJaa0orclk4cDQxWEtaMlRpUGc9PQ==--8fbf9e9579eebbbf9a78a4f38c9732ccddc570aa/t/HeR-P8bjn70-baejtu/resource/work/3305738/Une_th%C3%A9ologie_de_la_lumi%C3%A8re_Denys_lAr%C3%A9opagite_et_Evagre_le_Pontique_A_light_theology_Dionysius_the_Areopagite_and_Evagrius_of_Pontus</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
         <bib:pages>79-120</bib:pages>
         <dc:date>1999</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:perczel-1999b</dc:description>
@@ -27559,6 +27578,7 @@ Note- Evagrius is extensively referenced.</dcterms:abstract>
         <dc:date>2013</dc:date>
         <dc:description>tag:evagriusponticus.net,2012:scriptum:casiday-2013a</dc:description>
         <dc:title>Reconstructing the Theology of Evagrius Ponticus: Beyond Heresy</dc:title>
+        <z:shortTitle>Reconstructing</z:shortTitle>
     </bib:Book>
     <bib:Memo rdf:about="#item_20951">
         <rdf:value>&lt;p&gt;Introduction; 1. Evagrius' life and his contemporaries; 2. Evagrius' writings; 3. Evagrius' reputation; 4. The fellowship of Evagrius; 5. The interpretation and enactment of Scriptures; 6. Prayer – the fountainhead of Evagrius' theology; 7. Christ, the Face of God and the Face of Man; 8. The Trinity and ultimate blessedness; Conclusion. -pub&lt;/p&gt;
@@ -29970,7 +29990,7 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
         <z:language>fra</z:language>
         <dc:title>Conversation avenue de France, Paris 13e, entre Michel Houellebecq, écrivain et Évagre le Pontique, moine du désert</dc:title>
     </bib:Book>
-    <bib:BookSection rdf:about="tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a">
+    <bib:BookSection rdf:about="#item_34425">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -30017,17 +30037,13 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
             </rdf:Seq>
         </bib:editors>
         <dc:subject>2440 translation English</dc:subject>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
         <bib:pages>75-79</bib:pages>
         <dc:date>2017</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a</dc:description>
         <z:language>eng</z:language>
         <dc:title>Evagrius of Pontus, &lt;i&gt;Protrepticus&lt;/i&gt;</dc:title>
     </bib:BookSection>
-    <bib:BookSection rdf:about="tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b">
+    <bib:BookSection rdf:about="#item_34426">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -30074,13 +30090,9 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
             </rdf:Seq>
         </bib:editors>
         <dc:subject>2440 translation English</dc:subject>
-        <dc:identifier>
-            <dcterms:URI>
-                <rdf:value>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b</rdf:value>
-            </dcterms:URI>
-        </dc:identifier>
         <bib:pages>80-85</bib:pages>
         <dc:date>2017</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b</dc:description>
         <z:language>eng</z:language>
         <dc:title>Evagrius of Pontus, &lt;i&gt;Paraeneticus&lt;/i&gt;</dc:title>
     </bib:BookSection>
@@ -30579,7 +30591,7 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
         <dc:subject>2455 translation French</dc:subject>
         <dc:identifier>ISBN 978-2-204-14186-4</dc:identifier>
         <dc:date>2021</dc:date>
-        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021a</dc:description>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021 tag:evagriusponticus.net,2012:scriptum:rondeau-2021a</dc:description>
         <z:language>grc</z:language>
         <dc:title>Scholies aux Psaumes I, Psaumes 1-70</dc:title>
     </bib:Book>
@@ -30636,7 +30648,7 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
         <dc:subject>2455 translation French</dc:subject>
         <dc:identifier>ISBN 978-2-204-14205-2</dc:identifier>
         <dc:date>2021</dc:date>
-        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021b</dc:description>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:rondeau-2021 tag:evagriusponticus.net,2012:scriptum:rondeau-2021b</dc:description>
         <z:language>grc</z:language>
         <dc:title>Scholies aux Psaumes II, Psaumes 71-150</dc:title>
     </bib:Book>
@@ -30841,7 +30853,8 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
             </rdf:Seq>
         </bib:authors>
         <dc:date>1963</dc:date>
-        <dcterms:abstract>Pp. 812, 854-856, 872 contains quotes from Prak. 15 and 79, as well as Gnost. 25 and 36</dcterms:abstract>
+        <z:language>syr; fra</z:language>
+        <dcterms:abstract>Pp. 812, 854-856, 872 contains quotes from Prak. 15 and 79; Gnost. 25 and 36</dcterms:abstract>
         <dc:title>La lettre à Patricius (Philoxenus Mabbugensis)</dc:title>
     </bib:Article>
     <bib:Article rdf:about="https://www.academia.edu/731041/Finding_a_Place_for_the_Erotapokriseis_of_Pseudo_Caesarius_A_New_Document_of_Sixth_century_Palestinian_Origenism">
@@ -31649,5 +31662,219 @@ This manuscript is the sole witness to the S2 version of the Kephalaia gnostika,
         <z:language>eng</z:language>
         <dcterms:abstract>Critical edition of Palladius's text. See pp. 116-123 for sect. 38, dealing with Evagrius.</dcterms:abstract>
         <dc:title>The Lausiac History of Palladius, vol. 2: The Greek Text Edited with Introduction and Notes</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_35895">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>112</prism:volume>
+                <dc:title>Studia Patristica</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tobon</foaf:surname>
+                        <foaf:givenName>Monica</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2019</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:tobon-2013a</dc:description>
+        <z:language>eng</z:language>
+        <dcterms:abstract>Evagrius’ Christology is widely considered unorthodox by the standards of his own day.  Reading the Kephalaia Gnostika from the perspective of the anathemas associated  with his condemnation, Antoine Guillaumont argued that for him the subject of the  Incarnation is not the Logos but a created nous united to the Logos. He found support  for this view in Evagrius’ use of formulae distinguishing Christ from the Logos.  Although Guillaumont’s hermeneutic has been critiqued, his conclusions have been  widely upheld. The present article argues that Evagrius did not subscribe to pre-existence as traditionally but questionably imputed to Origen. His distinction between  primary and secondary natures refers to our first and last state and our present state  respectively. The nous in the primary nature is our essential being in God, bearing  his image, unified in itself and united to God, and pre-existing our fallen condition.  The primary nature is compresent with the secondary nature and accessible in the  present life. For Christ to be fully human his creaturely nature must encompass both  the primary and secondary natures such that the core of the human nature assumed  by the Logos is a nous in the primary nature. Once this is clarified, there is less rea son to take Evagrius’ Christ-Logos formulae as statements of a dualistic Christology, and Evagrius’ warning against Christological dualism and affirmation that the Logos  became flesh and God human point to the need to seek an alternative reading. I propose one, and conclude that Evagrius’ Christology was orthodox by the standards of  Constantinople 1.  -pub</dcterms:abstract>
+        <dc:title>Rethinking Evagrius' Christology</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="#item_35897">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rome and Sankt Ottilien</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Pontificio Ateneo S. Anselmo and Editions Sankt Ottilien</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bunge</foaf:surname>
+                        <foaf:givenName>Gabriel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2483 translation French</dc:subject>
+        <dc:date>2021</dc:date>
+        <z:language>fra</z:language>
+        <dc:title>Les enseignements d'Évagre: (Chapitres des disciples d'Évagre); Le missing link entre la première et la deuxième controverse origéniste</dc:title>
+        <z:numPages>383</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="#item_35898">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Venice</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>J.B. Albritii Hieron fil</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gallandi</foaf:surname>
+                        <foaf:givenName>Andreas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>2442 edition Greek</dc:subject>
+        <dc:subject>2444 edition Greek</dc:subject>
+        <dc:subject>2445 edition Greek</dc:subject>
+        <dc:date>1765</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:gallandi-1765</dc:description>
+        <z:libraryCatalog>hollis.harvard.edu</z:libraryCatalog>
+        <z:language>lat</z:language>
+        <dcterms:abstract>See 7:572-574 for CPG 2442 (33 Chapters), 2444, 2445 (Maxims 2-3).</dcterms:abstract>
+        <dc:title>Bibliotheca veterum patrum atiquorumque scriptorum ecclesiasticorum, postrema Lugdunensi longe locupletior atque accuratior</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_35903">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>64</prism:volume>
+                <prism:number>3-4</prism:number>
+                <dc:title>St Vladimir's Theological Quarterly</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corbu</foaf:surname>
+                        <foaf:givenName>Agapie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>129-155</bib:pages>
+        <dc:date>2020</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:corbu-2020b</dc:description>
+        <z:language>eng</z:language>
+        <dc:title>Evagrius of Pontus, Guide to the Divine Light</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="#item_35904">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Studia Ephemeridis Augustinianum</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <prism:volume>54</prism:volume>
+                <dc:title>Bolletino della Badia Greca di Grottaferrata</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Géhin</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>67-87</bib:pages>
+        <dc:date>2000</dc:date>
+        <dc:description>tag:evagriusponticus.net,2012:scriptum:géhin-2000b</dc:description>
+        <z:libraryCatalog>BR1720.E9 G78 2000</z:libraryCatalog>
+        <z:language>fra</z:language>
+        <dc:title>Les adaptations chrétiennes du &lt;i&gt;Manuel&lt;/i&gt; d’Épictète</dc:title>
+    </bib:Article>
+    <bib:BookSection rdf:about="https://www.academia.edu/7590034/D%C3%89vagre_le_Pontique_%C3%A0_Jean_Cassien_aspects_de_la_transmission_de_lexp%C3%A9rience_monastique_%C3%A9gyptienne_%C3%A0_lOccident">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Les mystiques juives, chrétiennes et musulmanes dans l’Égypte médiévale (VIIe-XVIe siècles): Interculturalités et contextes historiques</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cairo</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Institut français d'archéologie orientale</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koenig</foaf:surname>
+                        <foaf:givenName>Yvan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/7590034/D%C3%89vagre_le_Pontique_%C3%A0_Jean_Cassien_aspects_de_la_transmission_de_lexp%C3%A9rience_monastique_%C3%A9gyptienne_%C3%A0_lOccident</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>17-36</bib:pages>
+        <dc:date>2013</dc:date>
+        <z:language>fra</z:language>
+        <dc:title>D'Évagre le Pontique à Jean Cassien: Aspects de la transmission de l'expérience monastique égyptienne à l'Occident</dc:title>
+    </bib:BookSection>
+    <bib:Book rdf:about="urn:isbn:978-3-8306-8122-9">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Theologie der Spiritualität</dc:title>
+                <dc:identifier>11</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Sankt Ottilien</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Eos</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bunge</foaf:surname>
+                        <foaf:givenName>Gabriel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>1. Auflage.</prism:edition>
+        <dc:identifier>ISBN 978-3-8306-8122-9</dc:identifier>
+        <dc:date>2022</dc:date>
+        <dc:description>HOLLIS number: 99156363143903941</dc:description>
+        <z:libraryCatalog>hollis.harvard.edu</z:libraryCatalog>
+        <z:language>fra</z:language>
+        <dcterms:abstract>In the present study, the author endeavors to traverse the testimonies of those who knew Evagrius Ponticus († 399) personally, then those of the authors of the 5th century until the second controversy in the first half of the 6th century, which represents a kind of watershed, and so on, until modern times. At the end of the 19th century Evagrius became a subject of scholarly studies. Only such a historical study is likely to clear old prejudices with a view to a dispassionate and  studied analysis of doctrinal questions that trouble people's today but the ancients were manifestly ignorant of. -pub trans</dcterms:abstract>
+        <dc:title>«Évagre le sage»: L'image d'Evagre le Pontique dans l'histoire de l'eglise</dc:title>
+        <z:shortTitle>«Évagre le sage»</z:shortTitle>
     </bib:Book>
 </rdf:RDF>
