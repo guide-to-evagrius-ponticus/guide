@@ -9,8 +9,11 @@
     xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
     xmlns:link="http://purl.org/rss/1.0/modules/link/"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
 
+    <xsl:mode name="template-to-bibliography" on-no-match="shallow-copy"/>
+    <xsl:mode name="bib-rdf-to-html" on-no-match="shallow-copy"/>
+    
     <xsl:template match="comment() | text()" mode="template-to-bibliography bib-rdf-to-html">
         <xsl:copy-of select="."/>
     </xsl:template>

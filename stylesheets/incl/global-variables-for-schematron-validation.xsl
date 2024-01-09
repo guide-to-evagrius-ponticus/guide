@@ -19,5 +19,5 @@
         </xsl:choose>
     </xsl:variable>
     <!--<xsl:variable name="this-edition" select="string-join(($this-season, string($this-year)), ' ')"/>-->
-    <xsl:param name="this-edition" select="'2023'" as="xs:string"/>
+    <xsl:param name="this-edition" select="'2024'" as="xs:string"/>
 </xsl:stylesheet>

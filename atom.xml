@@ -4,9 +4,53 @@
    xmlns="http://www.w3.org/2005/Atom" xml:base="http://evagriusponticus.net/">
    <id>http://evagriusponticus.net/</id>
    <title>Guide to Evagrius Ponticus</title>
-   <updated>2023-01-12T14:23:00.9035997-05:00</updated>
+   <updated>2024-01-09</updated>
    <link href="http://evagriusponticus.net/atom.xml" type="application/atom+xml" rel="self"/>
 
+   <entry>
+      <title>Guide to Evagrius Ponticus, 2024 edition</title>
+      <link href="http://evagriusponticus.net/index.htm"/>
+      <id>tag:evagriusponticus.net,2015:ed:2024-1</id>
+      <updated>2024-01-09</updated>
+      <published>2024-01-09</published>
+      <author>
+         <name>Staff</name>
+      </author>
+      <content type="xhtml">
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>The 2024 edition of the <em>Guide to Evagrius Ponticus</em> is now available.
+               Revisions include the following:</p>
+            <ul>
+               <li><em>Corpus</em>:
+                  <ul>
+                     <li>CPG 2430: Added Serbian translation.</li>
+                     <li>CPG 2434: Added Greek, Syriac, Serbian versions.</li>
+                     <li>CPG 2435: Added six new versions (three Greek, two Latin, one Serbian).</li>
+                     <li>CPG 2436: Added five new versions (two Greek, one Latin, one Serbian, one English).</li>
+                     <li>CPG 2437: Added Serbian translation.</li>
+                     <li>CPG 2439: Added Serbian translation.</li>
+                     <li>CPG 2441: Added Greek, Latin, Serbian versions.</li>
+                     <li>CPG 2442: Added Latin, Serbian versions.</li>
+                     <li>CPG 2443: Added Greek, Latin, Serbian versions.</li>
+                     <li>CPG 2444: Added Greek, Latin, Serbian versions.</li>
+                     <li>CPG 2445: Added Greek, Latin, Serbian versions.</li>
+                     <li>CPG 2447: Added two Greek versions, Serbian version.</li>
+                     <li>CPG 2448: Added three Greek versions, Serbian version.</li>
+                     <li>CPG 2450: Added Serbian translation.</li>
+                     <li>CPG 2451: Added two Greek versions, and Latin and Serbian versions.</li>
+                     <li>CPG 2452: Added six versions (3 Greek, 1 each of Latin, English, Serbian).</li>
+                     <li>CPG 2454: Added Greek, English, Serbian versions.</li>
+                  </ul>
+               </li>
+               <li>
+                  <em>Life</em>: added Gregory of Nazianzus, <em>Letters</em> 3, 228; Rufinus, translation of the 
+                  <em>Historia monachorum</em>; extended quotation from Socrates
+               </li>
+               <li><em>Bibliography</em>: 7 items added.</li>
+            </ul>
+         </div>
+      </content>
+   </entry>
    <entry>
       <title>Guide to Evagrius Ponticus, 2023 edition</title>
       <link href="http://evagriusponticus.net/index.htm"/>

@@ -31,6 +31,8 @@
     <xsl:param name="works-to-exclude-regex-on-IRI">fra-Guillaumont</xsl:param>
     <xsl:variable name="language-priority-list" as="xs:string+" select="('grc', 'lat', 'eng')"/>
     
+    <xsl:mode name="template-to-corpus" on-no-match="shallow-copy"/>
+    
     <xsl:template match="table[@id = 'corpus-table']" mode="template-to-corpus">
         <xsl:variable name="work-vocab-items" select="tan:vocabulary('work', (), $corpus-claims-expanded/tan:TAN-A/tan:head)"/>
         
@@ -208,7 +210,10 @@
         <xsl:variable name="work-claims-re-portion-extant"
             select="$claims-with-this-work-as-subject[tan:verb[*/tan:IRI = 'tag:kalvesmaki.com,2014:verb:work-survives-in-original-language']]"/>
         <!-- Is the work extant? -->
-        <xsl:variable name="work-is-extant" select="not(matches(normalize-space($work-claims-re-portion-extant/tan:object/text()), '^0?\.?0$'))"/>
+        <xsl:variable name="work-is-extant" select="not(matches(normalize-space(($work-claims-re-portion-extant/tan:object/text())[1]), '^0?\.?0$'))"/>
+        <xsl:if test="count($work-claims-re-portion-extant/tan:object) gt 1">
+            <xsl:message select="'Multiple claims to extant portion of work: ' || serialize($work-claims-re-portion-extant)"/>
+        </xsl:if>
         <!--<xsl:variable name="work-claims-re-modern-editions" select="$claims-with-this-work-as-object[tan:subject[.//tan:affects-element = 'scriptum']]"/>-->
         <!--<xsl:variable name="modern-edition-iris" select="$work-claims-re-modern-editions/tan:subject//tan:IRI"/>-->
         <!--<xsl:variable name="this-id-to-be-searched-in-bibliography"
@@ -589,8 +594,18 @@
                                                     <xsl:for-each select="$these-html-editions">
                                                         <xsl:sort
                                                           select="exists(html:html/html:body/html:div[matches(@class, 'merge')])"/>
+                                                            <!-- Get the folder plus filename -->
+                                                        <!--<xsl:variable name="rel-path-on-server" as="xs:string" select="replace(., '.+/([^/]+/[^/]+)$', '$1')"/>-->
+                                                        <xsl:variable name="rel-path-on-server" as="xs:string" select="replace(base-uri(.), '.+/([^/]+/[^/]+)$', '$1')"/>
+                                                        <xsl:if test="$rel-path-on-server = .">
+                                                            <!-- The switch to base-uri means the test above is no longer relevant -->
+                                                  <xsl:message
+                                                  select="'Something is wrong. Cannot find relative path in ' || ."
+                                                  />
+                                                        </xsl:if>
                                                         <div>
-                                                          <a href="{tan:cfne(.)}">
+                                                          <!--<a href="{tan:cfne(.)}">-->
+                                                          <a href="{$rel-path-on-server}">
                                                           <xsl:choose>
                                                           <xsl:when
                                                           test="exists(html:html/html:body/html:div[matches(@class, 'merge')]) and contains(base-uri(.), 'for-reading')">

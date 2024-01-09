@@ -9,7 +9,7 @@
     xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
     xmlns:link="http://purl.org/rss/1.0/modules/link/"
     xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
     <!--<xsl:output method="xhtml" indent="no"/>-->
     <!--<xsl:include href="../../TAN/TAN-1-dev/functions/TAN-c-functions.xsl"/>-->
     <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/functions/TAN-c-functions.xsl"/>-->
@@ -17,7 +17,8 @@
     <!--<xsl:include href="../../../Google%20Drive%20jk/CLIO%20commons/TAN-1-dev/do%20things/get%20inclusions/TAN-to-HTML-core.xsl"/>-->
     <!--<xsl:include href="../../TAN/tools/iso-639-3/lang/lang-ext-tan-functions.xsl"/>-->
     <!--<xsl:import href="../../TAN/TAN-2018/do%20things/display/display%20TAN%20as%20HTML.xsl"/>-->
-    <xsl:import href="../../../TAN/TAN-2020/applications/display/display%20TAN%20as%20HTML.xsl"/>
+    <!--<xsl:import href="../../../TAN/TAN-2020/applications/display/display%20TAN%20as%20HTML.xsl"/>-->
+    <xsl:import href="../../../TAN/TAN-2021/applications/TAN%20Out/TAN%20Out.xsl"/>
     <xsl:variable name="gep-template" select="doc('../../templates/template.html')"/>
     <xsl:variable name="template-with-tablesorter" as="document-node()">
         <xsl:document>
@@ -34,6 +35,9 @@
     <xsl:variable name="corpus-claims-resolved" select="tan:resolve-doc($corpus-claims-file)"/>
     <xsl:variable name="corpus-claims-expanded" select="tan:expand-doc($corpus-claims-resolved)"/>
 
+
+    <xsl:mode name="insert-tablesorter" on-no-match="shallow-copy"/>
+    
     <!--<xsl:template match="comment()" mode="html-cleanup insert-tablesorter prep-rdf">
         <xsl:copy-of select="."/>
     </xsl:template>-->
@@ -83,6 +87,9 @@
         </xsl:copy>
     </xsl:template>
 
+
+    <xsl:mode name="prep-rdf" on-no-match="shallow-copy"/>
+    
     <xsl:template match="dc:date" mode="prep-rdf">
         <xsl:variable name="year" as="xs:string*">
             <xsl:analyze-string select="." regex="\d\d\d\d([–-]\d*)?">
@@ -385,6 +392,8 @@
         </xsl:for-each>
     </xsl:function>
 
+    <xsl:mode name="html-cleanup" on-no-match="shallow-copy"/>
+    
     <xsl:template match="text()" mode="html-cleanup">
         <!-- Here's where we clean up the niggly things, like replacing hyphens with en dashes -->
         <xsl:variable name="pass1" select="replace(., '\.\.', '.')"/>
@@ -533,6 +542,7 @@
         </xsl:for-each>
     </xsl:function>
     
+    <xsl:mode name="bib-rdf-to-html" on-no-match="shallow-copy"/>
     <xsl:template match="dcterms:URI/rdf:value" mode="bib-rdf-to-html">
         <xsl:for-each select="tokenize(normalize-space(.), ' ')">
             <xsl:variable name="this-domain" select="replace(., '^(https?://)?([^/.]+\.)*([^/.]+\.)([^/.]+).*', '$3$4')"/>

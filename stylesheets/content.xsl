@@ -22,7 +22,13 @@
     <xsl:output indent="no" method="xhtml" use-when="not($output-diagnostics-on)"/>
 
     <xsl:param name="validation-phase" select="'normal'"/>
+    
+    <xsl:param name="tan:distribute-vocabulary" select="true()"/>
 
+    <xsl:mode name="template-to-bibliography"/>
+
+    <xsl:mode name="content-into-template" on-no-match="shallow-copy"/>
+    
     <!--<xsl:template match="*" mode="content-into-template content-post-prepped">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
@@ -74,6 +80,8 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:mode name="content-post-prepped" on-no-match="shallow-copy"/>
+    
     <xsl:template match="*[@class = 'this-edition']" mode="content-post-prepped">
         <xsl:param name="edition" as="xs:string" tunnel="yes"/>
         <xsl:value-of select="$edition"/>
@@ -124,6 +132,8 @@
                 <xsl:message select="'diagnostics on for doc base uri:', $this-doc-base-uri"/>
                 <xsl:message select="'is corpus?', $is-corpus"/>
                 <xsl:message select="'is bibliography?', $is-bibliography"/>
+                <xsl:message>Fix corpus collection</xsl:message>
+                
             </xsl:if>
             
             <xsl:choose>
@@ -143,13 +153,14 @@
                             <!--<html-coll><xsl:copy-of select="tan:shallow-copy($html-transcription-collection, 2)"/></html-coll>-->
                             <!--<corpus-claims-resolved><xsl:copy-of select="$corpus-claims-resolved"/></corpus-claims-resolved>-->
                             <!--<corpus-claims-expanded><xsl:copy-of select="$corpus-claims-expanded"/></corpus-claims-expanded>-->
-                            <!--<pass1><xsl:copy-of select="$pass1"/></pass1>-->
-                            <pass2><xsl:copy-of select="$pass2"/></pass2>
-                            <pass3><xsl:copy-of select="$pass3"/></pass3>
+                            <corpus-claims-expanded><xsl:copy-of select="$corpus-claims-expanded"/></corpus-claims-expanded>
+                            <pass1><xsl:copy-of select="$pass1"/></pass1>
+                            <!--<pass2><xsl:copy-of select="$pass2"/></pass2>-->
+                            <!--<pass3><xsl:copy-of select="$pass3"/></pass3>-->
                         </diagnostics>
                     </xsl:if>
                 </xsl:when>
-                <xsl:otherwise>
+                <xsl:otherwise use-when="not($output-diagnostics-on)">
                     <xsl:result-document href="{$new-uri}">
                         <xsl:apply-templates select="$pass3" mode="content-post-prepped">
                             <xsl:with-param name="edition" select="$this-edition" tunnel="yes"/>
