@@ -11,3 +11,5 @@ stylesheets/delete*
 # ignore the folders with the transcriptions
 /cpg*/
 /nocpg*/
+/index/
+/output/
