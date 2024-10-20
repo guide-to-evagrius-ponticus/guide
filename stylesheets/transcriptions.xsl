@@ -16,7 +16,7 @@
     <!--<xsl:import href="../../TAN/TAN-2022/functions/TAN-T-functions.xsl"/>
     <xsl:import href="../../TAN/TAN-2022/functions/TAN-extra-functions.xsl"/>
     <xsl:import href="../../TAN/TAN-2022/applications/get%20inclusions/convert-TAN-to-HTML.xsl"/>-->
-    <xsl:include href="../../TAN/TAN-2021/functions/TAN-function-library.xsl"/>
+    <xsl:include href="../../TAN/TAN-2022/functions/TAN-function-library.xsl"/>
     <xsl:include href="incl/transcriptions-core.xsl"/>
     
     <xsl:param name="output-diagnostics-on" select="false()" static="yes"/>
@@ -211,6 +211,17 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
+    
+    <xsl:template match="html:div[html:div[@class = 'e-ref']]" mode="infuse-gep-template">
+        <xsl:variable name="first-ref" as="element()" select="(html:div[@class = 'e-ref'])[1]"/>
+        <xsl:variable name="this-id" as="xs:string?" select="replace($first-ref/text(), '\s+', '.')"/>
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:attribute name="id" select="$this-id"/>
+            <xsl:apply-templates mode="#current"/>
+        </xsl:copy>
+    </xsl:template>
+    
     
     <xsl:template match="/" priority="1" use-when="$output-diagnostics-on">
         <xsl:message select="'Diagnostics on for application ' || static-base-uri()"/>

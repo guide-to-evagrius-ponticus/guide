@@ -8,3 +8,6 @@ test-*
 scripts/jquery*
 delete*
 stylesheets/delete*
+# ignore the folders with the transcriptions
+/cpg*/
+/nocpg*/

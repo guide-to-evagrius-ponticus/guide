@@ -8,4 +8,15 @@
     <xsl:variable name="gep-template-uri-resolved" as="xs:anyURI" select="resolve-uri('../../templates/template.html', static-base-uri())"/>
     <xsl:variable name="gep-template" as="document-node()" select="doc($gep-template-uri-resolved)"/>
     
+    <xsl:template match="html:table[not(@id)][@class = 'parallel-edition'][html:tbody/html:tr[1]/html:td[1]//html:div[@class = 'e-ref']]" mode="infuse-html-template">
+        <xsl:variable name="first-ref" as="element()?" select="(html:tbody/html:tr[1]/html:td[1]//html:div[@class = 'e-ref'])[1]"/>
+        <xsl:variable name="this-id" as="xs:string?" select="replace($first-ref/text(), '\s+', '.')"/>
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:attribute name="id" select="$this-id"/>
+            <xsl:apply-templates mode="#current"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    
 </xsl:stylesheet>
