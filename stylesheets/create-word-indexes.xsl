@@ -18,7 +18,7 @@
         χείριστος to κακός 
         ἐρῶ ῥέομαι to λέγω
         
-        Type Greek for CPG 2457, 2458.2, 2458.5, 2469
+        Type Greek for CPG 2458.2, 2458.5, 2469
     -->
     
     <xsl:include href="../../TAN/TAN-2022/functions/TAN-function-library.xsl"/>
@@ -35,7 +35,7 @@
     
     
     <!-- 'cpg24\d[0-9]\.eng' -->
-    <xsl:param name="TAN-uris-must-match" as="xs:string?" select="'nocpg06\.grc'"/>
+    <xsl:param name="TAN-uris-must-match" as="xs:string?" select="'cpg24(42|57)\.grc'"/>
     <xsl:param name="TAN-uris-must-not-match" as="xs:string?" select="'TAN-A|franken|scriptum|vat_gr_754'"/>
     
     <xsl:param name="KWIC-length" as="xs:integer" select="4"/>

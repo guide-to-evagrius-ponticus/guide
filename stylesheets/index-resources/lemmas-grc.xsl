@@ -27817,6 +27817,62 @@
          <xsl:map-entry key="'ὠχρείας'" select="'ὠχρεία'"/>
          <xsl:map-entry key="'ὠχρότης'" select="'ὠχρότης'"/>
          <xsl:map-entry key="'ὠχρότητα'" select="'ὠχρότης'"/>
+         <xsl:map-entry key="'Ἀγγεῖα'" select="'ἀγγεῖον'"/>
+         <xsl:map-entry key="'Ἀλεκτρυών'" select="'ἀλεκτρυών'"/>
+         <xsl:map-entry key="'ἀλεξικάκου'" select="'ἀλεξίκακος'"/>
+         <xsl:map-entry key="'ἀληθινόν'" select="'ἀληθινός'"/>
+         <xsl:map-entry key="'Ἀπώλεια'" select="'ἀπώλεια'"/>
+         <xsl:map-entry key="'ἀριστερὰ'" select="'ἀριστερός'"/>
+         <xsl:map-entry key="'Βακτηρία'" select="'βακτηρία'"/>
+         <xsl:map-entry key="'βασιλευόμεναι'" select="'βασιλεύω'"/>
+         <xsl:map-entry key="'Βασιλεύς'" select="'βασιλεύς'"/>
+         <xsl:map-entry key="'Βλέφαρα'" select="'βλέφαρον'"/>
+         <xsl:map-entry key="'Βόες'" select="'βοῦς'"/>
+         <xsl:map-entry key="'Γενήματα'" select="'γένημα'"/>
+         <xsl:map-entry key="'Γινώσκει'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'γραφαῖς'" select="'γραφή'"/>
+         <xsl:map-entry key="'Γυνή'" select="'γυνή'"/>
+         <xsl:map-entry key="'διαλεκτική'" select="'διαλεκτικός'"/>
+         <xsl:map-entry key="'Ἔλαφος'" select="'ἔλαφος'"/>
+         <xsl:map-entry key="'ἐνεργήματα'" select="'ἐνέργημα'"/>
+         <xsl:map-entry key="'ἑτεροδόξων'" select="'ἑτερόδοξος'"/>
+         <xsl:map-entry key="'εὔθυμα'" select="'εὔθυμος'"/>
+         <xsl:map-entry key="'εὐρύτερα'" select="'εὐρύς'"/>
+         <xsl:map-entry key="'ἠθικὰ'" select="'ἠθικός'"/>
+         <xsl:map-entry key="'Κόρακές'" select="'κόραξ'"/>
+         <xsl:map-entry key="'κρείττονα'" select="'κρείσσων'"/>
+         <xsl:map-entry key="'λέοντός'" select="'λέων'"/>
+         <xsl:map-entry key="'νόθοι'" select="'νόθος'"/>
+         <xsl:map-entry key="'ὀρθοὶ'" select="'ὀρθός'"/>
+         <xsl:map-entry key="'Παῖδες'" select="'παῖς'"/>
+         <xsl:map-entry key="'παιδεύματα'" select="'παίδευμα'"/>
+         <xsl:map-entry key="'παντελείας'" select="'παντέλεια'"/>
+         <xsl:map-entry key="'πεπαιδευμένος'" select="'παιδεύω'"/>
+         <xsl:map-entry key="'Πλάνη'" select="'πλάνη'"/>
+         <xsl:map-entry key="'Πονηρία'" select="'πονηρία'"/>
+         <xsl:map-entry key="'Πῶλος'" select="'πῶλος'"/>
+         <xsl:map-entry key="'Ῥάβδος'" select="'ῥάβδος'"/>
+         <xsl:map-entry key="'σοφὰ'" select="'σοφός'"/>
+         <xsl:map-entry key="'Τροφαὶ'" select="'τροφή'"/>
+         <xsl:map-entry key="'ὑποδεχόμεναι'" select="'ὑποδέχομαι'"/>
+         <xsl:map-entry key="'Φάραγγές'" select="'φάραγξ'"/>
+         <xsl:map-entry key="'Φάτναι'" select="'φάτνη'"/>
+         <xsl:map-entry key="'Φαύλη'" select="'φαῦλος'"/>
+         <xsl:map-entry key="'Φίλος'" select="'φίλος'"/>
+         <xsl:map-entry key="'Χάρις'" select="'χάρις'"/>
+         <xsl:map-entry key="'Χάριτες'" select="'χάρις'"/>
+         <xsl:map-entry key="'Χείλη'" select="'χεῖλος'"/>
+         <xsl:map-entry key="'χωροῦσαι'" select="'χωρέω'"/>
+         <xsl:map-entry key="'ἀλεξίκακος'" select="'ἀλεξίκακος'"/>
+         <xsl:map-entry key="'γένημα'" select="'γένημα'"/>
+         <xsl:map-entry key="'διδάσκαλοι'" select="'διδάσκαλος'"/>
+         <xsl:map-entry key="'ἐνέργημα'" select="'ἐνέργημα'"/>
+         <xsl:map-entry key="'ἑτερόδοξος'" select="'ἑτερόδοξος'"/>
+         <xsl:map-entry key="'εὐρύς'" select="'εὐρύς'"/>
+         <xsl:map-entry key="'νόθος'" select="'νόθος'"/>
+         <xsl:map-entry key="'παίδευμα'" select="'παίδευμα'"/>
+         <xsl:map-entry key="'παντέλεια'" select="'παντέλεια'"/>
+
       </xsl:map>
    </xsl:variable>
 </xsl:stylesheet>
