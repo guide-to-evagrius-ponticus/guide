@@ -214,7 +214,12 @@
     
     <xsl:template match="html:div[html:div[@class = 'e-ref']]" mode="infuse-gep-template">
         <xsl:variable name="first-ref" as="element()" select="(html:div[@class = 'e-ref'])[1]"/>
-        <xsl:variable name="this-id" as="xs:string?" select="replace($first-ref/text(), '\s+', '.')"/>
+        <xsl:variable name="this-id" as="xs:string?" select="
+                if (matches($first-ref, 'Sch\. ')) then
+                    string-join((../html:div[@class eq 'a-n'][1], html:div[@class eq 'a-n'][1]), '.')
+                else
+                    replace($first-ref, '\s+', '.')
+                "/>
         <xsl:copy>
             <xsl:copy-of select="@*"/>
             <xsl:attribute name="id" select="$this-id"/>

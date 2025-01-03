@@ -166,4 +166,9 @@
     </xsl:template>
     
     
+    <!-- Patch for TAN-2021 -->
+    <xsl:template match="*:fix" mode="tan:attributes-not-in-inclusions">
+        <xsl:apply-templates select="@* | node()" mode="#current"/>
+    </xsl:template>
+    
 </xsl:stylesheet>
