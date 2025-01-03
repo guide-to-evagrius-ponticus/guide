@@ -14,6 +14,7 @@
     <!-- Secondary output: none -->
 
     <xsl:include href="lemmas-grc.xsl"/>
+    <xsl:include href="lemmas-eng.xsl"/>
 
 
     <xsl:function name="gep:lemmas" as="xs:string">
@@ -29,8 +30,40 @@
         
         <xsl:variable name="keyword" as="xs:string?">
             <xsl:choose>
-                <xsl:when test="$language eq 'eng' and ($word-token-norm = $lemma-keys.eng)">
+                <xsl:when test="$language = ('eng', 'en') and ($word-token-norm = $lemma-keys.eng)">
                     <xsl:sequence select="$word-token-norm"/>
+                </xsl:when>
+                <xsl:when test="$language = ('eng', 'en') and (lower-case($word-token-norm) = $lemma-keys.eng)">
+                    <xsl:sequence select="lower-case($word-token-norm)"/>
+                </xsl:when>
+                <xsl:when test="$language = ('eng', 'en') and matches($word-token-norm, '(s|ed|er|ing|eth|est)$')">
+                    <xsl:variable name="keyword-no-suffix-1" as="xs:string" select="
+                            replace(lower-case($word-token-norm), '(s|d|r|ing|eth|est)$', '')"/>
+                    <xsl:variable name="keyword-no-suffix-2" as="xs:string" select="
+                            replace($keyword-no-suffix-1, 'e$', '')"/>
+                    <xsl:variable name="keyword-no-suffix-3" as="xs:string" select="
+                            replace($word-token-norm, 'ing$', 'e')"/>
+                    <xsl:variable name="keyword-no-suffix-4" as="xs:string" select="
+                            replace($word-token-norm, 'ie(s|d)$', 'y')"/>
+                    <xsl:variable name="keyword-no-suffix-5" as="xs:string" select="
+                            replace($word-token-norm, '([a-z])\1(ing|ed)$', '$1')"/>
+                    <xsl:variable name="first-keyword" as="xs:string?"
+                        select="($keyword-no-suffix-1, $keyword-no-suffix-2, $keyword-no-suffix-3, 
+                        $keyword-no-suffix-4, $keyword-no-suffix-5)[. = $lemma-keys.eng][1]"
+                    />
+                    
+                    <xsl:sequence select="$first-keyword"/>
+                    <!--<xsl:choose>
+                        <xsl:when test="$keyword-no-suffix-1 = $lemma-keys.eng">
+                            <xsl:sequence select="$keyword-no-suffix-1"/>
+                        </xsl:when>
+                        <xsl:when test="$keyword-no-suffix-2 = $lemma-keys.eng">
+                            <xsl:sequence select="$keyword-no-suffix-2"/>
+                        </xsl:when>
+                    </xsl:choose>-->
+                </xsl:when>
+                <xsl:when test="$language = ('en', 'eng')">
+                    <xsl:message>'{$word-token-norm}',</xsl:message>
                 </xsl:when>
                 <xsl:when test="$language eq 'grc' and ($word-token-norm = $lemma-keys.grc)">
                     <xsl:sequence select="$word-token-norm"/>
@@ -43,8 +76,8 @@
         </xsl:variable>
 
         <xsl:choose>
-            <xsl:when test="$language eq 'eng' and exists($keyword)">
-                <xsl:variable name="resolution" as="item()+" select="$lemmas.eng($keyword)"/>
+            <xsl:when test="$language = ('eng', 'en') and exists($keyword)">
+                <xsl:variable name="resolution" as="item()*" select="$lemmas.eng($keyword)"/>
                 <xsl:if test="$diagnostics-on">
                     <xsl:message>processing {$word-token-norm} in div context
                         {normalize-space($div-context)} on {count($resolution)} lemma resolution
@@ -138,122 +171,6 @@
 
     
 
-    <xsl:variable name="lemma-keys.eng" select="map:keys($lemmas.eng)"/>
-    <xsl:variable name="lemmas.eng" as="map(*)">
-        <xsl:map>
-            <xsl:map-entry key="'Acts'">
-                <matches pattern="Acts \d"/>
-                <otherwise>acts</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'co-essential'">coessential</xsl:map-entry>
-            <xsl:map-entry key="'colour'">color</xsl:map-entry>
-            <xsl:map-entry key="'colours'">colors</xsl:map-entry>
-            <xsl:map-entry key="'con-substantial'">consubstantial</xsl:map-entry>
-            <xsl:map-entry key="'corporal'">corporeal</xsl:map-entry>
-            <xsl:map-entry key="'dæmon'">demon</xsl:map-entry>
-            <xsl:map-entry key="'dæmons'">demons</xsl:map-entry>
-            <xsl:map-entry key="'épithumia'">epithumia</xsl:map-entry>
-            <xsl:map-entry key="'favour'">favor</xsl:map-entry>
-            <xsl:map-entry key="'flavour'">flavor</xsl:map-entry>
-            <xsl:map-entry key="'flavours'">flavors</xsl:map-entry>
-            <xsl:map-entry key="'first-born'">firstborn</xsl:map-entry>
-            <xsl:map-entry key="'forwards'">forward</xsl:map-entry>
-            <xsl:map-entry key="'Frank'">
-                <matches pattern="Mel\. Frank"/>
-                <otherwise>frank</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'ful'">
-                <matches pattern="ful\[ly\]">fully</matches>
-                <otherwise/>
-            </xsl:map-entry>
-            <xsl:map-entry key="'fulfil'">fulfill</xsl:map-entry>
-            <xsl:map-entry key="'genitor'">
-                <matches pattern="pro\]genitor"/>
-                <otherwise>genitor</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'habit'">
-                <matches pattern="habit\[ual">habitual</matches>
-                <otherwise>habit</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'ual'">
-                <matches pattern="habit\[ual"/>
-                <otherwise>ual</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'pro'">
-                <matches pattern="pro\]genitor">progenitor</matches>
-                <otherwise>pro</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'honour'">honor</xsl:map-entry>
-            <xsl:map-entry key="'honours'">honors</xsl:map-entry>
-            <xsl:map-entry key="'in-dwelling'">indwelling</xsl:map-entry>
-            <xsl:map-entry key="'œconomy'">economy</xsl:map-entry>
-            <xsl:map-entry key="'ions'">
-                <matches pattern="\]ions"/>
-                <otherwise>ions</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'Juda'">judah</xsl:map-entry>
-            <xsl:map-entry key="'judgement'">judgment</xsl:map-entry>
-            <xsl:map-entry key="'judgements'">judgments</xsl:map-entry>
-            <xsl:map-entry key="'labour'">labor</xsl:map-entry>
-            <xsl:map-entry key="'labours'">labors</xsl:map-entry>
-            <xsl:map-entry key="'levelled'">leveled</xsl:map-entry>
-            <xsl:map-entry key="'levelling'">leveling</xsl:map-entry>
-            <xsl:map-entry key="'Macarios'">macarius</xsl:map-entry>
-            <xsl:map-entry key="'Maxims'">
-                <matches pattern="Maxims \d"/>
-                <otherwise>maxims</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'Mel'">
-                <matches pattern="Mel\. Frank"/>
-                <otherwise>mel</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'nother'">
-                <matches pattern=" a\]nother">another</matches>
-                <otherwise>nother</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'para'">
-                <matches pattern="para physin"/>
-                <otherwise>para</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'physiké'">physike</xsl:map-entry>
-            <xsl:map-entry key="'practise'">practice</xsl:map-entry>
-            <xsl:map-entry key="'praktikē'">praktike</xsl:map-entry>
-            <xsl:map-entry key="'praktiké'">praktike</xsl:map-entry>
-            <xsl:map-entry key="'prob'">
-                <matches pattern="\[prob\."/>
-                <otherwise>prob</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'recognise'">recognize</xsl:map-entry>
-            <xsl:map-entry key="'Saviour'">savior</xsl:map-entry>
-            <xsl:map-entry key="'saviour'">savior</xsl:map-entry>
-            <xsl:map-entry key="'Saviours'">saviors</xsl:map-entry>
-            <xsl:map-entry key="'saviours'">saviors</xsl:map-entry>
-            <xsl:map-entry key="'savours'">savors</xsl:map-entry>
-            <xsl:map-entry key="'Shéol'">sheol</xsl:map-entry>
-            <xsl:map-entry key="'St'">
-                <matches pattern=" St\. ">saint</matches>
-                <otherwise>st</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'theologiké'">theologike</xsl:map-entry>
-            <xsl:map-entry key="'Tim'">
-                <matches pattern="\dTim"/>
-                <otherwise>tim</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'towards'">toward</xsl:map-entry>
-            <xsl:map-entry key="'travelled'">traveled</xsl:map-entry>
-            <xsl:map-entry key="'travelling'">traveling</xsl:map-entry>
-            <xsl:map-entry key="'triang'">
-                <matches pattern="triang\[ular">triangular</matches>
-                <otherwise>triang</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'ular'">
-                <matches pattern="triang\[ular"/>
-                <otherwise>ular</otherwise>
-            </xsl:map-entry>
-            <xsl:map-entry key="'wilt'">will</xsl:map-entry>
-            <xsl:map-entry key="'worshiped'">worshipped</xsl:map-entry>
-            <xsl:map-entry key="'worshiping'">worshipping</xsl:map-entry>
-        </xsl:map>
-    </xsl:variable>
+    
 
 </xsl:stylesheet>

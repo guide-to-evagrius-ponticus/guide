@@ -24,13 +24,15 @@
          <xsl:map-entry key="'ἄβατος'" select="'ἄβατος'"/>
          <xsl:map-entry key="'ἀβάτῳ'" select="'ἄβατος'"/>
          <xsl:map-entry key="'ἀββᾶ'" select="'ἀββᾶ'"/>
+         <xsl:map-entry key="'ἀββᾶς'" select="'ἀββᾶ'"/>
          <xsl:map-entry key="'ἀβέβαιος'" select="'ἀβέβαιος'"/>
-         <xsl:map-entry key="'ἀβεβαίως'" select="'ἀβέβαιος'"/>
+         <xsl:map-entry key="'ἀβεβαίως'" select="'ἀβεβαίως'"/>
          <xsl:map-entry key="'Αβεδδαδόμ'" select="'Αβεδδαδόμ'"/>
          <xsl:map-entry key="'Αβεδδαδομ'" select="'Αβεδδαδόμ'"/>
          <xsl:map-entry key="'Ἀβενήρ'" select="'Ἀβενήρ'"/>
          <xsl:map-entry key="'Ἀβενὴρ'" select="'Ἀβενήρ'"/>
          <xsl:map-entry key="'Ἀβεσσᾶ'" select="'Ἀβεσσά'"/>
+         <xsl:map-entry key="'Ἀβεσσὰ'" select="'Ἀβεσσά'"/>
          <xsl:map-entry key="'Ἀβεσσά'" select="'Ἀβεσσά'"/>
          <xsl:map-entry key="'Ἀβεσσαλὼμ'" select="'Ἀβεσσαλώμ'"/>
          <xsl:map-entry key="'Ἀβεσσαλώμ'" select="'Ἀβεσσαλώμ'"/>
@@ -38,20 +40,21 @@
          <xsl:map-entry key="'ἀβλαβεῖς'" select="'ἀβλαβής'"/>
          <xsl:map-entry key="'αβλαβες'" select="'ἀβλαβής'"/>
          <xsl:map-entry key="'ἀβλαβής'" select="'ἀβλαβής'"/>
-         <xsl:map-entry key="'ἀβλαβῶς'" select="'ἀβλαβής'"/>
+         <xsl:map-entry key="'ἀβλαβῶς'" select="'ἀβλαβῶς'"/>
          <xsl:map-entry key="'αβλαπτον'" select="'ἄβλαπτος'"/>
          <xsl:map-entry key="'ἄβλαπτος'" select="'ἄβλαπτος'"/>
          <xsl:map-entry key="'ἀβλεψία'" select="'ἀβλεψία'"/>
          <xsl:map-entry key="'ἀβοήθητος'" select="'ἀβοήθητος'"/>
          <xsl:map-entry key="'ἀβούλητος'" select="'ἀβούλητος'"/>
          <xsl:map-entry key="'ἀβουλήτων'" select="'ἀβούλητος'"/>
-         <xsl:map-entry key="'ἀβουλήτως'" select="'ἀβούλητος'"/>
+         <xsl:map-entry key="'ἀβουλήτως'" select="'ἀβουλήτως'"/>
          <xsl:map-entry key="'ἀβουλίᾳ'" select="'ἀβουλία'"/>
          <xsl:map-entry key="'ἀβουλία'" select="'ἀβουλία'"/>
-         <xsl:map-entry key="'Αβραάμ'" select="'Αβραάμ'"/>
-         <xsl:map-entry key="'Αβρααμ'" select="'Αβραάμ'"/>
+         <xsl:map-entry key="'Αβραάμ'" select="'Ἀβραάμ'"/>
+         <xsl:map-entry key="'Αβρααμ'" select="'Ἀβραάμ'"/>
          <xsl:map-entry key="'Ἀβραὰμ'" select="'Ἀβραάμ'"/>
          <xsl:map-entry key="'Ἀβραάμ'" select="'Ἀβραάμ'"/>
+         <xsl:map-entry key="'Ἁβραὰμ'" select="'Ἀβραάμ'"/>
          <xsl:map-entry key="'ἄβρωτα'" select="'ἄβρωτος'"/>
          <xsl:map-entry key="'ἄβρωτος'" select="'ἄβρωτος'"/>
          <xsl:map-entry key="'ἄβρωτός'" select="'ἄβρωτος'"/>
@@ -63,16 +66,20 @@
          <xsl:map-entry key="'ἄβυσσος'" select="'ἄβυσσος'"/>
          <xsl:map-entry key="'ἀβύσσου'" select="'ἄβυσσος'"/>
          <xsl:map-entry key="'ἀβύσσους'" select="'ἄβυσσος'"/>
+         <xsl:map-entry key="'ἀβύσσῳ'" select="'ἄβυσσος'"/>
          <xsl:map-entry key="'ἀβύσσων'" select="'ἄβυσσος'"/>
          <xsl:map-entry key="'ἀγαγεῖν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἀγάγῃ'" select="'ἄγω'"/>
          <xsl:map-entry key="'αγαγηι'" select="'ἀγαθός'"/>
+         <xsl:map-entry key="'ἀγαγόντος'" select="'ἄγω'"/>
+         <xsl:map-entry key="'ἀγαγοῦσιν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἀγάγωσιν'" select="'ἄγω'"/>
          <xsl:map-entry key="'αγαθα'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'Αγαθα'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθὰ'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθά'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'Ἀγαθὰ'" select="'ἀγαθός'"/>
+         <xsl:map-entry key="'ἀγαθαὶ'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθὰς'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθὴ'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθῇ'" select="'ἀγαθός'"/>
@@ -88,6 +95,7 @@
          <xsl:map-entry key="'αγαθον'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθόν'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθὸν'" select="'ἀγαθός'"/>
+         <xsl:map-entry key="'Ἀγαθὸν'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'αγαθος'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθός'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθὸς'" select="'ἀγαθός'"/>
@@ -99,14 +107,20 @@
          <xsl:map-entry key="'ἀγαθοῦ'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθούς'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθοὺς'" select="'ἀγαθός'"/>
+         <xsl:map-entry key="'ἀγαθύνεται'" select="'ἀγαθύνω'"/>
          <xsl:map-entry key="'ἀγαθύνῃς'" select="'ἀγαθύνω'"/>
+         <xsl:map-entry key="'ἀγαθυνθήσεται'" select="'ἀγαθύνω'"/>
+         <xsl:map-entry key="'ἀγαθύνω'" select="'ἀγαθύνω'"/>
          <xsl:map-entry key="'ἀγαθῷ'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'αγαθωι'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'αγαθων'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγαθῶν'" select="'ἀγαθός'"/>
-         <xsl:map-entry key="'αγαθως'" select="'ἀγαθός'"/>
+         <xsl:map-entry key="'αγαθως'" select="'ἀγαθῶς'"/>
          <xsl:map-entry key="'ἀγαθωσύνη'" select="'ἀγαθωσύνη'"/>
+         <xsl:map-entry key="'ἀγαθωσύνῃ'" select="'ἀγαθωσύνη'"/>
          <xsl:map-entry key="'ἀγαθωσύνην'" select="'ἀγαθωσύνη'"/>
+         <xsl:map-entry key="'ἀγαθωσύνης'" select="'ἀγαθωσύνη'"/>
+         <xsl:map-entry key="'ἀγαθωτέρων'" select="'ἀγαθός'"/>
          <xsl:map-entry key="'ἀγάλλεται'" select="'ἀγάλλω'"/>
          <xsl:map-entry key="'ἀγαλλιά'" select="'ἀγαλλιάς'"/>
          <xsl:map-entry key="'ἀγαλλία'" select="'ἀγαλλιάω'"/>
@@ -146,31 +160,40 @@
          <xsl:map-entry key="'Ἀγαπᾷ'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'αγαπαν'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'ἀγαπᾶν'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἀγαπᾷν'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἀγαπᾷς'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἀγαπᾶτε'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπάω'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'αγαπη'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'Αγαπη'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'ἀγάπη'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'ἀγάπῃ'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'Ἀγάπη'" select="'ἀγάπη'"/>
+         <xsl:map-entry key="'ἀγαπῇ'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπηθήσεται'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγάπην'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'αγαπης'" select="'ἀγάπη'"/>
          <xsl:map-entry key="'ἀγάπης'" select="'ἀγάπη'"/>
+         <xsl:map-entry key="'ἀγαπῆσαι'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπήσας'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπήσει'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἀγαπήσεις'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπήσῃς'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἀγάπησον'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'Ἀγαπήσω'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπητὲ'" select="'ἀγαπητός'"/>
          <xsl:map-entry key="'ἀγαπητέον'" select="'ἀγαπητέος'"/>
          <xsl:map-entry key="'ἀγαπητέος'" select="'ἀγαπητέος'"/>
+         <xsl:map-entry key="'ἀγαπητικὴν'" select="'ἀγαπητικός'"/>
          <xsl:map-entry key="'ἀγαπητικὸς'" select="'ἀγαπητικός'"/>
          <xsl:map-entry key="'ἀγαπητικός'" select="'ἀγαπητικός'"/>
-         <xsl:map-entry key="'ἀγαπητικῶς'" select="'ἀγαπητικός'"/>
+         <xsl:map-entry key="'ἀγαπητικῶς'" select="'ἀγαπητικῶς'"/>
          <xsl:map-entry key="'ἀγαπητοί'" select="'ἀγαπητός'"/>
          <xsl:map-entry key="'ἀγαπητοὶ'" select="'ἀγαπητός'"/>
          <xsl:map-entry key="'ἀγαπητοῖς'" select="'ἀγαπητός'"/>
          <xsl:map-entry key="'ἀγαπητόν'" select="'ἀγαπητός'"/>
          <xsl:map-entry key="'ἀγαπητός'" select="'ἀγαπητός'"/>
+         <xsl:map-entry key="'ἀγαπῶμεν'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπωμένη'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπῶν'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπῶντες'" select="'ἀγαπάω'"/>
@@ -178,6 +201,7 @@
          <xsl:map-entry key="'ἀγαπῶσί'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἀγαπῶσι'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'Ἀγαπῶσι'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'Ἀγγεῖα'" select="'ἀγγεῖον'"/>
          <xsl:map-entry key="'ἀγγείοις'" select="'ἀγγεῖον'"/>
          <xsl:map-entry key="'αγγειον'" select="'ἀγγεῖον'"/>
          <xsl:map-entry key="'ἀγγεῖον'" select="'ἀγγεῖον'"/>
@@ -206,14 +230,17 @@
          <xsl:map-entry key="'αγγελος'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'Αγγελος'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'ἄγγελος'" select="'ἄγγελος'"/>
+         <xsl:map-entry key="'ἄγγελός'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'αγγελου'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'ἀγγέλου'" select="'ἄγγελος'"/>
+         <xsl:map-entry key="'Ἀγγέλου'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'αγγελους'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'ἀγγέλους'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'Ἀγγέλους'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'αγγελων'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'ἀγγέλων'" select="'ἄγγελος'"/>
          <xsl:map-entry key="'Ἀγγέλων'" select="'ἄγγελος'"/>
+         <xsl:map-entry key="'ἄγγος'" select="'ἄγγος'"/>
          <xsl:map-entry key="'ἄγε'" select="'ἄγω'"/>
          <xsl:map-entry key="'Ἄγε'" select="'ἄγω'"/>
          <xsl:map-entry key="'Ἄγει'" select="'ἄγω'"/>
@@ -225,6 +252,7 @@
          <xsl:map-entry key="'αγελης'" select="'ἀγέλη'"/>
          <xsl:map-entry key="'ἀγέλης'" select="'ἀγέλη'"/>
          <xsl:map-entry key="'ἀγένητόν'" select="'ἀγένητος'"/>
+         <xsl:map-entry key="'Ἀγένητόν'" select="'ἀγένητος'"/>
          <xsl:map-entry key="'ἀγένητος'" select="'ἀγένητος'"/>
          <xsl:map-entry key="'ἀγέννητον'" select="'ἀγέννητος'"/>
          <xsl:map-entry key="'ἀγέννητος'" select="'ἀγέννητος'"/>
@@ -262,6 +290,7 @@
          <xsl:map-entry key="'ἁγιασμὸς'" select="'ἁγιασμός'"/>
          <xsl:map-entry key="'αγιασμου'" select="'ἀγιασμός'"/>
          <xsl:map-entry key="'ἁγιασμοῦ'" select="'ἁγιασμός'"/>
+         <xsl:map-entry key="'ἁγιασμῷ'" select="'ἁγιασμός'"/>
          <xsl:map-entry key="'ἁγιαστήριον'" select="'ἁγιαστήριον'"/>
          <xsl:map-entry key="'ἁγιαστήριόν'" select="'ἁγιαστήριον'"/>
          <xsl:map-entry key="'αγιοι'" select="'ἅγιος'"/>
@@ -274,7 +303,6 @@
          <xsl:map-entry key="'ἅγιόν'" select="'ἅγιος'"/>
          <xsl:map-entry key="'αγιος'" select="'ἅγιος'"/>
          <xsl:map-entry key="'ἅγιος'" select="'ἅγιος'"/>
-         <xsl:map-entry key="'ἄγιος'" select="'ἄγος'"/>
          <xsl:map-entry key="'ἅγιός'" select="'ἅγιος'"/>
          <xsl:map-entry key="'ἁγιότης'" select="'ἁγιότης'"/>
          <xsl:map-entry key="'ἁγιότητα'" select="'ἁγιότης'"/>
@@ -284,12 +312,15 @@
          <xsl:map-entry key="'Ἁγίου'" select="'ἅγιος'"/>
          <xsl:map-entry key="'αγιους'" select="'ἅγιος'"/>
          <xsl:map-entry key="'ἁγίους'" select="'ἅγιος'"/>
+         <xsl:map-entry key="'ἁγιστεία'" select="'ἁγιστεία'"/>
+         <xsl:map-entry key="'ἁγιστείας'" select="'ἁγιστεία'"/>
          <xsl:map-entry key="'ἁγίῳ'" select="'ἅγιος'"/>
          <xsl:map-entry key="'Ἁγίῳ'" select="'ἅγιος'"/>
          <xsl:map-entry key="'αγιωι'" select="'ἅγιος'"/>
          <xsl:map-entry key="'αγιων'" select="'ἅγιος'"/>
          <xsl:map-entry key="'ἁγίων'" select="'ἅγιος'"/>
          <xsl:map-entry key="'Ἁγίων'" select="'ἅγιος'"/>
+         <xsl:map-entry key="'ἁγίως'" select="'ἁγίως'"/>
          <xsl:map-entry key="'ἀγιωσύνη'" select="'ἀγιωσύνη'"/>
          <xsl:map-entry key="'ἁγιωσύνη'" select="'ἁγιωσύνη'"/>
          <xsl:map-entry key="'ἀγιωσύνης'" select="'ἀγιωσύνη'"/>
@@ -355,6 +386,8 @@
          <xsl:map-entry key="'ἄγουσι'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἄγουσιν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἀγουσῶν'" select="'ἄγω'"/>
+         <xsl:map-entry key="'ἄγρα'" select="'ἄγρα'"/>
+         <xsl:map-entry key="'ἄγραν'" select="'ἄγρα'"/>
          <xsl:map-entry key="'ἀγραυλέω'" select="'ἀγραυλέω'"/>
          <xsl:map-entry key="'ἀγραυλοῦντες'" select="'ἀγραυλέω'"/>
          <xsl:map-entry key="'αγραφος'" select="'ἄγραφος'"/>
@@ -383,6 +416,7 @@
          <xsl:map-entry key="'ἀγρύπνει'" select="'ἀγρυπνέω'"/>
          <xsl:map-entry key="'ἀγρυπνεῖν'" select="'ἀγρυπνέω'"/>
          <xsl:map-entry key="'ἀγρυπνέω'" select="'ἀγρυπνέω'"/>
+         <xsl:map-entry key="'ἀγρυπνῆσαι'" select="'ἀγρυπνέω'"/>
          <xsl:map-entry key="'ἀγρυπνήσας'" select="'ἀγρυπνέω'"/>
          <xsl:map-entry key="'ἀγρυπνία'" select="'ἀγρυπνία'"/>
          <xsl:map-entry key="'ἀγρυπνίᾳ'" select="'ἀγρυπνία'"/>
@@ -397,6 +431,8 @@
          <xsl:map-entry key="'ἀγχόμενος'" select="'ἄγχω'"/>
          <xsl:map-entry key="'ἄγχω'" select="'ἄγχω'"/>
          <xsl:map-entry key="'ἄγω'" select="'ἄγω'"/>
+         <xsl:map-entry key="'ἀγωγή'" select="'ἀγωγή'"/>
+         <xsl:map-entry key="'ἀγωγῆς'" select="'ἀγωγή'"/>
          <xsl:map-entry key="'ἀγών'" select="'ἀγών'"/>
          <xsl:map-entry key="'ἄγων'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἀγῶνα'" select="'ἀγών'"/>
@@ -410,6 +446,8 @@
          <xsl:map-entry key="'ἀγωνίζεται'" select="'ἀγωνίζομαι'"/>
          <xsl:map-entry key="'ἀγωνίζομαι'" select="'ἀγωνίζομαι'"/>
          <xsl:map-entry key="'ἀγωνιζόμενοι'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'ἀγωνιζόμενον'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'ἀγωνιζόμενος'" select="'ἀγωνίζομαι'"/>
          <xsl:map-entry key="'αγωνιζονται'" select="'ἀγωνίζομαι'"/>
          <xsl:map-entry key="'ἀγωνίζονται'" select="'ἀγωνίζομαι'"/>
          <xsl:map-entry key="'ἀγωνίζου'" select="'ἀγωνίζομαι'"/>
@@ -422,7 +460,7 @@
          <xsl:map-entry key="'ἀγωνιστής'" select="'ἀγωνιστής'"/>
          <xsl:map-entry key="'ἀγωνιστὴς'" select="'ἀγωνιστής'"/>
          <xsl:map-entry key="'ἀγωνιστικός'" select="'ἀγωνιστικός'"/>
-         <xsl:map-entry key="'ἀγωνιστικῶς'" select="'ἀγωνιστικός'"/>
+         <xsl:map-entry key="'ἀγωνιστικῶς'" select="'ἀγωνιστικῶς'"/>
          <xsl:map-entry key="'ἀγωνιστοῦ'" select="'ἀγωνιστής'"/>
          <xsl:map-entry key="'ἀγωνιῶντα'" select="'ἀγωνιάω'"/>
          <xsl:map-entry key="'ἀγωνοθέτης'" select="'ἀγωνοθέτης'"/>
@@ -434,10 +472,10 @@
          <xsl:map-entry key="'Ἀδὰμ'" select="'Ἀδάμ'"/>
          <xsl:map-entry key="'Ἀδάμ'" select="'Ἀδάμ'"/>
          <xsl:map-entry key="'ἀδαπάνητος'" select="'ἀδαπάνητος'"/>
-         <xsl:map-entry key="'ᾄδει'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄδει'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἄδεια'" select="'ἄδεια'"/>
          <xsl:map-entry key="'ἀδείας'" select="'ἄδεια'"/>
-         <xsl:map-entry key="'ᾄδειν'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄδειν'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἀδέκαστος'" select="'ἀδέκαστος'"/>
          <xsl:map-entry key="'ἀδελφαῖς'" select="'ἀδελφή'"/>
          <xsl:map-entry key="'ἀδελφάς'" select="'ἀδελφή'"/>
@@ -466,7 +504,7 @@
          <xsl:map-entry key="'ἀδελφῷ'" select="'ἀδελφός'"/>
          <xsl:map-entry key="'αδελφων'" select="'ἀδελφός'"/>
          <xsl:map-entry key="'ἀδελφῶν'" select="'ἀδελφός'"/>
-         <xsl:map-entry key="'ᾀδέτω'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾀδέτω'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ᾅδῃ'" select="'ᾅδης'"/>
          <xsl:map-entry key="'ἄδηλα'" select="'ἄδηλος'"/>
          <xsl:map-entry key="'ἀδήλοις'" select="'ἄδηλος'"/>
@@ -476,23 +514,25 @@
          <xsl:map-entry key="'ᾍδης'" select="'ᾅδης'"/>
          <xsl:map-entry key="'ᾅδης'" select="'ᾅδης'"/>
          <xsl:map-entry key="'Ἅδης'" select="'Ἅιδης'"/>
+         <xsl:map-entry key="'ἀδιακρισία'" select="'ἀδιακρισία'"/>
          <xsl:map-entry key="'ἀδιάκριτος'" select="'ἀδιάκριτος'"/>
-         <xsl:map-entry key="'ἀδιακρίτως'" select="'ἀδιάκριτος'"/>
+         <xsl:map-entry key="'ἀδιακρίτως'" select="'ἀδιακρίτως'"/>
          <xsl:map-entry key="'ἀδιάλειπτον'" select="'ἀδιάλειπτος'"/>
          <xsl:map-entry key="'ἀδιάλειπτος'" select="'ἀδιάλειπτος'"/>
-         <xsl:map-entry key="'ἀδιαλείπτως'" select="'ἀδιάλειπτος'"/>
+         <xsl:map-entry key="'ἀδιαλείπτως'" select="'ἀδιαλείπτως'"/>
          <xsl:map-entry key="'ἀδιάπτωτος'" select="'ἀδιάπτωτος'"/>
          <xsl:map-entry key="'ἀδιαπτώτους'" select="'ἀδιάπτωτος'"/>
          <xsl:map-entry key="'ἀδιάστροφον'" select="'ἀδιάστροφος'"/>
          <xsl:map-entry key="'ἀδιάστροφος'" select="'ἀδιάστροφος'"/>
          <xsl:map-entry key="'ἀδιάφορος'" select="'ἀδιάφορος'"/>
-         <xsl:map-entry key="'ἀδιαφόρως'" select="'ἀδιάφορος'"/>
+         <xsl:map-entry key="'ἀδιαφόρως'" select="'ἀδιαφόρως'"/>
          <xsl:map-entry key="'ἀδίδακτα'" select="'ἀδίδακτος'"/>
          <xsl:map-entry key="'ἀδίδακτος'" select="'ἀδίδακτος'"/>
          <xsl:map-entry key="'ἄδικα'" select="'ἄδικος'"/>
          <xsl:map-entry key="'ἀδικεῖ'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'Ἀδικεῖ'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικεῖν'" select="'ἀδικέω'"/>
+         <xsl:map-entry key="'ἀδικεῖσθαι'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικέω'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδίκημα'" select="'ἀδίκημα'"/>
          <xsl:map-entry key="'ἀδικήματα'" select="'ἀδίκημα'"/>
@@ -515,6 +555,7 @@
          <xsl:map-entry key="'ἀδικούμεθα'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικούμενοι'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικούμενος'" select="'ἀδικέω'"/>
+         <xsl:map-entry key="'ἀδικουμένους'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικουμένῳ'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'αδικουμενωι'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδικοῦνται'" select="'ἀδικέω'"/>
@@ -528,7 +569,7 @@
          <xsl:map-entry key="'ἀδικοῦσιν'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἀδίκων'" select="'ἄδικος'"/>
          <xsl:map-entry key="'ἀδικῶν'" select="'ἀδικέω'"/>
-         <xsl:map-entry key="'ἀδίκως'" select="'ἄδικος'"/>
+         <xsl:map-entry key="'ἀδίκως'" select="'ἀδίκως'"/>
          <xsl:map-entry key="'ἀδόκητος'" select="'ἀδόκητος'"/>
          <xsl:map-entry key="'ἀδοκήτῳ'" select="'ἀδόκητος'"/>
          <xsl:map-entry key="'ἀδόκιμον'" select="'ἀδόκιμος'"/>
@@ -541,7 +582,7 @@
          <xsl:map-entry key="'ἀδολεσχία'" select="'ἀδολεσχία'"/>
          <xsl:map-entry key="'ἀδολεσχίαν'" select="'ἀδολεσχία'"/>
          <xsl:map-entry key="'ἀδολεσχίας'" select="'ἀδολεσχία'"/>
-         <xsl:map-entry key="'ᾄδομεν'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄδομεν'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἀδοξία'" select="'ἀδοξία'"/>
          <xsl:map-entry key="'ἀδοξίαν'" select="'ἀδοξία'"/>
          <xsl:map-entry key="'αδοξον'" select="'ἄδοξος'"/>
@@ -570,14 +611,17 @@
          <xsl:map-entry key="'ἀδυνατοῦσι'" select="'ἀδυνατέω'"/>
          <xsl:map-entry key="'ἀδυνατοῦσιν'" select="'ἀδυνατέω'"/>
          <xsl:map-entry key="'ἀδυνάτων'" select="'ἀδύνατος'"/>
-         <xsl:map-entry key="'ἀδυνάτως'" select="'ἀδύνατος'"/>
+         <xsl:map-entry key="'ἀδυνάτως'" select="'ἀδυνάτως'"/>
          <xsl:map-entry key="'ἀδυνατῶσιν'" select="'ἀδυνατέω'"/>
          <xsl:map-entry key="'ἀδύτοις'" select="'ἄδυτος'"/>
          <xsl:map-entry key="'ἄδυτος'" select="'ἄδυτος'"/>
+         <xsl:map-entry key="'Ἀδών'" select="'Ἀδών'"/>
+         <xsl:map-entry key="'Ἀδωναῒ'" select="'Ἀδωναΐ'"/>
+         <xsl:map-entry key="'Ἀδωναΐ'" select="'Ἀδωναΐ'"/>
          <xsl:map-entry key="'αει'" select="'ἀεί'"/>
          <xsl:map-entry key="'ἀεί'" select="'ἀεί'"/>
          <xsl:map-entry key="'ἀεὶ'" select="'ἀεί'"/>
-         <xsl:map-entry key="'ἀείδω'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄδω'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἀειθαλεῖς'" select="'ἀειθαλής'"/>
          <xsl:map-entry key="'ἀειθαλής'" select="'ἀειθαλής'"/>
          <xsl:map-entry key="'αεπεσεν'" select="'πίπτω'"/>
@@ -604,8 +648,10 @@
          <xsl:map-entry key="'ἀηδής'" select="'ἀηδής'"/>
          <xsl:map-entry key="'ἀηδία'" select="'ἀηδία'"/>
          <xsl:map-entry key="'ἀηδίαν'" select="'ἀηδία'"/>
+         <xsl:map-entry key="'ἀηδίας'" select="'ἀηδία'"/>
          <xsl:map-entry key="'αηρ'" select="'ἀήρ'"/>
          <xsl:map-entry key="'ἀήρ'" select="'ἀήρ'"/>
+         <xsl:map-entry key="'ἀὴρ'" select="'ἀήρ'"/>
          <xsl:map-entry key="'αθανασια'" select="'ἀθανασία'"/>
          <xsl:map-entry key="'ἀθανασία'" select="'ἀθανασία'"/>
          <xsl:map-entry key="'ἀθανασίαν'" select="'ἀθανασία'"/>
@@ -618,6 +664,8 @@
          <xsl:map-entry key="'ἀθάνατος'" select="'ἀθάνατος'"/>
          <xsl:map-entry key="'αθανατους'" select="'ἀθάνατος'"/>
          <xsl:map-entry key="'ἀθανάτους'" select="'ἀθάνατος'"/>
+         <xsl:map-entry key="'ἀθέμιτον'" select="'ἀθέμιτος'"/>
+         <xsl:map-entry key="'ἀθέμιτος'" select="'ἀθέμιτος'"/>
          <xsl:map-entry key="'ἄθεοι'" select="'ἄθεος'"/>
          <xsl:map-entry key="'ἄθεος'" select="'ἄθεος'"/>
          <xsl:map-entry key="'ἄθεσμα'" select="'ἄθεσμος'"/>
@@ -630,6 +678,7 @@
          <xsl:map-entry key="'ἀθέτησιν'" select="'ἀθέτησις'"/>
          <xsl:map-entry key="'ἀθέτησις'" select="'ἀθέτησις'"/>
          <xsl:map-entry key="'ἄθετος'" select="'ἄθετος'"/>
+         <xsl:map-entry key="'ἀθετοῦμεν'" select="'ἀθετέω'"/>
          <xsl:map-entry key="'ἀθετοῦνται'" select="'ἀθετέω'"/>
          <xsl:map-entry key="'ἀθετοῦντες'" select="'ἀθετέω'"/>
          <xsl:map-entry key="'ἀθετούντων'" select="'ἀθετέω'"/>
@@ -643,17 +692,17 @@
          <xsl:map-entry key="'ἀθλητὴς'" select="'ἀθλητής'"/>
          <xsl:map-entry key="'ἀθλητής'" select="'ἀθλητής'"/>
          <xsl:map-entry key="'ἀθλητικός'" select="'ἀθλητικός'"/>
-         <xsl:map-entry key="'ἀθλητικῶς'" select="'ἀθλητικός'"/>
+         <xsl:map-entry key="'ἀθλητικῶς'" select="'ἀθλητικῶς'"/>
          <xsl:map-entry key="'ἀθλίαν'" select="'ἄθλιος'"/>
          <xsl:map-entry key="'ἄθλιος'" select="'ἄθλιος'"/>
-         <xsl:map-entry key="'ἄθλοις'" select="'ἆθλος'"/>
+         <xsl:map-entry key="'ἄθλοις'" select="'ἆθλον'"/>
          <xsl:map-entry key="'ἆθλον'" select="'ἆθλον'"/>
-         <xsl:map-entry key="'ἆθλος'" select="'ἆθλος'"/>
-         <xsl:map-entry key="'ἄθλων'" select="'ἆθλος'"/>
+         <xsl:map-entry key="'ἆθλος'" select="'ἆθλον'"/>
+         <xsl:map-entry key="'ἄθλων'" select="'ἆθλον'"/>
          <xsl:map-entry key="'ἀθλῶν'" select="'ἀθλέω'"/>
          <xsl:map-entry key="'ἀθρόον'" select="'ἀθρόος'"/>
          <xsl:map-entry key="'ἀθρόος'" select="'ἀθρόος'"/>
-         <xsl:map-entry key="'ἀθρόως'" select="'ἀθρόος'"/>
+         <xsl:map-entry key="'ἀθρόως'" select="'ἀθρόως'"/>
          <xsl:map-entry key="'ἀθυμεῖ'" select="'ἀθυμέω'"/>
          <xsl:map-entry key="'ἀθύμει'" select="'ἀθυμέω'"/>
          <xsl:map-entry key="'ἀθυμέω'" select="'ἀθυμέω'"/>
@@ -662,7 +711,7 @@
          <xsl:map-entry key="'ἀθυμία'" select="'ἀθυμία'"/>
          <xsl:map-entry key="'ἀθυμίας'" select="'ἀθυμία'"/>
          <xsl:map-entry key="'ἀθῴοις'" select="'ἀθῷος'"/>
-         <xsl:map-entry key="'ἀθῶον'" select="'ἀθῷος'"/>
+         <xsl:map-entry key="'ἀθῷον'" select="'ἀθῷος'"/>
          <xsl:map-entry key="'ἀθῷος'" select="'ἀθῷος'"/>
          <xsl:map-entry key="'ἀθῴου'" select="'ἀθῷος'"/>
          <xsl:map-entry key="'ἀθῴους'" select="'ἀθῷος'"/>
@@ -701,6 +750,7 @@
          <xsl:map-entry key="'αἰδῶ'" select="'αἰδώς'"/>
          <xsl:map-entry key="'αἰδὼ'" select="'αἰδώς'"/>
          <xsl:map-entry key="'αἰδώς'" select="'αἰδώς'"/>
+         <xsl:map-entry key="'αἰδὼς'" select="'αἰδώς'"/>
          <xsl:map-entry key="'Αἰθίοπες'" select="'Αἰθίοψ'"/>
          <xsl:map-entry key="'Αἰθιοπία'" select="'Αἰθιοπία'"/>
          <xsl:map-entry key="'Αιθιοπιας'" select="'Αἰθιοπία'"/>
@@ -766,9 +816,12 @@
          <xsl:map-entry key="'Αἴρει'" select="'αἴρω'"/>
          <xsl:map-entry key="'αἵρειν'" select="'αἱρέω'"/>
          <xsl:map-entry key="'αἴρειν'" select="'αἴρω'"/>
+         <xsl:map-entry key="'αἱρέσεις'" select="'αἵρεσις'"/>
          <xsl:map-entry key="'αἱρέσεων'" select="'αἵρεσις'"/>
          <xsl:map-entry key="'αἵρεσις'" select="'αἵρεσις'"/>
          <xsl:map-entry key="'αἱρετικοί'" select="'αἱρετικός'"/>
+         <xsl:map-entry key="'αἱρετικοὶ'" select="'αἱρετικός'"/>
+         <xsl:map-entry key="'αἱρετικὸν'" select="'αἱρετικός'"/>
          <xsl:map-entry key="'αἱρετικός'" select="'αἱρετικός'"/>
          <xsl:map-entry key="'αἱρετικὸς'" select="'αἱρετικός'"/>
          <xsl:map-entry key="'αιρετικων'" select="'αἱρετικός'"/>
@@ -781,7 +834,9 @@
          <xsl:map-entry key="'αἱρῇ'" select="'αἱρέω'"/>
          <xsl:map-entry key="'αἰρόμενος'" select="'αἴρω'"/>
          <xsl:map-entry key="'αιρονται'" select="'αἴρω'"/>
+         <xsl:map-entry key="'αἱρούμεθα'" select="'αἱρέω'"/>
          <xsl:map-entry key="'αἴρω'" select="'αἴρω'"/>
+         <xsl:map-entry key="'αἴρων'" select="'αἴρω'"/>
          <xsl:map-entry key="'αισητωι'" select="'αἰσθητός'"/>
          <xsl:map-entry key="'αισθανεσθαι'" select="'αἰσθάνομαι'"/>
          <xsl:map-entry key="'αισθανεται'" select="'αἰσθάνομαι'"/>
@@ -853,11 +908,12 @@
          <xsl:map-entry key="'αἰσθητῷ'" select="'αἰσθητός'"/>
          <xsl:map-entry key="'αισθητων'" select="'αἰσθητός'"/>
          <xsl:map-entry key="'αἰσθητῶν'" select="'αἰσθητός'"/>
-         <xsl:map-entry key="'αισθητως'" select="'αἰσθητός'"/>
-         <xsl:map-entry key="'αἰσθητῶς'" select="'αἰσθητός'"/>
+         <xsl:map-entry key="'αισθητως'" select="'αἰσθητῶς'"/>
+         <xsl:map-entry key="'αἰσθητῶς'" select="'αἰσθητῶς'"/>
          <xsl:map-entry key="'αισθομενου'" select="'αἰσθάνομαι'"/>
          <xsl:map-entry key="'αἴσχιστα'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχίστοις'" select="'αἰσχρός'"/>
+         <xsl:map-entry key="'αἰσχρὰ'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχραῖς'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρὰν'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρὰς'" select="'αἰσχρός'"/>
@@ -868,11 +924,12 @@
          <xsl:map-entry key="'Αἰσχρὸν'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρὸν'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρός'" select="'αἰσχρός'"/>
+         <xsl:map-entry key="'αἰσχρὸς'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχροὺς'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρούς'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αισχρων'" select="'αἰσχρός'"/>
          <xsl:map-entry key="'αἰσχρῶν'" select="'αἰσχρός'"/>
-         <xsl:map-entry key="'αἰσχρῶς'" select="'αἰσχρός'"/>
+         <xsl:map-entry key="'αἰσχρῶς'" select="'αἰσχρῶς'"/>
          <xsl:map-entry key="'αἰσχύνεται'" select="'αἰσχύνω'"/>
          <xsl:map-entry key="'Αἰσχύνεται'" select="'αἰσχύνω'"/>
          <xsl:map-entry key="'αἰσχύνη'" select="'αἰσχύνη'"/>
@@ -894,6 +951,8 @@
          <xsl:map-entry key="'αἰσχύνω'" select="'αἰσχύνω'"/>
          <xsl:map-entry key="'αἰσχύνωνται'" select="'αἰσχύνω'"/>
          <xsl:map-entry key="'αἴτει'" select="'αἰτέω'"/>
+         <xsl:map-entry key="'αἰτεῖ'" select="'αἰτέω'"/>
+         <xsl:map-entry key="'αἰτεῖτε'" select="'αἰτέω'"/>
          <xsl:map-entry key="'αἰτείτω'" select="'αἰτέω'"/>
          <xsl:map-entry key="'αἰτέω'" select="'αἰτέω'"/>
          <xsl:map-entry key="'αἴτημα'" select="'αἴτημα'"/>
@@ -936,7 +995,7 @@
          <xsl:map-entry key="'αἰφνιδίοις'" select="'αἰφνίδιος'"/>
          <xsl:map-entry key="'αἰφνίδιος'" select="'αἰφνίδιος'"/>
          <xsl:map-entry key="'αἰφνιδίῳ'" select="'αἰφνίδιος'"/>
-         <xsl:map-entry key="'αἰφνιδίως'" select="'αἰφνίδιος'"/>
+         <xsl:map-entry key="'αἰφνιδίως'" select="'αἰφνιδίως'"/>
          <xsl:map-entry key="'αἰχμαλωσία'" select="'αἰχμαλωσία'"/>
          <xsl:map-entry key="'αἰχμαλωσίᾳ'" select="'αἰχμαλωσία'"/>
          <xsl:map-entry key="'Αἰχμαλωσία'" select="'αἰχμαλωσία'"/>
@@ -989,6 +1048,7 @@
          <xsl:map-entry key="'ἀκαθαίρετος'" select="'ἀκαθαίρετος'"/>
          <xsl:map-entry key="'ἀκαθαρσία'" select="'ἀκαθαρσία'"/>
          <xsl:map-entry key="'ἀκαθαρσίᾳ'" select="'ἀκαθαρσία'"/>
+         <xsl:map-entry key="'Ἀκαθαρσία'" select="'ἀκαθαρσία'"/>
          <xsl:map-entry key="'ἀκαθαρσίαν'" select="'ἀκαθαρσία'"/>
          <xsl:map-entry key="'ἀκαθαρσίας'" select="'ἀκαθαρσία'"/>
          <xsl:map-entry key="'ακαθαρτα'" select="'ἀκάθαρτος'"/>
@@ -1012,7 +1072,7 @@
          <xsl:map-entry key="'ἄκαιρον'" select="'ἄκαιρος'"/>
          <xsl:map-entry key="'ἄκαιρος'" select="'ἄκαιρος'"/>
          <xsl:map-entry key="'ακαιρως'" select="'ἀκαίρως'"/>
-         <xsl:map-entry key="'ἀκαίρως'" select="'ἄκαιρος'"/>
+         <xsl:map-entry key="'ἀκαίρως'" select="'ἀκαίρως'"/>
          <xsl:map-entry key="'ἀκακία'" select="'ἀκακία'"/>
          <xsl:map-entry key="'ἀκακίᾳ'" select="'ἀκακία'"/>
          <xsl:map-entry key="'ἀκακίαν'" select="'ἀκακία'"/>
@@ -1024,11 +1084,12 @@
          <xsl:map-entry key="'ακακους'" select="'ἄκακος'"/>
          <xsl:map-entry key="'ἀκάλυπτος'" select="'ἀκάλυπτος'"/>
          <xsl:map-entry key="'ἀκαλύπτῳ'" select="'ἀκάλυπτος'"/>
-         <xsl:map-entry key="'ἄκαμπος'" select="'ἄκαμπος'"/>
+         <xsl:map-entry key="'ἄκαμπος'" select="'ἄκαμπτος'"/>
          <xsl:map-entry key="'ἀκαμπτὴς'" select="'ἄκαμπτος'"/>
          <xsl:map-entry key="'ἄκαμπτος'" select="'ἄκαμπτος'"/>
          <xsl:map-entry key="'ἄκανθα'" select="'ἄκανθα'"/>
          <xsl:map-entry key="'ἄκανθαι'" select="'ἄκανθα'"/>
+         <xsl:map-entry key="'ἀκάνθαις'" select="'ἄκανθα'"/>
          <xsl:map-entry key="'ἀκάνθας'" select="'ἄκανθα'"/>
          <xsl:map-entry key="'Ἀκάνθας'" select="'ἄκανθα'"/>
          <xsl:map-entry key="'ἀκανθῶν'" select="'ἄκανθα'"/>
@@ -1079,6 +1140,8 @@
          <xsl:map-entry key="'ἀκηδιαστοῦ'" select="'ἀκηδιαστής'"/>
          <xsl:map-entry key="'ἀκηδιάω'" select="'ἀκηδιάω'"/>
          <xsl:map-entry key="'ἀκηδιῶν'" select="'ἀκηδιάω'"/>
+         <xsl:map-entry key="'ἀκηκόασι'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἀκηκοότες'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκήρατοι'" select="'ἀκήρατος'"/>
          <xsl:map-entry key="'ἀκήρατος'" select="'ἀκήρατος'"/>
          <xsl:map-entry key="'ἀκίνδυνον'" select="'ἀκίνδυνος'"/>
@@ -1097,7 +1160,7 @@
          <xsl:map-entry key="'ἀκμάζω'" select="'ἀκμάζω'"/>
          <xsl:map-entry key="'ἀκμή'" select="'ἀκμή'"/>
          <xsl:map-entry key="'ἀκμὴν'" select="'ἀκμή'"/>
-         <xsl:map-entry key="'ἀκμητὶ'" select="'ἀκμητὶ'"/>
+         <xsl:map-entry key="'ἀκμητὶ'" select="'ἀκμητί'"/>
          <xsl:map-entry key="'ἀκοαὶ'" select="'ἀκοή'"/>
          <xsl:map-entry key="'ἀκοαῖς'" select="'ἀκοή'"/>
          <xsl:map-entry key="'ἀκοὰς'" select="'ἀκοή'"/>
@@ -1128,12 +1191,14 @@
          <xsl:map-entry key="'ἀκολουθία'" select="'ἀκολουθία'"/>
          <xsl:map-entry key="'ΑΚΟΛΟΥΘΙΑΝ'" select="'ἀκολουθία'"/>
          <xsl:map-entry key="'ακολουθοις'" select="'ἀκόλουθος'"/>
+         <xsl:map-entry key="'ἀκόλουθον'" select="'ἀκόλουθος'"/>
          <xsl:map-entry key="'ἀκόλουθος'" select="'ἀκόλουθος'"/>
+         <xsl:map-entry key="'ἀκολουθοῦντα'" select="'ἀκολουθέω'"/>
          <xsl:map-entry key="'ἀκολουθούσῃ'" select="'ἀκολουθέω'"/>
          <xsl:map-entry key="'ἀκολουθοῦσι'" select="'ἀκολουθέω'"/>
          <xsl:map-entry key="'ἀκολουθοῦσιν'" select="'ἀκολουθέω'"/>
          <xsl:map-entry key="'ἀκολουθῶν'" select="'ἀκολουθέω'"/>
-         <xsl:map-entry key="'ἀκολούθως'" select="'ἀκόλουθος'"/>
+         <xsl:map-entry key="'ἀκολούθως'" select="'ἀκολούθως'"/>
          <xsl:map-entry key="'ἀκόνα'" select="'ἀκονάω'"/>
          <xsl:map-entry key="'ἀκονάω'" select="'ἀκονάω'"/>
          <xsl:map-entry key="'ἀκόνη'" select="'ἀκόνη'"/>
@@ -1143,7 +1208,7 @@
          <xsl:map-entry key="'ἀκοντίσας'" select="'ἀκοντίζω'"/>
          <xsl:map-entry key="'ἀκονῶντες'" select="'ἀκονάω'"/>
          <xsl:map-entry key="'ἄκοπος'" select="'ἄκοπος'"/>
-         <xsl:map-entry key="'ἀκόπως'" select="'ἄκοπος'"/>
+         <xsl:map-entry key="'ἀκόπως'" select="'ἀκόπως'"/>
          <xsl:map-entry key="'ἀκόρεστος'" select="'ἀκόρεστος'"/>
          <xsl:map-entry key="'ἄκοσμον'" select="'ἄκοσμος'"/>
          <xsl:map-entry key="'ἄκοσμος'" select="'ἄκοσμος'"/>
@@ -1157,9 +1222,11 @@
          <xsl:map-entry key="'ακουηι'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούομεν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκοῦον'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἀκούοντα'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ακουοντες'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούοντες'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούοντι'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἀκούοντος'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ακουοντων'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκουόντων'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούουσα'" select="'ἀκούω'"/>
@@ -1167,6 +1234,7 @@
          <xsl:map-entry key="'ἀκούουσίν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκοῦσαι'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσαντες'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἀκούσαντος'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσατε'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσατέ'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσει'" select="'ἀκούω'"/>
@@ -1176,7 +1244,7 @@
          <xsl:map-entry key="'ἀκούσητε'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκουσθήσονται'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσιος'" select="'ἀκούσιος'"/>
-         <xsl:map-entry key="'ἀκουσίως'" select="'ἀκούσιος'"/>
+         <xsl:map-entry key="'ἀκουσίως'" select="'ἀκουσίως'"/>
          <xsl:map-entry key="'ἀκούσοι'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκούσονται'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἀκουστὸν'" select="'ἀκουστός'"/>
@@ -1201,8 +1269,8 @@
          <xsl:map-entry key="'ἄκρατος'" select="'ἄκρατος'"/>
          <xsl:map-entry key="'ἀκράτου'" select="'ἄκρατος'"/>
          <xsl:map-entry key="'ἀκρατῶν'" select="'ἀκρατής'"/>
-         <xsl:map-entry key="'ἀκράτως'" select="'ἄκρατος'"/>
-         <xsl:map-entry key="'ἀκρατῶς'" select="'ἀκρατής'"/>
+         <xsl:map-entry key="'ἀκράτως'" select="'ἀκράτως'"/>
+         <xsl:map-entry key="'ἀκρατῶς'" select="'ἀκρατῶς'"/>
          <xsl:map-entry key="'ἀκρίβεια'" select="'ἀκρίβεια'"/>
          <xsl:map-entry key="'ἀκρίβειαν'" select="'ἀκρίβεια'"/>
          <xsl:map-entry key="'ἀκριβείας'" select="'ἀκρίβεια'"/>
@@ -1216,8 +1284,8 @@
          <xsl:map-entry key="'ἀκριβὴς'" select="'ἀκριβής'"/>
          <xsl:map-entry key="'ἀκριβολογέομαι'" select="'ἀκριβολογέομαι'"/>
          <xsl:map-entry key="'ἀκριβολογοῦντες'" select="'ἀκριβολογέομαι'"/>
-         <xsl:map-entry key="'ακριβως'" select="'ἀκριβής'"/>
-         <xsl:map-entry key="'ἀκριβῶς'" select="'ἀκριβής'"/>
+         <xsl:map-entry key="'ακριβως'" select="'ἀκριβῶς'"/>
+         <xsl:map-entry key="'ἀκριβῶς'" select="'ἀκριβῶς'"/>
          <xsl:map-entry key="'ἀκρίδες'" select="'ἀκρίς'"/>
          <xsl:map-entry key="'ἀκρίς'" select="'ἀκρίς'"/>
          <xsl:map-entry key="'ἀκρὶς'" select="'ἀκρίς'"/>
@@ -1227,6 +1295,7 @@
          <xsl:map-entry key="'ακροασθαι'" select="'ἀκροάομαι'"/>
          <xsl:map-entry key="'ἀκρόασις '" select="'ἀκρόασις'"/>
          <xsl:map-entry key="'ἀκροαταὶ'" select="'ἀκροατής'"/>
+         <xsl:map-entry key="'ἀκροατὴν'" select="'ἀκροατής'"/>
          <xsl:map-entry key="'ἀκροατής'" select="'ἀκροατής'"/>
          <xsl:map-entry key="'ακροατων'" select="'ἀκροατής'"/>
          <xsl:map-entry key="'ἀκροβολέω'" select="'ἀκροβολέω'"/>
@@ -1257,6 +1326,7 @@
          <xsl:map-entry key="'Ἀκτήμων'" select="'ἀκτήμων'"/>
          <xsl:map-entry key="'ἀκτῖνας'" select="'ἀκτίς'"/>
          <xsl:map-entry key="'ἀκτίνας'" select="'ἀκτίνη'"/>
+         <xsl:map-entry key="'ἀκτῖνες'" select="'ἀκτίς'"/>
          <xsl:map-entry key="'ἀκτίνη'" select="'ἀκτίνη'"/>
          <xsl:map-entry key="'ἀκτῖνος'" select="'ἀκτίς'"/>
          <xsl:map-entry key="'ἀκτίς'" select="'ἀκτίς'"/>
@@ -1267,7 +1337,7 @@
          <xsl:map-entry key="'ἄκυρος'" select="'ἄκυρος'"/>
          <xsl:map-entry key="'ἀκύρους'" select="'ἄκυρος'"/>
          <xsl:map-entry key="'ἀκώλυτος'" select="'ἀκώλυτος'"/>
-         <xsl:map-entry key="'ἀκωλύτως'" select="'ἀκώλυτος'"/>
+         <xsl:map-entry key="'ἀκωλύτως'" select="'ἀκωλύτως'"/>
          <xsl:map-entry key="'ἄκων'" select="'ἄκων'"/>
          <xsl:map-entry key="'ἀλαζονεία'" select="'ἀλαζονεία'"/>
          <xsl:map-entry key="'ἀλαζονείας'" select="'ἀλαζονεία'"/>
@@ -1293,11 +1363,14 @@
          <xsl:map-entry key="'ἀλείφων'" select="'ἀλείφω'"/>
          <xsl:map-entry key="'Ἀλεκτρυὼν'" select="'ἀλεκτρυών'"/>
          <xsl:map-entry key="'ἀλεκτρυών'" select="'ἀλεκτρυών'"/>
+         <xsl:map-entry key="'Ἀλεκτρυών'" select="'ἀλεκτρυών'"/>
          <xsl:map-entry key="'Ἀλεξανδρεία'" select="'Ἀλεξανδρεία'"/>
          <xsl:map-entry key="'Ἀλεξάνδρειαν'" select="'Ἀλεξανδρεία'"/>
          <xsl:map-entry key="'Ἀλέξανδρον'" select="'Ἀλέξανδρος'"/>
          <xsl:map-entry key="'Ἀλέξανδρος'" select="'Ἀλέξανδρος'"/>
          <xsl:map-entry key="'ἀλέξημα'" select="'ἀλέξημα'"/>
+         <xsl:map-entry key="'ἀλεξίκακος'" select="'ἀλεξίκακος'"/>
+         <xsl:map-entry key="'ἀλεξικάκου'" select="'ἀλεξίκακος'"/>
          <xsl:map-entry key="'ἀλήθεια'" select="'ἀλήθεια'"/>
          <xsl:map-entry key="'ἀληθείᾳ'" select="'ἀλήθεια'"/>
          <xsl:map-entry key="'ἀλήθειά'" select="'ἀλήθεια'"/>
@@ -1318,6 +1391,7 @@
          <xsl:map-entry key="'ἀληθέσιν'" select="'ἀληθής'"/>
          <xsl:map-entry key="'ἀληθεύει'" select="'ἀληθεύω'"/>
          <xsl:map-entry key="'ἀληθεύειν'" select="'ἀληθεύω'"/>
+         <xsl:map-entry key="'ἀληθεύουσιν'" select="'ἀληθεύω'"/>
          <xsl:map-entry key="'ἀληθευτὴν'" select="'ἀληθευτής'"/>
          <xsl:map-entry key="'ἀληθευτής'" select="'ἀληθευτής'"/>
          <xsl:map-entry key="'ἀληθεύω'" select="'ἀληθεύω'"/>
@@ -1333,6 +1407,7 @@
          <xsl:map-entry key="'αληθινης'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'αληθινον'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'ἀληθινὸν'" select="'ἀληθινός'"/>
+         <xsl:map-entry key="'ἀληθινόν'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'ἀληθινός'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'ἀληθινὸς'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'ἀληθινοῦ'" select="'ἀληθινός'"/>
@@ -1342,8 +1417,9 @@
          <xsl:map-entry key="'ἀληθοῦς'" select="'ἀληθής'"/>
          <xsl:map-entry key="'Ἀληθοῦς'" select="'ἀληθής'"/>
          <xsl:map-entry key="'ἀληθῶν'" select="'ἀληθής'"/>
-         <xsl:map-entry key="'αληθως'" select="'ἀληθής'"/>
-         <xsl:map-entry key="'ἀληθῶς'" select="'ἀληθής'"/>
+         <xsl:map-entry key="'αληθως'" select="'ἀληθῶς'"/>
+         <xsl:map-entry key="'ἀληθῶς'" select="'ἀληθῶς'"/>
+         <xsl:map-entry key="'Ἀληθῶς'" select="'ἀληθῶς'"/>
          <xsl:map-entry key="'αλητινη'" select="'ἀληθινός'"/>
          <xsl:map-entry key="'ἁλιεῖς'" select="'ἁλιεύς'"/>
          <xsl:map-entry key="'ἁλιεύς'" select="'ἁλιεύς'"/>
@@ -1369,8 +1445,9 @@
          <xsl:map-entry key="'ἀλληγορίαν'" select="'ἀλληγορία'"/>
          <xsl:map-entry key="'αλληγοριας'" select="'ἀλληγορία'"/>
          <xsl:map-entry key="'ἀλληγορικός'" select="'ἀλληγορικός'"/>
-         <xsl:map-entry key="'ἀλληγορικῶς'" select="'ἀλληγορικός'"/>
+         <xsl:map-entry key="'ἀλληγορικῶς'" select="'ἀλληγορικῶς'"/>
          <xsl:map-entry key="'αλληγοριων'" select="'ἀλληγορία'"/>
+         <xsl:map-entry key="'ἀλληγορούμενα'" select="'ἀλληγορέω'"/>
          <xsl:map-entry key="'ἀλληγορουμένην'" select="'ἀλληγορέω'"/>
          <xsl:map-entry key="'αλληγορουμενου'" select="'ἀλληγορέω'"/>
          <xsl:map-entry key="'ἀλληγορῶν'" select="'ἀλληγορέω'"/>
@@ -1391,13 +1468,16 @@
          <xsl:map-entry key="'ἀλλοδαπός'" select="'ἀλλοδαπός'"/>
          <xsl:map-entry key="'ἄλλοι'" select="'ἄλλος'"/>
          <xsl:map-entry key="'ἀλλοιοῦνται'" select="'ἀλλοιόω'"/>
+         <xsl:map-entry key="'ἀλλοιοῦντες'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοιοῦντος'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοιοῦται'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοιόω'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'αλλοις'" select="'ἄλλος'"/>
          <xsl:map-entry key="'ἄλλοις'" select="'ἄλλος'"/>
+         <xsl:map-entry key="'ἀλλοιωθῆναι'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοιωθησομένοις'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοίωμα'" select="'ἀλλοίωμα'"/>
+         <xsl:map-entry key="'ἀλλοιῶν'" select="'ἀλλοιόω'"/>
          <xsl:map-entry key="'ἀλλοιώσεις'" select="'ἀλλοίωσις'"/>
          <xsl:map-entry key="'ἀλλοιώσεως'" select="'ἀλλοίωσις'"/>
          <xsl:map-entry key="'αλλοιωσιν'" select="'ἀλλοιόω'"/>
@@ -1427,6 +1507,7 @@
          <xsl:map-entry key="'ἀλλότριος'" select="'ἀλλότριος'"/>
          <xsl:map-entry key="'ἀλλοτρίου'" select="'ἀλλότριος'"/>
          <xsl:map-entry key="'Ἀλλοτριοῦνται'" select="'ἀλλοτριόω'"/>
+         <xsl:map-entry key="'ἀλλοτρίους'" select="'ἀλλότριος'"/>
          <xsl:map-entry key="'ἀλλοτριοῦσθαι'" select="'ἀλλοτριόω'"/>
          <xsl:map-entry key="'ἀλλοτριόω'" select="'ἀλλοτριόω'"/>
          <xsl:map-entry key="'ἀλλοτρίῳ'" select="'ἀλλότριος'"/>
@@ -1451,9 +1532,9 @@
          <xsl:map-entry key="'ἄλλῳ'" select="'ἄλλος'"/>
          <xsl:map-entry key="'αλλων'" select="'ἄλλος'"/>
          <xsl:map-entry key="'ἄλλων'" select="'ἄλλος'"/>
-         <xsl:map-entry key="'αλλως'" select="'ἄλλος'"/>
-         <xsl:map-entry key="'ἄλλως'" select="'ἄλλος'"/>
-         <xsl:map-entry key="'Ἄλλως'" select="'ἄλλος'"/>
+         <xsl:map-entry key="'αλλως'" select="'ἄλλως'"/>
+         <xsl:map-entry key="'ἄλλως'" select="'ἄλλως'"/>
+         <xsl:map-entry key="'Ἄλλως'" select="'ἄλλως'"/>
          <xsl:map-entry key="'ἅλμην'" select="'ἅλμη'"/>
          <xsl:map-entry key="'ἁλμυρός'" select="'ἁλμυρός'"/>
          <xsl:map-entry key="'ἁλμυρῶν'" select="'ἁλμυρός'"/>
@@ -1466,18 +1547,20 @@
          <xsl:map-entry key="'ἀλόγου'" select="'ἄλογος'"/>
          <xsl:map-entry key="'ἀλόγους'" select="'ἄλογος'"/>
          <xsl:map-entry key="'ἀλόγων'" select="'ἄλογος'"/>
-         <xsl:map-entry key="'ἀλόγως'" select="'ἄλογος'"/>
+         <xsl:map-entry key="'ἀλόγως'" select="'ἀλόγως'"/>
+         <xsl:map-entry key="'ἀλογώτατον'" select="'ἄλογος'"/>
          <xsl:map-entry key="'ἀλογωτέρᾳ'" select="'ἄλογος'"/>
          <xsl:map-entry key="'ἀλογωτέρας'" select="'ἄλογος'"/>
          <xsl:map-entry key="'ἁλὸς'" select="'ἅλς'"/>
          <xsl:map-entry key="'ἅλς'" select="'ἅλς'"/>
-         <xsl:map-entry key="'ἅλση'" select="'ἅλσις'"/>
+         <xsl:map-entry key="'ἅλση'" select="'ἄλσις'"/>
          <xsl:map-entry key="'ἄλση'" select="'ἄλσις'"/>
          <xsl:map-entry key="'ἅλσις'" select="'ἅλσις'"/>
          <xsl:map-entry key="'ἄλσις'" select="'ἄλσις'"/>
          <xsl:map-entry key="'ἄλυπος'" select="'ἄλυπος'"/>
-         <xsl:map-entry key="'ἀλύπως'" select="'ἄλυπος'"/>
+         <xsl:map-entry key="'ἀλύπως'" select="'ἀλύπως'"/>
          <xsl:map-entry key="'ἁλύσει'" select="'ἅλυσις'"/>
+         <xsl:map-entry key="'ἁλύσεων'" select="'ἅλυσις'"/>
          <xsl:map-entry key="'ἅλυσις'" select="'ἅλυσις'"/>
          <xsl:map-entry key="'ἁλῷ'" select="'ἁλίσκομαι'"/>
          <xsl:map-entry key="'ἅλων'" select="'ἅλων'"/>
@@ -1497,12 +1580,15 @@
          <xsl:map-entry key="'Ἀμαλὴκ'" select="'Ἀμαλήκ'"/>
          <xsl:map-entry key="'Ἀμαλήκ'" select="'Ἀμαλήκ'"/>
          <xsl:map-entry key="'ἁμαρτάνει'" select="'ἁμαρτάνω'"/>
+         <xsl:map-entry key="'Ἁμαρτάνει'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνειν'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνετε'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνομεν'" select="'ἁμαρτάνω'"/>
+         <xsl:map-entry key="'ἁμαρτάνον'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνοντα'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνοντας'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνοντες'" select="'ἁμαρτάνω'"/>
+         <xsl:map-entry key="'ἁμαρτάνοντι'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνοντος'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτανόντων'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνουσα'" select="'ἁμαρτάνω'"/>
@@ -1512,14 +1598,18 @@
          <xsl:map-entry key="'ἁμαρτάνωμεν'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτάνων'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτέω'" select="'ἁμαρτέω'"/>
+         <xsl:map-entry key="'ἁμάρτῃ'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμάρτημα'" select="'ἁμάρτημα'"/>
          <xsl:map-entry key="'ἁμάρτημά'" select="'ἁμάρτημα'"/>
          <xsl:map-entry key="'ἁμαρτήματα'" select="'ἁμάρτημα'"/>
          <xsl:map-entry key="'ἁμαρτημάτων'" select="'ἁμάρτημα'"/>
          <xsl:map-entry key="'ἁμαρτήσαντες'" select="'ἁμαρτέω'"/>
          <xsl:map-entry key="'ἁμαρτήσαντι'" select="'ἁμαρτέω'"/>
+         <xsl:map-entry key="'ἁμαρτήσας'" select="'ἁμαρτάνω'"/>
+         <xsl:map-entry key="'ἁμαρτήσεις'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτήσεται'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἁμαρτήσῃς'" select="'ἁμαρτέω'"/>
+         <xsl:map-entry key="'ἁμαρτήσωμεν'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'αμαρτια'" select="'ἁμαρτία'"/>
          <xsl:map-entry key="'Ἁμαρτία'" select="'ἁμαρτία'"/>
          <xsl:map-entry key="'ἁμαρτία'" select="'ἁμαρτία'"/>
@@ -1569,6 +1659,7 @@
          <xsl:map-entry key="'ἀμέλγω'" select="'ἀμέλγω'"/>
          <xsl:map-entry key="'αμελει'" select="'ἀμελέω'"/>
          <xsl:map-entry key="'ἀμελεῖ'" select="'ἀμελής'"/>
+         <xsl:map-entry key="'ἀμέλει'" select="'ἀμέλει'"/>
          <xsl:map-entry key="'ἀμέλεια'" select="'ἀμέλεια'"/>
          <xsl:map-entry key="'ἀμελείᾳ'" select="'ἀμέλεια'"/>
          <xsl:map-entry key="'αμελειαι'" select="'ἀμέλεια'"/>
@@ -1589,21 +1680,22 @@
          <xsl:map-entry key="'ἀμελοῦντος'" select="'ἀμελέω'"/>
          <xsl:map-entry key="'αμελουσιν'" select="'ἀμελέω'"/>
          <xsl:map-entry key="'ἀμελῶν'" select="'ἀμελέω'"/>
-         <xsl:map-entry key="'ἀμελῶς'" select="'ἀμελής'"/>
+         <xsl:map-entry key="'ἀμελῶς'" select="'ἀμελῶς'"/>
          <xsl:map-entry key="'ἄμεμπτος'" select="'ἄμεμπτος'"/>
          <xsl:map-entry key="'ἀμεριμνία'" select="'ἀμεριμνία'"/>
          <xsl:map-entry key="'ἀμέριμνον'" select="'ἀμέριμνος'"/>
          <xsl:map-entry key="'ἀμέριμνος'" select="'ἀμέριμνος'"/>
-         <xsl:map-entry key="'ἀμερίμνως'" select="'ἀμέριμνος'"/>
+         <xsl:map-entry key="'ἀμερίμνως'" select="'ἀμερίμνως'"/>
          <xsl:map-entry key="'ἀμέριστος'" select="'ἀμέριστος'"/>
-         <xsl:map-entry key="'ἀμερίστως'" select="'ἀμέριστος'"/>
+         <xsl:map-entry key="'ἀμερίστῳ'" select="'ἀμέριστος'"/>
+         <xsl:map-entry key="'ἀμερίστως'" select="'ἀμερίστως'"/>
          <xsl:map-entry key="'ἀμεσολάβητος'" select="'ἀμεσολάβητος'"/>
          <xsl:map-entry key="'ἀμετάθετον'" select="'ἀμετάθετος'"/>
          <xsl:map-entry key="'ἀμετάθετος'" select="'ἀμετάθετος'"/>
          <xsl:map-entry key="'ἀμετανόητον'" select="'ἀμετανόητος'"/>
          <xsl:map-entry key="'ἀμετανόητος'" select="'ἀμετανόητος'"/>
          <xsl:map-entry key="'ἀμετάστροφος'" select="'ἀμετάστροφος'"/>
-         <xsl:map-entry key="'ἀμεταστρόφως'" select="'ἀμετάστροφος'"/>
+         <xsl:map-entry key="'ἀμεταστρόφως'" select="'ἀμεταστρόφως'"/>
          <xsl:map-entry key="'Ἀμετεώριστον'" select="'ἀμετεώριστος'"/>
          <xsl:map-entry key="'ἀμετεώριστος'" select="'ἀμετεώριστος'"/>
          <xsl:map-entry key="'ἄμετρα'" select="'ἄμετρος'"/>
@@ -1627,18 +1719,25 @@
          <xsl:map-entry key="'ἀμιγής'" select="'ἀμιγής'"/>
          <xsl:map-entry key="'ἀμιγοῦς'" select="'ἀμιγής'"/>
          <xsl:map-entry key="'ἄμισθος'" select="'ἄμισθος'"/>
+         <xsl:map-entry key="'ἀμμέτρῳ'" select="'ἄμετρος'"/>
          <xsl:map-entry key="'Ἀμμοραῖοι'" select="'Ἀμορραῖος'"/>
          <xsl:map-entry key="'ἄμμος'" select="'ἄμμος'"/>
          <xsl:map-entry key="'ἄμμῳ'" select="'ἄμμος'"/>
+         <xsl:map-entry key="'ἀμνάδα'" select="'ἀμνάς'"/>
+         <xsl:map-entry key="'ἀμνάς'" select="'ἀμνάς'"/>
          <xsl:map-entry key="'ἀμνημόνει'" select="'ἀμνημονέω'"/>
          <xsl:map-entry key="'ἀμνημονέω'" select="'ἀμνημονέω'"/>
          <xsl:map-entry key="'ἀμνησικακία'" select="'ἀμνησικακία'"/>
+         <xsl:map-entry key="'ἀμνησικακίᾳ'" select="'ἀμνησικακία'"/>
          <xsl:map-entry key="'ἀμνησικακίαις'" select="'ἀμνησικακία'"/>
          <xsl:map-entry key="'ἀμνησικακίαν'" select="'ἀμνησικακία'"/>
          <xsl:map-entry key="'ἀμνησικακίας'" select="'ἀμνησικακία'"/>
          <xsl:map-entry key="'ἀμνησίκακος'" select="'ἀμνησίκακος'"/>
          <xsl:map-entry key="'ἀμνησικάκων'" select="'ἀμνησίκακος'"/>
          <xsl:map-entry key="'ἀμνηστία'" select="'ἀμνηστία'"/>
+         <xsl:map-entry key="'ἀμνός'" select="'ἀμνός'"/>
+         <xsl:map-entry key="'ἀμνὸς'" select="'ἀμνός'"/>
+         <xsl:map-entry key="'Ἀμνὼν'" select="'ἀμνός'"/>
          <xsl:map-entry key="'ἀμοιρέω'" select="'ἀμοιρέω'"/>
          <xsl:map-entry key="'ἀμοιρήσει'" select="'ἀμοιρέω'"/>
          <xsl:map-entry key="'αμοιρον'" select="'ἄμοιρος'"/>
@@ -1722,6 +1821,8 @@
          <xsl:map-entry key="'ἀναβήσεται'" select="'ἀναβαίνω'"/>
          <xsl:map-entry key="'αναβιβαζειν'" select="'ἀναβιβάζω'"/>
          <xsl:map-entry key="'ἀναβιβάζω'" select="'ἀναβιβάζω'"/>
+         <xsl:map-entry key="'ἀναβιόω'" select="'ἀναβιόω'"/>
+         <xsl:map-entry key="'ἀναβιώσας'" select="'ἀναβιόω'"/>
          <xsl:map-entry key="'ἀναβίωσις'" select="'ἀναβίωσις'"/>
          <xsl:map-entry key="'ἀναβλέπω'" select="'ἀναβλέπω'"/>
          <xsl:map-entry key="'ἀναβλέψας'" select="'ἀναβλέπω'"/>
@@ -1741,6 +1842,7 @@
          <xsl:map-entry key="'ἀναγινώσκειν'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀναγινώσκετε'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀναγινώσκομεν'" select="'ἀναγιγνώσκω'"/>
+         <xsl:map-entry key="'ἀναγινώσκοντα'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀναγινώσκοντός'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀναγινώσκοντος'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀναγινώσκουσι'" select="'ἀναγιγνώσκω'"/>
@@ -1766,8 +1868,8 @@
          <xsl:map-entry key="'ἀνάγκαις'" select="'ἀνάγκη'"/>
          <xsl:map-entry key="'ἀναγκαίων'" select="'ἀναγκαῖος'"/>
          <xsl:map-entry key="'αναγκαιως'" select="'ἀναγκαίως'"/>
-         <xsl:map-entry key="'ἀναγκαίως'" select="'ἀναγκαῖος'"/>
-         <xsl:map-entry key="'Ἀναγκαίως'" select="'ἀναγκαῖος'"/>
+         <xsl:map-entry key="'ἀναγκαίως'" select="'ἀναγκαίως'"/>
+         <xsl:map-entry key="'Ἀναγκαίως'" select="'ἀναγκαίως'"/>
          <xsl:map-entry key="'ἀνάγκας'" select="'ἀνάγκη'"/>
          <xsl:map-entry key="'αναγκη'" select="'ἀνάγκη'"/>
          <xsl:map-entry key="'ἀνάγκη'" select="'ἀνάγκη'"/>
@@ -1793,9 +1895,11 @@
          <xsl:map-entry key="'ἀναδείκνυμι'" select="'ἀναδείκνυμι'"/>
          <xsl:map-entry key="'ἀναδείξεις'" select="'ἀναδείκνυμι'"/>
          <xsl:map-entry key="'ἀναδειχθήσῃ'" select="'ἀναδείκνυμι'"/>
+         <xsl:map-entry key="'ἀναδειχθησόμενοι'" select="'ἀναδείκνυμι'"/>
          <xsl:map-entry key="'ἀναδενδράδες'" select="'ἀναδενδράς'"/>
          <xsl:map-entry key="'Ἀναδενδράδες'" select="'ἀναδενδράς'"/>
          <xsl:map-entry key="'ἀναδενδράς'" select="'ἀναδενδράς'"/>
+         <xsl:map-entry key="'ἀναδεξάμενος'" select="'ἀναδέχομαι'"/>
          <xsl:map-entry key="'ἀναδέξασθαι'" select="'ἀναδέχομαι'"/>
          <xsl:map-entry key="'ἀναδέχεται'" select="'ἀναδέχομαι'"/>
          <xsl:map-entry key="'ἀναδέχομαι'" select="'ἀναδέχομαι'"/>
@@ -1812,7 +1916,7 @@
          <xsl:map-entry key="'ἀναδύεται'" select="'ἀναδύνω'"/>
          <xsl:map-entry key="'ἀναδύνω'" select="'ἀναδύνω'"/>
          <xsl:map-entry key="'ἀναζάω'" select="'ἀναζάω'"/>
-         <xsl:map-entry key="'ἀναζεῖ'" select="'ἀναζάω'"/>
+         <xsl:map-entry key="'ἀναζεῖ'" select="'ἀναζέω'"/>
          <xsl:map-entry key="'ἀναζέουσα'" select="'ἀναζέω'"/>
          <xsl:map-entry key="'αναζεσει'" select="'ἀναζέω'"/>
          <xsl:map-entry key="'ἀναζέω'" select="'ἀναζέω'"/>
@@ -1824,12 +1928,13 @@
          <xsl:map-entry key="'ἀναίδεια'" select="'ἀναίδεια'"/>
          <xsl:map-entry key="'ἀναιδὲς'" select="'ἀναιδής'"/>
          <xsl:map-entry key="'ἀναιδής'" select="'ἀναιδής'"/>
-         <xsl:map-entry key="'ἀναιδῶς'" select="'ἀναιδής'"/>
+         <xsl:map-entry key="'ἀναιδῶς'" select="'ἀναιδῶς'"/>
          <xsl:map-entry key="'ἀναιρεθέντος'" select="'ἀναιρέω'"/>
          <xsl:map-entry key="'ἀναιρεῖ'" select="'ἀναιρέω'"/>
          <xsl:map-entry key="'Ἀναιρεῖ'" select="'ἀναιρέω'"/>
          <xsl:map-entry key="'ἀναιρεῖται'" select="'ἀναιρέω'"/>
          <xsl:map-entry key="'ἀναιρέσει'" select="'ἀναίρεσις'"/>
+         <xsl:map-entry key="'ἀναιρέσεως'" select="'ἀναίρεσις'"/>
          <xsl:map-entry key="'Ἀναίρεσιν'" select="'ἀναίρεσις'"/>
          <xsl:map-entry key="'ἀναίρεσιν'" select="'ἀναίρεσις'"/>
          <xsl:map-entry key="'ἀναίρεσις'" select="'ἀναίρεσις'"/>
@@ -1852,8 +1957,10 @@
          <xsl:map-entry key="'αναισθητον'" select="'ἀναίσθητος'"/>
          <xsl:map-entry key="'ἀναίσθητον'" select="'ἀναίσθητος'"/>
          <xsl:map-entry key="'ἀναίσθητος'" select="'ἀναίσθητος'"/>
-         <xsl:map-entry key="'ἀναισθήτως'" select="'ἀναίσθητος'"/>
+         <xsl:map-entry key="'ἀναισθήτως'" select="'ἀναισθήτως'"/>
          <xsl:map-entry key="'ἀναισχυντία'" select="'ἀναισχυντία'"/>
+         <xsl:map-entry key="'ἀναίσχυντος'" select="'ἀναίσχυντος'"/>
+         <xsl:map-entry key="'ἀναισχύντως'" select="'ἀναισχύντως'"/>
          <xsl:map-entry key="'ἀνακαίεται'" select="'ἀνακαίω'"/>
          <xsl:map-entry key="'ἀνακαινέω'" select="'ἀνακαινέω'"/>
          <xsl:map-entry key="'ἀνακαινήσει'" select="'ἀνακαινέω'"/>
@@ -1895,6 +2002,7 @@
          <xsl:map-entry key="'ἀνακηρύττουσι'" select="'ἀνακηρύσσω'"/>
          <xsl:map-entry key="'ἀνακινεῖ'" select="'ἀνακινέω'"/>
          <xsl:map-entry key="'ἀνακινέω'" select="'ἀνακινέω'"/>
+         <xsl:map-entry key="'ἀνακινούμενος'" select="'ἀνακινέω'"/>
          <xsl:map-entry key="'ἀνακινοῦσιν'" select="'ἀνακινέω'"/>
          <xsl:map-entry key="'ἀνάκλασιν'" select="'ἀνάκλασις'"/>
          <xsl:map-entry key="'ἀνάκλασις'" select="'ἀνάκλασις'"/>
@@ -1917,6 +2025,7 @@
          <xsl:map-entry key="'ἀναλαβέτω'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀνάλαβος'" select="'ἀνάλαβος'"/>
          <xsl:map-entry key="'ἀναλαμβάνειν'" select="'ἀναλαμβάνω'"/>
+         <xsl:map-entry key="'ἀναλαμβανόμενον'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀναλαμβάνοντες'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀναλαμβάνουσαι'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀναλαμβανούσης'" select="'ἀναλαμβάνω'"/>
@@ -1929,6 +2038,7 @@
          <xsl:map-entry key="'ἀναλέξωσιν'" select="'ἀναλέγω'"/>
          <xsl:map-entry key="'αναλημψει'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'αναλημψιν'" select="'ἀνάληψις'"/>
+         <xsl:map-entry key="'ἀναληφθεὶς'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀνάληψιν'" select="'ἀνάληψις'"/>
          <xsl:map-entry key="'ἀνάληψις'" select="'ἀνάληψις'"/>
          <xsl:map-entry key="'ἀναλίσκει'" select="'ἀναλίσκω'"/>
@@ -1940,9 +2050,10 @@
          <xsl:map-entry key="'ἀναλογίζῃ'" select="'ἀναλογίζομαι'"/>
          <xsl:map-entry key="'ἀναλογίζομαι'" select="'ἀναλογίζομαι'"/>
          <xsl:map-entry key="'ἀνάλογος'" select="'ἀνάλογος'"/>
-         <xsl:map-entry key="'ἀναλόγως'" select="'ἀνάλογος'"/>
+         <xsl:map-entry key="'ἀναλόγως'" select="'ἀναλόγως'"/>
          <xsl:map-entry key="'ἀναλύῃ'" select="'ἀναλύω'"/>
          <xsl:map-entry key="'ἀναλυόμενος'" select="'ἀναλύω'"/>
+         <xsl:map-entry key="'ἀναλύονται'" select="'ἀναλύω'"/>
          <xsl:map-entry key="'ἀναλῦσαι'" select="'ἀναλύω'"/>
          <xsl:map-entry key="'αναλυσις'" select="'ἀνάλυσις'"/>
          <xsl:map-entry key="'ἀνάλυσις'" select="'ἀνάλυσις'"/>
@@ -1956,6 +2067,9 @@
          <xsl:map-entry key="'ἀναμένων'" select="'ἀναμένω'"/>
          <xsl:map-entry key="'αναμεσον'" select="'ἀνάμεσον'"/>
          <xsl:map-entry key="'ἀνάμεσον'" select="'ἀνάμεσος'"/>
+         <xsl:map-entry key="'Ἀναμέσον'" select="'ἀναμέσον'"/>
+         <xsl:map-entry key="'ἀναμέσον'" select="'ἀναμέσον'"/>
+         <xsl:map-entry key="'ἀνάμεσος'" select="'ἀνάμεσος'"/>
          <xsl:map-entry key="'ἀναμίσγω'" select="'ἀναμίσγω'"/>
          <xsl:map-entry key="'ἀνάμνησιν'" select="'ἀνάμνησις'"/>
          <xsl:map-entry key="'ἀνάμνησις'" select="'ἀνάμνησις'"/>
@@ -1967,6 +2081,8 @@
          <xsl:map-entry key="'ἀνάνευσις'" select="'ἀνάνευσις'"/>
          <xsl:map-entry key="'ἀνανεύω'" select="'ἀνανεύω'"/>
          <xsl:map-entry key="'ἀνάξια'" select="'ἀνάξιος'"/>
+         <xsl:map-entry key="'ἀναξίας'" select="'ἀνάξιος'"/>
+         <xsl:map-entry key="'ἀνάξιοι'" select="'ἀνάξιος'"/>
          <xsl:map-entry key="'ἀνάξιον'" select="'ἀνάξιος'"/>
          <xsl:map-entry key="'ἀνάξιος'" select="'ἀνάξιος'"/>
          <xsl:map-entry key="'αναξιων'" select="'ἀνάξιος'"/>
@@ -1979,6 +2095,7 @@
          <xsl:map-entry key="'ἀναπαύειν'" select="'ἀναπαύω'"/>
          <xsl:map-entry key="'ἀναπαύεται'" select="'ἀναπαύω'"/>
          <xsl:map-entry key="'ἀνάπαυσαι'" select="'ἀναπαύω'"/>
+         <xsl:map-entry key="'ἀναπαύσασθαι'" select="'ἀναπαύω'"/>
          <xsl:map-entry key="'ἀναπαύσει'" select="'ἀνάπαυσις'"/>
          <xsl:map-entry key="'ἀναπαύσεις'" select="'ἀνάπαυσις'"/>
          <xsl:map-entry key="'ἀναπαύσεσι'" select="'ἀνάπαυσις'"/>
@@ -2008,6 +2125,8 @@
          <xsl:map-entry key="'ἀναπλασμός'" select="'ἀναπλασμός'"/>
          <xsl:map-entry key="'ἀναπλάσσω'" select="'ἀναπλάσσω'"/>
          <xsl:map-entry key="'ἀναπλάττων'" select="'ἀναπλάσσω'"/>
+         <xsl:map-entry key="'ἀναπληρόω'" select="'ἀναπληρόω'"/>
+         <xsl:map-entry key="'ἀναπληρώσομεν'" select="'ἀναπληρόω'"/>
          <xsl:map-entry key="'ἀναπνέοντος'" select="'ἀναπνέω'"/>
          <xsl:map-entry key="'ἀναπνέουσα'" select="'ἀναπνέω'"/>
          <xsl:map-entry key="'ἀναπνέω'" select="'ἀναπνέω'"/>
@@ -2017,6 +2136,7 @@
          <xsl:map-entry key="'ἀνάπτεσθαι'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀνάπτεται'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀναπτομένη'" select="'ἀνάπτω'"/>
+         <xsl:map-entry key="'ἀναπτομένου'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀναπτομένους'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀνάπτοντας'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀνάπτοντες'" select="'ἀνάπτω'"/>
@@ -2025,9 +2145,14 @@
          <xsl:map-entry key="'ἀναπτύσσων'" select="'ἀναπτύσσω'"/>
          <xsl:map-entry key="'ἀνάπτω'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀναρίθμητοί'" select="'ἀναρίθμητος'"/>
+         <xsl:map-entry key="'ἀναρίθμητον'" select="'ἀναρίθμητος'"/>
          <xsl:map-entry key="'ἀναρίθμητος'" select="'ἀναρίθμητος'"/>
          <xsl:map-entry key="'ἀναριθμήτους'" select="'ἀναρίθμητος'"/>
          <xsl:map-entry key="'ἀναρπάζω'" select="'ἀναρπάζω'"/>
+         <xsl:map-entry key="'ἀναρτάω'" select="'ἀναρτάω'"/>
+         <xsl:map-entry key="'ἀναρτηθεὶς'" select="'ἀναρτάω'"/>
+         <xsl:map-entry key="'ἄναρχος'" select="'ἄναρχος'"/>
+         <xsl:map-entry key="'ἀνάρχῳ'" select="'ἄναρχος'"/>
          <xsl:map-entry key="'ἀνασκευή'" select="'ἀνασκευή'"/>
          <xsl:map-entry key="'ἀνασκευῆς'" select="'ἀνασκευή'"/>
          <xsl:map-entry key="'ἀνάστα'" select="'ἀνίστημι'"/>
@@ -2086,6 +2211,7 @@
          <xsl:map-entry key="'ἀνατολάς'" select="'ἀνατολή'"/>
          <xsl:map-entry key="'ἀνατολή'" select="'ἀνατολή'"/>
          <xsl:map-entry key="'ἀνατολὴ'" select="'ἀνατολή'"/>
+         <xsl:map-entry key="'Ἀνατολὴ'" select="'ἀνατολή'"/>
          <xsl:map-entry key="'ανατοληι'" select="'ἀνατολή'"/>
          <xsl:map-entry key="'ανατολης'" select="'ἀνατολή'"/>
          <xsl:map-entry key="'Ἀνατόλιε'" select="'Ἀνατόλιος'"/>
@@ -2109,8 +2235,10 @@
          <xsl:map-entry key="'ἀναφαίνω'" select="'ἀναφαίνω'"/>
          <xsl:map-entry key="'ἀναφαιρετικὰ'" select="'ἀναφαιρετικός'"/>
          <xsl:map-entry key="'ἀναφαιρετικός'" select="'ἀναφαιρετικός'"/>
+         <xsl:map-entry key="'ἀναφανῆναι'" select="'ἀναφαίνω'"/>
          <xsl:map-entry key="'ἀναφέρειν'" select="'ἀναφέρω'"/>
          <xsl:map-entry key="'ἀναφέρεται'" select="'ἀναφέρω'"/>
+         <xsl:map-entry key="'ἀναφερομένου'" select="'ἀναφέρω'"/>
          <xsl:map-entry key="'ἀναφέρουσι'" select="'ἀναφέρω'"/>
          <xsl:map-entry key="'ἀναφέρω'" select="'ἀναφέρω'"/>
          <xsl:map-entry key="'ἀναφθείσης'" select="'ἀνάπτω'"/>
@@ -2140,11 +2268,14 @@
          <xsl:map-entry key="'ἀναχωροῦντι'" select="'ἀναχωρέω'"/>
          <xsl:map-entry key="'ἀναχωροῦντος'" select="'ἀναχωρέω'"/>
          <xsl:map-entry key="'ἀναχωρούντων'" select="'ἀναχωρέω'"/>
+         <xsl:map-entry key="'ἀναχωρούσας'" select="'ἀναχωρέω'"/>
          <xsl:map-entry key="'ἀνάψει'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀνάψῃ'" select="'ἀνάπτω'"/>
          <xsl:map-entry key="'ἀναψύξω'" select="'ἀναψύχω'"/>
          <xsl:map-entry key="'ἄνδρα'" select="'ἀνήρ'"/>
          <xsl:map-entry key="'Ἄνδρα'" select="'ἀνήρ'"/>
+         <xsl:map-entry key="'ἀνδραγαθέω'" select="'ἀνδραγαθέω'"/>
+         <xsl:map-entry key="'ἀνδραγαθήσασιν'" select="'ἀνδραγαθέω'"/>
          <xsl:map-entry key="'ἀνδραγαθία'" select="'ἀνδραγαθία'"/>
          <xsl:map-entry key="'ἀνδραγαθίᾳ'" select="'ἀνδραγαθία'"/>
          <xsl:map-entry key="'ἀνδραγαθίαις'" select="'ἀνδραγαθία'"/>
@@ -2158,10 +2289,11 @@
          <xsl:map-entry key="'ανδρειας'" select="'ἀνδρεία'"/>
          <xsl:map-entry key="'ἀνδρείας'" select="'ἀνδρεία'"/>
          <xsl:map-entry key="'ἀνδρεῖόν'" select="'ἀνδρεῖος'"/>
+         <xsl:map-entry key="'ἀνδρεῖον'" select="'ἀνδρεῖος'"/>
          <xsl:map-entry key="'ἀνδρεῖος'" select="'ἀνδρεῖος'"/>
          <xsl:map-entry key="'ἀνδρεῖός'" select="'ἀνδρεῖος'"/>
          <xsl:map-entry key="'ἀνδρείων'" select="'ἀνδρεῖος'"/>
-         <xsl:map-entry key="'ἀνδρείως'" select="'ἀνδρεῖος'"/>
+         <xsl:map-entry key="'ἀνδρείως'" select="'ἀνδρείως'"/>
          <xsl:map-entry key="'ανδρες'" select="'ἀνήρ'"/>
          <xsl:map-entry key="'Ἄνδρες'" select="'ἀνήρ'"/>
          <xsl:map-entry key="'ἄνδρες'" select="'ἀνήρ'"/>
@@ -2169,6 +2301,7 @@
          <xsl:map-entry key="'ἀνδρὶ'" select="'ἀνήρ'"/>
          <xsl:map-entry key="'ἀνδρί'" select="'ἀνήρ'"/>
          <xsl:map-entry key="'ἀνδριζέσθω'" select="'ἀνδρίζω'"/>
+         <xsl:map-entry key="'ἀνδριζόμενον'" select="'ἀνδρίζω'"/>
          <xsl:map-entry key="'ἀνδρίζου'" select="'ἀνδρίζω'"/>
          <xsl:map-entry key="'ἀνδρίζω'" select="'ἀνδρίζω'"/>
          <xsl:map-entry key="'Ἀνδρόγυνός'" select="'ἀνδρόγυνος'"/>
@@ -2186,10 +2319,11 @@
          <xsl:map-entry key="'ἀνεγείρω'" select="'ἀνεγείρω'"/>
          <xsl:map-entry key="'ἀνεγηγερμένη'" select="'ἀνεγείρω'"/>
          <xsl:map-entry key="'ἀνέγκλητος'" select="'ἀνέγκλητος'"/>
-         <xsl:map-entry key="'ἀνεγκλήτως'" select="'ἀνέγκλητος'"/>
+         <xsl:map-entry key="'ἀνεγκλήτως'" select="'ἀνεγκλήτως'"/>
          <xsl:map-entry key="'ἀνέγνω'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'ἀνέγνωμεν'" select="'ἀναγιγνώσκω'"/>
          <xsl:map-entry key="'Ἀνέγνως'" select="'ἀναγιγνώσκω'"/>
+         <xsl:map-entry key="'ἀνεδέξατο'" select="'ἀναδέχομαι'"/>
          <xsl:map-entry key="'ἀνέθαλεν'" select="'ἀναθάλλω'"/>
          <xsl:map-entry key="'ἀνείδεα'" select="'ἀνείδεος'"/>
          <xsl:map-entry key="'ἀνείδεον'" select="'ἀνείδεος'"/>
@@ -2209,6 +2343,9 @@
          <xsl:map-entry key="'ἀνεκλειπὴς'" select="'ἀνεκλιπής'"/>
          <xsl:map-entry key="'ἀνεκλιπής'" select="'ἀνεκλιπής'"/>
          <xsl:map-entry key="'ἀνεκτήσω'" select="'ἀνακτάομαι'"/>
+         <xsl:map-entry key="'ἀνεκφώνητον'" select="'ἀνεκφώνητος'"/>
+         <xsl:map-entry key="'ἀνεκφώνητος'" select="'ἀνεκφώνητος'"/>
+         <xsl:map-entry key="'ἀνέλαβε'" select="'ἀναλαμβάνω'"/>
          <xsl:map-entry key="'ἀνελεήμονα'" select="'ἀνελεήμων'"/>
          <xsl:map-entry key="'ανελεημονας'" select="'ἀνελεήμων'"/>
          <xsl:map-entry key="'ἀνελεήμονας'" select="'ἀνελεήμων'"/>
@@ -2219,10 +2356,12 @@
          <xsl:map-entry key="'ἀνελεήμοσιν'" select="'ἀνελεήμων'"/>
          <xsl:map-entry key="'ἀνελεήμων'" select="'ἀνελεήμων'"/>
          <xsl:map-entry key="'Ἀνελεήμων'" select="'ἀνελεήμων'"/>
+         <xsl:map-entry key="'ἀνεληλυθέναι'" select="'ἀνέρχομαι'"/>
          <xsl:map-entry key="'ἀνέλθῃς'" select="'ἀνέρχομαι'"/>
          <xsl:map-entry key="'ἀνελθόντα'" select="'ἀνέρχομαι'"/>
          <xsl:map-entry key="'ανελκει'" select="'ἀνέλκω'"/>
          <xsl:map-entry key="'ἀνέλκω'" select="'ἀνέλκω'"/>
+         <xsl:map-entry key="'ἀνέλπιστος'" select="'ἀνέλπιστος'"/>
          <xsl:map-entry key="'ἀνελπίστων'" select="'ἀνέλπιστος'"/>
          <xsl:map-entry key="'ἀνέμειναν'" select="'ἀναμένω'"/>
          <xsl:map-entry key="'ἄνεμοι'" select="'ἄνεμος'"/>
@@ -2235,12 +2374,13 @@
          <xsl:map-entry key="'ἀνέμπαικτος'" select="'ἀνέμπαικτος'"/>
          <xsl:map-entry key="'ἀνεμπόδιστον'" select="'ἀνεμπόδιστος'"/>
          <xsl:map-entry key="'ἀνεμπόδιστος'" select="'ἀνεμπόδιστος'"/>
-         <xsl:map-entry key="'ἀνεμποδίστως'" select="'ἀνεμπόδιστος'"/>
+         <xsl:map-entry key="'ἀνεμποδίστως'" select="'ἀνεμποδίστως'"/>
          <xsl:map-entry key="'ἀνέμῳ'" select="'ἄνεμος'"/>
          <xsl:map-entry key="'ἀνέμων'" select="'ἄνεμος'"/>
          <xsl:map-entry key="'ἀνενδεὴς'" select="'ἀνενδεής'"/>
          <xsl:map-entry key="'ἀνενδεής'" select="'ἀνενδεής'"/>
          <xsl:map-entry key="'ἀνενέγκαι'" select="'ἀναφέρω'"/>
+         <xsl:map-entry key="'ἀνενέγκῃ'" select="'ἀναφέρω'"/>
          <xsl:map-entry key="'ἀνενέργητον'" select="'ἀνενέργητος'"/>
          <xsl:map-entry key="'ἀνενέργητος'" select="'ἀνενέργητος'"/>
          <xsl:map-entry key="'ἀνένευσαν'" select="'ἀνανεύω'"/>
@@ -2256,12 +2396,16 @@
          <xsl:map-entry key="'ἀνεξέταστον'" select="'ἀνεξέταστος'"/>
          <xsl:map-entry key="'ἀνεξέταστος'" select="'ἀνεξέταστος'"/>
          <xsl:map-entry key="'ἀνέξῃ'" select="'ἀνέχω'"/>
+         <xsl:map-entry key="'ἀνεξικακέω'" select="'ἀνεξικακέω'"/>
+         <xsl:map-entry key="'ἀνεξικακία'" select="'ἀνεξικακία'"/>
+         <xsl:map-entry key="'ἀνεξικακίας'" select="'ἀνεξικακία'"/>
          <xsl:map-entry key="'ἀνεξίκακος'" select="'ἀνεξίκακος'"/>
-         <xsl:map-entry key="'ἀνεξικάκως'" select="'ἀνεξίκακος'"/>
+         <xsl:map-entry key="'ἀνεξικακοῦμεν'" select="'ἀνεξικακέω'"/>
+         <xsl:map-entry key="'ἀνεξικάκως'" select="'ἀνεξικάκως'"/>
          <xsl:map-entry key="'ἀνεξιχνίαστοι'" select="'ἀνεξιχνίαστος'"/>
          <xsl:map-entry key="'ἀνεξιχνίαστος'" select="'ἀνεξιχνίαστος'"/>
          <xsl:map-entry key="'ἀνεπαίσθητος'" select="'ἀνεπαίσθητος'"/>
-         <xsl:map-entry key="'ἀνεπαισθήτως'" select="'ἀνεπαίσθητος'"/>
+         <xsl:map-entry key="'ἀνεπαισθήτως'" select="'ἀνεπαισθήτως'"/>
          <xsl:map-entry key="'ἀνεπαίσχυντον'" select="'ἀνεπαίσχυντος'"/>
          <xsl:map-entry key="'ἀνεπαίσχυντος'" select="'ἀνεπαίσχυντος'"/>
          <xsl:map-entry key="'ἀνεπάνακτον'" select="'ἀνεπάνακτος'"/>
@@ -2275,7 +2419,7 @@
          <xsl:map-entry key="'ἀνεπίδεκτος'" select="'ἀνεπίδεκτος'"/>
          <xsl:map-entry key="'ἀνεπίληπτον'" select="'ἀνεπίληπτος'"/>
          <xsl:map-entry key="'ἀνεπίληπτος'" select="'ἀνεπίληπτος'"/>
-         <xsl:map-entry key="'ἀνεπιλήπτως'" select="'ἀνεπίληπτος'"/>
+         <xsl:map-entry key="'ἀνεπιλήπτως'" select="'ἀνεπιλήπτως'"/>
          <xsl:map-entry key="'ἀνεπιστήμων'" select="'ἀνεπιστήμων'"/>
          <xsl:map-entry key="'ἀνεπίφθονος'" select="'ἀνεπίφθονος'"/>
          <xsl:map-entry key="'ἀνέργαστος'" select="'ἀνέργαστος'"/>
@@ -2298,7 +2442,10 @@
          <xsl:map-entry key="'ἄνευ'" select="'ἄνευ'"/>
          <xsl:map-entry key="'ἀνεφήναντο'" select="'ἀναφαίνω'"/>
          <xsl:map-entry key="'ἀνεχέσθω'" select="'ἀνέχω'"/>
+         <xsl:map-entry key="'ἀνεχόμενοι'" select="'ἀνέχω'"/>
+         <xsl:map-entry key="'ἀνέχου'" select="'ἀνέχω'"/>
          <xsl:map-entry key="'ἀνέχω'" select="'ἀνέχω'"/>
+         <xsl:map-entry key="'ἀνεχώρησε'" select="'ἀναχωρέω'"/>
          <xsl:map-entry key="'ἀνεῳγμένος'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνέῳξεν'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ανηγαγε'" select="'ἀνάγω'"/>
@@ -2350,7 +2497,9 @@
          <xsl:map-entry key="'ἄνθρωπε'" select="'ἄνθρωπος'"/>
          <xsl:map-entry key="'ἀνθρώπινα'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρωπίναις'" select="'ἀνθρώπινος'"/>
+         <xsl:map-entry key="'ἀνθρωπίνας'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρωπίνη'" select="'ἀνθρώπινος'"/>
+         <xsl:map-entry key="'ἀνθρωπίνῃ'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ανθρωπινην'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρωπίνην'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ανθρωπινης'" select="'ἀνθρώπινος'"/>
@@ -2359,7 +2508,9 @@
          <xsl:map-entry key="'ανθρωπινον'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρώπινον'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρώπινος'" select="'ἀνθρώπινος'"/>
+         <xsl:map-entry key="'Ἀνθρώπινος'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ανθρωπινου'" select="'ἀνθρώπινος'"/>
+         <xsl:map-entry key="'ἀνθρωπίνου'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρωπίνῳ'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ἀνθρωπίνων'" select="'ἀνθρώπινος'"/>
          <xsl:map-entry key="'ανθρωποι'" select="'ἄνθρωπος'"/>
@@ -2399,7 +2550,9 @@
          <xsl:map-entry key="'ἀνίστημι'" select="'ἀνίστημι'"/>
          <xsl:map-entry key="'ἀνίστησι'" select="'ἀνίστημι'"/>
          <xsl:map-entry key="'ἀνίστησιν'" select="'ἀνίστημι'"/>
+         <xsl:map-entry key="'Ἄννα'" select="'Ἄννα'"/>
          <xsl:map-entry key="'ἀνόητοι'" select="'ἀνόητος'"/>
+         <xsl:map-entry key="'ἀνοήτοις'" select="'ἀνόητος'"/>
          <xsl:map-entry key="'ἀνόητος'" select="'ἀνόητος'"/>
          <xsl:map-entry key="'ἀνοήτῳ'" select="'ἀνόητος'"/>
          <xsl:map-entry key="'ἀνοήτων'" select="'ἀνόητος'"/>
@@ -2412,9 +2565,12 @@
          <xsl:map-entry key="'ἀνοιγήσεται'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίγνυμι'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίγομεν'" select="'ἀνοίγνυμι'"/>
+         <xsl:map-entry key="'ἀνοιγόμενα'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίγονται'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίκειον'" select="'ἀνοίκειος'"/>
          <xsl:map-entry key="'ἀνοίκειος'" select="'ἀνοίκειος'"/>
+         <xsl:map-entry key="'ἀνοικοδομέω'" select="'ἀνοικοδομέω'"/>
+         <xsl:map-entry key="'ἀνοικοδομουμένῃ'" select="'ἀνοικοδομέω'"/>
          <xsl:map-entry key="'ἀνοίξας'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'Ἀνοίξατε'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίξατέ'" select="'ἀνοίγνυμι'"/>
@@ -2422,6 +2578,7 @@
          <xsl:map-entry key="'ἀνοίξει'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίξω'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνοίσω'" select="'ἀναφέρω'"/>
+         <xsl:map-entry key="'ἀνοιχθεισῶν'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἀνομάζει'" select="'ἀνομάζω'"/>
          <xsl:map-entry key="'ἀνομάζω'" select="'ἀνομάζω'"/>
          <xsl:map-entry key="'ἀνομέω'" select="'ἀνομέω'"/>
@@ -2447,7 +2604,7 @@
          <xsl:map-entry key="'ἀνόμους'" select="'ἄνομος'"/>
          <xsl:map-entry key="'ἀνόμῳ'" select="'ἄνομος'"/>
          <xsl:map-entry key="'ἀνόμων'" select="'ἄνομος'"/>
-         <xsl:map-entry key="'ἀνόμως'" select="'ἄνομος'"/>
+         <xsl:map-entry key="'ἀνόμως'" select="'ἀνόμως'"/>
          <xsl:map-entry key="'ἀνόπιν'" select="'ἀνόπιν'"/>
          <xsl:map-entry key="'ἀνορθοῖ'" select="'ἀνορθόω'"/>
          <xsl:map-entry key="'ἀνορθόω'" select="'ἀνορθόω'"/>
@@ -2496,10 +2653,11 @@
          <xsl:map-entry key="'ἀνταποδώσει'" select="'ἀνταποδίδωμι'"/>
          <xsl:map-entry key="'ανταποδωσω'" select="'ἀνταποδίδωμι'"/>
          <xsl:map-entry key="'ἀνταποδώσωμεν'" select="'ἀνταποδόω'"/>
+         <xsl:map-entry key="'ἀνταποκρίνεται'" select="'ἀνταποκρίνομαι'"/>
+         <xsl:map-entry key="'ἀνταποκρίνομαι'" select="'ἀνταποκρίνομαι'"/>
          <xsl:map-entry key="'Ἀντέθηκε'" select="'ἀντιτίθημι'"/>
          <xsl:map-entry key="'ἀντέθηκεν'" select="'ἀντιτίθημι'"/>
-         <xsl:map-entry key="'ἀντείπῃ'" select="'ἀντεῖπον'"/>
-         <xsl:map-entry key="'ἀντεῖπον'" select="'ἀντεῖπον'"/>
+         <xsl:map-entry key="'ἀντείπῃ'" select="'ἀντιλέγω'"/>
          <xsl:map-entry key="'ἀντεισάγει'" select="'ἀντεισάγω'"/>
          <xsl:map-entry key="'ἀντεισάγω'" select="'ἀντεισάγω'"/>
          <xsl:map-entry key="'ἀντεισαχθέντων'" select="'ἀντεισάγω'"/>
@@ -2510,7 +2668,9 @@
          <xsl:map-entry key="'ἀντεπίθυμος'" select="'ἀντεπίθυμος'"/>
          <xsl:map-entry key="'ἀντεράω'" select="'ἀντεράω'"/>
          <xsl:map-entry key="'ἀντερῇ'" select="'ἀντεράω'"/>
+         <xsl:map-entry key="'ἀντέστη'" select="'ἀνθίστημι'"/>
          <xsl:map-entry key="'ἀντεταράχθη'" select="'ἀντιταράσσω'"/>
+         <xsl:map-entry key="'ἀντέχεσθαί'" select="'ἀντέχω'"/>
          <xsl:map-entry key="'ἀντεχομένοις'" select="'ἀντέχω'"/>
          <xsl:map-entry key="'ἀντεχόμενος'" select="'ἀντέχω'"/>
          <xsl:map-entry key="'ἀντέχου'" select="'ἀντέχω'"/>
@@ -2520,8 +2680,11 @@
          <xsl:map-entry key="'ἀντιδιαστολή'" select="'ἀντιδιαστολή'"/>
          <xsl:map-entry key="'ἀντιδιαστολὴν'" select="'ἀντιδιαστολή'"/>
          <xsl:map-entry key="'ἀντίδικος'" select="'ἀντίδικος'"/>
+         <xsl:map-entry key="'ἀντιδίκῳ'" select="'ἀντίδικος'"/>
          <xsl:map-entry key="'ἀντίδογμα'" select="'ἀντίδογμα'"/>
+         <xsl:map-entry key="'ἀντιδοξέω'" select="'ἀντιδοξέω'"/>
          <xsl:map-entry key="'ἀντίδοξος'" select="'ἀντίδοξος'"/>
+         <xsl:map-entry key="'ἀντιδοξοῦσι'" select="'ἀντιδοξέω'"/>
          <xsl:map-entry key="'ἀντιδόξων'" select="'ἀντίδοξος'"/>
          <xsl:map-entry key="'ἀντίδοτον'" select="'ἀντίδοτος'"/>
          <xsl:map-entry key="'ἀντίδοτος'" select="'ἀντίδοτος'"/>
@@ -2544,6 +2707,7 @@
          <xsl:map-entry key="'ἀντικειμέναις'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένας'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένῃ'" select="'ἀντίκειμαι'"/>
+         <xsl:map-entry key="'ἀντικειμένη'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένην'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένης'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'αντικειμενοι'" select="'ἀντίκειμαι'"/>
@@ -2554,6 +2718,7 @@
          <xsl:map-entry key="'ἀντικείμενος'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένου'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένους'" select="'ἀντίκειμαι'"/>
+         <xsl:map-entry key="'ἀντικειμένῳ'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικειμένων'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντίκεινται'" select="'ἀντίκειμαι'"/>
          <xsl:map-entry key="'ἀντικεῖσθαι'" select="'ἀντίκειμαι'"/>
@@ -2575,6 +2740,7 @@
          <xsl:map-entry key="'ἀντιλαμβανόμεναι'" select="'ἀντιλαμβάνω'"/>
          <xsl:map-entry key="'ἀντιλαμβανομένης'" select="'ἀντιλαμβάνω'"/>
          <xsl:map-entry key="'ἀντιλαμβάνω'" select="'ἀντιλαμβάνω'"/>
+         <xsl:map-entry key="'ἀντιλέγοντες'" select="'ἀντιλέγω'"/>
          <xsl:map-entry key="'ἀντιλέγουσα'" select="'ἀντιλέγω'"/>
          <xsl:map-entry key="'ἀντιλέγω'" select="'ἀντιλέγω'"/>
          <xsl:map-entry key="'ἀντιλέγων'" select="'ἀντιλέγω'"/>
@@ -2614,6 +2780,8 @@
          <xsl:map-entry key="'ἀντιπολεμέω'" select="'ἀντιπολεμέω'"/>
          <xsl:map-entry key="'ἀντιπολεμοῦνται'" select="'ἀντιπολεμέω'"/>
          <xsl:map-entry key="'ἀντιπολεμῶν'" select="'ἀντιπολεμέω'"/>
+         <xsl:map-entry key="'ἀντιπρόσωπος'" select="'ἀντιπρόσωπος'"/>
+         <xsl:map-entry key="'ἀντιπροσώπως'" select="'ἀντιπροσώπως'"/>
          <xsl:map-entry key="'ἀντισκοτέω'" select="'ἀντισκοτέω'"/>
          <xsl:map-entry key="'ἀντισκοτοῦν'" select="'ἀντισκοτέω'"/>
          <xsl:map-entry key="'Αντισον'" select="'ἀντίσος '"/>
@@ -2631,7 +2799,7 @@
          <xsl:map-entry key="'ἀντιστρόφοις'" select="'ἀντίστροφος'"/>
          <xsl:map-entry key="'ἀντίστροφος'" select="'ἀντίστροφος'"/>
          <xsl:map-entry key="'ἀντιστρόφῳ'" select="'ἀντίστροφος'"/>
-         <xsl:map-entry key="'ἀντιστρόφως'" select="'ἀντίστροφος'"/>
+         <xsl:map-entry key="'ἀντιστρόφως'" select="'ἀντιστρόφως'"/>
          <xsl:map-entry key="'ἀντίταξις'" select="'ἀντίταξις'"/>
          <xsl:map-entry key="'ἀντίταξον'" select="'ἀντιτάσσω'"/>
          <xsl:map-entry key="'ἀντιταράσσω'" select="'ἀντί-ταράσσω'"/>
@@ -2683,6 +2851,7 @@
          <xsl:map-entry key="'ἀνυπόκριτον'" select="'ἀνυπόκριτος'"/>
          <xsl:map-entry key="'ἀνυπόκριτος'" select="'ἀνυπόκριτος'"/>
          <xsl:map-entry key="'ἀνυπόστατος'" select="'ἀνυπόστατος'"/>
+         <xsl:map-entry key="'ἀνυπόστατός'" select="'ἀνυπόστατος'"/>
          <xsl:map-entry key="'ἀνυπότακτον'" select="'ἀνυπότακτος'"/>
          <xsl:map-entry key="'ἀνυπότακτος'" select="'ἀνυπότακτος'"/>
          <xsl:map-entry key="'ἀνυποτάκτου'" select="'ἀνυπότακτος'"/>
@@ -2698,7 +2867,7 @@
          <xsl:map-entry key="'ἀνώμαλος'" select="'ἀνώμαλος'"/>
          <xsl:map-entry key="'ἀνώρθωσαν'" select="'ἀνορθόω'"/>
          <xsl:map-entry key="'ἀνώρθωσέν'" select="'ἀνορθόω'"/>
-         <xsl:map-entry key="'ἀνωτάτω'" select="'ἄνω'"/>
+         <xsl:map-entry key="'ἀνωτάτω'" select="'ἀνώτατος'"/>
          <xsl:map-entry key="'ἀνωτέρα'" select="'ἀνώτερος'"/>
          <xsl:map-entry key="'ἀνώτερον'" select="'ἀνώτερος'"/>
          <xsl:map-entry key="'ἀνώτερος'" select="'ἀνώτερος'"/>
@@ -2708,17 +2877,25 @@
          <xsl:map-entry key="'ἀνωφελῆ'" select="'ἀνωφελής'"/>
          <xsl:map-entry key="'ἀνωφελὴς'" select="'ἀνωφελής'"/>
          <xsl:map-entry key="'ἀνωφελής'" select="'ἀνωφελής'"/>
+         <xsl:map-entry key="'ἀνωφελῶν'" select="'ἀνωφελής'"/>
+         <xsl:map-entry key="'ἄξει'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἄξια'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξίᾳ'" select="'ἄξιος'"/>
+         <xsl:map-entry key="'ἀξία'" select="'ἄξιος'"/>
+         <xsl:map-entry key="'ἄξιαι'" select="'ἄξιος'"/>
          <xsl:map-entry key="'αξιαν'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξίαν'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξίας'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξίναις'" select="'ἀξίνη'"/>
+         <xsl:map-entry key="'ἄξιοι'" select="'ἄξιος'"/>
+         <xsl:map-entry key="'ἀξιόλογον'" select="'ἀξιόλογος'"/>
+         <xsl:map-entry key="'ἀξιόλογος'" select="'ἀξιόλογος'"/>
          <xsl:map-entry key="'ἄξιον'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξιόπιστος'" select="'ἀξιόπιστος'"/>
          <xsl:map-entry key="'Ἀξιοπιστότερον'" select="'ἀξιόπιστος'"/>
          <xsl:map-entry key="'ἀξιοπίστους'" select="'ἀξιόπιστος'"/>
          <xsl:map-entry key="'ἄξιος'" select="'ἄξιος'"/>
+         <xsl:map-entry key="'ἀξιούντων'" select="'ἀξιόω'"/>
          <xsl:map-entry key="'αξιους'" select="'ἄξιος'"/>
          <xsl:map-entry key="'ἀξίους'" select="'ἄξιος'"/>
          <xsl:map-entry key="'αξιουται'" select="'ἀξιόω'"/>
@@ -2740,12 +2917,15 @@
          <xsl:map-entry key="'ἀξίωσις'" select="'ἀξίωσις'"/>
          <xsl:map-entry key="'Ἄξονας'" select="'ἄξων'"/>
          <xsl:map-entry key="'ἄξων'" select="'ἄξων'"/>
+         <xsl:map-entry key="'ἀοίδιμον'" select="'ἀοίδιμος'"/>
+         <xsl:map-entry key="'ἀοίδιμος'" select="'ἀοίδιμος'"/>
+         <xsl:map-entry key="'ἀόρατον'" select="'ἀόρατος'"/>
          <xsl:map-entry key="'ἀόρατος'" select="'ἀόρατος'"/>
          <xsl:map-entry key="'αορατου'" select="'ἀόρατος'"/>
          <xsl:map-entry key="'ἀοράτου'" select="'ἀόρατος'"/>
          <xsl:map-entry key="'ἀοράτους'" select="'ἀόρατος'"/>
          <xsl:map-entry key="'ἀοράτων'" select="'ἀόρατος'"/>
-         <xsl:map-entry key="'ἀοράτως'" select="'ἀόρατος'"/>
+         <xsl:map-entry key="'ἀοράτως'" select="'ἀοράτως'"/>
          <xsl:map-entry key="'αοργησια'" select="'ἀοργησία'"/>
          <xsl:map-entry key="'ἀοργησία'" select="'ἀοργησία'"/>
          <xsl:map-entry key="'ἀοργησίας'" select="'ἀοργησία'"/>
@@ -2762,6 +2942,7 @@
          <xsl:map-entry key="'ἀπαγγείλῃ'" select="'ἀπαγγέλλω'"/>
          <xsl:map-entry key="'ἀπαγγείλω'" select="'ἀπαγγέλλω'"/>
          <xsl:map-entry key="'απαγγελει'" select="'ἀπαγγέλλω'"/>
+         <xsl:map-entry key="'ἀπαγγελεῖ'" select="'ἀπαγγέλλω'"/>
          <xsl:map-entry key="'Ἀπαγγέλλειν'" select="'ἀπαγγέλλω'"/>
          <xsl:map-entry key="'ἀπαγγέλλουσαν'" select="'ἀπαγγέλλω'"/>
          <xsl:map-entry key="'ἀπαγγέλλω'" select="'ἀπαγγέλλω'"/>
@@ -2786,6 +2967,7 @@
          <xsl:map-entry key="'απαθειαν'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'ἀπάθειαν'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'Ἀπάθειαν'" select="'ἀπάθεια'"/>
+         <xsl:map-entry key="'ἀπάθειάν'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'απαθειας'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'Ἀπαθείας'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'ἀπαθείας'" select="'ἀπάθεια'"/>
@@ -2800,15 +2982,17 @@
          <xsl:map-entry key="'απαθιας'" select="'ἀπάθεια'"/>
          <xsl:map-entry key="'Ἀπαθοῦς'" select="'ἀπαθής'"/>
          <xsl:map-entry key="'ἀπαθῶν'" select="'ἀπαθής'"/>
-         <xsl:map-entry key="'ἀπαθῶς'" select="'ἀπαθής'"/>
+         <xsl:map-entry key="'ἀπαθῶς'" select="'ἀπαθῶς'"/>
          <xsl:map-entry key="'ἄπαιδας'" select="'ἄπαις'"/>
          <xsl:map-entry key="'ἀπαίδευτοι'" select="'ἀπαίδευτος'"/>
          <xsl:map-entry key="'ἀπαίδευτος'" select="'ἀπαίδευτος'"/>
          <xsl:map-entry key="'ἄπαις'" select="'ἄπαις'"/>
          <xsl:map-entry key="'ἀπαίτει'" select="'ἀπαιτέω'"/>
+         <xsl:map-entry key="'ἀπαιτεῖ'" select="'ἀπαιτέω'"/>
          <xsl:map-entry key="'ἀπαιτεῖται'" select="'ἀπαιτέω'"/>
          <xsl:map-entry key="'ἀπαιτέω'" select="'ἀπαιτέω'"/>
          <xsl:map-entry key="'ἀπαιτοίη'" select="'ἀπαιτέω'"/>
+         <xsl:map-entry key="'ἀπαιτούμεθα'" select="'ἀπαιτέω'"/>
          <xsl:map-entry key="'ἀπαιτῶν'" select="'ἀπαιτέω'"/>
          <xsl:map-entry key="'ἀπαλλαγέντες'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλαγῆναι'" select="'ἀπαλλάσσω'"/>
@@ -2817,6 +3001,7 @@
          <xsl:map-entry key="'ἀπαλλάξῃ'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλάξωμεν'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλάσσω'" select="'ἀπαλλάσσω'"/>
+         <xsl:map-entry key="'ἀπαλλάσσων'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλάττει'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλάττειν'" select="'ἀπαλλάσσω'"/>
          <xsl:map-entry key="'ἀπαλλάττεται'" select="'ἀπαλλάσσω'"/>
@@ -2826,6 +3011,8 @@
          <xsl:map-entry key="'απαλλοτριωθηναι'" select="'ἀπαλλοτριόω'"/>
          <xsl:map-entry key="'ἀπαλοιφὴ'" select="'ἀπαλοιφή'"/>
          <xsl:map-entry key="'ἀπαλοιφή'" select="'ἀπαλοιφή'"/>
+         <xsl:map-entry key="'ἁπαλὸν'" select="'ἁπαλός'"/>
+         <xsl:map-entry key="'ἁπαλός'" select="'ἁπαλός'"/>
          <xsl:map-entry key="'ἅπαν'" select="'ἅπας'"/>
          <xsl:map-entry key="'ἀπαναίνομαι'" select="'ἀπαναίνομαι'"/>
          <xsl:map-entry key="'ἀπαναίνου'" select="'ἀπαναίνομαι'"/>
@@ -2835,6 +3022,7 @@
          <xsl:map-entry key="'ἁπαντᾷ'" select="'ἀπαντάω'"/>
          <xsl:map-entry key="'Ἅπαντα'" select="'ἅπας'"/>
          <xsl:map-entry key="'ἅπαντα'" select="'ἅπας'"/>
+         <xsl:map-entry key="'ἀπαντᾷ'" select="'ἀπαντάω'"/>
          <xsl:map-entry key="'ἀπαντᾶν'" select="'ἀπαντάω'"/>
          <xsl:map-entry key="'ἅπαντας'" select="'ἅπας'"/>
          <xsl:map-entry key="'ἀπαντάω'" select="'ἀπαντάω'"/>
@@ -2852,11 +3040,12 @@
          <xsl:map-entry key="'απαντων'" select="'ἅπας'"/>
          <xsl:map-entry key="'ἁπάντων'" select="'ἅπας'"/>
          <xsl:map-entry key="'ἀπαντῶντας'" select="'ἀπαντάω'"/>
+         <xsl:map-entry key="'ἀπάνωθεν'" select="'ἀπάνωθεν'"/>
          <xsl:map-entry key="'Ἅπαξ'" select="'ἅπαξ'"/>
          <xsl:map-entry key="'ἅπαξ'" select="'ἅπαξ'"/>
          <xsl:map-entry key="'ἀπάξει'" select="'ἀπάγω'"/>
          <xsl:map-entry key="'ἀπαράλειπτος'" select="'ἀπαράλειπτος'"/>
-         <xsl:map-entry key="'ἀπαραλείπτως'" select="'ἀπαράλειπτος'"/>
+         <xsl:map-entry key="'ἀπαραλείπτως'" select="'ἀπαραλείπτως'"/>
          <xsl:map-entry key="'ἀπαρηγόρητον'" select="'ἀπαρηγόρητος'"/>
          <xsl:map-entry key="'ἀπαρηγόρητος'" select="'ἀπαρηγόρητος'"/>
          <xsl:map-entry key="'ἀπαρνέομαι'" select="'ἀπαρνέομαι'"/>
@@ -2889,6 +3078,7 @@
          <xsl:map-entry key="'ἀπατηθέντες'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἀπατηθέντων'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἀπατηθῇς'" select="'ἀπατάω'"/>
+         <xsl:map-entry key="'ἀπατηλοῖς'" select="'ἀπατηλός'"/>
          <xsl:map-entry key="'ἀπατηλός'" select="'ἀπατηλός'"/>
          <xsl:map-entry key="'ἀπάτην'" select="'ἀπάτη'"/>
          <xsl:map-entry key="'ἀπάτης'" select="'ἀπάτη'"/>
@@ -2896,13 +3086,17 @@
          <xsl:map-entry key="'ἀπατήσασα'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἀπατήσωσι'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἀπατῶν'" select="'ἀπατάω'"/>
+         <xsl:map-entry key="'ἀπατῶντα'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἀπατῶντί'" select="'ἀπατάω'"/>
+         <xsl:map-entry key="'ἀπατῶσαν'" select="'ἀπατάω'"/>
          <xsl:map-entry key="'ἄπαυστον'" select="'ἄπαυστος'"/>
          <xsl:map-entry key="'ἄπαυστος'" select="'ἄπαυστος'"/>
+         <xsl:map-entry key="'ἀπαχθῇ'" select="'ἀπάγω'"/>
          <xsl:map-entry key="'ἀπαχθήσεται'" select="'ἀπάγω'"/>
          <xsl:map-entry key="'απεβαλε'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀπέβαλον'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'απεδειξε'" select="'ἀποδείκνυμι'"/>
+         <xsl:map-entry key="'ἀπεδείχθησαν'" select="'ἀποδείκνυμι'"/>
          <xsl:map-entry key="'ἀπεδοκίμασαν'" select="'ἀποδοκιμάω'"/>
          <xsl:map-entry key="'ἀπέδοτο'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀπέδου'" select="'ἄπεδος'"/>
@@ -2911,9 +3105,13 @@
          <xsl:map-entry key="'ἀπέθανε'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀπέθανεν'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'απεθανον'" select="'ἀποθνήσκω'"/>
+         <xsl:map-entry key="'ἀπέθανον'" select="'ἀποθνήσκω'"/>
+         <xsl:map-entry key="'ἀπέθετο'" select="'ἀποτίθημι'"/>
+         <xsl:map-entry key="'ἀπέθου'" select="'ἀποτίθημι'"/>
          <xsl:map-entry key="'ἀπειθεῖ'" select="'ἀπειθέω'"/>
          <xsl:map-entry key="'ἀπείθεια'" select="'ἀπείθεια'"/>
          <xsl:map-entry key="'απειθειας'" select="'ἀπείθεια'"/>
+         <xsl:map-entry key="'ἀπειθείας'" select="'ἀπείθεια'"/>
          <xsl:map-entry key="'ἀπειθέω'" select="'ἀπειθέω'"/>
          <xsl:map-entry key="'ἀπειθὴς'" select="'ἀπειθής'"/>
          <xsl:map-entry key="'ἀπειθής'" select="'ἀπειθής'"/>
@@ -2930,16 +3128,18 @@
          <xsl:map-entry key="'ἀπειλοῦντας'" select="'ἀπειλέω'"/>
          <xsl:map-entry key="'ἀπειλοῦσιν'" select="'ἀπειλέω'"/>
          <xsl:map-entry key="'ἄπειμι'" select="'ἄπειμι'"/>
-         <xsl:map-entry key="'ἀπεῖπον'" select="'ἀπεῖπον'"/>
+         <xsl:map-entry key="'ἀπεῖπον'" select="'ἀπολέγω'"/>
          <xsl:map-entry key="'ἀπείραστον'" select="'ἀπείραστος'"/>
          <xsl:map-entry key="'ἀπείραστος'" select="'ἀπείραστος'"/>
-         <xsl:map-entry key="'ἀπειρημένας'" select="'ἀπό-ἐρῶ'"/>
+         <xsl:map-entry key="'ἀπειρημένας'" select="'ἀπολέγω'"/>
          <xsl:map-entry key="'απειρημενου'" select="'ἀπολέγω'"/>
          <xsl:map-entry key="'ἀπειρημένων'" select="'ἀπολέγω'"/>
          <xsl:map-entry key="'ἄπειροι'" select="'ἄπειρος'"/>
          <xsl:map-entry key="'απειρον'" select="'ἄπειρος'"/>
          <xsl:map-entry key="'ἄπειρος'" select="'ἄπειρος'"/>
          <xsl:map-entry key="'Ἄπειρος'" select="'ἄπειρος'"/>
+         <xsl:map-entry key="'ἀπείρου'" select="'ἄπειρος'"/>
+         <xsl:map-entry key="'ἄπεισι'" select="'ἄπειμι'"/>
          <xsl:map-entry key="'ἀπείχοντο'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀπεκάλει'" select="'ἀποκαλέω'"/>
          <xsl:map-entry key="'απεκαλυψεν'" select="'ἀποκαλύπτω'"/>
@@ -2947,11 +3147,14 @@
          <xsl:map-entry key="'ἀπεκδύομαι'" select="'ἀπεκδύομαι'"/>
          <xsl:map-entry key="'ἀπεκδυσάμενον'" select="'ἀπεκδύομαι'"/>
          <xsl:map-entry key="'ἀπεκδυσάμενος'" select="'ἀπεκδύομαι'"/>
+         <xsl:map-entry key="'ἀπέκοψεν'" select="'ἀποκόπτω'"/>
          <xsl:map-entry key="'απεκρινατο'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'ἀπεκρίνατο'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'ἀπέκτειναν'" select="'ἀποκτείνω'"/>
          <xsl:map-entry key="'ἀπέκτεινε'" select="'ἀποκτείνω'"/>
          <xsl:map-entry key="'ἀπέκτεννεν'" select="'ἀποκτείνω'"/>
+         <xsl:map-entry key="'ἀπεκώλυσα'" select="'ἀποκωλύω'"/>
+         <xsl:map-entry key="'ἀπέλαβεν'" select="'ἀπολαμβάνω'"/>
          <xsl:map-entry key="'ἀπελάσαι'" select="'ἀπελαύνω'"/>
          <xsl:map-entry key="'ἀπελάσεις'" select="'ἀπελαύνω'"/>
          <xsl:map-entry key="'ἀπελάσῃ'" select="'ἀπελαύνω'"/>
@@ -2963,6 +3166,8 @@
          <xsl:map-entry key="'ἀπελαύνων'" select="'ἀπελαύνω'"/>
          <xsl:map-entry key="'απελευθερουσα'" select="'ἀπελευθερόω'"/>
          <xsl:map-entry key="'ἀπελευθερόω'" select="'ἀπελευθερόω'"/>
+         <xsl:map-entry key="'ἀπελεύσεται'" select="'ἀπέρχομαι'"/>
+         <xsl:map-entry key="'ἀπελεύσομαι'" select="'ἀπέρχομαι'"/>
          <xsl:map-entry key="'ἀπελευσόμεθα'" select="'ἀπέρχομαι'"/>
          <xsl:map-entry key="'ἀπελθεῖν'" select="'ἀπέρχομαι'"/>
          <xsl:map-entry key="'ἀπέλθῃ'" select="'ἀπέρχομαι'"/>
@@ -2980,6 +3185,7 @@
          <xsl:map-entry key="'ἀπενεχθήσονταί'" select="'ἀποφέρω'"/>
          <xsl:map-entry key="'ἀπενθὴς'" select="'ἀπενθής'"/>
          <xsl:map-entry key="'ἀπενθής'" select="'ἀπενθής'"/>
+         <xsl:map-entry key="'ἀπεντεῦθεν'" select="'ἀπεντεῦθεν'"/>
          <xsl:map-entry key="'απεπεσον'" select="'ἀποπίπτω'"/>
          <xsl:map-entry key="'Απεραντον'" select="'ἀπέραντος'"/>
          <xsl:map-entry key="'ἀπέραντον'" select="'ἀπέραντος'"/>
@@ -2991,20 +3197,25 @@
          <xsl:map-entry key="'ἀπεργάζονται'" select="'ἀπεργάζομαι'"/>
          <xsl:map-entry key="'ἀπεργασάμενος'" select="'ἀπεργάζομαι'"/>
          <xsl:map-entry key="'ἀπερίεργον'" select="'ἀπερίεργος'"/>
+         <xsl:map-entry key="'ἀπερίεργος'" select="'ἀπερίεργος'"/>
          <xsl:map-entry key="'ἀπερίληπτος'" select="'ἀπερίληπτος'"/>
          <xsl:map-entry key="'ἀπεριλήπτου'" select="'ἀπερίληπτος'"/>
+         <xsl:map-entry key="'ἀπεριόριστον'" select="'ἀπεριόριστος'"/>
+         <xsl:map-entry key="'ἀπεριόριστος'" select="'ἀπεριόριστος'"/>
          <xsl:map-entry key="'ἀπερίσκεπτος'" select="'ἀπερίσκεπτος'"/>
-         <xsl:map-entry key="'απερισκεπτως'" select="'ἀπερίσκεπτος'"/>
-         <xsl:map-entry key="'ἀπερισκέπτως'" select="'ἀπερίσκεπτος'"/>
+         <xsl:map-entry key="'απερισκεπτως'" select="'ἀπερισκέπτως'"/>
+         <xsl:map-entry key="'ἀπερισκέπτως'" select="'ἀπερισκέπτως'"/>
          <xsl:map-entry key="'ἀπερίσπαστος'" select="'ἀπερίσπαστος'"/>
          <xsl:map-entry key="'Ἀπερίσπαστος'" select="'ἀπερίσπαστος'"/>
          <xsl:map-entry key="'ἀπερισπάστους'" select="'ἀπερίσπαστος'"/>
-         <xsl:map-entry key="'ἀπερισπάστως'" select="'ἀπερίσπαστος'"/>
+         <xsl:map-entry key="'ἀπερισπάστως'" select="'ἀπερισπάστως'"/>
          <xsl:map-entry key="'ἀπερίτμητος'" select="'ἀπερίτμητος'"/>
          <xsl:map-entry key="'ἀπεριτμήτων'" select="'ἀπερίτμητος'"/>
          <xsl:map-entry key="'ἀπέῤῥηξε'" select="'ἀπορρήγνυμι'"/>
          <xsl:map-entry key="'ἀπέρχεται'" select="'ἀπέρχομαι'"/>
          <xsl:map-entry key="'ἀπέρχομαι'" select="'ἀπέρχομαι'"/>
+         <xsl:map-entry key="'ἀπέσπασέν'" select="'ἀποσπάω'"/>
+         <xsl:map-entry key="'ἀπέσταλκέ'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'ἀπέστειλα'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'απεστειλας'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'ἀπέστειλας'" select="'ἀποστέλλω'"/>
@@ -3035,6 +3246,8 @@
          <xsl:map-entry key="'απεχεσθαι'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀπέχεσθαι'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀπέχεται'" select="'ἀπέχω'"/>
+         <xsl:map-entry key="'ἀπέχθεια'" select="'ἀπέχθεια'"/>
+         <xsl:map-entry key="'ἀπεχθείας'" select="'ἀπέχθεια'"/>
          <xsl:map-entry key="'ἀπέχοιτο'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀπέχομεν'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀπεχόμενοι'" select="'ἀπέχω'"/>
@@ -3053,6 +3266,7 @@
          <xsl:map-entry key="'ἀπήλαυσα'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'ἀπήλαυσαν'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'απηλευθερωται'" select="'ἀπελευθερόω'"/>
+         <xsl:map-entry key="'ἀπηλλάγη'" select="'ἀπαλλαξείω'"/>
          <xsl:map-entry key="'ἀπήλλακται'" select="'ἀπαλλαξείω'"/>
          <xsl:map-entry key="'ἀπήλλαξεν'" select="'ἀπαλλαξείω'"/>
          <xsl:map-entry key="'ἀπηλλοτριώθησαν'" select="'ἀπαλλοτριόω'"/>
@@ -3065,6 +3279,7 @@
          <xsl:map-entry key="'Ἄπιθι'" select="'ἄπειμι'"/>
          <xsl:map-entry key="'ἀπιοῦσι'" select="'ἄπειμι'"/>
          <xsl:map-entry key="'ἄπιστα'" select="'ἄπιστος'"/>
+         <xsl:map-entry key="'ἀπιστεῖν'" select="'ἀπιστέω'"/>
          <xsl:map-entry key="'ἀπιστέω'" select="'ἀπιστέω'"/>
          <xsl:map-entry key="'ἀπιστήσας'" select="'ἀπιστέω'"/>
          <xsl:map-entry key="'ἀπιστία'" select="'ἀπιστία'"/>
@@ -3075,9 +3290,10 @@
          <xsl:map-entry key="'ἄπιστον'" select="'ἄπιστος'"/>
          <xsl:map-entry key="'ἄπιστος'" select="'ἄπιστος'"/>
          <xsl:map-entry key="'ἀπίστων'" select="'ἄπιστος'"/>
+         <xsl:map-entry key="'ἁπλᾶ'" select="'ἁπλόος'"/>
          <xsl:map-entry key="'ἀπλανής'" select="'ἀπλανής'"/>
          <xsl:map-entry key="'ἀπλανοῦς'" select="'ἀπλανής'"/>
-         <xsl:map-entry key="'ἀπλανῶς'" select="'ἀπλανής'"/>
+         <xsl:map-entry key="'ἀπλανῶς'" select="'ἀπλανῶς'"/>
          <xsl:map-entry key="'απλη'" select="'ἁπλός'"/>
          <xsl:map-entry key="'ἁπλῆ'" select="'ἁπλόος'"/>
          <xsl:map-entry key="'ἀπληξία'" select="'ἀπληξία'"/>
@@ -3099,15 +3315,17 @@
          <xsl:map-entry key="'ἁπλουστέρων'" select="'ἁπλόος'"/>
          <xsl:map-entry key="'απλουυν'" select="'ἁπλόος'"/>
          <xsl:map-entry key="'απλων'" select="'ἁπλόος'"/>
-         <xsl:map-entry key="'απλως'" select="'ἁπλόος'"/>
-         <xsl:map-entry key="'ἁπλῶς'" select="'ἁπλός'"/>
-         <xsl:map-entry key="'ἀπό-ἐρῶ'" select="'ἀπό-ἐρῶ'"/>
+         <xsl:map-entry key="'απλως'" select="'ἁπλῶς'"/>
+         <xsl:map-entry key="'ἁπλῶς'" select="'ἁπλῶς'"/>
          <xsl:map-entry key="'ἀποβαίνω'" select="'ἀποβαίνω'"/>
+         <xsl:map-entry key="'ἀποβαλεῖν'" select="'ἀποβάλλω'"/>
+         <xsl:map-entry key="'ἀποβάλῃ'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'αποβαληι'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβάλλει'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβάλλειν'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβάλλω'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβάλλων'" select="'ἀποβάλλω'"/>
+         <xsl:map-entry key="'ἀποβαλόντες'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβαλὼν'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβαλών'" select="'ἀποβάλλω'"/>
          <xsl:map-entry key="'ἀποβάλωσι'" select="'ἀποβάλλω'"/>
@@ -3128,6 +3346,7 @@
          <xsl:map-entry key="'ἀπόγνωσιν'" select="'ἀπόγνωσις'"/>
          <xsl:map-entry key="'ἀπόγνωσις'" select="'ἀπόγνωσις'"/>
          <xsl:map-entry key="'ἀπογραφή'" select="'ἀπογραφή'"/>
+         <xsl:map-entry key="'ἀποδεδωκὼς'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'αποδεικνυει'" select="'ἀποδείκνυμι'"/>
          <xsl:map-entry key="'ἀποδείκνυμι'" select="'ἀποδείκνυμι'"/>
          <xsl:map-entry key="'αποδεικνυντος'" select="'ἀποδείκνυμι'"/>
@@ -3146,6 +3365,8 @@
          <xsl:map-entry key="'αποδειξις'" select="'ἀπόδειξις'"/>
          <xsl:map-entry key="'Αποδειξις'" select="'ἀπόδειξις'"/>
          <xsl:map-entry key="'ἀπόδειξις'" select="'ἀπόδειξις'"/>
+         <xsl:map-entry key="'ἀποδειχθεὶς'" select="'ἀποδείκνυμι'"/>
+         <xsl:map-entry key="'ἀποδειχθέντες'" select="'ἀποδείκνυμι'"/>
          <xsl:map-entry key="'ἀποδεξαμένου'" select="'ἀποδέχομαι'"/>
          <xsl:map-entry key="'ἀποδεσμεῖ'" select="'ἀποδεσμέω'"/>
          <xsl:map-entry key="'ἀποδεσμέω'" select="'ἀποδεσμέω'"/>
@@ -3164,6 +3385,8 @@
          <xsl:map-entry key="'ἀπόδημος'" select="'ἀπόδημος'"/>
          <xsl:map-entry key="'ἀποδήμων'" select="'ἀπόδημος'"/>
          <xsl:map-entry key="'ἀποδήσει'" select="'ἀποδέω'"/>
+         <xsl:map-entry key="'ἀποδίδει'" select="'ἀποδίδημι'"/>
+         <xsl:map-entry key="'ἀποδίδημι'" select="'ἀποδίδημι'"/>
          <xsl:map-entry key="'ἀποδιδόαμεν'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'αποδιδοναι'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδιδόναι'" select="'ἀποδίδωμι'"/>
@@ -3186,13 +3409,15 @@
          <xsl:map-entry key="'ἀποδόσεώς'" select="'ἀπόδοσις'"/>
          <xsl:map-entry key="'ἀπόδοσις'" select="'ἀπόδοσις'"/>
          <xsl:map-entry key="'ἀποδοῦναί'" select="'ἀποδίδωμι'"/>
+         <xsl:map-entry key="'ἀποδοῦναι'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδοχὴ'" select="'ἀποδοχή'"/>
          <xsl:map-entry key="'ἀποδοχή'" select="'ἀποδοχή'"/>
          <xsl:map-entry key="'ἀποδρᾷ'" select="'ἀποδράω'"/>
+         <xsl:map-entry key="'ἀποδρασμὸς'" select="'ἀποδρασμός'"/>
+         <xsl:map-entry key="'ἀποδρασμός'" select="'ἀποδρασμός'"/>
          <xsl:map-entry key="'ἀποδράω'" select="'ἀποδράω'"/>
          <xsl:map-entry key="'ἀποδύεται'" select="'ἀποδύω'"/>
-         <xsl:map-entry key="'ἀπόδυμα'" select="'ἀποδῦμα'"/>
-         <xsl:map-entry key="'ἀποδῦμα'" select="'ἀποδῦμα'"/>
+         <xsl:map-entry key="'ἀπόδυμα'" select="'ἀπόδυμα'"/>
          <xsl:map-entry key="'ἀποδυόμενος'" select="'ἀποδύω'"/>
          <xsl:map-entry key="'ἀποδύρεται'" select="'ἀποδύρομαι'"/>
          <xsl:map-entry key="'ἀποδύρομαι'" select="'ἀποδύρομαι'"/>
@@ -3203,15 +3428,19 @@
          <xsl:map-entry key="'αποδωις'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδῶμεν'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδῷς'" select="'ἀποδίδωμι'"/>
+         <xsl:map-entry key="'ἀποδώσει'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδώσειν'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποδώσεις'" select="'ἀποδίδωμι'"/>
+         <xsl:map-entry key="'ἀποδώσῃς'" select="'ἀποδίδωμι'"/>
          <xsl:map-entry key="'ἀποζεύγνυμαι'" select="'ἀποζεύγνυμαι'"/>
+         <xsl:map-entry key="'ἀποζεύγνυται'" select="'ἀποζεύγνυμαι'"/>
          <xsl:map-entry key="'ἀποζεύξῃ'" select="'ἀποζεύγνυμαι'"/>
          <xsl:map-entry key="'ἀποζευχθῇ'" select="'ἀποζεύγνυμαι'"/>
          <xsl:map-entry key="'ἀποθανεῖται'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθάνῃ'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθάνῃς'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθανόντα'" select="'ἀποθνήσκω'"/>
+         <xsl:map-entry key="'ἀποθανόντας'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθανόντος'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθανοῦμαι'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθανοῦνται'" select="'ἀποθνήσκω'"/>
@@ -3233,10 +3462,13 @@
          <xsl:map-entry key="'ἀποθνῄσκοντας'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθνῄσκοντες'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθνήσκοντες'" select="'ἀποθνήσκω'"/>
+         <xsl:map-entry key="'ἀποθνῄσκουσιν'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθνήσκω'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀποθνῄσκω'" select="'ἀποθνήσκω'"/>
+         <xsl:map-entry key="'ἀποθνῄσκων'" select="'ἀποθνήσκω'"/>
          <xsl:map-entry key="'ἀπόθοιτο'" select="'ἀποτίθημι'"/>
          <xsl:map-entry key="'ἀποθῶνται'" select="'ἀποτίθημι'"/>
+         <xsl:map-entry key="'ἀποίκιλος'" select="'ἀποίκιλος'"/>
          <xsl:map-entry key="'ἀποικίλου'" select="'ἀποίκιλος'"/>
          <xsl:map-entry key="'αποκαθαριζειν'" select="'ἀποκαθαρίζω'"/>
          <xsl:map-entry key="'ἀποκαθαρίζω'" select="'ἀποκαθαρίζω'"/>
@@ -3252,6 +3484,7 @@
          <xsl:map-entry key="'ἀποκαλοῦντες'" select="'ἀποκαλέω'"/>
          <xsl:map-entry key="'αποκαλυπτει'" select="'ἀποκαλύπτω'"/>
          <xsl:map-entry key="'Ἀποκαλύπτει'" select="'ἀποκαλύπτω'"/>
+         <xsl:map-entry key="'ἀποκαλύπτεσθαι'" select="'ἀποκαλύπτω'"/>
          <xsl:map-entry key="'αποκαλυπτεται'" select="'ἀποκαλύπτω'"/>
          <xsl:map-entry key="'ἀποκαλύπτεται'" select="'ἀποκαλύπτω'"/>
          <xsl:map-entry key="'ἀποκαλύπτον'" select="'ἀποκαλύπτω'"/>
@@ -3294,22 +3527,29 @@
          <xsl:map-entry key="'ἀποκλείω'" select="'ἀποκλείω'"/>
          <xsl:map-entry key="'ἀποκλινούσης'" select="'ἀποκλίνω'"/>
          <xsl:map-entry key="'ἀποκλίνω'" select="'ἀποκλίνω'"/>
+         <xsl:map-entry key="'ἀποκλίνων'" select="'ἀποκλίνω'"/>
          <xsl:map-entry key="'ἀποκοιμίζουσι'" select="'ἀποκοιμίζω'"/>
          <xsl:map-entry key="'ἀποκοιμίζω'" select="'ἀποκοιμίζω'"/>
          <xsl:map-entry key="'ἀποκομίζω'" select="'ἀποκομίζω'"/>
          <xsl:map-entry key="'ἀποκομίζων'" select="'ἀποκομίζω'"/>
          <xsl:map-entry key="'αποκοπτει'" select="'ἀποκρύπτω'"/>
+         <xsl:map-entry key="'ἀποκόπτω'" select="'ἀποκόπτω'"/>
          <xsl:map-entry key="'ἀποκόψει'" select="'ἀποκόπτω'"/>
          <xsl:map-entry key="'ἀποκρεμνάω'" select="'ἀποκρεμνάω'"/>
          <xsl:map-entry key="'ἀποκρεμνῶν'" select="'ἀποκρεμνάω'"/>
          <xsl:map-entry key="'ἀποκριθήσῃ'" select="'ἀποκρίνω'"/>
+         <xsl:map-entry key="'ἀποκρίθητι'" select="'ἀποκρίνω'"/>
+         <xsl:map-entry key="'ἀποκρίνεσθαι'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'Ἀποκρίνεται'" select="'ἀποκρίνω'"/>
+         <xsl:map-entry key="'ἀποκρίνεται'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'ἀποκρίνηται'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'αποκρινον'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'ἀποκρίνω'" select="'ἀποκρίνω'"/>
          <xsl:map-entry key="'ἀπόκρισιν'" select="'ἀπόκρισις'"/>
          <xsl:map-entry key="'ἀπόκρισις'" select="'ἀπόκρισις'"/>
+         <xsl:map-entry key="'Ἀπόκρισις'" select="'ἀπόκρισις'"/>
          <xsl:map-entry key="'αποκρουει'" select="'ἀποκρούω'"/>
+         <xsl:map-entry key="'ἀποκροῦσαι'" select="'ἀποκρούω'"/>
          <xsl:map-entry key="'ἀποκρούσηται'" select="'ἀποκρούω'"/>
          <xsl:map-entry key="'ἀποκρουσόμεθα'" select="'ἀποκρούω'"/>
          <xsl:map-entry key="'ἀποκρούω'" select="'ἀποκρούω'"/>
@@ -3334,11 +3574,13 @@
          <xsl:map-entry key="'ἀποκτείνω'" select="'ἀποκτείνω'"/>
          <xsl:map-entry key="'Ἀποκτενεῖ'" select="'ἀποκτείνω'"/>
          <xsl:map-entry key="'ἀποκτέννων'" select="'ἀποκτείνω'"/>
+         <xsl:map-entry key="'ἀποκωλύει'" select="'ἀποκωλύω'"/>
          <xsl:map-entry key="'ἀποκωλύουσιν'" select="'ἀποκωλύω'"/>
          <xsl:map-entry key="'ἀποκωλύω'" select="'ἀποκωλύω'"/>
          <xsl:map-entry key="'ἀπολαμβάνω'" select="'ἀπολαμβάνω'"/>
          <xsl:map-entry key="'ἀπολαύει'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'ἀπολαύειν'" select="'ἀπολαύω'"/>
+         <xsl:map-entry key="'ἀπολαύουσιν'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'ἀπολαῦσαι'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'ἀπολαύσει'" select="'ἀπολαύω'"/>
          <xsl:map-entry key="'ἀπόλαυσιν'" select="'ἀπόλαυσις'"/>
@@ -3368,18 +3610,21 @@
          <xsl:map-entry key="'αποληψεται'" select="'ἀπολαμβάνω'"/>
          <xsl:map-entry key="'ἀπολιμπάνω'" select="'ἀπολιμπάνω'"/>
          <xsl:map-entry key="'ἀπολιπών'" select="'ἀπολιμπάνω'"/>
+         <xsl:map-entry key="'ἀπολλύει'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλυμένῃ'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλύμενοι'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλυμένοις'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλύμενος'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλυμένῳ'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπόλλυμι'" select="'ἀπόλλυμι'"/>
+         <xsl:map-entry key="'ἀπολλυόμενος'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλύουσιν'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπόλλυσι'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπόλλυσιν'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπόλλυται'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολλύων'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολογέομαι'" select="'ἀπολογέομαι'"/>
+         <xsl:map-entry key="'ἀπολογησάμενος'" select="'ἀπολογέομαι'"/>
          <xsl:map-entry key="'ΑΠΟΛΟΓΙΑ'" select="'ἀπολογία'"/>
          <xsl:map-entry key="'ἀπολογία'" select="'ἀπολογία'"/>
          <xsl:map-entry key="'ἀπολογίᾳ'" select="'ἀπολογία'"/>
@@ -3388,15 +3633,22 @@
          <xsl:map-entry key="'ἀπολογουμένων'" select="'ἀπολογέομαι'"/>
          <xsl:map-entry key="'ἀπολοῦνται'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'Ἀπολοῦνται'" select="'ἀπόλλυμι'"/>
+         <xsl:map-entry key="'ἀπολύεσθαι'" select="'ἀπολύω'"/>
+         <xsl:map-entry key="'ἀπολυθεῖσαι'" select="'ἀπολύω'"/>
+         <xsl:map-entry key="'ἀπολυθῆναι'" select="'ἀπολύω'"/>
          <xsl:map-entry key="'ἀπολύουσιν'" select="'ἀπολύω'"/>
+         <xsl:map-entry key="'ἀπολύσῃ'" select="'ἀπολύω'"/>
          <xsl:map-entry key="'ἀπολύτρωσις'" select="'ἀπολύτρωσις'"/>
          <xsl:map-entry key="'ἀπολύω'" select="'ἀπολύω'"/>
          <xsl:map-entry key="'ἀπολωλὸς'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολωλός'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπολωλόσιν'" select="'ἀπόλλυμι'"/>
          <xsl:map-entry key="'ἀπονείματε'" select="'ἀπονέμω'"/>
+         <xsl:map-entry key="'ἀπονεμητικὴ'" select="'ἀπονεμητικός'"/>
+         <xsl:map-entry key="'ἀπονεμητικός'" select="'ἀπονεμητικός'"/>
          <xsl:map-entry key="'ἀπονέμοντι'" select="'ἀπονέμω'"/>
          <xsl:map-entry key="'ἀπονέμω'" select="'ἀπονέμω'"/>
+         <xsl:map-entry key="'ἀπονέμων'" select="'ἀπονέμω'"/>
          <xsl:map-entry key="'ἀπονοέομαι'" select="'ἀπονοέομαι'"/>
          <xsl:map-entry key="'ἀπονοίᾳ'" select="'ἀπόνοια'"/>
          <xsl:map-entry key="'ἀπόνοια'" select="'ἀπόνοια'"/>
@@ -3406,7 +3658,7 @@
          <xsl:map-entry key="'ἄπονος'" select="'ἄπονος'"/>
          <xsl:map-entry key="'ἀπόντα'" select="'ἄπειμι'"/>
          <xsl:map-entry key="'ἀπόνων'" select="'ἄπονος'"/>
-         <xsl:map-entry key="'ἀπόνως'" select="'ἄπονος'"/>
+         <xsl:map-entry key="'ἀπόνως'" select="'ἀπόνως'"/>
          <xsl:map-entry key="'ἀποξενόω'" select="'ἀποξενόω'"/>
          <xsl:map-entry key="'ἀποξενωθεὶς'" select="'ἀποξενόω'"/>
          <xsl:map-entry key="'ἀποξηραίνεσθαι'" select="'ἀποξηραίνω'"/>
@@ -3446,9 +3698,11 @@
          <xsl:map-entry key="'ἄπορος'" select="'ἄπορος'"/>
          <xsl:map-entry key="'ἀποροῦμεν'" select="'ἀπορέω'"/>
          <xsl:map-entry key="'ἀπορουμένη'" select="'ἀπορέω'"/>
+         <xsl:map-entry key="'ἀπορραγήσεται'" select="'ἀπορρήγνυμι'"/>
          <xsl:map-entry key="'ἀπορραίνω'" select="'ἀπορραίνω'"/>
          <xsl:map-entry key="'ἀπορρεῖ'" select="'ἀπορρέω'"/>
          <xsl:map-entry key="'ἀπορρέω'" select="'ἀπορρέω'"/>
+         <xsl:map-entry key="'ἀπορρηγνύμενον'" select="'ἀπορρήγνυμι'"/>
          <xsl:map-entry key="'ἀπορρήγνυμι'" select="'ἀπορρήγνυμι'"/>
          <xsl:map-entry key="'άπόρρητος'" select="'ἀπόρρητος'"/>
          <xsl:map-entry key="'ἀπόρρητος'" select="'ἀπόρρητος'"/>
@@ -3472,7 +3726,7 @@
          <xsl:map-entry key="'ἀποσκιρτάω'" select="'ἀποσκιρτάω'"/>
          <xsl:map-entry key="'ἀποσκιρτῶντα'" select="'ἀποσκιρτάω'"/>
          <xsl:map-entry key="'ἀπόσκληρος'" select="'ἀπόσκληρος'"/>
-         <xsl:map-entry key="'ἀποσκλήρως'" select="'ἀπόσκληρος'"/>
+         <xsl:map-entry key="'ἀποσκλήρως'" select="'ἀποσκλήρως'"/>
          <xsl:map-entry key="'ἀποσκοπεύει'" select="'ἀποσκοπεύω'"/>
          <xsl:map-entry key="'ἀποσκοπεύειν'" select="'ἀποσκοπεύω'"/>
          <xsl:map-entry key="'ἀποσκοπεύω'" select="'ἀποσκοπεύω'"/>
@@ -3480,8 +3734,10 @@
          <xsl:map-entry key="'ἀποσμήχω'" select="'ἀποσμήχω'"/>
          <xsl:map-entry key="'ἄποσον'" select="'ἄποσος'"/>
          <xsl:map-entry key="'ἄποσος'" select="'ἄποσος'"/>
+         <xsl:map-entry key="'Ἀποσπᾷ'" select="'ἀποσπάω'"/>
          <xsl:map-entry key="'αποσπαν'" select="'ἀποσπάω'"/>
          <xsl:map-entry key="'ἀποσπᾷν'" select="'ἀποσπάω'"/>
+         <xsl:map-entry key="'ἀποσπάσασθαι'" select="'ἀποσπάω'"/>
          <xsl:map-entry key="'ἀποσπάω'" select="'ἀποσπάω'"/>
          <xsl:map-entry key="'αποσπωνται'" select="'ἀποσπάω'"/>
          <xsl:map-entry key="'αποσπωσι'" select="'ἀποσπάω'"/>
@@ -3498,6 +3754,7 @@
          <xsl:map-entry key="'ἀποστατήσαντας'" select="'ἀποστατέω'"/>
          <xsl:map-entry key="'ἀποστάτου'" select="'ἀποστάτης'"/>
          <xsl:map-entry key="'αποστατων'" select="'ἀποστάτης'"/>
+         <xsl:map-entry key="'ἀποστεῖλαι'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'ἀποστείλῃ'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'ἀποστελεῖ'" select="'ἀποστέλλω'"/>
          <xsl:map-entry key="'ἀποστέλλει'" select="'ἀποστέλλω'"/>
@@ -3571,6 +3828,8 @@
          <xsl:map-entry key="'ἀποστροφὴ'" select="'ἀποστροφή'"/>
          <xsl:map-entry key="'ἀποσυλάω'" select="'ἀποσυλάω'"/>
          <xsl:map-entry key="'ἀποσυλήσωσι'" select="'ἀποσυλάω'"/>
+         <xsl:map-entry key="'ἀποσυνάγω'" select="'ἀποσυνάγω'"/>
+         <xsl:map-entry key="'ἀποσυνάγων'" select="'ἀποσυνάγω'"/>
          <xsl:map-entry key="'ἀποσφράγισμα'" select="'ἀποσφράγισμα'"/>
          <xsl:map-entry key="'ἀπόσχῃ'" select="'ἀπέχω'"/>
          <xsl:map-entry key="'ἀποσχόμενος'" select="'ἀπέχω'"/>
@@ -3585,19 +3844,23 @@
          <xsl:map-entry key="'ἀποτακτικὸς'" select="'ἀποτακτικός'"/>
          <xsl:map-entry key="'ἀποτακτικός'" select="'ἀποτακτικός'"/>
          <xsl:map-entry key="'ἀπόταξαι'" select="'ἀποτάσσω'"/>
+         <xsl:map-entry key="'ἀποταξαμένοις'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποταξάμενον'" select="'ἀποτάσσω'"/>
+         <xsl:map-entry key="'ἀποταξάμενος'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτάξασθαι'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτάξεως'" select="'ἀπόταξις'"/>
          <xsl:map-entry key="'ἀποτάξῃ'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀπόταξιν'" select="'ἀπόταξις'"/>
          <xsl:map-entry key="'ἀπόταξις'" select="'ἀπόταξις'"/>
          <xsl:map-entry key="'Ἀπόταξις'" select="'ἀπόταξις'"/>
+         <xsl:map-entry key="'ἀποτάσσεσθαι'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτάσσῃ'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτασσομένοις'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτασσόμενος'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'ἀποτάσσω'" select="'ἀποτάσσω'"/>
          <xsl:map-entry key="'αποτελει'" select="'ἀποτελέω'"/>
          <xsl:map-entry key="'ἀποτελεῖ'" select="'ἀποτελέω'"/>
+         <xsl:map-entry key="'ἀποτελεῖν'" select="'ἀποτελέω'"/>
          <xsl:map-entry key="'ἀποτέλεσμα'" select="'ἀποτέλεσμα'"/>
          <xsl:map-entry key="'ἀποτελεσμάτων'" select="'ἀποτέλεσμα'"/>
          <xsl:map-entry key="'ἀποτελεστικά'" select="'ἀποτελεστικός'"/>
@@ -3607,6 +3870,7 @@
          <xsl:map-entry key="'ἀποτέμνω'" select="'ἀποτέμνω'"/>
          <xsl:map-entry key="'ἀποτεμὼν'" select="'ἀποτέμνω'"/>
          <xsl:map-entry key="'ἀποτιθεμένη'" select="'ἀποτίθημι'"/>
+         <xsl:map-entry key="'ἀποτίθεται'" select="'ἀποτίθημι'"/>
          <xsl:map-entry key="'ἀποτίθημι'" select="'ἀποτίθημι'"/>
          <xsl:map-entry key="'ἀποτίνυμι'" select="'ἀποτίνυμι'"/>
          <xsl:map-entry key="'ἀποτρέχειν'" select="'ἀποτρέχω'"/>
@@ -3623,6 +3887,7 @@
          <xsl:map-entry key="'ἀποτυχὼν'" select="'ἀποτυγχάνω'"/>
          <xsl:map-entry key="'ἀπούσης'" select="'ἄπειμι'"/>
          <xsl:map-entry key="'ἀποφαίνεται'" select="'ἀποφαίνω'"/>
+         <xsl:map-entry key="'ἀποφαινομένους'" select="'ἀποφαίνω'"/>
          <xsl:map-entry key="'ἀποφαίνω'" select="'ἀποφαίνω'"/>
          <xsl:map-entry key="'ἀποφανῇς'" select="'ἀποφαίνω'"/>
          <xsl:map-entry key="'ἀποφέρω'" select="'ἀποφέρω'"/>
@@ -3642,15 +3907,20 @@
          <xsl:map-entry key="'ἀποχώρησις'" select="'ἀποχώρησις'"/>
          <xsl:map-entry key="'ἀποχωρίζει'" select="'ἀποχωρίζω'"/>
          <xsl:map-entry key="'ἀποχωρίζω'" select="'ἀποχωρίζω'"/>
-         <xsl:map-entry key="'ἁπράζοντας'" select="'ἀπορραίνω'"/>
+         <xsl:map-entry key="'ἀπρεπῆ'" select="'ἀπρεπής'"/>
+         <xsl:map-entry key="'ἀπρεπής'" select="'ἀπρεπής'"/>
+         <xsl:map-entry key="'ἀπροαίρετον'" select="'ἀπροαίρετος'"/>
+         <xsl:map-entry key="'ἀπροαίρετος'" select="'ἀπροαίρετος'"/>
          <xsl:map-entry key="'ἀπρονόητα'" select="'ἀπρονόητος'"/>
          <xsl:map-entry key="'ἀπρονόητος'" select="'ἀπρονόητος'"/>
          <xsl:map-entry key="'απροσδεης'" select="'ἀπροσδεής'"/>
          <xsl:map-entry key="'ἀπροσδεής'" select="'ἀπροσδεής'"/>
          <xsl:map-entry key="'απροσδοκητως'" select="'ἀπροσδοκήτως'"/>
-         <xsl:map-entry key="'ἀπροσδοκήτως'" select="'ἀπροσδόκητος'"/>
+         <xsl:map-entry key="'ἀπροσδοκήτως'" select="'ἀπροσδοκήτως'"/>
          <xsl:map-entry key="'ἀπρόσιτος'" select="'ἀπρόσιτος'"/>
          <xsl:map-entry key="'ἀπροσίτου'" select="'ἀπρόσιτος'"/>
+         <xsl:map-entry key="'ἄπταιστος'" select="'ἄπταιστος'"/>
+         <xsl:map-entry key="'ἀπταίστως'" select="'ἀπταίστως'"/>
          <xsl:map-entry key="'ἅπτεσθαι'" select="'ἅπτω'"/>
          <xsl:map-entry key="'ἅπτεσθε'" select="'ἅπτω'"/>
          <xsl:map-entry key="'απτεται'" select="'ἅπτω'"/>
@@ -3661,6 +3931,7 @@
          <xsl:map-entry key="'ἁπτομένου'" select="'ἅπτω'"/>
          <xsl:map-entry key="'ἅπτω'" select="'ἅπτω'"/>
          <xsl:map-entry key="'απυκεκρυμμενως'" select="'ἀποκρύπτω'"/>
+         <xsl:map-entry key="'ἀπωθεῖν'" select="'ἀπωθέω'"/>
          <xsl:map-entry key="'απωθεισθαι'" select="'ἀπωθέω'"/>
          <xsl:map-entry key="'ἀπωθεῖσθαι'" select="'ἀπωθέω'"/>
          <xsl:map-entry key="'ἀπωθείσθω'" select="'ἀπωθέω'"/>
@@ -3673,6 +3944,7 @@
          <xsl:map-entry key="'ἀπωθοῦνται'" select="'ἀπωθέω'"/>
          <xsl:map-entry key="'ἀπώλεια'" select="'ἀπώλεια'"/>
          <xsl:map-entry key="'ἀπωλείᾳ'" select="'ἀπώλεια'"/>
+         <xsl:map-entry key="'Ἀπώλεια'" select="'ἀπώλεια'"/>
          <xsl:map-entry key="'ἀπώλειαν'" select="'ἀπώλεια'"/>
          <xsl:map-entry key="'ἀπωλείας'" select="'ἀπώλεια'"/>
          <xsl:map-entry key="'ἀπώλεσας'" select="'ἀπόλλυμι'"/>
@@ -3702,7 +3974,10 @@
          <xsl:map-entry key="'ἀργὴν'" select="'ἀργός'"/>
          <xsl:map-entry key="'ἀργίᾳ'" select="'ἀργία'"/>
          <xsl:map-entry key="'ἀργία'" select="'ἀργία'"/>
+         <xsl:map-entry key="'ἀργολογία'" select="'ἀργολογία'"/>
+         <xsl:map-entry key="'ἀργολογίας'" select="'ἀργολογία'"/>
          <xsl:map-entry key="'ἀργός'" select="'ἀργός'"/>
+         <xsl:map-entry key="'ἀργοῦ'" select="'ἀργός'"/>
          <xsl:map-entry key="'αργυριον'" select="'ἀργύριον'"/>
          <xsl:map-entry key="'ἀργύριον'" select="'ἀργύριον'"/>
          <xsl:map-entry key="'ἁργύριον'" select="'ἀργύριον'"/>
@@ -3716,7 +3991,7 @@
          <xsl:map-entry key="'ἀρδεύω'" select="'ἀρδεύω'"/>
          <xsl:map-entry key="'ἄρδω'" select="'ἄρδω'"/>
          <xsl:map-entry key="'αρει'" select="'αἴρω'"/>
-         <xsl:map-entry key="'ἀρέσει'" select="'ἄρεσις'"/>
+         <xsl:map-entry key="'ἀρέσει'" select="'ἀρέσκω'"/>
          <xsl:map-entry key="'ἀρέσῃ'" select="'ἀρέσκω'"/>
          <xsl:map-entry key="'ἄρεσις'" select="'ἄρεσις'"/>
          <xsl:map-entry key="'ἀρέσκει'" select="'ἀρέσκω'"/>
@@ -3743,6 +4018,7 @@
          <xsl:map-entry key="'ἀρετὴ'" select="'ἀρετή'"/>
          <xsl:map-entry key="'Ἀρετὴ'" select="'ἀρετή'"/>
          <xsl:map-entry key="'ἀρετῇ'" select="'ἀρετή'"/>
+         <xsl:map-entry key="'Ἀρετή'" select="'ἀρετή'"/>
          <xsl:map-entry key="'αρετηι'" select="'ἀρετή'"/>
          <xsl:map-entry key="'αρετην'" select="'ἀρετή'"/>
          <xsl:map-entry key="'ἀρετήν'" select="'ἀρετή'"/>
@@ -3757,11 +4033,15 @@
          <xsl:map-entry key="'ἀρθείσης'" select="'ἀραρίσκω'"/>
          <xsl:map-entry key="'αρθεντος'" select="'αἴρω'"/>
          <xsl:map-entry key="'αρθεντων'" select="'αἴρω'"/>
+         <xsl:map-entry key="'ἀρθῇ'" select="'αἴρω'"/>
          <xsl:map-entry key="'αρθηι'" select="'αἴρω'"/>
          <xsl:map-entry key="'αρθησεται'" select="'αἴρω'"/>
          <xsl:map-entry key="'ἀρθήσεται'" select="'αἴρω'"/>
          <xsl:map-entry key="'ἀριθμεῖ'" select="'ἀριθμέω'"/>
+         <xsl:map-entry key="'ἀριθμεῖσθαι'" select="'ἀριθμέω'"/>
          <xsl:map-entry key="'ἀριθμέω'" select="'ἀριθμέω'"/>
+         <xsl:map-entry key="'ἀριθμηθῆναι'" select="'ἀριθμέω'"/>
+         <xsl:map-entry key="'ἀριθμῆσαι'" select="'ἀριθμέω'"/>
          <xsl:map-entry key="'ἀριθμητὰ'" select="'ἀριθμητός'"/>
          <xsl:map-entry key="'ἀριθμητός'" select="'ἀριθμητός'"/>
          <xsl:map-entry key="'αριθμοι'" select="'ἀριθμός'"/>
@@ -3772,6 +4052,7 @@
          <xsl:map-entry key="'ἀριθμὸς'" select="'ἀριθμός'"/>
          <xsl:map-entry key="'αριθμου'" select="'ἀριθμός'"/>
          <xsl:map-entry key="'ἀριθμοῦ'" select="'ἀριθμός'"/>
+         <xsl:map-entry key="'ἀριθμούμενον'" select="'ἀριθμέω'"/>
          <xsl:map-entry key="'αριθμῳ'" select="'ἀριθμός'"/>
          <xsl:map-entry key="'ἀριθμῷ'" select="'ἀριθμός'"/>
          <xsl:map-entry key="'Ἀριθμῷ'" select="'ἀριθμός'"/>
@@ -3782,6 +4063,7 @@
          <xsl:map-entry key="'ἀριστεῖος'" select="'ἀριστεῖος'"/>
          <xsl:map-entry key="'ἀριστείων'" select="'ἀριστεῖος'"/>
          <xsl:map-entry key="'ἀριστερά'" select="'ἀριστερός'"/>
+         <xsl:map-entry key="'ἀριστερὰ'" select="'ἀριστερός'"/>
          <xsl:map-entry key="'ἀριστερός'" select="'ἀριστερός'"/>
          <xsl:map-entry key="'ἀριστερῶν'" select="'ἀριστερός'"/>
          <xsl:map-entry key="'ἀριστεύῃ'" select="'ἀριστεύω'"/>
@@ -3795,10 +4077,11 @@
          <xsl:map-entry key="'ἄριστος'" select="'ἄριστος'"/>
          <xsl:map-entry key="'Ἀριστοτέλης'" select="'Ἀριστοτέλης'"/>
          <xsl:map-entry key="'Ἀριστοτέλους'" select="'Ἀριστοτέλης'"/>
-         <xsl:map-entry key="'ἀρίστῳ'" select="'ἄριστον'"/>
+         <xsl:map-entry key="'ἀρίστῳ'" select="'ἄριστος'"/>
          <xsl:map-entry key="'ἀρίστων'" select="'ἄριστος'"/>
-         <xsl:map-entry key="'ἀρίστως'" select="'ἄριστος'"/>
+         <xsl:map-entry key="'ἀρίστως'" select="'ἀρίστως'"/>
          <xsl:map-entry key="'Ἀρκεῖ'" select="'ἀρκέω'"/>
+         <xsl:map-entry key="'ἀρκεῖ'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'αρκεισθω'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκείσθω'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκεῖται'" select="'ἀρκέω'"/>
@@ -3808,6 +4091,7 @@
          <xsl:map-entry key="'ἀρκεσθεὶς'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκεσθησόμεθα'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκέσθητι'" select="'ἀρκέω'"/>
+         <xsl:map-entry key="'ἀρκεσθῶμεν'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκέω'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκούμενοι'" select="'ἀρκέω'"/>
          <xsl:map-entry key="'ἀρκοῦντα'" select="'ἀρκέω'"/>
@@ -3824,16 +4108,18 @@
          <xsl:map-entry key="'ἄρμα'" select="'ἄρμα'"/>
          <xsl:map-entry key="'Ἅρμα'" select="'ἅρμα'"/>
          <xsl:map-entry key="'ἅρμασιν'" select="'ἅρμα'"/>
-         <xsl:map-entry key="'ἄρματα'" select="'ἄρμα'"/>
+         <xsl:map-entry key="'ἅρματα'" select="'ἄρμα'"/>
          <xsl:map-entry key="'ἁρμόδιος'" select="'ἁρμόδιος'"/>
-         <xsl:map-entry key="'ἁρμοδίως'" select="'ἁρμόδιος'"/>
+         <xsl:map-entry key="'ἁρμοδίως'" select="'ἁρμοδίως'"/>
          <xsl:map-entry key="'αρμοζει'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμόζει'" select="'ἁρμόζω'"/>
+         <xsl:map-entry key="'ἁρμόζον'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμόζοντα'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμόζοντας'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμόζουσα'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'αρμοζουσας'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμοζούσας'" select="'ἁρμόζω'"/>
+         <xsl:map-entry key="'ἁρμοζούσης'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμόζω'" select="'ἁρμόζω'"/>
          <xsl:map-entry key="'ἁρμονία'" select="'ἁρμονία'"/>
          <xsl:map-entry key="'ἁρμονίαν'" select="'ἁρμονία'"/>
@@ -3846,9 +4132,11 @@
          <xsl:map-entry key="'ἀρνησάμενος'" select="'ἀρνέομαι'"/>
          <xsl:map-entry key="'ἀρνησάμενός'" select="'ἀρνέομαι'"/>
          <xsl:map-entry key="'ἀρνήσῃ'" select="'ἀρνέομαι'"/>
+         <xsl:map-entry key="'ἄρνησιν'" select="'ἄρνησις'"/>
          <xsl:map-entry key="'ἄρνησις'" select="'ἄρνησις'"/>
          <xsl:map-entry key="'ἀρνία'" select="'ἀρνίον'"/>
          <xsl:map-entry key="'ἀρνίον'" select="'ἀρνίον'"/>
+         <xsl:map-entry key="'ἀρνὸν'" select="'ἀρνός'"/>
          <xsl:map-entry key="'ἀρνός'" select="'ἀρνός'"/>
          <xsl:map-entry key="'ἀρνοῦ'" select="'ἀρνέομαι'"/>
          <xsl:map-entry key="'αρνουμαι'" select="'ἀρνέομαι'"/>
@@ -3859,6 +4147,8 @@
          <xsl:map-entry key="'ἀρξάμενος'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἀρξαμένων'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἄρξαντα'" select="'ἄρχω'"/>
+         <xsl:map-entry key="'ἄρξαντες'" select="'ἄρχω'"/>
+         <xsl:map-entry key="'ἄρξειν'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἄρξῃ'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἄρξηται'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἄρξουσι'" select="'ἄρχω'"/>
@@ -3869,6 +4159,7 @@
          <xsl:map-entry key="'ἀροτριάσαντες'" select="'ἀροτριάω'"/>
          <xsl:map-entry key="'ἀροτριάω'" select="'ἀροτριάω'"/>
          <xsl:map-entry key="'ἁρπαγέντος'" select="'ἁρπάζω'"/>
+         <xsl:map-entry key="'ἁρπαγὴν'" select="'ἁρπαγή'"/>
          <xsl:map-entry key="'ἁρπάζει'" select="'ἁρπάζω'"/>
          <xsl:map-entry key="'ἁρπάζειν'" select="'ἁρπάζω'"/>
          <xsl:map-entry key="'Ἁρπάζεται'" select="'ἁρπάζω'"/>
@@ -3884,7 +4175,9 @@
          <xsl:map-entry key="'ἁρπάσῃ'" select="'ἁρπάζω'"/>
          <xsl:map-entry key="'αρραβων'" select="'ἀρραβών'"/>
          <xsl:map-entry key="'ἀρραβών'" select="'ἀρραβών'"/>
+         <xsl:map-entry key="'ἀρραγεῖς'" select="'ἀρραγής'"/>
          <xsl:map-entry key="'ἀρραγὴς'" select="'ἀρραγής'"/>
+         <xsl:map-entry key="'ἀρραγής'" select="'ἀρραγής'"/>
          <xsl:map-entry key="'ἀρρένων'" select="'ἄρσην'"/>
          <xsl:map-entry key="'ἀρρενωπός'" select="'ἀρρενωπός'"/>
          <xsl:map-entry key="'ἀρρενωποὺς'" select="'ἀρρενωπός'"/>
@@ -3908,19 +4201,21 @@
          <xsl:map-entry key="'ἀῤῥωστίαν'" select="'ἀρρωστία'"/>
          <xsl:map-entry key="'ἀρρωστίας'" select="'ἀρρωστία'"/>
          <xsl:map-entry key="'ἀῤῥωστίας'" select="'ἀρρωστία'"/>
+         <xsl:map-entry key="'ἄρρωστον'" select="'ἄρρωστος'"/>
          <xsl:map-entry key="'ἄρρωστος'" select="'ἄρρωστος'"/>
          <xsl:map-entry key="'ἀρρωστοῦντες'" select="'ἀρρωστέω'"/>
          <xsl:map-entry key="'ἀρρωστοῦντος'" select="'ἀρρωστέω'"/>
          <xsl:map-entry key="'ἀῤῥωστοῦντος'" select="'ἀρρωστέω'"/>
          <xsl:map-entry key="'ἀρρώστων'" select="'ἄρρωστος'"/>
          <xsl:map-entry key="'ἀῤῥώστων'" select="'ἄρρωστος'"/>
-         <xsl:map-entry key="'ἄρσεν'" select="'ἄρδω'"/>
+         <xsl:map-entry key="'ἄρσεν'" select="'ἄρσην'"/>
          <xsl:map-entry key="'ἄρσεων'" select="'ἄρσις'"/>
          <xsl:map-entry key="'ἄρσην'" select="'ἄρσην'"/>
          <xsl:map-entry key="'ἄρσις'" select="'ἄρσις'"/>
+         <xsl:map-entry key="'ἀρτάω'" select="'ἀρτάω'"/>
          <xsl:map-entry key="'ἄρτι'" select="'ἄρτι'"/>
          <xsl:map-entry key="'ἄρτιος'" select="'ἄρτιος'"/>
-         <xsl:map-entry key="'ἀρτίως'" select="'ἄρτιος'"/>
+         <xsl:map-entry key="'ἀρτίως'" select="'ἀρτίως'"/>
          <xsl:map-entry key="'ἄρτοις'" select="'ἄρτος'"/>
          <xsl:map-entry key="'ἄρτον'" select="'ἄρτος'"/>
          <xsl:map-entry key="'Ἄρτον'" select="'ἄρτος'"/>
@@ -3936,12 +4231,14 @@
          <xsl:map-entry key="'ἄρτων'" select="'ἄρτος'"/>
          <xsl:map-entry key="'ἀρχαγγελικῆς'" select="'ἀρχαγγελικός'"/>
          <xsl:map-entry key="'ἀρχαγγελικός'" select="'ἀρχαγγελικός'"/>
+         <xsl:map-entry key="'ἀρχαγγέλοις'" select="'ἀρχάγγελος'"/>
          <xsl:map-entry key="'ἀρχάγγελον'" select="'ἀρχάγγελος'"/>
          <xsl:map-entry key="'Αρχαγγελος'" select="'ἀρχάγγελος'"/>
          <xsl:map-entry key="'ἀρχάγγελος'" select="'ἀρχάγγελος'"/>
          <xsl:map-entry key="'ἀρχαγγέλων'" select="'ἀρχάγγελος'"/>
          <xsl:map-entry key="'ἀρχαὶ'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχαία'" select="'ἀρχαῖος'"/>
+         <xsl:map-entry key="'ἀρχαῖα'" select="'ἀρχαῖος'"/>
          <xsl:map-entry key="'ἀρχαίαν'" select="'ἀρχαῖος'"/>
          <xsl:map-entry key="'ἀρχαίας'" select="'ἀρχαῖος'"/>
          <xsl:map-entry key="'ἀρχαίοις'" select="'ἀρχαῖος'"/>
@@ -3950,15 +4247,19 @@
          <xsl:map-entry key="'αρχαιοτερα'" select="'ἀρχαῖος'"/>
          <xsl:map-entry key="'ἀρχαῖς'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχαίων'" select="'ἀρχαῖος'"/>
+         <xsl:map-entry key="'ἀρχάριος'" select="'ἀρχάριος'"/>
+         <xsl:map-entry key="'ἀρχαρίων'" select="'ἀρχάριος'"/>
          <xsl:map-entry key="'αρχας'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχάς'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχὰς'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἄρχειν'" select="'ἄρχω'"/>
+         <xsl:map-entry key="'ἄρχεις'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἄρχεται'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἀρχέτυπα'" select="'ἀρχέτυπος'"/>
          <xsl:map-entry key="'ἀρχέτυπον'" select="'ἀρχέτυπος'"/>
          <xsl:map-entry key="'ἀρχέτυπος'" select="'ἀρχέτυπος'"/>
          <xsl:map-entry key="'αρχετυπου'" select="'ἀρχέτυπος'"/>
+         <xsl:map-entry key="'ἀρχετύπῳ'" select="'ἀρχέτυπος'"/>
          <xsl:map-entry key="'αρχη'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχή'" select="'ἀρχή'"/>
          <xsl:map-entry key="'ἀρχὴ'" select="'ἀρχή'"/>
@@ -3981,12 +4282,14 @@
          <xsl:map-entry key="'Αρχιερευς'" select="'ἀρχιερεύς'"/>
          <xsl:map-entry key="'ἀρχιερεύς'" select="'ἀρχιερεύς'"/>
          <xsl:map-entry key="'ἀρχιερεὺς'" select="'ἀρχιερεύς'"/>
+         <xsl:map-entry key="'ἀρχιερέως'" select="'ἀρχιερεύς'"/>
          <xsl:map-entry key="'αρχικαι'" select="'ἀρχικός'"/>
          <xsl:map-entry key="'αρχικας'" select="'ἀρχικός'"/>
          <xsl:map-entry key="'αρχικηι'" select="'ἀρχικός'"/>
          <xsl:map-entry key="'ἀρχικός'" select="'ἀρχικός'"/>
          <xsl:map-entry key="'ἀρχιλῃστὴς'" select="'ἀρχιλῃστής'"/>
          <xsl:map-entry key="'ἀρχιλῃστής'" select="'ἀρχιλῃστής'"/>
+         <xsl:map-entry key="'ἀρχόμεθα'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἀρχόμενοι'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἀρχομένοις'" select="'ἄρχω'"/>
          <xsl:map-entry key="'ἀρχόμενος'" select="'ἄρχω'"/>
@@ -4006,19 +4309,21 @@
          <xsl:map-entry key="'ἄρωμα'" select="'ἄρωμα'"/>
          <xsl:map-entry key="'ἀρώματά'" select="'ἄρωμα'"/>
          <xsl:map-entry key="'ἀρώματα'" select="'ἄρωμα'"/>
-         <xsl:map-entry key="'ᾆσαι'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾆσαι'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἀσάλευτον'" select="'ἀσάλευτος'"/>
          <xsl:map-entry key="'ἀσάλευτος'" select="'ἀσάλευτος'"/>
          <xsl:map-entry key="'ἄσαρκος'" select="'ἄσαρκος'"/>
-         <xsl:map-entry key="'ᾄσατε'" select="'ἀείδω'"/>
-         <xsl:map-entry key="'ᾀσάτωσαν'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄσατε'" select="'ᾄδω'"/>
+         <xsl:map-entry key="'ᾀσάτωσαν'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἄσβεστον'" select="'ἄσβεστος'"/>
          <xsl:map-entry key="'ἄσβεστος'" select="'ἄσβεστος'"/>
+         <xsl:map-entry key="'ἀσεβεῖ'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσέβεια'" select="'ἀσέβεια'"/>
          <xsl:map-entry key="'ἀσεβείᾳ'" select="'ἀσέβεια'"/>
          <xsl:map-entry key="'ἀσεβείαις'" select="'ἀσέβεια'"/>
          <xsl:map-entry key="'ἀσέβειαν'" select="'ἀσέβεια'"/>
          <xsl:map-entry key="'ἀσεβείας'" select="'ἀσέβεια'"/>
+         <xsl:map-entry key="'ἀσεβεῖν'" select="'ἀσεβέω'"/>
          <xsl:map-entry key="'ασεβεις'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσεβεῖς'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσεβειῶν'" select="'ἀσέβεια'"/>
@@ -4030,10 +4335,12 @@
          <xsl:map-entry key="'ασεβης'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσεβής'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσεβὴς'" select="'ἀσεβής'"/>
+         <xsl:map-entry key="'ἀσεβήσασα'" select="'ἀσεβέω'"/>
+         <xsl:map-entry key="'ἀσεβήσῃς'" select="'ἀσεβέω'"/>
          <xsl:map-entry key="'ἀσεβοῦντες'" select="'ἀσεβέω'"/>
          <xsl:map-entry key="'ἀσεβοῦς'" select="'ἀσεβής'"/>
          <xsl:map-entry key="'ἀσεβῶν'" select="'ἀσεβής'"/>
-         <xsl:map-entry key="'ἀσεβῶς'" select="'ἀσεβής'"/>
+         <xsl:map-entry key="'ἀσεβῶς'" select="'ἀσεβῶς'"/>
          <xsl:map-entry key="'ἀσέλγεια'" select="'ἀσέλγεια'"/>
          <xsl:map-entry key="'ἀσέλγειαι'" select="'ἀσέλγεια'"/>
          <xsl:map-entry key="'ασελγειας'" select="'ἀσέλγεια'"/>
@@ -4056,6 +4363,7 @@
          <xsl:map-entry key="'Ἀσθενὴς'" select="'ἀσθενής'"/>
          <xsl:map-entry key="'ἀσθενήσαντος'" select="'ἀσθενέω'"/>
          <xsl:map-entry key="'ἀσθενήσας'" select="'ἀσθενέω'"/>
+         <xsl:map-entry key="'ἀσθενήσῃς'" select="'ἀσθενέω'"/>
          <xsl:map-entry key="'ασθενησουσιν'" select="'ἀσθενέω'"/>
          <xsl:map-entry key="'ασθενια'" select="'ἀσθένεια'"/>
          <xsl:map-entry key="'ἀσθενοῦντα'" select="'ἀσθενέω'"/>
@@ -4069,7 +4377,7 @@
          <xsl:map-entry key="'ἀσθενούσης'" select="'ἀσθενέω'"/>
          <xsl:map-entry key="'ἀσθενοῦσι'" select="'ἀσθενέω'"/>
          <xsl:map-entry key="'ἀσθενῶν'" select="'ἀσθενέω'"/>
-         <xsl:map-entry key="'ἀσθενῶς'" select="'ἀσθενής'"/>
+         <xsl:map-entry key="'ἀσθενῶς'" select="'ἀσθενῶς'"/>
          <xsl:map-entry key="'ἀσιτίᾳ'" select="'ἀσιτία'"/>
          <xsl:map-entry key="'ἀσιτία'" select="'ἀσιτία'"/>
          <xsl:map-entry key="'ἀσιτιῶν'" select="'ἀσιτία'"/>
@@ -4079,6 +4387,7 @@
          <xsl:map-entry key="'ἀσκεῖν'" select="'ἀσκέω'"/>
          <xsl:map-entry key="'ἀσκέω'" select="'ἀσκέω'"/>
          <xsl:map-entry key="'ἀσκήσας'" select="'ἀσκέω'"/>
+         <xsl:map-entry key="'ἀσκήσασι'" select="'ἀσκέω'"/>
          <xsl:map-entry key="'ἀσκήσει'" select="'ἄσκησις'"/>
          <xsl:map-entry key="'ἀσκήσεως'" select="'ἄσκησις'"/>
          <xsl:map-entry key="'ἀσκησέως'" select="'ἄσκησις'"/>
@@ -4094,9 +4403,10 @@
          <xsl:map-entry key="'ἄσμα'" select="'ἄσμα'"/>
          <xsl:map-entry key="'ᾌσμασι'" select="'ᾆσμα'"/>
          <xsl:map-entry key="'ᾌσμασιν'" select="'ᾆσμα'"/>
-         <xsl:map-entry key="'Ἄσματα'" select="'ἄσμα'"/>
+         <xsl:map-entry key="'Ἄσματα'" select="'ᾆσμα'"/>
+         <xsl:map-entry key="'ᾄσματα'" select="'ᾆσμα'"/>
          <xsl:map-entry key="'ᾀσμάτων'" select="'ᾆσμα'"/>
-         <xsl:map-entry key="'ᾄσομαί'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄσομαί'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ἄσοφον'" select="'ἄσοφος'"/>
          <xsl:map-entry key="'ἄσοφος'" select="'ἄσοφος'"/>
          <xsl:map-entry key="'ἀσπάζηται'" select="'ἀσπάζομαι'"/>
@@ -4112,8 +4422,10 @@
          <xsl:map-entry key="'ἄσπονδος'" select="'ἄσπονδος'"/>
          <xsl:map-entry key="'ἀσσάριον'" select="'ἀσσάριον'"/>
          <xsl:map-entry key="'ἀσσαρίου'" select="'ἀσσάριον'"/>
+         <xsl:map-entry key="'Ἀσσύριοι'" select="'Ἀσσύριος'"/>
          <xsl:map-entry key="'Ἀσσύριον'" select="'Ἀσσύριος'"/>
          <xsl:map-entry key="'Ἀσσύριος'" select="'Ἀσσύριος'"/>
+         <xsl:map-entry key="'Ἀσσυρίους'" select="'Ἀσσύριος'"/>
          <xsl:map-entry key="'ἀσταρὼθ'" select="'Ἀσταρώθ'"/>
          <xsl:map-entry key="'Ἀσταρὼθ'" select="'Ἀσταρώθ'"/>
          <xsl:map-entry key="'Ασταρωθ'" select="'Ἀσταρώθ'"/>
@@ -4158,7 +4470,9 @@
          <xsl:map-entry key="'ἄσυλος'" select="'ἄσυλος'"/>
          <xsl:map-entry key="'ἀσύλωτος'" select="'ἀσύλωτος'"/>
          <xsl:map-entry key="'ἀσυμπαθής'" select="'ἀσυμπαθής'"/>
-         <xsl:map-entry key="'ἀσυμπαθῶς'" select="'ἀσυμπαθής'"/>
+         <xsl:map-entry key="'ἀσυμπαθῶς'" select="'ἀσυμπαθῶς'"/>
+         <xsl:map-entry key="'ἀσυμφορία'" select="'ἀσυμφορία'"/>
+         <xsl:map-entry key="'ἀσυμφορίαν'" select="'ἀσυμφορία'"/>
          <xsl:map-entry key="'Ἀσύμφωνος'" select="'ἀσύμφωνος'"/>
          <xsl:map-entry key="'ἀσύμφωνος'" select="'ἀσύμφωνος'"/>
          <xsl:map-entry key="'ἀσυνάτων'" select="'ἀδύνατος'"/>
@@ -4167,56 +4481,67 @@
          <xsl:map-entry key="'ἀσυνέτων'" select="'ἀσύνετος'"/>
          <xsl:map-entry key="'ασυνθετον'" select="'ἀσύνθετος'"/>
          <xsl:map-entry key="'ἀσύνθετος'" select="'ἀσύνθετος'"/>
+         <xsl:map-entry key="'ἀσύνθετός'" select="'ἀσύνθετος'"/>
          <xsl:map-entry key="'ἀσφάλεια'" select="'ἀσφάλεια'"/>
          <xsl:map-entry key="'ἀσφάλειαν'" select="'ἀσφάλεια'"/>
          <xsl:map-entry key="'ἀσφαλείας'" select="'ἀσφάλεια'"/>
+         <xsl:map-entry key="'ἀσφαλὲς'" select="'ἀσφαλής'"/>
          <xsl:map-entry key="'ἀσφαλεστέρα'" select="'ἀσφαλής'"/>
          <xsl:map-entry key="'ἀσφαλέστερον'" select="'ἀσφαλής'"/>
          <xsl:map-entry key="'ἀσφαλέστερος'" select="'ἀσφαλής'"/>
          <xsl:map-entry key="'ἀσφαλής'" select="'ἀσφαλής'"/>
+         <xsl:map-entry key="'ἀσφαλίζεσθαι'" select="'ἀσφαλίζομαι'"/>
          <xsl:map-entry key="'Ἀσφαλιζέσθω'" select="'ἀσφαλίζομαι'"/>
-         <xsl:map-entry key="'ἀσφαλίζομαι'" select="'ἀσφαλίζομαι ἀσφαλίζω'"/>
+         <xsl:map-entry key="'ἀσφαλίζομαι'" select="'ἀσφαλίζομαι'"/>
          <xsl:map-entry key="'ἀσφαλιζομένη'" select="'ἀσφαλίζομαι'"/>
-         <xsl:map-entry key="'ἀσφαλιζομένου'" select="'ἀσφαλίζω'"/>
-         <xsl:map-entry key="'ἀσφαλίζω'" select="'ἀσφαλίζω'"/>
-         <xsl:map-entry key="'ἀσφαλῶς'" select="'ἀσφαλής'"/>
+         <xsl:map-entry key="'ἀσφαλιζομένου'" select="'ἀσφαλίζομαι'"/>
+         <xsl:map-entry key="'ἀσφαλίσασθαι'" select="'ἀσφαλίζομαι'"/>
+         <xsl:map-entry key="'ἀσφαλῶς'" select="'ἀσφαλῶς'"/>
          <xsl:map-entry key="'ἀσχημάτιστον'" select="'ἀσχημάτιστος'"/>
          <xsl:map-entry key="'ἀσχημάτιστος'" select="'ἀσχημάτιστος'"/>
          <xsl:map-entry key="'ἀσχημονεῖν'" select="'ἀσχημονέω'"/>
          <xsl:map-entry key="'ἀσχημονέω'" select="'ἀσχημονέω'"/>
          <xsl:map-entry key="'ἀσχημονῶν'" select="'ἀσχημονέω'"/>
-         <xsl:map-entry key="'ἀσχημόνως'" select="'ἀσχήμων'"/>
+         <xsl:map-entry key="'ἀσχημόνως'" select="'ἀσχημόνως'"/>
          <xsl:map-entry key="'ἀσχήμων'" select="'ἀσχήμων'"/>
          <xsl:map-entry key="'ἀσχολέω'" select="'ἀσχολέω'"/>
-         <xsl:map-entry key="'ᾄσω'" select="'ἀείδω'"/>
-         <xsl:map-entry key="'ᾌσω'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ἀσχολουμένης'" select="'ἀσχολέω'"/>
+         <xsl:map-entry key="'ᾄσω'" select="'ᾄδω'"/>
+         <xsl:map-entry key="'ᾌσω'" select="'ᾄδω'"/>
          <xsl:map-entry key="'ασωματα'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσώματα'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ασωματοις'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσωμάτοις'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ασωματον'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσώματον'" select="'ἀσώματος'"/>
+         <xsl:map-entry key="'ἀσώματόν'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσώματος'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ασωματου'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσωμάτου'" select="'ἀσώματος'"/>
+         <xsl:map-entry key="'ἀσωμάτῳ'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ασωματων'" select="'ἀσώματος'"/>
          <xsl:map-entry key="'ἀσωμάτων'" select="'ἀσώματος'"/>
-         <xsl:map-entry key="'ᾄσωμεν'" select="'ἀείδω'"/>
-         <xsl:map-entry key="'ᾌσωμεν'" select="'ἀείδω'"/>
+         <xsl:map-entry key="'ᾄσωμεν'" select="'ᾄδω'"/>
+         <xsl:map-entry key="'ᾌσωμεν'" select="'ᾄδω'"/>
          <xsl:map-entry key="'Ἀσωτία'" select="'ἀσωτία'"/>
          <xsl:map-entry key="'ἀσωτία'" select="'ἀσωτία'"/>
+         <xsl:map-entry key="'ἀτακτέω'" select="'ἀτακτέω'"/>
          <xsl:map-entry key="'ἄτακτος'" select="'ἄτακτος'"/>
          <xsl:map-entry key="'ἀτάκτους'" select="'ἄτακτος'"/>
          <xsl:map-entry key="'ἀτάκτων'" select="'ἄτακτος'"/>
+         <xsl:map-entry key="'ἀταξία'" select="'ἀταξία'"/>
+         <xsl:map-entry key="'ἀταξίαν'" select="'ἀταξία'"/>
          <xsl:map-entry key="'ἀταραξία'" select="'ἀταραξία'"/>
          <xsl:map-entry key="'ἀτάραχον'" select="'ἀτάραχος'"/>
          <xsl:map-entry key="'ἀτάραχος'" select="'ἀτάραχος'"/>
-         <xsl:map-entry key="'ἀταράχως'" select="'ἀτάραχος'"/>
+         <xsl:map-entry key="'ἀταράχως'" select="'ἀταράχως'"/>
          <xsl:map-entry key="'ἀτεκνίαν'" select="'ἀτεκνία'"/>
          <xsl:map-entry key="'Ἄτεκνός'" select="'ἄτεκνος'"/>
          <xsl:map-entry key="'ἄτεκνος'" select="'ἄτεκνος'"/>
          <xsl:map-entry key="'ἄτεκνός'" select="'ἄτεκνος'"/>
+         <xsl:map-entry key="'ἀτέκνων'" select="'ἄτεκνος'"/>
          <xsl:map-entry key="'Ἀτελεῖς'" select="'ἀτελής'"/>
+         <xsl:map-entry key="'ἀτελεῖς'" select="'ἀτελής'"/>
          <xsl:map-entry key="'ἀτελὲς'" select="'ἀτελής'"/>
          <xsl:map-entry key="'ἀτελεύτητον'" select="'ἀτελεύτητος'"/>
          <xsl:map-entry key="'ἀτελεύτητος'" select="'ἀτελεύτητος'"/>
@@ -4236,16 +4561,19 @@
          <xsl:map-entry key="'ἀτιμάζουσα'" select="'ἀτιμάζω'"/>
          <xsl:map-entry key="'ἀτιμάζω'" select="'ἀτιμάζω'"/>
          <xsl:map-entry key="'ἀτιμάζων'" select="'ἀτιμάζω'"/>
-         <xsl:map-entry key="'ἀτιμάσαντος'" select="'ἀτιμάω'"/>
-         <xsl:map-entry key="'ἀτιμάσαντός'" select="'ἀτιμάω'"/>
-         <xsl:map-entry key="'ἀτιμάσῃς'" select="'ἀτιμάω'"/>
-         <xsl:map-entry key="'ἀτιμάω'" select="'ἀτιμάω'"/>
+         <xsl:map-entry key="'ἀτιμάσαντας'" select="'ἀτιμάζω'"/>
+         <xsl:map-entry key="'ἀτιμάσαντος'" select="'ἀτιμάζω'"/>
+         <xsl:map-entry key="'ἀτιμάσαντός'" select="'ἀτιμάζω'"/>
+         <xsl:map-entry key="'ἀτιμάσῃς'" select="'ἀτιμάζω'"/>
+         <xsl:map-entry key="'ἀτιμασθῇ'" select="'ἀτιμάζω'"/>
          <xsl:map-entry key="'ἀτιμία'" select="'ἀτιμία'"/>
          <xsl:map-entry key="'ἀτιμίαν'" select="'ἀτιμία'"/>
          <xsl:map-entry key="'ἀτιμίας'" select="'ἀτιμία'"/>
          <xsl:map-entry key="'ἄτιμος'" select="'ἄτιμος'"/>
          <xsl:map-entry key="'ἀτίμων'" select="'ἄτιμος'"/>
          <xsl:map-entry key="'ἀτιμώρητος'" select="'ἀτιμώρητος'"/>
+         <xsl:map-entry key="'ἄτμητά'" select="'ἄτμητος'"/>
+         <xsl:map-entry key="'ἄτμητος'" select="'ἄτμητος'"/>
          <xsl:map-entry key="'Ἀτμὶς'" select="'ἀτμίς'"/>
          <xsl:map-entry key="'ἀτμίς'" select="'ἀτμίς'"/>
          <xsl:map-entry key="'ἀτμοὶ'" select="'ἀτμός'"/>
@@ -4268,10 +4596,14 @@
          <xsl:map-entry key="'ἄτρωτος'" select="'ἄτρωτος'"/>
          <xsl:map-entry key="'ἀτύπωτον'" select="'ἀτύπωτος'"/>
          <xsl:map-entry key="'ἀτύπωτος'" select="'ἀτύπωτος'"/>
+         <xsl:map-entry key="'ἀτυφίᾳ'" select="'ἀτυφία'"/>
+         <xsl:map-entry key="'ἀτυφία'" select="'ἀτυφία'"/>
          <xsl:map-entry key="'ἄτυφον'" select="'ἄτυφος'"/>
          <xsl:map-entry key="'ἄτυφος'" select="'ἄτυφος'"/>
          <xsl:map-entry key="'αὐ'" select="'αὐ'"/>
          <xsl:map-entry key="'αὖ'" select="'αὖ'"/>
+         <xsl:map-entry key="'αὐγαῖς'" select="'αὐγή'"/>
+         <xsl:map-entry key="'αὐγή'" select="'αὐγή'"/>
          <xsl:map-entry key="'αὐθάδη'" select="'αὐθάδης'"/>
          <xsl:map-entry key="'αὐθάδης'" select="'αὐθάδης'"/>
          <xsl:map-entry key="'αὐθημερινὸς'" select="'αὐθημερινός'"/>
@@ -4306,8 +4638,10 @@
          <xsl:map-entry key="'αὐξάνω'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'αυξανων'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'αὔξει'" select="'αὐξάνω'"/>
+         <xsl:map-entry key="'αὔξειν'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'αὐξηθεὶς'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'αὐξηθέντες'" select="'αὐξάνω'"/>
+         <xsl:map-entry key="'αὐξῆσαι'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'αυξησει'" select="'αὔξησις'"/>
          <xsl:map-entry key="'αυξησεως'" select="'αὔξησις'"/>
          <xsl:map-entry key="'αὔξησιν'" select="'αὔξησις'"/>
@@ -4332,7 +4666,9 @@
          <xsl:map-entry key="'αὐτεξουσιότης'" select="'αὐτεξουσιότης'"/>
          <xsl:map-entry key="'αυτεξουσιου'" select="'αὐτεξούσιος'"/>
          <xsl:map-entry key="'αὐτεξουσίου'" select="'αὐτεξούσιος'"/>
+         <xsl:map-entry key="'αὐτεξουσίους'" select="'αὐτεξούσιος'"/>
          <xsl:map-entry key="'αυτεξουσιωι'" select="'αὐτεξούσιος'"/>
+         <xsl:map-entry key="'αὐτοαγαθότης'" select="'αὐτοαγαθότης'"/>
          <xsl:map-entry key="'αὐτοβόηθον'" select="'αὐτοβοηθός'"/>
          <xsl:map-entry key="'αὐτοβοηθός'" select="'αὐτοβοηθός'"/>
          <xsl:map-entry key="'αὐτοδικαιοσύνη'" select="'αὐτοδικαιοσύνη'"/>
@@ -4341,8 +4677,14 @@
          <xsl:map-entry key="'αὐτοζωή'" select="'αὐτοζωή'"/>
          <xsl:map-entry key="'αὐτοζῶν'" select="'αὐτοζῶ'"/>
          <xsl:map-entry key="'αὐτοθερμότης'" select="'αὐτοθερμότης'"/>
+         <xsl:map-entry key="'αὐτοκέλευστος'" select="'αὐτοκέλευστος'"/>
+         <xsl:map-entry key="'αὐτοκελεύστῳ'" select="'αὐτοκέλευστος'"/>
          <xsl:map-entry key="'αὐτοκράτορα'" select="'αὐτοκράτωρ'"/>
          <xsl:map-entry key="'αὐτοκράτωρ'" select="'αὐτοκράτωρ'"/>
+         <xsl:map-entry key="'αὐτοματισμὸν'" select="'αὐτοματισμός'"/>
+         <xsl:map-entry key="'αὐτοματισμός'" select="'αὐτοματισμός'"/>
+         <xsl:map-entry key="'αὐτόματος'" select="'αὐτόματος'"/>
+         <xsl:map-entry key="'αὐτομάτως'" select="'αὐτομάτως'"/>
          <xsl:map-entry key="'αὐτοψεί'" select="'αὐτοψεί'"/>
          <xsl:map-entry key="'αὐτοψεὶ'" select="'αὐτοψεί'"/>
          <xsl:map-entry key="'αὐχένα'" select="'αὐχήν'"/>
@@ -4370,14 +4712,15 @@
          <xsl:map-entry key="'αφανιστικη'" select="'ἀφανιστικός'"/>
          <xsl:map-entry key="'ἀφανιστική'" select="'ἀφανιστικός'"/>
          <xsl:map-entry key="'ἀφανιστικός'" select="'ἀφανιστικός'"/>
-         <xsl:map-entry key="'ἀφανῶς'" select="'ἀφανής'"/>
+         <xsl:map-entry key="'ἀφανῶς'" select="'ἀφανῶς'"/>
          <xsl:map-entry key="'ἀφαρπάζω'" select="'ἀφαρπάζω'"/>
          <xsl:map-entry key="'ἀφεγγὲς'" select="'ἀφεγγής'"/>
          <xsl:map-entry key="'ἀφεγγής'" select="'ἀφεγγής'"/>
          <xsl:map-entry key="'ἀφέθησαν'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἀφειδής'" select="'ἀφειδής'"/>
-         <xsl:map-entry key="'ἀφειδῶς'" select="'ἀφειδής'"/>
+         <xsl:map-entry key="'ἀφειδῶς'" select="'ἀφειδῶς'"/>
          <xsl:map-entry key="'αφειλον'" select="'ἀφαιρέω'"/>
+         <xsl:map-entry key="'ἀφεῖναι'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἀφελεῖν'" select="'ἀφαιρέω'"/>
          <xsl:map-entry key="'ἀφελεῖς'" select="'ἀφελής'"/>
          <xsl:map-entry key="'ἀφελής'" select="'ἀφελής'"/>
@@ -4392,10 +4735,13 @@
          <xsl:map-entry key="'ἀφεστήξω'" select="'ἀφεστήξω'"/>
          <xsl:map-entry key="'ἁφή'" select="'ἁφή'"/>
          <xsl:map-entry key="'Ἁφή'" select="'ἁφή'"/>
+         <xsl:map-entry key="'ἀφῇ'" select="'ἀφίημι'"/>
+         <xsl:map-entry key="'ἁφὴ'" select="'ἁφή'"/>
          <xsl:map-entry key="'αφηιρηται'" select="'ἀφαιρέω'"/>
          <xsl:map-entry key="'ἀφῆκαν'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἀφῆκας'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἀφῆκε'" select="'ἀφήκω'"/>
+         <xsl:map-entry key="'ἀφῆκέ'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἀφῆκεν'" select="'ἀφήκω'"/>
          <xsl:map-entry key="'ἀφήκω'" select="'ἀφήκω'"/>
          <xsl:map-entry key="'ἀφήλλατο'" select="'ἀφάλλομαι'"/>
@@ -4422,6 +4768,8 @@
          <xsl:map-entry key="'Ἀφθονία'" select="'ἀφθονία'"/>
          <xsl:map-entry key="'ἀφθονίαν'" select="'ἀφθονία'"/>
          <xsl:map-entry key="'ἄφθονος'" select="'ἄφθονος'"/>
+         <xsl:map-entry key="'ἀφθόνως'" select="'ἀφθόνως'"/>
+         <xsl:map-entry key="'ἀφθορία'" select="'ἀφθορία'"/>
          <xsl:map-entry key="'ἀφθορίαν'" select="'ἀφθορία'"/>
          <xsl:map-entry key="'ἄφθορον'" select="'ἄφθορος'"/>
          <xsl:map-entry key="'ἄφθορος'" select="'ἄφθορος'"/>
@@ -4439,8 +4787,11 @@
          <xsl:map-entry key="'ἀφιλαργυρίαν'" select="'ἀφιλαργυρία'"/>
          <xsl:map-entry key="'ἀφιλαργυρίας'" select="'ἀφιλαργυρία'"/>
          <xsl:map-entry key="'ἀφιλάργυρος'" select="'ἀφιλάργυρος'"/>
+         <xsl:map-entry key="'ἀφίλαυτος'" select="'ἀφίλαυτος'"/>
+         <xsl:map-entry key="'ἀφιλήδονος'" select="'ἀφιλήδονος'"/>
          <xsl:map-entry key="'ἀφίπταται'" select="'ἀποπέτομαι'"/>
          <xsl:map-entry key="'ἀφίπτατο'" select="'ἀποπέτομαι'"/>
+         <xsl:map-entry key="'ἀφισταμένας'" select="'ἀφιστάω'"/>
          <xsl:map-entry key="'ἀφισταμένη'" select="'ἀφεστήξω'"/>
          <xsl:map-entry key="'ἀφιστᾶν'" select="'ἀφιστάω'"/>
          <xsl:map-entry key="'ἀφίστανται'" select="'ἀφεστήξω'"/>
@@ -4452,11 +4803,12 @@
          <xsl:map-entry key="'ἀφίστησι'" select="'ἀφιστάω'"/>
          <xsl:map-entry key="'ἀφίστησιν'" select="'ἀφιστάω'"/>
          <xsl:map-entry key="'ἀφιστῶσιν'" select="'ἀφιστάω'"/>
+         <xsl:map-entry key="'ἀφίων'" select="'ἀφίημι'"/>
          <xsl:map-entry key="'ἄφνω'" select="'ἄφνω'"/>
          <xsl:map-entry key="'ἀφοβία'" select="'ἀφοβία'"/>
          <xsl:map-entry key="'ἀφοβίας'" select="'ἀφοβία'"/>
          <xsl:map-entry key="'ἄφοβος'" select="'ἄφοβος'"/>
-         <xsl:map-entry key="'ἀφόβως'" select="'ἄφοβος'"/>
+         <xsl:map-entry key="'ἀφόβως'" select="'ἀφόβως'"/>
          <xsl:map-entry key="'αφομοιουται'" select="'ἀφομοιόω'"/>
          <xsl:map-entry key="'ἀφομοιόω'" select="'ἀφομοιόω'"/>
          <xsl:map-entry key="'αφομοιωθηναι'" select="'ἀφομοιόω'"/>
@@ -4480,6 +4832,8 @@
          <xsl:map-entry key="'ἀφορῶν'" select="'ἀφορέω'"/>
          <xsl:map-entry key="'ἀφραίνοντος'" select="'ἀφραίνω'"/>
          <xsl:map-entry key="'ἀφραίνω'" select="'ἀφραίνω'"/>
+         <xsl:map-entry key="'ἄφραστος'" select="'ἄφραστος'"/>
+         <xsl:map-entry key="'ἀφράστῳ'" select="'ἄφραστος'"/>
          <xsl:map-entry key="'ἄφρονα'" select="'ἄφρων'"/>
          <xsl:map-entry key="'ἄφρονας'" select="'ἄφρων'"/>
          <xsl:map-entry key="'ἄφρονες'" select="'ἄφρων'"/>
@@ -4514,8 +4868,11 @@
          <xsl:map-entry key="'ἀχθηδών'" select="'ἀχθηδών'"/>
          <xsl:map-entry key="'ἀχθῆναι'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἄχθομαι'" select="'ἄχθομαι'"/>
+         <xsl:map-entry key="'ἄχραντον'" select="'ἄχραντος'"/>
+         <xsl:map-entry key="'ἄχραντος'" select="'ἄχραντος'"/>
          <xsl:map-entry key="'ἀχράντου'" select="'ἄχραντος'"/>
          <xsl:map-entry key="'ἀχρεία'" select="'ἀχρεία'"/>
+         <xsl:map-entry key="'ἀχρεῖον'" select="'ἀχρεῖος'"/>
          <xsl:map-entry key="'ἀχρεῖος'" select="'ἀχρεῖος'"/>
          <xsl:map-entry key="'ἀχρειόω'" select="'ἀχρειόω'"/>
          <xsl:map-entry key="'ἄχρηστον'" select="'ἄχρηστος'"/>
@@ -4535,8 +4892,10 @@
          <xsl:map-entry key="'ἅψαι'" select="'ἅπτω'"/>
          <xsl:map-entry key="'ἅψας'" select="'ἅπτω'"/>
          <xsl:map-entry key="'ἅψασθαι'" select="'ἅπτω'"/>
+         <xsl:map-entry key="'ἀψευδεῖς'" select="'ἀψευδής'"/>
          <xsl:map-entry key="'ἀψευδὲς'" select="'ἀψευδής'"/>
          <xsl:map-entry key="'ἀψευδής'" select="'ἀψευδής'"/>
+         <xsl:map-entry key="'ἀψευδοῦς'" select="'ἀψευδής'"/>
          <xsl:map-entry key="'ἁψῖδα'" select="'ἁψίς'"/>
          <xsl:map-entry key="'ἁψίς'" select="'ἁψίς'"/>
          <xsl:map-entry key="'ἄψογον'" select="'ἄψογος'"/>
@@ -4567,6 +4926,7 @@
          <xsl:map-entry key="'βαθεῖά'" select="'βαθύς'"/>
          <xsl:map-entry key="'βαθέων'" select="'βάθος'"/>
          <xsl:map-entry key="'βάθη'" select="'βάθος'"/>
+         <xsl:map-entry key="'βαθμὸν'" select="'βαθμός'"/>
          <xsl:map-entry key="'βαθμός'" select="'βαθμός'"/>
          <xsl:map-entry key="'Βαθμῷ'" select="'βαθμός'"/>
          <xsl:map-entry key="'βάθος'" select="'βάθος'"/>
@@ -4582,6 +4942,7 @@
          <xsl:map-entry key="'βαθύτερον'" select="'βαθύς'"/>
          <xsl:map-entry key="'βακτηρία'" select="'βακτηρία'"/>
          <xsl:map-entry key="'βακτηρίᾳ'" select="'βακτηρία'"/>
+         <xsl:map-entry key="'Βακτηρία'" select="'βακτηρία'"/>
          <xsl:map-entry key="'βακτηρίαν'" select="'βακτηρία'"/>
          <xsl:map-entry key="'βαλααμ'" select="'Βαλαάμ'"/>
          <xsl:map-entry key="'Βαλαὰμ'" select="'Βαλαάμ'"/>
@@ -4610,6 +4971,7 @@
          <xsl:map-entry key="'βαπτίζουσιν'" select="'βαπτίζω'"/>
          <xsl:map-entry key="'βαπτίζω'" select="'βαπτίζω'"/>
          <xsl:map-entry key="'βαπτιζων'" select="'βαπτίζω'"/>
+         <xsl:map-entry key="'βαπτίσατε'" select="'βαπτίζω'"/>
          <xsl:map-entry key="'βαπτισθεντες'" select="'βαπτίζω'"/>
          <xsl:map-entry key="'βάπτισμα'" select="'βάπτισμα'"/>
          <xsl:map-entry key="'βαπτίσματός'" select="'βάπτισμα'"/>
@@ -4672,6 +5034,7 @@
          <xsl:map-entry key="'Βασιλεία'" select="'βασιλεία'"/>
          <xsl:map-entry key="'βασιλεία'" select="'βασιλεία'"/>
          <xsl:map-entry key="'βασίλεια'" select="'βασίλεια'"/>
+         <xsl:map-entry key="'βασιλείᾳ'" select="'βασίλεια'"/>
          <xsl:map-entry key="'βασιλεῖαι'" select="'βασιλεία'"/>
          <xsl:map-entry key="'Βασιλείαις'" select="'βασίλεια'"/>
          <xsl:map-entry key="'βασιλειαν'" select="'βασιλεία'"/>
@@ -4685,6 +5048,7 @@
          <xsl:map-entry key="'βασίλευε'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλευει'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεύειν'" select="'βασιλεύω'"/>
+         <xsl:map-entry key="'βασιλευόμεναι'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλευόμενοι'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεῦον'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεύονται'" select="'βασιλεύω'"/>
@@ -4692,6 +5056,9 @@
          <xsl:map-entry key="'βασιλευουσι'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεύς'" select="'βασιλεύς'"/>
          <xsl:map-entry key="'βασιλεὺς'" select="'βασιλεύς'"/>
+         <xsl:map-entry key="'Βασιλεύς'" select="'βασιλεύς'"/>
+         <xsl:map-entry key="'Βασιλεὺς'" select="'βασιλεύς'"/>
+         <xsl:map-entry key="'βασιλεῦσαι'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεύσας'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'Βασιλεύσει'" select="'βασιλεύω'"/>
          <xsl:map-entry key="'βασιλεύσεις'" select="'βασιλεύω'"/>
@@ -4751,6 +5118,7 @@
          <xsl:map-entry key="'βέβαιος'" select="'βέβαιος'"/>
          <xsl:map-entry key="'βεβαιότης'" select="'βεβαιότης'"/>
          <xsl:map-entry key="'βεβαιότητά'" select="'βεβαιότης'"/>
+         <xsl:map-entry key="'βεβαιούμενα'" select="'βεβαιόω'"/>
          <xsl:map-entry key="'βεβαιούμενον'" select="'βεβαιόω'"/>
          <xsl:map-entry key="'βεβαιούσθω'" select="'βεβαιόω'"/>
          <xsl:map-entry key="'βεβαιοῦσι'" select="'βεβαιόω'"/>
@@ -4767,6 +5135,7 @@
          <xsl:map-entry key="'βεβηλόω'" select="'βεβηλόω'"/>
          <xsl:map-entry key="'βεβήλων'" select="'βέβηλος'"/>
          <xsl:map-entry key="'βεβιασμένην'" select="'βιάζω'"/>
+         <xsl:map-entry key="'βεβιωκέναι'" select="'βιόω'"/>
          <xsl:map-entry key="'βεβιωκότων'" select="'βιόω'"/>
          <xsl:map-entry key="'βεβλημένου'" select="'βάλλω'"/>
          <xsl:map-entry key="'βεβούλευται'" select="'βουλεύω'"/>
@@ -4783,6 +5152,8 @@
          <xsl:map-entry key="'βέλους'" select="'βέλος'"/>
          <xsl:map-entry key="'βέλτιον'" select="'βελτίων'"/>
          <xsl:map-entry key="'Βέλτιον'" select="'βελτίων'"/>
+         <xsl:map-entry key="'βελτιόω'" select="'βελτιόω'"/>
+         <xsl:map-entry key="'βελτιωθήσεται'" select="'βελτιόω'"/>
          <xsl:map-entry key="'βελτίων'" select="'βελτίων'"/>
          <xsl:map-entry key="'βελῶν'" select="'βέλος'"/>
          <xsl:map-entry key="'Βενιαμείν'" select="'Βενιαμείν'"/>
@@ -4793,10 +5164,12 @@
          <xsl:map-entry key="'βῆμα'" select="'βῆμα'"/>
          <xsl:map-entry key="'βήματι'" select="'βῆμα'"/>
          <xsl:map-entry key="'βηματος'" select="'βῆμα'"/>
+         <xsl:map-entry key="'βήματος'" select="'βῆμα'"/>
          <xsl:map-entry key="'βημάτων'" select="'βῆμα'"/>
          <xsl:map-entry key="'Βηρσαβεὲ'" select="'Βηρσαβεέ'"/>
          <xsl:map-entry key="'Βηρσαβεέ'" select="'Βηρσαβεέ'"/>
          <xsl:map-entry key="'βία'" select="'βία'"/>
+         <xsl:map-entry key="'βίᾳ'" select="'βία'"/>
          <xsl:map-entry key="'βιαζόμεθα'" select="'βιάζω'"/>
          <xsl:map-entry key="'βιαζομενος'" select="'βιάζω'"/>
          <xsl:map-entry key="'βιαζόμενος'" select="'βιάζω'"/>
@@ -4823,8 +5196,8 @@
          <xsl:map-entry key="'βιβρώσκω'" select="'βιβρώσκω'"/>
          <xsl:map-entry key="'βίον'" select="'βίος'"/>
          <xsl:map-entry key="'βίος'" select="'βίος'"/>
-         <xsl:map-entry key="'βιός'" select="'βιός'"/>
          <xsl:map-entry key="'βίου'" select="'βίος'"/>
+         <xsl:map-entry key="'βιοῦν'" select="'βιόω'"/>
          <xsl:map-entry key="'βιοῦντας'" select="'βιόω'"/>
          <xsl:map-entry key="'βιοῦντι'" select="'βιόω'"/>
          <xsl:map-entry key="'βίους'" select="'βίος'"/>
@@ -4835,9 +5208,13 @@
          <xsl:map-entry key="'βίῷ'" select="'βίος'"/>
          <xsl:map-entry key="'βίων'" select="'βίος'"/>
          <xsl:map-entry key="'βιῶν'" select="'βιόω'"/>
+         <xsl:map-entry key="'βιῶσαι'" select="'βιόω'"/>
+         <xsl:map-entry key="'βιώσαντα'" select="'βιόω'"/>
+         <xsl:map-entry key="'βιώσαντες'" select="'βιόω'"/>
          <xsl:map-entry key="'βιώσεται'" select="'βιόω'"/>
          <xsl:map-entry key="'βιώσῃς'" select="'βιόω'"/>
          <xsl:map-entry key="'βιώσονται'" select="'βιόω'"/>
+         <xsl:map-entry key="'βλαβεῖσιν'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλαβερὰ'" select="'βλαβερός'"/>
          <xsl:map-entry key="'βλαβερός'" select="'βλαβερός'"/>
          <xsl:map-entry key="'βλαβεροὺς'" select="'βλαβερός'"/>
@@ -4845,12 +5222,15 @@
          <xsl:map-entry key="'βλάβην'" select="'βλάβη'"/>
          <xsl:map-entry key="'βλαβῆναι'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλαβήσῃ'" select="'βλάπτω'"/>
+         <xsl:map-entry key="'βλάπτει'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλάπτειν'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλάπτουσιν'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλάπτω'" select="'βλάπτω'"/>
          <xsl:map-entry key="'βλαστάνει'" select="'βλαστάνω'"/>
          <xsl:map-entry key="'βλαστάνω'" select="'βλαστάνω'"/>
+         <xsl:map-entry key="'βλαστάω'" select="'βλαστάω'"/>
          <xsl:map-entry key="'βλάστημα'" select="'βλάστημα'"/>
+         <xsl:map-entry key="'βλαστῶντα'" select="'βλαστάω'"/>
          <xsl:map-entry key="'βλασφημεῖ'" select="'βλασφημέω'"/>
          <xsl:map-entry key="'βλασφημεῖν'" select="'βλασφημέω'"/>
          <xsl:map-entry key="'βλασφημέω'" select="'βλασφημέω'"/>
@@ -4874,10 +5254,12 @@
          <xsl:map-entry key="'βλεπέτω'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλέπῃ'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπηι'" select="'βλέπω'"/>
+         <xsl:map-entry key="'βλέπῃς'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλέπομεν'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπομένης'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπόμενος'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπομένων'" select="'βλέπω'"/>
+         <xsl:map-entry key="'βλέποντα'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλέποντες'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπόντων'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλεπούσης'" select="'βλέπω'"/>
@@ -4886,6 +5268,7 @@
          <xsl:map-entry key="'βλεπωμεν'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλέπων'" select="'βλέπω'"/>
          <xsl:map-entry key="'βλέφαρα'" select="'βλέφαρον'"/>
+         <xsl:map-entry key="'Βλέφαρα'" select="'βλέφαρον'"/>
          <xsl:map-entry key="'βλεφάροις'" select="'βλέφαρον'"/>
          <xsl:map-entry key="'βλέφαρον'" select="'βλέφαρον'"/>
          <xsl:map-entry key="'βλεφάρων'" select="'βλέφαρον'"/>
@@ -4896,6 +5279,7 @@
          <xsl:map-entry key="'βληθηι'" select="'βάλλω'"/>
          <xsl:map-entry key="'βληθῇς'" select="'βάλλω'"/>
          <xsl:map-entry key="'βοάω'" select="'βοάω'"/>
+         <xsl:map-entry key="'Βόες'" select="'βοῦς'"/>
          <xsl:map-entry key="'βοηθεῖ'" select="'βοηθέω'"/>
          <xsl:map-entry key="'βοήθεια'" select="'βοήθεια'"/>
          <xsl:map-entry key="'βοήθειαν'" select="'βοήθεια'"/>
@@ -4909,6 +5293,7 @@
          <xsl:map-entry key="'βοήθημα'" select="'βοήθημα'"/>
          <xsl:map-entry key="'βοηθημάτων'" select="'βοήθημα'"/>
          <xsl:map-entry key="'βοηθήσαι'" select="'βοηθέω'"/>
+         <xsl:map-entry key="'βοηθῆσαι'" select="'βοηθέω'"/>
          <xsl:map-entry key="'βοηθήσῃ'" select="'βοηθέω'"/>
          <xsl:map-entry key="'βοηθοι'" select="'βοηθόος'"/>
          <xsl:map-entry key="'βοηθόν'" select="'βοηθός'"/>
@@ -4916,9 +5301,12 @@
          <xsl:map-entry key="'βοηθόος'" select="'βοηθόος'"/>
          <xsl:map-entry key="'βοηθός'" select="'βοηθός'"/>
          <xsl:map-entry key="'βοηθούμενος'" select="'βοηθέω'"/>
+         <xsl:map-entry key="'βοηθοῦντα'" select="'βοηθέω'"/>
+         <xsl:map-entry key="'βοηθοῦντος'" select="'βοηθέω'"/>
          <xsl:map-entry key="'βοηθῶν'" select="'βοηθός'"/>
          <xsl:map-entry key="'βοήσεται'" select="'βοάω'"/>
          <xsl:map-entry key="'βόησον'" select="'βοάω'"/>
+         <xsl:map-entry key="'βοήσωμεν'" select="'βοάω'"/>
          <xsl:map-entry key="'Βόθρον'" select="'βόθρος'"/>
          <xsl:map-entry key="'βόθρος'" select="'βόθρος'"/>
          <xsl:map-entry key="'βολὴ'" select="'βολή'"/>
@@ -5055,6 +5443,7 @@
          <xsl:map-entry key="'βυθός'" select="'βυθός'"/>
          <xsl:map-entry key="'βυθου'" select="'βυθός'"/>
          <xsl:map-entry key="'βυθοῦ'" select="'βυθός'"/>
+         <xsl:map-entry key="'βυθῷ'" select="'βυθός'"/>
          <xsl:map-entry key="'βυθῶν'" select="'βυθός'"/>
          <xsl:map-entry key="'βύουσα'" select="'βύω'"/>
          <xsl:map-entry key="'βυούσης'" select="'βύω'"/>
@@ -5100,6 +5489,7 @@
          <xsl:map-entry key="'γαμήσασα'" select="'γαμέω'"/>
          <xsl:map-entry key="'γαμικὸν'" select="'γαμικός'"/>
          <xsl:map-entry key="'γαμικός'" select="'γαμικός'"/>
+         <xsl:map-entry key="'γάμον'" select="'γάμος'"/>
          <xsl:map-entry key="'γάμος'" select="'γάμος'"/>
          <xsl:map-entry key="'γάμου'" select="'γάμος'"/>
          <xsl:map-entry key="'γάμους'" select="'γάμος'"/>
@@ -5111,9 +5501,12 @@
          <xsl:map-entry key="'γαστὴρ'" select="'γαστήρ'"/>
          <xsl:map-entry key="'γαστρι'" select="'γαστήρ'"/>
          <xsl:map-entry key="'γαστρὶ'" select="'γαστήρ'"/>
+         <xsl:map-entry key="'γαστριμαργέω'" select="'γαστριμαργέω'"/>
+         <xsl:map-entry key="'γαστριμαργήσας'" select="'γαστριμαργέω'"/>
          <xsl:map-entry key="'γαστριμαργία'" select="'γαστριμαργία'"/>
          <xsl:map-entry key="'γαστριμαργίαν'" select="'γαστριμαργία'"/>
          <xsl:map-entry key="'γαστριμαργίας'" select="'γαστριμαργία'"/>
+         <xsl:map-entry key="'Γαστριμαργίας'" select="'γαστριμαργία'"/>
          <xsl:map-entry key="'γαστρίμαργος'" select="'γαστρίμαργος'"/>
          <xsl:map-entry key="'Γαστρίμαργος'" select="'γαστρίμαργος'"/>
          <xsl:map-entry key="'γαστριμάργου'" select="'γαστρίμαργος'"/>
@@ -5123,17 +5516,22 @@
          <xsl:map-entry key="'γαστρός'" select="'γαστήρ'"/>
          <xsl:map-entry key="'γεγενήμεθα'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγενημένην'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γεγενημένης'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγενημένοι'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γεγενημένον'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγενημένου'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γεγένηνται'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγενῆσθαι'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγένηται'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγέννηκά'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεγέννηκεν'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεγεννηκότος'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεγεννηκότων'" select="'γεννάω'"/>
+         <xsl:map-entry key="'γεγηρακὼς'" select="'γηράω'"/>
          <xsl:map-entry key="'γεγομενον'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγομενος'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγομενων'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γέγονα'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγόναμεν'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γέγονας'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γεγόνασι'" select="'γίγνομαι'"/>
@@ -5164,10 +5562,11 @@
          <xsl:map-entry key="'Γέγραπται'" select="'γράφω'"/>
          <xsl:map-entry key="'γέγραφε'" select="'γράφω'"/>
          <xsl:map-entry key="'γεγραφήκατε'" select="'γράφω'"/>
+         <xsl:map-entry key="'γεγράφθαι'" select="'γράφω'"/>
          <xsl:map-entry key="'γεγυμνασμένοις'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γεγυμνῶσθαι'" select="'γυμνόω'"/>
          <xsl:map-entry key="'γεγύμνωται'" select="'γυμνόω'"/>
-         <xsl:map-entry key="'γεγωνός'" select="'γεγωνός'"/>
+         <xsl:map-entry key="'γεγωνός'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'Γεδεὼν'" select="'Γεδεών'"/>
          <xsl:map-entry key="'Γεδεών'" select="'Γεδεών'"/>
          <xsl:map-entry key="'γέεννα'" select="'γέεννα'"/>
@@ -5177,16 +5576,22 @@
          <xsl:map-entry key="'γειτνιᾷ'" select="'γειτνιάω'"/>
          <xsl:map-entry key="'γειτνιάω'" select="'γειτνιάω'"/>
          <xsl:map-entry key="'γείτοσιν'" select="'γείτων'"/>
+         <xsl:map-entry key="'γελᾷ'" select="'γελάω'"/>
+         <xsl:map-entry key="'γελᾶν'" select="'γελάω'"/>
          <xsl:map-entry key="'γελάσονται'" select="'γελάω'"/>
          <xsl:map-entry key="'γελαστος'" select="'γελαστός'"/>
          <xsl:map-entry key="'γελαστός'" select="'γελαστός'"/>
          <xsl:map-entry key="'γελάω'" select="'γελάω'"/>
+         <xsl:map-entry key="'γελοιαστάς'" select="'γελοιαστής'"/>
+         <xsl:map-entry key="'γελοιαστής'" select="'γελοιαστής'"/>
          <xsl:map-entry key="'γελοίοις'" select="'γέλοιος'"/>
          <xsl:map-entry key="'γέλοιος'" select="'γέλοιος'"/>
          <xsl:map-entry key="'γελῶντας'" select="'γελάω'"/>
          <xsl:map-entry key="'γέλως'" select="'γέλως'"/>
          <xsl:map-entry key="'Γέλως'" select="'γέλως'"/>
          <xsl:map-entry key="'γέλωτα'" select="'γέλως'"/>
+         <xsl:map-entry key="'Γέλωτα'" select="'γέλως'"/>
+         <xsl:map-entry key="'γέλωτας'" select="'γέλως'"/>
          <xsl:map-entry key="'γέλωτι'" select="'γέλως'"/>
          <xsl:map-entry key="'γελωτος'" select="'γέλως'"/>
          <xsl:map-entry key="'γέλωτος'" select="'γέλως'"/>
@@ -5217,6 +5622,9 @@
          <xsl:map-entry key="'γενηθήτω'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γενηθήτωσαν'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'Γενηθήτωσαν'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γένημα'" select="'γένημα'"/>
+         <xsl:map-entry key="'Γενήματα'" select="'γένημα'"/>
+         <xsl:map-entry key="'γενήματα'" select="'γένημα'"/>
          <xsl:map-entry key="'γενήματος'" select="'γένημα'"/>
          <xsl:map-entry key="'γενησεται'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γενήσεται'" select="'γίγνομαι'"/>
@@ -5225,6 +5633,7 @@
          <xsl:map-entry key="'γενησόμεθα'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γενησομένων'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γενήσονται'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γενητὰ'" select="'γενητός'"/>
          <xsl:map-entry key="'γένηται'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γενητοις'" select="'γενητός'"/>
          <xsl:map-entry key="'γενητὸν'" select="'γενητός'"/>
@@ -5236,8 +5645,8 @@
          <xsl:map-entry key="'γενναι'" select="'γεννάω'"/>
          <xsl:map-entry key="'γενναίᾳ'" select="'γενναῖος'"/>
          <xsl:map-entry key="'γενναῖος'" select="'γενναῖος'"/>
-         <xsl:map-entry key="'γενναίως'" select="'γενναῖος'"/>
-         <xsl:map-entry key="'γενναιως'" select="'γενναῖος'"/>
+         <xsl:map-entry key="'γενναίως'" select="'γενναίως'"/>
+         <xsl:map-entry key="'γενναιως'" select="'γενναίως'"/>
          <xsl:map-entry key="'γενναν'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννᾶσθαι'" select="'γεννάω'"/>
          <xsl:map-entry key="'γενναται'" select="'γεννάω'"/>
@@ -5252,6 +5661,7 @@
          <xsl:map-entry key="'γέννημα'" select="'γέννημα'"/>
          <xsl:map-entry key="'γεννήματα'" select="'γέννημα'"/>
          <xsl:map-entry key="'Γεννήματα'" select="'γέννημα'"/>
+         <xsl:map-entry key="'γεννῆσαι'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννήσαντος'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννήσαντός'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννήσασα'" select="'γεννάω'"/>
@@ -5265,10 +5675,13 @@
          <xsl:map-entry key="'γεννητης'" select="'γεννητός'"/>
          <xsl:map-entry key="'γεννητὴς'" select="'γεννητής'"/>
          <xsl:map-entry key="'γεννητής'" select="'γεννητής'"/>
+         <xsl:map-entry key="'γεννητικὰ'" select="'γεννητικός'"/>
+         <xsl:map-entry key="'γεννητικός'" select="'γεννητικός'"/>
          <xsl:map-entry key="'Γεννητόν'" select="'γεννητός'"/>
          <xsl:map-entry key="'Γεννητον'" select="'γεννητός'"/>
          <xsl:map-entry key="'γεννητὸν'" select="'γεννητός'"/>
          <xsl:map-entry key="'γεννητός'" select="'γεννητός'"/>
+         <xsl:map-entry key="'γεννήτωρ'" select="'γεννήτωρ'"/>
          <xsl:map-entry key="'γεννώμενα'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννώμεναι'" select="'γεννάω'"/>
          <xsl:map-entry key="'γεννωμενη'" select="'γεννάω'"/>
@@ -5384,6 +5797,7 @@
          <xsl:map-entry key="'Γῆρας'" select="'γῆρας'"/>
          <xsl:map-entry key="'γηρασας'" select="'γηράσκω'"/>
          <xsl:map-entry key="'γηράσκω'" select="'γηράσκω'"/>
+         <xsl:map-entry key="'γηράω'" select="'γηράω'"/>
          <xsl:map-entry key="'γήρει'" select="'γῆρος'"/>
          <xsl:map-entry key="'γῆρος'" select="'γῆρος'"/>
          <xsl:map-entry key="'γήρου'" select="'γῆρος'"/>
@@ -5413,6 +5827,7 @@
          <xsl:map-entry key="'γιγνωσκουσιν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γιγνώσκω'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γιγνωσκωμεν'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'Γιεζῆ'" select="'Γιεζῆ'"/>
          <xsl:map-entry key="'γίνεσθαι'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γίνεσθε'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινέσθω'" select="'γίγνομαι'"/>
@@ -5420,11 +5835,13 @@
          <xsl:map-entry key="'Γίνεται'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γίνεταί'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινόμεθα'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'Γινόμεθα'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινόμενα'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινόμεναι'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινομένας'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινομένη'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινομένην'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'γινομένης'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινόμενοι'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινομένοις'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'γινόμενον'" select="'γίγνομαι'"/>
@@ -5439,6 +5856,7 @@
          <xsl:map-entry key="'Γίνωσκε'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινωσκει'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκει'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'Γινώσκει'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκειν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκεις'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκεσθαι'" select="'γιγνώσκω'"/>
@@ -5461,6 +5879,7 @@
          <xsl:map-entry key="'γινώσκουσί'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινωσκουσιν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκουσιν'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'γινώσκω'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκωμεν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκων'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γινώσκωσι'" select="'γιγνώσκω'"/>
@@ -5518,8 +5937,10 @@
          <xsl:map-entry key="'Γνήσιος'" select="'γνήσιος'"/>
          <xsl:map-entry key="'γνήσιος'" select="'γνήσιος'"/>
          <xsl:map-entry key="'γνησιότης'" select="'γνησιότης'"/>
+         <xsl:map-entry key="'γνησίως'" select="'γνησίως'"/>
          <xsl:map-entry key="'γνησιώτερον'" select="'γνήσιος'"/>
          <xsl:map-entry key="'γνόντες'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'γνοὺς'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γνοφεράν'" select="'γνοφερός'"/>
          <xsl:map-entry key="'γνοφερός'" select="'γνοφερός'"/>
          <xsl:map-entry key="'γνοφον'" select="'γνόφος'"/>
@@ -5545,6 +5966,7 @@
          <xsl:map-entry key="'γνωριζουσιν'" select="'γνωρίζω'"/>
          <xsl:map-entry key="'γνωρίζω'" select="'γνωρίζω'"/>
          <xsl:map-entry key="'γνωριζων'" select="'γνωρίζω'"/>
+         <xsl:map-entry key="'γνώριμοι'" select="'γνώριμος'"/>
          <xsl:map-entry key="'γνωρίμοις'" select="'γνώριμος'"/>
          <xsl:map-entry key="'γνώριμος'" select="'γνώριμος'"/>
          <xsl:map-entry key="'γνωρίμων'" select="'γνώριμος'"/>
@@ -5591,6 +6013,7 @@
          <xsl:map-entry key="'γνώσις'" select="'γνῶσις'"/>
          <xsl:map-entry key="'γνώσιως'" select="'γνῶσις'"/>
          <xsl:map-entry key="'γνωσόμεθα'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'γνώσονται'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'γνωσται'" select="'γνώστης'"/>
          <xsl:map-entry key="'γνωστας'" select="'γνώστης'"/>
          <xsl:map-entry key="'γνωστέ'" select="'γνωστός'"/>
@@ -5640,6 +6063,8 @@
          <xsl:map-entry key="'Γολίαθ'" select="'Γολίαθ'"/>
          <xsl:map-entry key="'Γόμορρα'" select="'Γόμορρα'"/>
          <xsl:map-entry key="'Γομόρρας'" select="'Γόμορρα'"/>
+         <xsl:map-entry key="'Γομορρῖται'" select="'Γομορρίτης'"/>
+         <xsl:map-entry key="'Γομορρίτης'" select="'Γομορρίτης'"/>
          <xsl:map-entry key="'γόνατα'" select="'γόνυ'"/>
          <xsl:map-entry key="'γόνατά'" select="'γόνυ'"/>
          <xsl:map-entry key="'γονεῖς'" select="'γονεύς'"/>
@@ -5671,6 +6096,7 @@
          <xsl:map-entry key="'γραφαι'" select="'γραφή'"/>
          <xsl:map-entry key="'γραφαί'" select="'γραφή'"/>
          <xsl:map-entry key="'Γραφαί'" select="'γραφή'"/>
+         <xsl:map-entry key="'γραφαῖς'" select="'γραφή'"/>
          <xsl:map-entry key="'γραφας'" select="'γραφή'"/>
          <xsl:map-entry key="'γραφὰς'" select="'γραφή'"/>
          <xsl:map-entry key="'Γραφάς'" select="'γραφή'"/>
@@ -5690,6 +6116,7 @@
          <xsl:map-entry key="'Γραφῆς'" select="'γραφή'"/>
          <xsl:map-entry key="'γραφήσονται'" select="'γράφω'"/>
          <xsl:map-entry key="'γραφήτωσαν'" select="'γράφω'"/>
+         <xsl:map-entry key="'γραφόμενον'" select="'γράφω'"/>
          <xsl:map-entry key="'γράφω'" select="'γράφω'"/>
          <xsl:map-entry key="'γραφων'" select="'γράφω'"/>
          <xsl:map-entry key="'γραφῶν'" select="'γραφή'"/>
@@ -5709,6 +6136,7 @@
          <xsl:map-entry key="'γύμναζε'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γυμνάζει'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γυμναζετω'" select="'γυμνάζω'"/>
+         <xsl:map-entry key="'γυμναζόμενοι'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γυμναζόμενος'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γυμνάζοντος'" select="'γυμνάζω'"/>
          <xsl:map-entry key="'γυμνάζουσα'" select="'γυμνάζω'"/>
@@ -5749,6 +6177,7 @@
          <xsl:map-entry key="'γυναικείοις'" select="'γυναικεῖος'"/>
          <xsl:map-entry key="'γυναικεῖος'" select="'γυναικεῖος'"/>
          <xsl:map-entry key="'γυναικείων'" select="'γυναικεῖος'"/>
+         <xsl:map-entry key="'Γυναῖκες'" select="'γυνή'"/>
          <xsl:map-entry key="'γυναικὶ'" select="'γυνή'"/>
          <xsl:map-entry key="'γυναικί'" select="'γυνή'"/>
          <xsl:map-entry key="'γυναικός'" select="'γυνή'"/>
@@ -5760,6 +6189,7 @@
          <xsl:map-entry key="'γυνή'" select="'γυνή'"/>
          <xsl:map-entry key="'γυνὴ'" select="'γυνή'"/>
          <xsl:map-entry key="'Γυνὴ'" select="'γυνή'"/>
+         <xsl:map-entry key="'Γυνή'" select="'γυνή'"/>
          <xsl:map-entry key="'γύπη'" select="'γύπη'"/>
          <xsl:map-entry key="'γυπῶν'" select="'γύπη'"/>
          <xsl:map-entry key="'γωνία'" select="'γωνία'"/>
@@ -5769,9 +6199,9 @@
          <xsl:map-entry key="'γωνίαν'" select="'γωνία'"/>
          <xsl:map-entry key="'γωνίας'" select="'γωνία'"/>
          <xsl:map-entry key="'γωνιῶν'" select="'γωνία'"/>
-         <xsl:map-entry key="'δαβίδ'" select="'Δαυίδ'"/>
-         <xsl:map-entry key="'Δαβὶδ'" select="'Δαυίδ'"/>
-         <xsl:map-entry key="'Δαβίδ'" select="'Δαυίδ'"/>
+         <xsl:map-entry key="'δαβίδ'" select="'Δαυΐδ'"/>
+         <xsl:map-entry key="'Δαβὶδ'" select="'Δαυΐδ'"/>
+         <xsl:map-entry key="'Δαβίδ'" select="'Δαυΐδ'"/>
          <xsl:map-entry key="'δᾳδουχέω'" select="'δᾳδουχέω'"/>
          <xsl:map-entry key="'δᾳδουχία'" select="'δᾳδουχία'"/>
          <xsl:map-entry key="'δᾳδουχίας'" select="'δᾳδουχία'"/>
@@ -5829,8 +6259,10 @@
          <xsl:map-entry key="'Δάκρυσιν'" select="'δάκρυον'"/>
          <xsl:map-entry key="'δάκρυσίν'" select="'δάκρυον'"/>
          <xsl:map-entry key="'δάκρυσιν'" select="'δάκρυον'"/>
+         <xsl:map-entry key="'δάκρυσον'" select="'δακρύω'"/>
          <xsl:map-entry key="'δακρύω'" select="'δακρύω'"/>
          <xsl:map-entry key="'δακρύων'" select="'δάκρυον'"/>
+         <xsl:map-entry key="'δάκτυλοί'" select="'δάκτυλος'"/>
          <xsl:map-entry key="'δάκτυλον'" select="'δάκτυλος'"/>
          <xsl:map-entry key="'δάκτυλος'" select="'δάκτυλος'"/>
          <xsl:map-entry key="'δακτύλους'" select="'δάκτυλος'"/>
@@ -5852,16 +6284,19 @@
          <xsl:map-entry key="'δανείσματι'" select="'δάνεισμα'"/>
          <xsl:map-entry key="'Δανιὴλ'" select="'Δανιήλ'"/>
          <xsl:map-entry key="'Δανιήλ'" select="'Δανιήλ'"/>
+         <xsl:map-entry key="'δαπανάω'" select="'δαπανάω'"/>
+         <xsl:map-entry key="'δαπανήσας'" select="'δαπανάω'"/>
          <xsl:map-entry key="'δαρήσεται'" select="'δέρω'"/>
          <xsl:map-entry key="'δασμὸν'" select="'δασμός'"/>
+         <xsl:map-entry key="'δασμός'" select="'δασμός'"/>
          <xsl:map-entry key="'δασύς'" select="'δασύς'"/>
          <xsl:map-entry key="'Δαυΐδ'" select="'Δαυΐδ'"/>
          <xsl:map-entry key="'Δαυὶδ'" select="'Δαυΐδ'"/>
-         <xsl:map-entry key="'Δαυῒδ'" select="'Δαυίδ'"/>
-         <xsl:map-entry key="'Δαυίδ'" select="'Δαυίδ'"/>
+         <xsl:map-entry key="'Δαυῒδ'" select="'Δαυΐδ'"/>
+         <xsl:map-entry key="'Δαυίδ'" select="'Δαυΐδ'"/>
          <xsl:map-entry key="'δαψιλὴς'" select="'δαψιλής'"/>
          <xsl:map-entry key="'δαψιλής'" select="'δαψιλής'"/>
-         <xsl:map-entry key="'δαψιλῶς'" select="'δαψιλής'"/>
+         <xsl:map-entry key="'δαψιλῶς'" select="'δαψιλῶς'"/>
          <xsl:map-entry key="'δεδάνεισμαι'" select="'δανείζω'"/>
          <xsl:map-entry key="'δεδεμένος'" select="'δέω'"/>
          <xsl:map-entry key="'δέδεται'" select="'δέω'"/>
@@ -5881,11 +6316,17 @@
          <xsl:map-entry key="'Δεδοικότα'" select="'δείδω'"/>
          <xsl:map-entry key="'δεδοικὼς'" select="'δείδω'"/>
          <xsl:map-entry key="'δεδοκιμασμένους'" select="'δοκιμάζω'"/>
+         <xsl:map-entry key="'δεδομένα'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δεδομενη'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δεδομένην'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δεδομένοις'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δεδομένον'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δεδομένων'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δεδόξασται'" select="'δοξάζω'"/>
          <xsl:map-entry key="'δεδοται'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δέδοται'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δεδούλωται'" select="'δουλόω'"/>
+         <xsl:map-entry key="'δεδρακέναι'" select="'δράω'"/>
          <xsl:map-entry key="'δεδροσωμένα'" select="'δροσόομαι'"/>
          <xsl:map-entry key="'δέδωκα'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δεδώκαμεν'" select="'δίδωμι'"/>
@@ -5902,6 +6343,8 @@
          <xsl:map-entry key="'Δέεται'" select="'δέομαι'"/>
          <xsl:map-entry key="'δέῃ'" select="'δέομαι'"/>
          <xsl:map-entry key="'δεηθείς'" select="'δέω'"/>
+         <xsl:map-entry key="'δεήσει'" select="'δέησις'"/>
+         <xsl:map-entry key="'δεήσεσι'" select="'δέησις'"/>
          <xsl:map-entry key="'δεήσεων'" select="'δέησις'"/>
          <xsl:map-entry key="'δεήσεώς'" select="'δέησις'"/>
          <xsl:map-entry key="'δέησίν'" select="'δέησις'"/>
@@ -5910,9 +6353,9 @@
          <xsl:map-entry key="'δέησις'" select="'δέησις'"/>
          <xsl:map-entry key="'δεθέντα'" select="'δέω'"/>
          <xsl:map-entry key="'δεθέντες'" select="'δέω'"/>
-         <xsl:map-entry key="'Δεῖ'" select="'δέομαι'"/>
-         <xsl:map-entry key="'δεῖ'" select="'δέομαι'"/>
-         <xsl:map-entry key="'δει'" select="'δέομαι'"/>
+         <xsl:map-entry key="'Δεῖ'" select="'δεῖ'"/>
+         <xsl:map-entry key="'δεῖ'" select="'δεῖ'"/>
+         <xsl:map-entry key="'δει'" select="'δεῖ'"/>
          <xsl:map-entry key="'δειγματίζω'" select="'δειγματίζω'"/>
          <xsl:map-entry key="'δειγματίσωσι'" select="'δειγματίζω'"/>
          <xsl:map-entry key="'δειδίσσομαι'" select="'δειδίσσομαι'"/>
@@ -5948,27 +6391,30 @@
          <xsl:map-entry key="'δειλός'" select="'δειλός'"/>
          <xsl:map-entry key="'Δειλὸς'" select="'δειλός'"/>
          <xsl:map-entry key="'δειλότερον'" select="'δειλός'"/>
-         <xsl:map-entry key="'δεῖν'" select="'δεῖ'"/>
+         <xsl:map-entry key="'δεῖν'" select="'δέω'"/>
          <xsl:map-entry key="'δεινὰ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεῖνα'" select="'δεῖνα'"/>
          <xsl:map-entry key="'δειναὶ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινὴ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινης'" select="'δεινός'"/>
+         <xsl:map-entry key="'δεινῆς'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινοῖς'" select="'δεινός'"/>
          <xsl:map-entry key="'Δεινόν'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινόν'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινὸν'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινός'" select="'δεινός'"/>
+         <xsl:map-entry key="'δεινοτάτῃ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινοτάτῳ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινότης'" select="'δεινότης'"/>
          <xsl:map-entry key="'δεινότητι'" select="'δεινότης'"/>
          <xsl:map-entry key="'δεινῷ'" select="'δεινός'"/>
          <xsl:map-entry key="'δεινῶν'" select="'δεινός'"/>
-         <xsl:map-entry key="'δεινως'" select="'δεινός'"/>
-         <xsl:map-entry key="'δεινῶς'" select="'δεινός'"/>
+         <xsl:map-entry key="'δεινως'" select="'δεινῶς'"/>
+         <xsl:map-entry key="'δεινῶς'" select="'δεινῶς'"/>
          <xsl:map-entry key="'δεῖξαι'" select="'δείκνυμι'"/>
          <xsl:map-entry key="'δείξει'" select="'δείκνυμι'"/>
-         <xsl:map-entry key="'δειξια'" select="'δεξιά'"/>
+         <xsl:map-entry key="'δείξῃ'" select="'δείκνυμι'"/>
+         <xsl:map-entry key="'δειξια'" select="'δεξιός'"/>
          <xsl:map-entry key="'δεῖξον'" select="'δείκνυμι'"/>
          <xsl:map-entry key="'δείξω'" select="'δείκνυμι'"/>
          <xsl:map-entry key="'δειπνέω'" select="'δειπνέω'"/>
@@ -5983,6 +6429,8 @@
          <xsl:map-entry key="'δεκα'" select="'δέκα '"/>
          <xsl:map-entry key="'δέκα'" select="'δέκα'"/>
          <xsl:map-entry key="'δεκαδύο'" select="'δεκαδύο'"/>
+         <xsl:map-entry key="'δεκάτας'" select="'δέκατος'"/>
+         <xsl:map-entry key="'δέκατος'" select="'δέκατος'"/>
          <xsl:map-entry key="'δεκαχόρδῳ'" select="'δεκάχορδος'"/>
          <xsl:map-entry key="'δεκτικα'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικὰ'" select="'δεκτικός'"/>
@@ -5997,6 +6445,7 @@
          <xsl:map-entry key="'δεκτικόν'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικὸν'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικός'" select="'δεκτικός'"/>
+         <xsl:map-entry key="'δεκτικὸς'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικους'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικούς'" select="'δεκτικός'"/>
          <xsl:map-entry key="'δεκτικωι'" select="'δεκτικός'"/>
@@ -6018,6 +6467,7 @@
          <xsl:map-entry key="'δένδρου'" select="'δένδρον'"/>
          <xsl:map-entry key="'δένδρῳ'" select="'δένδρον'"/>
          <xsl:map-entry key="'δενδρων'" select="'δένδρον'"/>
+         <xsl:map-entry key="'δέξαι'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεξάμενα'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεξαμένην'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεξάμενοι'" select="'δέχομαι'"/>
@@ -6030,15 +6480,15 @@
          <xsl:map-entry key="'δέξεται'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεξηται'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δέξηται'" select="'δέχομαι'"/>
-         <xsl:map-entry key="'δεξιᾷ'" select="'δεξιά'"/>
-         <xsl:map-entry key="'δεξια'" select="'δεξιά'"/>
-         <xsl:map-entry key="'δεξιά'" select="'δεξιά'"/>
+         <xsl:map-entry key="'δεξιᾷ'" select="'δεξιός'"/>
+         <xsl:map-entry key="'δεξια'" select="'δεξιός'"/>
+         <xsl:map-entry key="'δεξιά'" select="'δεξιός'"/>
          <xsl:map-entry key="'δεξιὰ'" select="'δεξιός'"/>
          <xsl:map-entry key="'Δεξιὰ'" select="'δεξιός'"/>
-         <xsl:map-entry key="'δεξιὰν'" select="'δεξιά'"/>
-         <xsl:map-entry key="'δεξιάν'" select="'δεξιά'"/>
-         <xsl:map-entry key="'δεξιας'" select="'δεξιά'"/>
-         <xsl:map-entry key="'δεξιᾶς'" select="'δεξιά'"/>
+         <xsl:map-entry key="'δεξιὰν'" select="'δεξιός'"/>
+         <xsl:map-entry key="'δεξιάν'" select="'δεξιός'"/>
+         <xsl:map-entry key="'δεξιας'" select="'δεξιός'"/>
+         <xsl:map-entry key="'δεξιᾶς'" select="'δεξιός'"/>
          <xsl:map-entry key="'δεξιὸν'" select="'δεξιός'"/>
          <xsl:map-entry key="'δεξιόομαι'" select="'δεξιόομαι'"/>
          <xsl:map-entry key="'δεξιός'" select="'δεξιός'"/>
@@ -6055,16 +6505,20 @@
          <xsl:map-entry key="'δέον'" select="'δέον'"/>
          <xsl:map-entry key="'δέοντα'" select="'δέον'"/>
          <xsl:map-entry key="'δεόντως'" select="'δεόντως'"/>
+         <xsl:map-entry key="'δέρει'" select="'δέρος'"/>
          <xsl:map-entry key="'δέρμα'" select="'δέρμα'"/>
          <xsl:map-entry key="'δέρμασιν'" select="'δέρμα'"/>
+         <xsl:map-entry key="'δέρος'" select="'δέρος'"/>
          <xsl:map-entry key="'δέρριν'" select="'δέρρις'"/>
+         <xsl:map-entry key="'δέρω'" select="'δέρω'"/>
          <xsl:map-entry key="'δεσμὰ'" select="'δεσμός'"/>
          <xsl:map-entry key="'δεσμεῖ'" select="'δεσμέω'"/>
          <xsl:map-entry key="'δεσμεύουσα'" select="'δεσμεύω'"/>
          <xsl:map-entry key="'δεσμεύω'" select="'δεσμεύω'"/>
          <xsl:map-entry key="'δεσμέω'" select="'δεσμέω'"/>
-         <xsl:map-entry key="'δέσμιον'" select="'δέσμιον'"/>
+         <xsl:map-entry key="'δέσμιον'" select="'δέσμιος'"/>
          <xsl:map-entry key="'δέσμιος'" select="'δέσμιος'"/>
+         <xsl:map-entry key="'δεσμίων'" select="'δέσμιος'"/>
          <xsl:map-entry key="'δεσμὸν'" select="'δεσμός'"/>
          <xsl:map-entry key="'δεσμός'" select="'δεσμός'"/>
          <xsl:map-entry key="'Δεσμὸς'" select="'δεσμός'"/>
@@ -6079,6 +6533,7 @@
          <xsl:map-entry key="'δεσμῶν'" select="'δεσμός'"/>
          <xsl:map-entry key="'δεσμωτήρια'" select="'δεσμωτήριον'"/>
          <xsl:map-entry key="'δεσμωτήριον'" select="'δεσμωτήριον'"/>
+         <xsl:map-entry key="'δεσμωτηρίου'" select="'δεσμωτήριον'"/>
          <xsl:map-entry key="'δεσπόζει'" select="'δεσπόζω'"/>
          <xsl:map-entry key="'δεσπόζεις'" select="'δεσπόζω'"/>
          <xsl:map-entry key="'δεσπόζω'" select="'δεσπόζω'"/>
@@ -6106,6 +6561,7 @@
          <xsl:map-entry key="'Δεῦτε'" select="'δεῦτε'"/>
          <xsl:map-entry key="'δευτέρᾳ'" select="'δεύτερος'"/>
          <xsl:map-entry key="'δευτέρα'" select="'δεύτερος'"/>
+         <xsl:map-entry key="'δεύτερα'" select="'δεύτερος'"/>
          <xsl:map-entry key="'δευτεραι'" select="'δεύτερος'"/>
          <xsl:map-entry key="'δεύτεραι'" select="'δεύτερος'"/>
          <xsl:map-entry key="'δευτεραν'" select="'δεύτερος'"/>
@@ -6132,6 +6588,7 @@
          <xsl:map-entry key="'δεχεται'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δέχεται'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δέχομαι'" select="'δέχομαι'"/>
+         <xsl:map-entry key="'δεχόμεθα'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεχομένη'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεχομενης'" select="'δέχομαι'"/>
          <xsl:map-entry key="'δεχομένης'" select="'δέχομαι'"/>
@@ -6145,12 +6602,13 @@
          <xsl:map-entry key="'δή'" select="'δή'"/>
          <xsl:map-entry key="'δῆγμα'" select="'δῆγμα'"/>
          <xsl:map-entry key="'δήγματα'" select="'δῆγμα'"/>
-         <xsl:map-entry key="'δῆθεν'" select="'δέομαι'"/>
+         <xsl:map-entry key="'δῆθεν'" select="'δῆθεν'"/>
          <xsl:map-entry key="'δηλαδη'" select="'δηλαδή'"/>
          <xsl:map-entry key="'δηλαδή'" select="'δηλαδή'"/>
+         <xsl:map-entry key="'δηλαδὴ'" select="'δηλαδή'"/>
          <xsl:map-entry key="'δηλαυγης'" select="'δηλαυγής'"/>
          <xsl:map-entry key="'δηλαυγής'" select="'δηλαυγής'"/>
-         <xsl:map-entry key="'δηλαυγως'" select="'δηλαυγής'"/>
+         <xsl:map-entry key="'δηλαυγως'" select="'δηλαυγώς'"/>
          <xsl:map-entry key="'δηλοι'" select="'δηλόω'"/>
          <xsl:map-entry key="'δηλοῖ'" select="'δηλόω'"/>
          <xsl:map-entry key="'Δηλοῖ'" select="'δηλόω'"/>
@@ -6183,6 +6641,10 @@
          <xsl:map-entry key="'δήλωσις'" select="'δήλωσις'"/>
          <xsl:map-entry key="'δηλωτικὸς'" select="'δηλωτικός'"/>
          <xsl:map-entry key="'δηλωτικός'" select="'δηλωτικός'"/>
+         <xsl:map-entry key="'δημιουργεῖν'" select="'δημιουργέω'"/>
+         <xsl:map-entry key="'δημιουργέω'" select="'δημιουργέω'"/>
+         <xsl:map-entry key="'δημιουργηθέντων'" select="'δημιουργέω'"/>
+         <xsl:map-entry key="'δημιουργήσας'" select="'δημιουργέω'"/>
          <xsl:map-entry key="'δημιουργικὴ'" select="'δημιουργικός'"/>
          <xsl:map-entry key="'δημιουργικὸν'" select="'δημιουργικός'"/>
          <xsl:map-entry key="'δημιουργικός'" select="'δημιουργικός'"/>
@@ -6194,8 +6656,10 @@
          <xsl:map-entry key="'Δημιουργοῦ'" select="'δημιουργός'"/>
          <xsl:map-entry key="'δημιουργοῦ'" select="'δημιουργός'"/>
          <xsl:map-entry key="'δημιουργῷ'" select="'δημιουργός'"/>
+         <xsl:map-entry key="'δημιουργῶν'" select="'δημιουργέω'"/>
          <xsl:map-entry key="'δῆμον'" select="'δῆμος'"/>
          <xsl:map-entry key="'δῆμος'" select="'δῆμος'"/>
+         <xsl:map-entry key="'δημόσιά'" select="'δημόσιος'"/>
          <xsl:map-entry key="'Δημοσιεύει'" select="'δημοσιεύω'"/>
          <xsl:map-entry key="'δημοσιεύειν'" select="'δημοσιεύω'"/>
          <xsl:map-entry key="'δημοσιεύεσθαι'" select="'δημοσιεύω'"/>
@@ -6203,17 +6667,19 @@
          <xsl:map-entry key="'δημοσίευσιν'" select="'δημοσίευσις'"/>
          <xsl:map-entry key="'δημοσίευσις'" select="'δημοσίευσις'"/>
          <xsl:map-entry key="'δημοσιεύω'" select="'δημοσιεύω'"/>
+         <xsl:map-entry key="'δημόσιος'" select="'δημόσιος'"/>
          <xsl:map-entry key="'δήμου'" select="'δῆμος'"/>
          <xsl:map-entry key="'δημοχαρὴς'" select="'δημοχαρής'"/>
          <xsl:map-entry key="'δημοχαρής'" select="'δημοχαρής'"/>
-         <xsl:map-entry key="'δήπερ'" select="'δή'"/>
-         <xsl:map-entry key="'δήποτε'" select="'δήποτε'"/>
-         <xsl:map-entry key="'δήπου'" select="'δήπου'"/>
+         <xsl:map-entry key="'δηνάρια'" select="'δηνάριον'"/>
+         <xsl:map-entry key="'δηνάριον'" select="'δηνάριον'"/>
          <xsl:map-entry key="'δῆσαι'" select="'δέω'"/>
          <xsl:map-entry key="'δηχθῇς'" select="'δάκνω'"/>
-         <xsl:map-entry key="'διὰ'" select="'διά'"/>
          <xsl:map-entry key="'διαβαίνει'" select="'διαβαίνω'"/>
          <xsl:map-entry key="'διαβαίνω'" select="'διαβαίνω'"/>
+         <xsl:map-entry key="'διαβάλλειν'" select="'διαβάλλω'"/>
+         <xsl:map-entry key="'διαβάλλω'" select="'διαβάλλω'"/>
+         <xsl:map-entry key="'διαβάσεις'" select="'διάβασις'"/>
          <xsl:map-entry key="'διάβασις'" select="'διάβασις'"/>
          <xsl:map-entry key="'διάβημα'" select="'διάβημα'"/>
          <xsl:map-entry key="'διαβήματά'" select="'διάβημα'"/>
@@ -6228,8 +6694,10 @@
          <xsl:map-entry key="'διαβόλου'" select="'διάβολος'"/>
          <xsl:map-entry key="'διαβόλῳ'" select="'διάβολος'"/>
          <xsl:map-entry key="'διαβουλίων'" select="'διαβούλιον'"/>
+         <xsl:map-entry key="'διάγειν'" select="'διάγω'"/>
          <xsl:map-entry key="'διαγιγνώσκω'" select="'διαγιγνώσκω'"/>
          <xsl:map-entry key="'διαγινώσκει'" select="'διαγιγνώσκω'"/>
+         <xsl:map-entry key="'διαγνῶναι'" select="'διαγιγνώσκω'"/>
          <xsl:map-entry key="'διαγνώρισμα'" select="'διαγνώρισμα'"/>
          <xsl:map-entry key="'διαγνωρίσματα'" select="'διαγνώρισμα'"/>
          <xsl:map-entry key="'διαγνώσεται'" select="'διαγιγνώσκω'"/>
@@ -6241,6 +6709,7 @@
          <xsl:map-entry key="'διάγουσιν'" select="'διάγω'"/>
          <xsl:map-entry key="'διαγράφω'" select="'διαγράφω'"/>
          <xsl:map-entry key="'διαγράφων'" select="'διαγράφω'"/>
+         <xsl:map-entry key="'διάγραψον'" select="'διαγράφω'"/>
          <xsl:map-entry key="'διάγω'" select="'διάγω'"/>
          <xsl:map-entry key="'διαγωγή'" select="'διαγωγή'"/>
          <xsl:map-entry key="'διαγωγην'" select="'διαγωγή'"/>
@@ -6275,6 +6744,7 @@
          <xsl:map-entry key="'διαθεσει'" select="'διάθεσις'"/>
          <xsl:map-entry key="'διαθέσεις'" select="'διάθεσις'"/>
          <xsl:map-entry key="'διαθέσεως'" select="'διάθεσις'"/>
+         <xsl:map-entry key="'διαθέσθαι'" select="'διατίθημι'"/>
          <xsl:map-entry key="'διάθεσιν'" select="'διάθεσις'"/>
          <xsl:map-entry key="'διάθεσις'" select="'διάθεσις'"/>
          <xsl:map-entry key="'διαθηκας'" select="'διαθήκη'"/>
@@ -6317,23 +6787,29 @@
          <xsl:map-entry key="'διακονίαν'" select="'διακονία'"/>
          <xsl:map-entry key="'διακονίας'" select="'διακονία'"/>
          <xsl:map-entry key="'διακονιῶν'" select="'διακονία'"/>
+         <xsl:map-entry key="'διάκονος'" select="'διάκονος'"/>
          <xsl:map-entry key="'διακοπή'" select="'διακοπή'"/>
          <xsl:map-entry key="'διακόπτοντος'" select="'διακόπτω'"/>
          <xsl:map-entry key="'διακόπτω'" select="'διακόπτω'"/>
          <xsl:map-entry key="'διακοσμήσεως'" select="'διακόσμησις'"/>
          <xsl:map-entry key="'διακόσμησις'" select="'διακόσμησις'"/>
+         <xsl:map-entry key="'διακόψας'" select="'διακόπτω'"/>
          <xsl:map-entry key="'διακόψωσιν'" select="'διακόπτω'"/>
          <xsl:map-entry key="'διακρῖναι'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρίνας'" select="'διακρίνω'"/>
+         <xsl:map-entry key="'διάκρινε'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρινει'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρίνει'" select="'διακρίνω'"/>
+         <xsl:map-entry key="'διακρινεῖ'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρινειν'" select="'διακρίνω'"/>
+         <xsl:map-entry key="'διακρίνειν'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρινεται'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρινομενη'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρινόμενος'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρίνουσα'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρίνω'" select="'διακρίνω'"/>
          <xsl:map-entry key="'διακρισει'" select="'διάκρισις'"/>
+         <xsl:map-entry key="'διακρίσει'" select="'διάκρισις'"/>
          <xsl:map-entry key="'διακρισεις'" select="'διάκρισις'"/>
          <xsl:map-entry key="'διακρισεων'" select="'διάκρισις'"/>
          <xsl:map-entry key="'Διακρισεως'" select="'διάκρισις'"/>
@@ -6359,12 +6835,15 @@
          <xsl:map-entry key="'διαλέγω'" select="'διαλέγω'"/>
          <xsl:map-entry key="'διάλειμμα'" select="'διάλειμμα'"/>
          <xsl:map-entry key="'διαλειμμάτων'" select="'διάλειμμα'"/>
+         <xsl:map-entry key="'διαλεκτική'" select="'διαλεκτικός'"/>
          <xsl:map-entry key="'διαλεκτικῆς'" select="'διαλεκτικός'"/>
          <xsl:map-entry key="'διαλεκτικοῖς'" select="'διαλεκτικός'"/>
          <xsl:map-entry key="'διαλεκτικός'" select="'διαλεκτικός'"/>
          <xsl:map-entry key="'διάλεκτος'" select="'διάλεκτος'"/>
          <xsl:map-entry key="'διαλέκτους'" select="'διάλεκτος'"/>
+         <xsl:map-entry key="'διάλεξις'" select="'διάλεξις'"/>
          <xsl:map-entry key="'διαλεχθῇ'" select="'διαλέγω'"/>
+         <xsl:map-entry key="'διαλεχθῆναι'" select="'διαλέγω'"/>
          <xsl:map-entry key="'διαλλάγηθι'" select="'διαλλάσσω'"/>
          <xsl:map-entry key="'διαλλαγῆναι'" select="'διαλλάσσω'"/>
          <xsl:map-entry key="'διαλλάσσω'" select="'διαλλάσσω'"/>
@@ -6378,10 +6857,12 @@
          <xsl:map-entry key="'διαλογισμῶν'" select="'διαλογισμός'"/>
          <xsl:map-entry key="'διαλυει'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλύει'" select="'διαλύω'"/>
+         <xsl:map-entry key="'διαλύειν'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλυέσθαι'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλυθῆναι'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλυθήσεται'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλυομένου'" select="'διαλύω'"/>
+         <xsl:map-entry key="'διαλύουσαν'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλύσει'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαλύω'" select="'διαλύω'"/>
          <xsl:map-entry key="'διαμαρτάνω'" select="'διαμαρτάνω'"/>
@@ -6389,6 +6870,7 @@
          <xsl:map-entry key="'διαμαρτυροῦν'" select="'διαμαρτυρέω'"/>
          <xsl:map-entry key="'διαμαρτὼν'" select="'διαμαρτάνω'"/>
          <xsl:map-entry key="'διαμάχεται'" select="'διαμάχομαι'"/>
+         <xsl:map-entry key="'διαμάχηται'" select="'διαμάχομαι'"/>
          <xsl:map-entry key="'διαμάχομαι'" select="'διαμάχομαι'"/>
          <xsl:map-entry key="'διαμάχονται'" select="'διαμάχομαι'"/>
          <xsl:map-entry key="'διαμενει'" select="'διαμένω'"/>
@@ -6407,13 +6889,16 @@
          <xsl:map-entry key="'διαμέτρου'" select="'διάμετρον'"/>
          <xsl:map-entry key="'διάμονος'" select="'διάμονος'"/>
          <xsl:map-entry key="'διαμονων'" select="'διάμονος'"/>
+         <xsl:map-entry key="'διαναπαύομαι'" select="'διαναπαύομαι'"/>
+         <xsl:map-entry key="'διαναπαύσασθαι'" select="'διαναπαύομαι'"/>
          <xsl:map-entry key="'διανέμειν'" select="'διανέμω'"/>
          <xsl:map-entry key="'διανέμοντος'" select="'διανέμω'"/>
          <xsl:map-entry key="'διανέμω'" select="'διανέμω διανεμόομαι'"/>
          <xsl:map-entry key="'διανήξασθαι'" select="'διανήχομαι'"/>
          <xsl:map-entry key="'διανήχομαι'" select="'διανήχομαι'"/>
-         <xsl:map-entry key="'διανοέομαι'" select="'διανοέομαι'"/>
-         <xsl:map-entry key="'διανοέω'" select="'διανοέομαι διανοέω'"/>
+         <xsl:map-entry key="'διανοέομαι'" select="'διανοέω'"/>
+         <xsl:map-entry key="'διανοέω'" select="'διανοέω'"/>
+         <xsl:map-entry key="'διανοηθέντες'" select="'διανοέω'"/>
          <xsl:map-entry key="'διανοηθωμεν'" select="'διανοέω'"/>
          <xsl:map-entry key="'διανόημα'" select="'διανόημα'"/>
          <xsl:map-entry key="'Διανοήματα'" select="'διανόημα'"/>
@@ -6428,9 +6913,9 @@
          <xsl:map-entry key="'διανοιας'" select="'διάνοια'"/>
          <xsl:map-entry key="'διανοίας'" select="'διάνοια'"/>
          <xsl:map-entry key="'διανοιων'" select="'διάνοια'"/>
+         <xsl:map-entry key="'διανοοῦ'" select="'διανοέω'"/>
          <xsl:map-entry key="'διανοουμεθα'" select="'διανοέω'"/>
-         <xsl:map-entry key="'διαξέω'" select="'διαξέω'"/>
-         <xsl:map-entry key="'διάξης'" select="'διαξέω'"/>
+         <xsl:map-entry key="'διάξης'" select="'διάγω'"/>
          <xsl:map-entry key="'διαπαντος'" select="'διαπαντός'"/>
          <xsl:map-entry key="'διαπαντός'" select="'διαπαντός'"/>
          <xsl:map-entry key="'διαπαντὸς'" select="'διαπαντός'"/>
@@ -6442,6 +6927,8 @@
          <xsl:map-entry key="'διαπορευομένου'" select="'διαπορεύω'"/>
          <xsl:map-entry key="'διαπορεύονται'" select="'διαπορεύω'"/>
          <xsl:map-entry key="'διαπορεύω'" select="'διαπορεύω'"/>
+         <xsl:map-entry key="'διαπραγματεύεσθαι'" select="'διαπραγματεύομαι'"/>
+         <xsl:map-entry key="'διαπραγματεύομαι'" select="'διαπραγματεύομαι'"/>
          <xsl:map-entry key="'διαπράσσω'" select="'διαπράσσω'"/>
          <xsl:map-entry key="'διαπράττῃ'" select="'διαπράσσω'"/>
          <xsl:map-entry key="'διαπραττόμενος'" select="'διαπράσσω'"/>
@@ -6473,6 +6960,7 @@
          <xsl:map-entry key="'Διασκορπιοῦσι'" select="'διασκορπίζω'"/>
          <xsl:map-entry key="'διασκορπισθήτωσαν'" select="'διασκορπίζω'"/>
          <xsl:map-entry key="'διασπάω'" select="'διασπάω'"/>
+         <xsl:map-entry key="'διασπείρω'" select="'διασπείρω'"/>
          <xsl:map-entry key="'διασπορᾷ'" select="'διασπορά'"/>
          <xsl:map-entry key="'διασπορά'" select="'διασπορά'"/>
          <xsl:map-entry key="'διασπορὰς'" select="'διασπορά'"/>
@@ -6483,6 +6971,7 @@
          <xsl:map-entry key="'διάστημα'" select="'διάστημα'"/>
          <xsl:map-entry key="'διαστήματα'" select="'διάστημα'"/>
          <xsl:map-entry key="'διαστήματά'" select="'διάστημα'"/>
+         <xsl:map-entry key="'διαστήματος'" select="'διάστημα'"/>
          <xsl:map-entry key="'διαστημάτων'" select="'διάστημα'"/>
          <xsl:map-entry key="'διαστολας'" select="'διαστολή'"/>
          <xsl:map-entry key="'διαστολή'" select="'διαστολή'"/>
@@ -6493,11 +6982,14 @@
          <xsl:map-entry key="'διαστρέφωμεν'" select="'διαστρέφω'"/>
          <xsl:map-entry key="'διαστρέψεις'" select="'διαστρέφω'"/>
          <xsl:map-entry key="'διαστρέψωσι'" select="'διαστρέφω'"/>
+         <xsl:map-entry key="'διασῦραι'" select="'διασύρω'"/>
          <xsl:map-entry key="'διασυρίζον'" select="'διασυρίζω'"/>
          <xsl:map-entry key="'διασυρίζω'" select="'διασυρίζω'"/>
+         <xsl:map-entry key="'διασύρω'" select="'διασύρω'"/>
          <xsl:map-entry key="'διασχιζον'" select="'διασχίζω'"/>
          <xsl:map-entry key="'διασχίζω'" select="'διασχίζω'"/>
          <xsl:map-entry key="'διασχισθεις'" select="'διασχίζω'"/>
+         <xsl:map-entry key="'διασχὼν'" select="'διέχω'"/>
          <xsl:map-entry key="'διασῴζει'" select="'διασῴζω'"/>
          <xsl:map-entry key="'διασώζειν'" select="'διασῴζω'"/>
          <xsl:map-entry key="'διασῴζειν'" select="'διασῴζω'"/>
@@ -6512,9 +7004,9 @@
          <xsl:map-entry key="'διατείνει'" select="'διατείνω'"/>
          <xsl:map-entry key="'διατείνω'" select="'διατείνω'"/>
          <xsl:map-entry key="'διατελέω'" select="'διατελέω'"/>
-         <xsl:map-entry key="'διατελέως'" select="'διατελής'"/>
+         <xsl:map-entry key="'διατελέως'" select="'διατελέως'"/>
          <xsl:map-entry key="'διατελῆται'" select="'διατελέω'"/>
-         <xsl:map-entry key="'διατελως'" select="'διατελέως'"/>
+         <xsl:map-entry key="'διατελως'" select="'διατελως'"/>
          <xsl:map-entry key="'διατέμνεται'" select="'διατέμνω'"/>
          <xsl:map-entry key="'διατέμνω'" select="'διατέμνω'"/>
          <xsl:map-entry key="'διατεταμένας'" select="'διατείνω'"/>
@@ -6524,6 +7016,8 @@
          <xsl:map-entry key="'διατήρησον'" select="'διατηρέω'"/>
          <xsl:map-entry key="'διατηροῦσα'" select="'διατηρέω'"/>
          <xsl:map-entry key="'διατηρῶν'" select="'διατηρέω'"/>
+         <xsl:map-entry key="'διατί'" select="'διατί'"/>
+         <xsl:map-entry key="'διατίθεται'" select="'διατίθημι'"/>
          <xsl:map-entry key="'διατίθημι'" select="'διατίθημι'"/>
          <xsl:map-entry key="'διατραφῆναι'" select="'διατρέφω'"/>
          <xsl:map-entry key="'διατρεφόμεναι'" select="'διατρέφω'"/>
@@ -6539,6 +7033,7 @@
          <xsl:map-entry key="'διατριβή'" select="'διατριβή'"/>
          <xsl:map-entry key="'διατριβὴ'" select="'διατριβή'"/>
          <xsl:map-entry key="'διατριβὴν'" select="'διατριβή'"/>
+         <xsl:map-entry key="'διατρίβοντας'" select="'διατρίβω'"/>
          <xsl:map-entry key="'διατρίβουσιν'" select="'διατρίβω'"/>
          <xsl:map-entry key="'διατρίβω'" select="'διατρίβω'"/>
          <xsl:map-entry key="'διατροφὰς'" select="'διατροφή'"/>
@@ -6551,7 +7046,7 @@
          <xsl:map-entry key="'διαφανής'" select="'διαφανής'"/>
          <xsl:map-entry key="'διαφερει'" select="'διαφέρω'"/>
          <xsl:map-entry key="'διαφέρειν'" select="'διαφέρω'"/>
-         <xsl:map-entry key="'διαφεροντως'" select="'διαφέρω'"/>
+         <xsl:map-entry key="'διαφεροντως'" select="'διαφερόντως'"/>
          <xsl:map-entry key="'διαφερουσα'" select="'διαφέρω'"/>
          <xsl:map-entry key="'διαφερουσαν'" select="'διαφέρω'"/>
          <xsl:map-entry key="'διαφερουσιν'" select="'διαφέρω'"/>
@@ -6565,6 +7060,8 @@
          <xsl:map-entry key="'διαφεύγω'" select="'διαφεύγω'"/>
          <xsl:map-entry key="'διαφεύξεται'" select="'διαφεύγω'"/>
          <xsl:map-entry key="'διαφεύξῃ'" select="'διαφεύγω'"/>
+         <xsl:map-entry key="'διαφθαρείσης'" select="'διαφθείρω'"/>
+         <xsl:map-entry key="'διαφθαρέντων'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθαρήσεται'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθεῖραι'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθείραντες'" select="'διαφθείρω'"/>
@@ -6574,6 +7071,7 @@
          <xsl:map-entry key="'διαφθείρῃ'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθείροντα'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθείρονται'" select="'διαφθείρω'"/>
+         <xsl:map-entry key="'διαφθείροντας'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθείροντες'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθειρόντων'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διαφθείρουσα'" select="'διαφθείρω'"/>
@@ -6603,11 +7101,12 @@
          <xsl:map-entry key="'διαφορους'" select="'διάφορος'"/>
          <xsl:map-entry key="'διαφόρους'" select="'διάφορος'"/>
          <xsl:map-entry key="'διαφόρων'" select="'διάφορος'"/>
-         <xsl:map-entry key="'ΔΙΑΦΟΡΩΝ'" select="'διαφορά'"/>
+         <xsl:map-entry key="'ΔΙΑΦΟΡΩΝ'" select="'διάφορος'"/>
          <xsl:map-entry key="'διαφυγεῖν'" select="'διαφεύγω'"/>
          <xsl:map-entry key="'διαφύγῃ'" select="'διαφεύγω'"/>
          <xsl:map-entry key="'διαφύγῃς'" select="'διαφεύγω'"/>
          <xsl:map-entry key="'διαφυλάξαι'" select="'διαφυλάσσω'"/>
+         <xsl:map-entry key="'διαφυλαξάντων'" select="'διαφυλάσσω'"/>
          <xsl:map-entry key="'διαφυλάσσεται'" select="'διαφυλάσσω'"/>
          <xsl:map-entry key="'διαφυλάσσοντας'" select="'διαφυλάσσω'"/>
          <xsl:map-entry key="'διαφυλάσσω'" select="'διαφυλάσσω'"/>
@@ -6631,6 +7130,8 @@
          <xsl:map-entry key="'διάψαλμα'" select="'διάψαλμα'"/>
          <xsl:map-entry key="'διαψηφισταῖς'" select="'διαψηφιστής'"/>
          <xsl:map-entry key="'διαψηφιστής'" select="'διαψηφιστής'"/>
+         <xsl:map-entry key="'διγαμέω'" select="'διγαμέω'"/>
+         <xsl:map-entry key="'διγαμήσας'" select="'διγαμέω'"/>
          <xsl:map-entry key="'δίγλωσσος'" select="'δίγλωσσος'"/>
          <xsl:map-entry key="'δίγλωττοι'" select="'δίγλωσσος'"/>
          <xsl:map-entry key="'διδακτά'" select="'διδακτός'"/>
@@ -6658,11 +7159,14 @@
          <xsl:map-entry key="'διδασκαλικὸν'" select="'διδασκαλικός'"/>
          <xsl:map-entry key="'διδασκαλικός'" select="'διδασκαλικός'"/>
          <xsl:map-entry key="'διδασκαλιων'" select="'διδασκαλία'"/>
+         <xsl:map-entry key="'διδάσκαλοι'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'διδάσκαλον'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'διδάσκαλος'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'διδασκαλος'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'διδασκαλου'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'διδασκάλου'" select="'διδάσκαλος'"/>
+         <xsl:map-entry key="'διδασκάλῳ'" select="'διδάσκαλος'"/>
+         <xsl:map-entry key="'διδασκάλων'" select="'διδάσκαλος'"/>
          <xsl:map-entry key="'δίδασκε'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδάσκει'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδασκει'" select="'διδάσκω'"/>
@@ -6685,10 +7189,12 @@
          <xsl:map-entry key="'διδασκουσι'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδάσκουσι'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδασκουσιν'" select="'διδάσκω'"/>
+         <xsl:map-entry key="'διδάσκουσιν'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδάσκω'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδασκων'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδάσκων'" select="'διδάσκω'"/>
          <xsl:map-entry key="'διδαχή'" select="'διδαχή'"/>
+         <xsl:map-entry key="'διδαχῇ'" select="'διδαχή'"/>
          <xsl:map-entry key="'διδαχηι'" select="'διδαχή'"/>
          <xsl:map-entry key="'διδαχην'" select="'διδαχή'"/>
          <xsl:map-entry key="'διδαχης'" select="'διδαχή'"/>
@@ -6740,13 +7246,14 @@
          <xsl:map-entry key="'διελέγχω'" select="'διελέγχω'"/>
          <xsl:map-entry key="'διελεύσεται'" select="'διέρχομαι'"/>
          <xsl:map-entry key="'διεληλυθὼς'" select="'διέρχομαι'"/>
+         <xsl:map-entry key="'διελθεῖν'" select="'διέρχομαι'"/>
          <xsl:map-entry key="'διελογισάμην'" select="'διαλογίζομαι'"/>
          <xsl:map-entry key="'διελογίσαντο'" select="'διαλογίζομαι'"/>
          <xsl:map-entry key="'διελόντες'" select="'διαιρέω'"/>
          <xsl:map-entry key="'διεμέριζεν'" select="'διαμερίζω'"/>
          <xsl:map-entry key="'διεμερίσαντο'" select="'διαμερίζω'"/>
          <xsl:map-entry key="'διενοηθη'" select="'διανοέω'"/>
-         <xsl:map-entry key="'διενοήθημεν'" select="'διανοέομαι'"/>
+         <xsl:map-entry key="'διενοήθημεν'" select="'διανοέω'"/>
          <xsl:map-entry key="'διέξειμι'" select="'διέξειμι'"/>
          <xsl:map-entry key="'διεξηγέομαι'" select="'διεξηγέομαι'"/>
          <xsl:map-entry key="'διεξηγουμενος'" select="'διεξηγέομαι'"/>
@@ -6771,16 +7278,21 @@
          <xsl:map-entry key="'διεσκορπίσθη'" select="'διασκορπίζω'"/>
          <xsl:map-entry key="'διεσκορπίσθησαν'" select="'διασκορπίζω'"/>
          <xsl:map-entry key="'διέσπασεν'" select="'διασπάω'"/>
+         <xsl:map-entry key="'διέσπειρεν'" select="'διασπείρω'"/>
          <xsl:map-entry key="'διέστειλεν'" select="'διαστέλλω'"/>
+         <xsl:map-entry key="'διεστηκότα'" select="'διίστημι'"/>
          <xsl:map-entry key="'διεστραμμένη'" select="'διαστρέφω'"/>
          <xsl:map-entry key="'διεστραμμένην'" select="'διαστρέφω'"/>
          <xsl:map-entry key="'διεστραμμένον'" select="'διαστρέφω'"/>
+         <xsl:map-entry key="'Διεστραμμένον'" select="'διαστρέφω'"/>
+         <xsl:map-entry key="'Διεστραμμένος'" select="'διαστρέφω'"/>
          <xsl:map-entry key="'διέτειναν'" select="'διατείνω'"/>
          <xsl:map-entry key="'διεφθάρησαν'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διέφθειρε'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διέφθειρεν'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'Διέφθειρες'" select="'διαφθείρω'"/>
          <xsl:map-entry key="'διεχύθη'" select="'διαχέω'"/>
+         <xsl:map-entry key="'διέχω'" select="'διέχω'"/>
          <xsl:map-entry key="'διηγεῖσθαι'" select="'διηγέομαι'"/>
          <xsl:map-entry key="'διηγειται'" select="'διηγέομαι'"/>
          <xsl:map-entry key="'διηγεῖται'" select="'διηγέομαι'"/>
@@ -6804,21 +7316,26 @@
          <xsl:map-entry key="'διηγούμενοι'" select="'διηγέομαι'"/>
          <xsl:map-entry key="'διηγούμενος'" select="'διηγέομαι'"/>
          <xsl:map-entry key="'διηγοῦνται'" select="'διηγέομαι'"/>
+         <xsl:map-entry key="'διηκούσης'" select="'διήκω'"/>
+         <xsl:map-entry key="'διήκω'" select="'διήκω'"/>
          <xsl:map-entry key="'διῆλθεν'" select="'διέρχομαι'"/>
          <xsl:map-entry key="'διήλθομεν'" select="'διέρχομαι'"/>
          <xsl:map-entry key="'διηνεκὴς'" select="'διηνεκής'"/>
          <xsl:map-entry key="'διηνεκής'" select="'διηνεκής'"/>
+         <xsl:map-entry key="'διηνεκῶς'" select="'διηνεκῶς'"/>
          <xsl:map-entry key="'διῄρηται'" select="'διαιρέω'"/>
          <xsl:map-entry key="'διήρπαζον'" select="'διαρπάζω'"/>
          <xsl:map-entry key="'διήρπασαν'" select="'διαρπάζω'"/>
          <xsl:map-entry key="'δίθυμον'" select="'δίθυμος'"/>
          <xsl:map-entry key="'δίθυμος'" select="'δίθυμος'"/>
+         <xsl:map-entry key="'διίστημι'" select="'διίστημι'"/>
          <xsl:map-entry key="'διισχυρίζομαι'" select="'διισχυρίζομαι'"/>
          <xsl:map-entry key="'διισχυριζονται'" select="'διισχυρίζομαι'"/>
          <xsl:map-entry key="'Δίκαζε'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικαζεσθαι'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικάζεσθαι'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικαζόμενοι'" select="'δικάζω'"/>
+         <xsl:map-entry key="'δικάζοντος'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικάζω'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικάζωνται'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικαια'" select="'δίκαιος'"/>
@@ -6843,10 +7360,12 @@
          <xsl:map-entry key="'δικαιοπραγεῖν'" select="'δικαιοπραγέω'"/>
          <xsl:map-entry key="'δικαιοπραγέω'" select="'δικαιοπραγέω'"/>
          <xsl:map-entry key="'δικαιοπραγία'" select="'δικαιοπραγία'"/>
+         <xsl:map-entry key="'δικαιοπραγοῦντας'" select="'δικαιοπραγέω'"/>
          <xsl:map-entry key="'δικαιοπραγῶν'" select="'δικαιοπραγέω'"/>
          <xsl:map-entry key="'δίκαιος'" select="'δίκαιος'"/>
          <xsl:map-entry key="'Δίκαιος'" select="'δίκαιος'"/>
          <xsl:map-entry key="'δίκαιός'" select="'δίκαιος'"/>
+         <xsl:map-entry key="'δικαιοσύναι'" select="'δικαιοσύνη'"/>
          <xsl:map-entry key="'δικαιοσύνας'" select="'δικαιοσύνη'"/>
          <xsl:map-entry key="'Δικαιοσύνας'" select="'δικαιοσύνη'"/>
          <xsl:map-entry key="'δικαιοσύνη'" select="'δικαιοσύνη'"/>
@@ -6859,6 +7378,7 @@
          <xsl:map-entry key="'Δικαιοσύνην'" select="'δικαιοσύνη'"/>
          <xsl:map-entry key="'δικαιοσύνης'" select="'δικαιοσύνη'"/>
          <xsl:map-entry key="'δικαιοσυνης'" select="'δικαιοσύνη'"/>
+         <xsl:map-entry key="'δικαιότατον'" select="'δίκαιος'"/>
          <xsl:map-entry key="'δικαιότερον'" select="'δίκαιος'"/>
          <xsl:map-entry key="'δικαιότης'" select="'δικαιότης'"/>
          <xsl:map-entry key="'δικαιότητι'" select="'δικαιότης'"/>
@@ -6880,19 +7400,21 @@
          <xsl:map-entry key="'δικαιωμάτων'" select="'δικαίωμα'"/>
          <xsl:map-entry key="'δικαίων'" select="'δίκαιος'"/>
          <xsl:map-entry key="'δικαιων'" select="'δίκαιος'"/>
-         <xsl:map-entry key="'δικαίως'" select="'δίκαιος'"/>
-         <xsl:map-entry key="'δικαιως'" select="'δίκαιος'"/>
-         <xsl:map-entry key="'Δικαίως'" select="'δίκαιος'"/>
+         <xsl:map-entry key="'δικαίως'" select="'δικαίως'"/>
+         <xsl:map-entry key="'δικαιως'" select="'δικαίως'"/>
+         <xsl:map-entry key="'Δικαίως'" select="'δικαίως'"/>
          <xsl:map-entry key="'δίκας'" select="'δίκη'"/>
          <xsl:map-entry key="'δικάσασθαι'" select="'δικάζω'"/>
          <xsl:map-entry key="'δίκασον'" select="'δικάζω'"/>
          <xsl:map-entry key="'δικασταῖς'" select="'δικαστής'"/>
+         <xsl:map-entry key="'δικαστῇ'" select="'δικαστής'"/>
          <xsl:map-entry key="'δικαστὴν'" select="'δικαστής'"/>
          <xsl:map-entry key="'δικαστήριον'" select="'δικαστήριον'"/>
          <xsl:map-entry key="'δικαστὴς'" select="'δικαστής'"/>
          <xsl:map-entry key="'δικαστής'" select="'δικαστής'"/>
          <xsl:map-entry key="'δικαστικήν'" select="'δικαστικός'"/>
          <xsl:map-entry key="'δικαστικός'" select="'δικαστικός'"/>
+         <xsl:map-entry key="'δικαστοῦ'" select="'δικαστής'"/>
          <xsl:map-entry key="'δίκη'" select="'δίκη'"/>
          <xsl:map-entry key="'δίκῃ'" select="'δίκη'"/>
          <xsl:map-entry key="'δίκην'" select="'δίκη'"/>
@@ -6912,8 +7434,8 @@
          <xsl:map-entry key="'δίοδος'" select="'δίοδος'"/>
          <xsl:map-entry key="'διοικεῖν'" select="'διοικέω'"/>
          <xsl:map-entry key="'διοικέω'" select="'διοικέω'"/>
-         <xsl:map-entry key="'διολάω'" select="'διολάω'"/>
-         <xsl:map-entry key="'διόλων'" select="'διολάω'"/>
+         <xsl:map-entry key="'διοικοῦντες'" select="'διοικέω'"/>
+         <xsl:map-entry key="'διόλων'" select="'διόλου'"/>
          <xsl:map-entry key="'Διόπερ'" select="'διόπερ'"/>
          <xsl:map-entry key="'διόπερ'" select="'διόπερ'"/>
          <xsl:map-entry key="'διοραν'" select="'διοράω'"/>
@@ -6925,12 +7447,11 @@
          <xsl:map-entry key="'διορθόω'" select="'διορθόω'"/>
          <xsl:map-entry key="'διόρθωσαι'" select="'διορθόω'"/>
          <xsl:map-entry key="'διορθωσάμενος'" select="'διορθόω'"/>
+         <xsl:map-entry key="'διορθώσασθαι'" select="'διορθόω'"/>
          <xsl:map-entry key="'διορύσσουσι'" select="'διορύσσω'"/>
          <xsl:map-entry key="'διορύσσω'" select="'διορύσσω'"/>
          <xsl:map-entry key="'διορύττουσι'" select="'διορύσσω'"/>
          <xsl:map-entry key="'διορύττων'" select="'διορύσσω'"/>
-         <xsl:map-entry key="'διότι'" select="'διότι'"/>
-         <xsl:map-entry key="'Διότι'" select="'διότι'"/>
          <xsl:map-entry key="'διοχλεῖ'" select="'διοχλέω'"/>
          <xsl:map-entry key="'διοχλέω'" select="'διοχλέω'"/>
          <xsl:map-entry key="'διοχλοῦσιν'" select="'διοχλέω'"/>
@@ -6961,9 +7482,11 @@
          <xsl:map-entry key="'Διτταὶ'" select="'δισσός'"/>
          <xsl:map-entry key="'διτταῖς'" select="'δισσός'"/>
          <xsl:map-entry key="'διττή'" select="'δισσός'"/>
+         <xsl:map-entry key="'διττόν'" select="'δισσός'"/>
          <xsl:map-entry key="'διττὸς'" select="'δισσός'"/>
-         <xsl:map-entry key="'διττῶς'" select="'δισσός'"/>
-         <xsl:map-entry key="'Διττῶς'" select="'δισσός'"/>
+         <xsl:map-entry key="'διττῶς'" select="'δισσῶς'"/>
+         <xsl:map-entry key="'Διττῶς'" select="'δισσῶς'"/>
+         <xsl:map-entry key="'διυπνίζει'" select="'διυπνίζω'"/>
          <xsl:map-entry key="'διυπνίζουσα'" select="'διυπνίζω'"/>
          <xsl:map-entry key="'διυπνίζω'" select="'διυπνίζω'"/>
          <xsl:map-entry key="'διυπνισθεῖσα'" select="'διυπνίζω'"/>
@@ -6997,6 +7520,7 @@
          <xsl:map-entry key="'διωκομένης'" select="'διώκω'"/>
          <xsl:map-entry key="'διωκόμενοι'" select="'διώκω'"/>
          <xsl:map-entry key="'διωκόμενον'" select="'διώκω'"/>
+         <xsl:map-entry key="'διωκόμενος'" select="'διώκω'"/>
          <xsl:map-entry key="'διωκομένων'" select="'διώκω'"/>
          <xsl:map-entry key="'διώκοντα'" select="'διώκω'"/>
          <xsl:map-entry key="'Διώκοντας'" select="'διώκω'"/>
@@ -7007,6 +7531,7 @@
          <xsl:map-entry key="'διώκτης'" select="'διώκτης'"/>
          <xsl:map-entry key="'διώκω'" select="'διώκω'"/>
          <xsl:map-entry key="'διώκων'" select="'διώκω'"/>
+         <xsl:map-entry key="'διωρθοῦτο'" select="'διορθόω'"/>
          <xsl:map-entry key="'διωχθήσονται'" select="'διώκω'"/>
          <xsl:map-entry key="'δόγμα'" select="'δόγμα'"/>
          <xsl:map-entry key="'δόγμασι'" select="'δόγμα'"/>
@@ -7017,12 +7542,14 @@
          <xsl:map-entry key="'δογματίζω'" select="'δογματίζω'"/>
          <xsl:map-entry key="'δογματίζων'" select="'δογματίζω'"/>
          <xsl:map-entry key="'δογματικός'" select="'δογματικός'"/>
-         <xsl:map-entry key="'δογματικῶς'" select="'δογματικός'"/>
+         <xsl:map-entry key="'δογματικῶς'" select="'δογματικῶς'"/>
          <xsl:map-entry key="'δογμάτων'" select="'δόγμα'"/>
          <xsl:map-entry key="'δοθείη'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθεῖσάν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθεῖσι'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθεν'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δοθέντα'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δοθέντι'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθέντος'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθῇ'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοθησεται'" select="'δίδωμι'"/>
@@ -7040,6 +7567,7 @@
          <xsl:map-entry key="'δοκιμάζω'" select="'δοκιμάζω'"/>
          <xsl:map-entry key="'δοκιμάζων'" select="'δοκιμάζω'"/>
          <xsl:map-entry key="'δοκιμάσαι'" select="'δοκιμάζω'"/>
+         <xsl:map-entry key="'δοκιμάσας'" select="'δοκιμάζω'"/>
          <xsl:map-entry key="'δοκιμασια'" select="'δοκιμασία'"/>
          <xsl:map-entry key="'δοκιμασία'" select="'δοκιμασία'"/>
          <xsl:map-entry key="'δοκιμασιας'" select="'δοκιμασία'"/>
@@ -7053,6 +7581,7 @@
          <xsl:map-entry key="'δοκιμὴν'" select="'δοκιμή'"/>
          <xsl:map-entry key="'δοκιμῆς'" select="'δοκιμή'"/>
          <xsl:map-entry key="'δοκίμιον'" select="'δοκίμιος'"/>
+         <xsl:map-entry key="'δοκίμιος'" select="'δοκίμιος'"/>
          <xsl:map-entry key="'δόκιμον'" select="'δόκιμος'"/>
          <xsl:map-entry key="'δόκιμος'" select="'δόκιμος'"/>
          <xsl:map-entry key="'δοκίμων'" select="'δόκιμος'"/>
@@ -7064,9 +7593,10 @@
          <xsl:map-entry key="'δοκοῦντα'" select="'δοκέω'"/>
          <xsl:map-entry key="'δοκοῦντες'" select="'δοκέω'"/>
          <xsl:map-entry key="'δοκοῦντος'" select="'δοκέω'"/>
+         <xsl:map-entry key="'δοκοῦσι'" select="'δοκέω'"/>
          <xsl:map-entry key="'δοκῶν'" select="'δοκέω'"/>
          <xsl:map-entry key="'δολερός'" select="'δολερός'"/>
-         <xsl:map-entry key="'δολερῶς'" select="'δολερός'"/>
+         <xsl:map-entry key="'δολερῶς'" select="'δολερῶς'"/>
          <xsl:map-entry key="'δόλια'" select="'δόλιος'"/>
          <xsl:map-entry key="'δόλιον'" select="'δόλιος'"/>
          <xsl:map-entry key="'δόλιος'" select="'δόλιος'"/>
@@ -7078,7 +7608,7 @@
          <xsl:map-entry key="'δόλος'" select="'δόλος'"/>
          <xsl:map-entry key="'δόλους'" select="'δόλος'"/>
          <xsl:map-entry key="'δολοφρόνων'" select="'δολόφρων'"/>
-         <xsl:map-entry key="'δολοφρόνως'" select="'δολόφρων'"/>
+         <xsl:map-entry key="'δολοφρόνως'" select="'δολοφρόνως'"/>
          <xsl:map-entry key="'δολόφρων'" select="'δολόφρων'"/>
          <xsl:map-entry key="'δόμα'" select="'δόμα'"/>
          <xsl:map-entry key="'Δόμα'" select="'δόμα'"/>
@@ -7106,6 +7636,7 @@
          <xsl:map-entry key="'δόξας'" select="'δόξα'"/>
          <xsl:map-entry key="'δοξάσει'" select="'δοξάζω'"/>
          <xsl:map-entry key="'δοξασθηναι'" select="'δοξάζω'"/>
+         <xsl:map-entry key="'δοξασθῆναι'" select="'δοξάζω'"/>
          <xsl:map-entry key="'δοξασθήσεσθαι'" select="'δοξάζω'"/>
          <xsl:map-entry key="'δοξάσουσιν'" select="'δοξάζω'"/>
          <xsl:map-entry key="'δοξάσω'" select="'δοξάζω'"/>
@@ -7144,6 +7675,7 @@
          <xsl:map-entry key="'δοῦλα'" select="'δοῦλος'"/>
          <xsl:map-entry key="'δουλαγωγεῖν'" select="'δουλαγωγέω'"/>
          <xsl:map-entry key="'δουλαγωγέω'" select="'δουλαγωγέω'"/>
+         <xsl:map-entry key="'δουλαγωγήσαντες'" select="'δουλαγωγέω'"/>
          <xsl:map-entry key="'δουλαγωγῶν'" select="'δουλαγωγέω'"/>
          <xsl:map-entry key="'δουλεία'" select="'δουλεία'"/>
          <xsl:map-entry key="'δουλείᾳ'" select="'δουλεία'"/>
@@ -7151,9 +7683,11 @@
          <xsl:map-entry key="'δούλευε'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύει'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύειν'" select="'δουλεύω'"/>
+         <xsl:map-entry key="'δουλευόντων'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύουσι'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεῦσαι'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύσας'" select="'δουλεύω'"/>
+         <xsl:map-entry key="'δουλεύσασι'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύσει'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύσῃς'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλεύσουσι'" select="'δουλεύω'"/>
@@ -7162,6 +7696,7 @@
          <xsl:map-entry key="'δουλεύων'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δουλευωσιν'" select="'δουλεύω'"/>
          <xsl:map-entry key="'δοῦλοι'" select="'δοῦλος'"/>
+         <xsl:map-entry key="'δούλοις'" select="'δοῦλος'"/>
          <xsl:map-entry key="'δοῦλον'" select="'δοῦλος'"/>
          <xsl:map-entry key="'δοῦλόν'" select="'δοῦλος'"/>
          <xsl:map-entry key="'Δοῦλον'" select="'δοῦλος'"/>
@@ -7178,6 +7713,7 @@
          <xsl:map-entry key="'δουλώσει'" select="'δουλόω'"/>
          <xsl:map-entry key="'δοῦναι'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δοχεῖον'" select="'δοχεῖον'"/>
+         <xsl:map-entry key="'δοχή'" select="'δοχή'"/>
          <xsl:map-entry key="'δοχῆς'" select="'δοχή'"/>
          <xsl:map-entry key="'δρᾷ'" select="'δράω'"/>
          <xsl:map-entry key="'δράγμα'" select="'δράγμα'"/>
@@ -7189,12 +7725,18 @@
          <xsl:map-entry key="'δράκοντος'" select="'δράκων'"/>
          <xsl:map-entry key="'δρακοντων'" select="'δράκων'"/>
          <xsl:map-entry key="'δρακόντων'" select="'δράκων'"/>
+         <xsl:map-entry key="'δρακὸς'" select="'δράξ'"/>
          <xsl:map-entry key="'δράκων'" select="'δράκων'"/>
+         <xsl:map-entry key="'δρακῶν'" select="'δράξ'"/>
          <xsl:map-entry key="'δραμεῖν'" select="'τρέχω'"/>
          <xsl:map-entry key="'δραμεῖται'" select="'τρέχω'"/>
          <xsl:map-entry key="'δραμόντα'" select="'τρέχω'"/>
+         <xsl:map-entry key="'δρὰξ'" select="'δράξ'"/>
+         <xsl:map-entry key="'δράξ'" select="'δράξ'"/>
          <xsl:map-entry key="'δράξασθε'" select="'δράσσομαι'"/>
+         <xsl:map-entry key="'δραπετεύει'" select="'δραπετεύω'"/>
          <xsl:map-entry key="'δραπετεῦον'" select="'δραπετεύω'"/>
+         <xsl:map-entry key="'δραπετεύσει'" select="'δραπετεύω'"/>
          <xsl:map-entry key="'δραπετεύω'" select="'δραπετεύω'"/>
          <xsl:map-entry key="'δραπέτην'" select="'δραπέτης'"/>
          <xsl:map-entry key="'δραπέτης'" select="'δραπέτης'"/>
@@ -7233,6 +7775,7 @@
          <xsl:map-entry key="'δυάδα'" select="'δυάς'"/>
          <xsl:map-entry key="'δυαμις'" select="'δύναμις'"/>
          <xsl:map-entry key="'δυας'" select="'δύο'"/>
+         <xsl:map-entry key="'δυάς'" select="'δυάς'"/>
          <xsl:map-entry key="'δυναίμην'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δύναιτο'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δύναμαι'" select="'δύναμαι'"/>
@@ -7244,14 +7787,17 @@
          <xsl:map-entry key="'δυναμενη'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμένην'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμενης'" select="'δύναμαι'"/>
+         <xsl:map-entry key="'δυναμένης'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμενοι'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυνάμενοι'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμενοις'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμένοις'" select="'δύναμαι'"/>
+         <xsl:map-entry key="'δυνάμενον'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμενος'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυνάμενος'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμένου'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμένους'" select="'δύναμαι'"/>
+         <xsl:map-entry key="'δυναμένῳ'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυναμένων'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυνάμεσι'" select="'δύναμις'"/>
          <xsl:map-entry key="'δυνάμεσιν'" select="'δύναμις'"/>
@@ -7265,6 +7811,7 @@
          <xsl:map-entry key="'δύναμίν'" select="'δύναμις'"/>
          <xsl:map-entry key="'δύναμις'" select="'δύναμις'"/>
          <xsl:map-entry key="'Δυναμις'" select="'δύναμις'"/>
+         <xsl:map-entry key="'δύναμίς'" select="'δύναμις'"/>
          <xsl:map-entry key="'δύνανται'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δύνασαι'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δύνασθαι'" select="'δύναμαι'"/>
@@ -7274,6 +7821,8 @@
          <xsl:map-entry key="'δυναστεία'" select="'δυναστεία'"/>
          <xsl:map-entry key="'δυναστείαν'" select="'δυναστεία'"/>
          <xsl:map-entry key="'δυναστείας'" select="'δυναστεία'"/>
+         <xsl:map-entry key="'δυναστεύσειν'" select="'δυναστεύω'"/>
+         <xsl:map-entry key="'δυναστεύω'" select="'δυναστεύω'"/>
          <xsl:map-entry key="'δυνάστης'" select="'δυνάστης'"/>
          <xsl:map-entry key="'δυναστῶν'" select="'δυνάστης'"/>
          <xsl:map-entry key="'δυνατὰ'" select="'δυνατός'"/>
@@ -7295,7 +7844,7 @@
          <xsl:map-entry key="'δυνατοῦ'" select="'δυνατός'"/>
          <xsl:map-entry key="'δυνατοὺς'" select="'δυνατός'"/>
          <xsl:map-entry key="'δυνατῶν'" select="'δυνατός'"/>
-         <xsl:map-entry key="'δυνατῶς'" select="'δυνατός'"/>
+         <xsl:map-entry key="'δυνατῶς'" select="'δυνατῶς'"/>
          <xsl:map-entry key="'δυνατώτερον'" select="'δυνατός'"/>
          <xsl:map-entry key="'δυνηθείην'" select="'δύναμαι'"/>
          <xsl:map-entry key="'δυνηθείης'" select="'δύναμαι'"/>
@@ -7319,6 +7868,8 @@
          <xsl:map-entry key="'δυσαρεστεῖται'" select="'δυσαρεστέω'"/>
          <xsl:map-entry key="'δυσαρεστέω'" select="'δυσαρεστέω'"/>
          <xsl:map-entry key="'δυσδιάγνωστος'" select="'δυσδιάγνωστος'"/>
+         <xsl:map-entry key="'δυσέκσπαστός'" select="'δυσέκσπαστος'"/>
+         <xsl:map-entry key="'δυσέκσπαστος'" select="'δυσέκσπαστος'"/>
          <xsl:map-entry key="'δυσεύρετος'" select="'δυσεύρετος'"/>
          <xsl:map-entry key="'δυσεως'" select="'δύσις'"/>
          <xsl:map-entry key="'δυσθεράπευτος'" select="'δυσθεράπευτος'"/>
@@ -7342,7 +7893,7 @@
          <xsl:map-entry key="'δυσκίνητος'" select="'δυσκίνητος'"/>
          <xsl:map-entry key="'δύσκολον'" select="'δύσκολος'"/>
          <xsl:map-entry key="'δύσκολος'" select="'δύσκολος'"/>
-         <xsl:map-entry key="'δυσκόλως'" select="'δύσκολος'"/>
+         <xsl:map-entry key="'δυσκόλως'" select="'δυσκόλως'"/>
          <xsl:map-entry key="'δύσλυτοι'" select="'δύσλυτος'"/>
          <xsl:map-entry key="'δύσλυτος'" select="'δύσλυτος'"/>
          <xsl:map-entry key="'Δυσμαί'" select="'δυσμή'"/>
@@ -7356,6 +7907,7 @@
          <xsl:map-entry key="'δυσπόριστος'" select="'δυσπόριστος'"/>
          <xsl:map-entry key="'δυσπραγέω'" select="'δυσπραγέω'"/>
          <xsl:map-entry key="'δυσπραγῶν'" select="'δυσπραγέω'"/>
+         <xsl:map-entry key="'δυσπρόσιτοι'" select="'δυσπρόσιτος'"/>
          <xsl:map-entry key="'δυσπρόσιτον'" select="'δυσπρόσιτος'"/>
          <xsl:map-entry key="'δυσπρόσιτος'" select="'δυσπρόσιτος'"/>
          <xsl:map-entry key="'δυσσεβής'" select="'δυσσεβής'"/>
@@ -7378,8 +7930,10 @@
          <xsl:map-entry key="'δῶμεν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δῶρα'" select="'δῶρον'"/>
          <xsl:map-entry key="'Δῶρα'" select="'δῶρον'"/>
+         <xsl:map-entry key="'δῶρά'" select="'δῶρον'"/>
          <xsl:map-entry key="'δωρεά'" select="'δωρεά'"/>
          <xsl:map-entry key="'δωρεάν'" select="'δωρεά'"/>
+         <xsl:map-entry key="'δωρεὰν'" select="'δωρεά'"/>
          <xsl:map-entry key="'δωρεῖται'" select="'δωρέω'"/>
          <xsl:map-entry key="'δωρέομαι'" select="'δωρέομαι'"/>
          <xsl:map-entry key="'δωρέω'" select="'δωρέω'"/>
@@ -7399,15 +7953,15 @@
          <xsl:map-entry key="'δώσειν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δώσεις'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δώσῃ'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'δώσομεν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δωσουσιν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δώσουσιν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δώσω'" select="'δίδωμι'"/>
          <xsl:map-entry key="'δῶτε'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἐᾷ'" select="'ἐάω'"/>
+         <xsl:map-entry key="'εᾷ'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἐᾶν'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἐᾷν'" select="'ἐάω'"/>
-         <xsl:map-entry key="'Ἑὰν'" select="'ἑός'"/>
-         <xsl:map-entry key="'ἑὰν'" select="'ἑός'"/>
          <xsl:map-entry key="'ἔαρ'" select="'ἔαρ'"/>
          <xsl:map-entry key="'ἔαρι'" select="'ἔαρ'"/>
          <xsl:map-entry key="'ἐαρινὴ'" select="'ἐαρινός'"/>
@@ -7415,6 +7969,7 @@
          <xsl:map-entry key="'ἔαρος'" select="'ἔαρ'"/>
          <xsl:map-entry key="'ἐάσει'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἐάσῃς'" select="'ἐάω'"/>
+         <xsl:map-entry key="'ἐᾶσθαι'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἐάω'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἔβαλον'" select="'βάλλω'"/>
          <xsl:map-entry key="'ἐβαρύνθησαν'" select="'βαρύνω'"/>
@@ -7434,6 +7989,7 @@
          <xsl:map-entry key="'Ἑβδομὰς'" select="'ἑβδομάς'"/>
          <xsl:map-entry key="'ἑβδόμη'" select="'ἕβδομος'"/>
          <xsl:map-entry key="'ἑβδομήκοντα'" select="'ἑβδομήκοντα'"/>
+         <xsl:map-entry key="'ἑβδομηκοντάκις'" select="'ἑβδομηκοντάκις'"/>
          <xsl:map-entry key="'ἑβδόμην'" select="'ἕβδομος'"/>
          <xsl:map-entry key="'ἕβδομος'" select="'ἕβδομος'"/>
          <xsl:map-entry key="'ἑβδόμῳ'" select="'ἕβδομος'"/>
@@ -7443,10 +7999,13 @@
          <xsl:map-entry key="'ἐβιάζετό'" select="'βιάζω'"/>
          <xsl:map-entry key="'ἐβιάζετο'" select="'βιάζω'"/>
          <xsl:map-entry key="'ἐβλάβη'" select="'βλάπτω'"/>
+         <xsl:map-entry key="'ἐβλάβησαν'" select="'βλάπτω'"/>
          <xsl:map-entry key="'ἐβοήθησάς'" select="'βοηθέω'"/>
          <xsl:map-entry key="'ἐβουλεύσαντο'" select="'βουλεύω'"/>
          <xsl:map-entry key="'ἐβουλεύσατο'" select="'βουλεύω'"/>
          <xsl:map-entry key="'ἐβουλόμην'" select="'βούλομαι'"/>
+         <xsl:map-entry key="'Ἑβραϊκὴν'" select="'Ἑβραικός'"/>
+         <xsl:map-entry key="'Ἑβραϊκὸν'" select="'Ἑβραικός'"/>
          <xsl:map-entry key="'Ἑβραικός'" select="'Ἑβραικός'"/>
          <xsl:map-entry key="'Ἑβραϊκῷ'" select="'Ἑβραικός'"/>
          <xsl:map-entry key="'Ἑβραῖοι'" select="'Ἑβραῖος'"/>
@@ -7473,6 +8032,7 @@
          <xsl:map-entry key="'εγγιζουσιν'" select="'ἐγγίζω'"/>
          <xsl:map-entry key="'ἐγγίζω'" select="'ἐγγίζω'"/>
          <xsl:map-entry key="'ἐγγίζων'" select="'ἐγγίζω'"/>
+         <xsl:map-entry key="'ἐγγίνεσθαι'" select="'ἐγγίγνομαι'"/>
          <xsl:map-entry key="'ἐγγίνεται'" select="'ἐγγίγνομαι'"/>
          <xsl:map-entry key="'ἐγγινομένη'" select="'ἐγγίγνομαι'"/>
          <xsl:map-entry key="'ἐγγινομένην'" select="'ἐγγίγνομαι'"/>
@@ -7506,6 +8066,7 @@
          <xsl:map-entry key="'ἐγγυώμενος'" select="'ἐγγυάω'"/>
          <xsl:map-entry key="'ἐγεῖραι'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'Ἔγειρε'" select="'ἐγείρω'"/>
+         <xsl:map-entry key="'ἔγειρε'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγείρει'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγείρειν'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγείρεται'" select="'ἐγείρω'"/>
@@ -7516,6 +8077,7 @@
          <xsl:map-entry key="'εγενετο'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'ἐγένετο'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'Ἐγένετο'" select="'γίγνομαι'"/>
+         <xsl:map-entry key="'Ἐγένετό'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'ἐγενήθη'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'Ἐγενήθη'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'ἐγενήθην'" select="'γίγνομαι'"/>
@@ -7523,6 +8085,7 @@
          <xsl:map-entry key="'ἐγενήθησάν'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'ἐγέννα'" select="'γεννάω'"/>
          <xsl:map-entry key="'εγεννηθη'" select="'γεννάω'"/>
+         <xsl:map-entry key="'ἐγεννήθη'" select="'γεννάω'"/>
          <xsl:map-entry key="'ἐγέννησά'" select="'γεννάω'"/>
          <xsl:map-entry key="'εγεννησε'" select="'γεννάω'"/>
          <xsl:map-entry key="'ἐγέννησε'" select="'γεννάω'"/>
@@ -7539,6 +8102,7 @@
          <xsl:map-entry key="'ἔγερσίς'" select="'ἔγερσις'"/>
          <xsl:map-entry key="'ἔγερσις'" select="'ἔγερσις'"/>
          <xsl:map-entry key="'ἐγερῶ'" select="'ἐγείρω'"/>
+         <xsl:map-entry key="'ἐγηγέρθαι'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγίνετο'" select="'γίγνομαι'"/>
          <xsl:map-entry key="'ἐγίνωσκον'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἐγκαθέζεται'" select="'ἐγκαθέζομαι'"/>
@@ -7578,6 +8142,7 @@
          <xsl:map-entry key="'ἐγκαταλίπῃς'" select="'ἐγκαταλείπω'"/>
          <xsl:map-entry key="'ἐγκαταλιπόντος'" select="'ἐγκαταλείπω'"/>
          <xsl:map-entry key="'εγκαταπαιζεσθαι'" select="'ἐγκαταπαίζω'"/>
+         <xsl:map-entry key="'ἐγκαταπαίζεσθαι'" select="'ἐγκαταπαίζω'"/>
          <xsl:map-entry key="'ἐγκαταπαίζω'" select="'ἐγκαταπαίζω'"/>
          <xsl:map-entry key="'ἐγκατασπείρω'" select="'ἐγκατασπείρω'"/>
          <xsl:map-entry key="'ἐγκατέγραψεν'" select="'ἐγκαταγράφω'"/>
@@ -7592,6 +8157,8 @@
          <xsl:map-entry key="'ἐγκαυχᾷ'" select="'ἐγκαυχάομαι'"/>
          <xsl:map-entry key="'ἐγκαυχάομαι'" select="'ἐγκαυχάομαι'"/>
          <xsl:map-entry key="'ἐγκαυχᾶσθαι'" select="'ἐγκαυχάομαι'"/>
+         <xsl:map-entry key="'ἔγκειμαι'" select="'ἔγκειμαι'"/>
+         <xsl:map-entry key="'ἐγκείμενα'" select="'ἔγκειμαι'"/>
          <xsl:map-entry key="'ἐγκέκραται'" select="'ἐγκεράννυμι'"/>
          <xsl:map-entry key="'ἐγκεκρυμμένας'" select="'ἐγκρύπτω'"/>
          <xsl:map-entry key="'ἐγκέκρυπται'" select="'ἐγκρύπτω'"/>
@@ -7618,7 +8185,10 @@
          <xsl:map-entry key="'ἐγκρατεύεσθαι'" select="'ἐγκρατεύομαι'"/>
          <xsl:map-entry key="'ἐγκρατεύεται'" select="'ἐγκρατεύομαι'"/>
          <xsl:map-entry key="'ἐγκρατεύομαι'" select="'ἐγκρατεύομαι'"/>
+         <xsl:map-entry key="'ἐγκρατευόμεθα'" select="'ἐγκρατεύομαι'"/>
          <xsl:map-entry key="'ἐγκρατευομένοις'" select="'ἐγκρατεύομαι'"/>
+         <xsl:map-entry key="'ἐγκρατευσάμενος'" select="'ἐγκρατεύομαι'"/>
+         <xsl:map-entry key="'ἐγκρατῆ'" select="'ἐγκρατής'"/>
          <xsl:map-entry key="'ἐγκρατής'" select="'ἐγκρατής'"/>
          <xsl:map-entry key="'ἐγκρατὴς'" select="'ἐγκρατής'"/>
          <xsl:map-entry key="'Ἐγκρατὴς'" select="'ἐγκρατής'"/>
@@ -7633,6 +8203,7 @@
          <xsl:map-entry key="'ἐγκωμιάζειν'" select="'ἐγκωμιάζω'"/>
          <xsl:map-entry key="'ἐγκωμιάζεται'" select="'ἐγκωμιάζω'"/>
          <xsl:map-entry key="'ἐγκωμιάζω'" select="'ἐγκωμιάζω'"/>
+         <xsl:map-entry key="'ἐγκωμίοις'" select="'ἐγκώμιος'"/>
          <xsl:map-entry key="'ἐγκώμιόν'" select="'ἐγκώμιος'"/>
          <xsl:map-entry key="'Ἐγκώμιον'" select="'ἐγκώμιος'"/>
          <xsl:map-entry key="'ἐγκώμιος'" select="'ἐγκώμιος'"/>
@@ -7642,6 +8213,8 @@
          <xsl:map-entry key="'Ἔγνω'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἔγνωκα'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἐγνώκαμεν'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'ἐγνώκασιν'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'ἐγνωκότες'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἐγνωκὼς'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἐγνωκώς'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'εγνωμεν'" select="'γιγνώσκω'"/>
@@ -7654,22 +8227,30 @@
          <xsl:map-entry key="'ἔγνως'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἔγνωσαν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'εγνωσθη'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'ἐγνώσθη'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'εγνωσιν'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἐγνωσμένων'" select="'γιγνώσκω'"/>
          <xsl:map-entry key="'ἔγνωσται'" select="'γιγνώσκω'"/>
+         <xsl:map-entry key="'ἔγραψαν'" select="'γράφω'"/>
          <xsl:map-entry key="'ἐγρήγορος'" select="'ἐγρήγορος'"/>
          <xsl:map-entry key="'ἐγρηγορότες'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγρηγορότι'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἐγρηγορότως'" select="'ἐγρηγορότως'"/>
          <xsl:map-entry key="'ἐγρηγορυῖαν'" select="'ἐγείρω'"/>
-         <xsl:map-entry key="'ἐγρηγόρως'" select="'ἐγρήγορος'"/>
+         <xsl:map-entry key="'ἐγρηγόρως'" select="'ἐγρηγόρως'"/>
+         <xsl:map-entry key="'ἐγχειρίζεται'" select="'ἐγχειρίζω'"/>
          <xsl:map-entry key="'ἐγχειρίζω'" select="'ἐγχειρίζω'"/>
          <xsl:map-entry key="'εγχειρισαι'" select="'ἐγχειρίζω'"/>
+         <xsl:map-entry key="'ἐγχειρίσεις'" select="'ἐγχειρίζω'"/>
+         <xsl:map-entry key="'ἐγχειρισθήσεσθαι'" select="'ἐγχειρίζω'"/>
          <xsl:map-entry key="'ἐγχρονίζειν'" select="'ἐγχρονίζω'"/>
+         <xsl:map-entry key="'ἐγχρονιζέτω'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίζῃ'" select="'ἐγχρονίζω'"/>
+         <xsl:map-entry key="'ἐγχρονίζοντας'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίζουσα'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίζω'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίζων'" select="'ἐγχρονίζω'"/>
+         <xsl:map-entry key="'ἐγχρονίσαι'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίσαν'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐγχρονίσῃς'" select="'ἐγχρονίζω'"/>
          <xsl:map-entry key="'ἐδάφει'" select="'ἔδαφος'"/>
@@ -7696,11 +8277,16 @@
          <xsl:map-entry key="'εδιδασκεν'" select="'διδάσκω'"/>
          <xsl:map-entry key="'ἐδιδάχθης'" select="'διδάσκω'"/>
          <xsl:map-entry key="'ἐδικαίωσα'" select="'δικαιόω'"/>
+         <xsl:map-entry key="'ἐδικαίωσε'" select="'δικαιόω'"/>
+         <xsl:map-entry key="'ἐδικαίωσεν'" select="'δικαιόω'"/>
          <xsl:map-entry key="'ἐδιπλασίασε'" select="'διπλασιάζω'"/>
+         <xsl:map-entry key="'ἐδίωκεν'" select="'διώκω'"/>
          <xsl:map-entry key="'ἐδόθη'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἐδόθησαν'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'ἐδοκιμάζοντο'" select="'δοκιμάζω'"/>
          <xsl:map-entry key="'ἐδοκίμασας'" select="'δοκιμάζω'"/>
          <xsl:map-entry key="'ἔδοξα'" select="'δοκέω'"/>
+         <xsl:map-entry key="'ἔδοξαν'" select="'δοκέω'"/>
          <xsl:map-entry key="'ἔδοξε'" select="'δοκέω'"/>
          <xsl:map-entry key="'εδοξε'" select="'δοκέω'"/>
          <xsl:map-entry key="'ἐδουλαγώγει'" select="'δουλαγωγέω'"/>
@@ -7711,10 +8297,12 @@
          <xsl:map-entry key="'ἑδραῖος'" select="'ἑδραῖος'"/>
          <xsl:map-entry key="'ἔδραμον'" select="'τρέχω'"/>
          <xsl:map-entry key="'ἔδυ'" select="'δύω'"/>
+         <xsl:map-entry key="'ἔδωκα'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἔδωκαν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἔδωκας'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἔδωκάς'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἔδωκε'" select="'δίδωμι'"/>
+         <xsl:map-entry key="'Ἔδωκε'" select="'δίδωμι'"/>
          <xsl:map-entry key="'ἔδωκεν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'Ἔδωκεν'" select="'δίδωμι'"/>
          <xsl:map-entry key="'Ἐδὼμ'" select="'Ἐδώμ'"/>
@@ -7722,6 +8310,7 @@
          <xsl:map-entry key="'ἐζήλωσαν'" select="'ζηλόω'"/>
          <xsl:map-entry key="'ἔζησα'" select="'ζάω'"/>
          <xsl:map-entry key="'ἔζησε'" select="'ζάω'"/>
+         <xsl:map-entry key="'ἔζησεν'" select="'ζάω'"/>
          <xsl:map-entry key="'ἐζήτησαν'" select="'ζητέω'"/>
          <xsl:map-entry key="'ἐζήτησεν'" select="'ζητέω'"/>
          <xsl:map-entry key="'ἐζυγωμένας'" select="'ζυγόω'"/>
@@ -7729,22 +8318,28 @@
          <xsl:map-entry key="'ἐθαύμασα'" select="'θαυμάζω'"/>
          <xsl:map-entry key="'ἐθαυμάστωσεν'" select="'θαυμαστόω'"/>
          <xsl:map-entry key="'εθεασαντο'" select="'θεάομαι'"/>
+         <xsl:map-entry key="'ἐθεάσαντο'" select="'θεάομαι'"/>
          <xsl:map-entry key="'ἐθεάσατο'" select="'θεάομαι'"/>
          <xsl:map-entry key="'ἔθει'" select="'ἔθος'"/>
          <xsl:map-entry key="'εθελει'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'ἐθέλησα'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'ἐθέλησεν'" select="'ἐθέλω'"/>
+         <xsl:map-entry key="'ἐθελόκακοι'" select="'ἐθελόκακος'"/>
+         <xsl:map-entry key="'ἐθελόκακος'" select="'ἐθελόκακος'"/>
          <xsl:map-entry key="'ἐθελόπονος'" select="'ἐθελόπονος'"/>
          <xsl:map-entry key="'ἐθελοπόνων'" select="'ἐθελόπονος'"/>
          <xsl:map-entry key="'ἐθελούσας'" select="'ἐθέλω'"/>
+         <xsl:map-entry key="'ἐθελούσιος'" select="'ἐθελούσιος'"/>
          <xsl:map-entry key="'ἐθελοφανία'" select="'ἐθελοφανία'"/>
          <xsl:map-entry key="'ἐθέλω'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'ἐθεμελίωσας'" select="'θεμελιόω'"/>
          <xsl:map-entry key="'ἐθεμελίωσεν'" select="'θεμελιόω'"/>
          <xsl:map-entry key="'ἔθεντο'" select="'τίθημι'"/>
          <xsl:map-entry key="'ἔθεντό'" select="'τίθημι'"/>
+         <xsl:map-entry key="'ἐθεράπευσεν'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'ἐθερμάνθη'" select="'θερμαίνω'"/>
          <xsl:map-entry key="'ἔθετο'" select="'τίθημι'"/>
+         <xsl:map-entry key="'ἐθεῶντο'" select="'θεάομαι'"/>
          <xsl:map-entry key="'ἐθεώρησα'" select="'θεωρέω'"/>
          <xsl:map-entry key="'ἐθεώρησαν'" select="'θεωρέω'"/>
          <xsl:map-entry key="'ἐθεώρουν'" select="'θεωρέω'"/>
@@ -7762,6 +8357,7 @@
          <xsl:map-entry key="'ἔθνη'" select="'ἔθνος'"/>
          <xsl:map-entry key="'ἐθνικοὶ'" select="'ἐθνικός'"/>
          <xsl:map-entry key="'ἐθνικός'" select="'ἐθνικός'"/>
+         <xsl:map-entry key="'ἐθνικὸς'" select="'ἐθνικός'"/>
          <xsl:map-entry key="'ἐθνικῶν'" select="'ἐθνικός'"/>
          <xsl:map-entry key="'Ἐθνικῶν'" select="'ἐθνικός'"/>
          <xsl:map-entry key="'ἔθνος'" select="'ἔθνος'"/>
@@ -7771,10 +8367,12 @@
          <xsl:map-entry key="'ἔθος'" select="'ἔθος'"/>
          <xsl:map-entry key="'Ἔθος'" select="'ἔθος'"/>
          <xsl:map-entry key="'ἔθου'" select="'τίθημι'"/>
+         <xsl:map-entry key="'ἔθους'" select="'ἔθος'"/>
          <xsl:map-entry key="'ἔθραυσεν'" select="'θραύω'"/>
          <xsl:map-entry key="'ἔθυσα'" select="'θύω'"/>
          <xsl:map-entry key="'ἔθυσαν'" select="'θύω'"/>
          <xsl:map-entry key="'ἔθω'" select="'ἔθω'"/>
+         <xsl:map-entry key="'ἐθῶν'" select="'ἔθος'"/>
          <xsl:map-entry key="'εἶδέ'" select="'εἶδον'"/>
          <xsl:map-entry key="'εἴδει'" select="'εἶδος'"/>
          <xsl:map-entry key="'εἰδείη'" select="'οἶδα'"/>
@@ -7805,6 +8403,7 @@
          <xsl:map-entry key="'εἰδωλεῖον'" select="'εἰδωλεῖον'"/>
          <xsl:map-entry key="'εἰδωλείῳ'" select="'εἰδωλεῖον'"/>
          <xsl:map-entry key="'εἰδωλόθυτον'" select="'εἰδωλόθυτος'"/>
+         <xsl:map-entry key="'εἰδωλόθυτος'" select="'εἰδωλόθυτος'"/>
          <xsl:map-entry key="'εἰδωλολατρεία'" select="'εἰδωλολατρεία'"/>
          <xsl:map-entry key="'εἰδωλολατρεῖαι'" select="'εἰδωλολατρεία'"/>
          <xsl:map-entry key="'εἰδωλολατρία'" select="'εἰδωλολατρία'"/>
@@ -7816,12 +8415,11 @@
          <xsl:map-entry key="'εἰδῶν'" select="'εἶδος'"/>
          <xsl:map-entry key="'εἰδὼς'" select="'οἶδα'"/>
          <xsl:map-entry key="'εἵη'" select="'ἵημι'"/>
-         <xsl:map-entry key="'εἶθ'" select="'εἴθε'"/>
          <xsl:map-entry key="'Εἴθε'" select="'εἴθε'"/>
          <xsl:map-entry key="'εἴθε'" select="'εἴθε'"/>
          <xsl:map-entry key="'εἰκάζω'" select="'εἰκάζω'"/>
          <xsl:map-entry key="'εἴκει'" select="'εἴκω'"/>
-         <xsl:map-entry key="'εἰκῇ'" select="'εἰκάζω'"/>
+         <xsl:map-entry key="'εἰκῇ'" select="'εἰκῇ'"/>
          <xsl:map-entry key="'εἰκῆ'" select="'εἰκῇ'"/>
          <xsl:map-entry key="'εἴκῃς'" select="'εἴκω'"/>
          <xsl:map-entry key="'εικονα'" select="'εἰκών'"/>
@@ -7835,6 +8433,7 @@
          <xsl:map-entry key="'εἰκοσιοκτώ'" select="'εἰκοσιοκτώ'"/>
          <xsl:map-entry key="'εἰκοσιπέντε'" select="'εἰκοσιπέντε'"/>
          <xsl:map-entry key="'εἰκοσιτέσσαρες'" select="'εἰκοσιτέσσαρες'"/>
+         <xsl:map-entry key="'εἰκοσιτεσσάρων'" select="'εἰκοσιτέσσαρες'"/>
          <xsl:map-entry key="'εἰκοστὸς'" select="'εἰκοστός'"/>
          <xsl:map-entry key="'εἰκοστός'" select="'εἰκοστός'"/>
          <xsl:map-entry key="'εἰκοστῷ'" select="'εἰκοστός'"/>
@@ -7849,13 +8448,18 @@
          <xsl:map-entry key="'εἴληφα'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'εἰλήφαμεν'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'εἰλήφασι'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'εἴληφε'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'εἰληφέναι'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'εἰληφότας'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'εἰλικρινὴς'" select="'εἰλικρινής'"/>
          <xsl:map-entry key="'εἰλικρινής'" select="'εἰλικρινής'"/>
+         <xsl:map-entry key="'εἰλικρινῶς'" select="'εἰλικρινῶς'"/>
          <xsl:map-entry key="'εἵλκυσα'" select="'ἕλκω'"/>
          <xsl:map-entry key="'εἵλκυσεν'" select="'ἕλκω'"/>
          <xsl:map-entry key="'εἱλκύσω'" select="'ἕλκω'"/>
          <xsl:map-entry key="'εἵλοντο'" select="'αἱρέω'"/>
          <xsl:map-entry key="'εἶμι'" select="'εἶμι'"/>
+         <xsl:map-entry key="'εἰμί'" select="'εἰμί'"/>
          <xsl:map-entry key="'εἵνεκεν'" select="'ἕνεκα'"/>
          <xsl:map-entry key="'εἶπα'" select="'εἶπον'"/>
          <xsl:map-entry key="'Εἶπα'" select="'εἶπον'"/>
@@ -7871,9 +8475,12 @@
          <xsl:map-entry key="'Εἶπέ'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἴπέ'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἶπε'" select="'εἶπον'"/>
+         <xsl:map-entry key="'Εἶπε'" select="'εἶπον'"/>
+         <xsl:map-entry key="'εἰπὲ'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἰπεῖν'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἶπεν'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἶπέν'" select="'εἶπον'"/>
+         <xsl:map-entry key="'Εἶπεν'" select="'εἶπον'"/>
          <xsl:map-entry key="'εἴπερ'" select="'εἴπερ'"/>
          <xsl:map-entry key="'Εἴπερ'" select="'εἴπερ'"/>
          <xsl:map-entry key="'εἴπη'" select="'εἶπον'"/>
@@ -7901,6 +8508,7 @@
          <xsl:map-entry key="'εἰργάζοντο'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'ειργασαντο'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'εἰργάσατο'" select="'ἐργάζομαι'"/>
+         <xsl:map-entry key="'εἰργασμένου'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'εἴργει'" select="'ἔργω'"/>
          <xsl:map-entry key="'εἴργεσθαι'" select="'ἔργω'"/>
          <xsl:map-entry key="'εἴρηκα'" select="'ἐρῶ'"/>
@@ -7937,6 +8545,7 @@
          <xsl:map-entry key="'εἰρηνικοὶ'" select="'εἰρηνικός'"/>
          <xsl:map-entry key="'εἰρηνικός'" select="'εἰρηνικός'"/>
          <xsl:map-entry key="'εἰρηνικὸς'" select="'εἰρηνικός'"/>
+         <xsl:map-entry key="'εἰρηνοποιεῖ'" select="'εἰρηνοποιέω'"/>
          <xsl:map-entry key="'εἰρηνοποιέω'" select="'εἰρηνοποιέω'"/>
          <xsl:map-entry key="'Εἰρηνοποιήσας'" select="'εἰρηνοποιέω'"/>
          <xsl:map-entry key="'εἰρηνοποιοὶ'" select="'εἰρηνοποιός'"/>
@@ -7949,6 +8558,8 @@
          <xsl:map-entry key="'εἴρηται'" select="'ἐρῶ'"/>
          <xsl:map-entry key="'εἵρηται'" select="'ἐρῶ'"/>
          <xsl:map-entry key="'Εἴρηται'" select="'ἐρῶ'"/>
+         <xsl:map-entry key="'εἰρκτοφύλακος'" select="'εἱρκτοφύλαξ'"/>
+         <xsl:map-entry key="'εἱρκτοφύλαξ'" select="'εἱρκτοφύλαξ'"/>
          <xsl:map-entry key="'εἴρω'" select="'εἴρω'"/>
          <xsl:map-entry key="'εἷς'" select="'εἷς'"/>
          <xsl:map-entry key="'Εἷς'" select="'εἷς'"/>
@@ -7957,6 +8568,8 @@
          <xsl:map-entry key="'εἰσάγει'" select="'εἰσάγω'"/>
          <xsl:map-entry key="'εἰσάγειν'" select="'εἰσάγω'"/>
          <xsl:map-entry key="'εἰσάγω'" select="'εἰσάγω'"/>
+         <xsl:map-entry key="'εἰσαγωγῇ'" select="'εἰσαγωγή'"/>
+         <xsl:map-entry key="'εἰσαγωγή'" select="'εἰσαγωγή'"/>
          <xsl:map-entry key="'εἰσάγων'" select="'εἰσάγω'"/>
          <xsl:map-entry key="'εἰσακουσάτω'" select="'εἰσακούω'"/>
          <xsl:map-entry key="'εἰσακούσεται'" select="'εἰσακούω'"/>
@@ -7974,6 +8587,8 @@
          <xsl:map-entry key="'εἰσβάλλω'" select="'εἰσβάλλω'"/>
          <xsl:map-entry key="'εἰσβολαῖς'" select="'εἰσβολή'"/>
          <xsl:map-entry key="'εἰσβολή'" select="'εἰσβολή'"/>
+         <xsl:map-entry key="'εἰσβολῆς'" select="'εἰσβολή'"/>
+         <xsl:map-entry key="'εἰσδεξάμενος'" select="'εἰσδέχομαι'"/>
          <xsl:map-entry key="'εἰσδεξόμεθα'" select="'εἰσδέχομαι'"/>
          <xsl:map-entry key="'εἰσδέχεται'" select="'εἰσδέχομαι'"/>
          <xsl:map-entry key="'εἰσδέχομαι'" select="'εἰσδέχομαι'"/>
@@ -8036,6 +8651,8 @@
          <xsl:map-entry key="'εἰσπορεύεσθε'" select="'εἰσπορεύω'"/>
          <xsl:map-entry key="'εἰσπράξεως'" select="'εἴσπραξις'"/>
          <xsl:map-entry key="'εἴσπραξις'" select="'εἴσπραξις'"/>
+         <xsl:map-entry key="'εἰσπράσσω'" select="'εἰσπράσσω'"/>
+         <xsl:map-entry key="'εἰσπράττεται'" select="'εἰσπράσσω'"/>
          <xsl:map-entry key="'εἰστερέω'" select="'εἰστερέω'"/>
          <xsl:map-entry key="'εἱστήκει'" select="'ἵστημι'"/>
          <xsl:map-entry key="'εἰσφέρει'" select="'εἰσφέρω'"/>
@@ -8043,6 +8660,7 @@
          <xsl:map-entry key="'εἰσφέρω'" select="'εἰσφέρω'"/>
          <xsl:map-entry key="'εἶχε'" select="'ἔχω'"/>
          <xsl:map-entry key="'εἶχεν'" select="'ἔχω'"/>
+         <xsl:map-entry key="'εἶχες'" select="'ἔχω'"/>
          <xsl:map-entry key="'εἶχον'" select="'ἔχω'"/>
          <xsl:map-entry key="'εἰώθαμεν'" select="'ἔθω'"/>
          <xsl:map-entry key="'ειωθαμεν'" select="'ἔθω'"/>
@@ -8067,15 +8685,16 @@
          <xsl:map-entry key="'ἐκάλυψέν'" select="'καλύπτω'"/>
          <xsl:map-entry key="'ἐκάλυψεν'" select="'καλύπτω'"/>
          <xsl:map-entry key="'ἔκαμψεν'" select="'κάμπτω'"/>
-         <xsl:map-entry key="'ἐκαπλόω'" select="'ἐκαπλόω'"/>
          <xsl:map-entry key="'ἐκαρδίωσεν'" select="'καρδιόω'"/>
          <xsl:map-entry key="'ἕκαστα'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'εκαστη'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'ἑκάστῃ'" select="'ἕκαστος'"/>
+         <xsl:map-entry key="'ἑκάστη'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'εκαστην'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'Ἑκάστην'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'ἑκάστην'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'ἑκάστης'" select="'ἕκαστος'"/>
+         <xsl:map-entry key="'ἑκάστοις'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'εκαστον'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'Ἕκαστον'" select="'ἕκαστος'"/>
          <xsl:map-entry key="'Εκαστον'" select="'ἕκαστος'"/>
@@ -8095,6 +8714,7 @@
          <xsl:map-entry key="'Ἑκατέρους'" select="'ἑκάτερος'"/>
          <xsl:map-entry key="'ἑκατέρωθεν'" select="'ἑκατέρωθεν'"/>
          <xsl:map-entry key="'ἑκατέρων'" select="'ἑκάτερος'"/>
+         <xsl:map-entry key="'Ἑκατέρων'" select="'ἑκάτερος'"/>
          <xsl:map-entry key="'ἑκατὸν'" select="'ἑκατόν'"/>
          <xsl:map-entry key="'ἑκατόν'" select="'ἑκατόν'"/>
          <xsl:map-entry key="'εκατοναδων'" select="'ἑκατοντάς'"/>
@@ -8119,9 +8739,12 @@
          <xsl:map-entry key="'εκβαλλων'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐκβάλλων'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐκβαλώμεθα'" select="'ἐκβάλλω'"/>
+         <xsl:map-entry key="'ἐκβαλὼν'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἔκβασιν'" select="'ἔκβασις'"/>
+         <xsl:map-entry key="'ἔκβασις'" select="'ἔκβασις'"/>
          <xsl:map-entry key="'ἐκβιάζεται'" select="'ἐκβιάζω'"/>
          <xsl:map-entry key="'ἐκβιάζω'" select="'ἐκβιάζω'"/>
+         <xsl:map-entry key="'ἐκβλαστάνω'" select="'ἐκβλαστάνω'"/>
          <xsl:map-entry key="'ἐκβλαστήσῃ'" select="'ἐκβλαστάνω'"/>
          <xsl:map-entry key="'ἐκβληθεὶς'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐκβληθεῖσιν'" select="'ἐκβάλλω'"/>
@@ -8135,14 +8758,17 @@
          <xsl:map-entry key="'ἔκγονος'" select="'ἔκγονος'"/>
          <xsl:map-entry key="'Ἔκγονος'" select="'ἔκγονος'"/>
          <xsl:map-entry key="'εκδεδυται'" select="'ἐκδύω'"/>
+         <xsl:map-entry key="'ἐκδέδωκεν'" select="'ἐκδίδωμι'"/>
          <xsl:map-entry key="'ἐκδειματούμεθα'" select="'ἐκδειματόω'"/>
          <xsl:map-entry key="'ἐκδειματοῦται'" select="'ἐκδειματόω'"/>
          <xsl:map-entry key="'ἐκδειματόω'" select="'ἐκδειματόω'"/>
          <xsl:map-entry key="'ἐκδειματώσωσι'" select="'ἐκδειματόω'"/>
+         <xsl:map-entry key="'ἔκδεξαι'" select="'ἐκδέχομαι'"/>
          <xsl:map-entry key="'εκδεξονται'" select="'ἐκδέχομαι'"/>
          <xsl:map-entry key="'ἐκδέχομαι'" select="'ἐκδέχομαι'"/>
          <xsl:map-entry key="'ἐκδεχόμεθα'" select="'ἐκδέχομαι'"/>
          <xsl:map-entry key="'ἐκδέχου'" select="'ἐκδέχομαι'"/>
+         <xsl:map-entry key="'ἔκδηλος'" select="'ἔκδηλος'"/>
          <xsl:map-entry key="'ἐκδήλους'" select="'ἔκδηλος'"/>
          <xsl:map-entry key="'ἐκδημέω'" select="'ἐκδημέω'"/>
          <xsl:map-entry key="'ἐκδημία'" select="'ἐκδημία'"/>
@@ -8173,7 +8799,10 @@
          <xsl:map-entry key="'ἐκδιώκω'" select="'ἐκδιώκω'"/>
          <xsl:map-entry key="'ἐκδιώξουσιν'" select="'ἐκδιώκω'"/>
          <xsl:map-entry key="'ἐκδιωχθεὶς'" select="'ἐκδιώκω'"/>
+         <xsl:map-entry key="'ἐκδιωχθῇς'" select="'ἐκδιώκω'"/>
          <xsl:map-entry key="'ἐκδόντα'" select="'ἐκδίδωμι'"/>
+         <xsl:map-entry key="'ἐκδόσεις'" select="'ἔκδοσις'"/>
+         <xsl:map-entry key="'ἔκδοσις'" select="'ἔκδοσις'"/>
          <xsl:map-entry key="'ἐκδόταις'" select="'ἐκδότης'"/>
          <xsl:map-entry key="'ἐκδότης'" select="'ἐκδότης'"/>
          <xsl:map-entry key="'ἐκδύει'" select="'ἐκδύω'"/>
@@ -8188,8 +8817,6 @@
          <xsl:map-entry key="'εκειθεν'" select="'ἐκεῖθεν'"/>
          <xsl:map-entry key="'ἐκεῖθεν'" select="'ἐκεῖθεν'"/>
          <xsl:map-entry key="'Ἐκεῖθεν'" select="'ἐκεῖθεν'"/>
-         <xsl:map-entry key="'ἐκείνῃ'" select="'ἐκεῖνος'"/>
-         <xsl:map-entry key="'ἐκεῖνος'" select="'ἐκεῖνος'"/>
          <xsl:map-entry key="'ἐκεῖσαι'" select="'ἐκεῖσε'"/>
          <xsl:map-entry key="'ἐκεῖσε'" select="'ἐκεῖσε'"/>
          <xsl:map-entry key="'ἔκειτο'" select="'κεῖμαι'"/>
@@ -8200,6 +8827,7 @@
          <xsl:map-entry key="'ἐκέκτητο'" select="'κτάομαι'"/>
          <xsl:map-entry key="'ἐκέλευσε'" select="'κελεύω'"/>
          <xsl:map-entry key="'εκελευσθη'" select="'κελεύω'"/>
+         <xsl:map-entry key="'ἐκενοδόξησας'" select="'κενοδοξέω'"/>
          <xsl:map-entry key="'ἐκέξυστο'" select="'ξύω'"/>
          <xsl:map-entry key="'ἐκζητεῖ'" select="'ἐκζητέω'"/>
          <xsl:map-entry key="'ἐκζητέω'" select="'ἐκζητέω'"/>
@@ -8256,6 +8884,7 @@
          <xsl:map-entry key="'ἐκκενωθὲν'" select="'ἐκκενόω'"/>
          <xsl:map-entry key="'ἐκκλησία'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'ἐκκλησίᾳ'" select="'ἐκκλησία'"/>
+         <xsl:map-entry key="'Ἐκκλησία'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'ἐκκλησίαις'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'ἐκκλησίαν'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'εκκλησιας'" select="'ἐκκλησία'"/>
@@ -8263,6 +8892,7 @@
          <xsl:map-entry key="'εκκλησιαστην'" select="'ἐκκλησιαστής'"/>
          <xsl:map-entry key="'ἐκκλησιαστής'" select="'ἐκκλησιαστής'"/>
          <xsl:map-entry key="'Ἐκκλησιαστής'" select="'ἐκκλησιαστής'"/>
+         <xsl:map-entry key="'Ἐκκλησιαστὴς'" select="'ἐκκλησιαστής'"/>
          <xsl:map-entry key="'Ἐκκλησιαστοῦ'" select="'ἐκκλησιαστής'"/>
          <xsl:map-entry key="'ἐκκλησιῶν'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'ἐκκλῖναι'" select="'ἐκκλίνω'"/>
@@ -8281,8 +8911,10 @@
          <xsl:map-entry key="'ἐκκοπή'" select="'ἐκκοπή'"/>
          <xsl:map-entry key="'ἐκκοπὴν'" select="'ἐκκοπή'"/>
          <xsl:map-entry key="'ἐκκόπτει'" select="'ἐκκόπτω'"/>
+         <xsl:map-entry key="'ἐκκόπτειν'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόπτεται'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκοπτέτω'" select="'ἐκκόπτω'"/>
+         <xsl:map-entry key="'ἐκκόπτουσα'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόπτουσι'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόπτω'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόπτων'" select="'ἐκκόπτω'"/>
@@ -8290,8 +8922,11 @@
          <xsl:map-entry key="'ἐκκόψαι'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόψῃ'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκόψῃς'" select="'ἐκκόπτω'"/>
+         <xsl:map-entry key="'ἔκκοψον'" select="'ἐκκόπτω'"/>
+         <xsl:map-entry key="'ἐκκόψωμεν'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐκκρούειν'" select="'ἐκκρούω'"/>
          <xsl:map-entry key="'ἐκκρουσθῶμεν'" select="'ἐκκρούω'"/>
+         <xsl:map-entry key="'ἐκκρούσωσιν'" select="'ἐκκρούω'"/>
          <xsl:map-entry key="'ἐκκρούω'" select="'ἐκκρούω'"/>
          <xsl:map-entry key="'εκλαβειν'" select="'ἐκλαμβάνω'"/>
          <xsl:map-entry key="'ἐκλαβεῖν'" select="'ἐκλαμβάνω'"/>
@@ -8313,6 +8948,7 @@
          <xsl:map-entry key="'ἐκλείπω'" select="'ἐκλείπω'"/>
          <xsl:map-entry key="'ἐκλείπων'" select="'ἐκλείπω'"/>
          <xsl:map-entry key="'ἐκλείπωσιν'" select="'ἐκλείπω'"/>
+         <xsl:map-entry key="'ἐκλείψεως'" select="'ἔκλειψις'"/>
          <xsl:map-entry key="'Ἔκλειψιν'" select="'ἔκλειψις'"/>
          <xsl:map-entry key="'ἔκλειψις'" select="'ἔκλειψις'"/>
          <xsl:map-entry key="'ἐκλείψουσιν'" select="'ἐκλείπω'"/>
@@ -8332,6 +8968,7 @@
          <xsl:map-entry key="'ἐκλέλυται'" select="'ἐκλύω'"/>
          <xsl:map-entry key="'ἐκλήθη'" select="'καλέω'"/>
          <xsl:map-entry key="'ἐκλήθημεν'" select="'καλέω'"/>
+         <xsl:map-entry key="'ἐκλήθητε'" select="'καλέω'"/>
          <xsl:map-entry key="'ἐκληπτέον'" select="'ἐκληπτέον'"/>
          <xsl:map-entry key="'εκληρονομησαν'" select="'κληρονομέω'"/>
          <xsl:map-entry key="'ἐκληρονόμησαν'" select="'κληρονομέω'"/>
@@ -8383,27 +9020,30 @@
          <xsl:map-entry key="'ἑκοῦσα'" select="'ἑκών'"/>
          <xsl:map-entry key="'ἑκούσια'" select="'ἑκούσιος'"/>
          <xsl:map-entry key="'Ἑκούσια'" select="'ἑκούσιος'"/>
+         <xsl:map-entry key="'ἑκούσιον'" select="'ἑκούσιος'"/>
          <xsl:map-entry key="'ἑκούσιος'" select="'ἑκούσιος'"/>
-         <xsl:map-entry key="'ἑκουσίως'" select="'ἑκούσιος'"/>
+         <xsl:map-entry key="'ἑκουσίως'" select="'ἑκουσίως'"/>
          <xsl:map-entry key="'ἐκπειράζουσιν'" select="'ἐκπειράζω'"/>
          <xsl:map-entry key="'ἐκπειράζω'" select="'ἐκπειράζω'"/>
          <xsl:map-entry key="'ἐκπέμπονται'" select="'ἐκπέμπω'"/>
          <xsl:map-entry key="'ἐκπέμπουσιν'" select="'ἐκπέμπω'"/>
          <xsl:map-entry key="'ἐκπέμπω'" select="'ἐκπέμπω'"/>
          <xsl:map-entry key="'εκπεπετασμενον'" select="'ἐκπετάννυμι'"/>
-         <xsl:map-entry key="'ἐκπεπτωκότα'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεπτωκὼς'" select="'ἐκπίτνω'"/>
+         <xsl:map-entry key="'ἐκπεπτωκότα'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεπτωκότων'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεπτωκὼς'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'ἐκπεσεῖν'" select="'ἐκπίπτω'"/>
-         <xsl:map-entry key="'ἐκπεσεῖται'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπέσῃ'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπέσῃς'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσόντες'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσόντος'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσοῦσα'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσοῦσαι'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσοῦσαν'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπέσωμεν'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπεσὼν'" select="'ἐκπίτνω'"/>
+         <xsl:map-entry key="'ἐκπεσεῖται'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπέσῃ'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπέσῃς'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσόντες'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσόντος'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσόντων'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσοῦσα'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσοῦσαι'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσοῦσαν'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπέσωμεν'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπεσὼν'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'ἐκπετάννυμι'" select="'ἐκπετάννυμι'"/>
          <xsl:map-entry key="'ἐκπέτομαι'" select="'ἐκπέτομαι'"/>
          <xsl:map-entry key="'ἐκπηδᾶν'" select="'ἐκπηδάω'"/>
@@ -8411,13 +9051,13 @@
          <xsl:map-entry key="'ἐκπικραίνομαι'" select="'ἐκπικραίνομαι'"/>
          <xsl:map-entry key="'ἐκπικράνῃ'" select="'ἐκπικραίνομαι'"/>
          <xsl:map-entry key="'ἐκπίπτει'" select="'ἐκπίπτω'"/>
-         <xsl:map-entry key="'ἐκπίπτοντες'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπιπτόντων'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπίπτουσα'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπίπτουσιν'" select="'ἐκπίτνω'"/>
-         <xsl:map-entry key="'ἐκπίπτω'" select="'ἐκπίτνω'"/>
+         <xsl:map-entry key="'ἐκπίπτοντες'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπίπτοντι'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπιπτόντων'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπίπτουσα'" select="'ἐκπίπτω'"/>
+         <xsl:map-entry key="'ἐκπίπτουσιν'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'ἐκπίπτωμεν'" select="'ἐκπίπτω'"/>
-         <xsl:map-entry key="'ἐκπίτνω'" select="'ἐκπίτνω'"/>
+         <xsl:map-entry key="'ἐκπίπτω'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'ἐκπλαγῇς'" select="'ἐκπλάσσω'"/>
          <xsl:map-entry key="'ἐκπλάσσω'" select="'ἐκπλάσσω'"/>
          <xsl:map-entry key="'ἐκπλήξεως'" select="'ἔκπληξις'"/>
@@ -8426,6 +9066,7 @@
          <xsl:map-entry key="'ἐκπλήττειν'" select="'ἐκπλήσσω'"/>
          <xsl:map-entry key="'ἐκπολεμεῖ'" select="'ἐκπολεμέω'"/>
          <xsl:map-entry key="'ἐκπολεμέω'" select="'ἐκπολεμέω'"/>
+         <xsl:map-entry key="'ἐκπορεύεσθαι'" select="'ἐκπορεύω'"/>
          <xsl:map-entry key="'εκπορευεσθω'" select="'ἐκπορεύω'"/>
          <xsl:map-entry key="'εκπορευομενος'" select="'ἐκπορεύω'"/>
          <xsl:map-entry key="'ἐκπορευόμενος'" select="'ἐκπορεύω'"/>
@@ -8433,6 +9074,8 @@
          <xsl:map-entry key="'ἐκπορεύω'" select="'ἐκπορεύω'"/>
          <xsl:map-entry key="'ἐκπορθέω'" select="'ἐκπορθέω'"/>
          <xsl:map-entry key="'ἐκπορθοῦνται'" select="'ἐκπορθέω'"/>
+         <xsl:map-entry key="'ἐκπορίζειν'" select="'ἐκπορίζω'"/>
+         <xsl:map-entry key="'ἐκπορίζω'" select="'ἐκπορίζω'"/>
          <xsl:map-entry key="'ἐκπορνεύσῃ'" select="'ἐκπορνεύω'"/>
          <xsl:map-entry key="'ἐκπορνεύω'" select="'ἐκπορνεύω'"/>
          <xsl:map-entry key="'ἐκπτώσεως'" select="'ἔκπτωσις'"/>
@@ -8453,11 +9096,15 @@
          <xsl:map-entry key="'ἐκριζωθήσεται'" select="'ἐκριζόω'"/>
          <xsl:map-entry key="'ἐκρίζωμα'" select="'ἐκρίζωμα'"/>
          <xsl:map-entry key="'ἐκριζώσῃ'" select="'ἐκριζόω'"/>
+         <xsl:map-entry key="'ἔκρινεν'" select="'κρίνω'"/>
          <xsl:map-entry key="'ἐκρύβη'" select="'κρύπτω'"/>
+         <xsl:map-entry key="'ἔκρυσιν'" select="'ἔκρυσις'"/>
+         <xsl:map-entry key="'ἔκρυσις'" select="'ἔκρυσις'"/>
          <xsl:map-entry key="'ἔκρυψα'" select="'κρύπτω'"/>
          <xsl:map-entry key="'ἔκρυψαν'" select="'κρύπτω'"/>
          <xsl:map-entry key="'ἔκρυψε'" select="'κρύπτω'"/>
          <xsl:map-entry key="'ἔκρυψέν'" select="'κρύπτω'"/>
+         <xsl:map-entry key="'ἔκρυψεν'" select="'κρύπτω'"/>
          <xsl:map-entry key="'ἐκσπάσας'" select="'ἐκσπάω'"/>
          <xsl:map-entry key="'ἐκσπάω'" select="'ἐκσπάω'"/>
          <xsl:map-entry key="'ἐκσπωμένων'" select="'ἐκσπάω'"/>
@@ -8466,9 +9113,11 @@
          <xsl:map-entry key="'ἐκστάσεις'" select="'ἔκστασις'"/>
          <xsl:map-entry key="'ἔκστασις'" select="'ἔκστασις'"/>
          <xsl:map-entry key="'Ἔκστασις'" select="'ἔκστασις'"/>
+         <xsl:map-entry key="'ἐκστῆναι'" select="'ἐξίστημι'"/>
          <xsl:map-entry key="'ἐκστρέφω'" select="'ἐκστρέφω'"/>
          <xsl:map-entry key="'ἐκταθῆναι'" select="'ἐκτείνω'"/>
          <xsl:map-entry key="'ἐκταράσσει'" select="'ἐκταράσσω'"/>
+         <xsl:map-entry key="'ἐκταράσσειν'" select="'ἐκταράσσω'"/>
          <xsl:map-entry key="'ἐκταράσσεται'" select="'ἐκταράσσω'"/>
          <xsl:map-entry key="'ἐκταράσσοιτο'" select="'ἐκταράσσω'"/>
          <xsl:map-entry key="'ἐκταράσσοντά'" select="'ἐκταράσσω'"/>
@@ -8499,7 +9148,7 @@
          <xsl:map-entry key="'ἐκτενής'" select="'ἐκτενής'"/>
          <xsl:map-entry key="'ἐκτενῶ'" select="'ἐκτείνω'"/>
          <xsl:map-entry key="'εκτενως'" select="'ἐκτενῶς'"/>
-         <xsl:map-entry key="'ἐκτενῶς'" select="'ἐκτενής'"/>
+         <xsl:map-entry key="'ἐκτενῶς'" select="'ἐκτενῶς'"/>
          <xsl:map-entry key="'ἕκτη'" select="'ἕκτος'"/>
          <xsl:map-entry key="'εκτης'" select="'ἕκτος'"/>
          <xsl:map-entry key="'ἕκτης'" select="'ἕκτος'"/>
@@ -8530,6 +9179,7 @@
          <xsl:map-entry key="'εκτοθεν'" select="'ἔκτοθεν'"/>
          <xsl:map-entry key="'ἔκτοθεν'" select="'ἔκτοθεν'"/>
          <xsl:map-entry key="'ἐκτομή'" select="'ἐκτομή'"/>
+         <xsl:map-entry key="'ἕκτον'" select="'ἕκτος'"/>
          <xsl:map-entry key="'ἐκτοπίζοντες'" select="'ἐκτοπίζω'"/>
          <xsl:map-entry key="'ἐκτοπίζω'" select="'ἐκτοπίζω'"/>
          <xsl:map-entry key="'ἕκτος'" select="'ἕκτος'"/>
@@ -8542,18 +9192,21 @@
          <xsl:map-entry key="'ἐκτρεφόμενος'" select="'ἐκτρέφω'"/>
          <xsl:map-entry key="'ἐκτρέφω'" select="'ἐκτρέφω'"/>
          <xsl:map-entry key="'ἐκτρέφων'" select="'ἐκτρέφω'"/>
+         <xsl:map-entry key="'ἔκτρωμα'" select="'ἔκτρωμα'"/>
          <xsl:map-entry key="'ἐκτυποῖ'" select="'ἐκτυπόω'"/>
+         <xsl:map-entry key="'ἔκτυπος'" select="'ἔκτυπος'"/>
          <xsl:map-entry key="'ἐκτυπούμενον'" select="'ἐκτυπόω'"/>
          <xsl:map-entry key="'ἐκτυποῦντος'" select="'ἐκτυπόω'"/>
          <xsl:map-entry key="'ἐκτυπόω'" select="'ἐκτυπόω'"/>
          <xsl:map-entry key="'εκτυπωθηναι'" select="'ἐκτυπόω'"/>
          <xsl:map-entry key="'ἐκτύπωμα'" select="'ἐκτύπωμα'"/>
          <xsl:map-entry key="'ἐκτυπώματι'" select="'ἐκτύπωμα'"/>
+         <xsl:map-entry key="'ἐκτυπωτέραν'" select="'ἔκτυπος'"/>
          <xsl:map-entry key="'ἐκτυφλοῖ'" select="'ἐκτυφλόω'"/>
          <xsl:map-entry key="'ἐκτυφλοῦσι'" select="'ἐκτυφλόω'"/>
          <xsl:map-entry key="'ἐκτυφλόω'" select="'ἐκτυφλόω'"/>
-         <xsl:map-entry key="'ἐκτυφλώττῃ'" select="'ἐκτυφλώττω'"/>
-         <xsl:map-entry key="'ἐκτυφλώττω'" select="'ἐκτυφλώττω'"/>
+         <xsl:map-entry key="'ἐκτυφλώττῃ'" select="'ἐκτυφλώσσω'"/>
+         <xsl:map-entry key="'ἐκτυφλώσσω'" select="'ἐκτυφλώσσω'"/>
          <xsl:map-entry key="'ἕκτῳ'" select="'ἕκτος'"/>
          <xsl:map-entry key="'ἐκύκλουν'" select="'κυκλόω'"/>
          <xsl:map-entry key="'ἐκύκλωσα'" select="'κυκλόω'"/>
@@ -8572,6 +9225,7 @@
          <xsl:map-entry key="'εκφευγει'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'ἐκφεύγει'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'εκφευγειν'" select="'ἐκφεύγω'"/>
+         <xsl:map-entry key="'ἐκφεύγῃ'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'ἐκφεύγοντας'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'ἐκφεύγω'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'ἐκφεύξεται'" select="'ἐκφεύγω'"/>
@@ -8579,6 +9233,7 @@
          <xsl:map-entry key="'ἐκφλογουμένην'" select="'ἐκφλογόω'"/>
          <xsl:map-entry key="'ἐκφλογόω'" select="'ἐκφλογόω'"/>
          <xsl:map-entry key="'ἐκφοβεῖν'" select="'ἐκφοβέω'"/>
+         <xsl:map-entry key="'ἐκφοβεῖς'" select="'ἐκφοβέω'"/>
          <xsl:map-entry key="'ἐκφοβέω'" select="'ἐκφοβέω'"/>
          <xsl:map-entry key="'ἐκφοβούντων'" select="'ἐκφοβέω'"/>
          <xsl:map-entry key="'ἐκφοβοῦσι'" select="'ἐκφοβέω'"/>
@@ -8588,6 +9243,7 @@
          <xsl:map-entry key="'ἐκφύντων'" select="'ἐκφύω'"/>
          <xsl:map-entry key="'ἐκφύω'" select="'ἐκφύω'"/>
          <xsl:map-entry key="'ἐκχέῃς'" select="'ἐκχέω'"/>
+         <xsl:map-entry key="'ἐκχεόμενον'" select="'ἐκχέω'"/>
          <xsl:map-entry key="'ἔκχεον'" select="'ἐκχέω'"/>
          <xsl:map-entry key="'ἐκχέω'" select="'ἐκχέω'"/>
          <xsl:map-entry key="'ἐκχεῶ'" select="'ἐκχέω'"/>
@@ -8602,14 +9258,15 @@
          <xsl:map-entry key="'ἐλάβετε'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'ἐλάβομεν'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'ελαβον'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'ἔλαβον'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'ἔλαθε'" select="'λανθάνω'"/>
          <xsl:map-entry key="'ἐλαία'" select="'ἐλαία'"/>
          <xsl:map-entry key="'ἐλαίᾳ'" select="'ἐλαία'"/>
          <xsl:map-entry key="'ελαιον'" select="'ἔλαιον'"/>
          <xsl:map-entry key="'ἔλαιον'" select="'ἔλαιον'"/>
          <xsl:map-entry key="'Ἔλαιον'" select="'ἔλαιον'"/>
-         <xsl:map-entry key="'ἔλαιος'" select="'ἔλαιος'"/>
          <xsl:map-entry key="'ελαιου'" select="'ἔλαιον'"/>
-         <xsl:map-entry key="'ἐλαίου'" select="'ἔλαιος'"/>
+         <xsl:map-entry key="'ἐλαίου'" select="'ἔλαιον'"/>
          <xsl:map-entry key="'ἐλαίῳ'" select="'ἔλαιον'"/>
          <xsl:map-entry key="'ἐλάλει'" select="'λαλέω'"/>
          <xsl:map-entry key="'ἐλάλησα'" select="'λαλέω'"/>
@@ -8618,6 +9275,7 @@
          <xsl:map-entry key="'ἐλάλησε'" select="'λαλέω'"/>
          <xsl:map-entry key="'ἐλάλησεν'" select="'λαλέω'"/>
          <xsl:map-entry key="'ἐλάλουν'" select="'λαλέω'"/>
+         <xsl:map-entry key="'ἐλάμβανον'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'ἐλάμψαμεν'" select="'λάμπω'"/>
          <xsl:map-entry key="'ἐλάνθανε'" select="'λανθάνω'"/>
          <xsl:map-entry key="'ἐλάσεις'" select="'ἐλαύνω'"/>
@@ -8627,8 +9285,8 @@
          <xsl:map-entry key="'ἐλαταῖς'" select="'ἐλατός'"/>
          <xsl:map-entry key="'ἐλαττοῖ'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'ἔλαττον'" select="'ἐλάσσων'"/>
-         <xsl:map-entry key="'ἐλαττονέω'" select="'ἐλαττονέω'"/>
-         <xsl:map-entry key="'ἐλαττονούμενοι'" select="'ἐλαττονέω'"/>
+         <xsl:map-entry key="'ἐλασσονέω'" select="'ἐλασσονέω'"/>
+         <xsl:map-entry key="'ἐλαττονούμενοι'" select="'ἐλασσονέω'"/>
          <xsl:map-entry key="'ἐλαττουμένης'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'ἐλαττούμενος'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'ἐλαττοῦται'" select="'ἐλασσόω'"/>
@@ -8643,6 +9301,7 @@
          <xsl:map-entry key="'ἔλαφον'" select="'ἔλαφος'"/>
          <xsl:map-entry key="'ἔλαφος'" select="'ἔλαφος'"/>
          <xsl:map-entry key="'ἔλαφός'" select="'ἔλαφος'"/>
+         <xsl:map-entry key="'Ἔλαφος'" select="'ἔλαφος'"/>
          <xsl:map-entry key="'ἐλάφου'" select="'ἔλαφος'"/>
          <xsl:map-entry key="'ἐλάφους'" select="'ἔλαφος'"/>
          <xsl:map-entry key="'ἐλαφρία'" select="'ἐλαφρία'"/>
@@ -8654,9 +9313,12 @@
          <xsl:map-entry key="'ἐλεᾷ'" select="'ἐλεάω'"/>
          <xsl:map-entry key="'Ἔλεγε'" select="'λέγω'"/>
          <xsl:map-entry key="'ἔλεγε'" select="'λέγω'"/>
+         <xsl:map-entry key="'ἔλεγέ'" select="'λέγω'"/>
+         <xsl:map-entry key="'Ἔλεγέ'" select="'λέγω'"/>
          <xsl:map-entry key="'ελεγεν'" select="'λέγω'"/>
          <xsl:map-entry key="'ἔλεγεν'" select="'λέγω'"/>
          <xsl:map-entry key="'Ἔλεγεν'" select="'λέγω'"/>
+         <xsl:map-entry key="'ἐλέγετο'" select="'λέγω'"/>
          <xsl:map-entry key="'ἐλεγμοῖς'" select="'ἐλεγμός'"/>
          <xsl:map-entry key="'ἐλέγξαντες'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλέγξῃς'" select="'ἐλέγχω'"/>
@@ -8664,12 +9326,14 @@
          <xsl:map-entry key="'ελεγον'" select="'λέγω'"/>
          <xsl:map-entry key="'ἔλεγον'" select="'λέγω'"/>
          <xsl:map-entry key="'ελεγχει'" select="'ἔλεγχος'"/>
+         <xsl:map-entry key="'ἐλέγχει'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλέγχειν'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλέγχεται'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλεγχθήσεται'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλεγχόμενον'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλεγχόμενος'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἔλεγχον'" select="'ἔλεγχος'"/>
+         <xsl:map-entry key="'ἐλέγχονται'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἐλέγχοντες'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἔλεγχος'" select="'ἔλεγχος'"/>
          <xsl:map-entry key="'Ἐλέγχους'" select="'ἔλεγχος'"/>
@@ -8681,7 +9345,7 @@
          <xsl:map-entry key="'ελεειν'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλεεῖν'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλεεινός'" select="'ἐλεεινός'"/>
-         <xsl:map-entry key="'ἐλεεινῶς'" select="'ἐλεεινός'"/>
+         <xsl:map-entry key="'ἐλεεινῶς'" select="'ἐλεεινῶς'"/>
          <xsl:map-entry key="'ἐλεεῖσθαι'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλεέω'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλέη'" select="'ἔλεος'"/>
@@ -8709,6 +9373,8 @@
          <xsl:map-entry key="'ἔλεός'" select="'ἔλεος'"/>
          <xsl:map-entry key="'Ἔλεος'" select="'ἔλεος'"/>
          <xsl:map-entry key="'ἐλεοῦντας'" select="'ἐλεέω'"/>
+         <xsl:map-entry key="'ἐλεοῦντες'" select="'ἐλεέω'"/>
+         <xsl:map-entry key="'ἐλεοῦντος'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλέους'" select="'ἔλεος'"/>
          <xsl:map-entry key="'ἐλευθέραν'" select="'ἐλεύθερος'"/>
          <xsl:map-entry key="'ἐλευθέρας'" select="'ἐλεύθερος'"/>
@@ -8730,10 +9396,12 @@
          <xsl:map-entry key="'ἐλευθηρία'" select="'ἐλευθηρία'"/>
          <xsl:map-entry key="'ελευσει'" select="'ἔλευσις'"/>
          <xsl:map-entry key="'ελευσεται'" select="'ἔρχομαι'"/>
+         <xsl:map-entry key="'ἐλεύσεται'" select="'ἔρχομαι'"/>
          <xsl:map-entry key="'ελευσεως'" select="'ἔλευσις'"/>
          <xsl:map-entry key="'ἔλευσις'" select="'ἔλευσις'"/>
          <xsl:map-entry key="'ἐλέῳ'" select="'ἔλεος'"/>
          <xsl:map-entry key="'ἐλεῶν'" select="'ἔλεος'"/>
+         <xsl:map-entry key="'ἐλεῶντι'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'ἐλήλυθεν'" select="'ἔρχομαι'"/>
          <xsl:map-entry key="'ελθειν'" select="'ἔρχομαι'"/>
          <xsl:map-entry key="'ἐλθεῖν'" select="'ἔρχομαι'"/>
@@ -8746,6 +9414,8 @@
          <xsl:map-entry key="'ἐλθών'" select="'ἔρχομαι'"/>
          <xsl:map-entry key="'Ἐλισαιέ'" select="'Ἐλισαιέ'"/>
          <xsl:map-entry key="'Ἐλισσαιέ'" select="'Ἐλισαιέ'"/>
+         <xsl:map-entry key="'Ἐλιφὰζ'" select="'Ἐλιφάζ'"/>
+         <xsl:map-entry key="'Ἐλιφάζ'" select="'Ἐλιφάζ'"/>
          <xsl:map-entry key="'ελκει'" select="'ἕλκω'"/>
          <xsl:map-entry key="'ἕλκει'" select="'ἕλκω'"/>
          <xsl:map-entry key="'Ἕλκει'" select="'ἕλκω'"/>
@@ -8780,8 +9450,12 @@
          <xsl:map-entry key="'Ἕλληνα'" select="'Ἕλλην'"/>
          <xsl:map-entry key="'Ἕλληνες'" select="'Ἕλλην'"/>
          <xsl:map-entry key="'Ἕλληνι'" select="'Ἕλλην'"/>
+         <xsl:map-entry key="'Ἑλληνικός'" select="'Ἑλληνικός'"/>
+         <xsl:map-entry key="'Ἑλληνικῷ'" select="'Ἑλληνικός'"/>
          <xsl:map-entry key="'ἐλλιμνάζουσα'" select="'ἐλλιμνάζω'"/>
          <xsl:map-entry key="'ἐλλιμνάζω'" select="'ἐλλιμνάζω'"/>
+         <xsl:map-entry key="'ἐλλιπὲς'" select="'ἐλλιπής'"/>
+         <xsl:map-entry key="'ἐλλιπής'" select="'ἐλλιπής'"/>
          <xsl:map-entry key="'ελλκησιας'" select="'ἐκκλησία'"/>
          <xsl:map-entry key="'ελλογειται'" select="'ἐλλογέω'"/>
          <xsl:map-entry key="'ἐλλογέω'" select="'ἐλλογάω ἐλλογέω'"/>
@@ -8800,6 +9474,7 @@
          <xsl:map-entry key="'ἐλπιεῖ'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλπίζει'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλπίζειν'" select="'ἐλπίζω'"/>
+         <xsl:map-entry key="'ἐλπίζομέν'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλπιζομένη'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλπιζομένων'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλπίζοντα'" select="'ἐλπίζω'"/>
@@ -8813,11 +9488,17 @@
          <xsl:map-entry key="'ἐλπίσι'" select="'ἐλπίς'"/>
          <xsl:map-entry key="'ἐλπίσιν'" select="'ἐλπίς'"/>
          <xsl:map-entry key="'ἔλπισον'" select="'ἐλπίζω'"/>
+         <xsl:map-entry key="'ἐλπιστικὴν'" select="'ἐλπιστικός'"/>
+         <xsl:map-entry key="'ἐλπιστικός'" select="'ἐλπιστικός'"/>
          <xsl:map-entry key="'ἐλπιῶ'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἐλύθησαν'" select="'λύω'"/>
          <xsl:map-entry key="'ἐλυμήνατο'" select="'λυμαίνομαι'"/>
+         <xsl:map-entry key="'ἐλυπήθης'" select="'λυπέω'"/>
+         <xsl:map-entry key="'ἐλύπησε'" select="'λυπέω'"/>
+         <xsl:map-entry key="'ἐλύπησέ'" select="'λυπέω'"/>
          <xsl:map-entry key="'ἔλυσεν'" select="'λύω'"/>
          <xsl:map-entry key="'ἐλυτρώσω'" select="'ἐλυτρόω λυτρόω'"/>
+         <xsl:map-entry key="'Ἐλωείμ'" select="'Ἐλωείμ'"/>
          <xsl:map-entry key="'εμαθητευσαν'" select="'μαθητεύω'"/>
          <xsl:map-entry key="'ἐμαίνετο'" select="'μαίνομαι'"/>
          <xsl:map-entry key="'ἐμακάρισαν'" select="'μακαρίζω'"/>
@@ -8827,8 +9508,6 @@
          <xsl:map-entry key="'ἐμακρύνθη'" select="'μακρύνω'"/>
          <xsl:map-entry key="'ἐμάνημεν'" select="'μαίνομαι'"/>
          <xsl:map-entry key="'ἐμαρτύρησεν'" select="'μαρτυρέω'"/>
-         <xsl:map-entry key="'ἐμαυτόν'" select="'ἐμαυτοῦ'"/>
-         <xsl:map-entry key="'ἐμαυτοῦ'" select="'ἐμαυτοῦ'"/>
          <xsl:map-entry key="'ἐμβαίνω'" select="'ἐμβαίνω'"/>
          <xsl:map-entry key="'Ἔμβαλε'" select="'ἐμβάλλω'"/>
          <xsl:map-entry key="'ἐμβαλεῖν'" select="'ἐμβάλλω'"/>
@@ -8869,6 +9548,7 @@
          <xsl:map-entry key="'ἔμετος'" select="'ἔμετος'"/>
          <xsl:map-entry key="'Ἐμηνύθη'" select="'μηνύω'"/>
          <xsl:map-entry key="'εμηνυσεν'" select="'μηνύω'"/>
+         <xsl:map-entry key="'ἐμηχανῶντο'" select="'μηχανάομαι'"/>
          <xsl:map-entry key="'ἐμίγησαν'" select="'μίγνυμι'"/>
          <xsl:map-entry key="'ἐμίσησα'" select="'μισέω'"/>
          <xsl:map-entry key="'ἐμίσησάν'" select="'μισέω'"/>
@@ -8876,6 +9556,7 @@
          <xsl:map-entry key="'ἐμίσησεν'" select="'μισέω'"/>
          <xsl:map-entry key="'ἐμίσουν'" select="'μισέω'"/>
          <xsl:map-entry key="'ἐμμείνωμεν'" select="'ἐμμένω'"/>
+         <xsl:map-entry key="'ἐμμένει'" select="'ἐμμένω'"/>
          <xsl:map-entry key="'ἐμμένω'" select="'ἐμμένω'"/>
          <xsl:map-entry key="'ἐμμολυνθήσεται'" select="'ἐμμολύνω'"/>
          <xsl:map-entry key="'ἐμμολύνω'" select="'ἐμμολύνω'"/>
@@ -8888,18 +9569,20 @@
          <xsl:map-entry key="'ἐμοίχευσεν'" select="'μοιχεύω'"/>
          <xsl:map-entry key="'ἐμπαγῶ'" select="'ἐμπήγνυμι'"/>
          <xsl:map-entry key="'εμπαθει'" select="'ἐμπαθής'"/>
+         <xsl:map-entry key="'ἐμπαθεῖ'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπάθεια'" select="'ἐμπάθεια'"/>
          <xsl:map-entry key="'εμπαθειας'" select="'ἐμπάθεια'"/>
          <xsl:map-entry key="'ἐμπαθεῖς'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'εμπαθεις'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθὲς'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθές'" select="'ἐμπαθής'"/>
+         <xsl:map-entry key="'ἐμπαθέσι'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθῆ'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθὴς'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθής'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθοῦς'" select="'ἐμπαθής'"/>
          <xsl:map-entry key="'ἐμπαθῶν'" select="'ἐμπαθής'"/>
-         <xsl:map-entry key="'ἐμπαθῶς'" select="'ἐμπαθής'"/>
+         <xsl:map-entry key="'ἐμπαθῶς'" select="'ἐμπαθῶς'"/>
          <xsl:map-entry key="'ἐμπαιγμῶν'" select="'ἐμπαιγμός'"/>
          <xsl:map-entry key="'ἐμπαίζειν'" select="'ἐμπαίζω'"/>
          <xsl:map-entry key="'ἐμπαίζονται'" select="'ἐμπαίζω'"/>
@@ -8914,9 +9597,9 @@
          <xsl:map-entry key="'ἔμπειρον'" select="'ἔμπειρος'"/>
          <xsl:map-entry key="'ἔμπειρος'" select="'ἔμπειρος'"/>
          <xsl:map-entry key="'ἐμπείρω'" select="'ἔμπειρος'"/>
-         <xsl:map-entry key="'ἐμπείρως'" select="'ἔμπειρος'"/>
-         <xsl:map-entry key="'ἐμπεπτώκασιν'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπέπτωκεν'" select="'ἐμπίτνω'"/>
+         <xsl:map-entry key="'ἐμπείρως'" select="'ἐμπείρως'"/>
+         <xsl:map-entry key="'ἐμπεπτώκασιν'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπέπτωκεν'" select="'ἐμπίπτω'"/>
          <xsl:map-entry key="'ἐμπεριείληφεν'" select="'ἐμπεριλαμβάνω'"/>
          <xsl:map-entry key="'ἐμπεριέχει'" select="'ἐμπεριέχω'"/>
          <xsl:map-entry key="'ἐμπεριέχω'" select="'ἐμπεριέχω'"/>
@@ -8929,29 +9612,33 @@
          <xsl:map-entry key="'ἐμπεριστάτων'" select="'ἐμπερίστατος'"/>
          <xsl:map-entry key="'εμπεριφερεται'" select="'ἐμπεριφέρομαι'"/>
          <xsl:map-entry key="'ἐμπεριφέρομαι'" select="'ἐμπεριφέρω'"/>
-         <xsl:map-entry key="'ἐμπεσεῖν'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπεσεῖται'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπέσῃ'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπεσόντα'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπεσὼν'" select="'ἐμπίτνω'"/>
+         <xsl:map-entry key="'ἐμπεσεῖν'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπεσεῖται'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπέσῃ'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπεσόντα'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπεσοῦσαν'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπεσούσης'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπεσὼν'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπέσωσιν'" select="'ἐμπίπτω'"/>
          <xsl:map-entry key="'ἐμπηδάω'" select="'ἐμπηδάω'"/>
          <xsl:map-entry key="'ἐμπηδῶντος'" select="'ἐμπηδάω'"/>
          <xsl:map-entry key="'Ἐμπίμπλησιν'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'εμπιμπρασιν'" select="'ἐμπίμπρασις'"/>
          <xsl:map-entry key="'ἐμπίμπρασις'" select="'ἐμπίμπρασις'"/>
          <xsl:map-entry key="'ἐμπίμπρημι'" select="'ἐμπίμπρημι'"/>
+         <xsl:map-entry key="'ἐμπιπλάμενος'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπίπλασθαι'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπίπλαται'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπίπλημι'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπιπλῶν'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπιπλῶντα'" select="'ἐμπίπλημι'"/>
-         <xsl:map-entry key="'ἐμπίπτει'" select="'ἐμπίτνω'"/>
-         <xsl:map-entry key="'ἐμπιπτούσης'" select="'ἐμπίτνω'"/>
+         <xsl:map-entry key="'ἐμπίπτει'" select="'ἐμπίπτω'"/>
+         <xsl:map-entry key="'ἐμπιπτούσης'" select="'ἐμπίπτω'"/>
          <xsl:map-entry key="'Ἐμπίστευσον'" select="'ἐμπιστεύω'"/>
          <xsl:map-entry key="'ἐμπιστεύσωμεν'" select="'ἐμπιστεύω'"/>
          <xsl:map-entry key="'ἐμπιστεύω'" select="'ἐμπιστεύω'"/>
          <xsl:map-entry key="'ἐμπιστεύων'" select="'ἐμπιστεύω'"/>
-         <xsl:map-entry key="'ἐμπίτνω'" select="'ἐμπίτνω'"/>
+         <xsl:map-entry key="'ἐμπίπτω'" select="'ἐμπίπτω'"/>
          <xsl:map-entry key="'ἐμπλέκεται'" select="'ἐμπλέκω'"/>
          <xsl:map-entry key="'ἐμπλέκω'" select="'ἐμπλέκω'"/>
          <xsl:map-entry key="'ἐμπλέοντες'" select="'ἐμπλέω'"/>
@@ -8960,7 +9647,10 @@
          <xsl:map-entry key="'ἔμπλεως'" select="'ἔμπλεος'"/>
          <xsl:map-entry key="'ἐμπλήσει'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπλήσῃ'" select="'ἐμπίπλημι'"/>
+         <xsl:map-entry key="'ἐμπλησθέντας'" select="'ἐμπίπλημι'"/>
+         <xsl:map-entry key="'ἐμπλησθέντι'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπλησθῆναι'" select="'ἐμπίπλημι'"/>
+         <xsl:map-entry key="'ἐμπλησθήσεται'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπλησθήσονται'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐμπνεόμενος'" select="'ἐμπνέω'"/>
          <xsl:map-entry key="'ἔμπνεον'" select="'ἐμπνέω'"/>
@@ -8968,6 +9658,7 @@
          <xsl:map-entry key="'ἐμπνέω'" select="'ἐμπνέω'"/>
          <xsl:map-entry key="'εμποδια'" select="'ἐμπόδιος'"/>
          <xsl:map-entry key="'ἐμποδίζει'" select="'ἐμποδίζω'"/>
+         <xsl:map-entry key="'ἐμποδίζειν'" select="'ἐμποδίζω'"/>
          <xsl:map-entry key="'εμποδιζονται'" select="'ἐμποδίζω'"/>
          <xsl:map-entry key="'ἐμποδιζούσης'" select="'ἐμποδίζω'"/>
          <xsl:map-entry key="'ἐμποδίζω'" select="'ἐμποδίζω'"/>
@@ -8987,7 +9678,7 @@
          <xsl:map-entry key="'ἐμποιοῦσι'" select="'ἐμποιέω'"/>
          <xsl:map-entry key="'ἐμποιοῦσιν'" select="'ἐμποιέω'"/>
          <xsl:map-entry key="'ἔμπονος'" select="'ἔμπονος'"/>
-         <xsl:map-entry key="'ἐμπόνως'" select="'ἔμπονος'"/>
+         <xsl:map-entry key="'ἐμπόνως'" select="'ἐμπόνως'"/>
          <xsl:map-entry key="'ἐμπορίζομαι'" select="'ἐμπορίζομαι'"/>
          <xsl:map-entry key="'εμποριζομενος'" select="'ἐμπορίζομαι'"/>
          <xsl:map-entry key="'ἐμπρέπει'" select="'ἐμπρέπω'"/>
@@ -9005,7 +9696,7 @@
          <xsl:map-entry key="'ἐμπροσθίους'" select="'ἐμπρόσθιος'"/>
          <xsl:map-entry key="'ἔμπυρος'" select="'ἔμπυρος'"/>
          <xsl:map-entry key="'ἐμπύρου'" select="'ἔμπυρος'"/>
-         <xsl:map-entry key="'ἐμπύρως'" select="'ἔμπυρος'"/>
+         <xsl:map-entry key="'ἐμπύρως'" select="'ἐμπύρως'"/>
          <xsl:map-entry key="'ἐμφαίνει'" select="'ἐμφαίνω'"/>
          <xsl:map-entry key="'ἐμφαίνουσαν'" select="'ἐμφαίνω'"/>
          <xsl:map-entry key="'ἐμφαίνω'" select="'ἐμφαίνω'"/>
@@ -9017,11 +9708,11 @@
          <xsl:map-entry key="'ἐμφανιζομένους'" select="'ἐμφανίζω'"/>
          <xsl:map-entry key="'ἐμφανίζοντα'" select="'ἐμφανίζω'"/>
          <xsl:map-entry key="'ἐμφανίζω'" select="'ἐμφανίζω'"/>
-         <xsl:map-entry key="'ἐμφανῶς'" select="'ἐμφανής'"/>
+         <xsl:map-entry key="'ἐμφανῶς'" select="'ἐμφανῶς'"/>
          <xsl:map-entry key="'ἐμφερής'" select="'ἐμφερής'"/>
          <xsl:map-entry key="'ἐμφεροῦς'" select="'ἐμφερής'"/>
          <xsl:map-entry key="'ἔμφοβος'" select="'ἔμφοβος'"/>
-         <xsl:map-entry key="'ἐμφόβως'" select="'ἔμφοβος'"/>
+         <xsl:map-entry key="'ἐμφόβως'" select="'ἐμφόβως'"/>
          <xsl:map-entry key="'ἐμφορέω'" select="'ἐμφορέω'"/>
          <xsl:map-entry key="'ἐμφορούμενοι'" select="'ἐμφορέω'"/>
          <xsl:map-entry key="'ἐμφορούμενος'" select="'ἐμφορέω'"/>
@@ -9042,7 +9733,7 @@
          <xsl:map-entry key="'ἔμψυχος'" select="'ἔμψυχος'"/>
          <xsl:map-entry key="'ἐμψύχω'" select="'ἔμψυχος'"/>
          <xsl:map-entry key="'ἐμψύχων'" select="'ἔμψυχος'"/>
-         <xsl:map-entry key="'ἐμψύχως'" select="'ἔμψυχος'"/>
+         <xsl:map-entry key="'ἐμψύχως'" select="'ἐμψύχως'"/>
          <xsl:map-entry key="'ἐμψύχωσιν'" select="'ἐμψύχωσις'"/>
          <xsl:map-entry key="'ἐμψύχωσίς'" select="'ἐμψύχωσις'"/>
          <xsl:map-entry key="'ἐμψύχωσις'" select="'ἐμψύχωσις'"/>
@@ -9100,7 +9791,7 @@
          <xsl:map-entry key="'εναντιωι'" select="'ἐναντίος'"/>
          <xsl:map-entry key="'εναντιων'" select="'ἐναντίος'"/>
          <xsl:map-entry key="'ἐναντίων'" select="'ἐναντίος'"/>
-         <xsl:map-entry key="'εναντιως'" select="'ἐναντίος'"/>
+         <xsl:map-entry key="'εναντιως'" select="'ἐναντίως'"/>
          <xsl:map-entry key="'ἐναντιώσει'" select="'ἐναντιόομαι'"/>
          <xsl:map-entry key="'ἐναντιώσεως'" select="'ἐναντίωσις'"/>
          <xsl:map-entry key="'ἐναντίωσις'" select="'ἐναντίωσις'"/>
@@ -9115,6 +9806,8 @@
          <xsl:map-entry key="'ἐναποκειμένη'" select="'ἐναπόκειμαι'"/>
          <xsl:map-entry key="'ἐναποκειμένην'" select="'ἐναπόκειμαι'"/>
          <xsl:map-entry key="'ἐναποκείμενον'" select="'ἐναπόκειμαι'"/>
+         <xsl:map-entry key="'ἐναποκειμένους'" select="'ἐναπόκειμαι'"/>
+         <xsl:map-entry key="'ἐναποκειμένων'" select="'ἐναπόκειμαι'"/>
          <xsl:map-entry key="'ἐναπόκεινται'" select="'ἐναπόκειμαι'"/>
          <xsl:map-entry key="'ἐναποκλεῖσαν'" select="'ἐναποκλείω'"/>
          <xsl:map-entry key="'ἐναποκλείω'" select="'ἐναποκλείω'"/>
@@ -9164,8 +9857,10 @@
          <xsl:map-entry key="'ἔνδεια'" select="'ἔνδεια'"/>
          <xsl:map-entry key="'ἐνδείᾳ'" select="'ἔνδεια'"/>
          <xsl:map-entry key="'ἔνδειαν'" select="'ἔνδεια'"/>
+         <xsl:map-entry key="'ἐνδεικνύμεθα'" select="'ἐνδείκνυμι'"/>
          <xsl:map-entry key="'ἐνδεικνύμενον'" select="'ἐνδείκνυμι'"/>
          <xsl:map-entry key="'ἐνδεικνύμενος'" select="'ἐνδείκνυμι'"/>
+         <xsl:map-entry key="'ἐνδεικνυμένους'" select="'ἐνδείκνυμι'"/>
          <xsl:map-entry key="'ἐνδείκνυμι'" select="'ἐνδείκνυμι'"/>
          <xsl:map-entry key="'ἐνδείκνυνταί'" select="'ἐνδείκνυμι'"/>
          <xsl:map-entry key="'ἔνδειξιν'" select="'ἔνδειξις'"/>
@@ -9176,11 +9871,14 @@
          <xsl:map-entry key="'ἐνδελεχῶν'" select="'ἐνδελεχέω'"/>
          <xsl:map-entry key="'ενδεχεται'" select="'ἐνδέχομαι'"/>
          <xsl:map-entry key="'ἐνδέχεται'" select="'ἐνδέχομαι'"/>
+         <xsl:map-entry key="'Ἐνδέχεται'" select="'ἐνδέχομαι'"/>
          <xsl:map-entry key="'ἐνδέχομαι'" select="'ἐνδέχομαι'"/>
          <xsl:map-entry key="'ἐνδεχομένας'" select="'ἐνδέχομαι'"/>
+         <xsl:map-entry key="'ἐνδεχόμενον'" select="'ἐνδέχομαι'"/>
          <xsl:map-entry key="'ἐνδεχομένου'" select="'ἐνδέχομαι'"/>
+         <xsl:map-entry key="'ἐνδεχομένῳ'" select="'ἐνδέχομαι'"/>
          <xsl:map-entry key="'ἐνδεχομένων'" select="'ἐνδέχομαι'"/>
-         <xsl:map-entry key="'ἐνδεχομένως'" select="'ἐνδέχομαι'"/>
+         <xsl:map-entry key="'ἐνδεχομένως'" select="'ἐνδεχομένως'"/>
          <xsl:map-entry key="'ἐνδέω'" select="'ἐνδέω'"/>
          <xsl:map-entry key="'ἐνδημίᾳ'" select="'ἐνδημία'"/>
          <xsl:map-entry key="'ἐνδημία'" select="'ἐνδημία'"/>
@@ -9197,9 +9895,10 @@
          <xsl:map-entry key="'ἐνδοίαζε'" select="'ἐνδοιάζω'"/>
          <xsl:map-entry key="'ἐνδοιάζω'" select="'ἐνδοιάζω'"/>
          <xsl:map-entry key="'ἔνδον'" select="'ἔνδον'"/>
+         <xsl:map-entry key="'ἔνδοξον'" select="'ἔνδοξος'"/>
          <xsl:map-entry key="'ενδοξος'" select="'ἔνδοξος'"/>
          <xsl:map-entry key="'ἔνδοξος'" select="'ἔνδοξος'"/>
-         <xsl:map-entry key="'ἐνδόξως'" select="'ἔνδοξος'"/>
+         <xsl:map-entry key="'ἐνδόξως'" select="'ἐνδόξως'"/>
          <xsl:map-entry key="'ενδυει'" select="'ἐνδύω'"/>
          <xsl:map-entry key="'ενδυεσθαι'" select="'ἐνδύω'"/>
          <xsl:map-entry key="'ἐνδύεται'" select="'ἐνδύω'"/>
@@ -9237,6 +9936,7 @@
          <xsl:map-entry key="'ἐνέγκῃ'" select="'φέρω'"/>
          <xsl:map-entry key="'ἐνεγυήσω'" select="'ἐνεγγυάω'"/>
          <xsl:map-entry key="'ἐνέδρᾳ'" select="'ἐνέδρα'"/>
+         <xsl:map-entry key="'ἐνέδρα'" select="'ἐνέδρα'"/>
          <xsl:map-entry key="'ἔνεδραν'" select="'ἐνέδρα'"/>
          <xsl:map-entry key="'ἐνεδρεύει'" select="'ἐνεδρεύω'"/>
          <xsl:map-entry key="'ἐνεδρεύειν'" select="'ἐνεδρεύω'"/>
@@ -9255,9 +9955,12 @@
          <xsl:map-entry key="'ἐνέκρωσε'" select="'νεκρόω'"/>
          <xsl:map-entry key="'ἐνενόησαν'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'ἐνεπάγην'" select="'ἐμπήγνυμι'"/>
+         <xsl:map-entry key="'ἐνεπίστευσεν'" select="'ἐμπιστεύω'"/>
          <xsl:map-entry key="'ἐνέπλησεν'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐνεπλήσθημεν'" select="'ἐμπίπλημι'"/>
          <xsl:map-entry key="'ἐνεπύρισαν'" select="'ἐμπυρίζω'"/>
+         <xsl:map-entry key="'ἐνεργάζομαι'" select="'ἐνεργάζομαι'"/>
+         <xsl:map-entry key="'ἐνεργαζόμενος'" select="'ἐνεργάζομαι'"/>
          <xsl:map-entry key="'ἐνεργεῖ'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ενεργει'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνέργεια'" select="'ἐνέργεια'"/>
@@ -9272,12 +9975,19 @@
          <xsl:map-entry key="'ἐνεργειῶν'" select="'ἐνέργεια'"/>
          <xsl:map-entry key="'ενεργετειν'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργέω'" select="'ἐνεργέω'"/>
+         <xsl:map-entry key="'ἐνέργημα'" select="'ἐνέργημα'"/>
+         <xsl:map-entry key="'ἐνεργήματα'" select="'ἐνέργημα'"/>
+         <xsl:map-entry key="'ἐνεργῆσαι'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργήσει'" select="'ἐνεργέω'"/>
+         <xsl:map-entry key="'ἐνεργητικός'" select="'ἐνεργητικός'"/>
+         <xsl:map-entry key="'ἐνεργητικῶς'" select="'ἐνεργητικῶς'"/>
          <xsl:map-entry key="'ἐνεργοῦμεν'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργουμένην'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργουμένων'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργοῦντας'" select="'ἐνεργέω'"/>
+         <xsl:map-entry key="'ἐνεργοῦντες'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργοῦντος'" select="'ἐνεργέω'"/>
+         <xsl:map-entry key="'ἐνεργούντων'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργοῦσα'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργούσης'" select="'ἐνεργέω'"/>
          <xsl:map-entry key="'ἐνεργοῦσιν'" select="'ἐνεργέω'"/>
@@ -9312,11 +10022,14 @@
          <xsl:map-entry key="'ἔνθεσθε'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἐνθήσωσι'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἐνθήσωσιν'" select="'ἐντίθημι'"/>
+         <xsl:map-entry key="'ἐνθουσιασμὸς'" select="'ἐνθουσιασμός'"/>
+         <xsl:map-entry key="'ἐνθουσιασμός'" select="'ἐνθουσιασμός'"/>
          <xsl:map-entry key="'ἐνθρονίζουσιν'" select="'ἐνθρονίζω'"/>
          <xsl:map-entry key="'ἐνθρονίζω'" select="'ἐνθρονίζω'"/>
          <xsl:map-entry key="'ἐνθυμεῖσθαι'" select="'ἐνθυμέομαι'"/>
          <xsl:map-entry key="'ἐνθυμέομαι'" select="'ἐνθυμέομαι'"/>
          <xsl:map-entry key="'ἐνθυμηθείη'" select="'ἐνθυμέομαι'"/>
+         <xsl:map-entry key="'ἐνθυμηθῆναι'" select="'ἐνθυμέομαι'"/>
          <xsl:map-entry key="'ἐνθυμήσεις'" select="'ἐνθυμέομαι'"/>
          <xsl:map-entry key="'ἐνθυμήσεως'" select="'ἐνθύμησις'"/>
          <xsl:map-entry key="'ἐνθύμησις'" select="'ἐνθύμησις'"/>
@@ -9325,6 +10038,7 @@
          <xsl:map-entry key="'ἕνι'" select="'εἷς'"/>
          <xsl:map-entry key="'ἑνὶ'" select="'εἷς'"/>
          <xsl:map-entry key="'ἑνί'" select="'εἷς'"/>
+         <xsl:map-entry key="'ἐνιαυσιαῖος'" select="'ἐνιαυσιαῖος'"/>
          <xsl:map-entry key="'ἐνιαυτὸν'" select="'ἐνιαυτός'"/>
          <xsl:map-entry key="'ἐνιαυτός'" select="'ἐνιαυτός'"/>
          <xsl:map-entry key="'ἐνιαυτοῦ'" select="'ἐνιαυτός'"/>
@@ -9348,8 +10062,10 @@
          <xsl:map-entry key="'ἐννοεῖν'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'εννοειτω'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'ἐννοέω'" select="'ἐννοέω'"/>
+         <xsl:map-entry key="'ἐννοηθήσεται'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'ἔννοια'" select="'ἔννοια'"/>
          <xsl:map-entry key="'ἐννοίᾳ'" select="'ἔννοια'"/>
+         <xsl:map-entry key="'ἔννοιαι'" select="'ἔννοια'"/>
          <xsl:map-entry key="'ἐννοίαις'" select="'ἔννοια'"/>
          <xsl:map-entry key="'ἔννοιαν'" select="'ἔννοια'"/>
          <xsl:map-entry key="'ἐννοίας'" select="'ἔννοια'"/>
@@ -9360,6 +10076,7 @@
          <xsl:map-entry key="'εννοωμεν'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'ἐννοῶν'" select="'ἐννοέω'"/>
          <xsl:map-entry key="'ἐνόησα'" select="'νοέω'"/>
+         <xsl:map-entry key="'ἐνόησεν'" select="'νοέω'"/>
          <xsl:map-entry key="'ἑνοῖ'" select="'ἑνόω'"/>
          <xsl:map-entry key="'ἐνοικεῖ'" select="'ἐνοικέω'"/>
          <xsl:map-entry key="'ενοικειν'" select="'ἐνοικέω'"/>
@@ -9419,7 +10136,9 @@
          <xsl:map-entry key="'ἐντιθεὶς'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἐντιθέναι'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἐντίθημι'" select="'ἐντίθημι'"/>
+         <xsl:map-entry key="'ἐντίθησι'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἐντίθησιν'" select="'ἐντίθημι'"/>
+         <xsl:map-entry key="'ἐντιθοῦσι'" select="'ἐντίθημι'"/>
          <xsl:map-entry key="'ἔντιμον'" select="'ἔντιμος'"/>
          <xsl:map-entry key="'ἔντιμος'" select="'ἔντιμος'"/>
          <xsl:map-entry key="'ἐντολαὶ'" select="'ἐντολή'"/>
@@ -9437,7 +10156,7 @@
          <xsl:map-entry key="'ἐντολῆς'" select="'ἐντολή'"/>
          <xsl:map-entry key="'ἐντολῶν'" select="'ἐντολή'"/>
          <xsl:map-entry key="'εντονως'" select="'ἐντόνως'"/>
-         <xsl:map-entry key="'ἐντόνως'" select="'ἔντονος'"/>
+         <xsl:map-entry key="'ἐντόνως'" select="'ἐντόνως'"/>
          <xsl:map-entry key="'ἐντορνεύουσιν'" select="'ἐντορνεύω'"/>
          <xsl:map-entry key="'ἐντορνεύω'" select="'ἐντορνεύω'"/>
          <xsl:map-entry key="'ἐντὸς'" select="'ἐντός'"/>
@@ -9450,8 +10169,11 @@
          <xsl:map-entry key="'ἐντρέπω'" select="'ἐντρέπω'"/>
          <xsl:map-entry key="'ἐντρεφομένους'" select="'ἐντρέφω'"/>
          <xsl:map-entry key="'ἐντρέφω'" select="'ἐντρέφω'"/>
+         <xsl:map-entry key="'ἔντριτον'" select="'ἔντριτος'"/>
+         <xsl:map-entry key="'ἔντριτόν'" select="'ἔντριτος'"/>
+         <xsl:map-entry key="'ἔντριτος'" select="'ἔντριτος'"/>
          <xsl:map-entry key="'ἔντρομος'" select="'ἔντρομος'"/>
-         <xsl:map-entry key="'ἐντρόμως'" select="'ἔντρομος'"/>
+         <xsl:map-entry key="'ἐντρόμως'" select="'ἐντρόμως'"/>
          <xsl:map-entry key="'ἐντροπή'" select="'ἐντροπή'"/>
          <xsl:map-entry key="'ἐντροπὴν'" select="'ἐντροπή'"/>
          <xsl:map-entry key="'ἐντροπήν'" select="'ἐντροπή'"/>
@@ -9472,6 +10194,7 @@
          <xsl:map-entry key="'ἐνύπνια'" select="'ἐνύπνιος'"/>
          <xsl:map-entry key="'Ἐνύπνια'" select="'ἐνύπνιος'"/>
          <xsl:map-entry key="'ενυπνιοις'" select="'ἐνύπνιος'"/>
+         <xsl:map-entry key="'ἐνυπνίοις'" select="'ἐνύπνιος'"/>
          <xsl:map-entry key="'Ἐνύπνιον'" select="'ἐνύπνιος'"/>
          <xsl:map-entry key="'ἐνύπνιον'" select="'ἐνύπνιος'"/>
          <xsl:map-entry key="'ἐνύπνιος'" select="'ἐνύπνιος'"/>
@@ -9485,6 +10208,8 @@
          <xsl:map-entry key="'ἐνύσταξεν'" select="'νυστάζω'"/>
          <xsl:map-entry key="'ἑνωθεὶς'" select="'ἑνόω'"/>
          <xsl:map-entry key="'ἑνωθέντες'" select="'ἑνόω'"/>
+         <xsl:map-entry key="'ἑνωθῆναι'" select="'ἑνόω'"/>
+         <xsl:map-entry key="'ἑνωθήσεται'" select="'ἑνόω'"/>
          <xsl:map-entry key="'ενωικησε'" select="'νικάω'"/>
          <xsl:map-entry key="'ενωπιον'" select="'ἐνώπιος'"/>
          <xsl:map-entry key="'ἐνώπιον'" select="'ἐνώπιος'"/>
@@ -9492,6 +10217,9 @@
          <xsl:map-entry key="'ἐνώπιος'" select="'ἐνώπιος'"/>
          <xsl:map-entry key="'Ἐνὼς'" select="'Ἐνώς'"/>
          <xsl:map-entry key="'Ἐνώς'" select="'Ἐνώς'"/>
+         <xsl:map-entry key="'ἑνῶσαι'" select="'ἑνόω'"/>
+         <xsl:map-entry key="'ἑνώσει'" select="'ἕνωσις'"/>
+         <xsl:map-entry key="'ἑνώσεως'" select="'ἕνωσις'"/>
          <xsl:map-entry key="'ἑνώσῃς'" select="'ἑνόω'"/>
          <xsl:map-entry key="'ενωσιν'" select="'ἕνωσις'"/>
          <xsl:map-entry key="'ἕνωσις'" select="'ἕνωσις'"/>
@@ -9523,13 +10251,15 @@
          <xsl:map-entry key="'ἑξάγωνος'" select="'ἑξάγωνος'"/>
          <xsl:map-entry key="'ἐξαίρεται'" select="'ἐξαίρω'"/>
          <xsl:map-entry key="'ἐξαιρετός'" select="'ἐξαιρετός'"/>
-         <xsl:map-entry key="'ἐξαιρέτως'" select="'ἐξαιρετός'"/>
+         <xsl:map-entry key="'ἐξαιρέτως'" select="'ἐξαιρέτως'"/>
          <xsl:map-entry key="'ἐξαιρέω'" select="'ἐξαιρέω'"/>
          <xsl:map-entry key="'ἐξαίρουσιν'" select="'ἐξαίρω'"/>
          <xsl:map-entry key="'ἐξαίρω'" select="'ἐξαίρω'"/>
          <xsl:map-entry key="'ἐξαίσιον'" select="'ἐξαίσιος'"/>
          <xsl:map-entry key="'ἐξαίσιος'" select="'ἐξαίσιος'"/>
          <xsl:map-entry key="'ἐξαιτέω'" select="'ἐξαιτέω'"/>
+         <xsl:map-entry key="'ἐξαιτήσεως'" select="'ἐξαίτησις'"/>
+         <xsl:map-entry key="'ἐξαίτησις'" select="'ἐξαίτησις'"/>
          <xsl:map-entry key="'ἐξαιτοῦνται'" select="'ἐξαιτέω'"/>
          <xsl:map-entry key="'ἐξαίφνης'" select="'ἐξαίφνης'"/>
          <xsl:map-entry key="'ἑξακόσιοι'" select="'ἑξακόσιοι'"/>
@@ -9548,9 +10278,12 @@
          <xsl:map-entry key="'ἐξαλείψῃ'" select="'ἐξαλείφω'"/>
          <xsl:map-entry key="'ἐξάλλεται'" select="'ἐξάλλομαι'"/>
          <xsl:map-entry key="'ἐξάλλομαι'" select="'ἐξάλλομαι'"/>
+         <xsl:map-entry key="'ἐξαλοιφὴ'" select="'ἐξαλοιφή'"/>
+         <xsl:map-entry key="'ἐξαλοιφή'" select="'ἐξαλοιφή'"/>
          <xsl:map-entry key="'ἐξαμαρτάνειν'" select="'ἐξαμαρτάνω'"/>
          <xsl:map-entry key="'ἐξαμαρτάνομεν'" select="'ἐξαμαρτάνω'"/>
          <xsl:map-entry key="'ἐξαμαρτάνω'" select="'ἐξαμαρτάνω'"/>
+         <xsl:map-entry key="'ἐξαμαρτεῖν'" select="'ἐξαμαρτάνω'"/>
          <xsl:map-entry key="'ἐξαναλίσκω'" select="'ἐξαναλίσκω'"/>
          <xsl:map-entry key="'ἐξαναλώσει'" select="'ἐξαναλίσκω'"/>
          <xsl:map-entry key="'ἐξαναλώσουσιν'" select="'ἐξαναλίσκω'"/>
@@ -9577,6 +10310,7 @@
          <xsl:map-entry key="'ἐξαπέστειλεν'" select="'ἐξαποστέλλω'"/>
          <xsl:map-entry key="'εξαπινα'" select="'ἐξάπινα'"/>
          <xsl:map-entry key="'ἐξάπινα'" select="'ἐξάπινα'"/>
+         <xsl:map-entry key="'ἐξαπίνης'" select="'ἐξαπίνης'"/>
          <xsl:map-entry key="'ἐξαπλόω'" select="'ἐξαπλόω'"/>
          <xsl:map-entry key="'ἐξαπλῶσαι'" select="'ἐξαπλόω'"/>
          <xsl:map-entry key="'ἐξαπόστειλον'" select="'ἐξαποστέλλω'"/>
@@ -9586,6 +10320,7 @@
          <xsl:map-entry key="'ἐξαπτόμενοι'" select="'ἐξάπτω'"/>
          <xsl:map-entry key="'ἐξάπτω'" select="'ἐξάπτω'"/>
          <xsl:map-entry key="'ἐξᾶραι'" select="'ἐξαίρω'"/>
+         <xsl:map-entry key="'ἐξαρθῇς'" select="'ἐξαίρω'"/>
          <xsl:map-entry key="'ἐξαρκεῖν'" select="'ἐξαρκέω'"/>
          <xsl:map-entry key="'ἐξαρκέω'" select="'ἐξαρκέω'"/>
          <xsl:map-entry key="'ἐξαρπάζειν'" select="'ἐξαρπάζω'"/>
@@ -9605,6 +10340,7 @@
          <xsl:map-entry key="'ἐξάψαντες'" select="'ἐξάπτω'"/>
          <xsl:map-entry key="'ἐξάψας'" select="'ἐξάπτω'"/>
          <xsl:map-entry key="'ἐξέβαλε'" select="'ἐκβάλλω'"/>
+         <xsl:map-entry key="'ἐξέβαλεν'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐξέβαλον'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐξεβλήθη'" select="'ἐκβάλλω'"/>
          <xsl:map-entry key="'ἐξεγεῖραι'" select="'ἐξεγείρω'"/>
@@ -9616,6 +10352,7 @@
          <xsl:map-entry key="'ἐξεγέννησά'" select="'ἐκγεννάω'"/>
          <xsl:map-entry key="'Ἐξεγέρθητι'" select="'ἐξεγείρω'"/>
          <xsl:map-entry key="'ἐξεγέρθητι'" select="'ἐξεγείρω'"/>
+         <xsl:map-entry key="'ἐξεδέχοντο'" select="'ἐκδέχομαι'"/>
          <xsl:map-entry key="'ἐξεδίωκον'" select="'ἐκδιώκω'"/>
          <xsl:map-entry key="'ἐξεζήτησα'" select="'ἐκζητέω'"/>
          <xsl:map-entry key="'ἐξεζήτουν'" select="'ἐκζητέω'"/>
@@ -9628,6 +10365,7 @@
          <xsl:map-entry key="'ἕξεις'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐξεκαύθη'" select="'ἐκκαίω'"/>
          <xsl:map-entry key="'ἐξεκενώθη'" select="'ἐκκενόω'"/>
+         <xsl:map-entry key="'ἐξέκλινα'" select="'ἐκκλίνω'"/>
          <xsl:map-entry key="'ἐξέκλιναν'" select="'ἐκκλίνω'"/>
          <xsl:map-entry key="'ἐξέκοψαν'" select="'ἐκκόπτω'"/>
          <xsl:map-entry key="'ἐξέκραξα'" select="'ἐκκράζω'"/>
@@ -9637,15 +10375,18 @@
          <xsl:map-entry key="'ἐξελαύνουσα'" select="'ἐξελαύνω'"/>
          <xsl:map-entry key="'ἐξελαύνω'" select="'ἐξελαύνω'"/>
          <xsl:map-entry key="'Ἐξελεξάμην'" select="'ἐκλέγω'"/>
+         <xsl:map-entry key="'ἐξελεξάμην'" select="'ἐκλέγω'"/>
          <xsl:map-entry key="'ἐξελέξατο'" select="'ἐκλέγω'"/>
          <xsl:map-entry key="'ἐξελέσθαι'" select="'ἐξαιρέω'"/>
          <xsl:map-entry key="'ἐξελεύσεται'" select="'ἐξέρχομαι'"/>
+         <xsl:map-entry key="'ἐξελεύσῃ'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελεύσομαι'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελήλυθε'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελήλυθεν'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελθεῖν'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξέλθῃ'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'εξελθηις'" select="'ἐξέρχομαι'"/>
+         <xsl:map-entry key="'ἐξέλθῃς'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξέλθοι'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελθόντα'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξελθόντων'" select="'ἐξέρχομαι'"/>
@@ -9656,11 +10397,13 @@
          <xsl:map-entry key="'ἐξέλκουσα'" select="'ἐξέλκω'"/>
          <xsl:map-entry key="'ἐξέλκω'" select="'ἐξέλκω'"/>
          <xsl:map-entry key="'ἐξελοῦ'" select="'ἐξαιρέω'"/>
+         <xsl:map-entry key="'ἐξενέγκαι'" select="'ἐκφέρω'"/>
          <xsl:map-entry key="'ἐξενεγκεῖν'" select="'ἐκφέρω'"/>
          <xsl:map-entry key="'ἐξένισε'" select="'ξενίζω'"/>
          <xsl:map-entry key="'ἐξενίσθησαν'" select="'ξενίζω'"/>
+         <xsl:map-entry key="'ἐξέπεμπε'" select="'ἐκπέμπω'"/>
          <xsl:map-entry key="'εξεπεσαν'" select="'ἐκπίπτω'"/>
-         <xsl:map-entry key="'ἐξέπεσε'" select="'ἐκπίτνω'"/>
+         <xsl:map-entry key="'ἐξέπεσε'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'εξεπεσον'" select="'ἐκπίπτω'"/>
          <xsl:map-entry key="'ἐξεπλάγησαν'" select="'ἐκπλήσσω'"/>
          <xsl:map-entry key="'ἐξερευνήσει'" select="'ἐξερευνάω'"/>
@@ -9673,6 +10416,7 @@
          <xsl:map-entry key="'ἐξερχομένοις'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξερχόμενον'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξερχομένων'" select="'ἐξέρχομαι'"/>
+         <xsl:map-entry key="'ἐξέρχονται'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξέσπασεν'" select="'ἐκσπάω'"/>
          <xsl:map-entry key="'ἐξέστην'" select="'ἐξίστημι'"/>
          <xsl:map-entry key="'ἐξέστησαν'" select="'ἐξίστημι'"/>
@@ -9680,12 +10424,15 @@
          <xsl:map-entry key="'Ἔξεστι'" select="'ἔξεστι'"/>
          <xsl:map-entry key="'ἐξέστρεψεν'" select="'ἐκστρέφω'"/>
          <xsl:map-entry key="'εξεταζειν'" select="'ἐξετάζω'"/>
+         <xsl:map-entry key="'ἐξετάζειν'" select="'ἐξετάζω'"/>
+         <xsl:map-entry key="'ἐξετάζομεν'" select="'ἐξετάζω'"/>
          <xsl:map-entry key="'ἐξεταζόμενος'" select="'ἐξετάζω'"/>
          <xsl:map-entry key="'ἐξετάζουσα'" select="'ἐξετάζω'"/>
          <xsl:map-entry key="'ἐξετάζω'" select="'ἐξετάζω'"/>
          <xsl:map-entry key="'ἐξετάραξάν'" select="'ἐκταράσσω'"/>
          <xsl:map-entry key="'ἐξετάρασσες'" select="'ἐκταράσσω'"/>
          <xsl:map-entry key="'ἐξετάσαι'" select="'ἐξετάζω'"/>
+         <xsl:map-entry key="'ἐξετάσεως'" select="'ἐξέτασις'"/>
          <xsl:map-entry key="'ἐξέτασιν'" select="'ἐξέτασις'"/>
          <xsl:map-entry key="'ἐξέτασις'" select="'ἐξέτασις'"/>
          <xsl:map-entry key="'ἐξετάσομεν'" select="'ἐξετάζω'"/>
@@ -9707,6 +10454,7 @@
          <xsl:map-entry key="'ἐξευρίσκω'" select="'ἐξευρίσκω'"/>
          <xsl:map-entry key="'εξεφηνε'" select="'ἐκφαίνω'"/>
          <xsl:map-entry key="'ἐξεφόβει'" select="'ἐκφοβέω'"/>
+         <xsl:map-entry key="'ἐξέφυγεν'" select="'ἐκφεύγω'"/>
          <xsl:map-entry key="'ἐξέχεαν'" select="'ἐκχέω'"/>
          <xsl:map-entry key="'ἐξεχύθη'" select="'ἐκχέω'"/>
          <xsl:map-entry key="'ἕξεων'" select="'ἕξις'"/>
@@ -9739,10 +10487,11 @@
          <xsl:map-entry key="'Ἐξῆλθεν'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξῆλθες'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'εξηλθον'" select="'ἐξέρχομαι'"/>
+         <xsl:map-entry key="'ἐξῆλθον'" select="'ἐξέρχομαι'"/>
          <xsl:map-entry key="'ἐξήλλατο'" select="'ἐξάλλομαι'"/>
          <xsl:map-entry key="'ἐξημεροῦντες'" select="'ἐξημερόω'"/>
          <xsl:map-entry key="'ἐξημερόω'" select="'ἐξημερόω'"/>
-         <xsl:map-entry key="'ἐξήπλου'" select="'ἐκαπλόω'"/>
+         <xsl:map-entry key="'ἐξήπλου'" select="'ἐξαπλόω'"/>
          <xsl:map-entry key="'ἐξηράνθη'" select="'ξηραίνω'"/>
          <xsl:map-entry key="'ἐξηρεύξατο'" select="'ἐξερεύγομαι'"/>
          <xsl:map-entry key="'Εξηρκεσε'" select="'ἐξαρκέω'"/>
@@ -9771,6 +10520,7 @@
          <xsl:map-entry key="'εξιχνιασει'" select="'ἐξιχνίασις'"/>
          <xsl:map-entry key="'ἐξιχνιάσει'" select="'ἐξιχνιάζω'"/>
          <xsl:map-entry key="'ἐξιχνίασις'" select="'ἐξιχνίασις'"/>
+         <xsl:map-entry key="'ἔξοδοι'" select="'ἔξοδος'"/>
          <xsl:map-entry key="'ἐξόδοις'" select="'ἔξοδος'"/>
          <xsl:map-entry key="'ἔξοδον'" select="'ἔξοδος'"/>
          <xsl:map-entry key="'ἔξοδόν'" select="'ἔξοδος'"/>
@@ -9779,6 +10529,8 @@
          <xsl:map-entry key="'ἔξοδός'" select="'ἔξοδος'"/>
          <xsl:map-entry key="'εξοδου'" select="'ἔξοδος'"/>
          <xsl:map-entry key="'ἐξόδου'" select="'ἔξοδος'"/>
+         <xsl:map-entry key="'ἐξόδῳ'" select="'ἔξοδος'"/>
+         <xsl:map-entry key="'ἔξοικος'" select="'ἔξοικος'"/>
          <xsl:map-entry key="'ἐξοίσει'" select="'ἐκφέρω'"/>
          <xsl:map-entry key="'ἐξοίσεις'" select="'ἐκφέρω'"/>
          <xsl:map-entry key="'ἐξολεθρεύσαι'" select="'ἐξολεθρεύω'"/>
@@ -9848,18 +10600,27 @@
          <xsl:map-entry key="'ἐξουδένωσις'" select="'ἐξουδένωσις'"/>
          <xsl:map-entry key="'ἐξουδενώσομεν'" select="'ἐξουδενόω'"/>
          <xsl:map-entry key="'ἐξουθενεῖ'" select="'ἐξουθενέω'"/>
+         <xsl:map-entry key="'ἐξουθενεῖν'" select="'ἐξουθενέω'"/>
          <xsl:map-entry key="'ἐξουθενέω'" select="'ἐξουθενέω'"/>
+         <xsl:map-entry key="'ἐξουθενήσῃς'" select="'ἐξουθενέω'"/>
          <xsl:map-entry key="'ἐξουθενήσουσι'" select="'ἐξουθενέω'"/>
          <xsl:map-entry key="'ἐξουθενοῦσι'" select="'ἐξουθενέω'"/>
          <xsl:map-entry key="'ἐξουθενοῦσιν'" select="'ἐξουθενέω'"/>
+         <xsl:map-entry key="'ἐξουθενῶν'" select="'ἐξουθενέω'"/>
+         <xsl:map-entry key="'ἕξουσι'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐξουσίᾳ'" select="'ἐξουσία'"/>
          <xsl:map-entry key="'ἐξουσία'" select="'ἐξουσία'"/>
+         <xsl:map-entry key="'ἐξουσιάζειν'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἐξουσιαζόμενον'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἐξουσιαζομένους'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἐξουσιάζοντος'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἐξουσιάζω'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἐξουσίαν'" select="'ἐξουσία'"/>
          <xsl:map-entry key="'ἐξουσίας'" select="'ἐξουσία'"/>
+         <xsl:map-entry key="'ἐξουσιάσαι'" select="'ἐξουσιάζω'"/>
+         <xsl:map-entry key="'ἐξουσιάσαντες'" select="'ἐξουσιάζω'"/>
+         <xsl:map-entry key="'ἐξουσιάσει'" select="'ἐξουσιάζω'"/>
+         <xsl:map-entry key="'ἐξουσίασεν'" select="'ἐξουσιάζω'"/>
          <xsl:map-entry key="'ἕξουσιν'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐξουσιῶν'" select="'ἐξουσία'"/>
          <xsl:map-entry key="'ἐξοχή'" select="'ἐξοχή'"/>
@@ -9871,6 +10632,7 @@
          <xsl:map-entry key="'ἔξυπνος'" select="'ἔξυπνος'"/>
          <xsl:map-entry key="'ἐξυψοῦσι'" select="'ἐξυψόω'"/>
          <xsl:map-entry key="'ἐξυψόω'" select="'ἐξυψόω'"/>
+         <xsl:map-entry key="'ἕξω'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἔξωθεν'" select="'ἔξωθεν'"/>
          <xsl:map-entry key="'ἔξωθέν'" select="'ἔξωθεν'"/>
          <xsl:map-entry key="'ἐξωθέω'" select="'ἐξωθέω'"/>
@@ -9905,14 +10667,17 @@
          <xsl:map-entry key="'ἑορτῆς'" select="'ἑορτή'"/>
          <xsl:map-entry key="'ἑός'" select="'ἑός'"/>
          <xsl:map-entry key="'ἐπ'" select="'ἐπί'"/>
+         <xsl:map-entry key="'ἐπαγγειλάμενος'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'ἐπαγγελία'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'ἐπαγγελίαις'" select="'ἐπαγγελία'"/>
+         <xsl:map-entry key="'ἐπαγγελίαν'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'επαγγελιας'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'ἐπαγγελίας'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'ἐπαγγελιῶν'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'ἐπαγγέλλεται'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'ἐπαγγελλίας'" select="'ἐπαγγελία'"/>
          <xsl:map-entry key="'ἐπαγγέλλομαι'" select="'ἐπαγγέλλω'"/>
+         <xsl:map-entry key="'ἐπαγγελλόμενοι'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'ἐπαγγελλόμενος'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'ἐπαγγελλομένους'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'ἐπαγγελλομένῳ'" select="'ἐπαγγέλλω'"/>
@@ -9938,6 +10703,7 @@
          <xsl:map-entry key="'ἐπᾳδόντων'" select="'ἐπαείδω'"/>
          <xsl:map-entry key="'ἐπᾴδουσιν'" select="'ἐπαείδω'"/>
          <xsl:map-entry key="'ἐπαείδω'" select="'ἐπαείδω'"/>
+         <xsl:map-entry key="'ἐπαιδεύοντο'" select="'παιδεύω'"/>
          <xsl:map-entry key="'ἐπαίδευσάν'" select="'παιδεύω'"/>
          <xsl:map-entry key="'ἐπαίδευσας'" select="'παιδεύω'"/>
          <xsl:map-entry key="'ἐπαίδευσεν'" select="'παιδεύω'"/>
@@ -9952,14 +10718,17 @@
          <xsl:map-entry key="'ἐπαινέσομεν'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'ἐπαινέσω'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'Ἐπαινέσω'" select="'ἐπαινέω'"/>
+         <xsl:map-entry key="'ἐπαινετά'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'Ἐπαινετὴ'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'ἐπαινετὴ'" select="'ἐπαινετός'"/>
+         <xsl:map-entry key="'ἐπαινετὴν'" select="'ἐπαινετός'"/>
+         <xsl:map-entry key="'ἐπαινετοῖς'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'ἐπαινετὸν'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'Ἐπαινετὸς'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'ἐπαινετός'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'ἐπαινετὸς'" select="'ἐπαινετός'"/>
          <xsl:map-entry key="'ἐπαινετοὺς'" select="'ἐπαινετός'"/>
-         <xsl:map-entry key="'ἐπαινετῶς'" select="'ἐπαινετός'"/>
+         <xsl:map-entry key="'ἐπαινετῶς'" select="'ἐπαινετῶς'"/>
          <xsl:map-entry key="'ἐπαινέω'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'ἐπαινηθήσεται'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'ἐπαίνοις'" select="'ἔπαινος'"/>
@@ -9968,6 +10737,7 @@
          <xsl:map-entry key="'ἔπαινός'" select="'ἔπαινος'"/>
          <xsl:map-entry key="'ἐπαίνου'" select="'ἔπαινος'"/>
          <xsl:map-entry key="'ἐπαινούμενος'" select="'ἐπαινέω'"/>
+         <xsl:map-entry key="'ἐπαινουμένων'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'ἐπαίνους'" select="'ἔπαινος'"/>
          <xsl:map-entry key="'ἐπαίνῳ'" select="'ἔπαινος'"/>
          <xsl:map-entry key="'ἐπαίνων'" select="'ἔπαινος'"/>
@@ -9975,6 +10745,7 @@
          <xsl:map-entry key="'ἐπαίρειν'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'Ἐπαίρειν'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπαίρεις'" select="'ἐπαίρω'"/>
+         <xsl:map-entry key="'ἐπαίρεσθαι'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπαιρέσθω'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπαίρῃ'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπαίρηται'" select="'ἐπαίρω'"/>
@@ -9999,6 +10770,7 @@
          <xsl:map-entry key="'επακολουθουντα'" select="'ἐπακολουθέω'"/>
          <xsl:map-entry key="'επακολουθουντων'" select="'ἐπακολουθέω'"/>
          <xsl:map-entry key="'ἐπακολουθοῦσαν'" select="'ἐπακολουθέω'"/>
+         <xsl:map-entry key="'ἐπακολουθῶν'" select="'ἐπακολουθέω'"/>
          <xsl:map-entry key="'ἐπακούει'" select="'ἐπακούω'"/>
          <xsl:map-entry key="'ἐπακούσῃ'" select="'ἐπακούω'"/>
          <xsl:map-entry key="'ἐπάκουσόν'" select="'ἐπακούω'"/>
@@ -10010,6 +10782,8 @@
          <xsl:map-entry key="'Ἐπὰν'" select="'ἐπάν'"/>
          <xsl:map-entry key="'ἐπάν'" select="'ἐπάν'"/>
          <xsl:map-entry key="'Ἐπάν'" select="'ἐπάν'"/>
+         <xsl:map-entry key="'ἐπαναβαίνει'" select="'ἐπαναβαίνω'"/>
+         <xsl:map-entry key="'ἐπαναβαίνω'" select="'ἐπαναβαίνω'"/>
          <xsl:map-entry key="'ἐπαναγάγη'" select="'ἐπανάγω'"/>
          <xsl:map-entry key="'ἐπαναγάγῃ'" select="'ἐπανάγω'"/>
          <xsl:map-entry key="'επαναγειν'" select="'ἐπανάγω'"/>
@@ -10037,7 +10811,7 @@
          <xsl:map-entry key="'επανερχεται'" select="'ἐπανέρχομαι'"/>
          <xsl:map-entry key="'ἐπανέρχομαι'" select="'ἐπανέρχομαι'"/>
          <xsl:map-entry key="'ἐπανήγαγον'" select="'ἐπανάγω'"/>
-         <xsl:map-entry key="'ἐπάνηκε'" select="'ἐπανίημι'"/>
+         <xsl:map-entry key="'ἐπάνηκε'" select="'ἐπανήκω'"/>
          <xsl:map-entry key="'ἐπανήκω'" select="'ἐπανήκω'"/>
          <xsl:map-entry key="'ἐπανήξει'" select="'ἐπανήκω'"/>
          <xsl:map-entry key="'ἐπανθέω'" select="'ἐπανθέω'"/>
@@ -10057,7 +10831,7 @@
          <xsl:map-entry key="'ἐπαποδύῃ'" select="'ἐπαποδύομαι'"/>
          <xsl:map-entry key="'ἐπαποδύομαι'" select="'ἐπαποδύομαι'"/>
          <xsl:map-entry key="'ἐπαπορητικός'" select="'ἐπαπορητικός'"/>
-         <xsl:map-entry key="'Ἐπαπορητικῶς'" select="'ἐπαπορητικός'"/>
+         <xsl:map-entry key="'Ἐπαπορητικῶς'" select="'ἐπαπορητικῶς'"/>
          <xsl:map-entry key="'ἐπάρατον'" select="'ἐπάρατος'"/>
          <xsl:map-entry key="'ἐπάρατος'" select="'ἐπάρατος'"/>
          <xsl:map-entry key="'ἐπαρθέντι'" select="'ἐπαίρω'"/>
@@ -10067,6 +10841,7 @@
          <xsl:map-entry key="'Ἐπάρκει'" select="'ἐπαρκέω'"/>
          <xsl:map-entry key="'ἐπαρκέσαντος'" select="'ἐπαρκέω'"/>
          <xsl:map-entry key="'ἐπαρκέω'" select="'ἐπαρκέω'"/>
+         <xsl:map-entry key="'Ἔπαρον'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπάρσει'" select="'ἔπαρσις'"/>
          <xsl:map-entry key="'ἔπαρσιν'" select="'ἔπαρσις'"/>
          <xsl:map-entry key="'ἔπαρσις'" select="'ἔπαρσις'"/>
@@ -10076,9 +10851,11 @@
          <xsl:map-entry key="'ἐπαύλεις'" select="'ἐπαυλέω'"/>
          <xsl:map-entry key="'ἐπαυλέω'" select="'ἐπαυλέω'"/>
          <xsl:map-entry key="'ἔπαυλις'" select="'ἔπαυλις'"/>
+         <xsl:map-entry key="'ἐπαυσάμεθα'" select="'παύω'"/>
          <xsl:map-entry key="'ἐπαύσατο'" select="'παύω'"/>
          <xsl:map-entry key="'ἐπαφῇ'" select="'ἐπαφή'"/>
          <xsl:map-entry key="'ἐπαφή'" select="'ἐπαφή'"/>
+         <xsl:map-entry key="'ἐπαφῆς'" select="'ἐπαφή'"/>
          <xsl:map-entry key="'ἐπαχθεῖς'" select="'ἐπαχθής'"/>
          <xsl:map-entry key="'ἐπαχθείσας'" select="'ἐπάγω'"/>
          <xsl:map-entry key="'ἐπαχθεστάτη'" select="'ἐπαχθής'"/>
@@ -10091,12 +10868,14 @@
          <xsl:map-entry key="'ἐπεγείρει'" select="'ἐπεγείρω'"/>
          <xsl:map-entry key="'ἐπεγείρω'" select="'ἐπεγείρω'"/>
          <xsl:map-entry key="'ἐπέγνω'" select="'ἐπιγιγνώσκω'"/>
+         <xsl:map-entry key="'ἐπεγνωκότος'" select="'ἐπιγιγνώσκω'"/>
          <xsl:map-entry key="'ἐπεδείκνυε'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπεδήμησεν'" select="'ἐπιδημέω'"/>
          <xsl:map-entry key="'ἐπέδραμε'" select="'ἐπιτρέχω'"/>
          <xsl:map-entry key="'ἐπέδρευσον'" select="'ἐφεδρεύω'"/>
          <xsl:map-entry key="'ἐπεζήτει'" select="'ἐπιζητέω'"/>
          <xsl:map-entry key="'ἐπεθύμησαν'" select="'ἐπιθυμέω'"/>
+         <xsl:map-entry key="'ἐπεθυμοῦμεν'" select="'ἐπιθυμέω'"/>
          <xsl:map-entry key="'ἐπεί'" select="'ἐπεί'"/>
          <xsl:map-entry key="'ἐπεὶ'" select="'ἐπεί'"/>
          <xsl:map-entry key="'ἐπείγεται'" select="'ἐπείγω'"/>
@@ -10108,16 +10887,13 @@
          <xsl:map-entry key="'ἐπειδὰν'" select="'ἐπειδάν'"/>
          <xsl:map-entry key="'ἐπειδάν'" select="'ἐπειδάν'"/>
          <xsl:map-entry key="'ἐπεῖδεν'" select="'ἐπεῖδον'"/>
-         <xsl:map-entry key="'Ἐπειδή'" select="'ἐπεί'"/>
-         <xsl:map-entry key="'ἐπειδὴ'" select="'ἐπεί'"/>
-         <xsl:map-entry key="'Ἐπειδὴ'" select="'ἐπεί'"/>
          <xsl:map-entry key="'ἔπειμι'" select="'ἔπειμι'"/>
-         <xsl:map-entry key="'επειπερ'" select="'ἐπεί'"/>
          <xsl:map-entry key="'ἐπείρασα'" select="'πειράω'"/>
          <xsl:map-entry key="'ἐπείρασαν'" select="'πειράω'"/>
          <xsl:map-entry key="'ἐπεισάγουσιν'" select="'ἐπεισάγω'"/>
          <xsl:map-entry key="'ἐπεισάγω'" select="'ἐπεισάγω'"/>
          <xsl:map-entry key="'ἐπεισάγων'" select="'ἐπεισάγω'"/>
+         <xsl:map-entry key="'ἐπεισάξουσιν'" select="'ἐπεισάγω'"/>
          <xsl:map-entry key="'ἐπεισελθόντες'" select="'ἐπεισέρχομαι'"/>
          <xsl:map-entry key="'ἐπεισέρχομαι'" select="'ἐπεισέρχομαι'"/>
          <xsl:map-entry key="'Ἔπειτα'" select="'ἔπειτα'"/>
@@ -10127,6 +10903,8 @@
          <xsl:map-entry key="'ἐπεκαλοῦντο'" select="'ἐπικαλέω'"/>
          <xsl:map-entry key="'ἐπεκαλύφθησαν'" select="'ἐπικαλύπτω'"/>
          <xsl:map-entry key="'ἐπέκεινα'" select="'ἐπέκεινα'"/>
+         <xsl:map-entry key="'ἐπεκράτησε'" select="'ἐπικρατέω'"/>
+         <xsl:map-entry key="'ἐπεκράτησεν'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'επεκτεινομενη'" select="'ἐπεκτείνω'"/>
          <xsl:map-entry key="'ἐπεκτεινόμενος'" select="'ἐπεκτείνω'"/>
          <xsl:map-entry key="'επεκτεινονται'" select="'ἐπεκτείνω'"/>
@@ -10159,6 +10937,7 @@
          <xsl:map-entry key="'ἐπέπεσάν'" select="'ἐπιπίπτω'"/>
          <xsl:map-entry key="'ἐπέπεσε'" select="'ἐπιπίπτω'"/>
          <xsl:map-entry key="'ἐπέπεσόν'" select="'ἐπιπίπτω'"/>
+         <xsl:map-entry key="'ἐπέπληξεν'" select="'ἐπιπλήσσω'"/>
          <xsl:map-entry key="'ἐπεράσαμεν'" select="'περάω'"/>
          <xsl:map-entry key="'ἐπεργάζομαι'" select="'ἐπεργάζομαι'"/>
          <xsl:map-entry key="'ἐπεργάσῃ'" select="'ἐπεργάζομαι'"/>
@@ -10171,6 +10950,7 @@
          <xsl:map-entry key="'ἐπερείδω'" select="'ἐπερείδω'"/>
          <xsl:map-entry key="'ἐπερεύγομαι'" select="'ἐπερεύγομαι'"/>
          <xsl:map-entry key="'ἐπερευγομένου'" select="'ἐπερεύγομαι'"/>
+         <xsl:map-entry key="'ἐπερίσσευσεν'" select="'περισσεύω'"/>
          <xsl:map-entry key="'ἐπέρχεται'" select="'ἐπέρχομαι'"/>
          <xsl:map-entry key="'ἐπέρχομαι'" select="'ἐπέρχομαι'"/>
          <xsl:map-entry key="'ἐπερχομένας'" select="'ἐπέρχομαι'"/>
@@ -10189,6 +10969,7 @@
          <xsl:map-entry key="'επεστηρικτο'" select="'ἐπιστηρίζω'"/>
          <xsl:map-entry key="'ἐπεστηρίχθη'" select="'ἐπιστηρίζω'"/>
          <xsl:map-entry key="'ἐπέστησαν'" select="'ἐφίστημι'"/>
+         <xsl:map-entry key="'ἐπέστρεψα'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπέσχε'" select="'ἐπώχατο'"/>
          <xsl:map-entry key="'ἕπεται'" select="'ἕπομαι'"/>
          <xsl:map-entry key="'ἐπετάσθη'" select="'πετάννυμι'"/>
@@ -10206,12 +10987,15 @@
          <xsl:map-entry key="'ἐπήβολός'" select="'ἐπήβολος'"/>
          <xsl:map-entry key="'ἐπήβολος'" select="'ἐπήβολος'"/>
          <xsl:map-entry key="'ἐπήγαγε'" select="'ἐπάγω'"/>
+         <xsl:map-entry key="'ἐπήγαγεν'" select="'ἐπάγω'"/>
          <xsl:map-entry key="'ἐπηγγείλω'" select="'ἐπαγγέλλω'"/>
          <xsl:map-entry key="'επηγγελκεν'" select="'ἐπαγγέλλω'"/>
+         <xsl:map-entry key="'ἐπήγετο'" select="'ἐπάγω'"/>
          <xsl:map-entry key="'ἐπηκολουθηκέναι'" select="'ἐπακολουθέω'"/>
          <xsl:map-entry key="'ἐπήκουσέν'" select="'ἐπακούω'"/>
          <xsl:map-entry key="'ἐπήκουσεν'" select="'ἐπακούω'"/>
          <xsl:map-entry key="'ἐπῆλθε'" select="'ἐπέρχομαι'"/>
+         <xsl:map-entry key="'ἐπῄνεσα'" select="'ἐπαινέω'"/>
          <xsl:map-entry key="'ἐπῆραν'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπηρεάζειν'" select="'ἐπηρεάζω'"/>
          <xsl:map-entry key="'ἐπηρεάζοντας'" select="'ἐπηρεάζω'"/>
@@ -10222,6 +11006,7 @@
          <xsl:map-entry key="'ἐπηρμέναι'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπηρμένου'" select="'ἐπαίρω'"/>
          <xsl:map-entry key="'ἐπηρώτησαν'" select="'ἐπερωτάω'"/>
+         <xsl:map-entry key="'ἐπηρώτησας'" select="'ἐπερωτάω'"/>
          <xsl:map-entry key="'ἐπιβαίνει'" select="'ἐπιβαίνω'"/>
          <xsl:map-entry key="'ἐπιβαίνω'" select="'ἐπιβαίνω'"/>
          <xsl:map-entry key="'ἐπιβαίνων'" select="'ἐπιβαίνω'"/>
@@ -10262,25 +11047,32 @@
          <xsl:map-entry key="'ἐπιβλέπων'" select="'ἐπιβλέπω'"/>
          <xsl:map-entry key="'ἐπιβλέπωσιν'" select="'ἐπιβλέπω'"/>
          <xsl:map-entry key="'ἐπίβλεψον'" select="'ἐπιβλέπω'"/>
+         <xsl:map-entry key="'ἐπιβολὰς'" select="'ἐπιβολή'"/>
          <xsl:map-entry key="'ἐπιβολή'" select="'ἐπιβολή'"/>
          <xsl:map-entry key="'ἐπιβολὴν'" select="'ἐπιβολή'"/>
+         <xsl:map-entry key="'ἐπιβολῆς'" select="'ἐπιβολή'"/>
          <xsl:map-entry key="'ἐπίβολός'" select="'ἐπίβολος'"/>
          <xsl:map-entry key="'ἐπίβολος'" select="'ἐπίβολος'"/>
          <xsl:map-entry key="'ἐπιβουλὰς'" select="'ἐπιβουλή'"/>
+         <xsl:map-entry key="'ἐπιβουλεύειν'" select="'ἐπιβουλεύω'"/>
          <xsl:map-entry key="'ἐπιβουλεύοντας'" select="'ἐπιβουλεύω'"/>
          <xsl:map-entry key="'ἐπιβουλεύουσι'" select="'ἐπιβουλεύω'"/>
+         <xsl:map-entry key="'ἐπιβουλεύουσιν'" select="'ἐπιβουλεύω'"/>
          <xsl:map-entry key="'ἐπιβουλεύω'" select="'ἐπιβουλεύω'"/>
          <xsl:map-entry key="'ἐπιβουλή'" select="'ἐπιβουλή'"/>
          <xsl:map-entry key="'ἐπιβουλὴν'" select="'ἐπιβουλή'"/>
          <xsl:map-entry key="'ἐπίγεια'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπίγειοι'" select="'ἐπίγειος'"/>
+         <xsl:map-entry key="'ἐπίγειον'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπίγειος'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπιγείου'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπιγείους'" select="'ἐπίγειος'"/>
+         <xsl:map-entry key="'ἐπιγείῳ'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπιγείων'" select="'ἐπίγειος'"/>
          <xsl:map-entry key="'ἐπιγίγνομαι'" select="'ἐπιγίγνομαι'"/>
          <xsl:map-entry key="'επιγιγνωσκουσιν'" select="'ἐπιγιγνώσκω'"/>
          <xsl:map-entry key="'ἐπιγιγνώσκω'" select="'ἐπιγιγνώσκω'"/>
+         <xsl:map-entry key="'ἐπιγίνεσθαι'" select="'ἐπιγίγνομαι'"/>
          <xsl:map-entry key="'ἐπιγίνεται'" select="'ἐπιγίγνομαι'"/>
          <xsl:map-entry key="'ἐπιγινομένη'" select="'ἐπιγίγνομαι'"/>
          <xsl:map-entry key="'ἐπιγινώσκει'" select="'ἐπιγιγνώσκω'"/>
@@ -10308,14 +11100,18 @@
          <xsl:map-entry key="'ἐπιγνῶσιν'" select="'ἐπιγιγνώσκω'"/>
          <xsl:map-entry key="'ἐπίγνωσις'" select="'ἐπίγνωσις'"/>
          <xsl:map-entry key="'ἐπιγνωσόμεθα'" select="'ἐπιγιγνώσκω'"/>
+         <xsl:map-entry key="'ἐπιγράφειν'" select="'ἐπιγράφω'"/>
          <xsl:map-entry key="'ἐπιγράφω'" select="'ἐπιγράφω'"/>
          <xsl:map-entry key="'ἐπιγράφων'" select="'ἐπιγράφω'"/>
+         <xsl:map-entry key="'ἐπιγράψαι'" select="'ἐπιγράφω'"/>
          <xsl:map-entry key="'ἐπιδεδήμηκε'" select="'ἐπιδημέω'"/>
+         <xsl:map-entry key="'ἐπιδεδώκασι'" select="'ἐπιδίδωμι'"/>
          <xsl:map-entry key="'ἐπιδεδωκὼς'" select="'ἐπιδίδωμι'"/>
          <xsl:map-entry key="'ἐπιδεικνύμενον'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπιδείκνυμι'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπιδείκνυσι'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπιδείκνυται'" select="'ἐπιδείκνυμι'"/>
+         <xsl:map-entry key="'ἐπιδεῖξαι'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπιδείξας'" select="'ἐπιδείκνυμι'"/>
          <xsl:map-entry key="'ἐπίδειξιν'" select="'ἐπίδειξις'"/>
          <xsl:map-entry key="'ἐπίδειξις'" select="'ἐπίδειξις'"/>
@@ -10346,7 +11142,7 @@
          <xsl:map-entry key="'ἐπιεικείας'" select="'ἐπιείκεια'"/>
          <xsl:map-entry key="'ἐπιεικὲς'" select="'ἐπιεικής'"/>
          <xsl:map-entry key="'ἐπιεικής'" select="'ἐπιεικής'"/>
-         <xsl:map-entry key="'ἐπιεικῶς'" select="'ἐπιεικής'"/>
+         <xsl:map-entry key="'ἐπιεικῶς'" select="'ἐπιεικῶς'"/>
          <xsl:map-entry key="'ἔπιεν'" select="'πίνω'"/>
          <xsl:map-entry key="'ἐπιζευγμέναι'" select="'ἐπιζεύγνυμι'"/>
          <xsl:map-entry key="'ἐπιζεύγνυμι'" select="'ἐπιζεύγνυμι'"/>
@@ -10365,6 +11161,7 @@
          <xsl:map-entry key="'επιζητουσιν'" select="'ἐπιζητέω'"/>
          <xsl:map-entry key="'ἐπιζητοῦσιν'" select="'ἐπιζητέω'"/>
          <xsl:map-entry key="'ἐπιζητῶν'" select="'ἐπιζητέω'"/>
+         <xsl:map-entry key="'ἐπιθεῖναι'" select="'ἐπιτίθημι'"/>
          <xsl:map-entry key="'ἐπιθέω'" select="'ἐπιθέω ἐπιτίθημι'"/>
          <xsl:map-entry key="'ἐπιθήσῃς'" select="'ἐπιθέω'"/>
          <xsl:map-entry key="'ἐπιθολοῦσι'" select="'ἐπιθολόω'"/>
@@ -10448,13 +11245,21 @@
          <xsl:map-entry key="'ἐπικλίνται'" select="'ἐπικλίντης'"/>
          <xsl:map-entry key="'ἐπικλίντης'" select="'ἐπικλίντης'"/>
          <xsl:map-entry key="'επικοινως'" select="'ἐπικοίνως'"/>
-         <xsl:map-entry key="'ἐπικοίνως'" select="'ἐπίκοινος'"/>
+         <xsl:map-entry key="'ἐπικοίνως'" select="'ἐπικοίνως'"/>
+         <xsl:map-entry key="'ἐπικοσμεῖ'" select="'ἐπικοσμέω'"/>
+         <xsl:map-entry key="'ἐπικοσμέω'" select="'ἐπικοσμέω'"/>
+         <xsl:map-entry key="'ἐπικοσμηθῆναι'" select="'ἐπικοσμέω'"/>
+         <xsl:map-entry key="'ἐπικραταιούμενον'" select="'ἐπικραταιόω'"/>
+         <xsl:map-entry key="'ἐπικραταιόω'" select="'ἐπικραταιόω'"/>
+         <xsl:map-entry key="'ἐπικραταιωθῇ'" select="'ἐπικραταιόω'"/>
          <xsl:map-entry key="'ἐπικρατεῖ'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικράτεια'" select="'ἐπικράτεια'"/>
+         <xsl:map-entry key="'ἐπικράτειάν'" select="'ἐπικράτεια'"/>
          <xsl:map-entry key="'ἐπικρατείας'" select="'ἐπικράτεια'"/>
          <xsl:map-entry key="'ἐπικρατεῖν'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικρατέω'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικρατήσαντος'" select="'ἐπικρατέω'"/>
+         <xsl:map-entry key="'ἐπικράτησον'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικρατοῦσαν'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικρατούσης'" select="'ἐπικρατέω'"/>
          <xsl:map-entry key="'ἐπικρύπτω'" select="'ἐπικρύπτω'"/>
@@ -10496,25 +11301,32 @@
          <xsl:map-entry key="'ἐπιμέλειαν'" select="'ἐπιμέλεια'"/>
          <xsl:map-entry key="'ἐπιμελείας'" select="'ἐπιμέλεια'"/>
          <xsl:map-entry key="'Ἐπιμελείας'" select="'ἐπιμέλεια'"/>
+         <xsl:map-entry key="'ἐπιμελεῖσθαι'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελέομαι'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελὲς'" select="'ἐπιμελής'"/>
+         <xsl:map-entry key="'ἐπιμέλεσθαι'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελῇ'" select="'ἐπιμελέομαι'"/>
+         <xsl:map-entry key="'ἐπιμεληθέντες'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελής'" select="'ἐπιμελής'"/>
          <xsl:map-entry key="'ἐπιμέλησαι'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελήσεται'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελούμενος'" select="'ἐπιμελέομαι'"/>
          <xsl:map-entry key="'ἐπιμελοῦς'" select="'ἐπιμελής'"/>
-         <xsl:map-entry key="'ἐπιμελῶς'" select="'ἐπιμελής'"/>
+         <xsl:map-entry key="'ἐπιμελῶς'" select="'ἐπιμελῶς'"/>
          <xsl:map-entry key="'ἐπιμένειν'" select="'ἐπιμένω'"/>
+         <xsl:map-entry key="'ἐπιμένοντας'" select="'ἐπιμένω'"/>
          <xsl:map-entry key="'ἐπιμένω'" select="'ἐπιμένω'"/>
          <xsl:map-entry key="'ἐπιμίγνυμι'" select="'ἐπιμίγνυμι'"/>
          <xsl:map-entry key="'επιμιγνυνται'" select="'ἐπιμίγνυμι'"/>
          <xsl:map-entry key="'επιμικτον'" select="'ἐπίμεικτος'"/>
          <xsl:map-entry key="'επιμιξιας'" select="'ἐπίμειξις'"/>
          <xsl:map-entry key="'ἐπίμονος'" select="'ἐπίμονος'"/>
-         <xsl:map-entry key="'ἐπιμόνως'" select="'ἐπίμονος'"/>
+         <xsl:map-entry key="'ἐπιμόνως'" select="'ἐπιμόνως'"/>
+         <xsl:map-entry key="'ἐπινενόηται'" select="'ἐπινοέω'"/>
          <xsl:map-entry key="'ἐπινοεῖ'" select="'ἐπινοέω'"/>
+         <xsl:map-entry key="'ἐπινοεῖται'" select="'ἐπινοέω'"/>
          <xsl:map-entry key="'ἐπινοέω'" select="'ἐπινοέω'"/>
+         <xsl:map-entry key="'ἐπινοηθῆναι'" select="'ἐπινοέω'"/>
          <xsl:map-entry key="'ἐπίνοια'" select="'ἐπίνοια'"/>
          <xsl:map-entry key="'ἐπίνοιαι'" select="'ἐπίνοια'"/>
          <xsl:map-entry key="'ἐπίνοιαν'" select="'ἐπίνοια'"/>
@@ -10525,6 +11337,7 @@
          <xsl:map-entry key="'ἐπινυστάζω'" select="'ἐπινυστάζω'"/>
          <xsl:map-entry key="'ἐπινυστάξαι'" select="'ἐπινυστάζω'"/>
          <xsl:map-entry key="'ἐπινυστάξῃ'" select="'ἐπινυστάζω'"/>
+         <xsl:map-entry key="'ἐπινυστάξῃς'" select="'ἐπινυστάζω'"/>
          <xsl:map-entry key="'ἐπιοικοδομεῖ'" select="'ἐποικοδομέω'"/>
          <xsl:map-entry key="'ἐπιόντα'" select="'ἔπειμι'"/>
          <xsl:map-entry key="'ἐπιορκία'" select="'ἐπιορκία'"/>
@@ -10542,7 +11355,9 @@
          <xsl:map-entry key="'ἐπιπεσοῦνται'" select="'ἐπιπίπτω'"/>
          <xsl:map-entry key="'ἐπιπηδᾶν'" select="'ἐπιπηδάω'"/>
          <xsl:map-entry key="'ἐπιπηδάω'" select="'ἐπιπηδάω'"/>
+         <xsl:map-entry key="'ἐπιπηδῶσιν'" select="'ἐπιπηδάω'"/>
          <xsl:map-entry key="'ἐπιπίπτω'" select="'ἐπιπίπτω'"/>
+         <xsl:map-entry key="'ἐπιπλεῖον'" select="'ἐπιπλέω'"/>
          <xsl:map-entry key="'ἐπιπλέον'" select="'ἐπιπλέω'"/>
          <xsl:map-entry key="'ἐπιπλέω'" select="'ἐπιπλέω'"/>
          <xsl:map-entry key="'ἐπιπληξία'" select="'ἐπιπληξία'"/>
@@ -10560,6 +11375,8 @@
          <xsl:map-entry key="'ἐπίπονον'" select="'ἐπίπονος'"/>
          <xsl:map-entry key="'ἐπίπονος'" select="'ἐπίπονος'"/>
          <xsl:map-entry key="'ἐπιπονώτερα'" select="'ἐπίπονος'"/>
+         <xsl:map-entry key="'ἐπιπροσθεῖ'" select="'ἐπιπροσθέω'"/>
+         <xsl:map-entry key="'ἐπιπροσθέω'" select="'ἐπιπροσθέω'"/>
          <xsl:map-entry key="'επιρρεουσας'" select="'ἐπιρρέω'"/>
          <xsl:map-entry key="'ἐπιρρεούσας'" select="'ἐπιρρέω'"/>
          <xsl:map-entry key="'ἐπιρρέω'" select="'ἐπιρρέω'"/>
@@ -10582,6 +11399,7 @@
          <xsl:map-entry key="'ἐπισκεπτόμενος'" select="'ἐπισκέπτομαι'"/>
          <xsl:map-entry key="'ἐπισκεπτομένους'" select="'ἐπισκέπτομαι'"/>
          <xsl:map-entry key="'ἐπισκέψαι'" select="'ἐπισκέπτομαι'"/>
+         <xsl:map-entry key="'ἐπισκέψασθαι'" select="'ἐπισκέπτομαι'"/>
          <xsl:map-entry key="'ἐπισκέψεις'" select="'ἐπίσκεψις'"/>
          <xsl:map-entry key="'ἐπίσκεψιν'" select="'ἐπίσκεψις'"/>
          <xsl:map-entry key="'ἐπίσκεψις'" select="'ἐπίσκεψις'"/>
@@ -10607,6 +11425,7 @@
          <xsl:map-entry key="'επισπορεα'" select="'ἐπισπορεύς'"/>
          <xsl:map-entry key="'ἐπισπορέα'" select="'ἐπισπορεύς'"/>
          <xsl:map-entry key="'ἐπισπορεύς'" select="'ἐπισπορεύς'"/>
+         <xsl:map-entry key="'ἐπισπωμένη'" select="'ἐπισπάω'"/>
          <xsl:map-entry key="'ἐπισπώμενοι'" select="'ἐπισπάω'"/>
          <xsl:map-entry key="'ἐπισπώμενος'" select="'ἐπισπάω'"/>
          <xsl:map-entry key="'ἐπισπῶνται'" select="'ἐπισπάω'"/>
@@ -10631,9 +11450,12 @@
          <xsl:map-entry key="'ἐπίσταται'" select="'ἐπίσταμαι'"/>
          <xsl:map-entry key="'επιστατησουσι'" select="'ἐφίστημι'"/>
          <xsl:map-entry key="'επιστευθη'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'ἐπιστεύθησαν'" select="'πιστεύω'"/>
          <xsl:map-entry key="'ἐπίστευσα'" select="'πιστεύω'"/>
          <xsl:map-entry key="'ἐπίστευσαν'" select="'πιστεύω'"/>
          <xsl:map-entry key="'ἐπιστῇ'" select="'ἐφίστημι'"/>
+         <xsl:map-entry key="'ἐπιστήκει'" select="'ἐπιστήκω'"/>
+         <xsl:map-entry key="'ἐπιστήκω'" select="'ἐπιστήκω'"/>
          <xsl:map-entry key="'ἐπιστήμη'" select="'ἐπιστήμη'"/>
          <xsl:map-entry key="'ἐπιστήμῃ'" select="'ἐπιστήμη'"/>
          <xsl:map-entry key="'επιστημην'" select="'ἐπιστήμη'"/>
@@ -10663,6 +11485,7 @@
          <xsl:map-entry key="'ἐπιστρέφων'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπιστρέψαι'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπιστρέψας'" select="'ἐπιστρέφω'"/>
+         <xsl:map-entry key="'ἐπιστρέψει'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπιστρέψῃ'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπίστρεψον'" select="'ἐπιστρέφω'"/>
          <xsl:map-entry key="'ἐπιστρέψουσι'" select="'ἐπιστρέφω'"/>
@@ -10700,15 +11523,18 @@
          <xsl:map-entry key="'ἐπιτάγματα'" select="'ἐπίταγμα'"/>
          <xsl:map-entry key="'ἐπιταπεινόω'" select="'ἐπιταπεινόω'"/>
          <xsl:map-entry key="'ἐπιταπεινωθείσης'" select="'ἐπιταπεινόω'"/>
+         <xsl:map-entry key="'ἐπιτάσει'" select="'ἐπίτασις'"/>
          <xsl:map-entry key="'ἐπιτάσεις'" select="'ἐπίτασις'"/>
          <xsl:map-entry key="'ἐπίτασιν'" select="'ἐπίτασις'"/>
          <xsl:map-entry key="'ἐπίτασις'" select="'ἐπίτασις'"/>
          <xsl:map-entry key="'ἐπιτείνω'" select="'ἐπιτείνω'"/>
          <xsl:map-entry key="'ἐπιτελεῖ'" select="'ἐπιτέλλω'"/>
+         <xsl:map-entry key="'ἐπιτελεῖν'" select="'ἐπιτελέω'"/>
          <xsl:map-entry key="'ἐπιτελεῖται'" select="'ἐπιτελέω'"/>
          <xsl:map-entry key="'επιτελεσαι'" select="'ἐπιτελέω'"/>
          <xsl:map-entry key="'ἐπιτελέω'" select="'ἐπιτελέω'"/>
          <xsl:map-entry key="'ἐπιτέλλω'" select="'ἐπιτέλλω'"/>
+         <xsl:map-entry key="'ἐπιτελῶν'" select="'ἐπιτελέω'"/>
          <xsl:map-entry key="'ἐπιτέμνω'" select="'ἐπιτέμνω'"/>
          <xsl:map-entry key="'ἐπιτέμνων'" select="'ἐπιτέμνω'"/>
          <xsl:map-entry key="'ἐπιτεταμένῃ'" select="'ἐπιτείνω'"/>
@@ -10720,12 +11546,19 @@
          <xsl:map-entry key="'ἐπιτήδειον'" select="'ἐπιτήδειος'"/>
          <xsl:map-entry key="'ἐπιτήδειος'" select="'ἐπιτήδειος'"/>
          <xsl:map-entry key="'ἐπιτηδειότερος'" select="'ἐπιτήδειος'"/>
+         <xsl:map-entry key="'ἐπιτηδειότης'" select="'ἐπιτηδειότης'"/>
+         <xsl:map-entry key="'ἐπιτηδειότητα'" select="'ἐπιτηδειότης'"/>
+         <xsl:map-entry key="'ἐπιτηδειότητας'" select="'ἐπιτηδειότης'"/>
+         <xsl:map-entry key="'Ἐπιτηδειότητες'" select="'ἐπιτηδειότης'"/>
+         <xsl:map-entry key="'ἐπιτηδειότητες'" select="'ἐπιτηδειότης'"/>
          <xsl:map-entry key="'ἐπιτηδείων'" select="'ἐπιτήδειος'"/>
+         <xsl:map-entry key="'ἐπιτηδείως'" select="'ἐπιτηδείως'"/>
          <xsl:map-entry key="'ἐπιτήδευμα'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδεύμασι'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδεύμασίν'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδεύμασιν'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδεύματα'" select="'ἐπιτήδευμα'"/>
+         <xsl:map-entry key="'ἐπιτηδεύματι'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδευμάτων'" select="'ἐπιτήδευμα'"/>
          <xsl:map-entry key="'ἐπιτηδεύουσι'" select="'ἐπιτηδεύω'"/>
          <xsl:map-entry key="'ἐπιτηδεύω'" select="'ἐπιτηδεύω'"/>
@@ -10740,6 +11573,8 @@
          <xsl:map-entry key="'ἐπιτιμᾷ'" select="'ἐπιτιμάω'"/>
          <xsl:map-entry key="'επιτιμαν'" select="'ἐπιτιμάω'"/>
          <xsl:map-entry key="'ἐπιτιμάω'" select="'ἐπιτιμάω'"/>
+         <xsl:map-entry key="'ἐπιτίμησιν'" select="'ἐπιτίμησις'"/>
+         <xsl:map-entry key="'ἐπιτίμησις'" select="'ἐπιτίμησις'"/>
          <xsl:map-entry key="'Ἐπιτίμησον'" select="'ἐπιτιμάω'"/>
          <xsl:map-entry key="'ἐπιτίμιον'" select="'ἐπιτίμιον'"/>
          <xsl:map-entry key="'ἐπιτιμῶν'" select="'ἐπιτιμάω'"/>
@@ -10750,6 +11585,9 @@
          <xsl:map-entry key="'ἐπιτομή'" select="'ἐπιτομή'"/>
          <xsl:map-entry key="'ἐπίτομος'" select="'ἐπίτομος'"/>
          <xsl:map-entry key="'ἐπιτόμου'" select="'ἐπίτομος'"/>
+         <xsl:map-entry key="'ἐπιτραπέντες'" select="'ἐπιτρέπω'"/>
+         <xsl:map-entry key="'ἐπιτραπέντι'" select="'ἐπιτρέπω'"/>
+         <xsl:map-entry key="'ἐπιτρέπουσα'" select="'ἐπιτρέπω'"/>
          <xsl:map-entry key="'ἐπιτρέπω'" select="'ἐπιτρέπω'"/>
          <xsl:map-entry key="'ἐπιτρέπων'" select="'ἐπιτρέπω'"/>
          <xsl:map-entry key="'ἐπιτρέχω'" select="'ἐπιτρέχω'"/>
@@ -10762,7 +11600,9 @@
          <xsl:map-entry key="'ἐπιφάνεια'" select="'ἐπιφάνεια'"/>
          <xsl:map-entry key="'επιφανειαι'" select="'ἐπιφάνεια'"/>
          <xsl:map-entry key="'ἐπιφάνειαν'" select="'ἐπιφάνεια'"/>
+         <xsl:map-entry key="'ἐπιφανείας'" select="'ἐπιφάνεια'"/>
          <xsl:map-entry key="'ἐπιφανείς'" select="'ἐπιφαίνω'"/>
+         <xsl:map-entry key="'ἐπιφανείων'" select="'ἐπιφάνεια'"/>
          <xsl:map-entry key="'ἐπιφανέντος'" select="'ἐπιφαίνω'"/>
          <xsl:map-entry key="'Ἐπιφάνιος'" select="'Ἐπιφάνιος'"/>
          <xsl:map-entry key="'Ἐπιφανίου'" select="'Ἐπιφάνιος'"/>
@@ -10770,6 +11610,7 @@
          <xsl:map-entry key="'ἐπιφαύσει'" select="'ἐπιφαύω'"/>
          <xsl:map-entry key="'ἐπιφαύω'" select="'ἐπιφαύω'"/>
          <xsl:map-entry key="'ἐπιφέρει'" select="'ἐπιφέρω'"/>
+         <xsl:map-entry key="'ἐπιφέρειν'" select="'ἐπιφέρω'"/>
          <xsl:map-entry key="'ἐπιφέρεται'" select="'ἐπιφέρω'"/>
          <xsl:map-entry key="'ἐπιφερόμενος'" select="'ἐπιφέρω'"/>
          <xsl:map-entry key="'ἐπιφερομένου'" select="'ἐπιφέρω'"/>
@@ -10835,20 +11676,25 @@
          <xsl:map-entry key="'ἐπλουτίσθητε'" select="'πλουτίζω'"/>
          <xsl:map-entry key="'ἔπνιγε'" select="'πνίγω'"/>
          <xsl:map-entry key="'εποιει'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ἐποίει'" select="'ποιέω'"/>
          <xsl:map-entry key="'Ἐποίησα'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησα'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ἐποίησά'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποιήσαμεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'εποιησαν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησαν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησάν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησας'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποιήσατε'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ἐποιήσατο'" select="'ποιέω'"/>
          <xsl:map-entry key="'εποιησε'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησε'" select="'ποιέω'"/>
+         <xsl:map-entry key="'Ἐποίησε'" select="'ποιέω'"/>
          <xsl:map-entry key="'εποιησεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποίησεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐποικοδομέω'" select="'ἐποικοδομέω'"/>
          <xsl:map-entry key="'ἐποικοδομηθέντες'" select="'ἐποικοδομέω'"/>
+         <xsl:map-entry key="'ἐποίουν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ἐπολέμησάν'" select="'πολεμέω'"/>
          <xsl:map-entry key="'ἐπολέμουν'" select="'πολεμέω'"/>
          <xsl:map-entry key="'ἐπολυώρησας'" select="'πολυωρέω'"/>
@@ -10856,6 +11702,7 @@
          <xsl:map-entry key="'ἕπομαι'" select="'ἕπομαι'"/>
          <xsl:map-entry key="'ἐπομβρέω'" select="'ἐπομβρέω'"/>
          <xsl:map-entry key="'ἐπομβρήσῃ'" select="'ἐπομβρέω'"/>
+         <xsl:map-entry key="'ἑπόμενοι'" select="'ἕπομαι'"/>
          <xsl:map-entry key="'ἑπομένων'" select="'ἕπομαι'"/>
          <xsl:map-entry key="'ἐπονειδίζοντάς'" select="'ἐπονειδίζω'"/>
          <xsl:map-entry key="'ἐπονειδίζοντος'" select="'ἐπονειδίζω'"/>
@@ -10871,6 +11718,7 @@
          <xsl:map-entry key="'ἐποπτεῦσαι'" select="'ἐποπτεύω'"/>
          <xsl:map-entry key="'ἐποπτεύσομεν'" select="'ἐποπτεύω'"/>
          <xsl:map-entry key="'ἐποπτεύω'" select="'ἐποπτεύω'"/>
+         <xsl:map-entry key="'ἐπόπτην'" select="'ἐπόπτης'"/>
          <xsl:map-entry key="'εποπτης'" select="'ἐπόπτης'"/>
          <xsl:map-entry key="'ἐπόπτης'" select="'ἐπόπτης'"/>
          <xsl:map-entry key="'ἐπορεύθη'" select="'πορεύω'"/>
@@ -10888,6 +11736,7 @@
          <xsl:map-entry key="'ἐπουράνιος'" select="'ἐπουράνιος'"/>
          <xsl:map-entry key="'ἐπουρανίου'" select="'ἐπουράνιος'"/>
          <xsl:map-entry key="'ἐπουρανίους'" select="'ἐπουράνιος'"/>
+         <xsl:map-entry key="'ἐπουρανίῳ'" select="'ἐπουράνιος'"/>
          <xsl:map-entry key="'επουρανιωι'" select="'ἐπουράνιος'"/>
          <xsl:map-entry key="'ἐπουρανίων'" select="'ἐπουράνιος'"/>
          <xsl:map-entry key="'ἐπόψει'" select="'ἔποψις'"/>
@@ -10896,9 +11745,11 @@
          <xsl:map-entry key="'ἐπόψομαι'" select="'ἐποράω'"/>
          <xsl:map-entry key="'ἐπράθημεν'" select="'πιπράσκω'"/>
          <xsl:map-entry key="'ἔπραξεν'" select="'πράσσω'"/>
+         <xsl:map-entry key="'ἔπραττον'" select="'πράσσω'"/>
          <xsl:map-entry key="'επτα'" select="'ἑπτά'"/>
          <xsl:map-entry key="'ἑπτά'" select="'ἑπτά'"/>
          <xsl:map-entry key="'ἑπτὰ'" select="'ἑπτά'"/>
+         <xsl:map-entry key="'ἑπταδύναμος'" select="'ἑπταδύναμος'"/>
          <xsl:map-entry key="'ἑπταδυνάμου'" select="'ἑπταδύναμος'"/>
          <xsl:map-entry key="'επταισαν'" select="'πταίω'"/>
          <xsl:map-entry key="'ἑπτακαιδέκατος'" select="'ἑπτακαιδέκατος'"/>
@@ -10906,8 +11757,9 @@
          <xsl:map-entry key="'ἑπτάκις'" select="'ἑπτάκις'"/>
          <xsl:map-entry key="'ἑπταπλάσιον'" select="'ἑπταπλασίων'"/>
          <xsl:map-entry key="'ἑπταπλασίονα'" select="'ἑπταπλασίων'"/>
+         <xsl:map-entry key="'ἑπταπλάσιος'" select="'ἑπταπλάσιος'"/>
          <xsl:map-entry key="'ἑπταπλασίων'" select="'ἑπταπλασίων'"/>
-         <xsl:map-entry key="'ἑπταπλασίως'" select="'ἑπταπλάσιος'"/>
+         <xsl:map-entry key="'ἑπταπλασίως'" select="'ἑπταπλασίως'"/>
          <xsl:map-entry key="'ἐπτόησεν'" select="'πτοέω'"/>
          <xsl:map-entry key="'ἐπτωχεύσαμεν'" select="'πτωχεύω'"/>
          <xsl:map-entry key="'ἐπτώχευσεν'" select="'πτωχεύω'"/>
@@ -10956,9 +11808,11 @@
          <xsl:map-entry key="'εργαζομενος'" select="'ἐργάζω'"/>
          <xsl:map-entry key="'ἐργαζόμενος'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'ἐργαζομένους'" select="'ἐργάζομαι'"/>
+         <xsl:map-entry key="'ἐργαζομένῳ'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'εργαζομενων'" select="'ἐργάζω'"/>
          <xsl:map-entry key="'ἐργαζομένων'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'ἐργάζονται'" select="'ἐργάζομαι'"/>
+         <xsl:map-entry key="'ἐργάζου'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'ἐργάζω'" select="'ἐργάζω'"/>
          <xsl:map-entry key="'Ἔργασαι'" select="'ἐργάζομαι'"/>
          <xsl:map-entry key="'ἐργασάμενος'" select="'ἐργάζομαι'"/>
@@ -10997,6 +11851,7 @@
          <xsl:map-entry key="'ἐρεθίζω'" select="'ἐρεθίζω'"/>
          <xsl:map-entry key="'ἐρεθίσας'" select="'ἐρεθίζω'"/>
          <xsl:map-entry key="'ἐρεθίσῃ'" select="'ἐρεθίζω'"/>
+         <xsl:map-entry key="'ἐρεθίσωσι'" select="'ἐρεθίζω'"/>
          <xsl:map-entry key="'ἐρεῖ'" select="'ἐρῶ'"/>
          <xsl:map-entry key="'Ἐρεῖ'" select="'ἐρῶ'"/>
          <xsl:map-entry key="'ἐρείδω'" select="'ἐρείδω'"/>
@@ -11005,7 +11860,9 @@
          <xsl:map-entry key="'ἐρευγομένη'" select="'ἐρεύγομαι'"/>
          <xsl:map-entry key="'ἐρεύγονται'" select="'ἐρεύγομαι'"/>
          <xsl:map-entry key="'ἐρευνᾷ'" select="'ἐρευνάω'"/>
+         <xsl:map-entry key="'ἔρευνα'" select="'ἔρευνα'"/>
          <xsl:map-entry key="'ἐρευνᾷν'" select="'ἐρευνάω'"/>
+         <xsl:map-entry key="'ἔρευναν'" select="'ἔρευνα'"/>
          <xsl:map-entry key="'ἐρευνάω'" select="'ἐρευνάω'"/>
          <xsl:map-entry key="'ἐρευνήσει'" select="'ἐρευνάω'"/>
          <xsl:map-entry key="'ἐρευνῶν'" select="'ἐρευνάω'"/>
@@ -11018,6 +11875,7 @@
          <xsl:map-entry key="'ἐρημικοῖς'" select="'ἐρημικός'"/>
          <xsl:map-entry key="'ἐρημικός'" select="'ἐρημικός'"/>
          <xsl:map-entry key="'ἐρημικῷ'" select="'ἐρημικός'"/>
+         <xsl:map-entry key="'ἔρημοι'" select="'ἐρῆμος'"/>
          <xsl:map-entry key="'ἐρήμοις'" select="'ἐρῆμος'"/>
          <xsl:map-entry key="'ἔρημον'" select="'ἐρῆμος'"/>
          <xsl:map-entry key="'Ἔρημον'" select="'ἐρῆμος'"/>
@@ -11057,13 +11915,15 @@
          <xsl:map-entry key="'ἑρπετῶν'" select="'ἑρπετόν'"/>
          <xsl:map-entry key="'ἑρπηστικὰ'" select="'ἑρπυστικός'"/>
          <xsl:map-entry key="'ἕρποντα'" select="'ἕρπω'"/>
+         <xsl:map-entry key="'ἑρπόντων'" select="'ἕρπω'"/>
          <xsl:map-entry key="'ἕρπουσιν'" select="'ἕρπω'"/>
          <xsl:map-entry key="'ἑρπυστικός'" select="'ἑρπυστικός'"/>
          <xsl:map-entry key="'ἕρπω'" select="'ἕρπω'"/>
-         <xsl:map-entry key="'Ἐρρέθη'" select="'ἐνερῶ'"/>
-         <xsl:map-entry key="'ἐρρέθη'" select="'ἐνερῶ'"/>
-         <xsl:map-entry key="'ἐῤῥέθησαν'" select="'ἐνερῶ'"/>
-         <xsl:map-entry key="'Ἐρρήθη'" select="'ἐρῶ'"/>
+         <xsl:map-entry key="'Ἐρρέθη'" select="'λέγω'"/>
+         <xsl:map-entry key="'ἐρρέθη'" select="'λέγω'"/>
+         <xsl:map-entry key="'ἐῤῥέθησαν'" select="'λέγω'"/>
+         <xsl:map-entry key="'ἐρρήγνυτο'" select="'ῥήγνυμι'"/>
+         <xsl:map-entry key="'Ἐρρήθη'" select="'λέγω'"/>
          <xsl:map-entry key="'ἔρριπτεν'" select="'ῥίπτω'"/>
          <xsl:map-entry key="'ἔρριψεν'" select="'ῥίπτω'"/>
          <xsl:map-entry key="'ἐρρύσθημεν'" select="'ῥύομαι'"/>
@@ -11098,6 +11958,7 @@
          <xsl:map-entry key="'ἐρωτᾷ'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἐρωτάω'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἐρωτηθεὶς'" select="'ἐρωτάω'"/>
+         <xsl:map-entry key="'ἐρώτημα'" select="'ἐρώτημα'"/>
          <xsl:map-entry key="'ἐρωτήσασι'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἐρώτησιν'" select="'ἐρώτησις'"/>
          <xsl:map-entry key="'ἐρώτησις'" select="'ἐρώτησις'"/>
@@ -11109,12 +11970,14 @@
          <xsl:map-entry key="'ἐρωτῶσι'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἐρωτῶσιν'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἐσαλεύθη'" select="'σαλεύω'"/>
+         <xsl:map-entry key="'ἐσαλεύθησαν'" select="'σαλεύω'"/>
          <xsl:map-entry key="'ἐσάλευσαν'" select="'σαλεύω'"/>
          <xsl:map-entry key="'ἐσάλπιζον'" select="'σαλπίζω'"/>
          <xsl:map-entry key="'ἐσάλπισεν'" select="'σαλπίζω'"/>
          <xsl:map-entry key="'ἐσάπησαν'" select="'σήπω'"/>
          <xsl:map-entry key="'ἐσβέσαμεν'" select="'σβέννυμι'"/>
          <xsl:map-entry key="'ἔσεισε'" select="'σείω'"/>
+         <xsl:map-entry key="'Ἐσεριέ'" select="'Ἐσεριέ'"/>
          <xsl:map-entry key="'ἐσήμαινεν'" select="'σημαίνω'"/>
          <xsl:map-entry key="'ἐσημειώθη'" select="'σημειόω'"/>
          <xsl:map-entry key="'ἐσημειωσάμεθα'" select="'σημειόω'"/>
@@ -11156,10 +12019,12 @@
          <xsl:map-entry key="'ἐσοπτρίζειν'" select="'εἰσοπτρίζω'"/>
          <xsl:map-entry key="'ἐσοπτρίζουσα'" select="'εἰσοπτρίζω'"/>
          <xsl:map-entry key="'ἐσοπτρίζων'" select="'εἰσοπτρίζω'"/>
+         <xsl:map-entry key="'ἐσόπτροις'" select="'ἔσοπτρον'"/>
          <xsl:map-entry key="'Εσοπτρον'" select="'εἴσοπτρον'"/>
          <xsl:map-entry key="'εσοπτρον'" select="'εἴσοπτρον'"/>
          <xsl:map-entry key="'ἔσοπτρον'" select="'ἔσοπτρον'"/>
          <xsl:map-entry key="'Ἔσοπτρον'" select="'ἔσοπτρον'"/>
+         <xsl:map-entry key="'ἔσοπτρόν'" select="'ἔσοπτρον'"/>
          <xsl:map-entry key="'ἐσόπτρῳ'" select="'ἔσοπτρον'"/>
          <xsl:map-entry key="'εσοπτρωι'" select="'εἴσοπτρον'"/>
          <xsl:map-entry key="'ἐσόφισάς'" select="'σοφίζω'"/>
@@ -11212,6 +12077,7 @@
          <xsl:map-entry key="'ἑστιατόρων'" select="'ἑστιάτωρ'"/>
          <xsl:map-entry key="'ἑστιάτωρ'" select="'ἑστιάτωρ'"/>
          <xsl:map-entry key="'ἑστιάω'" select="'ἑστιάω'"/>
+         <xsl:map-entry key="'ἐστοχάσατο'" select="'στοχάζομαι'"/>
          <xsl:map-entry key="'ἐστράφη'" select="'στρέφω'"/>
          <xsl:map-entry key="'ἐστράφησαν'" select="'στρέφω'"/>
          <xsl:map-entry key="'ἔστρεψας'" select="'στρέφω'"/>
@@ -11221,7 +12087,8 @@
          <xsl:map-entry key="'ἑστῶτες'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἑστῶτος'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἐσφαίριζον'" select="'σφαιρίζω'"/>
-         <xsl:map-entry key="'ἐσφαλμένως'" select="'σφάλλω'"/>
+         <xsl:map-entry key="'ἐσφάλησαν'" select="'σφάλλω'"/>
+         <xsl:map-entry key="'ἐσφαλμένως'" select="'ἐσφαλμένως'"/>
          <xsl:map-entry key="'ἔσχατα'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'εσχαταις'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτη'" select="'ἔσχατος'"/>
@@ -11229,15 +12096,18 @@
          <xsl:map-entry key="'εσχατηι'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτην'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτης'" select="'ἔσχατος'"/>
+         <xsl:map-entry key="'ἔσχατοι'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτοις'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'εσχατον'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἔσχατον'" select="'ἔσχατος'"/>
+         <xsl:map-entry key="'ἔσχατόν'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἔσχατος'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτου'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'εσχατωι'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἐσχάτων'" select="'ἔσχατος'"/>
          <xsl:map-entry key="'ἔσχε'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἔσχεν'" select="'ἔχω'"/>
+         <xsl:map-entry key="'ἔσχες'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐσχηκέναι'" select="'ἔχω'"/>
          <xsl:map-entry key="'Ἐσχηματισμένην'" select="'σχηματίζω'"/>
          <xsl:map-entry key="'εσχισμενων'" select="'σχίζω'"/>
@@ -11254,6 +12124,7 @@
          <xsl:map-entry key="'εταιροις'" select="'ἑταῖρος'"/>
          <xsl:map-entry key="'ἑταῖρος'" select="'ἑταῖρος'"/>
          <xsl:map-entry key="'εταιρου'" select="'ἑταῖρος'"/>
+         <xsl:map-entry key="'ἑταίρου'" select="'ἑταῖρος'"/>
          <xsl:map-entry key="'ἑταίρῳ'" select="'ἑταῖρος'"/>
          <xsl:map-entry key="'εταιρων'" select="'ἑταῖρος'"/>
          <xsl:map-entry key="'ἐτάκη'" select="'τήκω'"/>
@@ -11275,6 +12146,7 @@
          <xsl:map-entry key="'ἔτει'" select="'ἔτος'"/>
          <xsl:map-entry key="'ἔτεκε'" select="'τίκτω'"/>
          <xsl:map-entry key="'ἔτεκεν'" select="'τίκτω'"/>
+         <xsl:map-entry key="'ἐτεκνοποίησε'" select="'τεκνοποιέω'"/>
          <xsl:map-entry key="'ετελειωθη'" select="'τελειόω'"/>
          <xsl:map-entry key="'ἐτελέσθησαν'" select="'τελέω'"/>
          <xsl:map-entry key="'ἑτέρα'" select="'ἕτερος'"/>
@@ -11285,6 +12157,10 @@
          <xsl:map-entry key="'ἑτέραν'" select="'ἕτερος'"/>
          <xsl:map-entry key="'ἑτέρας'" select="'ἕτερος'"/>
          <xsl:map-entry key="'ἐτεράχθησαν'" select="'τεράζω'"/>
+         <xsl:map-entry key="'ἑτεροδοξία'" select="'ἑτεροδοξία'"/>
+         <xsl:map-entry key="'ἑτεροδοξίαι'" select="'ἑτεροδοξία'"/>
+         <xsl:map-entry key="'ἑτερόδοξος'" select="'ἑτερόδοξος'"/>
+         <xsl:map-entry key="'ἑτεροδόξων'" select="'ἑτερόδοξος'"/>
          <xsl:map-entry key="'ἕτεροι'" select="'ἕτερος'"/>
          <xsl:map-entry key="'ἑτέροις'" select="'ἕτερος'"/>
          <xsl:map-entry key="'ἕτερον'" select="'ἕτερος'"/>
@@ -11304,6 +12180,8 @@
          <xsl:map-entry key="'ἔτη'" select="'ἔτος'"/>
          <xsl:map-entry key="'ἔτηξεν'" select="'τήκω'"/>
          <xsl:map-entry key="'ἐτίθεις'" select="'τίθημι'"/>
+         <xsl:map-entry key="'ἔτιλαν'" select="'τίλλω'"/>
+         <xsl:map-entry key="'ἔτιλλον'" select="'τίλλω'"/>
          <xsl:map-entry key="'ἐτίμησαν'" select="'τιμάω'"/>
          <xsl:map-entry key="'ἐτίνασσον'" select="'τινάσσω'"/>
          <xsl:map-entry key="'Ἑτοίμαζε'" select="'ἑτοιμάζω'"/>
@@ -11314,12 +12192,13 @@
          <xsl:map-entry key="'ἑτοιμάσαι'" select="'ἑτοιμάζω'"/>
          <xsl:map-entry key="'ἑτοιμάσατε'" select="'ἑτοιμάζω'"/>
          <xsl:map-entry key="'ἑτοιμασθήσεται'" select="'ἑτοιμάζω'"/>
+         <xsl:map-entry key="'ἑτοιμάσωσιν'" select="'ἑτοιμάζω'"/>
          <xsl:map-entry key="'ἑτοίμη'" select="'ἑτοῖμος'"/>
          <xsl:map-entry key="'ἑτοίμην'" select="'ἑτοῖμος'"/>
          <xsl:map-entry key="'ετοιμος'" select="'ἑτοῖμος'"/>
          <xsl:map-entry key="'ἑτοῖμος'" select="'ἑτοῖμος'"/>
          <xsl:map-entry key="'ἕτοιμος'" select="'ἑτοῖμος'"/>
-         <xsl:map-entry key="'ἑτοίμως'" select="'ἑτοῖμος'"/>
+         <xsl:map-entry key="'ἑτοίμως'" select="'ἑτοίμως'"/>
          <xsl:map-entry key="'ἔτος'" select="'ἔτος'"/>
          <xsl:map-entry key="'ἐτράφῃ'" select="'τρέφω'"/>
          <xsl:map-entry key="'ἐτράφη'" select="'τρέφω'"/>
@@ -11329,14 +12208,15 @@
          <xsl:map-entry key="'ἔτρωσε'" select="'τιτρώσκω'"/>
          <xsl:map-entry key="'ἐτύγχανον'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'ἐτύπου'" select="'τυπόω'"/>
+         <xsl:map-entry key="'ἐτυποῦτο'" select="'τυπόω'"/>
          <xsl:map-entry key="'ἐτυρώθη'" select="'τυρόω'"/>
          <xsl:map-entry key="'ἔτυχε'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'ἐτῶν'" select="'ἔτος'"/>
          <xsl:map-entry key="'εὖ'" select="'εὖ'"/>
-         <xsl:map-entry key="'Εὖ'" select="'Εὕα'"/>
-         <xsl:map-entry key="'Ευα'" select="'Εὕα'"/>
-         <xsl:map-entry key="'Εὕα'" select="'Εὕα'"/>
-         <xsl:map-entry key="'Εὔᾳ'" select="'Εὕα'"/>
+         <xsl:map-entry key="'Εὖ'" select="'εὖ'"/>
+         <xsl:map-entry key="'Ευα'" select="'Εὔα'"/>
+         <xsl:map-entry key="'Εὔα'" select="'Εὔα'"/>
+         <xsl:map-entry key="'Εὔᾳ'" select="'Εὔα'"/>
          <xsl:map-entry key="'εὐαγγελίζεται'" select="'εὐαγγελίζομαι'"/>
          <xsl:map-entry key="'εὐαγγελίζομαι'" select="'εὐαγγελίζομαι'"/>
          <xsl:map-entry key="'εὐαγγελιζόμεναι'" select="'εὐαγγελίζομαι'"/>
@@ -11344,6 +12224,7 @@
          <xsl:map-entry key="'εὐαγγελικοῖς'" select="'εὐαγγελικός'"/>
          <xsl:map-entry key="'εὐαγγελικὸν'" select="'εὐαγγελικός'"/>
          <xsl:map-entry key="'εὐαγγελικός'" select="'εὐαγγελικός'"/>
+         <xsl:map-entry key="'εὐαγγελικοῦ'" select="'εὐαγγελικός'"/>
          <xsl:map-entry key="'εὐαγγελικῶν'" select="'εὐαγγελικός'"/>
          <xsl:map-entry key="'εὐαγγελίοις'" select="'εὐαγγέλιον'"/>
          <xsl:map-entry key="'Εὐαγγελίοις'" select="'εὐαγγέλιον'"/>
@@ -11359,7 +12240,7 @@
          <xsl:map-entry key="'ΕΥΑΓΡΙΟΥ'" select="'Εὐάγριος'"/>
          <xsl:map-entry key="'Εὐαγρίου'" select="'Εὐάγριος'"/>
          <xsl:map-entry key="'εὐαισθησία'" select="'εὐαισθησία'"/>
-         <xsl:map-entry key="'Εὔαν'" select="'Εὕα'"/>
+         <xsl:map-entry key="'Εὔαν'" select="'Εὔα'"/>
          <xsl:map-entry key="'εὐαρεστεῖν'" select="'εὐαρεστέω'"/>
          <xsl:map-entry key="'εὐαρεστέω'" select="'εὐαρεστέω'"/>
          <xsl:map-entry key="'εὐαρεστῆσαι'" select="'εὐαρεστέω'"/>
@@ -11389,6 +12270,8 @@
          <xsl:map-entry key="'εὐεκτοῦντι'" select="'εὐεκτέω'"/>
          <xsl:map-entry key="'ευεξια'" select="'εὐεξία'"/>
          <xsl:map-entry key="'εὐεξία'" select="'εὐεξία'"/>
+         <xsl:map-entry key="'εὐεπίβατον'" select="'εὐεπίβατος'"/>
+         <xsl:map-entry key="'εὐεπίβατος'" select="'εὐεπίβατος'"/>
          <xsl:map-entry key="'εὐεργεσία'" select="'εὐεργεσία'"/>
          <xsl:map-entry key="'Εὐεργεσία'" select="'εὐεργεσία'"/>
          <xsl:map-entry key="'ευεργεσιαν'" select="'εὐεργεσία'"/>
@@ -11405,6 +12288,7 @@
          <xsl:map-entry key="'εὐεργετικῆς'" select="'εὐεργετικός'"/>
          <xsl:map-entry key="'εὐεργετικός'" select="'εὐεργετικός'"/>
          <xsl:map-entry key="'Εὐεργετοῦνται'" select="'εὐεργετέω'"/>
+         <xsl:map-entry key="'Εὐεργετῶν'" select="'εὐεργέτης'"/>
          <xsl:map-entry key="'εὐήνιος'" select="'εὐήνιος'"/>
          <xsl:map-entry key="'εὐηρέστει'" select="'εὐαρεστέω'"/>
          <xsl:map-entry key="'εὐηρέστησα'" select="'εὐαρεστέω'"/>
@@ -11420,7 +12304,8 @@
          <xsl:map-entry key="'εὐθεῖς'" select="'εὐθής'"/>
          <xsl:map-entry key="'εὐθὲς'" select="'εὐθής'"/>
          <xsl:map-entry key="'εὐθέσιν'" select="'εὐθύς'"/>
-         <xsl:map-entry key="'εὐθέως'" select="'εὐθύς'"/>
+         <xsl:map-entry key="'εὐθέως'" select="'εὐθέως'"/>
+         <xsl:map-entry key="'εὐθηνέω'" select="'εὐθηνέω'"/>
          <xsl:map-entry key="'εὐθηνία'" select="'εὐθηνία'"/>
          <xsl:map-entry key="'εὐθηνοῦντες'" select="'εὐθηνέω'"/>
          <xsl:map-entry key="'εὐθηνοῦσα'" select="'εὐθηνέω'"/>
@@ -11428,6 +12313,7 @@
          <xsl:map-entry key="'εὐθής'" select="'εὐθής'"/>
          <xsl:map-entry key="'Εὐθὴς'" select="'εὐθής'"/>
          <xsl:map-entry key="'εὐθὴς'" select="'εὐθής'"/>
+         <xsl:map-entry key="'εὔθυμα'" select="'εὔθυμος'"/>
          <xsl:map-entry key="'Εὐθύμει'" select="'εὐθυμέω'"/>
          <xsl:map-entry key="'Εὐθυμεῖ'" select="'εὐθυμέω'"/>
          <xsl:map-entry key="'εὐθυμεῖ'" select="'εὐθυμέω'"/>
@@ -11438,7 +12324,9 @@
          <xsl:map-entry key="'εὔθυμος'" select="'εὔθυμος'"/>
          <xsl:map-entry key="'εὐθυμούντων'" select="'εὐθυμέω'"/>
          <xsl:map-entry key="'εὐθυμῶν'" select="'εὐθυμέω'"/>
-         <xsl:map-entry key="'εὐθύμως'" select="'εὔθυμος'"/>
+         <xsl:map-entry key="'εὐθύμως'" select="'εὐθύμως'"/>
+         <xsl:map-entry key="'εὔθυνα'" select="'εὔθυνα'"/>
+         <xsl:map-entry key="'εὐθύνας'" select="'εὔθυνα'"/>
          <xsl:map-entry key="'εὐθὺς'" select="'εὐθύς'"/>
          <xsl:map-entry key="'εὐθύς'" select="'εὐθύς'"/>
          <xsl:map-entry key="'Εὐθύτης'" select="'εὐθύτης'"/>
@@ -11451,8 +12339,10 @@
          <xsl:map-entry key="'εὐιλατεύω'" select="'εὐιλατεύω'"/>
          <xsl:map-entry key="'εὐκαιρίᾳ'" select="'εὐκαιρία'"/>
          <xsl:map-entry key="'εὐκαιρία'" select="'εὐκαιρία'"/>
+         <xsl:map-entry key="'εὐκαιρίαν'" select="'εὐκαιρία'"/>
          <xsl:map-entry key="'εὔκαιρος'" select="'εὔκαιρος'"/>
-         <xsl:map-entry key="'εὐκαίρως'" select="'εὔκαιρος'"/>
+         <xsl:map-entry key="'εὐκαίρου'" select="'εὔκαιρος'"/>
+         <xsl:map-entry key="'εὐκαίρως'" select="'εὐκαίρως'"/>
          <xsl:map-entry key="'εὔκαρπον'" select="'εὔκαρπος'"/>
          <xsl:map-entry key="'εὔκαρπος'" select="'εὔκαρπος'"/>
          <xsl:map-entry key="'εὐκαταγέλαστος'" select="'εὐκαταγέλαστος'"/>
@@ -11460,17 +12350,19 @@
          <xsl:map-entry key="'εὐκατάστατος'" select="'εὐκατάστατος'"/>
          <xsl:map-entry key="'εὐκαταφρόνητος'" select="'εὐκαταφρόνητος'"/>
          <xsl:map-entry key="'εὐκαταφρονήτων'" select="'εὐκαταφρόνητος'"/>
+         <xsl:map-entry key="'εὐκατόρθωτος'" select="'εὐκατόρθωτος'"/>
+         <xsl:map-entry key="'Εὐκατορθωτότερον'" select="'εὐκατόρθωτος'"/>
          <xsl:map-entry key="'εὐκίνητον'" select="'εὐκίνητος'"/>
          <xsl:map-entry key="'εὐκίνητος'" select="'εὐκίνητος'"/>
          <xsl:map-entry key="'εὐκλεέστατον'" select="'εὐκλεής'"/>
          <xsl:map-entry key="'εὐκλεής'" select="'εὐκλεής'"/>
          <xsl:map-entry key="'εὔκολον'" select="'εὔκολος'"/>
          <xsl:map-entry key="'εὔκολος'" select="'εὔκολος'"/>
-         <xsl:map-entry key="'εὐκόλως'" select="'εὔκολος'"/>
+         <xsl:map-entry key="'εὐκόλως'" select="'εὐκόλως'"/>
          <xsl:map-entry key="'εὐκολώτερον'" select="'εὔκολος'"/>
          <xsl:map-entry key="'εὔκοπος'" select="'εὔκοπος'"/>
-         <xsl:map-entry key="'ευκοπως'" select="'εὐκόπως'"/>
-         <xsl:map-entry key="'εὐκόπως'" select="'εὔκοπος'"/>
+         <xsl:map-entry key="'ευκοπως'" select="'ευκοπως'"/>
+         <xsl:map-entry key="'εὐκόπως'" select="'εὐκόπως'"/>
          <xsl:map-entry key="'εὐκοπωτέραν'" select="'εὔκοπος'"/>
          <xsl:map-entry key="'εὐλάβεια'" select="'εὐλάβεια'"/>
          <xsl:map-entry key="'εὐλάβειαν'" select="'εὐλάβεια'"/>
@@ -11493,6 +12385,7 @@
          <xsl:map-entry key="'εὐλογέω'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλογηθήσεται'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλογημένου'" select="'εὐλογέω'"/>
+         <xsl:map-entry key="'εὐλογήσαι'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλογήσεις'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλόγησεν'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλογήσομεν'" select="'εὐλογέω'"/>
@@ -11501,6 +12394,7 @@
          <xsl:map-entry key="'εὐλογητὸς'" select="'εὐλογητός'"/>
          <xsl:map-entry key="'εὐλογητός'" select="'εὐλογητός'"/>
          <xsl:map-entry key="'εὐλογία'" select="'εὐλογία'"/>
+         <xsl:map-entry key="'εὐλογίαις'" select="'εὐλογία'"/>
          <xsl:map-entry key="'εὐλογίαν'" select="'εὐλογία'"/>
          <xsl:map-entry key="'εὐλογίας'" select="'εὐλογία'"/>
          <xsl:map-entry key="'Εὐλόγιε'" select="'Εὐλόγιος'"/>
@@ -11513,15 +12407,20 @@
          <xsl:map-entry key="'εὐλόγους'" select="'εὔλογος'"/>
          <xsl:map-entry key="'εὐλογοῦσι'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'εὐλογῶν'" select="'εὐλογέω'"/>
+         <xsl:map-entry key="'εὐλόγως'" select="'εὐλόγως'"/>
          <xsl:map-entry key="'εὔλυτος'" select="'εὔλυτος'"/>
          <xsl:map-entry key="'εὐμετάβολος'" select="'εὐμετάβολος'"/>
          <xsl:map-entry key="'εὐμήχανος'" select="'εὐμήχανος'"/>
          <xsl:map-entry key="'εὐνάζεται'" select="'εὐνάζω'"/>
          <xsl:map-entry key="'εὐνάζω'" select="'εὐνάζω'"/>
+         <xsl:map-entry key="'Εὐνοεῖ'" select="'εὐνοέω'"/>
+         <xsl:map-entry key="'εὐνοέω'" select="'εὐνοέω'"/>
          <xsl:map-entry key="'εὔνοια'" select="'εὔνοια'"/>
          <xsl:map-entry key="'εὐνοίας'" select="'εὔνοια'"/>
          <xsl:map-entry key="'εὔξασθαι'" select="'εὔχομαι'"/>
+         <xsl:map-entry key="'εὔξασθαί'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐξάσθω'" select="'εὔχομαι'"/>
+         <xsl:map-entry key="'εὔξῃ'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐοδοῦται'" select="'εὐοδόω'"/>
          <xsl:map-entry key="'εὐοδόω'" select="'εὐοδόω'"/>
          <xsl:map-entry key="'ευοδωθη'" select="'εὐοδόω'"/>
@@ -11550,8 +12449,11 @@
          <xsl:map-entry key="'εὐπρόσδεκτος'" select="'εὐπρόσδεκτος'"/>
          <xsl:map-entry key="'εὑρεθείη'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'εὑρεθεὶς'" select="'εὑρίσκω'"/>
+         <xsl:map-entry key="'εὑρεθέντα'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'εὑρέθη'" select="'εὑρίσκω'"/>
+         <xsl:map-entry key="'εὑρεθῇ'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'ευρεθηναι'" select="'εὑρίσκω'"/>
+         <xsl:map-entry key="'εὑρεθῆναι'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'εὑρεθῇς'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'ευρεθησεται'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'εὑρεθήσεται'" select="'εὑρίσκω'"/>
@@ -11595,9 +12497,11 @@
          <xsl:map-entry key="'εὖρος'" select="'εὖρος'"/>
          <xsl:map-entry key="'εὕροσάν'" select="'εὑρίσκω'"/>
          <xsl:map-entry key="'εὔρυθμος'" select="'εὔρυθμος'"/>
-         <xsl:map-entry key="'εὐρύθμως'" select="'εὔρυθμος'"/>
+         <xsl:map-entry key="'εὐρύθμως'" select="'εὐρύθμως'"/>
          <xsl:map-entry key="'εὐρύνω'" select="'εὐρύνω'"/>
          <xsl:map-entry key="'εὐρύνωσι'" select="'εὐρύνω'"/>
+         <xsl:map-entry key="'εὐρύς'" select="'εὐρύς'"/>
+         <xsl:map-entry key="'εὐρύτερα'" select="'εὐρύς'"/>
          <xsl:map-entry key="'εὐρυχωρία'" select="'εὐρυχωρία'"/>
          <xsl:map-entry key="'εὐρυχωρίαν'" select="'εὐρυχωρία'"/>
          <xsl:map-entry key="'εὐρύχωρον'" select="'εὐρύχωρος'"/>
@@ -11617,7 +12521,7 @@
          <xsl:map-entry key="'Εὐσεβὴς'" select="'εὐσεβής'"/>
          <xsl:map-entry key="'Εὐσέβιος'" select="'Εὐσέβιος'"/>
          <xsl:map-entry key="'Εὐσεβίου'" select="'Εὐσέβιος'"/>
-         <xsl:map-entry key="'εὐσεβῶς'" select="'εὐσεβής'"/>
+         <xsl:map-entry key="'εὐσεβῶς'" select="'εὐσεβῶς'"/>
          <xsl:map-entry key="'εὐσταθείᾳ'" select="'εὐστάθεια'"/>
          <xsl:map-entry key="'εὐστάθεια'" select="'εὐστάθεια'"/>
          <xsl:map-entry key="'εὐσταθέω'" select="'εὐσταθέω'"/>
@@ -11625,11 +12529,11 @@
          <xsl:map-entry key="'εὐσταθίας'" select="'εὐστάθεια'"/>
          <xsl:map-entry key="'εὐσταθοῦντας'" select="'εὐσταθέω'"/>
          <xsl:map-entry key="'εὐσταθούντων'" select="'εὐσταθέω'"/>
-         <xsl:map-entry key="'εὐσταθῶς'" select="'εὐσταθής'"/>
+         <xsl:map-entry key="'εὐσταθῶς'" select="'εὐσταθῶς'"/>
          <xsl:map-entry key="'εὐσταλὴς'" select="'εὐσταλής'"/>
          <xsl:map-entry key="'εὐσταλής'" select="'εὐσταλής'"/>
          <xsl:map-entry key="'εὐσυνάλλακτος'" select="'εὐσυνάλλακτος'"/>
-         <xsl:map-entry key="'εὐσυναλλάκτως'" select="'εὐσυνάλλακτος'"/>
+         <xsl:map-entry key="'εὐσυναλλάκτως'" select="'εὐσυναλλάκτως'"/>
          <xsl:map-entry key="'εὐταξία'" select="'εὐταξία'"/>
          <xsl:map-entry key="'ευτελει'" select="'εὐτελής'"/>
          <xsl:map-entry key="'εὐτελείᾳ'" select="'εὐτέλεια'"/>
@@ -11647,7 +12551,7 @@
          <xsl:map-entry key="'εὐτονίαν'" select="'εὐτονία'"/>
          <xsl:map-entry key="'εὐτονίας'" select="'εὐτονία'"/>
          <xsl:map-entry key="'εὔτονος'" select="'εὔτονος'"/>
-         <xsl:map-entry key="'εὐτόνως'" select="'εὔτονος'"/>
+         <xsl:map-entry key="'εὐτόνως'" select="'εὐτόνως'"/>
          <xsl:map-entry key="'εὐτρεπίζου'" select="'εὐτρεπίζω'"/>
          <xsl:map-entry key="'εὐτρεπίζω'" select="'εὐτρεπίζω'"/>
          <xsl:map-entry key="'εὐτρέπισεν'" select="'εὐτρεπίζω'"/>
@@ -11688,6 +12592,7 @@
          <xsl:map-entry key="'εὐφραίνω'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'εὐφρανθείησαν'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'εὐφράνθην'" select="'εὐφραίνω'"/>
+         <xsl:map-entry key="'εὐφρανθῆναι'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'εὐφρανθήσεται'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'εὐφρανθήσονται'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'Εὐφράνθητι'" select="'εὐφραίνω'"/>
@@ -11703,6 +12608,8 @@
          <xsl:map-entry key="'εὐφροσύνην'" select="'εὐφροσύνη'"/>
          <xsl:map-entry key="'ευφροσυνης'" select="'εὐφροσύνη'"/>
          <xsl:map-entry key="'εὐφροσύνης'" select="'εὐφροσύνη'"/>
+         <xsl:map-entry key="'εὐφυὴς'" select="'εὐφυής'"/>
+         <xsl:map-entry key="'εὐφυής'" select="'εὐφυής'"/>
          <xsl:map-entry key="'εὐχαὶ'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχαῖς'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχαρίστει'" select="'εὐχαριστέω'"/>
@@ -11718,26 +12625,34 @@
          <xsl:map-entry key="'εὐχάριστον'" select="'εὐχάριστος'"/>
          <xsl:map-entry key="'εὐχάριστος'" select="'εὐχάριστος'"/>
          <xsl:map-entry key="'εὐχαριστῶμεν'" select="'εὐχαριστέω'"/>
-         <xsl:map-entry key="'εὐχαρίστως'" select="'εὐχάριστος'"/>
+         <xsl:map-entry key="'εὐχαριστῶν'" select="'εὐχαριστέω'"/>
+         <xsl:map-entry key="'εὐχαρίστως'" select="'εὐχαρίστως'"/>
          <xsl:map-entry key="'εὐχαριτία'" select="'εὐχαριτία'"/>
          <xsl:map-entry key="'εὐχαριτίας'" select="'εὐχαριτία'"/>
          <xsl:map-entry key="'εὐχὰς'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχάς'" select="'εὐχή'"/>
+         <xsl:map-entry key="'εὐχείρωτον'" select="'εὐχείρωτος'"/>
+         <xsl:map-entry key="'εὐχείρωτος'" select="'εὐχείρωτος'"/>
          <xsl:map-entry key="'ευχερει'" select="'εὐχερής'"/>
          <xsl:map-entry key="'εὐχερὲς'" select="'εὐχερής'"/>
          <xsl:map-entry key="'εὐχερής'" select="'εὐχερής'"/>
-         <xsl:map-entry key="'ευχερως'" select="'εὐχερῶς'"/>
-         <xsl:map-entry key="'εὐχερῶς'" select="'εὐχερής'"/>
+         <xsl:map-entry key="'ευχερως'" select="'ευχερως'"/>
+         <xsl:map-entry key="'εὐχερῶς'" select="'εὐχερῶς'"/>
+         <xsl:map-entry key="'εὔχεσθαι'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὔχεται'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'Εὔχεται'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐχή'" select="'εὐχή'"/>
          <xsl:map-entry key="'Ἐυχή'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχῇ'" select="'εὐχή'"/>
+         <xsl:map-entry key="'Εὐχή'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχὴν'" select="'εὐχή'"/>
+         <xsl:map-entry key="'εὐχήν'" select="'εὐχή'"/>
          <xsl:map-entry key="'εὐχῆς'" select="'εὐχή'"/>
          <xsl:map-entry key="'ευχηται'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὔχομαι'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐχομένης'" select="'εὔχομαι'"/>
+         <xsl:map-entry key="'εὐχόμενοι'" select="'εὔχομαι'"/>
+         <xsl:map-entry key="'εὐχόμενον'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐχόμενος'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὐχομένῳ'" select="'εὔχομαι'"/>
          <xsl:map-entry key="'εὔχρηστον'" select="'εὔχρηστος'"/>
@@ -11766,6 +12681,7 @@
          <xsl:map-entry key="'ἔφαναν'" select="'φαίνω'"/>
          <xsl:map-entry key="'εφανερωθη'" select="'φανερόω'"/>
          <xsl:map-entry key="'εφανη'" select="'φαίνω'"/>
+         <xsl:map-entry key="'ἐφαντάσθης'" select="'φαντάζομαι'"/>
          <xsl:map-entry key="'ἐφαντάσθησαν'" select="'φαντάζομαι'"/>
          <xsl:map-entry key="'εφαπαξ'" select="'ἐφάπαξ'"/>
          <xsl:map-entry key="'ἐφάπαξ'" select="'ἐφάπαξ'"/>
@@ -11780,6 +12696,7 @@
          <xsl:map-entry key="'ἐφαπτόμενος'" select="'ἐφάπτω'"/>
          <xsl:map-entry key="'ἐφάπτονται'" select="'ἐφάπτω'"/>
          <xsl:map-entry key="'ἐφάπτω'" select="'ἐφάπτω'"/>
+         <xsl:map-entry key="'ἐφαρμόζειν'" select="'ἐφαρμόζω'"/>
          <xsl:map-entry key="'ἐφαρμόζω'" select="'ἐφαρμόζω'"/>
          <xsl:map-entry key="'ἐφαρμόσαι'" select="'ἐφαρμόζω'"/>
          <xsl:map-entry key="'ἐφαρμοσθήσεται'" select="'ἐφαρμόζω'"/>
@@ -11815,6 +12732,7 @@
          <xsl:map-entry key="'ἔφην'" select="'φημί'"/>
          <xsl:map-entry key="'ἔφησεν'" select="'φημί'"/>
          <xsl:map-entry key="'ἐφιεμένης'" select="'ἐφίημι'"/>
+         <xsl:map-entry key="'ἐφιέμενοι'" select="'ἐφίημι'"/>
          <xsl:map-entry key="'ἐφιέμενος'" select="'ἐφίημι'"/>
          <xsl:map-entry key="'ἐφιεμένου'" select="'ἐφίημι'"/>
          <xsl:map-entry key="'ἐφίεσθαι'" select="'ἐφίημι'"/>
@@ -11822,9 +12740,12 @@
          <xsl:map-entry key="'ἐφίημι'" select="'ἐφίημι'"/>
          <xsl:map-entry key="'ἐφικνέομαι'" select="'ἐφικνέομαι'"/>
          <xsl:map-entry key="'εφικνουμεθα'" select="'ἐφικνέομαι'"/>
+         <xsl:map-entry key="'ἐφιλοσόφει'" select="'φιλοσοφέω'"/>
+         <xsl:map-entry key="'ἐφιστάμενον'" select="'ἐφιστάω'"/>
          <xsl:map-entry key="'ἐφίστανται'" select="'ἐφίστημι'"/>
          <xsl:map-entry key="'ἐφίστασθαι'" select="'ἐφίστημι'"/>
          <xsl:map-entry key="'ἐφίσταται'" select="'ἐφίστημι'"/>
+         <xsl:map-entry key="'ἐφιστάω'" select="'ἐφιστάω'"/>
          <xsl:map-entry key="'ἐφίστημι'" select="'ἐφίστημι'"/>
          <xsl:map-entry key="'ἐφίστησι'" select="'ἐφίστημι'"/>
          <xsl:map-entry key="'ἐφλογίσθη'" select="'φλογίζω'"/>
@@ -11881,6 +12802,7 @@
          <xsl:map-entry key="'ἔχθραν'" select="'ἔχθρα'"/>
          <xsl:map-entry key="'Ἔχθραν'" select="'ἔχθρα'"/>
          <xsl:map-entry key="'ἔχθρας'" select="'ἔχθρα'"/>
+         <xsl:map-entry key="'ἐχθρᾶς'" select="'ἐχθρός'"/>
          <xsl:map-entry key="'ἐχθροὶ'" select="'ἐχθρός'"/>
          <xsl:map-entry key="'ἐχθροί'" select="'ἐχθρός'"/>
          <xsl:map-entry key="'ἐχθροῖς'" select="'ἐχθρός'"/>
@@ -11901,6 +12823,7 @@
          <xsl:map-entry key="'ἐχιδνῶν'" select="'ἔχιδνα'"/>
          <xsl:map-entry key="'εχις'" select="'ἕξις'"/>
          <xsl:map-entry key="'ἔχομεν'" select="'ἔχω'"/>
+         <xsl:map-entry key="'Ἔχομεν'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐχόμενα'" select="'ἔχω'"/>
          <xsl:map-entry key="'εχομενη'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐχόμενοι'" select="'ἔχω'"/>
@@ -11925,6 +12848,7 @@
          <xsl:map-entry key="'ἐχούσῃ'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐχούσης'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἔχουσι'" select="'ἔχω'"/>
+         <xsl:map-entry key="'ἔχουσί'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἔχουσιν'" select="'ἔχω'"/>
          <xsl:map-entry key="'εχουσιν'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐχουσῶν'" select="'ἔχω'"/>
@@ -11933,8 +12857,10 @@
          <xsl:map-entry key="'ἐχρῆν'" select="'χρή'"/>
          <xsl:map-entry key="'εχρησατο'" select="'χράω'"/>
          <xsl:map-entry key="'ἐχρήσατο'" select="'χράω'"/>
+         <xsl:map-entry key="'ἐχρήσατό'" select="'χράω'"/>
          <xsl:map-entry key="'ἔχρισα'" select="'χρίω'"/>
          <xsl:map-entry key="'ἔχρισέν'" select="'χρίω'"/>
+         <xsl:map-entry key="'ἐχρόνισεν'" select="'χρονίζω'"/>
          <xsl:map-entry key="'ἔχω'" select="'ἔχω'"/>
          <xsl:map-entry key="'Ἔχω'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἐχώλαναν'" select="'χωλαίνω'"/>
@@ -11945,13 +12871,13 @@
          <xsl:map-entry key="'ἔχωσιν'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἔψαλλεν'" select="'ψάλλω'"/>
          <xsl:map-entry key="'ἔψαλλον'" select="'ψάλλω'"/>
-         <xsl:map-entry key="'ἑψάω'" select="'ἑψάω'"/>
          <xsl:map-entry key="'ἐψεύσαντο'" select="'ψεύδω'"/>
          <xsl:map-entry key="'ἐψεύσατο'" select="'ψεύδω'"/>
-         <xsl:map-entry key="'ἑψοῦσιν'" select="'ἑψάω'"/>
+         <xsl:map-entry key="'ἑψοῦσιν'" select="'ἕψω'"/>
          <xsl:map-entry key="'ἐψώμισεν'" select="'ψωμίζω'"/>
          <xsl:map-entry key="'ἕω'" select="'ἠώς'"/>
          <xsl:map-entry key="'ἐῶν'" select="'ἐάω'"/>
+         <xsl:map-entry key="'ἐῶντα'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἐῶντες'" select="'ἐάω'"/>
          <xsl:map-entry key="'ἑώρα'" select="'ὁράω'"/>
          <xsl:map-entry key="'ἑωράκαμεν'" select="'ὁράω'"/>
@@ -11962,6 +12888,7 @@
          <xsl:map-entry key="'Ἑώρακε'" select="'ὁράω'"/>
          <xsl:map-entry key="'ἑώρακεν'" select="'ὁράω'"/>
          <xsl:map-entry key="'εωρακοτες'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ἑωραμένης'" select="'ὁράω'"/>
          <xsl:map-entry key="'εως'" select="'ἕως'"/>
          <xsl:map-entry key="'ἕως'" select="'ἕως'"/>
          <xsl:map-entry key="'Ἕως'" select="'ἕως'"/>
@@ -11992,9 +12919,12 @@
          <xsl:map-entry key="'ζῆλον'" select="'ζῆλος'"/>
          <xsl:map-entry key="'ζηλος'" select="'ζῆλος'"/>
          <xsl:map-entry key="'ζῆλος'" select="'ζῆλος'"/>
+         <xsl:map-entry key="'ζηλοτυπία'" select="'ζηλοτυπία'"/>
+         <xsl:map-entry key="'ζηλοτυπίαν'" select="'ζηλοτυπία'"/>
          <xsl:map-entry key="'ζηλου'" select="'ζῆλος'"/>
          <xsl:map-entry key="'ζήλου'" select="'ζῆλος'"/>
          <xsl:map-entry key="'Ζηλοῦν'" select="'ζηλόω'"/>
+         <xsl:map-entry key="'ζηλοῦν'" select="'ζηλόω'"/>
          <xsl:map-entry key="'Ζηλοῦσιν'" select="'ζηλόω'"/>
          <xsl:map-entry key="'ζηλόω'" select="'ζηλόω'"/>
          <xsl:map-entry key="'ζήλῳ'" select="'ζῆλος'"/>
@@ -12016,6 +12946,7 @@
          <xsl:map-entry key="'ζημιωθῇ'" select="'ζημιόω'"/>
          <xsl:map-entry key="'ζημιωθῇς'" select="'ζημιόω'"/>
          <xsl:map-entry key="'ζημιωθήσεται'" select="'ζημιόω'"/>
+         <xsl:map-entry key="'ζημιώσαντι'" select="'ζημιόω'"/>
          <xsl:map-entry key="'ζημιώσαντός'" select="'ζημιόω'"/>
          <xsl:map-entry key="'ζημίωσις'" select="'ζημίωσις'"/>
          <xsl:map-entry key="'ζημίωσον'" select="'ζημιόω'"/>
@@ -12023,6 +12954,8 @@
          <xsl:map-entry key="'Ζῆν'" select="'ζάω'"/>
          <xsl:map-entry key="'ζῆν'" select="'ζάω'"/>
          <xsl:map-entry key="'ζήσαντα'" select="'ζάω'"/>
+         <xsl:map-entry key="'ζήσας'" select="'ζάω'"/>
+         <xsl:map-entry key="'ζήσασιν'" select="'ζάω'"/>
          <xsl:map-entry key="'ζήσεις'" select="'ζάω'"/>
          <xsl:map-entry key="'ζήσεται'" select="'ζάω'"/>
          <xsl:map-entry key="'ζήσομαι'" select="'ζάω'"/>
@@ -12047,6 +12980,7 @@
          <xsl:map-entry key="'ζητήσας'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητήσατε'" select="'ζητέω'"/>
          <xsl:map-entry key="'Ζητήσατε'" select="'ζητέω'"/>
+         <xsl:map-entry key="'ζητήσει'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητήσεις'" select="'ζήτησις'"/>
          <xsl:map-entry key="'Ζητήσεις'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητησεως'" select="'ζήτησις'"/>
@@ -12056,6 +12990,7 @@
          <xsl:map-entry key="'ζητησιν'" select="'ζήτησις'"/>
          <xsl:map-entry key="'ζήτησιν'" select="'ζήτησις'"/>
          <xsl:map-entry key="'ζήτησις'" select="'ζήτησις'"/>
+         <xsl:map-entry key="'ζήτησον'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητήσουσιν'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητήσω'" select="'ζητέω'"/>
          <xsl:map-entry key="'ζητήσωμεν'" select="'ζητέω'"/>
@@ -12100,7 +13035,7 @@
          <xsl:map-entry key="'ζυγῷ'" select="'ζυγός'"/>
          <xsl:map-entry key="'ζῶ'" select="'ζάω'"/>
          <xsl:map-entry key="'Ζῶ'" select="'ζάω'"/>
-         <xsl:map-entry key="'ζῶα'" select="'ζωός'"/>
+         <xsl:map-entry key="'ζῶα'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζῷα'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζῷά'" select="'ζῷον'"/>
          <xsl:map-entry key="'Ζῷα'" select="'ζῷον'"/>
@@ -12147,13 +13082,15 @@
          <xsl:map-entry key="'ζώντων'" select="'ζάω'"/>
          <xsl:map-entry key="'Ζώντων'" select="'ζάω'"/>
          <xsl:map-entry key="'ζώοις'" select="'ζῷον'"/>
-         <xsl:map-entry key="'ζῶον'" select="'ζώω'"/>
+         <xsl:map-entry key="'ζῶον'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζῷον'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζῴον'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζωοποιει'" select="'ζωοποιέω'"/>
+         <xsl:map-entry key="'ζωοποιεῖν'" select="'ζωοποιέω'"/>
          <xsl:map-entry key="'ζωοποιεῖται'" select="'ζωοποιέω'"/>
          <xsl:map-entry key="'ζωοποιέω'" select="'ζωοποιέω'"/>
          <xsl:map-entry key="'ζωοποιῆσαι'" select="'ζωοποιέω'"/>
+         <xsl:map-entry key="'ζωοποιήσει'" select="'ζωοποιέω'"/>
          <xsl:map-entry key="'Ζωοποιήσεις'" select="'ζωοποιέω'"/>
          <xsl:map-entry key="'ζωός'" select="'ζωός'"/>
          <xsl:map-entry key="'ζῴου'" select="'ζῷον'"/>
@@ -12162,6 +13099,7 @@
          <xsl:map-entry key="'ζῶσιν'" select="'ζάω'"/>
          <xsl:map-entry key="'ζῶσις'" select="'ζῶσις'"/>
          <xsl:map-entry key="'ζῶσον'" select="'ζώννυμι'"/>
+         <xsl:map-entry key="'ζωτικῆς'" select="'ζωτικός'"/>
          <xsl:map-entry key="'ζωτικός'" select="'ζωτικός'"/>
          <xsl:map-entry key="'ζωτικου'" select="'ζωτικός'"/>
          <xsl:map-entry key="'ζώω'" select="'ζώω'"/>
@@ -12169,6 +13107,7 @@
          <xsl:map-entry key="'ζῴων'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζώων'" select="'ζῷον'"/>
          <xsl:map-entry key="'ζωώσεις'" select="'ζωόω'"/>
+         <xsl:map-entry key="'ἠβούλετο'" select="'βούλομαι'"/>
          <xsl:map-entry key="'ηγαγεν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἤγαγόν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ἤγαγον'" select="'ἄγω'"/>
@@ -12179,11 +13118,16 @@
          <xsl:map-entry key="'ηγαπησε'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἠγάπησεν'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'Ἠγάπησεν'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'ἠγαπῶμεν'" select="'ἀγαπάω'"/>
          <xsl:map-entry key="'ἠγγικέναι'" select="'ἐγγίζω'"/>
          <xsl:map-entry key="'ἤγγισεν'" select="'ἐγγίζω'"/>
          <xsl:map-entry key="'ἤγειρεν'" select="'ἐγείρω'"/>
+         <xsl:map-entry key="'ἡγεῖσθαι'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγεῖται'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγεμόνα'" select="'ἡγεμών'"/>
+         <xsl:map-entry key="'ἡγεμόνες'" select="'ἡγεμών'"/>
+         <xsl:map-entry key="'ἡγεμονία'" select="'ἡγεμονία'"/>
+         <xsl:map-entry key="'ἡγεμονίαν'" select="'ἡγεμονία'"/>
          <xsl:map-entry key="'ἡγεμονικὸν'" select="'ἡγεμονικός'"/>
          <xsl:map-entry key="'ἡγεμονικόν'" select="'ἡγεμονικός'"/>
          <xsl:map-entry key="'ἡγεμονικός'" select="'ἡγεμονικός'"/>
@@ -12196,14 +13140,17 @@
          <xsl:map-entry key="'ἡγέομαι'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ηγερθη'" select="'ἐγείρω'"/>
          <xsl:map-entry key="'ἡγησάμενοι'" select="'ἡγέομαι'"/>
+         <xsl:map-entry key="'ἠγήσασθαι'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἥγηται'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγνικέναι'" select="'ἁγνίζω'"/>
          <xsl:map-entry key="'ἡγοῦμαι'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγούμεθα'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγούμενε'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγούμενοι'" select="'ἡγέομαι'"/>
+         <xsl:map-entry key="'ἡγουμένοις'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγούμενος'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἡγουμένων'" select="'ἡγέομαι'"/>
+         <xsl:map-entry key="'ἤγουν'" select="'ἤγουν'"/>
          <xsl:map-entry key="'ἡγοῦνται'" select="'ἡγέομαι'"/>
          <xsl:map-entry key="'ἤγρευσα'" select="'ἀγρεύω'"/>
          <xsl:map-entry key="'ἠγριωμένη'" select="'ἀγριόω'"/>
@@ -12220,14 +13167,15 @@
          <xsl:map-entry key="'ηδεται'" select="'ἥδομαι'"/>
          <xsl:map-entry key="'ἥδετο'" select="'ἥδομαι'"/>
          <xsl:map-entry key="'ἡδέων'" select="'ἡδύς'"/>
-         <xsl:map-entry key="'ἡδέως'" select="'ἡδύς'"/>
-         <xsl:map-entry key="'ἥδεως'" select="'ἡδύς'"/>
+         <xsl:map-entry key="'ἡδέως'" select="'ἡδέως'"/>
+         <xsl:map-entry key="'ἥδεως'" select="'ἡδέως'"/>
          <xsl:map-entry key="'ἤδη'" select="'ἤδη'"/>
          <xsl:map-entry key="'Ἤδη'" select="'ἤδη'"/>
          <xsl:map-entry key="'ἠδικηκέναι'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἠδικηκότος'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἠδικήσαμεν'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ἠδίκησε'" select="'ἀδικέω'"/>
+         <xsl:map-entry key="'ἠδίκησεν'" select="'ἀδικέω'"/>
          <xsl:map-entry key="'ηδιον'" select="'ἴδιος'"/>
          <xsl:map-entry key="'ἠδολέσχει'" select="'ἀδολεσχέω'"/>
          <xsl:map-entry key="'ἥδομαι'" select="'ἥδομαι'"/>
@@ -12246,6 +13194,7 @@
          <xsl:map-entry key="'ἡδονῶν'" select="'ἡδονή'"/>
          <xsl:map-entry key="'Ἡδὺ'" select="'ἡδύς'"/>
          <xsl:map-entry key="'ἡδὺ'" select="'ἡδύς'"/>
+         <xsl:map-entry key="'ἠδύναντο'" select="'δύναμαι'"/>
          <xsl:map-entry key="'ἠδυνήθην'" select="'δύναμαι'"/>
          <xsl:map-entry key="'ἠδυνήθησάν'" select="'δύναμαι'"/>
          <xsl:map-entry key="'Ἡδύνθη'" select="'ἡδύνω'"/>
@@ -12255,6 +13204,7 @@
          <xsl:map-entry key="'ἡδύς'" select="'ἡδύς'"/>
          <xsl:map-entry key="'ἡδὺς'" select="'ἡδύς'"/>
          <xsl:map-entry key="'Ἡδὺς'" select="'ἡδύς'"/>
+         <xsl:map-entry key="'ἡδυτάτης'" select="'ἡδύς'"/>
          <xsl:map-entry key="'ἡδυφαγία'" select="'ἡδυφαγία'"/>
          <xsl:map-entry key="'ἡδυφαγίας'" select="'ἡδυφαγία'"/>
          <xsl:map-entry key="'ἠθέλησα'" select="'ἐθέλω'"/>
@@ -12262,38 +13212,46 @@
          <xsl:map-entry key="'ἤθελον'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'ἤθεσιν'" select="'ἦθος'"/>
          <xsl:map-entry key="'ἤθη'" select="'ἦθος'"/>
+         <xsl:map-entry key="'ἠθικὰ'" select="'ἠθικός'"/>
          <xsl:map-entry key="'ἠθικὴ'" select="'ἠθικός'"/>
          <xsl:map-entry key="'ἠθικὴν'" select="'ἠθικός'"/>
          <xsl:map-entry key="'ἠθικῆς'" select="'ἠθικός'"/>
          <xsl:map-entry key="'ἠθικός'" select="'ἠθικός'"/>
+         <xsl:map-entry key="'ἠθικῶν'" select="'ἠθικός'"/>
+         <xsl:map-entry key="'ἠθικῶς'" select="'ἠθικῶς'"/>
          <xsl:map-entry key="'ἦθος'" select="'ἦθος'"/>
          <xsl:map-entry key="'Ἦθος'" select="'ἦθος'"/>
          <xsl:map-entry key="'ἠθῶν'" select="'ἦθος'"/>
          <xsl:map-entry key="'ηιχμαλωτευσεν'" select="'αἰχμαλωτεύω'"/>
+         <xsl:map-entry key="'Ἧκε'" select="'ἥκω'"/>
          <xsl:map-entry key="'ἥκει'" select="'ἥκω'"/>
          <xsl:map-entry key="'ἧκεν'" select="'ἥκω'"/>
          <xsl:map-entry key="'ἠκηδίασαν'" select="'ἀκηδιάω'"/>
          <xsl:map-entry key="'ἠκονημένα'" select="'ἀκονάω'"/>
          <xsl:map-entry key="'ἠκονημένον'" select="'ἀκονάω'"/>
          <xsl:map-entry key="'ἠκόνησαν'" select="'ἀκονάω'"/>
+         <xsl:map-entry key="'ἥκοντα'" select="'ἥκω'"/>
          <xsl:map-entry key="'ἤκουεν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουον'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουσα'" select="'ἀκούω'"/>
          <xsl:map-entry key="'Ἤκουσά'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἠκούσαμεν'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἡκούσαμεν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουσαν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουσας'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἠκούσατε'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουσε'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἤκουσεν'" select="'ἀκούω'"/>
          <xsl:map-entry key="'ἥκω'" select="'ἥκω'"/>
-         <xsl:map-entry key="'ἠλαττόνησεν'" select="'ἐλαττονέω'"/>
+         <xsl:map-entry key="'Ἤλ'" select="'Ἤλ'"/>
+         <xsl:map-entry key="'ἠλαττόνησεν'" select="'ἐλασσονέω'"/>
          <xsl:map-entry key="'ἠλαττωμένον'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'Ἠλάττωσας'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'ἠλάττωσε'" select="'ἐλασσόω'"/>
          <xsl:map-entry key="'ἠλαύνετο'" select="'ἐλαύνω'"/>
          <xsl:map-entry key="'ἤλγησαν'" select="'ἀλγέω'"/>
          <xsl:map-entry key="'ἠλέγξαμεν'" select="'ἐλέγχω'"/>
+         <xsl:map-entry key="'ἠλέγχθη'" select="'ἐλέγχω'"/>
          <xsl:map-entry key="'ἠλέησε'" select="'ἐλεέω'"/>
          <xsl:map-entry key="'Ηλειας'" select="'Ἠλίας'"/>
          <xsl:map-entry key="'ηλευθερωνται'" select="'ἐλευθερόω'"/>
@@ -12312,6 +13270,9 @@
          <xsl:map-entry key="'ἡλιακός'" select="'ἡλιακός'"/>
          <xsl:map-entry key="'Ἠλίαν'" select="'Ἠλίας'"/>
          <xsl:map-entry key="'Ἠλίας'" select="'Ἠλίας'"/>
+         <xsl:map-entry key="'ἠλίθιοι'" select="'ἠλίθιος'"/>
+         <xsl:map-entry key="'ἠλίθιος'" select="'ἠλίθιος'"/>
+         <xsl:map-entry key="'ἠλιθίων'" select="'ἠλίθιος'"/>
          <xsl:map-entry key="'ἡλικία'" select="'ἡλικία'"/>
          <xsl:map-entry key="'ἡλικίας'" select="'ἡλικία'"/>
          <xsl:map-entry key="'ἡλίκος'" select="'ἡλίκος'"/>
@@ -12339,7 +13300,9 @@
          <xsl:map-entry key="'ἤλπισα'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἤλπισεν'" select="'ἐλπίζω'"/>
          <xsl:map-entry key="'ἥλῳ'" select="'ἧλος'"/>
+         <xsl:map-entry key="'ἥλων'" select="'ἧλος'"/>
          <xsl:map-entry key="'ἥμαρτεν'" select="'ἁμαρτάνω'"/>
+         <xsl:map-entry key="'ἥμαρτες'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἡμαρτηκότος'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἥμαρτον'" select="'ἁμαρτάνω'"/>
          <xsl:map-entry key="'ἡμέρα'" select="'ἡμέρα'"/>
@@ -12362,6 +13325,8 @@
          <xsl:map-entry key="'ἡμετέρᾳ'" select="'ἡμέτερος'"/>
          <xsl:map-entry key="'ἡμέτερος'" select="'ἡμέτερος'"/>
          <xsl:map-entry key="'ἡμετέρων'" select="'ἡμέτερος'"/>
+         <xsl:map-entry key="'ἡμιθνής'" select="'ἡμιθνής'"/>
+         <xsl:map-entry key="'ἡμιθνῆτα'" select="'ἡμιθνής'"/>
          <xsl:map-entry key="'ἡμίονοι'" select="'ἡμίονος'"/>
          <xsl:map-entry key="'ἡμιόνοις'" select="'ἡμίονος'"/>
          <xsl:map-entry key="'ἡμίονον'" select="'ἡμίονος'"/>
@@ -12383,6 +13348,7 @@
          <xsl:map-entry key="'ᾐνίξατο'" select="'αἰνίσσομαι'"/>
          <xsl:map-entry key="'ἡνίοχος'" select="'ἡνίοχος'"/>
          <xsl:map-entry key="'ἡνιόχου'" select="'ἡνίοχος'"/>
+         <xsl:map-entry key="'ἡνιόχῳ'" select="'ἡνίοχος'"/>
          <xsl:map-entry key="'ἤνοιγες'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἤνοιξα'" select="'ἀνοίγνυμι'"/>
          <xsl:map-entry key="'ἠνόμησαν'" select="'ἀνομέω'"/>
@@ -12398,6 +13364,7 @@
          <xsl:map-entry key="'ἥξουσι'" select="'ἥκω'"/>
          <xsl:map-entry key="'ηξουσιν'" select="'ἔχω'"/>
          <xsl:map-entry key="'ἥξω'" select="'ἥκω'"/>
+         <xsl:map-entry key="'Ἠπ'" select="'Ἠπ'"/>
          <xsl:map-entry key="'ἡπαλύνθησαν'" select="'ἁπαλύνω'"/>
          <xsl:map-entry key="'ἧπαρ'" select="'ἧπαρ'"/>
          <xsl:map-entry key="'ἠπατήθη'" select="'ἀπατάω'"/>
@@ -12421,6 +13388,9 @@
          <xsl:map-entry key="'ἠρεμήσῃ'" select="'ἠρεμέω'"/>
          <xsl:map-entry key="'ἠρεμία'" select="'ἠρεμία'"/>
          <xsl:map-entry key="'ἠρεμίᾳ'" select="'ἠρεμία'"/>
+         <xsl:map-entry key="'ἠρέμίᾳ'" select="'ἠρέμιος'"/>
+         <xsl:map-entry key="'ἠρεμίας'" select="'ἠρεμία'"/>
+         <xsl:map-entry key="'ἠρέμιος'" select="'ἠρέμιος'"/>
          <xsl:map-entry key="'ἠρεμοῦντος'" select="'ἠρεμέω'"/>
          <xsl:map-entry key="'ἦρεν'" select="'αἴρω'"/>
          <xsl:map-entry key="'ἠρημωμένη'" select="'ἐρημόω'"/>
@@ -12438,6 +13408,7 @@
          <xsl:map-entry key="'ἥρπαζεν'" select="'ἁρπάζω'"/>
          <xsl:map-entry key="'ἥρπασα'" select="'ἁρπάζω'"/>
          <xsl:map-entry key="'ἥρπασε'" select="'ἁρπάζω'"/>
+         <xsl:map-entry key="'ἤρτηται'" select="'ἀρτάω'"/>
          <xsl:map-entry key="'Ἠρώτησέ'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'ἠρώτων'" select="'ἐρωτάω'"/>
          <xsl:map-entry key="'Ἡσαίᾳ'" select="'Ἠσαΐας'"/>
@@ -12477,9 +13448,12 @@
          <xsl:map-entry key="'ἥσυχος'" select="'ἥσυχος'"/>
          <xsl:map-entry key="'ἠσχόληται'" select="'ἀσχολέω'"/>
          <xsl:map-entry key="'ᾐσχυνόμην'" select="'αἰσχύνω'"/>
+         <xsl:map-entry key="'ἠτάκτησας'" select="'ἀτακτέω'"/>
          <xsl:map-entry key="'ᾐτησάμην'" select="'αἰτέω'"/>
+         <xsl:map-entry key="'ᾔτησαν'" select="'αἰτέω'"/>
          <xsl:map-entry key="'ᾔτησας'" select="'αἰτέω'"/>
          <xsl:map-entry key="'ἠτίμασαν'" select="'ἀτιμάω'"/>
+         <xsl:map-entry key="'ἠτιμᾶσθαι'" select="'ἀτιμάζω'"/>
          <xsl:map-entry key="'ἤτοι'" select="'ἤτοι'"/>
          <xsl:map-entry key="'ἡτοίμασα'" select="'ἑτοιμάζω'"/>
          <xsl:map-entry key="'ἡτοίμασαν'" select="'ἑτοιμάζω'"/>
@@ -12491,24 +13465,26 @@
          <xsl:map-entry key="'ᾔτουν'" select="'αἰτέω'"/>
          <xsl:map-entry key="'ηττα'" select="'ἥσσων'"/>
          <xsl:map-entry key="'ἧτταν'" select="'ἧσσα'"/>
-         <xsl:map-entry key="'ἡττᾶσαι'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττάσθω'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττάω'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττηθεὶς'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττηθέντα'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττηθέντες'" select="'ἡττάω'"/>
-         <xsl:map-entry key="'ἡττηθέντος'" select="'ἡττάω'"/>
+         <xsl:map-entry key="'ἡττάομαι'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττᾶσαι'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττάσθω'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττηθεὶς'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττηθέντα'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττηθέντες'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττηθέντος'" select="'ἡσσάομαι'"/>
          <xsl:map-entry key="'ἡττηθέντων'" select="'ἡσσάομαι'"/>
-         <xsl:map-entry key="'ἡττηθῇς'" select="'ἡττάω'"/>
+         <xsl:map-entry key="'ἡττηθῇς'" select="'ἡσσάομαι'"/>
+         <xsl:map-entry key="'ἡττηθήσεται'" select="'ἡσσάομαι'"/>
          <xsl:map-entry key="'ἥττης'" select="'ἧσσα'"/>
-         <xsl:map-entry key="'ἥττησθε'" select="'ἡττάω'"/>
+         <xsl:map-entry key="'ἥττησθε'" select="'ἡσσάομαι'"/>
          <xsl:map-entry key="'ηττον'" select="'ἥσσων'"/>
          <xsl:map-entry key="'ἧττον'" select="'ἥσσων'"/>
          <xsl:map-entry key="'ἡττώμενοι'" select="'ἡσσάομαι'"/>
          <xsl:map-entry key="'ἡττώμενος'" select="'ἡσσάομαι'"/>
          <xsl:map-entry key="'ἡττωμένῳ'" select="'ἡσσάομαι'"/>
-         <xsl:map-entry key="'ἥττων'" select="'ἡττάω'"/>
+         <xsl:map-entry key="'ἥττων'" select="'ἥσσων'"/>
          <xsl:map-entry key="'ηὐλίσθην'" select="'αὐλίζομαι'"/>
+         <xsl:map-entry key="'ηὐλόγησε'" select="'εὐλογέω'"/>
          <xsl:map-entry key="'ηυξησε'" select="'αὐξάνω'"/>
          <xsl:map-entry key="'ηὐπόρησαν'" select="'εὐπορέω'"/>
          <xsl:map-entry key="'ηὐπόρησεν'" select="'εὐπορέω'"/>
@@ -12517,6 +13493,7 @@
          <xsl:map-entry key="'ηὐφράνθη'" select="'εὐφραίνω'"/>
          <xsl:map-entry key="'ἠφάνισεν'" select="'ἀφανίζω'"/>
          <xsl:map-entry key="'ἠχθέσθην'" select="'ἄχθομαι'"/>
+         <xsl:map-entry key="'ἤχθησαν'" select="'ἄγω'"/>
          <xsl:map-entry key="'ᾐχμαλώτευσας'" select="'αἰχμαλωτεύω'"/>
          <xsl:map-entry key="'ᾐχμαλώτευσεν'" select="'αἰχμαλωτεύω'"/>
          <xsl:map-entry key="'ἤχοις'" select="'ἦχος'"/>
@@ -12532,7 +13509,6 @@
          <xsl:map-entry key="'ἠώς'" select="'ἠώς'"/>
          <xsl:map-entry key="'Θαβὼρ'" select="'Θαβώρ'"/>
          <xsl:map-entry key="'Θαβώρ'" select="'Θαβώρ'"/>
-         <xsl:map-entry key="'θάζω'" select="'θάζω'"/>
          <xsl:map-entry key="'θάλασσα'" select="'θάλασσα'"/>
          <xsl:map-entry key="'Θάλασσα'" select="'θάλασσα'"/>
          <xsl:map-entry key="'θαλάσσαις'" select="'θάλασσα'"/>
@@ -12549,6 +13525,10 @@
          <xsl:map-entry key="'θάλλω'" select="'θάλλω'"/>
          <xsl:map-entry key="'θάμβος'" select="'θάμβος'"/>
          <xsl:map-entry key="'θαμβωι'" select="'θάμβος'"/>
+         <xsl:map-entry key="'Θαμμοὺζ'" select="'Θαμμούζ'"/>
+         <xsl:map-entry key="'Θαμμούζ'" select="'Θαμμούζ'"/>
+         <xsl:map-entry key="'θανάσιμος'" select="'θανάσιμος'"/>
+         <xsl:map-entry key="'θανασίμου'" select="'θανάσιμος'"/>
          <xsl:map-entry key="'θανάτοις'" select="'θάνατος'"/>
          <xsl:map-entry key="'θάνατον'" select="'θάνατος'"/>
          <xsl:map-entry key="'θάνατος'" select="'θάνατος'"/>
@@ -12597,6 +13577,7 @@
          <xsl:map-entry key="'θαυμάζοντας'" select="'θαυμάζω'"/>
          <xsl:map-entry key="'θαυμάζω'" select="'θαυμάζω'"/>
          <xsl:map-entry key="'Θαυμάζω'" select="'θαυμάζω'"/>
+         <xsl:map-entry key="'Θαύμασαι'" select="'θαυμάζω'"/>
          <xsl:map-entry key="'θαυμάσῃς'" select="'θαυμάζω'"/>
          <xsl:map-entry key="'θαυμάσια'" select="'θαυμάσιος'"/>
          <xsl:map-entry key="'θαυμάσιά'" select="'θαυμάσιος'"/>
@@ -12609,7 +13590,7 @@
          <xsl:map-entry key="'θαυμαστόν'" select="'θαυμαστός'"/>
          <xsl:map-entry key="'θαυμαστός'" select="'θαυμαστός'"/>
          <xsl:map-entry key="'θαυμαστὸς'" select="'θαυμαστός'"/>
-         <xsl:map-entry key="'θαυμαστῶς'" select="'θαυμαστός'"/>
+         <xsl:map-entry key="'θαυμαστῶς'" select="'θαυμαστῶς'"/>
          <xsl:map-entry key="'θαύματος'" select="'θαῦμα'"/>
          <xsl:map-entry key="'θάψαι'" select="'θάπτω'"/>
          <xsl:map-entry key="'θάψαντες'" select="'θάπτω'"/>
@@ -12635,6 +13616,7 @@
          <xsl:map-entry key="'θέατρον'" select="'θέατρον'"/>
          <xsl:map-entry key="'θεία'" select="'θεῖος'"/>
          <xsl:map-entry key="'θείᾳ'" select="'θεῖος'"/>
+         <xsl:map-entry key="'θεῖα'" select="'θεῖος'"/>
          <xsl:map-entry key="'θεῖαί'" select="'θεῖος'"/>
          <xsl:map-entry key="'θεῖαι'" select="'θεῖος'"/>
          <xsl:map-entry key="'θεῖαν'" select="'θεῖος'"/>
@@ -12654,6 +13636,8 @@
          <xsl:map-entry key="'θειοτέρα'" select="'θεῖος'"/>
          <xsl:map-entry key="'θειοτέρων'" select="'θεῖος'"/>
          <xsl:map-entry key="'θειου'" select="'θεῖος'"/>
+         <xsl:map-entry key="'θείου'" select="'θεῖος'"/>
+         <xsl:map-entry key="'θείους'" select="'θεῖος'"/>
          <xsl:map-entry key="'θείῳ'" select="'θεῖος'"/>
          <xsl:map-entry key="'θειώδη'" select="'θειώδης'"/>
          <xsl:map-entry key="'θειώδης'" select="'θειώδης'"/>
@@ -12664,17 +13648,21 @@
          <xsl:map-entry key="'Θεκωῖτις'" select="'Θεκωῖτις'"/>
          <xsl:map-entry key="'θέλγηστρον'" select="'θέλγητρον'"/>
          <xsl:map-entry key="'θέλγητρον'" select="'θέλγητρον'"/>
+         <xsl:map-entry key="'θέλγοντες'" select="'θέλγω'"/>
+         <xsl:map-entry key="'θέλγω'" select="'θέλγω'"/>
          <xsl:map-entry key="'θέλε'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλει'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλειν'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλεις'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλετε'" select="'ἐθέλω'"/>
+         <xsl:map-entry key="'θέλῃ'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θεληι'" select="'θέλω'"/>
          <xsl:map-entry key="'θελημα'" select="'θέλημα'"/>
          <xsl:map-entry key="'θέλημα'" select="'θέλημα'"/>
          <xsl:map-entry key="'θέλημά'" select="'θέλημα'"/>
          <xsl:map-entry key="'Θέλημα'" select="'θέλημα'"/>
          <xsl:map-entry key="'θελήμασι'" select="'θέλημα'"/>
+         <xsl:map-entry key="'θελήμασί'" select="'θέλημα'"/>
          <xsl:map-entry key="'θελήματα'" select="'θέλημα'"/>
          <xsl:map-entry key="'θεληματι'" select="'θέλημα'"/>
          <xsl:map-entry key="'θελήματι'" select="'θέλημα'"/>
@@ -12699,11 +13687,14 @@
          <xsl:map-entry key="'θέλουσι'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλουσιν'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλω'" select="'ἐθέλω'"/>
+         <xsl:map-entry key="'θέλωμεν'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θέλων'" select="'ἐθέλω'"/>
+         <xsl:map-entry key="'θέλωσι'" select="'ἐθέλω'"/>
          <xsl:map-entry key="'θεμέλια'" select="'θεμέλιος'"/>
          <xsl:map-entry key="'Θεμέλιον'" select="'θεμέλιος'"/>
          <xsl:map-entry key="'θεμέλιον'" select="'θεμέλιος'"/>
          <xsl:map-entry key="'θεμέλιος'" select="'θεμέλιος'"/>
+         <xsl:map-entry key="'θεμελίους'" select="'θεμέλιος'"/>
          <xsl:map-entry key="'θεμελιόω'" select="'θεμελιόω'"/>
          <xsl:map-entry key="'θεμελίῳ'" select="'θεμέλιος'"/>
          <xsl:map-entry key="'θεμελιώσας'" select="'θεμελιόω'"/>
@@ -12718,6 +13709,7 @@
          <xsl:map-entry key="'θεοί'" select="'θεός'"/>
          <xsl:map-entry key="'Θεοί'" select="'θεός'"/>
          <xsl:map-entry key="'θεοῖς'" select="'θεός'"/>
+         <xsl:map-entry key="'θεολογεῖν'" select="'θεολογέω'"/>
          <xsl:map-entry key="'θεολογέω'" select="'θεολογέω'"/>
          <xsl:map-entry key="'θεολογησηις'" select="'θεολογέω'"/>
          <xsl:map-entry key="'θεολογήσῃς'" select="'θεολογέω'"/>
@@ -12726,6 +13718,8 @@
          <xsl:map-entry key="'θεολογιαι'" select="'θεολογία'"/>
          <xsl:map-entry key="'θεολογιας'" select="'θεολογία'"/>
          <xsl:map-entry key="'θεολογίας'" select="'θεολογία'"/>
+         <xsl:map-entry key="'θεολογικὴ'" select="'θεολογικός'"/>
+         <xsl:map-entry key="'θεολογική'" select="'θεολογικός'"/>
          <xsl:map-entry key="'θεολογικήν'" select="'θεολογικός'"/>
          <xsl:map-entry key="'θεολογικὴν'" select="'θεολογικός'"/>
          <xsl:map-entry key="'θεολογικῆς'" select="'θεολογικός'"/>
@@ -12735,6 +13729,7 @@
          <xsl:map-entry key="'θεολογικούς'" select="'θεολογικός'"/>
          <xsl:map-entry key="'θεολογικῶν'" select="'θεολογικός'"/>
          <xsl:map-entry key="'θεολόγος'" select="'θεολόγος'"/>
+         <xsl:map-entry key="'θεολογοῦντες'" select="'θεολογέω'"/>
          <xsl:map-entry key="'θεολογῶν'" select="'θεολογέω'"/>
          <xsl:map-entry key="'θεομάχαι'" select="'θεομάχος'"/>
          <xsl:map-entry key="'θεομάχοι'" select="'θεομάχος'"/>
@@ -12744,6 +13739,7 @@
          <xsl:map-entry key="'θεον'" select="'θεός'"/>
          <xsl:map-entry key="'θεόν'" select="'θεός'"/>
          <xsl:map-entry key="'θεὸν'" select="'θεός'"/>
+         <xsl:map-entry key="'θέοντός'" select="'θέω'"/>
          <xsl:map-entry key="'θεοπάροχος'" select="'θεοπάροχος'"/>
          <xsl:map-entry key="'θεόπνευστον'" select="'θεόπνευστος'"/>
          <xsl:map-entry key="'θεόπνευστος'" select="'θεόπνευστος'"/>
@@ -12751,6 +13747,7 @@
          <xsl:map-entry key="'θεοποιῶν'" select="'θεοποιέω'"/>
          <xsl:map-entry key="'θεοπρεπῆ'" select="'θεοπρεπής'"/>
          <xsl:map-entry key="'θεοπρεπής'" select="'θεοπρεπής'"/>
+         <xsl:map-entry key="'θεοπρεπῶς'" select="'θεοπρεπῶς'"/>
          <xsl:map-entry key="'Θεός'" select="'θεός'"/>
          <xsl:map-entry key="'θεός'" select="'θεός'"/>
          <xsl:map-entry key="'θεος'" select="'θεός'"/>
@@ -12763,6 +13760,8 @@
          <xsl:map-entry key="'θεοσέβειαν'" select="'θεοσέβεια'"/>
          <xsl:map-entry key="'θεοσεβειας'" select="'θεοσέβεια'"/>
          <xsl:map-entry key="'θεοσεβείας'" select="'θεοσέβεια'"/>
+         <xsl:map-entry key="'θεοσεβεῖν'" select="'θεοσεβέω'"/>
+         <xsl:map-entry key="'θεοσεβέω'" select="'θεοσεβέω'"/>
          <xsl:map-entry key="'Θεοσεβὴς'" select="'θεοσεβής'"/>
          <xsl:map-entry key="'θεοσεβής'" select="'θεοσεβής'"/>
          <xsl:map-entry key="'θεότης'" select="'θεότης'"/>
@@ -12784,11 +13783,13 @@
          <xsl:map-entry key="'θεραπευει'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύει'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύειν'" select="'θεραπεύω'"/>
+         <xsl:map-entry key="'θεραπεύεσθαι'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύεται'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύομεν'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπευόμενα'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύοντα'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπεύοντες'" select="'θεραπεύω'"/>
+         <xsl:map-entry key="'θεραπεῦσαι'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεράπευσον'" select="'θεραπεύω'"/>
          <xsl:map-entry key="'θεραπευτικὴν'" select="'θεραπευτικός'"/>
          <xsl:map-entry key="'θεραπευτικός'" select="'θεραπευτικός'"/>
@@ -12806,9 +13807,11 @@
          <xsl:map-entry key="'θερισμός'" select="'θερισμός'"/>
          <xsl:map-entry key="'θερισμῷ'" select="'θερισμός'"/>
          <xsl:map-entry key="'θερίσωσιν'" select="'θερίζω'"/>
+         <xsl:map-entry key="'θερμαὶ'" select="'θερμός'"/>
          <xsl:map-entry key="'θερμαίνειν'" select="'θερμαίνω'"/>
          <xsl:map-entry key="'θερμαίνω'" select="'θερμαίνω'"/>
          <xsl:map-entry key="'θερμανθὲν'" select="'θερμαίνω'"/>
+         <xsl:map-entry key="'θερμανθῇ'" select="'θερμαίνω'"/>
          <xsl:map-entry key="'θερμανθῆναι'" select="'θερμαίνω'"/>
          <xsl:map-entry key="'θέρμη'" select="'θέρμη'"/>
          <xsl:map-entry key="'θέρμην'" select="'θέρμη'"/>
@@ -12820,22 +13823,27 @@
          <xsl:map-entry key="'θερμῶν'" select="'θερμός'"/>
          <xsl:map-entry key="'θέρος'" select="'θέρος'"/>
          <xsl:map-entry key="'θέρους'" select="'θέρος'"/>
+         <xsl:map-entry key="'θέσει'" select="'θέσις'"/>
          <xsl:map-entry key="'θέσθε'" select="'τίθημι'"/>
          <xsl:map-entry key="'θέσις'" select="'θέσις'"/>
          <xsl:map-entry key="'θεσπίζουσαν'" select="'θεσπίζω'"/>
          <xsl:map-entry key="'θεσπίζω'" select="'θεσπίζω'"/>
+         <xsl:map-entry key="'θετός'" select="'θετός'"/>
          <xsl:map-entry key="'θετοὺς'" select="'θετός'"/>
          <xsl:map-entry key="'Θεῷ'" select="'θεός'"/>
          <xsl:map-entry key="'θεῷ'" select="'θεός'"/>
+         <xsl:map-entry key="'θέω'" select="'θέω'"/>
          <xsl:map-entry key="'θεωι'" select="'θεός'"/>
          <xsl:map-entry key="'θεώμενος'" select="'θεάομαι'"/>
          <xsl:map-entry key="'θεῶν'" select="'θεός'"/>
+         <xsl:map-entry key="'θεωρεῖ'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρεῖν'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρειν'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρεῖται'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρέω'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρηθέντων'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεώρημα'" select="'θεώρημα'"/>
+         <xsl:map-entry key="'θεώρημά'" select="'θεώρημα'"/>
          <xsl:map-entry key="'θεωρήμασι'" select="'θεώρημα'"/>
          <xsl:map-entry key="'θεωρήμασιν'" select="'θεώρημα'"/>
          <xsl:map-entry key="'Θεωρήματα'" select="'θεώρημα'"/>
@@ -12857,6 +13865,7 @@
          <xsl:map-entry key="'θεωρητικὸς'" select="'θεωρητικός'"/>
          <xsl:map-entry key="'Θεωρητικός'" select="'θεωρητικός'"/>
          <xsl:map-entry key="'θεωρητικός'" select="'θεωρητικός'"/>
+         <xsl:map-entry key="'θεωρητικοῦ'" select="'θεωρητικός'"/>
          <xsl:map-entry key="'θεωρητικῶν'" select="'θεωρητικός'"/>
          <xsl:map-entry key="'θεωρητός'" select="'θεωρητός'"/>
          <xsl:map-entry key="'θεωρίᾳ'" select="'θεωρία'"/>
@@ -12882,6 +13891,7 @@
          <xsl:map-entry key="'θεωροῦντας'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωροῦντες'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρούντων'" select="'θεωρέω'"/>
+         <xsl:map-entry key="'θεωροῦσα'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρουσι'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωροῦσιν'" select="'θεωρέω'"/>
          <xsl:map-entry key="'θεωρῶν'" select="'θεωρέω'"/>
@@ -12918,6 +13928,7 @@
          <xsl:map-entry key="'θηριομαχέω'" select="'θηριομαχέω'"/>
          <xsl:map-entry key="'θηριομαχῶν'" select="'θηριομαχέω'"/>
          <xsl:map-entry key="'θηρίον'" select="'θηρίον'"/>
+         <xsl:map-entry key="'θηρίου'" select="'θηρίον'"/>
          <xsl:map-entry key="'θηριόω'" select="'θηριόω'"/>
          <xsl:map-entry key="'θηριωδεις'" select="'θηριώδης'"/>
          <xsl:map-entry key="'θηριώδεις'" select="'θηριώδης'"/>
@@ -12927,6 +13938,7 @@
          <xsl:map-entry key="'θηρὸς'" select="'θήρ'"/>
          <xsl:map-entry key="'θηρώμενος'" select="'θηράω'"/>
          <xsl:map-entry key="'θηρων'" select="'θήρα'"/>
+         <xsl:map-entry key="'θῇς'" select="'τίθημι'"/>
          <xsl:map-entry key="'θησαυρίζει'" select="'θησαυρίζω'"/>
          <xsl:map-entry key="'θησαυρίζεις'" select="'θησαυρίζω'"/>
          <xsl:map-entry key="'θησαυρίζω'" select="'θησαυρίζω'"/>
@@ -12953,7 +13965,7 @@
          <xsl:map-entry key="'θλίβεσθαι'" select="'θλίβω'"/>
          <xsl:map-entry key="'θλίβεσθαί'" select="'θλίβω'"/>
          <xsl:map-entry key="'θλίβεται'" select="'θλίβω'"/>
-         <xsl:map-entry key="'θλιβήσεται'" select="''"/>
+         <xsl:map-entry key="'θλιβήσεται'" select="'θλίβω'"/>
          <xsl:map-entry key="'θλιβόμενοι'" select="'θλίβω'"/>
          <xsl:map-entry key="'θλιβομένων'" select="'θλίβω'"/>
          <xsl:map-entry key="'θλίβον'" select="'θλίβω'"/>
@@ -13067,6 +14079,8 @@
          <xsl:map-entry key="'θυμικός'" select="'θυμικός'"/>
          <xsl:map-entry key="'θυμικοῦ'" select="'θυμικός'"/>
          <xsl:map-entry key="'θυμικῷ'" select="'θυμικός'"/>
+         <xsl:map-entry key="'θυμοειδές'" select="'θυμοειδής'"/>
+         <xsl:map-entry key="'θυμοειδής'" select="'θυμοειδής'"/>
          <xsl:map-entry key="'θυμομαχεῖν'" select="'θυμομαχέω'"/>
          <xsl:map-entry key="'θυμομαχέω'" select="'θυμομαχέω'"/>
          <xsl:map-entry key="'θυμομαχοῦντας'" select="'θυμομαχέω'"/>
@@ -13084,6 +14098,7 @@
          <xsl:map-entry key="'θυμούμενον'" select="'θυμόω'"/>
          <xsl:map-entry key="'θυμοὺς'" select="'θυμός'"/>
          <xsl:map-entry key="'θυμοῦσθαι'" select="'θυμόω'"/>
+         <xsl:map-entry key="'θυμοῦται'" select="'θυμόω'"/>
          <xsl:map-entry key="'θυμόω'" select="'θυμόω'"/>
          <xsl:map-entry key="'θυμῷ'" select="'θυμός'"/>
          <xsl:map-entry key="'θυμώδεις'" select="'θυμώδης'"/>
@@ -13091,6 +14106,7 @@
          <xsl:map-entry key="'θυμώδης'" select="'θυμώδης'"/>
          <xsl:map-entry key="'θυμώδους'" select="'θυμώδης'"/>
          <xsl:map-entry key="'Θυμώδους'" select="'θυμώδης'"/>
+         <xsl:map-entry key="'θυμωθῇς'" select="'θυμόω'"/>
          <xsl:map-entry key="'θυμωι'" select="'θυμός'"/>
          <xsl:map-entry key="'θύοντες'" select="'θύω'"/>
          <xsl:map-entry key="'θύρα'" select="'θύρα'"/>
@@ -13115,6 +14131,8 @@
          <xsl:map-entry key="'θυρίς'" select="'θυρίς'"/>
          <xsl:map-entry key="'θυρίσι'" select="'θυρίς'"/>
          <xsl:map-entry key="'θυρίσιν'" select="'θυρίς'"/>
+         <xsl:map-entry key="'θυρῶν'" select="'θύρα'"/>
+         <xsl:map-entry key="'θῦσαι'" select="'θύω'"/>
          <xsl:map-entry key="'θύσατε'" select="'θύω'"/>
          <xsl:map-entry key="'θυσάτωσαν'" select="'θύω'"/>
          <xsl:map-entry key="'θύσῃ'" select="'θύω'"/>
@@ -13141,15 +14159,22 @@
          <xsl:map-entry key="'θύσις'" select="'θύσις θῦσις'"/>
          <xsl:map-entry key="'θῦσον'" select="'θύω'"/>
          <xsl:map-entry key="'θύω'" select="'θύω'"/>
-         <xsl:map-entry key="'θῷ'" select="'θάζω'"/>
+         <xsl:map-entry key="'θῷ'" select="'τίθημι'"/>
+         <xsl:map-entry key="'Θωμᾷ'" select="'Θωμᾶς'"/>
+         <xsl:map-entry key="'Θωμᾶς'" select="'Θωμᾶς'"/>
          <xsl:map-entry key="'θώρακα'" select="'θώραξ'"/>
          <xsl:map-entry key="'θωρακίζω'" select="'θωρακίζω'"/>
          <xsl:map-entry key="'θωράκισον'" select="'θωρακίζω'"/>
          <xsl:map-entry key="'θώραξ'" select="'θώραξ'"/>
+         <xsl:map-entry key="'Ἰά'" select="'Ἰά'"/>
+         <xsl:map-entry key="'ἰαθεὶς'" select="'ἰάομαι'"/>
+         <xsl:map-entry key="'ἰαθείς'" select="'ἰάομαι'"/>
+         <xsl:map-entry key="'ἰάθη'" select="'ἰάομαι'"/>
          <xsl:map-entry key="'ἰαθησομένους'" select="'ἰάομαι'"/>
+         <xsl:map-entry key="'Ἰαΐε'" select="'Ἰαΐε'"/>
          <xsl:map-entry key="'Ἰακὼβ'" select="'Ἰακώβ'"/>
          <xsl:map-entry key="'Ἰακώβ'" select="'Ἰακώβ'"/>
-         <xsl:map-entry key="'Ἰάκωβος'" select="'Ἰάκωβος'"/>
+         <xsl:map-entry key="'Ἰάκωβος'" select="'Ἰακώβ'"/>
          <xsl:map-entry key="'ἴαμα'" select="'ἴαμα'"/>
          <xsl:map-entry key="'ιαμασιν'" select="'ἴαμα'"/>
          <xsl:map-entry key="'ἰαμάτων'" select="'ἴαμα'"/>
@@ -13170,7 +14195,13 @@
          <xsl:map-entry key="'ἰᾶται'" select="'ἰάομαι'"/>
          <xsl:map-entry key="'Ἰᾶται'" select="'ἰάομαι'"/>
          <xsl:map-entry key="'ἰατρεῖον'" select="'ἰατρεῖον'"/>
+         <xsl:map-entry key="'ἰατρικαὶ'" select="'ἰατρικός'"/>
+         <xsl:map-entry key="'ἰατρικήν'" select="'ἰατρικός'"/>
+         <xsl:map-entry key="'ἰατρικὴν'" select="'ἰατρικός'"/>
+         <xsl:map-entry key="'ἰατρικός'" select="'ἰατρικός'"/>
+         <xsl:map-entry key="'ἰατροὶ'" select="'ἰατρός'"/>
          <xsl:map-entry key="'ἰατρὸν'" select="'ἰατρός'"/>
+         <xsl:map-entry key="'ἰατρόν'" select="'ἰατρός'"/>
          <xsl:map-entry key="'ἰατρός'" select="'ἰατρός'"/>
          <xsl:map-entry key="'ἰατρὸς'" select="'ἰατρός'"/>
          <xsl:map-entry key="'ἰατροῦ'" select="'ἰατρός'"/>
@@ -13180,12 +14211,12 @@
          <xsl:map-entry key="'ἰγνύαις'" select="'ἰγνύα'"/>
          <xsl:map-entry key="'Ἴδε'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδε'" select="'εἶδον'"/>
-         <xsl:map-entry key="'ἰδὲ'" select="'ἰδέ'"/>
-         <xsl:map-entry key="'ἰδέ'" select="'ἰδέ'"/>
+         <xsl:map-entry key="'ἰδὲ'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἰδέα'" select="'ἰδέα'"/>
          <xsl:map-entry key="'ἰδέαν'" select="'ἰδέα'"/>
          <xsl:map-entry key="'ἰδεῖν'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδετε'" select="'εἶδον'"/>
+         <xsl:map-entry key="'ἰδέ'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἰδέτωσαν'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδῃ'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδῃς'" select="'εἶδον'"/>
@@ -13194,6 +14225,11 @@
          <xsl:map-entry key="'ἰδίᾳ'" select="'ἴδιος'"/>
          <xsl:map-entry key="'Ἴδια'" select="'ἴδιος'"/>
          <xsl:map-entry key="'Ἰδία'" select="'ἴδιος'"/>
+         <xsl:map-entry key="'ἰδία'" select="'ἴδιος'"/>
+         <xsl:map-entry key="'ἰδιάζον'" select="'ἰδιάζω'"/>
+         <xsl:map-entry key="'Ἰδιάζοντα'" select="'ἰδιάζω'"/>
+         <xsl:map-entry key="'ἰδιάζοντα'" select="'ἰδιάζω'"/>
+         <xsl:map-entry key="'ἰδιάζω'" select="'ἰδιάζω'"/>
          <xsl:map-entry key="'ιδιαι'" select="'ἴδιος'"/>
          <xsl:map-entry key="'ἰδίαις'" select="'ἴδιος'"/>
          <xsl:map-entry key="'ἰδίαν'" select="'ἴδιος'"/>
@@ -13209,8 +14245,11 @@
          <xsl:map-entry key="'ἰδίου'" select="'ἴδιος'"/>
          <xsl:map-entry key="'ἰδίους'" select="'ἴδιος'"/>
          <xsl:map-entry key="'ἰδίῳ'" select="'ἴδιος'"/>
+         <xsl:map-entry key="'ἰδίωμα'" select="'ἰδίωμα'"/>
+         <xsl:map-entry key="'ἰδιώμασιν'" select="'ἰδίωμα'"/>
          <xsl:map-entry key="'ἰδίων'" select="'ἴδιος'"/>
-         <xsl:map-entry key="'ιδιως'" select="'ἴδιος'"/>
+         <xsl:map-entry key="'ιδιως'" select="'ἰδίως'"/>
+         <xsl:map-entry key="'ἰδίως'" select="'ἰδίως'"/>
          <xsl:map-entry key="'ἴδοι'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδοις'" select="'εἶδον'"/>
          <xsl:map-entry key="'Ἰδοὺ'" select="'ἰδού'"/>
@@ -13220,10 +14259,12 @@
          <xsl:map-entry key="'Ἰδουμαῖα'" select="'Ἰδουμαῖα'"/>
          <xsl:map-entry key="'Ἰδουμαίαν'" select="'Ἰδουμαῖα'"/>
          <xsl:map-entry key="'ἱδρυμένων'" select="'ἱδρύω'"/>
+         <xsl:map-entry key="'ἵδρυται'" select="'ἱδρύω'"/>
          <xsl:map-entry key="'ἱδρύω'" select="'ἱδρύω'"/>
          <xsl:map-entry key="'ἱδρώς'" select="'ἱδρώς'"/>
          <xsl:map-entry key="'ιδρωτι'" select="'ἱδρώς'"/>
          <xsl:map-entry key="'ἴδωμεν'" select="'εἶδον'"/>
+         <xsl:map-entry key="'Ἴδωμεν'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἰδὼν'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδωσί'" select="'εἶδον'"/>
          <xsl:map-entry key="'ἴδωσι'" select="'εἶδον'"/>
@@ -13232,6 +14273,7 @@
          <xsl:map-entry key="'Ἰεζεκιήλ'" select="'Ἰεζεκιήλ'"/>
          <xsl:map-entry key="'ἱερά'" select="'ἱερός'"/>
          <xsl:map-entry key="'ἱερὰν'" select="'ἱερός'"/>
+         <xsl:map-entry key="'ἱερατικόν'" select="'ἱερατικός'"/>
          <xsl:map-entry key="'ἱερατικός'" select="'ἱερατικός'"/>
          <xsl:map-entry key="'ἱερατικοὺς'" select="'ἱερατικός'"/>
          <xsl:map-entry key="'ἱερέα'" select="'ἱερεύς'"/>
@@ -13254,17 +14296,17 @@
          <xsl:map-entry key="'ἱερὸν'" select="'ἱερός'"/>
          <xsl:map-entry key="'ἱερός'" select="'ἱερός'"/>
          <xsl:map-entry key="'ἱερὸς'" select="'ἱερός'"/>
-         <xsl:map-entry key="'Ἰεροσόλυμα'" select="'Ἰεροσόλυμα'"/>
-         <xsl:map-entry key="'Ἱεροσόλυμα'" select="'Ἰεροσόλυμα'"/>
-         <xsl:map-entry key="'Ἱεροσολύμων'" select="'Ἰεροσόλυμα'"/>
+         <xsl:map-entry key="'Ἰεροσόλυμα'" select="'Ἱερουσαλήμ'"/>
+         <xsl:map-entry key="'Ἱεροσόλυμα'" select="'Ἱερουσαλήμ'"/>
+         <xsl:map-entry key="'Ἱεροσολύμων'" select="'Ἱερουσαλήμ'"/>
          <xsl:map-entry key="'ἱεροῦ'" select="'ἱερός'"/>
          <xsl:map-entry key="'ἱερουργικόν'" select="'ἱερουργικός'"/>
          <xsl:map-entry key="'ἱερουργικός'" select="'ἱερουργικός'"/>
          <xsl:map-entry key="'Ιερους'" select="'ἱερός'"/>
-         <xsl:map-entry key="'Ιερουσαλημ'" select="'Ἰεροσόλυμα'"/>
+         <xsl:map-entry key="'Ιερουσαλημ'" select="'Ἱερουσαλήμ'"/>
          <xsl:map-entry key="'Ἱερουσαλήμ'" select="'Ἱερουσαλήμ'"/>
          <xsl:map-entry key="'Ἱερουσαλὴμ'" select="'Ἱερουσαλήμ'"/>
-         <xsl:map-entry key="'ἱερουσαλὴμ'" select="'Ἰεροσόλυμα'"/>
+         <xsl:map-entry key="'ἱερουσαλὴμ'" select="'Ἱερουσαλήμ'"/>
          <xsl:map-entry key="'ἱερυχὼ'" select="'Ἰεριχώ'"/>
          <xsl:map-entry key="'ἱερῷ'" select="'ἱερός'"/>
          <xsl:map-entry key="'ιερωι'" select="'ἱερός'"/>
@@ -13276,6 +14318,7 @@
          <xsl:map-entry key="'ἱερωσύνης'" select="'ἱερωσύνη'"/>
          <xsl:map-entry key="'Ἰεσσαί'" select="'Ἰεσσαί'"/>
          <xsl:map-entry key="'ἵημι'" select="'ἵημι'"/>
+         <xsl:map-entry key="'Ἰηπ'" select="'Ἰηπ'"/>
          <xsl:map-entry key="'Ἰησοῦ'" select="'Ἰησοῦς'"/>
          <xsl:map-entry key="'ἰησοῦ'" select="'Ἰησοῦς'"/>
          <xsl:map-entry key="'ἰησοῦν'" select="'Ἰησοῦς'"/>
@@ -13286,8 +14329,10 @@
          <xsl:map-entry key="'ἱκανὸν'" select="'ἱκανός'"/>
          <xsl:map-entry key="'ἱκανός'" select="'ἱκανός'"/>
          <xsl:map-entry key="'ἱκανὸς'" select="'ἱκανός'"/>
+         <xsl:map-entry key="'ἱκανοὺς'" select="'ἱκανός'"/>
+         <xsl:map-entry key="'ἱκανῷ'" select="'ἱκανός'"/>
          <xsl:map-entry key="'ικανως'" select="'ἱκανῶς'"/>
-         <xsl:map-entry key="'ἱκανῶς'" select="'ἱκανός'"/>
+         <xsl:map-entry key="'ἱκανῶς'" select="'ἱκανῶς'"/>
          <xsl:map-entry key="'ἱκεσία'" select="'ἱκεσία'"/>
          <xsl:map-entry key="'ἱκεσίαν'" select="'ἱκεσία'"/>
          <xsl:map-entry key="'ἱκεσίας'" select="'ἱκεσία'"/>
@@ -13302,13 +14347,14 @@
          <xsl:map-entry key="'ἱκετηρίαν'" select="'ἱκετήριος'"/>
          <xsl:map-entry key="'ἱκετήριος'" select="'ἱκετήριος'"/>
          <xsl:map-entry key="'ἱκέτης'" select="'ἱκέτης'"/>
+         <xsl:map-entry key="'ἰκρίον'" select="'ἰκρίον'"/>
          <xsl:map-entry key="'Ἴκτερος'" select="'ἴκτερος'"/>
          <xsl:map-entry key="'ἴκτερος'" select="'ἴκτερος'"/>
          <xsl:map-entry key="'ιλαρον'" select="'ἱλαρός'"/>
          <xsl:map-entry key="'ἱλαρός'" select="'ἱλαρός'"/>
          <xsl:map-entry key="'ἱλαρότης'" select="'ἱλαρότης'"/>
          <xsl:map-entry key="'ἱλαρότητι'" select="'ἱλαρότης'"/>
-         <xsl:map-entry key="'ἱλαρῶς'" select="'ἱλαρός'"/>
+         <xsl:map-entry key="'ἱλαρῶς'" select="'ἱλαρῶς'"/>
          <xsl:map-entry key="'ἰλὺν'" select="'ἰλύς'"/>
          <xsl:map-entry key="'ἱμάτια'" select="'ἱμάτιον'"/>
          <xsl:map-entry key="'ἱμάτιά'" select="'ἱμάτιον'"/>
@@ -13319,6 +14365,8 @@
          <xsl:map-entry key="'ἱματίων'" select="'ἱμάτιον'"/>
          <xsl:map-entry key="'Ἰνδίας'" select="'Ἴνδιος'"/>
          <xsl:map-entry key="'Ἴνδιος'" select="'Ἴνδιος'"/>
+         <xsl:map-entry key="'ἰξευτής'" select="'ἰξευτής'"/>
+         <xsl:map-entry key="'ἰξευτοῦ'" select="'ἰξευτής'"/>
          <xsl:map-entry key="'ἰοβόλα'" select="'ἰοβόλος'"/>
          <xsl:map-entry key="'ἰοβόλος'" select="'ἰοβόλος'"/>
          <xsl:map-entry key="'ἰοβόλων'" select="'ἰοβόλος'"/>
@@ -13339,6 +14387,9 @@
          <xsl:map-entry key="'Ἰουδαία'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ιουδαιας'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ἰουδαίας'" select="'Ἰουδαῖος'"/>
+         <xsl:map-entry key="'Ἰουδαϊκός'" select="'Ἰουδαικός'"/>
+         <xsl:map-entry key="'ἰουδαϊκοῦ'" select="'Ἰουδαϊκός'"/>
+         <xsl:map-entry key="'ἰουδαϊκῷ'" select="'Ἰουδαϊκός'"/>
          <xsl:map-entry key="'Ἰουδαῖοι'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ἰουδαίοις'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ιουδαιον'" select="'Ἰουδαῖος'"/>
@@ -13347,6 +14398,7 @@
          <xsl:map-entry key="'Ἰουδαίους'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ἰουδαίῳ'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ἰουδαίων'" select="'Ἰουδαῖος'"/>
+         <xsl:map-entry key="'ἰουδαίων'" select="'Ἰουδαῖος'"/>
          <xsl:map-entry key="'Ἰούδαν'" select="'Ἰούδας'"/>
          <xsl:map-entry key="'Ἰούδας'" select="'Ἰούδας'"/>
          <xsl:map-entry key="'ἰοὺς'" select="'ἰός'"/>
@@ -13361,6 +14413,7 @@
          <xsl:map-entry key="'Ἵππος'" select="'ἵππος'"/>
          <xsl:map-entry key="'ἵππου'" select="'ἵππος'"/>
          <xsl:map-entry key="'ἵππους'" select="'ἵππος'"/>
+         <xsl:map-entry key="'ἵππῳ'" select="'ἵππος'"/>
          <xsl:map-entry key="'ἵπταται'" select="'πέτομαι'"/>
          <xsl:map-entry key="'ισα'" select="'ἴσος'"/>
          <xsl:map-entry key="'Ισαακ'" select="'Ἰσαάκ'"/>
@@ -13382,8 +14435,10 @@
          <xsl:map-entry key="'ἰσόζυγος'" select="'ἰσόζυγος'"/>
          <xsl:map-entry key="'ισοι'" select="'ἴσος'"/>
          <xsl:map-entry key="'ισον'" select="'ἴσος'"/>
+         <xsl:map-entry key="'ἴσον'" select="'ἴσος'"/>
          <xsl:map-entry key="'ἴσος'" select="'ἴσος'"/>
          <xsl:map-entry key="'ἰσότης'" select="'ἰσότης'"/>
+         <xsl:map-entry key="'ἰσότησιν'" select="'ἰσότης'"/>
          <xsl:map-entry key="'ισοτητα'" select="'ἰσότης'"/>
          <xsl:map-entry key="'ισοτητος'" select="'ἰσότης'"/>
          <xsl:map-entry key="'ἴσου'" select="'ἴσος'"/>
@@ -13401,6 +14456,7 @@
          <xsl:map-entry key="'ἱστάμενος'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἱσταμένων'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἵστανται'" select="'ἵστημι'"/>
+         <xsl:map-entry key="'ἱστᾶσι'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ισταται'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἵσταται'" select="'ἵστημι'"/>
          <xsl:map-entry key="'Ἵσταται'" select="'ἵστημι'"/>
@@ -13424,6 +14480,7 @@
          <xsl:map-entry key="'ἱστοριῶν'" select="'ἱστορία'"/>
          <xsl:map-entry key="'ἴστω'" select="'οἶδα'"/>
          <xsl:map-entry key="'ἱστῶν'" select="'ἱστάω'"/>
+         <xsl:map-entry key="'ἴστωσαν'" select="'οἶδα'"/>
          <xsl:map-entry key="'ἱστῶσι'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἱστῶσιν'" select="'ἵστημι'"/>
          <xsl:map-entry key="'ἰσχύει'" select="'ἰσχύω'"/>
@@ -13442,8 +14499,9 @@
          <xsl:map-entry key="'ἰσχυρότερα'" select="'ἰσχυρός'"/>
          <xsl:map-entry key="'ἰσχυρότεροι'" select="'ἰσχυρός'"/>
          <xsl:map-entry key="'ἰσχυρότερος'" select="'ἰσχυρός'"/>
+         <xsl:map-entry key="'ἰσχυροῦ'" select="'ἰσχυρός'"/>
          <xsl:map-entry key="'ἰσχυροὺς'" select="'ἰσχυρός'"/>
-         <xsl:map-entry key="'ἰσχυρῶς'" select="'ἰσχυρός'"/>
+         <xsl:map-entry key="'ἰσχυρῶς'" select="'ἰσχυρῶς'"/>
          <xsl:map-entry key="'ἰσχύς'" select="'ἰσχύς'"/>
          <xsl:map-entry key="'ἰσχὺς'" select="'ἰσχύς'"/>
          <xsl:map-entry key="'ἴσχυσα'" select="'ἰσχύω'"/>
@@ -13454,9 +14512,10 @@
          <xsl:map-entry key="'ἰσχύσῃ'" select="'ἰσχύω'"/>
          <xsl:map-entry key="'ἰσχύσουσι'" select="'ἰσχύω'"/>
          <xsl:map-entry key="'ἰσχύσωσι'" select="'ἰσχύω'"/>
+         <xsl:map-entry key="'ἰσχύσωσί'" select="'ἰσχύω'"/>
          <xsl:map-entry key="'ἰσχύω'" select="'ἰσχύω'"/>
          <xsl:map-entry key="'ισωθησονται'" select="'ἰσόω'"/>
-         <xsl:map-entry key="'ἴσως'" select="'ἴσος'"/>
+         <xsl:map-entry key="'ἴσως'" select="'ἴσως'"/>
          <xsl:map-entry key="'ἰτέα'" select="'ἰτέα'"/>
          <xsl:map-entry key="'ἰτέαις'" select="'ἰτέα'"/>
          <xsl:map-entry key="'ἰτεῶν'" select="'ἰτέα'"/>
@@ -13470,16 +14529,18 @@
          <xsl:map-entry key="'ἰχῶρος'" select="'ἰχώρ'"/>
          <xsl:map-entry key="'Ἰωὰβ'" select="'Ἰωάβ'"/>
          <xsl:map-entry key="'Ἰωάβ'" select="'Ἰωάβ'"/>
-         <xsl:map-entry key="'Ἰωάννην'" select="'Ἰώαννης'"/>
-         <xsl:map-entry key="'Ἰωάννης'" select="'Ἰώαννης'"/>
-         <xsl:map-entry key="'Ἰώαννης'" select="'Ἰώαννης'"/>
-         <xsl:map-entry key="'Ἰωάννου'" select="'Ἰώαννης'"/>
+         <xsl:map-entry key="'Ἰωάννην'" select="'Ἰωάννης'"/>
+         <xsl:map-entry key="'Ἰωάννης'" select="'Ἰωάννης'"/>
+         <xsl:map-entry key="'Ἰώαννης'" select="'Ἰωάννης'"/>
+         <xsl:map-entry key="'Ἰωάννου'" select="'Ἰωάννης'"/>
          <xsl:map-entry key="'Ἰὼβ'" select="'Ἰώβ'"/>
          <xsl:map-entry key="'Ἰώβ'" select="'Ἰώβ'"/>
+         <xsl:map-entry key="'Ἰωθ'" select="'Ἰωθ'"/>
          <xsl:map-entry key="'ἰώμενον'" select="'ἰάομαι'"/>
          <xsl:map-entry key="'ἰώμενος'" select="'ἰάομαι'"/>
          <xsl:map-entry key="'Ιωνα'" select="'Ἰωνᾶς'"/>
          <xsl:map-entry key="'Ἰωνᾷ'" select="'Ἰωνᾶς'"/>
+         <xsl:map-entry key="'Ἰωνᾶ'" select="'Ἰωνᾶς'"/>
          <xsl:map-entry key="'Ἰωνᾶς'" select="'Ἰωνᾶς'"/>
          <xsl:map-entry key="'ιωνται'" select="'ἰόντας'"/>
          <xsl:map-entry key="'Ἰώσηπος'" select="'Ἰώσηπος'"/>
@@ -13507,6 +14568,7 @@
          <xsl:map-entry key="'καθαίρω'" select="'καθαίρω'"/>
          <xsl:map-entry key="'Καθαίρων'" select="'καθαίρω'"/>
          <xsl:map-entry key="'καθαίρων'" select="'καθαίρω'"/>
+         <xsl:map-entry key="'καθάπτεται'" select="'καθάπτω'"/>
          <xsl:map-entry key="'καθάπτω'" select="'καθάπτω'"/>
          <xsl:map-entry key="'καθαρα'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαρὰ'" select="'καθαρός'"/>
@@ -13545,6 +14607,7 @@
          <xsl:map-entry key="'Καθαριότης'" select="'καθαριότης'"/>
          <xsl:map-entry key="'καθαριότης'" select="'καθαριότης'"/>
          <xsl:map-entry key="'καθαριότητα'" select="'καθαριότης'"/>
+         <xsl:map-entry key="'καθαρίσαι'" select="'καθαρίζω'"/>
          <xsl:map-entry key="'καθαρισατω'" select="'καθαρίζω'"/>
          <xsl:map-entry key="'καθαρισθέντα'" select="'καθαρίζω'"/>
          <xsl:map-entry key="'καθαρισθήσομαι'" select="'καθαρίζω'"/>
@@ -13555,14 +14618,17 @@
          <xsl:map-entry key="'καθαροί'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαροῖς'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαρὸν'" select="'καθαρός'"/>
+         <xsl:map-entry key="'καθαρόν'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαροποιεῖ'" select="'καθαροποιέω'"/>
          <xsl:map-entry key="'καθαροποιέω'" select="'καθαροποιέω'"/>
          <xsl:map-entry key="'καθαρός'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαρὸς'" select="'καθαρός'"/>
+         <xsl:map-entry key="'Καθαρὸς'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαροτης'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαρότης'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαρότητα'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαροτητα'" select="'καθαρότης'"/>
+         <xsl:map-entry key="'καθαρότητι'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαροτητος'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαρότητος'" select="'καθαρότης'"/>
          <xsl:map-entry key="'καθαρου'" select="'καθαρός'"/>
@@ -13575,9 +14641,9 @@
          <xsl:map-entry key="'κάθαρσις'" select="'κάθαρσις'"/>
          <xsl:map-entry key="'καθαρων'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαρῶν'" select="'καθαρός'"/>
-         <xsl:map-entry key="'καθαρως'" select="'καθαρός'"/>
-         <xsl:map-entry key="'καθαρὼς'" select="'καθαρός'"/>
-         <xsl:map-entry key="'καθαρῶς'" select="'καθαρός'"/>
+         <xsl:map-entry key="'καθαρως'" select="'καθαρῶς'"/>
+         <xsl:map-entry key="'καθαρὼς'" select="'καθαρῶς'"/>
+         <xsl:map-entry key="'καθαρῶς'" select="'καθαρῶς'"/>
          <xsl:map-entry key="'καθαρώτερον'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθαρώτερος'" select="'καθαρός'"/>
          <xsl:map-entry key="'καθάψηται'" select="'καθάπτω'"/>
@@ -13605,15 +14671,21 @@
          <xsl:map-entry key="'καθέλκω'" select="'καθέλκω'"/>
          <xsl:map-entry key="'καθελόντες'" select="'καθαιρέω'"/>
          <xsl:map-entry key="'καθεσθεὶς'" select="'καθέζομαι'"/>
+         <xsl:map-entry key="'καθεστήκασιν'" select="'καθίστημι'"/>
          <xsl:map-entry key="'καθεστηκε'" select="'καθίστημι'"/>
          <xsl:map-entry key="'καθέστηκεν'" select="'καθίστημι'"/>
          <xsl:map-entry key="'καθεστως'" select="'καθίστημι'"/>
          <xsl:map-entry key="'καθεστωτες'" select="'καθίστημι'"/>
+         <xsl:map-entry key="'κάθετον'" select="'κάθετος'"/>
+         <xsl:map-entry key="'κάθετος'" select="'κάθετος'"/>
          <xsl:map-entry key="'καθεύδει'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθεύδειν'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθεύδῃς'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθευδήσῃς'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθευδοντας'" select="'καθεύδω'"/>
+         <xsl:map-entry key="'καθεύδοντας'" select="'καθεύδω'"/>
+         <xsl:map-entry key="'καθεύδοντες'" select="'καθεύδω'"/>
+         <xsl:map-entry key="'καθευδούσαις'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθεύδω'" select="'καθεύδω'"/>
          <xsl:map-entry key="'καθεύδων'" select="'καθεύδω'"/>
          <xsl:map-entry key="'κάθῃ'" select="'κάθημαι'"/>
@@ -13666,9 +14738,11 @@
          <xsl:map-entry key="'Καθὸ'" select="'καθό'"/>
          <xsl:map-entry key="'καθό'" select="'καθό'"/>
          <xsl:map-entry key="'κάθοδος'" select="'κάθοδος'"/>
+         <xsl:map-entry key="'καθόδους'" select="'κάθοδος'"/>
          <xsl:map-entry key="'καθολικῆς'" select="'καθολικός'"/>
          <xsl:map-entry key="'καθολικός'" select="'καθολικός'"/>
          <xsl:map-entry key="'καθόλου'" select="'καθόλου'"/>
+         <xsl:map-entry key="'καθορᾷ'" select="'καθοράω'"/>
          <xsl:map-entry key="'καθοραι'" select="'καθοράω'"/>
          <xsl:map-entry key="'καθορᾶσθαι'" select="'καθοράω'"/>
          <xsl:map-entry key="'καθορᾶται'" select="'καθοράω'"/>
@@ -13676,6 +14750,7 @@
          <xsl:map-entry key="'καθορῶμεν'" select="'καθοράω'"/>
          <xsl:map-entry key="'καθοσον'" select="'καθόσον'"/>
          <xsl:map-entry key="'καθόσον'" select="'καθόσον'"/>
+         <xsl:map-entry key="'καθότι'" select="'καθότι'"/>
          <xsl:map-entry key="'Κάθου'" select="'κάθημαι'"/>
          <xsl:map-entry key="'κάθου'" select="'κάθημαι'"/>
          <xsl:map-entry key="'καθυβρίζω'" select="'καθυβρίζω'"/>
@@ -13693,6 +14768,7 @@
          <xsl:map-entry key="'Καϊάφᾳ'" select="'Καϊάφας'"/>
          <xsl:map-entry key="'Καϊάφας'" select="'Καϊάφας'"/>
          <xsl:map-entry key="'καίει'" select="'καίω'"/>
+         <xsl:map-entry key="'καίειν'" select="'καίω'"/>
          <xsl:map-entry key="'καινὴ'" select="'καινός'"/>
          <xsl:map-entry key="'καινὴν'" select="'καινός'"/>
          <xsl:map-entry key="'καινὸν'" select="'καινός'"/>
@@ -13706,7 +14782,7 @@
          <xsl:map-entry key="'καίνω'" select="'καίνω'"/>
          <xsl:map-entry key="'καινωι'" select="'καινός'"/>
          <xsl:map-entry key="'καινῶν'" select="'καινός'"/>
-         <xsl:map-entry key="'καινως'" select="'καινός'"/>
+         <xsl:map-entry key="'καινως'" select="'καινῶς'"/>
          <xsl:map-entry key="'καίομεν'" select="'καίω'"/>
          <xsl:map-entry key="'καιομένῃ'" select="'καίω'"/>
          <xsl:map-entry key="'καιομένην'" select="'καίω'"/>
@@ -13718,7 +14794,7 @@
          <xsl:map-entry key="'καιομένου'" select="'καίω'"/>
          <xsl:map-entry key="'καιομένῳ'" select="'καίω'"/>
          <xsl:map-entry key="'καίριος'" select="'καίριος'"/>
-         <xsl:map-entry key="'καιρίως'" select="'καίριος'"/>
+         <xsl:map-entry key="'καιρίως'" select="'καιρίως'"/>
          <xsl:map-entry key="'καιροῖς'" select="'καιρός'"/>
          <xsl:map-entry key="'καιρὸν'" select="'καιρός'"/>
          <xsl:map-entry key="'καιρον'" select="'καιρός'"/>
@@ -13744,7 +14820,6 @@
          <xsl:map-entry key="'κακαὶ'" select="'κακός'"/>
          <xsl:map-entry key="'κακάς'" select="'κακός'"/>
          <xsl:map-entry key="'κακεῖθεν'" select="'ἐκεῖθεν'"/>
-         <xsl:map-entry key="'κἀκεῖνα'" select="'ἐκεῖνος'"/>
          <xsl:map-entry key="'κἀκεῖσε'" select="'ἐκεῖσε'"/>
          <xsl:map-entry key="'κακη'" select="'κακός'"/>
          <xsl:map-entry key="'κακῇ'" select="'κακός'"/>
@@ -13764,6 +14839,7 @@
          <xsl:map-entry key="'κακῆς'" select="'κακός'"/>
          <xsl:map-entry key="'κακία'" select="'κακία'"/>
          <xsl:map-entry key="'κακίᾳ'" select="'κακία'"/>
+         <xsl:map-entry key="'Κακία'" select="'κακία'"/>
          <xsl:map-entry key="'κακίαι'" select="'κακία'"/>
          <xsl:map-entry key="'κακίαις'" select="'κακία'"/>
          <xsl:map-entry key="'κακιαν'" select="'κακία'"/>
@@ -13776,7 +14852,7 @@
          <xsl:map-entry key="'κακίστην'" select="'κακός'"/>
          <xsl:map-entry key="'Κάκιστόν'" select="'κακός'"/>
          <xsl:map-entry key="'Κάκιστον'" select="'κακός'"/>
-         <xsl:map-entry key="'κακίστως'" select="'κακός'"/>
+         <xsl:map-entry key="'κακίστως'" select="'κακίστως'"/>
          <xsl:map-entry key="'κακιῶν'" select="'κακία'"/>
          <xsl:map-entry key="'κακιων'" select="'κακία'"/>
          <xsl:map-entry key="'κακογνώμοσιν'" select="'κακογνώμων'"/>
@@ -13784,6 +14860,7 @@
          <xsl:map-entry key="'κακοι'" select="'κακός'"/>
          <xsl:map-entry key="'κακοὶ'" select="'κακός'"/>
          <xsl:map-entry key="'κακοῖς'" select="'κακός'"/>
+         <xsl:map-entry key="'κακολογεῖν'" select="'κακολογέω'"/>
          <xsl:map-entry key="'κακολογέω'" select="'κακολογέω'"/>
          <xsl:map-entry key="'κακολογήσαντας'" select="'κακολογέω'"/>
          <xsl:map-entry key="'κακολογήσει'" select="'κακολογέω'"/>
@@ -13793,13 +14870,14 @@
          <xsl:map-entry key="'κακομηχανίας'" select="'κακομηχανία'"/>
          <xsl:map-entry key="'κακόν'" select="'κακός'"/>
          <xsl:map-entry key="'κακὸν'" select="'κακός'"/>
-         <xsl:map-entry key="'κακόνα'" select="'κακόνους'"/>
-         <xsl:map-entry key="'κακόνους'" select="'κακόνους'"/>
+         <xsl:map-entry key="'κακόνα'" select="'κανών'"/>
          <xsl:map-entry key="'κακοπάθεια'" select="'κακοπάθεια'"/>
          <xsl:map-entry key="'κακοπαθείας'" select="'κακοπάθεια'"/>
          <xsl:map-entry key="'κακοπαρουχέω'" select="'κακοπαρουχέω'"/>
          <xsl:map-entry key="'κακοπαρουχούντων'" select="'κακοπαρουχέω'"/>
          <xsl:map-entry key="'κακοποιητικός'" select="'κακοποιητικός'"/>
+         <xsl:map-entry key="'κακοπραγία'" select="'κακοπραγία'"/>
+         <xsl:map-entry key="'κακοπραγίας'" select="'κακοπραγία'"/>
          <xsl:map-entry key="'κακός'" select="'κακός'"/>
          <xsl:map-entry key="'κακόσχολος'" select="'κακόσχολος'"/>
          <xsl:map-entry key="'κακοσχόλους'" select="'κακόσχολος'"/>
@@ -13829,7 +14907,7 @@
          <xsl:map-entry key="'κακῷ'" select="'κακός'"/>
          <xsl:map-entry key="'κακων'" select="'κακός'"/>
          <xsl:map-entry key="'κακῶν'" select="'κακός'"/>
-         <xsl:map-entry key="'κακῶς'" select="'κακός'"/>
+         <xsl:map-entry key="'κακῶς'" select="'κακῶς'"/>
          <xsl:map-entry key="'κακώσεως'" select="'κάκωσις'"/>
          <xsl:map-entry key="'κάκωσις'" select="'κάκωσις'"/>
          <xsl:map-entry key="'κακώσουσι'" select="'κακόω'"/>
@@ -13855,6 +14933,7 @@
          <xsl:map-entry key="'καληι'" select="'καλός'"/>
          <xsl:map-entry key="'καλὴν'" select="'καλός'"/>
          <xsl:map-entry key="'καλήν'" select="'καλός'"/>
+         <xsl:map-entry key="'καλῆται'" select="'καλέω'"/>
          <xsl:map-entry key="'κάλλει'" select="'κάλλος'"/>
          <xsl:map-entry key="'καλλιπονία'" select="'καλλιπονία'"/>
          <xsl:map-entry key="'κάλλιστα'" select="'καλός'"/>
@@ -13906,14 +14985,15 @@
          <xsl:map-entry key="'καλυπτουσιν'" select="'καλύπτω'"/>
          <xsl:map-entry key="'καλύπτουσιν'" select="'καλύπτω'"/>
          <xsl:map-entry key="'καλύπτω'" select="'καλύπτω'"/>
+         <xsl:map-entry key="'καλυφθήσεται'" select="'καλύπτω'"/>
          <xsl:map-entry key="'καλυφθητω'" select="'καλύπτω'"/>
          <xsl:map-entry key="'καλύψαι'" select="'καλύπτω'"/>
          <xsl:map-entry key="'καλῷ'" select="'καλός'"/>
          <xsl:map-entry key="'καλῶ'" select="'καλέω'"/>
          <xsl:map-entry key="'καλων'" select="'καλός'"/>
          <xsl:map-entry key="'καλῶν'" select="'καλός'"/>
-         <xsl:map-entry key="'καλῶς'" select="'καλός'"/>
-         <xsl:map-entry key="'Καλῶς'" select="'καλός'"/>
+         <xsl:map-entry key="'καλῶς'" select="'καλῶς'"/>
+         <xsl:map-entry key="'Καλῶς'" select="'καλῶς'"/>
          <xsl:map-entry key="'καλῶσιν'" select="'καλέω'"/>
          <xsl:map-entry key="'καμάρα'" select="'καμάρα'"/>
          <xsl:map-entry key="'καμάραν'" select="'καμάρα'"/>
@@ -13940,6 +15020,7 @@
          <xsl:map-entry key="'κανθάρους'" select="'κάνθαρος'"/>
          <xsl:map-entry key="'κανόνα'" select="'κανών'"/>
          <xsl:map-entry key="'κανόνας'" select="'κανών'"/>
+         <xsl:map-entry key="'κανόνος'" select="'κανών'"/>
          <xsl:map-entry key="'κἀνταῦθα'" select="'ἐνταῦθα'"/>
          <xsl:map-entry key="'κανών'" select="'κανών'"/>
          <xsl:map-entry key="'καπνιζόμενα'" select="'καπνίζω'"/>
@@ -13974,6 +15055,8 @@
          <xsl:map-entry key="'καρδιόω'" select="'καρδιόω'"/>
          <xsl:map-entry key="'καρδιῶν'" select="'καρδία'"/>
          <xsl:map-entry key="'καριτος'" select="'χάρις'"/>
+         <xsl:map-entry key="'κάρον'" select="'κάρος'"/>
+         <xsl:map-entry key="'κάρος'" select="'κάρος'"/>
          <xsl:map-entry key="'καρποις'" select="'καρπός'"/>
          <xsl:map-entry key="'καρποῖς'" select="'καρπός'"/>
          <xsl:map-entry key="'καρπὸν'" select="'καρπός'"/>
@@ -13996,6 +15079,7 @@
          <xsl:map-entry key="'καρποφορῶν'" select="'καρποφορέω'"/>
          <xsl:map-entry key="'καρπόω'" select="'καρπόω'"/>
          <xsl:map-entry key="'καρπῶν'" select="'καρπός'"/>
+         <xsl:map-entry key="'καρτερεῖν'" select="'καρτερέω'"/>
          <xsl:map-entry key="'καρτερέω'" select="'καρτερέω'"/>
          <xsl:map-entry key="'καρτερήσαντα'" select="'καρτερέω'"/>
          <xsl:map-entry key="'καρτέρησον'" select="'καρτερέω'"/>
@@ -14008,10 +15092,13 @@
          <xsl:map-entry key="'καρτερικῶν'" select="'καρτερικός'"/>
          <xsl:map-entry key="'καρτερός'" select="'καρτερός'"/>
          <xsl:map-entry key="'καρτερῶν'" select="'καρτερέω'"/>
-         <xsl:map-entry key="'καρτερῶς'" select="'καρτερός'"/>
+         <xsl:map-entry key="'καρτερῶς'" select="'καρτερῶς'"/>
+         <xsl:map-entry key="'καρυΐνην'" select="'καρύινος'"/>
+         <xsl:map-entry key="'καρύινος'" select="'καρύινος'"/>
          <xsl:map-entry key="'κάρφος'" select="'κάρφος'"/>
          <xsl:map-entry key="'κασσία'" select="'κασσία'"/>
          <xsl:map-entry key="'κασσίαν'" select="'κασσία'"/>
+         <xsl:map-entry key="'καταβαίνει'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'καταβαίνειν'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'καταβαινηι'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'καταβαῖνον'" select="'καταβαίνω'"/>
@@ -14038,6 +15125,7 @@
          <xsl:map-entry key="'καταβασεως'" select="'καταβολή'"/>
          <xsl:map-entry key="'καταβασις'" select="'καταβολή'"/>
          <xsl:map-entry key="'κατάβασις'" select="'κατάβασις'"/>
+         <xsl:map-entry key="'καταβέβληκε'" select="'καταβάλλω'"/>
          <xsl:map-entry key="'καταβεβλημένον'" select="'καταβάλλω'"/>
          <xsl:map-entry key="'καταβήσεται'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'καταβήτωσαν'" select="'καταβαίνω'"/>
@@ -14066,7 +15154,10 @@
          <xsl:map-entry key="'καταγέομαι'" select="'καθηγέομαι'"/>
          <xsl:map-entry key="'καταγεται'" select="'καταγέομαι'"/>
          <xsl:map-entry key="'καταγιγνώσκω'" select="'καταγιγνώσκω'"/>
+         <xsl:map-entry key="'καταγινώσκεσθαι'" select="'καταγιγνώσκω'"/>
+         <xsl:map-entry key="'καταγινώσκοντα'" select="'καταγιγνώσκω'"/>
          <xsl:map-entry key="'κατάγνωθι'" select="'καταγιγνώσκω'"/>
+         <xsl:map-entry key="'καταγνώσεται'" select="'καταγιγνώσκω'"/>
          <xsl:map-entry key="'καταγνώσεως'" select="'κατάγνωσις'"/>
          <xsl:map-entry key="'κατάγνωσις'" select="'κατάγνωσις'"/>
          <xsl:map-entry key="'καταγνωσόμεθα'" select="'καταγιγνώσκω'"/>
@@ -14078,6 +15169,8 @@
          <xsl:map-entry key="'καταδεξαμένοις'" select="'καταδέχομαι'"/>
          <xsl:map-entry key="'καταδεξάμενον'" select="'καταδέχομαι'"/>
          <xsl:map-entry key="'καταδέξῃ'" select="'καταδέχομαι'"/>
+         <xsl:map-entry key="'κατάδεσμος'" select="'κατάδεσμος'"/>
+         <xsl:map-entry key="'καταδέσμους'" select="'κατάδεσμος'"/>
          <xsl:map-entry key="'καταδέχεται'" select="'καταδέχομαι'"/>
          <xsl:map-entry key="'καταδέχηται'" select="'καταδέχομαι'"/>
          <xsl:map-entry key="'καταδέχομαι'" select="'καταδέχομαι'"/>
@@ -14109,6 +15202,7 @@
          <xsl:map-entry key="'καταιγίδος'" select="'καταιγίς'"/>
          <xsl:map-entry key="'καταιγίς'" select="'καταιγίς'"/>
          <xsl:map-entry key="'καταιγὶς'" select="'καταιγίς'"/>
+         <xsl:map-entry key="'καταισχυμμένος'" select="'καταισχύνω'"/>
          <xsl:map-entry key="'καταισχῦναι'" select="'καταισχύνω'"/>
          <xsl:map-entry key="'καταισχύνει'" select="'καταισχύνω'"/>
          <xsl:map-entry key="'καταισχύνῃς'" select="'καταισχύνω'"/>
@@ -14141,6 +15235,8 @@
          <xsl:map-entry key="'κατακεντέω'" select="'κατακεντέω'"/>
          <xsl:map-entry key="'κατακεντούμενος'" select="'κατακεντέω'"/>
          <xsl:map-entry key="'κατακλάω'" select="'κατακλάω'"/>
+         <xsl:map-entry key="'κατακοιμίζω'" select="'κατακοιμίζω'"/>
+         <xsl:map-entry key="'κατακοιμίσῃ'" select="'κατακοιμίζω'"/>
          <xsl:map-entry key="'κατακοπή'" select="'κατακοπή'"/>
          <xsl:map-entry key="'κατακρατειν'" select="'κατακρατέω'"/>
          <xsl:map-entry key="'κατακρατέω'" select="'κατακρατέω'"/>
@@ -14148,8 +15244,11 @@
          <xsl:map-entry key="'Κατακρατουσιν'" select="'κατακρατέω'"/>
          <xsl:map-entry key="'κατακρημνίζονται'" select="'κατακρημνίζω'"/>
          <xsl:map-entry key="'κατακρημνίζω'" select="'κατακρημνίζω'"/>
+         <xsl:map-entry key="'κατακριθῆναι'" select="'κατακρίνω'"/>
          <xsl:map-entry key="'κατακριμα'" select="'κατάκριμα'"/>
          <xsl:map-entry key="'κατάκριμα'" select="'κατάκριμα'"/>
+         <xsl:map-entry key="'κατακρίνοντας'" select="'κατακρίνω'"/>
+         <xsl:map-entry key="'κατακρίνω'" select="'κατακρίνω'"/>
          <xsl:map-entry key="'κατακρισεως'" select="'κατάκρισις'"/>
          <xsl:map-entry key="'κατακρίσεως'" select="'κατάκρισις'"/>
          <xsl:map-entry key="'κατάκρισις'" select="'κατάκρισις'"/>
@@ -14170,6 +15269,7 @@
          <xsl:map-entry key="'καταλάβοις'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλαβον'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλάβωσιν'" select="'καταλαμβάνω'"/>
+         <xsl:map-entry key="'καταλάλει'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλέω'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλιά'" select="'καταλαλιά'"/>
          <xsl:map-entry key="'καταλαλιᾷ'" select="'καταλαλιά'"/>
@@ -14180,9 +15280,12 @@
          <xsl:map-entry key="'καταλαλοῦντα'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλουντας'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλοῦντας'" select="'καταλαλέω'"/>
+         <xsl:map-entry key="'καταλαλοῦντος'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλούντων'" select="'καταλαλέω'"/>
          <xsl:map-entry key="'καταλαλοῦσα'" select="'καταλαλέω'"/>
+         <xsl:map-entry key="'καταλαμβάνεσθαι'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλαμβανεται'" select="'καταλαμβάνω'"/>
+         <xsl:map-entry key="'καταλαμβάνεται'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'Καταλαμβάνονται'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλαμβάνονται'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλαμβάνουσι'" select="'καταλαμβάνω'"/>
@@ -14195,8 +15298,8 @@
          <xsl:map-entry key="'καταλέγων'" select="'καταλέγω'"/>
          <xsl:map-entry key="'καταλείφω'" select="'καταλείφω'"/>
          <xsl:map-entry key="'κατάλειψις'" select="'κατάλειψις'"/>
-         <xsl:map-entry key="'καταλέλοιπας'" select="'καταλιμπάνω'"/>
-         <xsl:map-entry key="'καταλελοιπὼς'" select="'καταλιμπάνω'"/>
+         <xsl:map-entry key="'καταλέλοιπας'" select="'καταλείπω'"/>
+         <xsl:map-entry key="'καταλελοιπὼς'" select="'καταλείπω'"/>
          <xsl:map-entry key="'καταλέλυται'" select="'καταλύω'"/>
          <xsl:map-entry key="'καταλήγει'" select="'καταλήγω'"/>
          <xsl:map-entry key="'καταλήγοντες'" select="'καταλήγω'"/>
@@ -14204,6 +15307,8 @@
          <xsl:map-entry key="'καταληπτικη'" select="'καταληπτικός'"/>
          <xsl:map-entry key="'καταληπτικον'" select="'καταληπτικός'"/>
          <xsl:map-entry key="'καταληπτικός'" select="'καταληπτικός'"/>
+         <xsl:map-entry key="'καταληπτὸν'" select="'καταληπτός'"/>
+         <xsl:map-entry key="'καταληπτός'" select="'καταληπτός'"/>
          <xsl:map-entry key="'καταληψεται'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'καταλήψεται'" select="'καταλαμβάνω'"/>
          <xsl:map-entry key="'κατάληψιν'" select="'κατάληψις'"/>
@@ -14215,12 +15320,14 @@
          <xsl:map-entry key="'καταλιμπάνουσι'" select="'καταλιμπάνω'"/>
          <xsl:map-entry key="'καταλιμπάνουσιν'" select="'καταλιμπάνω'"/>
          <xsl:map-entry key="'καταλιμπάνω'" select="'καταλιμπάνω'"/>
-         <xsl:map-entry key="'καταλιπὼν'" select="'καταλιμπάνω'"/>
+         <xsl:map-entry key="'καταλιπὼν'" select="'καταλείπω'"/>
          <xsl:map-entry key="'καταλλαγή'" select="'καταλλαγή'"/>
          <xsl:map-entry key="'καταλλάσσω'" select="'καταλλάσσω'"/>
          <xsl:map-entry key="'καταλλάσσων'" select="'καταλλάσσω'"/>
+         <xsl:map-entry key="'κατάλληλαι'" select="'κατάλληλος'"/>
          <xsl:map-entry key="'κατάλληλοι'" select="'κατάλληλος'"/>
          <xsl:map-entry key="'κατάλληλος'" select="'κατάλληλος'"/>
+         <xsl:map-entry key="'καταλλήλως'" select="'καταλλήλως'"/>
          <xsl:map-entry key="'κατάλοιπα'" select="'κατάλοιπος'"/>
          <xsl:map-entry key="'καταλυμα'" select="'κατάλυμα'"/>
          <xsl:map-entry key="'κατάλυμα'" select="'κατάλυμα'"/>
@@ -14228,6 +15335,7 @@
          <xsl:map-entry key="'κατάλυπον'" select="'κατάλυπος'"/>
          <xsl:map-entry key="'κατάλυπος'" select="'κατάλυπος'"/>
          <xsl:map-entry key="'καταλῦσαι'" select="'καταλύω'"/>
+         <xsl:map-entry key="'καταλύσει'" select="'κατάλυσις'"/>
          <xsl:map-entry key="'καταλύσῃς'" select="'καταλύω'"/>
          <xsl:map-entry key="'κατάλυσιν'" select="'κατάλυσις'"/>
          <xsl:map-entry key="'κατάλυσις'" select="'κατάλυσις'"/>
@@ -14283,20 +15391,24 @@
          <xsl:map-entry key="'καταντησας'" select="'καταντάω'"/>
          <xsl:map-entry key="'καταντήσας'" select="'καταντάω'"/>
          <xsl:map-entry key="'καταντησωσι'" select="'καταντάω'"/>
+         <xsl:map-entry key="'κατανυγεὶς'" select="'κατανύσσω'"/>
          <xsl:map-entry key="'κατανυγῶ'" select="'κατανύσσω'"/>
          <xsl:map-entry key="'κατανύξει'" select="'κατάνυξις'"/>
          <xsl:map-entry key="'κατανύξεως'" select="'κατάνυξις'"/>
+         <xsl:map-entry key="'κατάνυξιν'" select="'κατάνυξις'"/>
          <xsl:map-entry key="'κατάνυξις'" select="'κατάνυξις'"/>
          <xsl:map-entry key="'κατανύξωμεν'" select="'κατανύσσω'"/>
-         <xsl:map-entry key="'κατανύσσομαι'" select="'κατανύσσομαι'"/>
-         <xsl:map-entry key="'κατανυσσομένης'" select="'κατανύσσομαι'"/>
+         <xsl:map-entry key="'κατανύσσει'" select="'κατανύσσω'"/>
+         <xsl:map-entry key="'κατανύσσομαι'" select="'κατανύσσω'"/>
+         <xsl:map-entry key="'κατανυσσομένης'" select="'κατανύσσω'"/>
          <xsl:map-entry key="'κατανύσσω'" select="'κατανύσσω'"/>
-         <xsl:map-entry key="'κατανυττομένῳ'" select="'κατανύσσομαι'"/>
+         <xsl:map-entry key="'κατανυττομένῳ'" select="'κατανύσσω'"/>
          <xsl:map-entry key="'κατανύττοντι'" select="'κατανύσσω'"/>
          <xsl:map-entry key="'καταξαι'" select="'καταξιόω'"/>
          <xsl:map-entry key="'κατάξει'" select="'κατάγω'"/>
          <xsl:map-entry key="'κατάξεις'" select="'κατάγω'"/>
          <xsl:map-entry key="'κατάξῃ'" select="'κατάγω'"/>
+         <xsl:map-entry key="'καταξιοῖ'" select="'καταξιόω'"/>
          <xsl:map-entry key="'καταξιούμεθα'" select="'καταξιόω'"/>
          <xsl:map-entry key="'καταξιούμενος'" select="'καταξιόω'"/>
          <xsl:map-entry key="'καταξιοῦται'" select="'καταξιόω'"/>
@@ -14337,6 +15449,9 @@
          <xsl:map-entry key="'καταπέσῃς'" select="'καταπίπτω'"/>
          <xsl:map-entry key="'καταπεσόντα'" select="'καταπίπτω'"/>
          <xsl:map-entry key="'καταπέσωσιν'" select="'καταπίπτω'"/>
+         <xsl:map-entry key="'καταπέτασμά'" select="'καταπέτασμα'"/>
+         <xsl:map-entry key="'καταπέτασμα'" select="'καταπέτασμα'"/>
+         <xsl:map-entry key="'καταπετάσματος'" select="'καταπέτασμα'"/>
          <xsl:map-entry key="'καταπέτομαι'" select="'καταπέτομαι'"/>
          <xsl:map-entry key="'καταπεφρόνηκας'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταπίεται'" select="'καταπίνω'"/>
@@ -14350,7 +15465,12 @@
          <xsl:map-entry key="'καταπίπτουσαν'" select="'καταπίπτω'"/>
          <xsl:map-entry key="'καταπίπτω'" select="'καταπίπτω'"/>
          <xsl:map-entry key="'καταπλαγέντες'" select="'καταπλάσσω'"/>
+         <xsl:map-entry key="'κατάπλασμα'" select="'κατάπλασμα'"/>
+         <xsl:map-entry key="'καταπλασμάτων'" select="'κατάπλασμα'"/>
          <xsl:map-entry key="'καταπλάσσω'" select="'καταπλάσσω'"/>
+         <xsl:map-entry key="'καταπλήσσεις'" select="'καταπλήσσω'"/>
+         <xsl:map-entry key="'καταπλήσσοντες'" select="'καταπλήσσω'"/>
+         <xsl:map-entry key="'καταπλήσσω'" select="'καταπλήσσω'"/>
          <xsl:map-entry key="'καταποθῇ'" select="'καταπίνω'"/>
          <xsl:map-entry key="'καταποντίζοντας'" select="'καταποντίζω'"/>
          <xsl:map-entry key="'καταποντίζουσα'" select="'καταποντίζω'"/>
@@ -14500,12 +15620,15 @@
          <xsl:map-entry key="'καταφρονεῖ'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονεῖν'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονέω'" select="'καταφρονέω'"/>
+         <xsl:map-entry key="'καταφρονῆσαι'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονήσαντας'" select="'καταφρονέω'"/>
+         <xsl:map-entry key="'καταφρονήσαντες'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονησει'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονήσῃς'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονήσητε'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρόνησιν'" select="'καταφρόνησις'"/>
          <xsl:map-entry key="'καταφρόνησις'" select="'καταφρόνησις'"/>
+         <xsl:map-entry key="'καταφρονήσομεν'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονοῦντας'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονοῦντες'" select="'καταφρονέω'"/>
          <xsl:map-entry key="'καταφρονοῦντι'" select="'καταφρονέω'"/>
@@ -14520,6 +15643,7 @@
          <xsl:map-entry key="'καταχθόνιοι'" select="'καταχθόνιος'"/>
          <xsl:map-entry key="'καταχθόνιον'" select="'καταχθόνιος'"/>
          <xsl:map-entry key="'καταχθόνιος'" select="'καταχθόνιος'"/>
+         <xsl:map-entry key="'καταχθονίου'" select="'καταχθόνιος'"/>
          <xsl:map-entry key="'καταχθονίους'" select="'καταχθόνιος'"/>
          <xsl:map-entry key="'καταχθονίων'" select="'καταχθόνιος'"/>
          <xsl:map-entry key="'καταχράω'" select="'καταχράω'"/>
@@ -14528,6 +15652,8 @@
          <xsl:map-entry key="'καταχρέῳ'" select="'κατάχρεος'"/>
          <xsl:map-entry key="'καταχρησεως'" select="'κατάχρησις'"/>
          <xsl:map-entry key="'κατάχρησις'" select="'κατάχρησις'"/>
+         <xsl:map-entry key="'καταχρηστικός'" select="'καταχρηστικός'"/>
+         <xsl:map-entry key="'καταχρηστικῶς'" select="'καταχρηστικῶς'"/>
          <xsl:map-entry key="'καταχρῶ'" select="'καταχράω'"/>
          <xsl:map-entry key="'καταψάλλομαι'" select="'καταψάλλομαι'"/>
          <xsl:map-entry key="'καταψάλλωμεν'" select="'καταψάλλομαι'"/>
@@ -14536,6 +15662,7 @@
          <xsl:map-entry key="'καταψυχρώσαντες'" select="'καταψύχω'"/>
          <xsl:map-entry key="'καταψύχω'" select="'καταψύχω'"/>
          <xsl:map-entry key="'κατέβαλεν'" select="'καταβάλλω'"/>
+         <xsl:map-entry key="'κατέβη'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'κατέβησαν'" select="'καταβαίνω'"/>
          <xsl:map-entry key="'κατεγέλασαν'" select="'καταγελάω'"/>
          <xsl:map-entry key="'κατέδεται'" select="'κατεσθίω'"/>
@@ -14563,7 +15690,7 @@
          <xsl:map-entry key="'κατελθόντι'" select="'κατέρχομαι'"/>
          <xsl:map-entry key="'κατελθούσας'" select="'κατέρχομαι'"/>
          <xsl:map-entry key="'κατελθών'" select="'κατέρχομαι'"/>
-         <xsl:map-entry key="'κατέλιπεν'" select="'καταλιμπάνω'"/>
+         <xsl:map-entry key="'κατέλιπεν'" select="'καταλείπω'"/>
          <xsl:map-entry key="'κατέμαθον'" select="'καταμανθάνω'"/>
          <xsl:map-entry key="'κατεμήνυσεν'" select="'καταμηνύω'"/>
          <xsl:map-entry key="'κατέναντι'" select="'κατέναντι'"/>
@@ -14604,6 +15731,7 @@
          <xsl:map-entry key="'κατέρραξας'" select="'καταρρήγνυμι'"/>
          <xsl:map-entry key="'κατερρίφη'" select="'καταρρίπτω'"/>
          <xsl:map-entry key="'κατεῤῥίφη'" select="'καταρρίπτω'"/>
+         <xsl:map-entry key="'κατέρχεται'" select="'κατέρχομαι'"/>
          <xsl:map-entry key="'κατέρχομαι'" select="'κατέρχομαι'"/>
          <xsl:map-entry key="'κατεσβεσαν'" select="'κατασβέννυμι'"/>
          <xsl:map-entry key="'κατεσθίει'" select="'κατεσθίω'"/>
@@ -14619,6 +15747,7 @@
          <xsl:map-entry key="'κατεσταλμένον'" select="'καταστέλλω'"/>
          <xsl:map-entry key="'κατέστελλε'" select="'καταστέλλω'"/>
          <xsl:map-entry key="'κατεστη'" select="'καθίστημι'"/>
+         <xsl:map-entry key="'κατεσχηκότι'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέσχον'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέτριψαν'" select="'κατατρίβω'"/>
          <xsl:map-entry key="'κατεύθυνα'" select="'κατευθύνω'"/>
@@ -14656,19 +15785,23 @@
          <xsl:map-entry key="'κατέχεται'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατεχομενοις'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατεχονται'" select="'κατέχω'"/>
+         <xsl:map-entry key="'κατέχονται'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέχοντες'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέχοντος'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέχουσάν'" select="'κατέχω'"/>
+         <xsl:map-entry key="'κατεχούσης'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατεχουσιν'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέχω'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέχων'" select="'κατέχω'"/>
          <xsl:map-entry key="'κατέψυξεν'" select="'καταψύχω'"/>
          <xsl:map-entry key="'κατήγαγές'" select="'κατάγω'"/>
          <xsl:map-entry key="'κατηγορει'" select="'κατηγορέω'"/>
+         <xsl:map-entry key="'κατηγόρει'" select="'κατηγορέω'"/>
          <xsl:map-entry key="'κατηγορέω'" select="'κατηγορέω'"/>
          <xsl:map-entry key="'κατηγορηι'" select="'κατηγορέω'"/>
          <xsl:map-entry key="'κατηγορία'" select="'κατηγορία'"/>
          <xsl:map-entry key="'κατηγορίας'" select="'κατηγορία'"/>
+         <xsl:map-entry key="'κατηγοροίη'" select="'κατηγορέω'"/>
          <xsl:map-entry key="'κατήγορον'" select="'κατήγορος'"/>
          <xsl:map-entry key="'κατηγορος'" select="'κατήγορος'"/>
          <xsl:map-entry key="'κατήγορος'" select="'κατήγορος'"/>
@@ -14682,7 +15815,9 @@
          <xsl:map-entry key="'κατηλλάγημεν'" select="'καταλλάσσω'"/>
          <xsl:map-entry key="'κατηλλάγησαν'" select="'καταλλάσσω'"/>
          <xsl:map-entry key="'κατηνέχθη'" select="'καταφέρω'"/>
+         <xsl:map-entry key="'κατηξιώθη'" select="'καταξιόω'"/>
          <xsl:map-entry key="'κατηξιωμένοι'" select="'καταξιόω'"/>
+         <xsl:map-entry key="'κατηξίωσέν'" select="'καταξιόω'"/>
          <xsl:map-entry key="'κατηρτισμένη'" select="'καταρτίζω'"/>
          <xsl:map-entry key="'κατηρτισμένοι'" select="'καταρτίζω'"/>
          <xsl:map-entry key="'κατηρτίσω'" select="'καταρτίζω'"/>
@@ -14749,21 +15884,27 @@
          <xsl:map-entry key="'κατορθόω'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατορθωθέντας'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατόρθωμα'" select="'κατόρθωμα'"/>
+         <xsl:map-entry key="'κατορθώμασι'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατορθώμασιν'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατορθωματα'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατορθώματα'" select="'κατόρθωμα'"/>
+         <xsl:map-entry key="'κατορθώματι'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατορθωμάτων'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατορθῶν'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατορθῶσαι'" select="'κατορθόω'"/>
+         <xsl:map-entry key="'κατορθώσαντας'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατορθώσαντες'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατορθώσας'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατορθώσασα'" select="'κατορθόω'"/>
+         <xsl:map-entry key="'κατορθώσει'" select="'κατόρθωσις'"/>
          <xsl:map-entry key="'κατορθώσεως'" select="'κατόρθωσις'"/>
          <xsl:map-entry key="'κατόρθωσιν'" select="'κατόρθωσις'"/>
          <xsl:map-entry key="'κατορθωσις'" select="'κατόρθωμα'"/>
          <xsl:map-entry key="'κατόρθωσις'" select="'κατόρθωσις'"/>
          <xsl:map-entry key="'κατοψόμεθα'" select="'καθοράω'"/>
+         <xsl:map-entry key="'κάτωθεν'" select="'κάτωθεν'"/>
          <xsl:map-entry key="'κατωρθούμην'" select="'κατορθόω'"/>
+         <xsl:map-entry key="'κατώρθωσαν'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατώρθωσας'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατώρθωσεν'" select="'κατορθόω'"/>
          <xsl:map-entry key="'κατώτατα'" select="'κατώτατος'"/>
@@ -14798,16 +15939,21 @@
          <xsl:map-entry key="'καύχησις'" select="'καύχησις'"/>
          <xsl:map-entry key="'καυχώμενοι'" select="'καυχάομαι'"/>
          <xsl:map-entry key="'καυχώμενος'" select="'καυχάομαι'"/>
+         <xsl:map-entry key="'καυχωμένῳ'" select="'καυχάομαι'"/>
+         <xsl:map-entry key="'καυχῶνται'" select="'καυχάομαι'"/>
          <xsl:map-entry key="'κέδροι'" select="'κέδρος'"/>
          <xsl:map-entry key="'κέδρος'" select="'κέδρος'"/>
          <xsl:map-entry key="'κέδρους'" select="'κέδρος'"/>
          <xsl:map-entry key="'κεῖμαι'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειμένη'" select="'κεῖμαι'"/>
+         <xsl:map-entry key="'κειμένοις'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κείμενον'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειμενου'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειμένου'" select="'κεῖμαι'"/>
+         <xsl:map-entry key="'κειμένους'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειμένων'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειμήλιον'" select="'κειμήλιον'"/>
+         <xsl:map-entry key="'κεῖνται'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κειρία'" select="'κειρία'"/>
          <xsl:map-entry key="'κειριῶν'" select="'κειρία'"/>
          <xsl:map-entry key="'κείρω'" select="'κείρω'"/>
@@ -14815,6 +15961,7 @@
          <xsl:map-entry key="'κεῖται'" select="'κεῖμαι'"/>
          <xsl:map-entry key="'κεκαθαρισμενοι'" select="'καθαρίζω'"/>
          <xsl:map-entry key="'κεκαθαρισμένον'" select="'καθαρίζω'"/>
+         <xsl:map-entry key="'κεκαθαρμένην'" select="'καθαίρω'"/>
          <xsl:map-entry key="'κεκαθαρμένοι'" select="'καθαρίζω'"/>
          <xsl:map-entry key="'κεκαθαρμένων'" select="'καθαίρω'"/>
          <xsl:map-entry key="'κεκαθηκέναι'" select="'καθήκω'"/>
@@ -14829,6 +15976,7 @@
          <xsl:map-entry key="'κεκλήρωται'" select="'κληρόω'"/>
          <xsl:map-entry key="'κεκληται'" select="'καλέω'"/>
          <xsl:map-entry key="'κέκληται'" select="'καλέω'"/>
+         <xsl:map-entry key="'κεκλοφέναι'" select="'κλέπτω'"/>
          <xsl:map-entry key="'κεκοινωνηκασι'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κεκολλῆσθαι'" select="'κολλάω'"/>
          <xsl:map-entry key="'κεκονιαμένον'" select="'κονιάω'"/>
@@ -14846,11 +15994,13 @@
          <xsl:map-entry key="'κεκράτηκεν'" select="'κρατέω'"/>
          <xsl:map-entry key="'κεκράτηται'" select="'κρατέω'"/>
          <xsl:map-entry key="'κεκρατηται'" select="'κρατέω'"/>
+         <xsl:map-entry key="'κεκρυμμένα'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κεκρυμμενης'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κεκρυμμένος'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κεκρυμμένων'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κεκρυπται'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κέκρυπται'" select="'κρύπτω'"/>
+         <xsl:map-entry key="'κεκρυφέναι'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κεκτηκοντα'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτημεθα'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτήμεθα'" select="'κτάομαι'"/>
@@ -14866,9 +16016,10 @@
          <xsl:map-entry key="'κεκτηναι'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτηνται'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κέκτηνται'" select="'κτάομαι'"/>
+         <xsl:map-entry key="'κέκτηνταί'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτῆσθαι'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτηται'" select="'κτάομαι'"/>
-         <xsl:map-entry key="'κέκτηται'" select="'κτέομαι'"/>
+         <xsl:map-entry key="'κέκτηται'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κεκτιμένον'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κέκτισται'" select="'κτίζω'"/>
          <xsl:map-entry key="'κελεύοι'" select="'κελεύω'"/>
@@ -14882,20 +16033,27 @@
          <xsl:map-entry key="'κέλλαν'" select="'κέλλα'"/>
          <xsl:map-entry key="'κέλλῃ'" select="'κέλλα'"/>
          <xsl:map-entry key="'κέλλης'" select="'κέλλα'"/>
+         <xsl:map-entry key="'Κελλία'" select="'κελλίον'"/>
          <xsl:map-entry key="'κελλίον'" select="'κελλίον'"/>
          <xsl:map-entry key="'κελλίου'" select="'κελλίον'"/>
          <xsl:map-entry key="'κελλίῳ'" select="'κελλίον'"/>
          <xsl:map-entry key="'κεναῖς'" select="'κενός'"/>
          <xsl:map-entry key="'κενή'" select="'κενός'"/>
          <xsl:map-entry key="'κενήν'" select="'κενός'"/>
+         <xsl:map-entry key="'κενοδοξεῖ'" select="'κενοδοξέω'"/>
+         <xsl:map-entry key="'κενοδοξέω'" select="'κενοδοξέω'"/>
+         <xsl:map-entry key="'κενοδοξήσας'" select="'κενοδοξέω'"/>
          <xsl:map-entry key="'κενοδοξία'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'κενοδοξίᾳ'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'Κενοδοξία'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'κενοδοξίαν'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'κενοδοξίας'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'κενοδοξιας'" select="'κενοδοξία'"/>
+         <xsl:map-entry key="'Κενοδοξίας'" select="'κενοδοξία'"/>
          <xsl:map-entry key="'κενόδοξον'" select="'κενόδοξος'"/>
          <xsl:map-entry key="'κενόδοξος'" select="'κενόδοξος'"/>
+         <xsl:map-entry key="'Κενόδοξός'" select="'κενόδοξος'"/>
+         <xsl:map-entry key="'κενόδοξός'" select="'κενόδοξος'"/>
          <xsl:map-entry key="'Κενοδόξου'" select="'κενόδοξος'"/>
          <xsl:map-entry key="'κενοδόξου'" select="'κενόδοξος'"/>
          <xsl:map-entry key="'κενοδόξῳ'" select="'κενόδοξος'"/>
@@ -14936,6 +16094,7 @@
          <xsl:map-entry key="'κερατιοῦμεν'" select="'κερατίζω'"/>
          <xsl:map-entry key="'κερδαίνω'" select="'κερδαίνω'"/>
          <xsl:map-entry key="'κερδᾶναι'" select="'κερδαίνω'"/>
+         <xsl:map-entry key="'κερδήσαντες'" select="'κερδαίνω'"/>
          <xsl:map-entry key="'κερδήσῃ'" select="'κερδαίνω'"/>
          <xsl:map-entry key="'κέρδος'" select="'κέρδος'"/>
          <xsl:map-entry key="'κερδους'" select="'κέρδος'"/>
@@ -14950,6 +16109,7 @@
          <xsl:map-entry key="'ΚΕΦΑΛΑΙΑ'" select="'κεφάλαιος'"/>
          <xsl:map-entry key="'κεφάλαια'" select="'κεφάλαιος'"/>
          <xsl:map-entry key="'κεφαλαίοις'" select="'κεφάλαιος'"/>
+         <xsl:map-entry key="'κεφάλαιον'" select="'κεφάλαιος'"/>
          <xsl:map-entry key="'κεφάλαιος'" select="'κεφάλαιος'"/>
          <xsl:map-entry key="'κεφαλαίῳ'" select="'κεφάλαιος'"/>
          <xsl:map-entry key="'κεφαλαιωδη'" select="'κεφαλαιώδης'"/>
@@ -14981,7 +16141,7 @@
          <xsl:map-entry key="'κέχρηται'" select="'χράω'"/>
          <xsl:map-entry key="'Κέχρηται'" select="'χράω'"/>
          <xsl:map-entry key="'κέχρισται'" select="'χρίω'"/>
-         <xsl:map-entry key="'κεχυμένως'" select="'χέω'"/>
+         <xsl:map-entry key="'κεχυμένως'" select="'κεχυμένως'"/>
          <xsl:map-entry key="'κεχωρήκαμεν'" select="'χωρέω'"/>
          <xsl:map-entry key="'κεχωρισμένας'" select="'χωρίζω'"/>
          <xsl:map-entry key="'κεχωρισμένην'" select="'χωρίζω'"/>
@@ -14990,6 +16150,8 @@
          <xsl:map-entry key="'κεχωρισμενων'" select="'χωρίζω'"/>
          <xsl:map-entry key="'κηδεμονία'" select="'κηδεμονία'"/>
          <xsl:map-entry key="'κηδεμονίαν'" select="'κηδεμονία'"/>
+         <xsl:map-entry key="'κηδεμὼν'" select="'κηδεμών'"/>
+         <xsl:map-entry key="'κηδεμών'" select="'κηδεμών'"/>
          <xsl:map-entry key="'κημός'" select="'κημός'"/>
          <xsl:map-entry key="'κημῷ'" select="'κημός'"/>
          <xsl:map-entry key="'κήνησον'" select="'κινέω'"/>
@@ -15016,6 +16178,7 @@
          <xsl:map-entry key="'κηρῦσσον'" select="'κηρύσσω'"/>
          <xsl:map-entry key="'κηρύσσω'" select="'κηρύσσω'"/>
          <xsl:map-entry key="'κήρυττε'" select="'κηρύσσω'"/>
+         <xsl:map-entry key="'κῆτος'" select="'κῆτος'"/>
          <xsl:map-entry key="'Κηφᾶς'" select="'Κηφεύς'"/>
          <xsl:map-entry key="'Κηφεύς'" select="'Κηφεύς'"/>
          <xsl:map-entry key="'Κηφὴν'" select="'κηφήν'"/>
@@ -15049,6 +16212,7 @@
          <xsl:map-entry key="'κινεῖσθαι'" select="'κινέω'"/>
          <xsl:map-entry key="'κινειται'" select="'κινέω'"/>
          <xsl:map-entry key="'κινεῖται'" select="'κινέω'"/>
+         <xsl:map-entry key="'Κινεῖται'" select="'κινέω'"/>
          <xsl:map-entry key="'κινέω'" select="'κινέω'"/>
          <xsl:map-entry key="'κινῇ'" select="'κινέω'"/>
          <xsl:map-entry key="'κινηθεῖσα'" select="'κινέω'"/>
@@ -15059,6 +16223,7 @@
          <xsl:map-entry key="'κίνημα'" select="'κίνημα'"/>
          <xsl:map-entry key="'κινημάτων'" select="'κίνημα'"/>
          <xsl:map-entry key="'κινῆσαι'" select="'κινέω'"/>
+         <xsl:map-entry key="'κινήσας'" select="'κινέω'"/>
          <xsl:map-entry key="'κινήσει'" select="'κινέω'"/>
          <xsl:map-entry key="'κινήσεις'" select="'κίνησις'"/>
          <xsl:map-entry key="'κινησεων'" select="'κίνησις'"/>
@@ -15073,6 +16238,7 @@
          <xsl:map-entry key="'κινναμώμου'" select="'κιννάμωμον'"/>
          <xsl:map-entry key="'κινοίη'" select="'κινέω'"/>
          <xsl:map-entry key="'κινούμεθα'" select="'κινέω'"/>
+         <xsl:map-entry key="'κινούμενα'" select="'κινέω'"/>
          <xsl:map-entry key="'κινουμένη'" select="'κινέω'"/>
          <xsl:map-entry key="'κινουμενη'" select="'κινέω'"/>
          <xsl:map-entry key="'κινουμένης'" select="'κινέω'"/>
@@ -15091,6 +16257,7 @@
          <xsl:map-entry key="'κινουσιν'" select="'κινέω'"/>
          <xsl:map-entry key="'κινοῦσιν'" select="'κινέω'"/>
          <xsl:map-entry key="'κινῶν'" select="'κινέω'"/>
+         <xsl:map-entry key="'κίσσα'" select="'κίσσα'"/>
          <xsl:map-entry key="'κιχρῶν'" select="'κιχράω'"/>
          <xsl:map-entry key="'κλάδοις'" select="'κλάδος'"/>
          <xsl:map-entry key="'κλάδος'" select="'κλάδος'"/>
@@ -15140,6 +16307,8 @@
          <xsl:map-entry key="'κλήματα'" select="'κλῆμα'"/>
          <xsl:map-entry key="'κληματίδες'" select="'κληματίς'"/>
          <xsl:map-entry key="'κληματίς'" select="'κληματίς'"/>
+         <xsl:map-entry key="'κληροδοσία'" select="'κληροδοσία'"/>
+         <xsl:map-entry key="'κληροδοσίας'" select="'κληροδοσία'"/>
          <xsl:map-entry key="'κλῆροί'" select="'κλῆρος'"/>
          <xsl:map-entry key="'Κλῆροι'" select="'κλῆρος'"/>
          <xsl:map-entry key="'κλῆροι'" select="'κλῆρος'"/>
@@ -15200,6 +16369,7 @@
          <xsl:map-entry key="'κλιμάκων'" select="'κλῖμαξ'"/>
          <xsl:map-entry key="'κλιμαξ'" select="'κλῖμαξ'"/>
          <xsl:map-entry key="'κλῖμαξ'" select="'κλῖμαξ'"/>
+         <xsl:map-entry key="'Κλῖμαξ'" select="'κλῖμαξ'"/>
          <xsl:map-entry key="'κλίνας'" select="'κλίνη'"/>
          <xsl:map-entry key="'Κλίνει'" select="'κλίνω'"/>
          <xsl:map-entry key="'Κλινη'" select="'κλίνη'"/>
@@ -15218,6 +16388,7 @@
          <xsl:map-entry key="'κλονεῖσθαι'" select="'κλονέω'"/>
          <xsl:map-entry key="'κλονεῖται'" select="'κλονέω'"/>
          <xsl:map-entry key="'κλονέω'" select="'κλονέω'"/>
+         <xsl:map-entry key="'κλόνον'" select="'κλόνος'"/>
          <xsl:map-entry key="'κλόνος'" select="'κλόνος'"/>
          <xsl:map-entry key="'κλόνου'" select="'κλόνος'"/>
          <xsl:map-entry key="'κλοπή'" select="'κλοπή'"/>
@@ -15232,6 +16403,7 @@
          <xsl:map-entry key="'κνήμαις'" select="'κνήμη'"/>
          <xsl:map-entry key="'κνίδη'" select="'κνίδη'"/>
          <xsl:map-entry key="'κοδραντην'" select="'κοδράντης'"/>
+         <xsl:map-entry key="'κοδράντην'" select="'κοδράντης'"/>
          <xsl:map-entry key="'κοδράντης'" select="'κοδράντης'"/>
          <xsl:map-entry key="'κοδράντου'" select="'κοδράντης'"/>
          <xsl:map-entry key="'κοδράτην'" select="'κοδράτης'"/>
@@ -15251,6 +16423,7 @@
          <xsl:map-entry key="'κοιμᾶται'" select="'κοιμάω'"/>
          <xsl:map-entry key="'κοιμάω'" select="'κοιμάω'"/>
          <xsl:map-entry key="'κοιμηθῆτε'" select="'κοιμάω'"/>
+         <xsl:map-entry key="'κοιμηθῶσιν'" select="'κοιμάω'"/>
          <xsl:map-entry key="'κοιμήσει'" select="'κοίμησις'"/>
          <xsl:map-entry key="'κοίμησίς'" select="'κοίμησις'"/>
          <xsl:map-entry key="'κοίμησις'" select="'κοίμησις'"/>
@@ -15261,6 +16434,8 @@
          <xsl:map-entry key="'κοίμωτρον'" select="'κοίμωτρον'"/>
          <xsl:map-entry key="'κοινά'" select="'κοινός'"/>
          <xsl:map-entry key="'κοινὰ'" select="'κοινός'"/>
+         <xsl:map-entry key="'κοιναὶ'" select="'κοινός'"/>
+         <xsl:map-entry key="'κοινῇ'" select="'κοινός'"/>
          <xsl:map-entry key="'κοινην'" select="'κοινός'"/>
          <xsl:map-entry key="'κοινης'" select="'κοινός'"/>
          <xsl:map-entry key="'κοινοβίοις'" select="'κοινόβιον'"/>
@@ -15278,11 +16453,13 @@
          <xsl:map-entry key="'κοινῷ'" select="'κοινός'"/>
          <xsl:map-entry key="'κοινωνειν'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνέω'" select="'κοινωνέω'"/>
+         <xsl:map-entry key="'κοινωνησάντων'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνήσας'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνήσει'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνησουσι'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνία'" select="'κοινωνία'"/>
          <xsl:map-entry key="'κοινωνίᾳ'" select="'κοινωνία'"/>
+         <xsl:map-entry key="'κοινωνίαν'" select="'κοινωνία'"/>
          <xsl:map-entry key="'κοινωνίας'" select="'κοινωνία'"/>
          <xsl:map-entry key="'κοινωνοι'" select="'κοινωνός'"/>
          <xsl:map-entry key="'κοινωνοὶ'" select="'κοινωνός'"/>
@@ -15291,7 +16468,8 @@
          <xsl:map-entry key="'κοινωνουσαν'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινωνουσιν'" select="'κοινωνέω'"/>
          <xsl:map-entry key="'κοινως'" select="'κοινώς'"/>
-         <xsl:map-entry key="'κοινώς'" select="'κοινός'"/>
+         <xsl:map-entry key="'κοινώς'" select="'κοινῶς'"/>
+         <xsl:map-entry key="'κοινῶς'" select="'κοινῶς'"/>
          <xsl:map-entry key="'κοιτάζει'" select="'κοιτάζω'"/>
          <xsl:map-entry key="'κοιταζουμένη'" select="'κοιτάζω'"/>
          <xsl:map-entry key="'κοιτάζω'" select="'κοιτάζω'"/>
@@ -15309,6 +16487,7 @@
          <xsl:map-entry key="'κολάζειν'" select="'κολάζω'"/>
          <xsl:map-entry key="'κολάζεται'" select="'κολάζω'"/>
          <xsl:map-entry key="'κολάζοντα'" select="'κολάζω'"/>
+         <xsl:map-entry key="'Κολάζονται'" select="'κολάζω'"/>
          <xsl:map-entry key="'κολάζουσι'" select="'κολάζω'"/>
          <xsl:map-entry key="'κολάζω'" select="'κολάζω'"/>
          <xsl:map-entry key="'κολακείᾳ'" select="'κολακεία'"/>
@@ -15335,6 +16514,7 @@
          <xsl:map-entry key="'κολλᾶται'" select="'κολλάω'"/>
          <xsl:map-entry key="'κολλάω'" select="'κολλάω'"/>
          <xsl:map-entry key="'κολλούριον'" select="'κολλούριον'"/>
+         <xsl:map-entry key="'κολλουρίων'" select="'κολλούριον'"/>
          <xsl:map-entry key="'κολλυβισταῖς'" select="'κολλυβιστής'"/>
          <xsl:map-entry key="'κολλυβιστής'" select="'κολλυβιστής'"/>
          <xsl:map-entry key="'κολλύριον'" select="'κολλύριον'"/>
@@ -15350,10 +16530,12 @@
          <xsl:map-entry key="'κόλπου'" select="'κόλπος'"/>
          <xsl:map-entry key="'κόλπους'" select="'κόλπος'"/>
          <xsl:map-entry key="'κόλπῳ'" select="'κόλπος'"/>
+         <xsl:map-entry key="'κολυμβήθρας'" select="'κολυμβήθρα'"/>
          <xsl:map-entry key="'κομάω'" select="'κομάω'"/>
          <xsl:map-entry key="'κόμη'" select="'κόμη'"/>
          <xsl:map-entry key="'κόμης'" select="'κόμης'"/>
          <xsl:map-entry key="'κόμητες'" select="'κόμης'"/>
+         <xsl:map-entry key="'κομίζειν'" select="'κομίζω'"/>
          <xsl:map-entry key="'κομίζεσθαι'" select="'κομίζω'"/>
          <xsl:map-entry key="'κομίζῃ'" select="'κομίζω'"/>
          <xsl:map-entry key="'κομιζόμενοι'" select="'κομίζω'"/>
@@ -15394,10 +16576,12 @@
          <xsl:map-entry key="'κόπους'" select="'κόπος'"/>
          <xsl:map-entry key="'κοπόω'" select="'κοπόω'"/>
          <xsl:map-entry key="'κόπτε'" select="'κόπτω'"/>
+         <xsl:map-entry key="'Κόπτε'" select="'κόπτω'"/>
          <xsl:map-entry key="'κόπτειν'" select="'κόπτω'"/>
          <xsl:map-entry key="'κόπτοντος'" select="'κόπτω'"/>
          <xsl:map-entry key="'κόπτω'" select="'κόπτω'"/>
          <xsl:map-entry key="'κόπτων'" select="'κόπτω'"/>
+         <xsl:map-entry key="'κόπῳ'" select="'κόπος'"/>
          <xsl:map-entry key="'κοπωθεῖσαν'" select="'κοπόω'"/>
          <xsl:map-entry key="'κοπων'" select="'κόπος'"/>
          <xsl:map-entry key="'κόπων'" select="'κόπος'"/>
@@ -15405,6 +16589,7 @@
          <xsl:map-entry key="'κόρακας'" select="'κόραξ'"/>
          <xsl:map-entry key="'Κόρακες'" select="'κόραξ'"/>
          <xsl:map-entry key="'κόρακες'" select="'κόραξ'"/>
+         <xsl:map-entry key="'Κόρακές'" select="'κόραξ'"/>
          <xsl:map-entry key="'κοράκων'" select="'κόραξ'"/>
          <xsl:map-entry key="'κόραξ'" select="'κόραξ'"/>
          <xsl:map-entry key="'κορεννύμενος'" select="'κορέννυμι'"/>
@@ -15425,7 +16610,9 @@
          <xsl:map-entry key="'κορυφή'" select="'κορυφή'"/>
          <xsl:map-entry key="'κορυφὴν'" select="'κορυφή'"/>
          <xsl:map-entry key="'κόρῳ'" select="'κόρος'"/>
+         <xsl:map-entry key="'κοσμεῖ'" select="'κοσμέω'"/>
          <xsl:map-entry key="'κοσμέω'" select="'κοσμέω'"/>
+         <xsl:map-entry key="'κοσμηθῆναι'" select="'κοσμέω'"/>
          <xsl:map-entry key="'κόσμησιν'" select="'κόσμησις'"/>
          <xsl:map-entry key="'κόσμησις'" select="'κόσμησις'"/>
          <xsl:map-entry key="'κοσμικαῖς'" select="'κοσμικός'"/>
@@ -15433,6 +16620,7 @@
          <xsl:map-entry key="'κοσμικὴ'" select="'κοσμικός'"/>
          <xsl:map-entry key="'κοσμικῇ'" select="'κοσμικός'"/>
          <xsl:map-entry key="'κοσμικὴν'" select="'κοσμικός'"/>
+         <xsl:map-entry key="'κοσμικοὶ'" select="'κοσμικός'"/>
          <xsl:map-entry key="'κοσμικοῖς'" select="'κοσμικός'"/>
          <xsl:map-entry key="'κοσμικὸν'" select="'κοσμικός'"/>
          <xsl:map-entry key="'κοσμικός'" select="'κοσμικός'"/>
@@ -15442,11 +16630,14 @@
          <xsl:map-entry key="'κοσμοι'" select="'κόσμος'"/>
          <xsl:map-entry key="'κοσμοις'" select="'κόσμος'"/>
          <xsl:map-entry key="'κόσμοις'" select="'κόσμος'"/>
+         <xsl:map-entry key="'κοσμοκράτορα'" select="'κοσμοκράτωρ'"/>
          <xsl:map-entry key="'κοσμοκράτορας'" select="'κοσμοκράτωρ'"/>
          <xsl:map-entry key="'κοσμοκράτωρ'" select="'κοσμοκράτωρ'"/>
          <xsl:map-entry key="'κοσμον'" select="'κόσμος'"/>
          <xsl:map-entry key="'κόσμον'" select="'κόσμος'"/>
          <xsl:map-entry key="'Κόσμον'" select="'κόσμος'"/>
+         <xsl:map-entry key="'κοσμοποιία'" select="'κοσμοποιία'"/>
+         <xsl:map-entry key="'κοσμοποιΐας'" select="'κοσμοποιία'"/>
          <xsl:map-entry key="'κόσμος'" select="'κόσμος'"/>
          <xsl:map-entry key="'Κοσμος'" select="'κόσμος'"/>
          <xsl:map-entry key="'Κόσμος'" select="'κόσμος'"/>
@@ -15461,6 +16652,7 @@
          <xsl:map-entry key="'κότος'" select="'κότος'"/>
          <xsl:map-entry key="'κοτου'" select="'κότος'"/>
          <xsl:map-entry key="'κουκούλλιον'" select="'κουκούλλιον'"/>
+         <xsl:map-entry key="'κοῦφα'" select="'κοῦφος'"/>
          <xsl:map-entry key="'κούφη'" select="'κοῦφος'"/>
          <xsl:map-entry key="'κούφης'" select="'κοῦφος'"/>
          <xsl:map-entry key="'κουφιζούμεναι'" select="'κουφίζω'"/>
@@ -15489,7 +16681,9 @@
          <xsl:map-entry key="'κρανίον'" select="'κρανίον'"/>
          <xsl:map-entry key="'κρανίῳ'" select="'κρανίον'"/>
          <xsl:map-entry key="'κρασει'" select="'κρᾶσις'"/>
+         <xsl:map-entry key="'κράσεις'" select="'κρᾶσις'"/>
          <xsl:map-entry key="'κρασεσι'" select="'κρᾶσις'"/>
+         <xsl:map-entry key="'κράσεσι'" select="'κρᾶσις'"/>
          <xsl:map-entry key="'κρασεως'" select="'κρᾶσις'"/>
          <xsl:map-entry key="'κράσεως'" select="'κρᾶσις'"/>
          <xsl:map-entry key="'κρασιν'" select="'κρᾶσις'"/>
@@ -15507,6 +16701,7 @@
          <xsl:map-entry key="'κραταίωσις'" select="'κραταίωσις'"/>
          <xsl:map-entry key="'κράτει'" select="'κράτος'"/>
          <xsl:map-entry key="'κρατεῖν'" select="'κρατέω'"/>
+         <xsl:map-entry key="'κρατεῖσθαι'" select="'κρατέω'"/>
          <xsl:map-entry key="'κρατείτω'" select="'κρατέω'"/>
          <xsl:map-entry key="'κρατέω'" select="'κρατέω'"/>
          <xsl:map-entry key="'κράτη'" select="'κράτος'"/>
@@ -15520,6 +16715,8 @@
          <xsl:map-entry key="'κράτησον'" select="'κρατέω'"/>
          <xsl:map-entry key="'κρατίστοις'" select="'κράτιστος'"/>
          <xsl:map-entry key="'κράτος'" select="'κράτος'"/>
+         <xsl:map-entry key="'κρατούμενοι'" select="'κρατέω'"/>
+         <xsl:map-entry key="'κρατοῦντος'" select="'κρατέω'"/>
          <xsl:map-entry key="'κράτους'" select="'κράτος'"/>
          <xsl:map-entry key="'κρατύνει'" select="'κρατύνω'"/>
          <xsl:map-entry key="'κρατύνω'" select="'κρατύνω'"/>
@@ -15538,11 +16735,13 @@
          <xsl:map-entry key="'κρείσσων'" select="'κρείσσων'"/>
          <xsl:map-entry key="'Κρείσσων'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρεῖττον'" select="'κρείσσων'"/>
+         <xsl:map-entry key="'κρείττονα'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρείττονι'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρείττονος'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρειττόνων'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρεῖττων'" select="'κρείσσων'"/>
          <xsl:map-entry key="'κρείττων'" select="'κρείσσων'"/>
+         <xsl:map-entry key="'κρεμάμενον'" select="'κρεμάννυμι'"/>
          <xsl:map-entry key="'κρεμάννυμι'" select="'κρεμάννυμι'"/>
          <xsl:map-entry key="'Κρεμάσας'" select="'κρεμάννυμι'"/>
          <xsl:map-entry key="'κρεμάσας'" select="'κρεμάννυμι'"/>
@@ -15556,9 +16755,11 @@
          <xsl:map-entry key="'κρημνός'" select="'κρημνός'"/>
          <xsl:map-entry key="'κρημνώδεις'" select="'κρημνώδης'"/>
          <xsl:map-entry key="'κρημνώδης'" select="'κρημνώδης'"/>
+         <xsl:map-entry key="'κριθέντες'" select="'κρίνω'"/>
          <xsl:map-entry key="'κριθῆναι'" select="'κρίνω'"/>
+         <xsl:map-entry key="'κριθήσονται'" select="'κρίνω'"/>
          <xsl:map-entry key="'κρίμα'" select="'κρίμα'"/>
-         <xsl:map-entry key="'κρῖμα'" select="'κρῖμα'"/>
+         <xsl:map-entry key="'κρῖμα'" select="'κρίμα'"/>
          <xsl:map-entry key="'κριματα'" select="'κρίμα'"/>
          <xsl:map-entry key="'κρίματα'" select="'κρίμα'"/>
          <xsl:map-entry key="'κρίματά'" select="'κρίμα'"/>
@@ -15599,17 +16800,21 @@
          <xsl:map-entry key="'κριτῇ'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτην'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτὴν'" select="'κριτής'"/>
+         <xsl:map-entry key="'κριτήν'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτήρια'" select="'κριτήριον'"/>
          <xsl:map-entry key="'κριτήριον'" select="'κριτήριον'"/>
          <xsl:map-entry key="'κριτηρίου'" select="'κριτήριον'"/>
          <xsl:map-entry key="'κριτης'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτής'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτὴς'" select="'κριτής'"/>
+         <xsl:map-entry key="'κριτικόν'" select="'κριτικός'"/>
          <xsl:map-entry key="'κριτικὸς'" select="'κριτικός'"/>
+         <xsl:map-entry key="'κριτικός'" select="'κριτικός'"/>
          <xsl:map-entry key="'κριτου'" select="'κριτής'"/>
          <xsl:map-entry key="'κριτοῦ'" select="'κριτής'"/>
          <xsl:map-entry key="'Κριτοῦ'" select="'κριτής'"/>
          <xsl:map-entry key="'κριῶν'" select="'κριός'"/>
+         <xsl:map-entry key="'κρόκος'" select="'κρόκος'"/>
          <xsl:map-entry key="'κρόκου'" select="'κρόκος'"/>
          <xsl:map-entry key="'κροτεῖν'" select="'κροτέω'"/>
          <xsl:map-entry key="'κροτέω'" select="'κροτέω'"/>
@@ -15654,6 +16859,7 @@
          <xsl:map-entry key="'κρύπτω'" select="'κρύπτω'"/>
          <xsl:map-entry key="'κρυπτῷ'" select="'κρυπτός'"/>
          <xsl:map-entry key="'κρύπτων'" select="'κρύπτω'"/>
+         <xsl:map-entry key="'κρυπτῶν'" select="'κρυπτός'"/>
          <xsl:map-entry key="'κρύσταλλον'" select="'κρύσταλλος'"/>
          <xsl:map-entry key="'κρύσταλλος'" select="'κρύσταλλος'"/>
          <xsl:map-entry key="'κρυστάλλου'" select="'κρύσταλλος'"/>
@@ -15680,21 +16886,29 @@
          <xsl:map-entry key="'κτήματα'" select="'κτῆμα'"/>
          <xsl:map-entry key="'κτήματι'" select="'κτῆμα'"/>
          <xsl:map-entry key="'κτημάτων'" select="'κτῆμα'"/>
+         <xsl:map-entry key="'κτήνεσι'" select="'κτῆνος'"/>
          <xsl:map-entry key="'κτηνεσιν'" select="'κτῆνος'"/>
          <xsl:map-entry key="'κτήνεσιν'" select="'κτῆνος'"/>
          <xsl:map-entry key="'κτήνη'" select="'κτῆνος'"/>
          <xsl:map-entry key="'κτηνη'" select="'κτήνη'"/>
          <xsl:map-entry key="'κτῆνος'" select="'κτῆνος'"/>
+         <xsl:map-entry key="'Κτῆνος'" select="'κτῆνος'"/>
+         <xsl:map-entry key="'κτήνους'" select="'κτῆνος'"/>
+         <xsl:map-entry key="'κτηνῶν'" select="'κτῆνος'"/>
          <xsl:map-entry key="'Κτῆσαι'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτῆσαι'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτησάμενοι'" select="'κτάομαι'"/>
+         <xsl:map-entry key="'κτησάμενον'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτησάμενος'" select="'κτάομαι'"/>
+         <xsl:map-entry key="'κτησαμένους'" select="'κτάομαι'"/>
+         <xsl:map-entry key="'κτησαμένῳ'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτησαμένων'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτήσασθαι'" select="'κτάομαι'"/>
          <xsl:map-entry key="'Κτήσασθε'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτησάσθω'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτησεται'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτήσεως'" select="'κτῆσις'"/>
+         <xsl:map-entry key="'κτήσεώς'" select="'κτῆσις'"/>
          <xsl:map-entry key="'κτήσῃ'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτήσησθε'" select="'κτάομαι'"/>
          <xsl:map-entry key="'κτήσηται'" select="'κτάομαι'"/>
@@ -15715,6 +16929,7 @@
          <xsl:map-entry key="'κτισεως'" select="'κτίσις'"/>
          <xsl:map-entry key="'κτίσεως'" select="'κτίσις'"/>
          <xsl:map-entry key="'κτισθέντα'" select="'κτίζω'"/>
+         <xsl:map-entry key="'κτίσιν'" select="'κτίσις'"/>
          <xsl:map-entry key="'κτισις'" select="'κτίσις'"/>
          <xsl:map-entry key="'κτίσις'" select="'κτίσις'"/>
          <xsl:map-entry key="'κτίσμα'" select="'κτίσμα'"/>
@@ -15757,6 +16972,7 @@
          <xsl:map-entry key="'κυκλεύω'" select="'κυκλεύω'"/>
          <xsl:map-entry key="'κυκλέω'" select="'κυκλέω'"/>
          <xsl:map-entry key="'κυκλοῖ'" select="'κυκλόω'"/>
+         <xsl:map-entry key="'Κυκλοῖ'" select="'κυκλέω'"/>
          <xsl:map-entry key="'κύκλον'" select="'κύκλος'"/>
          <xsl:map-entry key="'κύκλος'" select="'κύκλος'"/>
          <xsl:map-entry key="'κυκλούμενος'" select="'κυκλόω'"/>
@@ -15806,9 +17022,11 @@
          <xsl:map-entry key="'κυνὸς'" select="'κύων'"/>
          <xsl:map-entry key="'κυνῶν'" select="'κύων'"/>
          <xsl:map-entry key="'κυρέω'" select="'κυρέω'"/>
+         <xsl:map-entry key="'κυρία'" select="'κυρία'"/>
          <xsl:map-entry key="'κυριακή'" select="'κυριακός'"/>
          <xsl:map-entry key="'κυριακὸς'" select="'κυριακός'"/>
          <xsl:map-entry key="'κυριακός'" select="'κυριακός'"/>
+         <xsl:map-entry key="'κυρίαν'" select="'κυρία'"/>
          <xsl:map-entry key="'κυριε'" select="'κύριος'"/>
          <xsl:map-entry key="'Κύριε'" select="'κύριος'"/>
          <xsl:map-entry key="'κύριε'" select="'κύριος'"/>
@@ -15819,11 +17037,12 @@
          <xsl:map-entry key="'Κύριον'" select="'κύριος'"/>
          <xsl:map-entry key="'κυριον'" select="'κύριος'"/>
          <xsl:map-entry key="'κύριον'" select="'κύριος'"/>
-         <xsl:map-entry key="'Κυρίον'" select="'κυρέω'"/>
+         <xsl:map-entry key="'Κυρίον'" select="'κύριος'"/>
          <xsl:map-entry key="'Κύριος'" select="'κύριος'"/>
          <xsl:map-entry key="'κύριος'" select="'κύριος'"/>
          <xsl:map-entry key="'κύριός'" select="'κύριος'"/>
          <xsl:map-entry key="'κυριότης'" select="'κυριότης'"/>
+         <xsl:map-entry key="'κυριότητα'" select="'κυριότης'"/>
          <xsl:map-entry key="'κυριότητας'" select="'κυριότης'"/>
          <xsl:map-entry key="'Κυρίου'" select="'κύριος'"/>
          <xsl:map-entry key="'κυριου'" select="'κύριος'"/>
@@ -15832,7 +17051,7 @@
          <xsl:map-entry key="'κυρίῳ'" select="'κύριος'"/>
          <xsl:map-entry key="'κυριωι'" select="'κύριος'"/>
          <xsl:map-entry key="'κυριων'" select="'κύριος'"/>
-         <xsl:map-entry key="'κυρίως'" select="'κύριος'"/>
+         <xsl:map-entry key="'κυρίως'" select="'κυρίως'"/>
          <xsl:map-entry key="'κυροῦντα'" select="'κυρέω'"/>
          <xsl:map-entry key="'κυροῦσαν'" select="'κυρέω'"/>
          <xsl:map-entry key="'κυρόω'" select="'κυρόω'"/>
@@ -15876,16 +17095,19 @@
          <xsl:map-entry key="'λάβαν'" select="'Λάβαν'"/>
          <xsl:map-entry key="'Λάβαν'" select="'Λάβαν'"/>
          <xsl:map-entry key="'λάβε'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'λαβὲ'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβεῖν'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβειν'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λάβετε'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'Λάβετε'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβέτω'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'λάβῃ'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λάβῃς'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λάβοι'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβόντας'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβόντες'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβόντι'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'λαβόντων'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβων'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβών'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαβὼν'" select="'λαμβάνω'"/>
@@ -15893,8 +17115,11 @@
          <xsl:map-entry key="'λάγνευμα'" select="'λάγνευμα'"/>
          <xsl:map-entry key="'λαγνεύματα'" select="'λάγνευμα'"/>
          <xsl:map-entry key="'λαγχάνω'" select="'λαγχάνω'"/>
+         <xsl:map-entry key="'Λάζαρον'" select="'Λάζαρος'"/>
+         <xsl:map-entry key="'Λάζαρος'" select="'Λάζαρος'"/>
+         <xsl:map-entry key="'Λαζάρου'" select="'Λάζαρος'"/>
          <xsl:map-entry key="'λαθειν'" select="'λανθάνω'"/>
-         <xsl:map-entry key="'λάθῃ'" select="'λανθάνω λήθη'"/>
+         <xsl:map-entry key="'λάθῃ'" select="'λανθάνω'"/>
          <xsl:map-entry key="'λάθρα'" select="'λάθρῃ'"/>
          <xsl:map-entry key="'λάθρῃ'" select="'λάθρῃ'"/>
          <xsl:map-entry key="'λάθριός'" select="'λάθριος'"/>
@@ -15918,12 +17143,16 @@
          <xsl:map-entry key="'λαλεῖται'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλέω'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλῆσαι'" select="'λαλέω'"/>
+         <xsl:map-entry key="'λαλῆσαί'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλήσαντας'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλήσει'" select="'λαλέω'"/>
+         <xsl:map-entry key="'λαλήσῃς'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλήσουσιν'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλήσω'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλιά'" select="'λαλιά'"/>
          <xsl:map-entry key="'λαλιαῖς'" select="'λαλιά'"/>
+         <xsl:map-entry key="'Λαλιὰν'" select="'λαλιά'"/>
+         <xsl:map-entry key="'λαλιᾶς'" select="'λαλιάλαλιός'"/>
          <xsl:map-entry key="'λαλοῦντα'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλοῦντας'" select="'λαλέω'"/>
          <xsl:map-entry key="'λαλοῦντες'" select="'λαλέω'"/>
@@ -15951,6 +17180,7 @@
          <xsl:map-entry key="'λαμβάνοντος'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαμβάνοντων'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαμβάνουσα'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'λαμβανούσης'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαμβάνουσι'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαμβάνουσιν'" select="'λαμβάνω'"/>
          <xsl:map-entry key="'λαμβάνω'" select="'λαμβάνω'"/>
@@ -15972,6 +17202,7 @@
          <xsl:map-entry key="'λαμπρός'" select="'λαμπρός'"/>
          <xsl:map-entry key="'λαμπρὸς'" select="'λαμπρός'"/>
          <xsl:map-entry key="'λαμπρότατον'" select="'λαμπρός'"/>
+         <xsl:map-entry key="'λαμπρότερον'" select="'λαμπρός'"/>
          <xsl:map-entry key="'λαμπρότης'" select="'λαμπρότης'"/>
          <xsl:map-entry key="'Λαμπρότης'" select="'λαμπρότης'"/>
          <xsl:map-entry key="'λαμπρότησι'" select="'λαμπρότης'"/>
@@ -15980,7 +17211,7 @@
          <xsl:map-entry key="'λαμπρυνθήσεται'" select="'λαμπρύνω'"/>
          <xsl:map-entry key="'λαμπρύνω'" select="'λαμπρύνω'"/>
          <xsl:map-entry key="'λαμπρῶν'" select="'λαμπρός'"/>
-         <xsl:map-entry key="'λαμπρῶς'" select="'λαμπρός'"/>
+         <xsl:map-entry key="'λαμπρῶς'" select="'λαμπρῶς'"/>
          <xsl:map-entry key="'λαμπτήρ'" select="'λαμπτήρ'"/>
          <xsl:map-entry key="'λάμπω'" select="'λάμπω'"/>
          <xsl:map-entry key="'λάμπων'" select="'λάμπω'"/>
@@ -16020,11 +17251,13 @@
          <xsl:map-entry key="'λαχάνιος'" select="'λαχάνιος'"/>
          <xsl:map-entry key="'λάχανον'" select="'λάχανον'"/>
          <xsl:map-entry key="'λαχάνῳ'" select="'λάχανον'"/>
+         <xsl:map-entry key="'λαχάνων'" select="'λάχανον'"/>
          <xsl:map-entry key="'λαχόντα'" select="'λαγχάνω'"/>
          <xsl:map-entry key="'λαῷ'" select="'λαός'"/>
          <xsl:map-entry key="'λαῶν'" select="'λαός'"/>
          <xsl:map-entry key="'λέβης'" select="'λέβης'"/>
          <xsl:map-entry key="'Λέβης'" select="'λέβης'"/>
+         <xsl:map-entry key="'λέβητα'" select="'λέβης'"/>
          <xsl:map-entry key="'λέγε'" select="'λέγω'"/>
          <xsl:map-entry key="'λέγει'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγει'" select="'λέγω'"/>
@@ -16054,6 +17287,7 @@
          <xsl:map-entry key="'λέγοιντ'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομεν'" select="'λέγω'"/>
          <xsl:map-entry key="'λέγομεν'" select="'λέγω'"/>
+         <xsl:map-entry key="'λεγόμενα'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομέναις'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομένας'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγόμενοι'" select="'λέγω'"/>
@@ -16061,6 +17295,7 @@
          <xsl:map-entry key="'λεγόμενος'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομένου'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομένους'" select="'λέγω'"/>
+         <xsl:map-entry key="'λεγομένῳ'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγομένων'" select="'λέγω'"/>
          <xsl:map-entry key="'λεγον'" select="'λέγω'"/>
          <xsl:map-entry key="'λέγον'" select="'λέγω'"/>
@@ -16097,13 +17332,18 @@
          <xsl:map-entry key="'λειότης'" select="'λειότης'"/>
          <xsl:map-entry key="'λειποθυμία'" select="'λιποθυμία'"/>
          <xsl:map-entry key="'λειπομένοις'" select="'λείπω'"/>
+         <xsl:map-entry key="'λειπὸν'" select="'λείπω'"/>
          <xsl:map-entry key="'λειποτάκτην'" select="'λειποτάκτης'"/>
          <xsl:map-entry key="'λειποτάκτης'" select="'λειποτάκτης'"/>
          <xsl:map-entry key="'λειποτακτήσωσιν'" select="'λιποτακτέω'"/>
          <xsl:map-entry key="'λείπω'" select="'λείπω'"/>
          <xsl:map-entry key="'λειτουργεῖταί'" select="'λειτουργέω'"/>
+         <xsl:map-entry key="'λειτουργέω'" select="'λειτουργέω'"/>
+         <xsl:map-entry key="'λειτουργήσωμέν'" select="'λειτουργέω'"/>
          <xsl:map-entry key="'λειτουργία'" select="'λειτουργία'"/>
          <xsl:map-entry key="'λειτουργίας'" select="'λειτουργία'"/>
+         <xsl:map-entry key="'λειτουργοί'" select="'λειτουργός'"/>
+         <xsl:map-entry key="'λειτουργοὶ'" select="'λειτουργός'"/>
          <xsl:map-entry key="'λειτουργός'" select="'λειτουργός'"/>
          <xsl:map-entry key="'λειτουργοὺς'" select="'λειτουργός'"/>
          <xsl:map-entry key="'λείψανα'" select="'λείψανον'"/>
@@ -16119,6 +17359,7 @@
          <xsl:map-entry key="'λελαληκότος'" select="'λαλέω'"/>
          <xsl:map-entry key="'λελεγμένων'" select="'λέγω'"/>
          <xsl:map-entry key="'λελέχθω'" select="'λέγω'"/>
+         <xsl:map-entry key="'λελήθαμεν'" select="'λανθάνω'"/>
          <xsl:map-entry key="'Λέληθεν'" select="'λανθάνω'"/>
          <xsl:map-entry key="'λέληθεν'" select="'λανθάνω'"/>
          <xsl:map-entry key="'λελόγισαι'" select="'λογίζομαι'"/>
@@ -16138,9 +17379,11 @@
          <xsl:map-entry key="'λέοντα'" select="'λέων'"/>
          <xsl:map-entry key="'λέοντες'" select="'λέων'"/>
          <xsl:map-entry key="'λέοντος'" select="'λέων'"/>
+         <xsl:map-entry key="'λέοντός'" select="'λέων'"/>
          <xsl:map-entry key="'Λέπρα'" select="'λέπρα'"/>
          <xsl:map-entry key="'λέπρα'" select="'λέπρα'"/>
          <xsl:map-entry key="'λέπραν'" select="'λέπρα'"/>
+         <xsl:map-entry key="'λέπρας'" select="'λέπρα'"/>
          <xsl:map-entry key="'λεπρός'" select="'λεπρός'"/>
          <xsl:map-entry key="'λεπρῶν'" select="'λεπρός'"/>
          <xsl:map-entry key="'λεπτα'" select="'λεπτός'"/>
@@ -16154,6 +17397,8 @@
          <xsl:map-entry key="'λεπτύνοντες'" select="'λεπτύνω'"/>
          <xsl:map-entry key="'λεπτύνω'" select="'λεπτύνω'"/>
          <xsl:map-entry key="'λεπτῶν'" select="'λεπτός'"/>
+         <xsl:map-entry key="'Λευϊαθὰν'" select="'Λευϊάθαν'"/>
+         <xsl:map-entry key="'Λευϊάθαν'" select="'Λευϊάθαν'"/>
          <xsl:map-entry key="'Λευΐτης'" select="'Λευΐτης'"/>
          <xsl:map-entry key="'λευιτου'" select="'Λευΐτης'"/>
          <xsl:map-entry key="'λευίτου'" select="'Λευΐτης'"/>
@@ -16168,6 +17413,8 @@
          <xsl:map-entry key="'λεχθήσεται'" select="'λέγω'"/>
          <xsl:map-entry key="'λέων'" select="'λέων'"/>
          <xsl:map-entry key="'Λέων'" select="'λέων'"/>
+         <xsl:map-entry key="'Λήγουσι'" select="'λήγω'"/>
+         <xsl:map-entry key="'λήγω'" select="'λήγω'"/>
          <xsl:map-entry key="'λήθῃ'" select="'λήθη'"/>
          <xsl:map-entry key="'λήθη'" select="'λήθη'"/>
          <xsl:map-entry key="'Λήθη'" select="'λήθη'"/>
@@ -16251,6 +17498,7 @@
          <xsl:map-entry key="'λογάσιν'" select="'λογάς'"/>
          <xsl:map-entry key="'λόγια'" select="'λόγιον'"/>
          <xsl:map-entry key="'λόγιά'" select="'λόγιον'"/>
+         <xsl:map-entry key="'λογίζεθσαι'" select="'λογίζομαι'"/>
          <xsl:map-entry key="'λογίζεσθαι'" select="'λογίζομαι'"/>
          <xsl:map-entry key="'λογιζέσθω'" select="'λογίζομαι'"/>
          <xsl:map-entry key="'λογίζεται'" select="'λογίζομαι'"/>
@@ -16283,6 +17531,7 @@
          <xsl:map-entry key="'Λογικης'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικοι'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικοις'" select="'λογικός'"/>
+         <xsl:map-entry key="'λογικοῖς'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικον'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικόν'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικὸν'" select="'λογικός'"/>
@@ -16291,11 +17540,12 @@
          <xsl:map-entry key="'λογικὸς'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικοῦ'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικους'" select="'λογικός'"/>
+         <xsl:map-entry key="'λογικῷ'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικωι'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικων'" select="'λογικός'"/>
          <xsl:map-entry key="'λογικῶν'" select="'λογικός'"/>
-         <xsl:map-entry key="'λογικῶς'" select="'λογικός'"/>
-         <xsl:map-entry key="'λόγιον'" select="'λόγιος'"/>
+         <xsl:map-entry key="'λογικῶς'" select="'λογικῶς'"/>
+         <xsl:map-entry key="'λόγιον'" select="'λόγιον'"/>
          <xsl:map-entry key="'λόγιόν'" select="'λόγιον'"/>
          <xsl:map-entry key="'λόγιος'" select="'λόγιος'"/>
          <xsl:map-entry key="'Λόγισαι'" select="'λογίζομαι'"/>
@@ -16322,8 +17572,10 @@
          <xsl:map-entry key="'λογιστεύειν'" select="'λογιστεύω'"/>
          <xsl:map-entry key="'λογιστεύω'" select="'λογιστεύω'"/>
          <xsl:map-entry key="'λογιστικὴ'" select="'λογιστικός'"/>
+         <xsl:map-entry key="'λογιστική'" select="'λογιστικός'"/>
          <xsl:map-entry key="'λογιστικῆς'" select="'λογιστικός'"/>
          <xsl:map-entry key="'λογιστικὸν'" select="'λογιστικός'"/>
+         <xsl:map-entry key="'λογιστικόν'" select="'λογιστικός'"/>
          <xsl:map-entry key="'λογιστικός'" select="'λογιστικός'"/>
          <xsl:map-entry key="'λογιστικου'" select="'λογιστικός'"/>
          <xsl:map-entry key="'λογιστικοῦ'" select="'λογιστικός'"/>
@@ -16331,6 +17583,8 @@
          <xsl:map-entry key="'λογιχῆς'" select="'λογιχός'"/>
          <xsl:map-entry key="'λογιχός'" select="'λογιχός'"/>
          <xsl:map-entry key="'λογίων'" select="'λόγιον'"/>
+         <xsl:map-entry key="'λογοθετέω'" select="'λογοθετέω'"/>
+         <xsl:map-entry key="'λογοθετηθῇ'" select="'λογοθετέω'"/>
          <xsl:map-entry key="'λογοι'" select="'λόγος'"/>
          <xsl:map-entry key="'λόγοι'" select="'λόγος'"/>
          <xsl:map-entry key="'Λόγοι'" select="'λόγος'"/>
@@ -16366,6 +17620,7 @@
          <xsl:map-entry key="'λοιδορίας'" select="'λοιδορία'"/>
          <xsl:map-entry key="'λοίδορον'" select="'λοίδορος'"/>
          <xsl:map-entry key="'λοίδορος'" select="'λοίδορος'"/>
+         <xsl:map-entry key="'λοιδόρου'" select="'λοίδορος'"/>
          <xsl:map-entry key="'λοιδορουμεν'" select="'λοιδορέω'"/>
          <xsl:map-entry key="'λοιδορούμενος'" select="'λοιδορέω'"/>
          <xsl:map-entry key="'λοιδόρῳ'" select="'λοίδορος'"/>
@@ -16376,6 +17631,7 @@
          <xsl:map-entry key="'λοιπαὶ'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιπας'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιπὰς'" select="'λοιπός'"/>
+         <xsl:map-entry key="'λοιπῆς'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιποί'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιποὶ'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιποῖς'" select="'λοιπός'"/>
@@ -16383,9 +17639,11 @@
          <xsl:map-entry key="'λοιπόν'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιπός'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιποὺς'" select="'λοιπός'"/>
+         <xsl:map-entry key="'λοιπούς'" select="'λοιπός'"/>
          <xsl:map-entry key="'λοιπῶν'" select="'λοιπός'"/>
-         <xsl:map-entry key="'Λοῦκα'" select="'Λοῦκα'"/>
-         <xsl:map-entry key="'Λουκᾶν'" select="'Λοῦκα'"/>
+         <xsl:map-entry key="'Λουκᾶ'" select="'Λουκᾶς'"/>
+         <xsl:map-entry key="'Λουκᾶν'" select="'Λουκᾶς'"/>
+         <xsl:map-entry key="'Λουκᾶς'" select="'Λουκᾶς'"/>
          <xsl:map-entry key="'λούσω'" select="'λούω'"/>
          <xsl:map-entry key="'λουτροῖς'" select="'λουτρόν'"/>
          <xsl:map-entry key="'λουτρόν'" select="'λουτρόν'"/>
@@ -16427,7 +17685,11 @@
          <xsl:map-entry key="'λύπῃ'" select="'λύπη'"/>
          <xsl:map-entry key="'Λύπη'" select="'λύπη'"/>
          <xsl:map-entry key="'λυπηθέντα'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπηθῆναι'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπηθῇς'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπηθήσεσθε'" select="'λυπέω'"/>
          <xsl:map-entry key="'λυπηθήσεται'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπηθῶμεν'" select="'λυπέω'"/>
          <xsl:map-entry key="'λυπηι'" select="'λύπη'"/>
          <xsl:map-entry key="'λύπην'" select="'λύπη'"/>
          <xsl:map-entry key="'λυπηρὰ'" select="'λυπηρός'"/>
@@ -16438,6 +17700,10 @@
          <xsl:map-entry key="'λυπηροῦ'" select="'λυπηρός'"/>
          <xsl:map-entry key="'λύπης'" select="'λύπη'"/>
          <xsl:map-entry key="'λυπης'" select="'λύπη'"/>
+         <xsl:map-entry key="'λυπῆσαι'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπήσαντι'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπήσαντος'" select="'λυπέω'"/>
+         <xsl:map-entry key="'λυπησάντων'" select="'λυπέω'"/>
          <xsl:map-entry key="'λυπήσας'" select="'λυπέω'"/>
          <xsl:map-entry key="'λυπήσει'" select="'λυπέω'"/>
          <xsl:map-entry key="'λυπήσῃς'" select="'λυπέω'"/>
@@ -16461,6 +17727,8 @@
          <xsl:map-entry key="'λύσῃ'" select="'λύω'"/>
          <xsl:map-entry key="'λυσις'" select="'λύσις'"/>
          <xsl:map-entry key="'λύσις'" select="'λύσις'"/>
+         <xsl:map-entry key="'λύσομεν'" select="'λύω'"/>
+         <xsl:map-entry key="'λύσονται'" select="'λύω'"/>
          <xsl:map-entry key="'Λύτρον'" select="'λύτρον'"/>
          <xsl:map-entry key="'λύτρον'" select="'λύτρον'"/>
          <xsl:map-entry key="'λυτρούμενον'" select="'λυτρόω'"/>
@@ -16514,6 +17782,7 @@
          <xsl:map-entry key="'μαθητής'" select="'μαθητής'"/>
          <xsl:map-entry key="'μαθητὴς'" select="'μαθητής'"/>
          <xsl:map-entry key="'μαθητῶν'" select="'μαθητής'"/>
+         <xsl:map-entry key="'ΜΑΘΗΤΩΝ'" select="'μαθητής'"/>
          <xsl:map-entry key="'μάθοιτ'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μαθόντες'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μάθω'" select="'μανθάνω'"/>
@@ -16525,11 +17794,17 @@
          <xsl:map-entry key="'μακαρίζειν'" select="'μακαρίζω'"/>
          <xsl:map-entry key="'μακαρίζω'" select="'μακαρίζω'"/>
          <xsl:map-entry key="'μακάριοι'" select="'μακάριος'"/>
-         <xsl:map-entry key="'Μακάριοι'" select="'Μακάριος'"/>
+         <xsl:map-entry key="'Μακάριοι'" select="'μακάριος'"/>
          <xsl:map-entry key="'μακάριοί'" select="'μακάριος'"/>
          <xsl:map-entry key="'μακάριον'" select="'μακάριος'"/>
-         <xsl:map-entry key="'Μακάριον'" select="'μακάριος'"/>
-         <xsl:map-entry key="'Μακάριος'" select="'μακάριος'"/>
+         <xsl:map-entry key="'Μακάριον'">
+			<matches pattern="διδάσκαλον Μακάριον">Μακάριος</matches>
+			<otherwise>μακάριος</otherwise>
+		 </xsl:map-entry>
+         <xsl:map-entry key="'Μακάριος'">
+			<matches pattern="γέρων Μακάριος">Μακάριος</matches>
+			<otherwise>μακάριος</otherwise>
+		 </xsl:map-entry>
          <xsl:map-entry key="'μακάριος'" select="'μακάριος'"/>
          <xsl:map-entry key="'μακάριός'" select="'μακάριος'"/>
          <xsl:map-entry key="'Μακάριός'" select="'μακάριος'"/>
@@ -16540,13 +17815,14 @@
          <xsl:map-entry key="'μακαριου'" select="'μακάριος'"/>
          <xsl:map-entry key="'Μακαρίου'" select="'Μακάριος'"/>
          <xsl:map-entry key="'μακαρίσας'" select="'μακαρίζω'"/>
+         <xsl:map-entry key="'μακαρισμοί'" select="'μακαρισμός'"/>
          <xsl:map-entry key="'μακαρισμὸν'" select="'μακαρισμός'"/>
          <xsl:map-entry key="'μακαρισμός'" select="'μακαρισμός'"/>
          <xsl:map-entry key="'μακαρισμων'" select="'μακαρισμός'"/>
          <xsl:map-entry key="'μακαρισμῶν'" select="'μακαρισμός'"/>
          <xsl:map-entry key="'μακαριστός'" select="'μακαριστός'"/>
          <xsl:map-entry key="'Μακαρίῳ'" select="'Μακάριος'"/>
-         <xsl:map-entry key="'μακαρίως'" select="'μακάριος'"/>
+         <xsl:map-entry key="'μακαρίως'" select="'μακαρίως'"/>
          <xsl:map-entry key="'μακαριώτερος'" select="'μακάριος'"/>
          <xsl:map-entry key="'μακρᾷ'" select="'μακρός'"/>
          <xsl:map-entry key="'μακρὰ'" select="'μακρός'"/>
@@ -16559,6 +17835,7 @@
          <xsl:map-entry key="'Μακροθυμεῖ'" select="'μακροθυμέω'"/>
          <xsl:map-entry key="'μακροθυμεῖν'" select="'μακροθυμέω'"/>
          <xsl:map-entry key="'μακροθυμέω'" select="'μακροθυμέω'"/>
+         <xsl:map-entry key="'μακροθυμῆσαι'" select="'μακροθυμέω'"/>
          <xsl:map-entry key="'μακροθυμία'" select="'μακροθυμία'"/>
          <xsl:map-entry key="'μακροθυμίᾳ'" select="'μακροθυμία'"/>
          <xsl:map-entry key="'Μακροθυμία'" select="'μακροθυμία'"/>
@@ -16571,13 +17848,14 @@
          <xsl:map-entry key="'μακροθύμου'" select="'μακρόθυμος'"/>
          <xsl:map-entry key="'μακροθυμοῦντος'" select="'μακροθυμέω'"/>
          <xsl:map-entry key="'μακροθύμῳ'" select="'μακρόθυμος'"/>
-         <xsl:map-entry key="'μακροθύμως'" select="'μακρόθυμος'"/>
+         <xsl:map-entry key="'μακροθύμως'" select="'μακροθύμως'"/>
          <xsl:map-entry key="'μακρὸν'" select="'μακρός'"/>
          <xsl:map-entry key="'μακρόν'" select="'μακρός'"/>
          <xsl:map-entry key="'μακρός'" select="'μακρός'"/>
          <xsl:map-entry key="'μακρὸς'" select="'μακρός'"/>
          <xsl:map-entry key="'μακρότερα'" select="'μακρός'"/>
          <xsl:map-entry key="'μακροῦ'" select="'μακρός'"/>
+         <xsl:map-entry key="'μακρυνεῖ'" select="'μακρύνω'"/>
          <xsl:map-entry key="'μακρυνθήσεται'" select="'μακρύνω'"/>
          <xsl:map-entry key="'μακρυνόμενος'" select="'μακρύνω'"/>
          <xsl:map-entry key="'Μακρύνουσι'" select="'μακρύνω'"/>
@@ -16602,6 +17880,7 @@
          <xsl:map-entry key="'μάνδρᾳ'" select="'μάνδρα'"/>
          <xsl:map-entry key="'μάνδραις'" select="'μάνδρα'"/>
          <xsl:map-entry key="'μανέντες'" select="'μαίνομαι'"/>
+         <xsl:map-entry key="'μανθάνει'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μανθανειν'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μανθάνειν'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μανθανέτωσαν'" select="'μανθάνω'"/>
@@ -16621,6 +17900,9 @@
          <xsl:map-entry key="'μανιώδης'" select="'μανιώδης'"/>
          <xsl:map-entry key="'μαντεύεται'" select="'μαντεύομαι'"/>
          <xsl:map-entry key="'μαντεύομαι'" select="'μαντεύομαι'"/>
+         <xsl:map-entry key="'μαντικαὶ'" select="'μαντικός'"/>
+         <xsl:map-entry key="'μαντικοὶ'" select="'μαντικός'"/>
+         <xsl:map-entry key="'μαντικός'" select="'μαντικός'"/>
          <xsl:map-entry key="'μάντις'" select="'μάντις'"/>
          <xsl:map-entry key="'Μανωε'" select="'Μανωέ'"/>
          <xsl:map-entry key="'Μανωέ'" select="'Μανωέ'"/>
@@ -16651,6 +17933,7 @@
          <xsl:map-entry key="'Μαρτυρες'" select="'μάρτυς'"/>
          <xsl:map-entry key="'μαρτυρες'" select="'μάρτυς'"/>
          <xsl:map-entry key="'μάρτυρες'" select="'μάρτυς'"/>
+         <xsl:map-entry key="'μάρτυρές'" select="'μάρτυς'"/>
          <xsl:map-entry key="'μαρτυρέω'" select="'μαρτυρέω'"/>
          <xsl:map-entry key="'μαρτυρια'" select="'μαρτυρία'"/>
          <xsl:map-entry key="'μαρτυρία'" select="'μαρτυρία'"/>
@@ -16660,6 +17943,7 @@
          <xsl:map-entry key="'μαρτυρίοις'" select="'μαρτύριον'"/>
          <xsl:map-entry key="'μαρτύριον'" select="'μαρτύριον'"/>
          <xsl:map-entry key="'μαρτυρίου'" select="'μαρτύριον'"/>
+         <xsl:map-entry key="'μαρτυρίων'" select="'μαρτύριον'"/>
          <xsl:map-entry key="'μαρτύρομαι'" select="'μαρτύρομαι'"/>
          <xsl:map-entry key="'μαρτυρουμένην'" select="'μαρτύρομαι'"/>
          <xsl:map-entry key="'μαρτύρων'" select="'μάρτυς'"/>
@@ -16711,7 +17995,7 @@
          <xsl:map-entry key="'ματαιότητος'" select="'ματαιότης'"/>
          <xsl:map-entry key="'ματαιοτήτων'" select="'ματαιότης'"/>
          <xsl:map-entry key="'ματαίους'" select="'μάταιος'"/>
-         <xsl:map-entry key="'ματαίως'" select="'μάταιος'"/>
+         <xsl:map-entry key="'ματαίως'" select="'ματαίως'"/>
          <xsl:map-entry key="'μάτην'" select="'μάτην'"/>
          <xsl:map-entry key="'Ματθαῖον'" select="'Ματθαῖος'"/>
          <xsl:map-entry key="'Ματθαῖος'" select="'Ματθαῖος'"/>
@@ -16750,6 +18034,7 @@
          <xsl:map-entry key="'μεγάλα'" select="'μέγας'"/>
          <xsl:map-entry key="'Μεγάλα'" select="'μέγας'"/>
          <xsl:map-entry key="'μεγαλαι'" select="'μεγάλη'"/>
+         <xsl:map-entry key="'μεγάλας'" select="'μέγας'"/>
          <xsl:map-entry key="'μεγαλαύχει'" select="'μεγαλαυχέω'"/>
          <xsl:map-entry key="'μεγαλαυχεῖν'" select="'μεγαλαυχέω'"/>
          <xsl:map-entry key="'μεγαλαυχέω'" select="'μεγαλαυχέω'"/>
@@ -16784,7 +18069,7 @@
          <xsl:map-entry key="'μεγάλῳ'" select="'μέγας'"/>
          <xsl:map-entry key="'μεγαλων'" select="'μέγας'"/>
          <xsl:map-entry key="'μεγάλων'" select="'μέγας'"/>
-         <xsl:map-entry key="'μεγάλως'" select="'μέγας'"/>
+         <xsl:map-entry key="'μεγάλως'" select="'μεγάλως'"/>
          <xsl:map-entry key="'μεγαλωσύνης'" select="'μεγαλωσύνη'"/>
          <xsl:map-entry key="'μέγαν'" select="'μέγας'"/>
          <xsl:map-entry key="'μέγας'" select="'μέγας'"/>
@@ -16821,7 +18106,7 @@
          <xsl:map-entry key="'μείζονες'" select="'μέγας'"/>
          <xsl:map-entry key="'μείζονος'" select="'μέγας'"/>
          <xsl:map-entry key="'μειζόνων'" select="'μέγας'"/>
-         <xsl:map-entry key="'μειζόνως'" select="'μέγας'"/>
+         <xsl:map-entry key="'μειζόνως'" select="'μειζόνως'"/>
          <xsl:map-entry key="'μείζων'" select="'μέγας'"/>
          <xsl:map-entry key="'μεῖναν'" select="'μένω'"/>
          <xsl:map-entry key="'μείναντες'" select="'μένω'"/>
@@ -16831,10 +18116,13 @@
          <xsl:map-entry key="'μειοῖ'" select="'μειόω'"/>
          <xsl:map-entry key="'μειονος'" select="'μείων'"/>
          <xsl:map-entry key="'μειουμένης'" select="'μειόω'"/>
+         <xsl:map-entry key="'μειοῦν'" select="'μειόω'"/>
+         <xsl:map-entry key="'μειοῦντα'" select="'μειόω'"/>
          <xsl:map-entry key="'μειοῦνται'" select="'μειόω'"/>
          <xsl:map-entry key="'μειουται'" select="'μειόω'"/>
          <xsl:map-entry key="'μειόω'" select="'μειόω'"/>
          <xsl:map-entry key="'μείων'" select="'μείων'"/>
+         <xsl:map-entry key="'μειῶσαι'" select="'μειόω'"/>
          <xsl:map-entry key="'μειώσεως'" select="'μείωσις'"/>
          <xsl:map-entry key="'μείωσιν'" select="'μείωσις'"/>
          <xsl:map-entry key="'μείωσις'" select="'μείωσις'"/>
@@ -16863,16 +18151,19 @@
          <xsl:map-entry key="'μέλιτι'" select="'μέλι'"/>
          <xsl:map-entry key="'μελιτος'" select="'μέλι'"/>
          <xsl:map-entry key="'μέλιτος'" select="'μέλι'"/>
-         <xsl:map-entry key="'μέλιττα'" select="'μέλιττα'"/>
-         <xsl:map-entry key="'μελίττης'" select="'μέλιττα'"/>
+         <xsl:map-entry key="'μέλιττα'" select="'μέλισσα'"/>
+         <xsl:map-entry key="'μελίττης'" select="'μέλισσα'"/>
          <xsl:map-entry key="'μελλει'" select="'μέλλω'"/>
          <xsl:map-entry key="'μέλλει'" select="'μέλλω'"/>
+         <xsl:map-entry key="'μέλλειν'" select="'μέλλω'"/>
+         <xsl:map-entry key="'μέλλεις'" select="'μέλλω'"/>
          <xsl:map-entry key="'Μέλλετε'" select="'μέλλω'"/>
          <xsl:map-entry key="'μελλομεν'" select="'μέλλω'"/>
          <xsl:map-entry key="'μέλλον'" select="'μέλλω'"/>
          <xsl:map-entry key="'μελλοντα'" select="'μέλλω'"/>
          <xsl:map-entry key="'μέλλοντα'" select="'μέλλω'"/>
          <xsl:map-entry key="'μελλοντας'" select="'μέλλω'"/>
+         <xsl:map-entry key="'μέλλοντας'" select="'μέλλω'"/>
          <xsl:map-entry key="'μελλοντι'" select="'μέλλω'"/>
          <xsl:map-entry key="'μέλλοντι'" select="'μέλλω'"/>
          <xsl:map-entry key="'μελλοντος'" select="'μέλλω'"/>
@@ -16897,10 +18188,12 @@
          <xsl:map-entry key="'μεμαθήκαμεν'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμαθηκαμεν'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμάθηκας'" select="'μανθάνω'"/>
+         <xsl:map-entry key="'μεμάθηκεν'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμαθηκέναι'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμαθηκώς'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμαθηκὼς'" select="'μανθάνω'"/>
          <xsl:map-entry key="'μεμέρισται'" select="'μερίζω'"/>
+         <xsl:map-entry key="'μεμιασμένην'" select="'μιαίνω'"/>
          <xsl:map-entry key="'μεμίσηκε'" select="'μισέω'"/>
          <xsl:map-entry key="'μεμίσηκεν'" select="'μισέω'"/>
          <xsl:map-entry key="'μεμνημένοι'" select="'μιμνήσκω'"/>
@@ -16942,6 +18235,7 @@
          <xsl:map-entry key="'μέρη'" select="'μέρος'"/>
          <xsl:map-entry key="'μερίδα'" select="'μερίς'"/>
          <xsl:map-entry key="'μερίδες'" select="'μερίς'"/>
+         <xsl:map-entry key="'μερίζει'" select="'μερίζω'"/>
          <xsl:map-entry key="'μεριζεται'" select="'μερίζω'"/>
          <xsl:map-entry key="'μερίζεται'" select="'μερίζω'"/>
          <xsl:map-entry key="'μεριζόμενος'" select="'μερίζω'"/>
@@ -16951,7 +18245,7 @@
          <xsl:map-entry key="'μερικὴ'" select="'μερικός'"/>
          <xsl:map-entry key="'μερικήν'" select="'μερικός'"/>
          <xsl:map-entry key="'μερικός'" select="'μερικός'"/>
-         <xsl:map-entry key="'μερικῶς'" select="'μερικός'"/>
+         <xsl:map-entry key="'μερικῶς'" select="'μερικῶς'"/>
          <xsl:map-entry key="'μεριμνα'" select="'μέριμνα'"/>
          <xsl:map-entry key="'μέριμνα'" select="'μέριμνα'"/>
          <xsl:map-entry key="'μεριμνᾷ'" select="'μεριμνάω'"/>
@@ -16981,6 +18275,7 @@
          <xsl:map-entry key="'μερῶν'" select="'μέρος'"/>
          <xsl:map-entry key="'μερων'" select="'μέρος'"/>
          <xsl:map-entry key="'μέσα'" select="'μέσος'"/>
+         <xsl:map-entry key="'μεσάζοντος'" select="'μεσάζω'"/>
          <xsl:map-entry key="'μεσάζω'" select="'μεσάζω'"/>
          <xsl:map-entry key="'μέση'" select="'μέσος'"/>
          <xsl:map-entry key="'μέσῃ'" select="'μέσος'"/>
@@ -16999,8 +18294,12 @@
          <xsl:map-entry key="'μεσίτης'" select="'μεσίτης'"/>
          <xsl:map-entry key="'μεσιτων'" select="'μεσίτης'"/>
          <xsl:map-entry key="'μεσοι'" select="'μέσος'"/>
+         <xsl:map-entry key="'μέσοι'" select="'μέσος'"/>
+         <xsl:map-entry key="'μέσοις'" select="'μέσος'"/>
          <xsl:map-entry key="'μέσον'" select="'μέσος'"/>
          <xsl:map-entry key="'μεσονύκτιον'" select="'μεσονύκτιον'"/>
+         <xsl:map-entry key="'Μεσοποταμία'" select="'Μεσοποταμία'"/>
+         <xsl:map-entry key="'Μεσοποταμίαν'" select="'Μεσοποταμία'"/>
          <xsl:map-entry key="'μέσος'" select="'μέσος'"/>
          <xsl:map-entry key="'μεσοτης'" select="'μεσότης'"/>
          <xsl:map-entry key="'μεσότης'" select="'μεσότης'"/>
@@ -17008,10 +18307,13 @@
          <xsl:map-entry key="'μεσου'" select="'μέσος'"/>
          <xsl:map-entry key="'μέσου'" select="'μέσος'"/>
          <xsl:map-entry key="'μεσους'" select="'μέσος'"/>
+         <xsl:map-entry key="'μεσούσης'" select="'μεσόω'"/>
+         <xsl:map-entry key="'μεσόω'" select="'μεσόω'"/>
          <xsl:map-entry key="'μεστος'" select="'μέσος'"/>
          <xsl:map-entry key="'μέσῳ'" select="'μέσος'"/>
          <xsl:map-entry key="'μεσωι'" select="'μέσος'"/>
          <xsl:map-entry key="'μεσων'" select="'μέσος'"/>
+         <xsl:map-entry key="'μέσων'" select="'μέσος'"/>
          <xsl:map-entry key="'μεταβαίνει'" select="'μεταβαίνω'"/>
          <xsl:map-entry key="'μεταβαίνουσα'" select="'μεταβαίνω'"/>
          <xsl:map-entry key="'μεταβαίνουσιν'" select="'μεταβαίνω'"/>
@@ -17020,6 +18322,7 @@
          <xsl:map-entry key="'μεταβαλλομένη'" select="'μεταβάλλω'"/>
          <xsl:map-entry key="'μεταβαλλόμενος'" select="'μεταβάλλω'"/>
          <xsl:map-entry key="'μεταβαλλομένους'" select="'μεταβάλλω'"/>
+         <xsl:map-entry key="'μεταβάλλοντα'" select="'μεταβάλλω'"/>
          <xsl:map-entry key="'μεταβαλλονται'" select="'μεταβάλλω'"/>
          <xsl:map-entry key="'μεταβάλλω'" select="'μεταβάλλω'"/>
          <xsl:map-entry key="'μεταβάντων'" select="'μεταβαίνω'"/>
@@ -17086,12 +18389,14 @@
          <xsl:map-entry key="'μετανερχεται'" select="'μετανέρχομαι'"/>
          <xsl:map-entry key="'μετανέρχομαι'" select="'μετανέρχομαι'"/>
          <xsl:map-entry key="'μετανίστημι'" select="'μετανίστημι'"/>
+         <xsl:map-entry key="'μετανοεῖ'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοειν'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοεῖν'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοέω'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοήσαντας'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοησάντων'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοήσεις'" select="'μετανοέω'"/>
+         <xsl:map-entry key="'μετανοήσῃ'" select="'μετανοέω'"/>
          <xsl:map-entry key="'μετανοήσῃς'" select="'μετανοέω'"/>
          <xsl:map-entry key="'Μετάνοια'" select="'μετάνοια'"/>
          <xsl:map-entry key="'μετάνοια'" select="'μετάνοια'"/>
@@ -17111,6 +18416,8 @@
          <xsl:map-entry key="'μεταπείθω'" select="'μεταπείθω'"/>
          <xsl:map-entry key="'μεταπείσῃ'" select="'μεταπείθω'"/>
          <xsl:map-entry key="'μεταπιπράσκω'" select="'μεταπιπράσκω'"/>
+         <xsl:map-entry key="'μεταποιέω'" select="'μεταποιέω'"/>
+         <xsl:map-entry key="'μεταποιουμένους'" select="'μεταποιέω'"/>
          <xsl:map-entry key="'μετάρσιον'" select="'μετάρσιος'"/>
          <xsl:map-entry key="'μετάρσιος'" select="'μετάρσιος'"/>
          <xsl:map-entry key="'μεταστὰς'" select="'μεθίστημι'"/>
@@ -17128,6 +18435,7 @@
          <xsl:map-entry key="'μετασχηματίζω'" select="'μετασχηματίζω'"/>
          <xsl:map-entry key="'μετασχηματισθῆαι'" select="'μετασχηματίζω'"/>
          <xsl:map-entry key="'μετασχημάτισμα'" select="'μετασχημάτισμα'"/>
+         <xsl:map-entry key="'μετασχηματισμόν'" select="'μετασχηματισμός'"/>
          <xsl:map-entry key="'μετασχηματισμός'" select="'μετασχηματισμός'"/>
          <xsl:map-entry key="'μετασχηματισμῷ'" select="'μετασχηματισμός'"/>
          <xsl:map-entry key="'μετατιθεὶς'" select="'μετατίθημι'"/>
@@ -17143,7 +18451,9 @@
          <xsl:map-entry key="'μετάφρενον'" select="'μετάφρενον'"/>
          <xsl:map-entry key="'μετέδωκαν'" select="'μεταδίδωμι'"/>
          <xsl:map-entry key="'μετέδωκεν'" select="'μεταδίδωμι'"/>
+         <xsl:map-entry key="'μετέθηκε'" select="'μετατίθημι'"/>
          <xsl:map-entry key="'μέτειμι'" select="'μέτειμι'"/>
+         <xsl:map-entry key="'μετελήφθη'" select="'μεταλαμβάνω'"/>
          <xsl:map-entry key="'μετελθεῖν'" select="'μετέρχομαι'"/>
          <xsl:map-entry key="'μετεμελήθη'" select="'μετεπιμελέομαι'"/>
          <xsl:map-entry key="'μετεμορφώθη'" select="'μεταμορφόω'"/>
@@ -17155,7 +18465,9 @@
          <xsl:map-entry key="'μετέρχεται'" select="'μετέρχομαι'"/>
          <xsl:map-entry key="'μετέρχομαι'" select="'μετέρχομαι'"/>
          <xsl:map-entry key="'μετερχόμεθα'" select="'μετέρχομαι'"/>
+         <xsl:map-entry key="'μετερχόμενος'" select="'μετέρχομαι'"/>
          <xsl:map-entry key="'μετεστράφησαν'" select="'μεταστρέφω'"/>
+         <xsl:map-entry key="'μετέσχε'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέσχηκε'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέχει'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετεχειν'" select="'μετέχω'"/>
@@ -17163,11 +18475,14 @@
          <xsl:map-entry key="'μετέχοντα'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέχοντες'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέχοντος'" select="'μετέχω'"/>
+         <xsl:map-entry key="'μετεχόντων'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετεχουσι'" select="'μετέχω'"/>
+         <xsl:map-entry key="'μετέχουσιν'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέχω'" select="'μετέχω'"/>
          <xsl:map-entry key="'μετέχων'" select="'μετέχω'"/>
          <xsl:map-entry key="'Μετεωρίζει'" select="'μετεωρίζω'"/>
          <xsl:map-entry key="'μετεωρίζῃ'" select="'μετεωρίζω'"/>
+         <xsl:map-entry key="'μετεωριζόμενον'" select="'μετεωρίζω'"/>
          <xsl:map-entry key="'μετεωρίζω'" select="'μετεωρίζω'"/>
          <xsl:map-entry key="'μετεωρίσῃς'" select="'μετεωρίζω'"/>
          <xsl:map-entry key="'μετεωρισμοὶ'" select="'μετεωρισμός'"/>
@@ -17204,13 +18519,16 @@
          <xsl:map-entry key="'μετριοπαθεῖν'" select="'μετριοπαθέω'"/>
          <xsl:map-entry key="'μετριοπαθέω'" select="'μετριοπαθέω'"/>
          <xsl:map-entry key="'μέτριος'" select="'μέτριος'"/>
-         <xsl:map-entry key="'μετρίως'" select="'μέτριος'"/>
+         <xsl:map-entry key="'μετρίως'" select="'μετρίως'"/>
          <xsl:map-entry key="'μέτροις'" select="'μέτρον'"/>
          <xsl:map-entry key="'μέτρον'" select="'μέτρον'"/>
          <xsl:map-entry key="'μετρον'" select="'μέτρον'"/>
          <xsl:map-entry key="'Μέτρον'" select="'μέτρον'"/>
          <xsl:map-entry key="'μέτρου'" select="'μέτρον'"/>
+         <xsl:map-entry key="'μετροῦμεν'" select="'μετρέω'"/>
          <xsl:map-entry key="'μέτρῳ'" select="'μέτρον'"/>
+         <xsl:map-entry key="'μέτωπον'" select="'μέτωπον'"/>
+         <xsl:map-entry key="'μετώπου'" select="'μέτωπον'"/>
          <xsl:map-entry key="'μέχρι'" select="'μέχρι'"/>
          <xsl:map-entry key="'Μέχρι'" select="'μέχρι'"/>
          <xsl:map-entry key="'μέχρις'" select="'μέχρι'"/>
@@ -17232,6 +18550,7 @@
          <xsl:map-entry key="'μηλωτή'" select="'μηλωτή'"/>
          <xsl:map-entry key="'μηλωτὴν'" select="'μηλωτή'"/>
          <xsl:map-entry key="'μην'" select="'μήν'"/>
+         <xsl:map-entry key="'μήν'" select="'μήν'"/>
          <xsl:map-entry key="'μῆνα'" select="'μήν'"/>
          <xsl:map-entry key="'μήνη'" select="'μήνη'"/>
          <xsl:map-entry key="'μηνιάσει'" select="'μηνιάω'"/>
@@ -17246,7 +18565,7 @@
          <xsl:map-entry key="'μηνύσωμεν'" select="'μηνύω'"/>
          <xsl:map-entry key="'μηνύσων'" select="'μηνύω'"/>
          <xsl:map-entry key="'μηνύω'" select="'μηνύω'"/>
-         <xsl:map-entry key="'μηνῶν'" select="'μήνη'"/>
+         <xsl:map-entry key="'μηνῶν'" select="'μήν'"/>
          <xsl:map-entry key="'μήποτε'" select="'μήποτε'"/>
          <xsl:map-entry key="'μηποτε'" select="'μήποτε'"/>
          <xsl:map-entry key="'μήπω'" select="'μήπω'"/>
@@ -17283,6 +18602,8 @@
          <xsl:map-entry key="'μιαίνων'" select="'μιαίνω'"/>
          <xsl:map-entry key="'μίαν'" select="'εἷς'"/>
          <xsl:map-entry key="'μιαν'" select="'εἷς'"/>
+         <xsl:map-entry key="'μιάνῃς'" select="'μιαίνω'"/>
+         <xsl:map-entry key="'μιανθῶμεν'" select="'μιαίνω'"/>
          <xsl:map-entry key="'μιάνωσι'" select="'μιαίνω'"/>
          <xsl:map-entry key="'μιας'" select="'μία'"/>
          <xsl:map-entry key="'μίας'" select="'εἷς'"/>
@@ -17305,7 +18626,7 @@
          <xsl:map-entry key="'μικροῦ'" select="'μικρός'"/>
          <xsl:map-entry key="'μικροὺς'" select="'μικρός'"/>
          <xsl:map-entry key="'μικρῶν'" select="'μικρός'"/>
-         <xsl:map-entry key="'μικρῶς'" select="'μικρός'"/>
+         <xsl:map-entry key="'μικρῶς'" select="'μικρῶς'"/>
          <xsl:map-entry key="'μικτοὶ'" select="'μικτός'"/>
          <xsl:map-entry key="'μικτός'" select="'μικτός'"/>
          <xsl:map-entry key="'μιμεῖσθαι'" select="'μιμέομαι'"/>
@@ -17333,6 +18654,7 @@
          <xsl:map-entry key="'μισει'" select="'μισέω'"/>
          <xsl:map-entry key="'μισεῖ'" select="'μισέω'"/>
          <xsl:map-entry key="'μίσει'" select="'μισέω'"/>
+         <xsl:map-entry key="'μισεῖς'" select="'μισέω'"/>
          <xsl:map-entry key="'μισεῖτε'" select="'μισέω'"/>
          <xsl:map-entry key="'μισέω'" select="'μισέω'"/>
          <xsl:map-entry key="'μισηθεὶς'" select="'μισέω'"/>
@@ -17368,9 +18690,11 @@
          <xsl:map-entry key="'μισῶν'" select="'μισέω'"/>
          <xsl:map-entry key="'μνεία'" select="'μνεία'"/>
          <xsl:map-entry key="'μνείας'" select="'μνεία'"/>
+         <xsl:map-entry key="'μνῆμα'" select="'μνῆμα'"/>
          <xsl:map-entry key="'μνῆμαι'" select="'μνήμη'"/>
          <xsl:map-entry key="'μνήμας'" select="'μνήμη'"/>
          <xsl:map-entry key="'Μνήμας'" select="'μνήμη'"/>
+         <xsl:map-entry key="'μνήματα'" select="'μνῆμα'"/>
          <xsl:map-entry key="'μνήμη'" select="'μνήμη'"/>
          <xsl:map-entry key="'μνήμῃ'" select="'μνήμη'"/>
          <xsl:map-entry key="'Μνήμη'" select="'μνήμη'"/>
@@ -17406,15 +18730,19 @@
          <xsl:map-entry key="'μνημῶν'" select="'μνήμη'"/>
          <xsl:map-entry key="'μνησθείη'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνησθῆναι'" select="'μιμνήσκω'"/>
+         <xsl:map-entry key="'μνησθήσεται'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνησθήσομαί'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνησθήσονται'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνήσθητι'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'Μνήσθητι'" select="'μιμνήσκω'"/>
+         <xsl:map-entry key="'μνησθῶμεν'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνησθῶσιν'" select="'μιμνήσκω'"/>
          <xsl:map-entry key="'μνησικακεῖ'" select="'μνησικακέω'"/>
          <xsl:map-entry key="'μνησικάκει'" select="'μνησικακέω'"/>
          <xsl:map-entry key="'μνησικακέω'" select="'μνησικακέω'"/>
+         <xsl:map-entry key="'μνησικακῆσαι'" select="'μνησικακέω'"/>
          <xsl:map-entry key="'μνησικακήσεις'" select="'μνησικακέω'"/>
+         <xsl:map-entry key="'μνησικακήσῃς'" select="'μνησικακέω'"/>
          <xsl:map-entry key="'μνησικακία'" select="'μνησικακία'"/>
          <xsl:map-entry key="'μνησικακίᾳ'" select="'μνησικακία'"/>
          <xsl:map-entry key="'Μνησικακίαν'" select="'μνησικακία'"/>
@@ -17445,6 +18773,7 @@
          <xsl:map-entry key="'μοιχεύω'" select="'μοιχεύω'"/>
          <xsl:map-entry key="'μοιχὸν'" select="'μοιχός'"/>
          <xsl:map-entry key="'μοιχός'" select="'μοιχός'"/>
+         <xsl:map-entry key="'μοιχοὺς'" select="'μοιχός'"/>
          <xsl:map-entry key="'μοιχῶν'" select="'μοιχός'"/>
          <xsl:map-entry key="'μόλιβδον'" select="'μόλυβδος'"/>
          <xsl:map-entry key="'μόλυβδος'" select="'μόλυβδος'"/>
@@ -17509,11 +18838,14 @@
          <xsl:map-entry key="'Μονιὸν'" select="'μονιός'"/>
          <xsl:map-entry key="'μονιὸς'" select="'μονιός'"/>
          <xsl:map-entry key="'μονιός'" select="'μονιός'"/>
+         <xsl:map-entry key="'μονογαμία'" select="'μονογαμία'"/>
+         <xsl:map-entry key="'μονογαμίαν'" select="'μονογαμία'"/>
          <xsl:map-entry key="'μονογενῆ'" select="'μονογενής'"/>
          <xsl:map-entry key="'Μονογενής'" select="'μονογενής'"/>
          <xsl:map-entry key="'Μονογενης'" select="'μονογενής'"/>
          <xsl:map-entry key="'μονογενής'" select="'μονογενής'"/>
          <xsl:map-entry key="'μονογενὴς'" select="'μονογενής'"/>
+         <xsl:map-entry key="'Μονογενὴς'" select="'μονογενής'"/>
          <xsl:map-entry key="'μονογενοῦς'" select="'μονογενής'"/>
          <xsl:map-entry key="'Μονογενοῦς'" select="'μονογενής'"/>
          <xsl:map-entry key="'μονοειδες'" select="'μονοειδής'"/>
@@ -17522,7 +18854,8 @@
          <xsl:map-entry key="'μονοειδής'" select="'μονοειδής'"/>
          <xsl:map-entry key="'μονοειδὴς'" select="'μονοειδής'"/>
          <xsl:map-entry key="'μονοειδους'" select="'μονοειδής'"/>
-         <xsl:map-entry key="'μονοειδως'" select="'μονοειδής'"/>
+         <xsl:map-entry key="'μονοειδως'" select="'μονοειδῶς'"/>
+         <xsl:map-entry key="'μονοειδῶς'" select="'μονοειδῶς'"/>
          <xsl:map-entry key="'μονοι'" select="'μόνος'"/>
          <xsl:map-entry key="'μόνοι'" select="'μόνος'"/>
          <xsl:map-entry key="'Μόνοι'" select="'μόνος'"/>
@@ -17581,10 +18914,18 @@
          <xsl:map-entry key="'Μόσχος'" select="'μόσχος'"/>
          <xsl:map-entry key="'μόσχος'" select="'μόσχος'"/>
          <xsl:map-entry key="'μόσχου'" select="'μόσχος'"/>
+         <xsl:map-entry key="'μόσχων'" select="'μόσχος'"/>
+         <xsl:map-entry key="'μοχθεῖ'" select="'μοχθέω'"/>
          <xsl:map-entry key="'μοχθηρᾶς'" select="'μοχθηρός'"/>
          <xsl:map-entry key="'μοχθηράς'" select="'μοχθηρός'"/>
          <xsl:map-entry key="'μοχθηρὰς'" select="'μοχθηρός'"/>
          <xsl:map-entry key="'μοχθηρός'" select="'μοχθηρός'"/>
+         <xsl:map-entry key="'μοχθήσῃ'" select="'μοχθέω'"/>
+         <xsl:map-entry key="'μόχθον'" select="'μόχθος'"/>
+         <xsl:map-entry key="'μόχθος'" select="'μόχθος'"/>
+         <xsl:map-entry key="'μόχθου'" select="'μόχθος'"/>
+         <xsl:map-entry key="'μόχθῳ'" select="'μόχθος'"/>
+         <xsl:map-entry key="'μοχθῶ'" select="'μοχθέω'"/>
          <xsl:map-entry key="'Μοχλοὶ'" select="'μοχλός'"/>
          <xsl:map-entry key="'Μοχλος'" select="'μοχλός'"/>
          <xsl:map-entry key="'μοχλός'" select="'μοχλός'"/>
@@ -17637,10 +18978,12 @@
          <xsl:map-entry key="'μυστικὴ'" select="'μυστικός'"/>
          <xsl:map-entry key="'μυστικὴν'" select="'μυστικός'"/>
          <xsl:map-entry key="'μυστικῆς'" select="'μυστικός'"/>
+         <xsl:map-entry key="'μυστικοὶ'" select="'μυστικός'"/>
          <xsl:map-entry key="'μυστικὸν'" select="'μυστικός'"/>
          <xsl:map-entry key="'μυστικόν'" select="'μυστικός'"/>
          <xsl:map-entry key="'μυστικός'" select="'μυστικός'"/>
-         <xsl:map-entry key="'μυστικῶς'" select="'μυστικός'"/>
+         <xsl:map-entry key="'μυστικοῦ'" select="'μυστικός'"/>
+         <xsl:map-entry key="'μυστικῶς'" select="'μυστικῶς'"/>
          <xsl:map-entry key="'μυστικωτέραν'" select="'μυστικός'"/>
          <xsl:map-entry key="'Μωὰβ'" select="'Μωάβ'"/>
          <xsl:map-entry key="'Μωάβ'" select="'Μωάβ'"/>
@@ -17653,6 +18996,7 @@
          <xsl:map-entry key="'μωρός'" select="'μωρός'"/>
          <xsl:map-entry key="'μωροῦ'" select="'μωρός'"/>
          <xsl:map-entry key="'Μωσέα'" select="'Μωσῆς'"/>
+         <xsl:map-entry key="'Μωσεῖ'" select="'Μωσῆς'"/>
          <xsl:map-entry key="'Μωσεως'" select="'Μωσῆς'"/>
          <xsl:map-entry key="'Μωσέως'" select="'Μωσῆς'"/>
          <xsl:map-entry key="'Μωσῆς'" select="'Μωσῆς'"/>
@@ -17669,6 +19013,8 @@
          <xsl:map-entry key="'Ναζιραῖος'" select="'Ναζιραῖος'"/>
          <xsl:map-entry key="'ναζιραιοτητος'" select="'Ναζιραῖος'"/>
          <xsl:map-entry key="'ναζιραίους'" select="'Ναζιραῖος'"/>
+         <xsl:map-entry key="'Ναθάμ'" select="'Ναθάμ'"/>
+         <xsl:map-entry key="'Νάθαν'" select="'Ναθάμ'"/>
          <xsl:map-entry key="'ναὶ'" select="'ναί'"/>
          <xsl:map-entry key="'Ναὶ'" select="'ναί'"/>
          <xsl:map-entry key="'ναί'" select="'ναί'"/>
@@ -17712,6 +19058,8 @@
          <xsl:map-entry key="'ναῷ'" select="'ναός'"/>
          <xsl:map-entry key="'νέᾳ'" select="'νέα'"/>
          <xsl:map-entry key="'νέα'" select="'νέα'"/>
+         <xsl:map-entry key="'νεανίαις'" select="'νεανίης'"/>
+         <xsl:map-entry key="'νεανίης'" select="'νεανίης'"/>
          <xsl:map-entry key="'νεανίσκους'" select="'νεανίσκος'"/>
          <xsl:map-entry key="'νέας'" select="'νέος'"/>
          <xsl:map-entry key="'νεβρὸν'" select="'νεβρός'"/>
@@ -17741,12 +19089,14 @@
          <xsl:map-entry key="'νεκρῶν'" select="'νεκρός'"/>
          <xsl:map-entry key="'Νεκρῶν'" select="'νεκρός'"/>
          <xsl:map-entry key="'νεκρῶσαι'" select="'νεκρόω'"/>
+         <xsl:map-entry key="'νεκρώσαντές'" select="'νεκρόω'"/>
          <xsl:map-entry key="'νεκρώσει'" select="'νέκρωσις'"/>
          <xsl:map-entry key="'νέκρωσιν'" select="'νέκρωσις'"/>
          <xsl:map-entry key="'νέκρωσις'" select="'νέκρωσις'"/>
          <xsl:map-entry key="'Νεκρωσις'" select="'νέκρωσις'"/>
          <xsl:map-entry key="'νέκρωσον'" select="'νεκρόω'"/>
          <xsl:map-entry key="'νεκρώσωμεν'" select="'νεκρόω'"/>
+         <xsl:map-entry key="'νέμῃ'" select="'νέμω'"/>
          <xsl:map-entry key="'νέμοι'" select="'νέμω'"/>
          <xsl:map-entry key="'νέμοιτο'" select="'νέμω'"/>
          <xsl:map-entry key="'νεμόμενοι'" select="'νέμω'"/>
@@ -17815,6 +19165,8 @@
          <xsl:map-entry key="'νέῳ'" select="'νέος'"/>
          <xsl:map-entry key="'νεων'" select="'νέος'"/>
          <xsl:map-entry key="'νέων'" select="'νέος'"/>
+         <xsl:map-entry key="'νεωστὶ'" select="'νεωστί'"/>
+         <xsl:map-entry key="'νεωστί'" select="'νεωστί'"/>
          <xsl:map-entry key="'νεωτέροις'" select="'νέος'"/>
          <xsl:map-entry key="'νεώτερος'" select="'νέος'"/>
          <xsl:map-entry key="'νὴ'" select="'νή'"/>
@@ -17840,6 +19192,7 @@
          <xsl:map-entry key="'Νηστεία'" select="'νηστεία'"/>
          <xsl:map-entry key="'νηστείᾳ'" select="'νηστεία'"/>
          <xsl:map-entry key="'νηστείαις'" select="'νηστεία'"/>
+         <xsl:map-entry key="'νηστείαν'" select="'νηστεία'"/>
          <xsl:map-entry key="'νηστείας'" select="'νηστεία'"/>
          <xsl:map-entry key="'νηστεύειν'" select="'νηστεύω'"/>
          <xsl:map-entry key="'νηστεύητε'" select="'νηστεύω'"/>
@@ -17848,20 +19201,23 @@
          <xsl:map-entry key="'νηστεύοντες'" select="'νηστεύω'"/>
          <xsl:map-entry key="'Νηστεύοντος'" select="'νηστεύω'"/>
          <xsl:map-entry key="'νηστεύοντος'" select="'νηστεύω'"/>
+         <xsl:map-entry key="'νηστεῦσαι'" select="'νηστεύω'"/>
          <xsl:map-entry key="'νηστεύω'" select="'νηστεύω'"/>
          <xsl:map-entry key="'νηστεύων'" select="'νηστεύω'"/>
          <xsl:map-entry key="'Νηφάλιον'" select="'νηφάλιος'"/>
          <xsl:map-entry key="'νηφάλιος'" select="'νηφάλιος'"/>
-         <xsl:map-entry key="'νηφαλίως'" select="'νηφάλιος'"/>
+         <xsl:map-entry key="'νηφαλίως'" select="'νηφαλίως'"/>
          <xsl:map-entry key="'νήφειν'" select="'νήφω'"/>
          <xsl:map-entry key="'νήφοντι'" select="'νήφω'"/>
          <xsl:map-entry key="'νηφόντως'" select="'νηφόντως'"/>
          <xsl:map-entry key="'Νηφούσης'" select="'νήφω'"/>
          <xsl:map-entry key="'νήφω'" select="'νήφω'"/>
+         <xsl:map-entry key="'νήφων'" select="'νήφω'"/>
          <xsl:map-entry key="'νήψει'" select="'νῆψις'"/>
          <xsl:map-entry key="'νήψεως'" select="'νῆψις'"/>
          <xsl:map-entry key="'νῆψις'" select="'νῆψις'"/>
          <xsl:map-entry key="'Νικᾷ'" select="'νικάω'"/>
+         <xsl:map-entry key="'νίκα'" select="'νικάω'"/>
          <xsl:map-entry key="'νίκαις'" select="'νίκη'"/>
          <xsl:map-entry key="'νικᾶν'" select="'νικάω'"/>
          <xsl:map-entry key="'νικᾷν'" select="'νικάω'"/>
@@ -17918,15 +19274,20 @@
          <xsl:map-entry key="'νοήμασίν'" select="'νόημα'"/>
          <xsl:map-entry key="'νοήματα'" select="'νόημα'"/>
          <xsl:map-entry key="'νοήματά'" select="'νόημα'"/>
+         <xsl:map-entry key="'νοήματι'" select="'νόημα'"/>
+         <xsl:map-entry key="'νοηματιζομένη'" select="'νοηματίζω'"/>
+         <xsl:map-entry key="'νοηματίζω'" select="'νοηματίζω'"/>
          <xsl:map-entry key="'νοήματος'" select="'νόημα'"/>
          <xsl:map-entry key="'νοημάτων'" select="'νόημα'"/>
          <xsl:map-entry key="'νοηματων'" select="'νόημα'"/>
          <xsl:map-entry key="'νοῆσαι'" select="'νοέω'"/>
          <xsl:map-entry key="'νοησάτω'" select="'νοέω'"/>
          <xsl:map-entry key="'νοήσει'" select="'νοέω'"/>
+         <xsl:map-entry key="'νοήσεις'" select="'νοέω'"/>
          <xsl:map-entry key="'νοήσῃ'" select="'νοέω'"/>
          <xsl:map-entry key="'νόησις'" select="'νόησις'"/>
          <xsl:map-entry key="'νοήσοι'" select="'νοέω'"/>
+         <xsl:map-entry key="'νοήσομεν'" select="'νοέω'"/>
          <xsl:map-entry key="'νοήσουσι'" select="'νοέω'"/>
          <xsl:map-entry key="'νοήσωμεν'" select="'νοέω'"/>
          <xsl:map-entry key="'νοητα'" select="'νοητός'"/>
@@ -17939,8 +19300,10 @@
          <xsl:map-entry key="'νοητη'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητὴ'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητή'" select="'νοητός'"/>
+         <xsl:map-entry key="'νοητὴν'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητῆς'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητικὴ'" select="'νοητικός'"/>
+         <xsl:map-entry key="'νοητικῆς'" select="'νοητικός'"/>
          <xsl:map-entry key="'νοητικον'" select="'νοητικός'"/>
          <xsl:map-entry key="'νοητικός'" select="'νοητικός'"/>
          <xsl:map-entry key="'νοητοι'" select="'νοητός'"/>
@@ -17955,7 +19318,9 @@
          <xsl:map-entry key="'νοητῷ'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητῶν'" select="'νοητός'"/>
          <xsl:map-entry key="'νοητων'" select="'νοητός'"/>
-         <xsl:map-entry key="'νοητῶς'" select="'νοητός'"/>
+         <xsl:map-entry key="'νοητῶς'" select="'νοητῶς'"/>
+         <xsl:map-entry key="'νόθοι'" select="'νόθος'"/>
+         <xsl:map-entry key="'νόθος'" select="'νόθος'"/>
          <xsl:map-entry key="'νοι'" select="'νόος'"/>
          <xsl:map-entry key="'νοῒ'" select="'νόος'"/>
          <xsl:map-entry key="'νομή'" select="'νομή'"/>
@@ -17967,6 +19332,7 @@
          <xsl:map-entry key="'νομίζειν'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομιζέτωσαν'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομίζηται'" select="'νομίζω'"/>
+         <xsl:map-entry key="'νομίζομεν'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομιζομενα'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομιζομενου'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομίζοντα'" select="'νομίζω'"/>
@@ -17980,9 +19346,9 @@
          <xsl:map-entry key="'νομίζωσι'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομικῆς'" select="'νομικός'"/>
          <xsl:map-entry key="'νομικός'" select="'νομικός'"/>
-         <xsl:map-entry key="'νομικῶς'" select="'νομικός'"/>
+         <xsl:map-entry key="'νομικῶς'" select="'νομικῶς'"/>
          <xsl:map-entry key="'νόμιμος'" select="'νόμιμος'"/>
-         <xsl:map-entry key="'νομίμως'" select="'νόμιμος'"/>
+         <xsl:map-entry key="'νομίμως'" select="'νομίμως'"/>
          <xsl:map-entry key="'νομίσῃς'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομίσητε'" select="'νομίζω'"/>
          <xsl:map-entry key="'νομισθῇ'" select="'νομίζω'"/>
@@ -17999,7 +19365,10 @@
          <xsl:map-entry key="'νομοθετικόν'" select="'νομοθετικός'"/>
          <xsl:map-entry key="'νομοθετικός'" select="'νομοθετικός'"/>
          <xsl:map-entry key="'νομοθετοῦσα'" select="'νομοθετέω'"/>
+         <xsl:map-entry key="'νομοθετοῦσι'" select="'νομοθετέω'"/>
+         <xsl:map-entry key="'νομοθετῶν'" select="'νομοθετέω'"/>
          <xsl:map-entry key="'νομοθήκη'" select="'νομοθήκη'"/>
+         <xsl:map-entry key="'νόμοι'" select="'νόμος'"/>
          <xsl:map-entry key="'νόμον'" select="'νόμος'"/>
          <xsl:map-entry key="'Νόμον'" select="'νόμος'"/>
          <xsl:map-entry key="'νομόν'" select="'νομός'"/>
@@ -18040,12 +19409,16 @@
          <xsl:map-entry key="'νοσούντας'" select="'νοσέω'"/>
          <xsl:map-entry key="'νοσοῦντες'" select="'νοσέω'"/>
          <xsl:map-entry key="'νοσοῦντι'" select="'νοσέω'"/>
+         <xsl:map-entry key="'νοσούντοων'" select="'νοσέω'"/>
+         <xsl:map-entry key="'νοσούντων'" select="'νοσέω'"/>
          <xsl:map-entry key="'νόσους'" select="'νόσος'"/>
          <xsl:map-entry key="'νοσουσων'" select="'νοσέω'"/>
          <xsl:map-entry key="'νοσσεύσουσιν'" select="'νοσσεύω'"/>
+         <xsl:map-entry key="'νοσσεύω'" select="'νοσσεύω'"/>
          <xsl:map-entry key="'νοσσία'" select="'νεοσσιά'"/>
          <xsl:map-entry key="'νοσσιὰν'" select="'νεοσσιά'"/>
          <xsl:map-entry key="'νοσσιᾶς'" select="'νεοσσιά'"/>
+         <xsl:map-entry key="'νόσῳ'" select="'νόσος'"/>
          <xsl:map-entry key="'νοσῶν'" select="'νοσέω'"/>
          <xsl:map-entry key="'νότε'" select="'νότος'"/>
          <xsl:map-entry key="'νότος'" select="'νότος'"/>
@@ -18057,6 +19430,7 @@
          <xsl:map-entry key="'νουθεσίας'" select="'νουθεσία'"/>
          <xsl:map-entry key="'νουθετεῖ'" select="'νουθετέω'"/>
          <xsl:map-entry key="'νουθετέω'" select="'νουθετέω'"/>
+         <xsl:map-entry key="'νουθέτησιν'" select="'νουθέτησις'"/>
          <xsl:map-entry key="'νουθετησις'" select="'νουθέτησις'"/>
          <xsl:map-entry key="'νουθέτησις'" select="'νουθέτησις'"/>
          <xsl:map-entry key="'νουθετοίη'" select="'νουθετέω'"/>
@@ -18066,7 +19440,7 @@
          <xsl:map-entry key="'Νοῦν'" select="'νόος'"/>
          <xsl:map-entry key="'νουν'" select="'νόος'"/>
          <xsl:map-entry key="'νουνεχής'" select="'νουνεχής'"/>
-         <xsl:map-entry key="'νουνεχῶς'" select="'νουνεχής'"/>
+         <xsl:map-entry key="'νουνεχῶς'" select="'νουνεχῶς'"/>
          <xsl:map-entry key="'νοῦς'" select="'νόος'"/>
          <xsl:map-entry key="'Νοῦς'" select="'νόος'"/>
          <xsl:map-entry key="'νους'" select="'νόος'"/>
@@ -18119,6 +19493,9 @@
          <xsl:map-entry key="'νυστάζω'" select="'νυστάζω'"/>
          <xsl:map-entry key="'νυττόμενος'" select="'νύσσω'"/>
          <xsl:map-entry key="'νύττοντος'" select="'νύσσω'"/>
+         <xsl:map-entry key="'νυχθήμερον'" select="'νυχθήμερος'"/>
+         <xsl:map-entry key="'νυχθήμερος'" select="'νυχθήμερος'"/>
+         <xsl:map-entry key="'νυχθημέρῳ'" select="'νυχθήμερος'"/>
          <xsl:map-entry key="'νῷ'" select="'νόος'"/>
          <xsl:map-entry key="'Νῶε'" select="'Νῶε'"/>
          <xsl:map-entry key="'νωι'" select="'νόος'"/>
@@ -18134,12 +19511,19 @@
          <xsl:map-entry key="'ξενία'" select="'ξενία'"/>
          <xsl:map-entry key="'ξενίζω'" select="'ξενίζω'"/>
          <xsl:map-entry key="'ξενίζωμεν'" select="'ξενίζω'"/>
+         <xsl:map-entry key="'ξένιον'" select="'ξένιος'"/>
+         <xsl:map-entry key="'ξένιος'" select="'ξένιος'"/>
+         <xsl:map-entry key="'ξενίου'" select="'ξένιος'"/>
          <xsl:map-entry key="'ξένισαι'" select="'ξενίζω'"/>
+         <xsl:map-entry key="'ξενισμὸς'" select="'ξενισμός'"/>
+         <xsl:map-entry key="'ξενισμός'" select="'ξενισμός'"/>
          <xsl:map-entry key="'ξενιτεία'" select="'ξενιτεία'"/>
          <xsl:map-entry key="'ξενιτείαν'" select="'ξενιτεία'"/>
          <xsl:map-entry key="'ξενιτείας'" select="'ξενιτεία'"/>
          <xsl:map-entry key="'ξενιτεύσαντες'" select="'ξενιτεύω'"/>
          <xsl:map-entry key="'ξενιτεύω'" select="'ξενιτεύω'"/>
+         <xsl:map-entry key="'ξενοδοκέω'" select="'ξενοδοκέω'"/>
+         <xsl:map-entry key="'ξενοδοχῆσαι'" select="'ξενοδοκέω'"/>
          <xsl:map-entry key="'ξενοδοχία'" select="'ξενοδοχία'"/>
          <xsl:map-entry key="'ξενοδοχίαν'" select="'ξενοδοχία'"/>
          <xsl:map-entry key="'ξένοι'" select="'ξένος'"/>
@@ -18149,9 +19533,10 @@
          <xsl:map-entry key="'ξένους'" select="'ξένος'"/>
          <xsl:map-entry key="'ξένῳ'" select="'ξένος'"/>
          <xsl:map-entry key="'ξένων'" select="'ξένος'"/>
-         <xsl:map-entry key="'ξένως'" select="'ξένος'"/>
+         <xsl:map-entry key="'ξένως'" select="'ξένως'"/>
          <xsl:map-entry key="'ξέσμα'" select="'ξέσμα'"/>
          <xsl:map-entry key="'ξηραίνει'" select="'ξηραίνω'"/>
+         <xsl:map-entry key="'ξηραίνειν'" select="'ξηραίνω'"/>
          <xsl:map-entry key="'Ξηραίνεται'" select="'ξηραίνω'"/>
          <xsl:map-entry key="'ξηραίνεται'" select="'ξηραίνω'"/>
          <xsl:map-entry key="'ξηραίνω'" select="'ξηραίνω'"/>
@@ -18161,6 +19546,7 @@
          <xsl:map-entry key="'ξηρόν'" select="'ξηρός'"/>
          <xsl:map-entry key="'ξηρός'" select="'ξηρός'"/>
          <xsl:map-entry key="'ξηροτάτῃ'" select="'ξηρός'"/>
+         <xsl:map-entry key="'ξηροτέρα'" select="'ξηρός'"/>
          <xsl:map-entry key="'ξηροτέραν'" select="'ξηρός'"/>
          <xsl:map-entry key="'ξηρου'" select="'ξηρός'"/>
          <xsl:map-entry key="'ξίφος'" select="'ξίφος'"/>
@@ -18200,6 +19586,7 @@
          <xsl:map-entry key="'οδηγει'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγεῖ'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'Ὁδηγεῖ'" select="'ὁδηγέω'"/>
+         <xsl:map-entry key="'ὁδηγεῖσθαί'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγεῖται'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγέω'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγήσει'" select="'ὁδηγέω'"/>
@@ -18208,6 +19595,8 @@
          <xsl:map-entry key="'ὁδήγησον'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'Ὁδήγησόν'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγήσωσιν'" select="'ὁδηγέω'"/>
+         <xsl:map-entry key="'ὁδηγία'" select="'ὁδηγία'"/>
+         <xsl:map-entry key="'ὁδηγίας'" select="'ὁδηγία'"/>
          <xsl:map-entry key="'ὁδηγός'" select="'ὁδηγός'"/>
          <xsl:map-entry key="'ὁδηγοῦσι'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὁδηγοῦσιν'" select="'ὁδηγέω'"/>
@@ -18255,7 +19644,7 @@
          <xsl:map-entry key="'ὀδυνηθήσεται'" select="'ὀδυνάω'"/>
          <xsl:map-entry key="'ὀδύνην'" select="'ὀδύνη'"/>
          <xsl:map-entry key="'ὀδυνηρός'" select="'ὀδυνηρός'"/>
-         <xsl:map-entry key="'ὀδυνηρῶς'" select="'ὀδυνηρός'"/>
+         <xsl:map-entry key="'ὀδυνηρῶς'" select="'ὀδυνηρῶς'"/>
          <xsl:map-entry key="'ὀδύνης'" select="'ὀδύνη'"/>
          <xsl:map-entry key="'ὀδυνήσεις'" select="'ὀδυνάω'"/>
          <xsl:map-entry key="'ὀδυνούσας'" select="'ὀδυνάω'"/>
@@ -18268,9 +19657,9 @@
          <xsl:map-entry key="'ὀδών'" select="'ὀδών'"/>
          <xsl:map-entry key="'Ὅθεν'" select="'ὅθεν'"/>
          <xsl:map-entry key="'ὅθεν'" select="'ὅθεν'"/>
-         <xsl:map-entry key="'οἵαν'" select="'οἷος'"/>
          <xsl:map-entry key="'οἶδα'" select="'οἶδα'"/>
          <xsl:map-entry key="'οἴδαμεν'" select="'οἶδα'"/>
+         <xsl:map-entry key="'Οἴδαμεν'" select="'οἶδα'"/>
          <xsl:map-entry key="'οἶδας'" select="'οἶδα'"/>
          <xsl:map-entry key="'οἴδασι'" select="'οἶδα'"/>
          <xsl:map-entry key="'οἶδε'" select="'οἶδα'"/>
@@ -18307,6 +19696,8 @@
          <xsl:map-entry key="'οἰκήσαντος'" select="'οἰκέω'"/>
          <xsl:map-entry key="'οἰκήσουσι'" select="'οἰκέω'"/>
          <xsl:map-entry key="'οἰκητήριον'" select="'οἰκητήριον'"/>
+         <xsl:map-entry key="'οἰκητόρων'" select="'οἰκήτωρ'"/>
+         <xsl:map-entry key="'οἰκήτωρ'" select="'οἰκήτωρ'"/>
          <xsl:map-entry key="'οἰκία'" select="'οἰκία'"/>
          <xsl:map-entry key="'οἰκίᾳ'" select="'οἰκία'"/>
          <xsl:map-entry key="'οικιαι'" select="'οἰκία'"/>
@@ -18328,6 +19719,8 @@
          <xsl:map-entry key="'οἰκοδομεῖται'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομέω'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομῇ'" select="'οἰκοδομέω'"/>
+         <xsl:map-entry key="'οἰκοδομή'" select="'οἰκοδομή'"/>
+         <xsl:map-entry key="'οἰκοδομηθεῖσα'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομηθεῖσαν'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομηθῇ'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομηθῆναι'" select="'οἰκοδομέω'"/>
@@ -18339,6 +19732,7 @@
          <xsl:map-entry key="'οἰκοδομῆσαι'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομήσαντος'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομήσει'" select="'οἰκοδομέω'"/>
+         <xsl:map-entry key="'οἰκοδομήσεις'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομήσῃ'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομήσῃς'" select="'οἰκοδομέω'"/>
          <xsl:map-entry key="'οἰκοδομήσω'" select="'οἰκοδομέω'"/>
@@ -18371,7 +19765,7 @@
          <xsl:map-entry key="'οικονομιας'" select="'οἰκονομία'"/>
          <xsl:map-entry key="'οἰκονομίας'" select="'οἰκονομία'"/>
          <xsl:map-entry key="'οικονομικως'" select="'οἰκονομικῶς'"/>
-         <xsl:map-entry key="'οἰκονομικῶς'" select="'οἰκονομικός'"/>
+         <xsl:map-entry key="'οἰκονομικῶς'" select="'οἰκονομικῶς'"/>
          <xsl:map-entry key="'οικονομον'" select="'οἰκονόμος'"/>
          <xsl:map-entry key="'οἰκονόμον'" select="'οἰκονόμος'"/>
          <xsl:map-entry key="'οἰκονόμος'" select="'οἰκονόμος'"/>
@@ -18417,7 +19811,7 @@
          <xsl:map-entry key="'Οἶνος'" select="'οἶνος'"/>
          <xsl:map-entry key="'οινου'" select="'οἶνος'"/>
          <xsl:map-entry key="'οἴνου'" select="'οἶνος'"/>
-         <xsl:map-entry key="'Οἴνου'" select="'οἶνον'"/>
+         <xsl:map-entry key="'Οἴνου'" select="'οἶνος'"/>
          <xsl:map-entry key="'οἴνῳ'" select="'οἶνος'"/>
          <xsl:map-entry key="'οινωι'" select="'οἶνος'"/>
          <xsl:map-entry key="'οἴομαι'" select="'οἴομαι'"/>
@@ -18461,6 +19855,8 @@
          <xsl:map-entry key="'ὅλης'" select="'ὅλος'"/>
          <xsl:map-entry key="'ὀλίγα'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλίγαι'" select="'ὀλίγος'"/>
+         <xsl:map-entry key="'ὀλιγάκις'" select="'ὀλιγάκις'"/>
+         <xsl:map-entry key="'ὀλίγας'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλίγη'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλίγης'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλίγοι'" select="'ὀλίγος'"/>
@@ -18473,6 +19869,7 @@
          <xsl:map-entry key="'ὀλίγου'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλιγόϋλοι'" select="'ὀλιγόυλος'"/>
          <xsl:map-entry key="'ὀλιγόυλος'" select="'ὀλιγόυλος'"/>
+         <xsl:map-entry key="'ὀλίγους'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλιγοχρόνια'" select="'ὀλιγοχρόνιος'"/>
          <xsl:map-entry key="'ὀλιγοχρόνιον'" select="'ὀλιγοχρόνιος'"/>
          <xsl:map-entry key="'ὀλιγοχρόνιος'" select="'ὀλιγοχρόνιος'"/>
@@ -18482,6 +19879,7 @@
          <xsl:map-entry key="'ὀλιγόψυχος'" select="'ὀλιγόψυχος'"/>
          <xsl:map-entry key="'ολιγοψυχους'" select="'ὀλιγόψυχος'"/>
          <xsl:map-entry key="'ὀλιγόω'" select="'ὀλιγόω'"/>
+         <xsl:map-entry key="'ὀλίγων'" select="'ὀλίγος'"/>
          <xsl:map-entry key="'ὀλιγωρέω'" select="'ὀλιγωρέω'"/>
          <xsl:map-entry key="'ολιγωρησηι'" select="'ὀλιγωρέω'"/>
          <xsl:map-entry key="'ὀλιγωρία'" select="'ὀλιγωρία'"/>
@@ -18506,8 +19904,9 @@
          <xsl:map-entry key="'ὁλοκαύτωμα'" select="'ὁλοκαύτωμα'"/>
          <xsl:map-entry key="'Ὁλοκαυτώματα'" select="'ὁλοκαύτωμα'"/>
          <xsl:map-entry key="'ὁλοκαυτώματα'" select="'ὁλοκαύτωμα'"/>
+         <xsl:map-entry key="'ὁλοκληρία'" select="'ὁλοκληρία'"/>
          <xsl:map-entry key="'ὁλόκληρος'" select="'ὁλόκληρος'"/>
-         <xsl:map-entry key="'ὁλοκλήρως'" select="'ὁλόκληρος'"/>
+         <xsl:map-entry key="'ὁλοκλήρως'" select="'ὁλοκλήρως'"/>
          <xsl:map-entry key="'ὅλον'" select="'ὅλος'"/>
          <xsl:map-entry key="'ολον'" select="'ὅλος'"/>
          <xsl:map-entry key="'ὅλος'" select="'ὅλος'"/>
@@ -18515,8 +19914,8 @@
          <xsl:map-entry key="'ὁλόχρυσος'" select="'ὁλόχρυσος'"/>
          <xsl:map-entry key="'ὅλῳ'" select="'ὅλος'"/>
          <xsl:map-entry key="'ὅλων'" select="'ὅλος'"/>
-         <xsl:map-entry key="'ὅλως'" select="'ὅλος'"/>
-         <xsl:map-entry key="'ολως'" select="'ὅλος'"/>
+         <xsl:map-entry key="'ὅλως'" select="'ὅλως'"/>
+         <xsl:map-entry key="'ολως'" select="'ὅλως'"/>
          <xsl:map-entry key="'ομαλιζουσιν'" select="'ὁμαλίζω'"/>
          <xsl:map-entry key="'ὁμαλίζω'" select="'ὁμαλίζω'"/>
          <xsl:map-entry key="'Ὁμηρευέτωσάν'" select="'ὁμηρεύω'"/>
@@ -18547,27 +19946,30 @@
          <xsl:map-entry key="'ὁμογενῶν'" select="'ὁμογενής'"/>
          <xsl:map-entry key="'ὁμοειδής'" select="'ὁμοειδής'"/>
          <xsl:map-entry key="'ὁμοειδῶν'" select="'ὁμοειδής'"/>
-         <xsl:map-entry key="'ὁμοία'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὁμοία'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὅμοια'" select="'ὅμοιος'"/>
-         <xsl:map-entry key="'ὁμοίας'" select="'ὁμοῖος'"/>
-         <xsl:map-entry key="'ομοιοι'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὁμοίας'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ομοιοι'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὅμοιοί'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὁμοιοῖ'" select="'ὁμοιόω'"/>
-         <xsl:map-entry key="'ὅμοιοι'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὅμοιοι'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ομοιον'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὅμοιον'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'Ὅμοιον'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'Ὅμοιόν'" select="'ὅμοιος'"/>
-         <xsl:map-entry key="'ομοιος'" select="'ὁμοῖος'"/>
-         <xsl:map-entry key="'ὅμοιός'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὅμοιόν'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ομοιος'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ὅμοιός'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὁμοῖος'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὅμοιος'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'Ὅμοιός'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ομοιοτητι'" select="'ὅμοιος'"/>
-         <xsl:map-entry key="'ὁμοίου'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὁμοίου'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ομοιουνται'" select="'ὁμοιόω'"/>
-         <xsl:map-entry key="'ὁμοίους'" select="'ὁμοῖος'"/>
+         <xsl:map-entry key="'ὁμοίους'" select="'ὅμοιος'"/>
          <xsl:map-entry key="'ὁμοιόω'" select="'ὁμοιόω'"/>
+         <xsl:map-entry key="'ὁμοίῳ'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ὁμοιωθέντα'" select="'ὁμοιόω'"/>
          <xsl:map-entry key="'ὁμοιωθήσεται'" select="'ὁμοιόω'"/>
          <xsl:map-entry key="'ὁμοιωθήσομαι'" select="'ὁμοιόω'"/>
          <xsl:map-entry key="'ὁμοίωμα'" select="'ὁμοίωμα'"/>
@@ -18575,8 +19977,9 @@
          <xsl:map-entry key="'ὁμοιώματα'" select="'ὁμοίωμα'"/>
          <xsl:map-entry key="'ομοιωματι'" select="'ὁμοίωμα'"/>
          <xsl:map-entry key="'ὁμοιώματι'" select="'ὁμοίωμα'"/>
-         <xsl:map-entry key="'ὁμοίως'" select="'ὅμοιος'"/>
-         <xsl:map-entry key="'Ὁμοίως'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ὁμοίων'" select="'ὅμοιος'"/>
+         <xsl:map-entry key="'ὁμοίως'" select="'ὁμοίως'"/>
+         <xsl:map-entry key="'Ὁμοίως'" select="'ὁμοίως'"/>
          <xsl:map-entry key="'ομοιωσει'" select="'ὁμοιώσω'"/>
          <xsl:map-entry key="'ὁμοιώσεως'" select="'ὁμοίωσις'"/>
          <xsl:map-entry key="'ομοιωσιν'" select="'ὁμοίωσις'"/>
@@ -18596,7 +19999,9 @@
          <xsl:map-entry key="'ὁμολογία'" select="'ὁμολογία'"/>
          <xsl:map-entry key="'ὁμολογίαν'" select="'ὁμολογία'"/>
          <xsl:map-entry key="'ὁμολογοῦμεν'" select="'ὁμολογέω'"/>
+         <xsl:map-entry key="'ὁμολογουμένοις'" select="'ὁμολογέω'"/>
          <xsl:map-entry key="'ὁμολογοῦντες'" select="'ὁμολογέω'"/>
+         <xsl:map-entry key="'ὁμολογοῦσα'" select="'ὁμολογέω'"/>
          <xsl:map-entry key="'ὁμολογῶ'" select="'ὁμολογέω'"/>
          <xsl:map-entry key="'ὁμολογῶν'" select="'ὁμολογέω'"/>
          <xsl:map-entry key="'ὁμοούσια'" select="'ὁμοούσιος'"/>
@@ -18607,9 +20012,12 @@
          <xsl:map-entry key="'ὁμοουσιότης'" select="'ὁμοουσιότης'"/>
          <xsl:map-entry key="'ὁμοουσιότητα'" select="'ὁμοουσιότης'"/>
          <xsl:map-entry key="'ὁμοουσίου'" select="'ὁμοούσιος'"/>
+         <xsl:map-entry key="'ὁμοουσίως'" select="'ὁμοουσίως'"/>
          <xsl:map-entry key="'ὁμός'" select="'ὁμός'"/>
          <xsl:map-entry key="'ὀμόσαι'" select="'ὄμνυμι'"/>
          <xsl:map-entry key="'ὀμόσω'" select="'ὄμνυμι'"/>
+         <xsl:map-entry key="'ὁμοτεχνία'" select="'ὁμοτεχνία'"/>
+         <xsl:map-entry key="'ὁμοτεχνίαις'" select="'ὁμοτεχνία'"/>
          <xsl:map-entry key="'ὁμοῦ'" select="'ὁμός'"/>
          <xsl:map-entry key="'ομου'" select="'ὁμός'"/>
          <xsl:map-entry key="'ομουσιος'" select="'ὁμοούσιος'"/>
@@ -18622,12 +20030,13 @@
          <xsl:map-entry key="'ὁμόφυλος'" select="'ὁμόφυλος'"/>
          <xsl:map-entry key="'ὁμοφύλου'" select="'ὁμόφυλος'"/>
          <xsl:map-entry key="'ὁμοφύλῳ'" select="'ὁμόφυλος'"/>
+         <xsl:map-entry key="'ὁμοφύλων'" select="'ὁμόφυλος'"/>
          <xsl:map-entry key="'ὁμοψύχοις'" select="'ὁμόψυχος'"/>
          <xsl:map-entry key="'ὁμόψυχος'" select="'ὁμόψυχος'"/>
          <xsl:map-entry key="'ὀμφαλὸν'" select="'ὀμφαλός'"/>
          <xsl:map-entry key="'ὀμφαλός'" select="'ὀμφαλός'"/>
          <xsl:map-entry key="'ὁμώνυμος'" select="'ὁμώνυμος'"/>
-         <xsl:map-entry key="'ὁμωνύμως'" select="'ὁμώνυμος'"/>
+         <xsl:map-entry key="'ὁμωνύμως'" select="'ὁμωνύμως'"/>
          <xsl:map-entry key="'ὅμως'" select="'ὅμως'"/>
          <xsl:map-entry key="'Ὅμως'" select="'ὅμως'"/>
          <xsl:map-entry key="'ὄναρ'" select="'ὄναρ'"/>
@@ -18643,6 +20052,7 @@
          <xsl:map-entry key="'ὀνειδίσαι'" select="'ὀνειδίζω'"/>
          <xsl:map-entry key="'ὀνειδίσει'" select="'ὀνειδίζω'"/>
          <xsl:map-entry key="'ὀνειδίσεις'" select="'ὀνειδίζω'"/>
+         <xsl:map-entry key="'ὀνειδισμοῖς'" select="'ὀνειδισμός'"/>
          <xsl:map-entry key="'ὀνειδισμὸν'" select="'ὀνειδισμός'"/>
          <xsl:map-entry key="'ὀνειδισμόν'" select="'ὀνειδισμός'"/>
          <xsl:map-entry key="'ὀνειδισμός'" select="'ὀνειδισμός'"/>
@@ -18656,7 +20066,7 @@
          <xsl:map-entry key="'ὀνίνημι'" select="'ὀνίνημι'"/>
          <xsl:map-entry key="'ονομα'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὄνομα'" select="'ὄνομα'"/>
-         <xsl:map-entry key="'ὅνομα'" select="'ὅνομα'"/>
+         <xsl:map-entry key="'ὅνομα'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὄνομά'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὀνομάζει'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομάζειν'" select="'ὀνομάζω'"/>
@@ -18669,6 +20079,7 @@
          <xsl:map-entry key="'ὀνομαζομένην'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομαζόμενον'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομαζομένους'" select="'ὀνομάζω'"/>
+         <xsl:map-entry key="'ὀνομαζομένων'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομάζονται'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομάζοντες'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνομάζουσι'" select="'ὀνομάζω'"/>
@@ -18679,9 +20090,12 @@
          <xsl:map-entry key="'ὀνομάσας'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνόμασε'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὀνόμασι'" select="'ὄνομα'"/>
+         <xsl:map-entry key="'ὀνομασία'" select="'ὀνομασία'"/>
          <xsl:map-entry key="'ὀνόμασιν'" select="'ὄνομα'"/>
+         <xsl:map-entry key="'ὀνομασιῶν'" select="'ὀνομασία'"/>
          <xsl:map-entry key="'ονοματα'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὀνόματα'" select="'ὄνομα'"/>
+         <xsl:map-entry key="'ὀνόματά'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ονοματι'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὀνόματι'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὀνόματί'" select="'ὄνομα'"/>
@@ -18689,11 +20103,12 @@
          <xsl:map-entry key="'ὀνόματος'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ονοματων'" select="'ὄνομα'"/>
          <xsl:map-entry key="'ὀνομάτων'" select="'ὄνομα'"/>
+         <xsl:map-entry key="'ὄνος'" select="'ὄνος'"/>
          <xsl:map-entry key="'ὄνυξ'" select="'ὄνυξ'"/>
          <xsl:map-entry key="'ὄνυχα'" select="'ὄνυξ'"/>
          <xsl:map-entry key="'ὄνυχας'" select="'ὄνυξ'"/>
          <xsl:map-entry key="'ὀξεῖα'" select="'ὀξύς'"/>
-         <xsl:map-entry key="'ὀξέως'" select="'ὀξύς'"/>
+         <xsl:map-entry key="'ὀξέως'" select="'ὀξέως'"/>
          <xsl:map-entry key="'ὄξος'" select="'ὄξος'"/>
          <xsl:map-entry key="'ὀξυδερκέστερον'" select="'ὀξυδερκής'"/>
          <xsl:map-entry key="'ὀξυδερκής'" select="'ὀξυδερκής'"/>
@@ -18749,6 +20164,7 @@
          <xsl:map-entry key="'ὁποτέρων'" select="'ὁπότερος'"/>
          <xsl:map-entry key="'ὅπου'" select="'ὅπου'"/>
          <xsl:map-entry key="'ὀπτάζομαι'" select="'ὀπτάζομαι'"/>
+         <xsl:map-entry key="'ὀπτανόμενος'" select="'ὀπτάζομαι'"/>
          <xsl:map-entry key="'ὀπτανομένων'" select="'ὀπτάζομαι'"/>
          <xsl:map-entry key="'ὀπτασία'" select="'ὀπτασία'"/>
          <xsl:map-entry key="'ὀπτασίᾳ'" select="'ὀπτασία'"/>
@@ -18766,11 +20182,13 @@
          <xsl:map-entry key="'οραι'" select="'ὁράω'"/>
          <xsl:map-entry key="'οραμα'" select="'ὅραμα'"/>
          <xsl:map-entry key="'ὅραμα'" select="'ὅραμα'"/>
+         <xsl:map-entry key="'ὁράμασί'" select="'ὅραμα'"/>
          <xsl:map-entry key="'ὁρᾶν'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρᾷν'" select="'ὁράω'"/>
          <xsl:map-entry key="'ορας'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρᾶς'" select="'ὁράω'"/>
          <xsl:map-entry key="'Ὁρᾷς'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὁρᾷς'" select="'ὁράω'"/>
          <xsl:map-entry key="'ορασει'" select="'ὅρασις'"/>
          <xsl:map-entry key="'ὁράσει'" select="'ὅρασις'"/>
          <xsl:map-entry key="'ὁράσεις'" select="'ὅρασις'"/>
@@ -18825,6 +20243,9 @@
          <xsl:map-entry key="'Ὀργίζεσθε'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργίζεται'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργίζοιτο'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὀργιζόμεθα'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὀργιζόμενοι'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὀργιζόμενον'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργιζόμενος'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργιζομένου'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργιζομένους'" select="'ὀργίζω'"/>
@@ -18837,10 +20258,14 @@
          <xsl:map-entry key="'ὀργίλου'" select="'ὀργίλος'"/>
          <xsl:map-entry key="'ὀργίλῳ'" select="'ὀργίλος'"/>
          <xsl:map-entry key="'ὀργίλων'" select="'ὀργίλος'"/>
+         <xsl:map-entry key="'ὀργισθεὶς'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργισθῇ'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργισθῆναι'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργισθήσεται'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὀργισθήσῃ'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὀργίσθητε'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὀρέγει'" select="'ὀρέγω'"/>
+         <xsl:map-entry key="'ὀρέγω'" select="'ὀρέγω'"/>
          <xsl:map-entry key="'ορει'" select="'ὄρος'"/>
          <xsl:map-entry key="'ὄρει'" select="'ὄρος'"/>
          <xsl:map-entry key="'ὀρεινὸν'" select="'ὀρεινός'"/>
@@ -18864,6 +20289,7 @@
          <xsl:map-entry key="'ὀρθῆς'" select="'ὀρθός'"/>
          <xsl:map-entry key="'ορθιον'" select="'ὄρθιος'"/>
          <xsl:map-entry key="'ὄρθιος'" select="'ὄρθιος'"/>
+         <xsl:map-entry key="'ὀρθοὶ'" select="'ὀρθός'"/>
          <xsl:map-entry key="'ὀρθοῖς'" select="'ὀρθός'"/>
          <xsl:map-entry key="'ὀρθὸν'" select="'ὀρθός'"/>
          <xsl:map-entry key="'ὀρθόν'" select="'ὀρθός'"/>
@@ -18883,7 +20309,7 @@
          <xsl:map-entry key="'ὄρθρου'" select="'ὄρθρος'"/>
          <xsl:map-entry key="'ὀρθῷ'" select="'ὀρθός'"/>
          <xsl:map-entry key="'ὀρθωθῇ'" select="'ὀρθόω'"/>
-         <xsl:map-entry key="'ὀρθῶς'" select="'ὀρθός'"/>
+         <xsl:map-entry key="'ὀρθῶς'" select="'ὀρθῶς'"/>
          <xsl:map-entry key="'ορθωσαι'" select="'ὀρθόω'"/>
          <xsl:map-entry key="'ὅρια'" select="'ὅριος'"/>
          <xsl:map-entry key="'ὅριά'" select="'ὅριον'"/>
@@ -18893,6 +20319,7 @@
          <xsl:map-entry key="'ὁρίζω'" select="'ὁρίζω'"/>
          <xsl:map-entry key="'ὅριον'" select="'ὅριον'"/>
          <xsl:map-entry key="'ὅριος'" select="'ὅριος'"/>
+         <xsl:map-entry key="'ὁρίσαι'" select="'ὁρίζω'"/>
          <xsl:map-entry key="'ορισει'" select="'ὁρίσω'"/>
          <xsl:map-entry key="'ὁρίσω'" select="'ὁρίζω'"/>
          <xsl:map-entry key="'ὅρκον'" select="'ὅρκος'"/>
@@ -18901,6 +20328,7 @@
          <xsl:map-entry key="'ὁρμὰς'" select="'ὁρμή'"/>
          <xsl:map-entry key="'Ὁρμὰς'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ὁρμάω'" select="'ὁρμάω'"/>
+         <xsl:map-entry key="'ὁρμέω'" select="'ὁρμάω ὁρμέω'"/>
          <xsl:map-entry key="'ὁρμή'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ὁρμὴ'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ὅρμημα'" select="'ὅρμημα'"/>
@@ -18908,13 +20336,16 @@
          <xsl:map-entry key="'ὁρμὴν'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ορμης'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ὁρμῆς'" select="'ὁρμή'"/>
+         <xsl:map-entry key="'ὁρμῆσαι'" select="'ὁρμέω'"/>
          <xsl:map-entry key="'ὁρμήσαντα'" select="'ὁρμάω'"/>
          <xsl:map-entry key="'ὁρμητική'" select="'ὁρμητικός'"/>
          <xsl:map-entry key="'ὁρμητικός'" select="'ὁρμητικός'"/>
+         <xsl:map-entry key="'ὁρμῶν'" select="'ὁρμή'"/>
          <xsl:map-entry key="'ὄρνεον'" select="'ὄρνεον'"/>
          <xsl:map-entry key="'ὀρνέου'" select="'ὄρνεον'"/>
          <xsl:map-entry key="'ὀρνέῳ'" select="'ὄρνεον'"/>
          <xsl:map-entry key="'ὄρνιθες'" select="'ὄρνις'"/>
+         <xsl:map-entry key="'ὄρνις'" select="'ὄρνις'"/>
          <xsl:map-entry key="'οροι'" select="'ὅρος'"/>
          <xsl:map-entry key="'ὅροι'" select="'ὅρος'"/>
          <xsl:map-entry key="'ὅροις'" select="'ὅρος'"/>
@@ -18954,10 +20385,14 @@
          <xsl:map-entry key="'ὁρῶντας'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρῶντες'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρῶντι'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὁρῶντος'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὁρώντων'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὁρῶσα'" select="'ὁράω'"/>
          <xsl:map-entry key="'ορωσι'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρῶσι'" select="'ὁράω'"/>
          <xsl:map-entry key="'ορωσιν'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὁρῶσιν'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὁσημέραι'" select="'ὁσημέραι'"/>
          <xsl:map-entry key="'ὁσίας'" select="'ὅσιος'"/>
          <xsl:map-entry key="'ὅσιοι'" select="'ὅσιος'"/>
          <xsl:map-entry key="'ὁσίοις'" select="'ὅσιος'"/>
@@ -18970,6 +20405,7 @@
          <xsl:map-entry key="'ὁσίους'" select="'ὅσιος'"/>
          <xsl:map-entry key="'ὁσιωθήσῃ'" select="'ὁσιόω'"/>
          <xsl:map-entry key="'ὁσίων'" select="'ὅσιος'"/>
+         <xsl:map-entry key="'ὁσίως'" select="'ὁσίως'"/>
          <xsl:map-entry key="'ὀσμή'" select="'ὀσμή'"/>
          <xsl:map-entry key="'ὀσμὴ'" select="'ὀσμή'"/>
          <xsl:map-entry key="'οσμηι'" select="'ὀσμή'"/>
@@ -18984,6 +20420,8 @@
          <xsl:map-entry key="'ὀστοῦν'" select="'ὀστέον'"/>
          <xsl:map-entry key="'ὀστράκινα'" select="'ὀστράκινος'"/>
          <xsl:map-entry key="'ὀστράκινος'" select="'ὀστράκινος'"/>
+         <xsl:map-entry key="'ὄστρακον'" select="'ὄστρακον'"/>
+         <xsl:map-entry key="'ὀστράκου'" select="'ὄστρακον'"/>
          <xsl:map-entry key="'ὄσφησις'" select="'ὄσφησις'"/>
          <xsl:map-entry key="'ὀσφρανθήσονται'" select="'ὀσφραίνομαι'"/>
          <xsl:map-entry key="'οσφρησεως'" select="'ὄσφρησις'"/>
@@ -18994,6 +20432,9 @@
          <xsl:map-entry key="'οσφυων'" select="'ὀσφύς'"/>
          <xsl:map-entry key="'Οὐαὶ'" select="'οὐαί'"/>
          <xsl:map-entry key="'οὐαί'" select="'οὐαί'"/>
+         <xsl:map-entry key="'Οὐαυ'" select="'Οὐαυ'"/>
+         <xsl:map-entry key="'οὐδαμός'" select="'οὐδαμός'"/>
+         <xsl:map-entry key="'οὐδαμῶς'" select="'οὐδαμῶς'"/>
          <xsl:map-entry key="'οὐδέπω'" select="'οὐδέπω'"/>
          <xsl:map-entry key="'οὐδόλως'" select="'οὐδόλως'"/>
          <xsl:map-entry key="'οὐθέτερος'" select="'οὐθέτερος'"/>
@@ -19002,7 +20443,7 @@
          <xsl:map-entry key="'ουρανιαις'" select="'οὐράνιος'"/>
          <xsl:map-entry key="'οὐρανίαις'" select="'οὐράνιος'"/>
          <xsl:map-entry key="'οὐράνιον'" select="'οὐράνιος'"/>
-         <xsl:map-entry key="'οὐρανίον'" select="'οὐράνιον'"/>
+         <xsl:map-entry key="'οὐρανίον'" select="'οὐράνιος'"/>
          <xsl:map-entry key="'οὐράνιος'" select="'οὐράνιος'"/>
          <xsl:map-entry key="'οὐρανίου'" select="'οὐράνιος'"/>
          <xsl:map-entry key="'οὐρανίῳ'" select="'οὐράνιος'"/>
@@ -19028,7 +20469,7 @@
          <xsl:map-entry key="'Οὔριον'" select="'Οὔριον'"/>
          <xsl:map-entry key="'Οὐρίου'" select="'Οὔριον'"/>
          <xsl:map-entry key="'οὖς'" select="'οὖς'"/>
-         <xsl:map-entry key="'οὗς'" select="'ὗς'"/>
+         <xsl:map-entry key="'οὗς'" select="'οὖς'"/>
          <xsl:map-entry key="'ουσια'" select="'οὐσία'"/>
          <xsl:map-entry key="'οὐσίᾳ'" select="'οὐσία'"/>
          <xsl:map-entry key="'οὐσία'" select="'οὐσία'"/>
@@ -19044,7 +20485,7 @@
          <xsl:map-entry key="'οὐσιώδης'" select="'οὐσιώδης'"/>
          <xsl:map-entry key="'ουσιωδους'" select="'οὐσιώδης'"/>
          <xsl:map-entry key="'οὐσιώδους'" select="'οὐσιώδης'"/>
-         <xsl:map-entry key="'ουσιωδως'" select="'οὐσιώδης'"/>
+         <xsl:map-entry key="'ουσιωδως'" select="'οὐσιώδως'"/>
          <xsl:map-entry key="'οὐσιῶν'" select="'οὐσία'"/>
          <xsl:map-entry key="'οὐσιῶσαι'" select="'οὐσιόω'"/>
          <xsl:map-entry key="'οὐσιώσαντα'" select="'οὐσιόω'"/>
@@ -19053,6 +20494,7 @@
          <xsl:map-entry key="'ὄφει'" select="'ὄφις'"/>
          <xsl:map-entry key="'ὀφείλει'" select="'ὀφείλω'"/>
          <xsl:map-entry key="'Ὀφείλει'" select="'ὀφείλω'"/>
+         <xsl:map-entry key="'ὀφείλετε'" select="'ὀφείλω'"/>
          <xsl:map-entry key="'ὀφειλέτῃ'" select="'ὀφειλέτης'"/>
          <xsl:map-entry key="'ὀφειλέτης'" select="'ὀφειλέτης'"/>
          <xsl:map-entry key="'ὀφείλομεν'" select="'ὀφείλω'"/>
@@ -19063,7 +20505,6 @@
          <xsl:map-entry key="'ὀφείλων'" select="'ὀφείλω'"/>
          <xsl:map-entry key="'ὄφεις'" select="'ὄφις'"/>
          <xsl:map-entry key="'ὄφελος'" select="'ὄφελος'"/>
-         <xsl:map-entry key="'ὅφελος'" select="'ὅφελος'"/>
          <xsl:map-entry key="'ὀφέων'" select="'ὄφις'"/>
          <xsl:map-entry key="'ὄφεων'" select="'ὄφις'"/>
          <xsl:map-entry key="'ὄφεως'" select="'ὄφις'"/>
@@ -19123,6 +20564,7 @@
          <xsl:map-entry key="'ὄψει'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὄψεις'" select="'ὄψις'"/>
          <xsl:map-entry key="'ὄψεται'" select="'ὁράω'"/>
+         <xsl:map-entry key="'ὄψεων'" select="'ὄψις'"/>
          <xsl:map-entry key="'οψεως'" select="'ὄψις'"/>
          <xsl:map-entry key="'ὄψεως'" select="'ὄψις'"/>
          <xsl:map-entry key="'ὄψῃ'" select="'ὁράω'"/>
@@ -19159,6 +20601,7 @@
          <xsl:map-entry key="'πάθεσιν'" select="'πάθος'"/>
          <xsl:map-entry key="'πάθη'" select="'πάθος'"/>
          <xsl:map-entry key="'παθη'" select="'πάθος'"/>
+         <xsl:map-entry key="'πάθῃ'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάθημα'" select="'πάθημα'"/>
          <xsl:map-entry key="'παθήματα'" select="'πάθημα'"/>
          <xsl:map-entry key="'παθηματος'" select="'πάθημα'"/>
@@ -19169,12 +20612,15 @@
          <xsl:map-entry key="'παθητικὸν'" select="'παθητικός'"/>
          <xsl:map-entry key="'παθητικός'" select="'παθητικός'"/>
          <xsl:map-entry key="'παθητικοῦ'" select="'παθητικός'"/>
+         <xsl:map-entry key="'παθητικῶν'" select="'παθητικός'"/>
          <xsl:map-entry key="'παθητον'" select="'παθητός'"/>
          <xsl:map-entry key="'παθητός'" select="'παθητός'"/>
          <xsl:map-entry key="'παθητου'" select="'παθητός'"/>
          <xsl:map-entry key="'πάθοιεν'" select="'πάσχω'"/>
          <xsl:map-entry key="'παθόντα'" select="'πάσχω'"/>
+         <xsl:map-entry key="'παθόντος'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάθος'" select="'πάθος'"/>
+         <xsl:map-entry key="'Πάθος'" select="'πάθος'"/>
          <xsl:map-entry key="'πάθους'" select="'πάθος'"/>
          <xsl:map-entry key="'παθους'" select="'πάθος'"/>
          <xsl:map-entry key="'παθῶ'" select="'πάσχω'"/>
@@ -19183,6 +20629,7 @@
          <xsl:map-entry key="'παῖδα'" select="'παῖς'"/>
          <xsl:map-entry key="'παιδαγωγει'" select="'παιδαγωγέω'"/>
          <xsl:map-entry key="'παιδαγωγεῖν'" select="'παιδαγωγέω'"/>
+         <xsl:map-entry key="'παιδαγωγεῖον'" select="'παιδαγωγεῖον'"/>
          <xsl:map-entry key="'παιδαγωγέω'" select="'παιδαγωγέω'"/>
          <xsl:map-entry key="'παιδαγωγῆσαι'" select="'παιδαγωγέω'"/>
          <xsl:map-entry key="'παιδαγωγὸς'" select="'παιδαγωγός'"/>
@@ -19198,21 +20645,28 @@
          <xsl:map-entry key="'παιδειας'" select="'παιδεία'"/>
          <xsl:map-entry key="'παιδείας'" select="'παιδεία'"/>
          <xsl:map-entry key="'παιδες'" select="'παῖς'"/>
+         <xsl:map-entry key="'Παῖδες'" select="'παῖς'"/>
          <xsl:map-entry key="'παιδεύει'" select="'παιδεύω'"/>
          <xsl:map-entry key="'Παιδεύει'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδευέτω'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδευθεὶς'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδευθέντα'" select="'παιδεύω'"/>
+         <xsl:map-entry key="'παίδευμα'" select="'παίδευμα'"/>
+         <xsl:map-entry key="'παιδεύματα'" select="'παίδευμα'"/>
          <xsl:map-entry key="'παιδευόμενος'" select="'παιδεύω'"/>
+         <xsl:map-entry key="'παιδεύουσα'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδευούσης'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδευουσι'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδεύουσιν'" select="'παιδεύω'"/>
+         <xsl:map-entry key="'παιδεύσεως'" select="'παίδευσις'"/>
+         <xsl:map-entry key="'παίδευσιν'" select="'παίδευσις'"/>
+         <xsl:map-entry key="'παίδευσις'" select="'παίδευσις'"/>
          <xsl:map-entry key="'παιδευτήριον'" select="'παιδευτήριον'"/>
          <xsl:map-entry key="'παιδεύω'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδεύων'" select="'παιδεύω'"/>
          <xsl:map-entry key="'Παιδεύων'" select="'παιδεύω'"/>
          <xsl:map-entry key="'παιδια'" select="'παιδίον'"/>
-         <xsl:map-entry key="'παιδία'" select="'παιδία'"/>
+         <xsl:map-entry key="'παιδία'" select="'παιδίον'"/>
          <xsl:map-entry key="'παιδιοις'" select="'παιδίον'"/>
          <xsl:map-entry key="'παιδιον'" select="'παιδίον'"/>
          <xsl:map-entry key="'παιδίον'" select="'παιδίον'"/>
@@ -19223,15 +20677,19 @@
          <xsl:map-entry key="'παιδίων'" select="'παιδίον'"/>
          <xsl:map-entry key="'παιδὸς'" select="'παῖς'"/>
          <xsl:map-entry key="'παιδων'" select="'παῖς'"/>
+         <xsl:map-entry key="'παίδων'" select="'παῖς'"/>
          <xsl:map-entry key="'παίζειν'" select="'παίζω'"/>
          <xsl:map-entry key="'παίζοντας'" select="'παίζω'"/>
          <xsl:map-entry key="'παίζω'" select="'παίζω'"/>
          <xsl:map-entry key="'παῖς'" select="'παῖς'"/>
+         <xsl:map-entry key="'Παῖς'" select="'παῖς'"/>
          <xsl:map-entry key="'παισι'" select="'παῖς'"/>
          <xsl:map-entry key="'παισὶ'" select="'παῖς'"/>
+         <xsl:map-entry key="'πάλαι'" select="'πάλαι'"/>
          <xsl:map-entry key="'παλαιὰ'" select="'παλαιός'"/>
          <xsl:map-entry key="'παλαιὰν'" select="'παλαιός'"/>
          <xsl:map-entry key="'παλαιᾶς'" select="'παλαιός'"/>
+         <xsl:map-entry key="'παλαίει'" select="'παλαίω'"/>
          <xsl:map-entry key="'παλαιοι'" select="'παλαιός'"/>
          <xsl:map-entry key="'παλαιὸν'" select="'παλαιός'"/>
          <xsl:map-entry key="'παλαίοντας'" select="'παλαίω'"/>
@@ -19253,14 +20711,19 @@
          <xsl:map-entry key="'παλαιῶν'" select="'παλαιός'"/>
          <xsl:map-entry key="'παλαίων'" select="'παλαιός'"/>
          <xsl:map-entry key="'πάλας'" select="'πάλη'"/>
+         <xsl:map-entry key="'παλάτιον'" select="'παλάτιον'"/>
          <xsl:map-entry key="'πάλη'" select="'πάλη'"/>
          <xsl:map-entry key="'πάλῃ'" select="'πάλη'"/>
          <xsl:map-entry key="'πάλην'" select="'πάλη'"/>
          <xsl:map-entry key="'πάλιν'" select="'πάλιν'"/>
          <xsl:map-entry key="'παλιν'" select="'πάλιν'"/>
          <xsl:map-entry key="'Πάλιν'" select="'πάλιν'"/>
+         <xsl:map-entry key="'παλλακίδος'" select="'παλλακίς'"/>
+         <xsl:map-entry key="'παλλακίς'" select="'παλλακίς'"/>
          <xsl:map-entry key="'πάλλοντος'" select="'πάλλω'"/>
          <xsl:map-entry key="'πάλλω'" select="'πάλλω'"/>
+         <xsl:map-entry key="'παμβασιλεύς'" select="'παμβασιλεύς'"/>
+         <xsl:map-entry key="'παμβασιλέως'" select="'παμβασιλεύς'"/>
          <xsl:map-entry key="'πάμμικτον'" select="'πάμμικτος'"/>
          <xsl:map-entry key="'πάμμικτος'" select="'πάμμικτος'"/>
          <xsl:map-entry key="'πάμπολα'" select="'πάμπολυς'"/>
@@ -19273,6 +20736,7 @@
          <xsl:map-entry key="'Παν'" select="'πᾶς'"/>
          <xsl:map-entry key="'πᾶν'" select="'πᾶς'"/>
          <xsl:map-entry key="'Πᾶν'" select="'πᾶς'"/>
+         <xsl:map-entry key="'πανάω'" select="'πανάω'"/>
          <xsl:map-entry key="'πανδήμοις'" select="'πάνδημος'"/>
          <xsl:map-entry key="'πάνδημος'" select="'πάνδημος'"/>
          <xsl:map-entry key="'πανδοκεῖον'" select="'πανδοκεῖον'"/>
@@ -19282,11 +20746,13 @@
          <xsl:map-entry key="'πανήγυρις'" select="'πανήγυρις'"/>
          <xsl:map-entry key="'πανημέριον'" select="'πανημέριος'"/>
          <xsl:map-entry key="'πανημέριος'" select="'πανημέριος'"/>
+         <xsl:map-entry key="'πανῆναι'" select="'πανάω'"/>
          <xsl:map-entry key="'πανοπλίᾳ'" select="'πανοπλία'"/>
          <xsl:map-entry key="'πανοπλία'" select="'πανοπλία'"/>
          <xsl:map-entry key="'πανοπλίαν'" select="'πανοπλία'"/>
          <xsl:map-entry key="'πανουργία'" select="'πανουργία'"/>
          <xsl:map-entry key="'πανουργίαν'" select="'πανουργία'"/>
+         <xsl:map-entry key="'πανουργίας'" select="'πανουργία'"/>
          <xsl:map-entry key="'πανοῦργος'" select="'πανοῦργος'"/>
          <xsl:map-entry key="'πανουργότερος'" select="'πανοῦργος'"/>
          <xsl:map-entry key="'πάντα'" select="'πᾶς'"/>
@@ -19302,8 +20768,11 @@
          <xsl:map-entry key="'πανταχόθεν'" select="'πανταχόθεν'"/>
          <xsl:map-entry key="'πανταχοῦ'" select="'πανταχοῦ'"/>
          <xsl:map-entry key="'Πανταχοῦ'" select="'πανταχοῦ'"/>
+         <xsl:map-entry key="'παντέλεια'" select="'παντέλεια'"/>
+         <xsl:map-entry key="'παντελείας'" select="'παντέλεια'"/>
+         <xsl:map-entry key="'παντελῆ'" select="'παντελής'"/>
          <xsl:map-entry key="'παντελής'" select="'παντελής'"/>
-         <xsl:map-entry key="'παντελῶς'" select="'παντελής'"/>
+         <xsl:map-entry key="'παντελῶς'" select="'παντελῶς'"/>
          <xsl:map-entry key="'παντεπόπτῃ'" select="'παντεπόπτης'"/>
          <xsl:map-entry key="'παντεπόπτης'" select="'παντεπόπτης'"/>
          <xsl:map-entry key="'πάντες'" select="'πᾶς'"/>
@@ -19313,6 +20782,7 @@
          <xsl:map-entry key="'πάντῃ'" select="'πάντῃ'"/>
          <xsl:map-entry key="'παντὶ'" select="'πᾶς'"/>
          <xsl:map-entry key="'Παντὶ'" select="'πᾶς'"/>
+         <xsl:map-entry key="'παντί'" select="'πᾶς'"/>
          <xsl:map-entry key="'παντοδαπὰ'" select="'παντοδαπός'"/>
          <xsl:map-entry key="'παντοδαπός'" select="'παντοδαπός'"/>
          <xsl:map-entry key="'παντοθεν'" select="'πάντοθεν'"/>
@@ -19334,6 +20804,7 @@
          <xsl:map-entry key="'Παντων'" select="'πᾶς'"/>
          <xsl:map-entry key="'Πάντων'" select="'πᾶς'"/>
          <xsl:map-entry key="'πάντως'" select="'πάντως'"/>
+         <xsl:map-entry key="'Πάντως'" select="'πάντως'"/>
          <xsl:map-entry key="'Πάνυ'" select="'πάνυ'"/>
          <xsl:map-entry key="'πάνυ'" select="'πάνυ'"/>
          <xsl:map-entry key="'πάπυρον'" select="'πάπυρος'"/>
@@ -19343,6 +20814,7 @@
          <xsl:map-entry key="'παραβαίνοντες'" select="'παραβαίνω'"/>
          <xsl:map-entry key="'παραβαίνω'" select="'παραβαίνω'"/>
          <xsl:map-entry key="'παραβαίνων'" select="'παραβαίνω'"/>
+         <xsl:map-entry key="'παραβαλεῖ'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβάλῃ'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβάλλει'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβάλλειν'" select="'παραβάλλω'"/>
@@ -19353,6 +20825,8 @@
          <xsl:map-entry key="'παραβάλλουσι'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβάλλω'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβαλόντα'" select="'παραβάλλω'"/>
+         <xsl:map-entry key="'παραβαλόντες'" select="'παραβάλλω'"/>
+         <xsl:map-entry key="'παραβαλόντος'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβαλὼν'" select="'παραβάλλω'"/>
          <xsl:map-entry key="'παραβάσεως'" select="'παράβασις'"/>
          <xsl:map-entry key="'παράβασιν'" select="'παράβασις'"/>
@@ -19378,6 +20852,8 @@
          <xsl:map-entry key="'παραγενόμενον'" select="'παραγίγνομαι'"/>
          <xsl:map-entry key="'παραγίγνομαι'" select="'παραγίγνομαι'"/>
          <xsl:map-entry key="'παραγιγνομενων'" select="'παραγίγνομαι'"/>
+         <xsl:map-entry key="'παραγίνεται'" select="'παραγίγνομαι'"/>
+         <xsl:map-entry key="'παραγινόμενον'" select="'παραγίγνομαι'"/>
          <xsl:map-entry key="'παραγίνονται'" select="'παραγίγνομαι'"/>
          <xsl:map-entry key="'παράγοντας'" select="'παράγω'"/>
          <xsl:map-entry key="'παράγω'" select="'παράγω'"/>
@@ -19391,6 +20867,7 @@
          <xsl:map-entry key="'παραδεισου'" select="'παράδεισος'"/>
          <xsl:map-entry key="'παραδείσου'" select="'παράδεισος'"/>
          <xsl:map-entry key="'παραδείσῳ'" select="'παράδεισος'"/>
+         <xsl:map-entry key="'παραδέξασθαι'" select="'παραδέχομαι'"/>
          <xsl:map-entry key="'παραδέξῃ'" select="'παραδέχομαι'"/>
          <xsl:map-entry key="'παραδέχεται'" select="'παραδέχομαι'"/>
          <xsl:map-entry key="'παραδεχθεῖσα'" select="'παραδέχομαι'"/>
@@ -19407,6 +20884,12 @@
          <xsl:map-entry key="'παραδίδωσι'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'παραδίδωσιν'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'παραδοθῆναι'" select="'παραδίδωμι'"/>
+         <xsl:map-entry key="'παραδοξοποιέω'" select="'παραδοξοποιέω'"/>
+         <xsl:map-entry key="'παραδοξοποιΐα'" select="'παραδοξοποιΐα'"/>
+         <xsl:map-entry key="'παραδοξοποιΐαι'" select="'παραδοξοποιΐα'"/>
+         <xsl:map-entry key="'παραδοξοποιοῦντος'" select="'παραδοξοποιέω'"/>
+         <xsl:map-entry key="'παράδοξος'" select="'παράδοξος'"/>
+         <xsl:map-entry key="'παραδόξου'" select="'παράδοξος'"/>
          <xsl:map-entry key="'παράδος'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'παραδόσεως'" select="'παράδοσις'"/>
          <xsl:map-entry key="'παράδοσιν'" select="'παράδοσις'"/>
@@ -19424,6 +20907,7 @@
          <xsl:map-entry key="'παραθήκας'" select="'παραθήκη'"/>
          <xsl:map-entry key="'παραθήκη'" select="'παραθήκη'"/>
          <xsl:map-entry key="'παραθήσομαί'" select="'παρατίθημι'"/>
+         <xsl:map-entry key="'παραθήσομαι'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παράθηταί'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παράθου'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παραινεῖ'" select="'παραινέω'"/>
@@ -19443,6 +20927,7 @@
          <xsl:map-entry key="'παραιτοῦ'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παραιτούμενοι'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παραιτούμενον'" select="'παραιτέομαι'"/>
+         <xsl:map-entry key="'παραιτούμενος'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παραιτοῦνται'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παρακάλει'" select="'παρακαλέω'"/>
          <xsl:map-entry key="'παρακαλεῖ'" select="'παρακαλέω'"/>
@@ -19459,8 +20944,11 @@
          <xsl:map-entry key="'παρακαλύπτων'" select="'παρακαλύπτω'"/>
          <xsl:map-entry key="'παρακαλῶ'" select="'παρακαλέω'"/>
          <xsl:map-entry key="'παρακαλῶν'" select="'παρακαλέω'"/>
+         <xsl:map-entry key="'παράκειμαι'" select="'παράκειμαι'"/>
+         <xsl:map-entry key="'παρακείμενα'" select="'παράκειμαι'"/>
          <xsl:map-entry key="'παρακεντέω'" select="'παρακεντέω'"/>
          <xsl:map-entry key="'παρακεντοῦντες'" select="'παρακεντέω'"/>
+         <xsl:map-entry key="'παρακληθήσονται'" select="'παρακαλέω'"/>
          <xsl:map-entry key="'παρακλησιν'" select="'παράκλησις'"/>
          <xsl:map-entry key="'παράκλησιν'" select="'παράκλησις'"/>
          <xsl:map-entry key="'παράκλησις'" select="'παράκλησις'"/>
@@ -19478,8 +20966,12 @@
          <xsl:map-entry key="'παρακυπτουσων'" select="'παρακύπτω'"/>
          <xsl:map-entry key="'παρακύπτω'" select="'παρακύπτω'"/>
          <xsl:map-entry key="'παρακύπτων'" select="'παρακύπτω'"/>
+         <xsl:map-entry key="'παραλαβεῖν'" select="'παραλαμβάνω'"/>
+         <xsl:map-entry key="'παραλαμβάνει'" select="'παραλαμβάνω'"/>
+         <xsl:map-entry key="'παραλαμβάνεται'" select="'παραλαμβάνω'"/>
          <xsl:map-entry key="'παραλαμβάνω'" select="'παραλαμβάνω'"/>
          <xsl:map-entry key="'παραλείπω'" select="'παραλείπω'"/>
+         <xsl:map-entry key="'παραλελεῖφθαι'" select="'παραλείπω'"/>
          <xsl:map-entry key="'παραλήψονται'" select="'παραλαμβάνω'"/>
          <xsl:map-entry key="'παραλιμπάνοντα'" select="'παραλείπω'"/>
          <xsl:map-entry key="'παραλιπὼν'" select="'παραλείπω'"/>
@@ -19541,7 +21033,12 @@
          <xsl:map-entry key="'παραπλησιάζω'" select="'παραπλησιάζω'"/>
          <xsl:map-entry key="'παραπλησιάσας'" select="'παραπλησιάζω'"/>
          <xsl:map-entry key="'παραπλήσιος'" select="'παραπλήσιος'"/>
+         <xsl:map-entry key="'παραπλησίους'" select="'παραπλήσιος'"/>
+         <xsl:map-entry key="'παραπλησίως'" select="'παραπλησίως'"/>
+         <xsl:map-entry key="'παραπορεύομαι'" select="'παραπορεύομαι'"/>
+         <xsl:map-entry key="'παραπορευόμενον'" select="'παραπορεύομαι'"/>
          <xsl:map-entry key="'παράπτωμα'" select="'παράπτωμα'"/>
+         <xsl:map-entry key="'παραπτώμασιν'" select="'παράπτωμα'"/>
          <xsl:map-entry key="'παραπτώματα'" select="'παράπτωμα'"/>
          <xsl:map-entry key="'παραπτωμάτων'" select="'παράπτωμα'"/>
          <xsl:map-entry key="'παραρριπτεῖσθαι'" select="'παραρρίπτω'"/>
@@ -19549,6 +21046,8 @@
          <xsl:map-entry key="'παραῤῥίψῃς'" select="'παραρρίπτω'"/>
          <xsl:map-entry key="'παράῤῥιψόν'" select="'παραρρίπτω'"/>
          <xsl:map-entry key="'παρασημειόω'" select="'παρασημειόω'"/>
+         <xsl:map-entry key="'παρασημείωσιν'" select="'παρασημείωσις'"/>
+         <xsl:map-entry key="'παρασημείωσις'" select="'παρασημείωσις'"/>
          <xsl:map-entry key="'παρασιωπάω'" select="'παρασιωπάω'"/>
          <xsl:map-entry key="'παρασιωπησάσης'" select="'παρασιωπάω'"/>
          <xsl:map-entry key="'παρασιωπήσῃς'" select="'παρασιωπάω'"/>
@@ -19606,8 +21105,13 @@
          <xsl:map-entry key="'παραφερόντων'" select="'παραφέρω'"/>
          <xsl:map-entry key="'παραφέρω'" select="'παραφέρω'"/>
          <xsl:map-entry key="'παραφθάνω'" select="'παραφθάνω'"/>
+         <xsl:map-entry key="'παραφθορά'" select="'παραφθορά'"/>
+         <xsl:map-entry key="'παραφθοραὶ'" select="'παραφθορά'"/>
          <xsl:map-entry key="'παραφύεται'" select="'παραφύομαι'"/>
+         <xsl:map-entry key="'παραφυλακή'" select="'παραφυλακή'"/>
+         <xsl:map-entry key="'παραφυλακὴν'" select="'παραφυλακή'"/>
          <xsl:map-entry key="'παραφύομαι'" select="'παραφύομαι'"/>
+         <xsl:map-entry key="'παραχρῆμα'" select="'παραχρῆμα'"/>
          <xsl:map-entry key="'παραχωρέω'" select="'παραχωρέω'"/>
          <xsl:map-entry key="'παραχωρήσας'" select="'παραχωρέω'"/>
          <xsl:map-entry key="'πάρδαλις'" select="'πάρδαλις'"/>
@@ -19616,6 +21120,7 @@
          <xsl:map-entry key="'παρεγγυᾶ'" select="'παρεγγυάω'"/>
          <xsl:map-entry key="'παρεγγυᾷ'" select="'παρεγγυάω'"/>
          <xsl:map-entry key="'παρεγγυάω'" select="'παρεγγυάω'"/>
+         <xsl:map-entry key="'παρεγένετο'" select="'παραγίγνομαι'"/>
          <xsl:map-entry key="'παρεδόθη'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'παρεδρεύει'" select="'παρεδρεύω'"/>
          <xsl:map-entry key="'παρεδρεύειν'" select="'παρεδρεύω'"/>
@@ -19624,11 +21129,13 @@
          <xsl:map-entry key="'παρέδωκε'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'Παρέδωκε'" select="'παραδίδωμι'"/>
          <xsl:map-entry key="'παρέδωκεν'" select="'παραδίδωμι'"/>
+         <xsl:map-entry key="'παρεθέμεθα'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παρεθήκαμεν'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παρέθηκεν'" select="'παρατίθημι'"/>
          <xsl:map-entry key="'παρέθηξεν'" select="'παραθήγω'"/>
          <xsl:map-entry key="'παρειά'" select="'παρειά'"/>
          <xsl:map-entry key="'παρειὰς'" select="'παρειά'"/>
+         <xsl:map-entry key="'παρείληφα'" select="'παραλαμβάνω'"/>
          <xsl:map-entry key="'πάρειμι'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παρεῖναι'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παρεὶς'" select="'παρίημι'"/>
@@ -19662,6 +21169,8 @@
          <xsl:map-entry key="'παρέλκον'" select="'παρέλκω'"/>
          <xsl:map-entry key="'παρέλκω'" select="'παρέλκω'"/>
          <xsl:map-entry key="'παρελκωσιν'" select="'παρέλκω'"/>
+         <xsl:map-entry key="'παρεμβαλεῖ'" select="'παρεμβάλλω'"/>
+         <xsl:map-entry key="'παρεμβάλλω'" select="'παρεμβάλλω'"/>
          <xsl:map-entry key="'παρεμβολή'" select="'παρεμβολή'"/>
          <xsl:map-entry key="'παρεμβολὴ'" select="'παρεμβολή'"/>
          <xsl:map-entry key="'παρεμβολὴν'" select="'παρεμβολή'"/>
@@ -19681,25 +21190,29 @@
          <xsl:map-entry key="'παρενοχλοῦντος'" select="'παρενοχλέω'"/>
          <xsl:map-entry key="'παρενοχλοῦντός'" select="'παρενοχλέω'"/>
          <xsl:map-entry key="'παρέντα'" select="'παρίημι'"/>
+         <xsl:map-entry key="'πάρεξ'" select="'παρέξ'"/>
          <xsl:map-entry key="'παρέξει'" select="'παρέχω'"/>
          <xsl:map-entry key="'παρέξομεν'" select="'παρέχω'"/>
          <xsl:map-entry key="'παρέπεται'" select="'παρέπομαι'"/>
          <xsl:map-entry key="'παρεπίδημοι'" select="'παρεπίδημος'"/>
          <xsl:map-entry key="'παρεπίδημος'" select="'παρεπίδημος'"/>
          <xsl:map-entry key="'παρέπομαι'" select="'παρέπομαι'"/>
+         <xsl:map-entry key="'παρεπόμενον'" select="'παρέπομαι'"/>
          <xsl:map-entry key="'πάρεργον'" select="'πάρεργος'"/>
          <xsl:map-entry key="'πάρεργος'" select="'πάρεργος'"/>
          <xsl:map-entry key="'παρέρχομαι'" select="'παρέρχομαι'"/>
          <xsl:map-entry key="'παρερχομένης'" select="'παρέρχομαι'"/>
          <xsl:map-entry key="'παρεσημειωσάμεθα'" select="'παρασημειόω'"/>
-         <xsl:map-entry key="'παρεσκιασμένως'" select="'παρασκιάζω'"/>
+         <xsl:map-entry key="'παρεσκιασμένως'" select="'παρεσκιασμένως'"/>
          <xsl:map-entry key="'παρεστάναι'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρέστηκας'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρεστηκὼς'" select="'παρίστημι'"/>
+         <xsl:map-entry key="'παρέστησε'" select="'παρίστημι'"/>
          <xsl:map-entry key="'πάρεστιν'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παρεστώς'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρεστῶσαν'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρεστῶτα'" select="'παρίστημι'"/>
+         <xsl:map-entry key="'παρεστῶτας'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρέσχοντο'" select="'παρέχω'"/>
          <xsl:map-entry key="'παρευδοκιμέω'" select="'παρευδοκιμέω'"/>
          <xsl:map-entry key="'παρευδοκιμοῦντι'" select="'παρευδοκιμέω'"/>
@@ -19731,8 +21244,10 @@
          <xsl:map-entry key="'παρητησάμην'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παρῃτήσατο'" select="'παραιτέομαι'"/>
          <xsl:map-entry key="'παρθενεία'" select="'παρθενεία'"/>
-         <xsl:map-entry key="'παρθενείαν'" select="'παρθενεία'"/>
+         <xsl:map-entry key="'παρθενείαν'" select="'παρθενία'"/>
          <xsl:map-entry key="'παρθενία'" select="'παρθενία'"/>
+         <xsl:map-entry key="'παρθενίαν'" select="'παρθενία'"/>
+         <xsl:map-entry key="'παρθενίας'" select="'παρθενία'"/>
          <xsl:map-entry key="'παρθενοι'" select="'παρθένος'"/>
          <xsl:map-entry key="'Παρθένοι'" select="'παρθένος'"/>
          <xsl:map-entry key="'παρθένοι'" select="'παρθένος'"/>
@@ -19759,10 +21274,12 @@
          <xsl:map-entry key="'παριστασιν'" select="'παρίσταμαι'"/>
          <xsl:map-entry key="'παρίσταται'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρίσταταί'" select="'παρίστημι'"/>
+         <xsl:map-entry key="'παριστάω'" select="'παριστάω'"/>
          <xsl:map-entry key="'παρίστημι'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παριστησι'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρίστησι'" select="'παρίστημι'"/>
          <xsl:map-entry key="'παρίστησιν'" select="'παρίστημι'"/>
+         <xsl:map-entry key="'παριστῶν'" select="'παριστάω'"/>
          <xsl:map-entry key="'παριστῶσι'" select="'παρίστημι'"/>
          <xsl:map-entry key="'πάροδον'" select="'πάροδος'"/>
          <xsl:map-entry key="'πάροδος'" select="'πάροδος'"/>
@@ -19790,7 +21307,7 @@
          <xsl:map-entry key="'παροξύνει'" select="'παροξύνω'"/>
          <xsl:map-entry key="'παροξύνῃ'" select="'παροξύνω'"/>
          <xsl:map-entry key="'παροξύνῃς'" select="'παροξύνω'"/>
-         <xsl:map-entry key="'παροξύνης'" select="''"/>
+         <xsl:map-entry key="'παροξύνης'" select="'παροξύνω'"/>
          <xsl:map-entry key="'παροξύνομεν'" select="'παροξύνω'"/>
          <xsl:map-entry key="'παροξυνομένη'" select="'παροξύνω'"/>
          <xsl:map-entry key="'παροξύνουσιν'" select="'παροξύνω'"/>
@@ -19802,20 +21319,25 @@
          <xsl:map-entry key="'παροξυσμοὺς'" select="'παροξυσμός'"/>
          <xsl:map-entry key="'παροργίζουσιν'" select="'παροργίζω'"/>
          <xsl:map-entry key="'παροργίζω'" select="'παροργίζω'"/>
+         <xsl:map-entry key="'παροργίσαι'" select="'παροργίζω'"/>
          <xsl:map-entry key="'παροργίσας'" select="'παροργίζω'"/>
          <xsl:map-entry key="'παροργίσῃς'" select="'παροργίζω'"/>
          <xsl:map-entry key="'παροργισμοῖς'" select="'παροργισμός'"/>
          <xsl:map-entry key="'παροργισμός'" select="'παροργισμός'"/>
          <xsl:map-entry key="'παροργισμῷ'" select="'παροργισμός'"/>
+         <xsl:map-entry key="'παροὺς'" select="'πηρός'"/>
          <xsl:map-entry key="'παροῦσαν'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παρούσης'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παρουσία'" select="'παρουσία'"/>
          <xsl:map-entry key="'παρουσίᾳ'" select="'παρουσία'"/>
+         <xsl:map-entry key="'παρουσίαν'" select="'παρουσία'"/>
+         <xsl:map-entry key="'παρουσίας'" select="'παρουσία'"/>
          <xsl:map-entry key="'παροῦσιν'" select="'πάρειμι'"/>
          <xsl:map-entry key="'παροχεὺς'" select="'παροχεύς'"/>
          <xsl:map-entry key="'παροχεύς'" select="'παροχεύς'"/>
          <xsl:map-entry key="'πάροχος'" select="'πάροχος'"/>
          <xsl:map-entry key="'παρρησία'" select="'παρρησία'"/>
+         <xsl:map-entry key="'παρρησίᾳ'" select="'παρρησία'"/>
          <xsl:map-entry key="'παρρησιάζομαι'" select="'παρρησιάζομαι'"/>
          <xsl:map-entry key="'παῤῥησίαν'" select="'παρρησία'"/>
          <xsl:map-entry key="'παρρησίαν'" select="'παρρησία'"/>
@@ -19861,9 +21383,11 @@
          <xsl:map-entry key="'πάσχα'" select="'πάσχα'"/>
          <xsl:map-entry key="'Πάσχα'" select="'πάσχα'"/>
          <xsl:map-entry key="'πάσχᾳ'" select="'πάσχα'"/>
+         <xsl:map-entry key="'πάσχει'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάσχειν'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάσχῃ'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάσχομεν'" select="'πάσχω'"/>
+         <xsl:map-entry key="'πάσχοντι'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάσχοντος'" select="'πάσχω'"/>
          <xsl:map-entry key="'πάσχουσα'" select="'πάσχω'"/>
          <xsl:map-entry key="'Πάσχουσι'" select="'πάσχω'"/>
@@ -19911,7 +21435,10 @@
          <xsl:map-entry key="'πατρικοῖς'" select="'πατρικός'"/>
          <xsl:map-entry key="'πατρικός'" select="'πατρικός'"/>
          <xsl:map-entry key="'πατρικῶν'" select="'πατρικός'"/>
+         <xsl:map-entry key="'πάτριος'" select="'πάτριος'"/>
          <xsl:map-entry key="'πατρίς'" select="'πατρίς'"/>
+         <xsl:map-entry key="'πατρὶς'" select="'πατρίς'"/>
+         <xsl:map-entry key="'πατρίων'" select="'πάτριος'"/>
          <xsl:map-entry key="'πατρός'" select="'πατήρ'"/>
          <xsl:map-entry key="'Πατρὸς'" select="'πατήρ'"/>
          <xsl:map-entry key="'πατρὸς'" select="'πατήρ'"/>
@@ -19943,17 +21470,25 @@
          <xsl:map-entry key="'Παῦσαι'" select="'παύω'"/>
          <xsl:map-entry key="'παυσαμένης'" select="'παύω'"/>
          <xsl:map-entry key="'παυσάμενοι'" select="'παύω'"/>
+         <xsl:map-entry key="'παυσάμενος'" select="'παύω'"/>
+         <xsl:map-entry key="'παυσάσθω'" select="'παύω'"/>
          <xsl:map-entry key="'παύσατέ'" select="'παύω'"/>
          <xsl:map-entry key="'παυσεται'" select="'παύω'"/>
          <xsl:map-entry key="'παύσῃ'" select="'παύω'"/>
          <xsl:map-entry key="'παυσηται'" select="'παύω'"/>
          <xsl:map-entry key="'παύσηται'" select="'παύω'"/>
+         <xsl:map-entry key="'παῦσις'" select="'παῦσις'"/>
          <xsl:map-entry key="'παυσομένου'" select="'παύω'"/>
+         <xsl:map-entry key="'παυσώμεθα'" select="'παύω'"/>
          <xsl:map-entry key="'παύσωνται'" select="'παύω'"/>
          <xsl:map-entry key="'παύω'" select="'παύω'"/>
+         <xsl:map-entry key="'παύων'" select="'παύω'"/>
          <xsl:map-entry key="'παχεῖ'" select="'παχύς'"/>
          <xsl:map-entry key="'παχεῖα'" select="'παχύς'"/>
          <xsl:map-entry key="'Παχεῖα'" select="'παχύς'"/>
+         <xsl:map-entry key="'παχείας'" select="'παχύς'"/>
+         <xsl:map-entry key="'παχυμερῆ'" select="'παχυμερής'"/>
+         <xsl:map-entry key="'παχυμερής'" select="'παχυμερής'"/>
          <xsl:map-entry key="'παχύνει'" select="'παχύνω'"/>
          <xsl:map-entry key="'παχυνθεὶς'" select="'παχύνω'"/>
          <xsl:map-entry key="'παχυνθείσας'" select="'παχύνω'"/>
@@ -19964,6 +21499,7 @@
          <xsl:map-entry key="'παχύτης'" select="'παχύτης'"/>
          <xsl:map-entry key="'παχυτης'" select="'παχύτης'"/>
          <xsl:map-entry key="'παχυτητα'" select="'παχύτης'"/>
+         <xsl:map-entry key="'παχύτητος'" select="'παχύτης'"/>
          <xsl:map-entry key="'πεδάω'" select="'πεδάω'"/>
          <xsl:map-entry key="'πεδία'" select="'πεδίον'"/>
          <xsl:map-entry key="'πεδίον'" select="'πεδίον'"/>
@@ -19986,6 +21522,7 @@
          <xsl:map-entry key="'πείθοντες'" select="'πείθω'"/>
          <xsl:map-entry key="'πειθουμένου'" select="'πείθω'"/>
          <xsl:map-entry key="'πείθουσι'" select="'πείθω'"/>
+         <xsl:map-entry key="'πείθουσιν'" select="'πείθω'"/>
          <xsl:map-entry key="'πείθω'" select="'πείθω'"/>
          <xsl:map-entry key="'πεῖνα'" select="'πεῖνα'"/>
          <xsl:map-entry key="'πεῖναν'" select="'πεῖνα'"/>
@@ -20003,6 +21540,7 @@
          <xsl:map-entry key="'πειράζει'" select="'πειράζω'"/>
          <xsl:map-entry key="'πειράζειν'" select="'πειράζω'"/>
          <xsl:map-entry key="'πειράζεται'" select="'πειράζω'"/>
+         <xsl:map-entry key="'πειράζῃ'" select="'πειράζω'"/>
          <xsl:map-entry key="'πειραζόμενοι'" select="'πειράζω'"/>
          <xsl:map-entry key="'πειραζόμενος'" select="'πειράζω'"/>
          <xsl:map-entry key="'πειραζομένου'" select="'πειράζω'"/>
@@ -20050,6 +21588,8 @@
          <xsl:map-entry key="'πειρώμενοι'" select="'πειράω'"/>
          <xsl:map-entry key="'πειρώμενος'" select="'πειράω'"/>
          <xsl:map-entry key="'πειρωμένους'" select="'πειράω'"/>
+         <xsl:map-entry key="'πειρῶνται'" select="'πειράω'"/>
+         <xsl:map-entry key="'πεῖσαι'" select="'πείθω'"/>
          <xsl:map-entry key="'πείσας'" select="'πείθω'"/>
          <xsl:map-entry key="'πείσῃ'" select="'πείθω'"/>
          <xsl:map-entry key="'πεισθῇς'" select="'πείθω'"/>
@@ -20058,6 +21598,7 @@
          <xsl:map-entry key="'πεισμονην'" select="'πεισμονή'"/>
          <xsl:map-entry key="'πείσομαι'" select="'πάσχω'"/>
          <xsl:map-entry key="'πεισῶν'" select="'πείθω'"/>
+         <xsl:map-entry key="'πείσωσί'" select="'πείθω'"/>
          <xsl:map-entry key="'πελάγει'" select="'πέλαγος'"/>
          <xsl:map-entry key="'πελάγη'" select="'πέλαγος'"/>
          <xsl:map-entry key="'πέλαγος'" select="'πέλαγος'"/>
@@ -20098,8 +21639,10 @@
          <xsl:map-entry key="'πένθη'" select="'πένθος'"/>
          <xsl:map-entry key="'πενθήσει'" select="'πενθέω'"/>
          <xsl:map-entry key="'πενθήσεις'" select="'πενθέω'"/>
+         <xsl:map-entry key="'πένθησον'" select="'πενθέω'"/>
          <xsl:map-entry key="'πενθήσουσιν'" select="'πενθέω'"/>
          <xsl:map-entry key="'πένθος'" select="'πένθος'"/>
+         <xsl:map-entry key="'πενθοῦντες'" select="'πενθέω'"/>
          <xsl:map-entry key="'πενθούντων'" select="'πενθέω'"/>
          <xsl:map-entry key="'πένθους'" select="'πένθος'"/>
          <xsl:map-entry key="'πενθούσης'" select="'πενθέω'"/>
@@ -20132,6 +21675,8 @@
          <xsl:map-entry key="'πεντηκοστὸν'" select="'πεντηκοστός'"/>
          <xsl:map-entry key="'πεντηκοστὸς'" select="'πεντηκοστός'"/>
          <xsl:map-entry key="'πεντηκοστός'" select="'πεντηκοστός'"/>
+         <xsl:map-entry key="'πεπαιδευμένος'" select="'παιδεύω'"/>
+         <xsl:map-entry key="'πεπαιδευμένων'" select="'παιδεύω'"/>
          <xsl:map-entry key="'πεπαιδευνται'" select="'παιδεύω'"/>
          <xsl:map-entry key="'πεπαίνω'" select="'πεπαίνω'"/>
          <xsl:map-entry key="'πεπανθῇ'" select="'πεπαίνω'"/>
@@ -20139,6 +21684,7 @@
          <xsl:map-entry key="'πεπεδημένους'" select="'πεδάω'"/>
          <xsl:map-entry key="'πεπέδηνται'" select="'πεδάω'"/>
          <xsl:map-entry key="'πεπέδηται'" select="'πεδάω'"/>
+         <xsl:map-entry key="'πέπεικεν'" select="'πείθω'"/>
          <xsl:map-entry key="'πεπειράκασι'" select="'πειράω'"/>
          <xsl:map-entry key="'πεπειράκασιν'" select="'πειράω'"/>
          <xsl:map-entry key="'πεπειραμένη'" select="'πειράω'"/>
@@ -20151,6 +21697,7 @@
          <xsl:map-entry key="'πεπίακα'" select="'πιάζω'"/>
          <xsl:map-entry key="'πεπίστευκα'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πεπιστεύκαμεν'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'πεπίστευκεν'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πεπιστευκόσι'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πεπιστευκότα'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πεπιστευκότας'" select="'πιστεύω'"/>
@@ -20182,6 +21729,8 @@
          <xsl:map-entry key="'πεπληρωμένον'" select="'πληρόω'"/>
          <xsl:map-entry key="'πεπληρωμένος'" select="'πληρόω'"/>
          <xsl:map-entry key="'πεπλήρωται'" select="'πληρόω'"/>
+         <xsl:map-entry key="'πεποίηκα'" select="'ποιέω'"/>
+         <xsl:map-entry key="'πεποιήκαμεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποίηκας'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποιήκασιν'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποίηκε'" select="'ποιέω'"/>
@@ -20189,9 +21738,11 @@
          <xsl:map-entry key="'πεποιηκέναι'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποιηκότος'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποιημενον'" select="'ποιέω'"/>
+         <xsl:map-entry key="'πεποιημένον'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποιημένος'" select="'ποιέω'"/>
          <xsl:map-entry key="'πεποιημενος'" select="'ποιέω'"/>
          <xsl:map-entry key="'Πεποίηται'" select="'ποιέω'"/>
+         <xsl:map-entry key="'πεποίηται'" select="'ποιέω'"/>
          <xsl:map-entry key="'πέποιθεν'" select="'πείθω'"/>
          <xsl:map-entry key="'πεποιθότες'" select="'πείθω'"/>
          <xsl:map-entry key="'πεποιθὼς'" select="'πείθω'"/>
@@ -20202,6 +21753,7 @@
          <xsl:map-entry key="'πεποιωμένους'" select="'ποιόω'"/>
          <xsl:map-entry key="'πεποίωσαι'" select="'ποιόω'"/>
          <xsl:map-entry key="'πεποίωται'" select="'ποιόω'"/>
+         <xsl:map-entry key="'πεπολιτεῦσθαι'" select="'πολιτεύω'"/>
          <xsl:map-entry key="'πεπόμφαμεν'" select="'πέμπω'"/>
          <xsl:map-entry key="'πεπόνθατε'" select="'πάσχω'"/>
          <xsl:map-entry key="'πέπονθε'" select="'πάσχω'"/>
@@ -20234,6 +21786,7 @@
          <xsl:map-entry key="'πέρασι'" select="'πέρας'"/>
          <xsl:map-entry key="'περασμον'" select="'περασμός'"/>
          <xsl:map-entry key="'περασμός'" select="'περασμός'"/>
+         <xsl:map-entry key="'περασμὸς'" select="'περασμός'"/>
          <xsl:map-entry key="'περατι'" select="'πέρας'"/>
          <xsl:map-entry key="'περατόω'" select="'περατόω'"/>
          <xsl:map-entry key="'περάτων'" select="'πέρας'"/>
@@ -20265,6 +21818,7 @@
          <xsl:map-entry key="'περιβόλων'" select="'περίβολος'"/>
          <xsl:map-entry key="'περιγεγραπται'" select="'περιγράφω'"/>
          <xsl:map-entry key="'περιγενέσθαι'" select="'περιγίγνομαι'"/>
+         <xsl:map-entry key="'περιγενησόμεθα'" select="'περιγίγνομαι'"/>
          <xsl:map-entry key="'περιγίγνομαι'" select="'περιγίγνομαι'"/>
          <xsl:map-entry key="'περιγραπτὴν'" select="'περιγραπτός'"/>
          <xsl:map-entry key="'Περιγραπτὴν'" select="'περιγραπτός'"/>
@@ -20289,7 +21843,9 @@
          <xsl:map-entry key="'περιεῖλον'" select="'περιαιρέω'"/>
          <xsl:map-entry key="'Περιεῖλον'" select="'περιαιρέω'"/>
          <xsl:map-entry key="'περιεκτική'" select="'περιεκτικός'"/>
+         <xsl:map-entry key="'περιεκτικὴν'" select="'περιεκτικός'"/>
          <xsl:map-entry key="'περιεκτικός'" select="'περιεκτικός'"/>
+         <xsl:map-entry key="'περιέλαβεν'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'Περίελε'" select="'περιαιρέω'"/>
          <xsl:map-entry key="'περιέλῃς'" select="'περιαιρέω'"/>
          <xsl:map-entry key="'περιελθόντες'" select="'περιέρχομαι'"/>
@@ -20309,6 +21865,7 @@
          <xsl:map-entry key="'περιεργάσῃ'" select="'περιεργάζομαι'"/>
          <xsl:map-entry key="'περιέρχεται'" select="'περιέρχομαι'"/>
          <xsl:map-entry key="'περιέρχομαι'" select="'περιέρχομαι'"/>
+         <xsl:map-entry key="'περιεσκεμμένοι'" select="'περισκέπτομαι'"/>
          <xsl:map-entry key="'περιεστεμμένος'" select="'περιστέφω'"/>
          <xsl:map-entry key="'περιεχει'" select="'περιέχω'"/>
          <xsl:map-entry key="'περιέχει'" select="'περιέχω'"/>
@@ -20344,11 +21901,13 @@
          <xsl:map-entry key="'περιίστημι'" select="'περιίστημι'"/>
          <xsl:map-entry key="'περικαθαριεῖ'" select="'περικαθαρίζω'"/>
          <xsl:map-entry key="'περικαθαρίζω'" select="'περικαθαρίζω'"/>
+         <xsl:map-entry key="'περικαθέζεται'" select="'περικαθέζομαι'"/>
+         <xsl:map-entry key="'περικαθέζομαι'" select="'περικαθέζομαι'"/>
          <xsl:map-entry key="'περικαλύπτω'" select="'περικαλύπτω'"/>
          <xsl:map-entry key="'περίκειμαι'" select="'περίκειμαι'"/>
          <xsl:map-entry key="'περικείμενον'" select="'περίκειμαι'"/>
          <xsl:map-entry key="'περικειμένων'" select="'περίκειμαι'"/>
-         <xsl:map-entry key="'περικεκαλυμμένως'" select="'περικαλύπτω'"/>
+         <xsl:map-entry key="'περικεκαλυμμένως'" select="'περικεκαλυμμένως'"/>
          <xsl:map-entry key="'περικεφαλαια'" select="'περικεφαλαία'"/>
          <xsl:map-entry key="'περικεφαλαία'" select="'περικεφαλαία'"/>
          <xsl:map-entry key="'περικεφαλαίαν'" select="'περικεφαλαία'"/>
@@ -20369,6 +21928,7 @@
          <xsl:map-entry key="'περιλαβεῖν'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περιλάβῃ'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περιλαμβανει'" select="'περιλαμβάνω'"/>
+         <xsl:map-entry key="'περιλαμβάνει'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περιλαμβάνειν'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περιλαμβάνουσι'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περιλαμβάνω'" select="'περιλαμβάνω'"/>
@@ -20383,12 +21943,20 @@
          <xsl:map-entry key="'περιλήψονταί'" select="'περιλαμβάνω'"/>
          <xsl:map-entry key="'περίλυπος'" select="'περίλυπος'"/>
          <xsl:map-entry key="'πέριξ'" select="'πέριξ'"/>
+         <xsl:map-entry key="'περίοδον'" select="'περίοδος'"/>
+         <xsl:map-entry key="'περίοδος'" select="'περίοδος'"/>
+         <xsl:map-entry key="'περιορίζεται'" select="'περιορίζω'"/>
+         <xsl:map-entry key="'περιορίζω'" select="'περιορίζω'"/>
+         <xsl:map-entry key="'περιοριστός'" select="'περιοριστός'"/>
+         <xsl:map-entry key="'περιοριστῷ'" select="'περιοριστός'"/>
          <xsl:map-entry key="'περιοχή'" select="'περιοχή'"/>
          <xsl:map-entry key="'περιοχῆς'" select="'περιοχή'"/>
          <xsl:map-entry key="'περιπατει'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπάτει'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπατεῖ'" select="'περιπατέω'"/>
+         <xsl:map-entry key="'περιπατεῖν'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπατέω'" select="'περιπατέω'"/>
+         <xsl:map-entry key="'περιπατῆσαι'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπατήσῃ'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπατήσῃς'" select="'περιπατέω'"/>
          <xsl:map-entry key="'περιπάτοις'" select="'περίπατος'"/>
@@ -20436,22 +22004,31 @@
          <xsl:map-entry key="'Περισκελη'" select="'περισκελής'"/>
          <xsl:map-entry key="'περισκελής'" select="'περισκελής'"/>
          <xsl:map-entry key="'περισκέλιον'" select="'περισκέλιον'"/>
+         <xsl:map-entry key="'περισκέπτομαι'" select="'περισκέπτομαι'"/>
          <xsl:map-entry key="'περισπᾷ'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπᾶσθαι'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπασμὸν'" select="'περισπασμός'"/>
          <xsl:map-entry key="'περισπασμός'" select="'περισπασμός'"/>
+         <xsl:map-entry key="'περισπασμὸς'" select="'περισπασμός'"/>
+         <xsl:map-entry key="'Περισπασμὸς'" select="'περισπασμός'"/>
+         <xsl:map-entry key="'περισπασμῷ'" select="'περισπασμός'"/>
          <xsl:map-entry key="'περισπαστικὸς'" select="'περισπαστικός'"/>
          <xsl:map-entry key="'περισπαστικός'" select="'περισπαστικός'"/>
          <xsl:map-entry key="'περισπάσωσιν'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπᾶται'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπάω'" select="'περισπάω'"/>
+         <xsl:map-entry key="'περισπωμένη'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπωμένων'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπῶν'" select="'περισπάω'"/>
+         <xsl:map-entry key="'περισπῶντα'" select="'περισπάω'"/>
+         <xsl:map-entry key="'περισπῶνται'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπώντων'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισπωσῶν'" select="'περισπάω'"/>
          <xsl:map-entry key="'περισσὰ'" select="'περισσός'"/>
+         <xsl:map-entry key="'περισσά'" select="'περισσός'"/>
          <xsl:map-entry key="'περισσεια'" select="'περισσεία'"/>
          <xsl:map-entry key="'περισσεία'" select="'περισσεία'"/>
+         <xsl:map-entry key="'περισσείαν'" select="'περισσεία'"/>
          <xsl:map-entry key="'περισσειας'" select="'περισσεία'"/>
          <xsl:map-entry key="'περισσευει'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσεύει'" select="'περισσεύω'"/>
@@ -20459,6 +22036,7 @@
          <xsl:map-entry key="'περισσεύῃς'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περίσσευμα'" select="'περίσσευμα'"/>
          <xsl:map-entry key="'περισσεύματος'" select="'περίσσευμα'"/>
+         <xsl:map-entry key="'περισσευομένων'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσευον'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσευουσα'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσευουσαν'" select="'περισσεύω'"/>
@@ -20467,24 +22045,28 @@
          <xsl:map-entry key="'περισσεύσῃ'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσεύω'" select="'περισσεύω'"/>
          <xsl:map-entry key="'περισσον'" select="'περισσός'"/>
+         <xsl:map-entry key="'περισσὸν'" select="'περισσός'"/>
          <xsl:map-entry key="'περισσός'" select="'περισσός'"/>
          <xsl:map-entry key="'περισσοτέρᾳ'" select="'περισσός'"/>
          <xsl:map-entry key="'περισσοτερον'" select="'περισσός'"/>
-         <xsl:map-entry key="'περισσῶς'" select="'περισσός'"/>
+         <xsl:map-entry key="'περισσῶς'" select="'περισσῶς'"/>
          <xsl:map-entry key="'περιστάσει'" select="'περιίστημι'"/>
          <xsl:map-entry key="'περιστάσεις'" select="'περίστασις'"/>
          <xsl:map-entry key="'περιστάσεσι'" select="'περίστασις'"/>
          <xsl:map-entry key="'περιστάσεων'" select="'περίστασις'"/>
          <xsl:map-entry key="'περιστάσεως'" select="'περίστασις'"/>
+         <xsl:map-entry key="'περιστάσεώς'" select="'περίστασις'"/>
          <xsl:map-entry key="'περίστασις'" select="'περίστασις'"/>
          <xsl:map-entry key="'περιστατικὰ'" select="'περιστατικός'"/>
          <xsl:map-entry key="'περιστατικός'" select="'περιστατικός'"/>
+         <xsl:map-entry key="'περιστατικὸς'" select="'περιστατικός'"/>
          <xsl:map-entry key="'περιστελλούσης'" select="'περιστέλλω'"/>
          <xsl:map-entry key="'περιστέλλω'" select="'περιστέλλω'"/>
          <xsl:map-entry key="'περιστερά'" select="'περιστερά'"/>
          <xsl:map-entry key="'περιστερας'" select="'περιστερά'"/>
          <xsl:map-entry key="'περιστερᾶς'" select="'περιστερά'"/>
          <xsl:map-entry key="'περιστεράς'" select="'περιστερά'"/>
+         <xsl:map-entry key="'περιστερῶν'" select="'περιστερά'"/>
          <xsl:map-entry key="'περιστέφω'" select="'περιστέφω'"/>
          <xsl:map-entry key="'περιστολίζω'" select="'περιστολίζω'"/>
          <xsl:map-entry key="'περιστολίσῃς'" select="'περιστολίζω'"/>
@@ -20523,7 +22105,7 @@
          <xsl:map-entry key="'περιυβρίσειας'" select="'περιυβρίζω'"/>
          <xsl:map-entry key="'περιφανής'" select="'περιφανής'"/>
          <xsl:map-entry key="'περιφανὴς'" select="'περιφανής'"/>
-         <xsl:map-entry key="'περιφανῶς'" select="'περιφανής'"/>
+         <xsl:map-entry key="'περιφανῶς'" select="'περιφανῶς'"/>
          <xsl:map-entry key="'περιφέρει'" select="'περιφέρω'"/>
          <xsl:map-entry key="'περιφέρεται'" select="'περιφέρω'"/>
          <xsl:map-entry key="'περιφέρηται'" select="'περιφέρω'"/>
@@ -20541,6 +22123,7 @@
          <xsl:map-entry key="'περιχαρῶν'" select="'περιχαρής'"/>
          <xsl:map-entry key="'περιχρυσόω'" select="'περιχρυσόω'"/>
          <xsl:map-entry key="'περίψημα'" select="'περίψημα'"/>
+         <xsl:map-entry key="'περιψύχω'" select="'περιψύχω περιψυχόω'"/>
          <xsl:map-entry key="'περιψύχων'" select="'περιψύχω'"/>
          <xsl:map-entry key="'περκαζούσης'" select="'περκάζω'"/>
          <xsl:map-entry key="'περκάζω'" select="'περκάζω'"/>
@@ -20562,9 +22145,10 @@
          <xsl:map-entry key="'πεσὼν'" select="'πίπτω'"/>
          <xsl:map-entry key="'πετάζω'" select="'πετάζω'"/>
          <xsl:map-entry key="'πετάζωμεν'" select="'πετάζω'"/>
-         <xsl:map-entry key="'Πεταλον'" select="'πέταλος'"/>
-         <xsl:map-entry key="'πέταλόν'" select="'πέταλος'"/>
-         <xsl:map-entry key="'πέταλος'" select="'πέταλος'"/>
+         <xsl:map-entry key="'Πεταλον'" select="'πέταλον'"/>
+         <xsl:map-entry key="'πέταλόν'" select="'πέταλον'"/>
+         <xsl:map-entry key="'πέταλον'" select="'πέταλον'"/>
+         <xsl:map-entry key="'πετάλῳ'" select="'πέταλον'"/>
          <xsl:map-entry key="'πετάννυμι'" select="'πετάννυμι'"/>
          <xsl:map-entry key="'πετασθήσεται'" select="'πετάννυμι'"/>
          <xsl:map-entry key="'πετεινα'" select="'πετεινός'"/>
@@ -20579,6 +22163,7 @@
          <xsl:map-entry key="'πέτρα'" select="'πέτρα'"/>
          <xsl:map-entry key="'Πέτρα'" select="'πέτρα'"/>
          <xsl:map-entry key="'πέτρᾳ'" select="'πέτρα'"/>
+         <xsl:map-entry key="'πέτραι'" select="'πέτρα'"/>
          <xsl:map-entry key="'πέτραν'" select="'πέτρα'"/>
          <xsl:map-entry key="'πέτρας'" select="'πέτρα'"/>
          <xsl:map-entry key="'πετρίνη'" select="'πέτρινος'"/>
@@ -20586,14 +22171,20 @@
          <xsl:map-entry key="'πέτρινος'" select="'πέτρινος'"/>
          <xsl:map-entry key="'Πέτρον'" select="'Πέτρος'"/>
          <xsl:map-entry key="'Πέτρος'" select="'Πέτρος'"/>
+         <xsl:map-entry key="'Πέτρου'" select="'Πέτρος'"/>
          <xsl:map-entry key="'Πέτρῳ'" select="'Πέτρος'"/>
+         <xsl:map-entry key="'πετρῶν'" select="'πέτρα'"/>
          <xsl:map-entry key="'πεφαρμακευμένον'" select="'φαρμακεύω'"/>
          <xsl:map-entry key="'πεφευγέναι'" select="'φεύγω'"/>
          <xsl:map-entry key="'πεφευγότος'" select="'φεύγω'"/>
+         <xsl:map-entry key="'πεφόνευκε'" select="'φονεύω'"/>
+         <xsl:map-entry key="'πεφονευμένοι'" select="'φονεύω'"/>
          <xsl:map-entry key="'πεφονευμένους'" select="'φονεύω'"/>
          <xsl:map-entry key="'πεφορτισμένοι'" select="'φορτίζω'"/>
          <xsl:map-entry key="'πεφορτισμένον'" select="'φορτίζω'"/>
          <xsl:map-entry key="'πεφορτισμένους'" select="'φορτίζω'"/>
+         <xsl:map-entry key="'πεφυγαδευμένων'" select="'φυγαδεύω'"/>
+         <xsl:map-entry key="'πεφύκασι'" select="'φύω'"/>
          <xsl:map-entry key="'πεφύκασιν'" select="'φύω'"/>
          <xsl:map-entry key="'πέφυκε'" select="'φύω'"/>
          <xsl:map-entry key="'πεφυκε'" select="'φύω'"/>
@@ -20608,12 +22199,14 @@
          <xsl:map-entry key="'πεφυκότων'" select="'φύω'"/>
          <xsl:map-entry key="'πεφυκυῖαι'" select="'φύω'"/>
          <xsl:map-entry key="'πεφυκυῖαν'" select="'φύω'"/>
+         <xsl:map-entry key="'πεφυκυίας'" select="'φύω'"/>
+         <xsl:map-entry key="'πεφυκυιῶν'" select="'φύω'"/>
          <xsl:map-entry key="'πεφυσικὸς'" select="'φυσιάω'"/>
          <xsl:map-entry key="'πεφυσικῶς'" select="'φυσιάω'"/>
          <xsl:map-entry key="'πεφυτευμένα'" select="'φυτεύω'"/>
          <xsl:map-entry key="'πεφυτευται'" select="'φυτεύω'"/>
-         <xsl:map-entry key="'πῂ'" select="'πη'"/>
-         <xsl:map-entry key="'πη'" select="'πη'"/>
+         <xsl:map-entry key="'πῂ'" select="'πῃ'"/>
+         <xsl:map-entry key="'πῃ'" select="'πῃ'"/>
          <xsl:map-entry key="'πηγαι'" select="'πήγη'"/>
          <xsl:map-entry key="'πηγαὶ'" select="'πηγή'"/>
          <xsl:map-entry key="'πήγας'" select="'πηγή'"/>
@@ -20631,7 +22224,9 @@
          <xsl:map-entry key="'πηγῶν'" select="'πηγή'"/>
          <xsl:map-entry key="'πηδάω'" select="'πηδάω'"/>
          <xsl:map-entry key="'πηδῶντος'" select="'πηδάω'"/>
+         <xsl:map-entry key="'πηλίκος'" select="'πηλίκος'"/>
          <xsl:map-entry key="'πηλικότης'" select="'πηλικότης'"/>
+         <xsl:map-entry key="'πηλίκῳ'" select="'πηλίκος'"/>
          <xsl:map-entry key="'πηλός'" select="'πηλός'"/>
          <xsl:map-entry key="'πηλὸς'" select="'πηλός'"/>
          <xsl:map-entry key="'πηλῷ'" select="'πηλός'"/>
@@ -20658,7 +22253,8 @@
          <xsl:map-entry key="'πιθανοποιέω'" select="'πιθανοποιέω'"/>
          <xsl:map-entry key="'πιθανοποιήσωσι'" select="'πιθανοποιέω'"/>
          <xsl:map-entry key="'πιθανός'" select="'πιθανός'"/>
-         <xsl:map-entry key="'πιθανῶς'" select="'πιθανός'"/>
+         <xsl:map-entry key="'πιθανότης'" select="'πιθανότης'"/>
+         <xsl:map-entry key="'πιθανῶς'" select="'πιθανῶς'"/>
          <xsl:map-entry key="'πίθον'" select="'πίθος'"/>
          <xsl:map-entry key="'πίθος'" select="'πίθος'"/>
          <xsl:map-entry key="'πικρά'" select="'πικρός'"/>
@@ -20677,9 +22273,10 @@
          <xsl:map-entry key="'πικροτάτῃ'" select="'πικρός'"/>
          <xsl:map-entry key="'πικροτάτην'" select="'πικρός'"/>
          <xsl:map-entry key="'πικρότατον'" select="'πικρός'"/>
+         <xsl:map-entry key="'πικροτάτῳ'" select="'πικρός'"/>
          <xsl:map-entry key="'πικρότερον'" select="'πικρός'"/>
          <xsl:map-entry key="'πικροτέρους'" select="'πικρός'"/>
-         <xsl:map-entry key="'πικρῶς'" select="'πικρός'"/>
+         <xsl:map-entry key="'πικρῶς'" select="'πικρῶς'"/>
          <xsl:map-entry key="'πιμελώδει'" select="'πιμελώδης'"/>
          <xsl:map-entry key="'πιμελώδης'" select="'πιμελώδης'"/>
          <xsl:map-entry key="'πίμπλημι'" select="'πίμπλημι'"/>
@@ -20724,11 +22321,14 @@
          <xsl:map-entry key="'Πιστεύετε'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευηι'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευθεισαι'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'πιστευθῇ'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευθῆναι'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευθησεται'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευθήσεται'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευομεν'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύομεν'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'Πιστεύομεν'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'πιστεύομέν'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύοντες'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύοντι'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστευόντων'" select="'πιστεύω'"/>
@@ -20741,11 +22341,14 @@
          <xsl:map-entry key="'πιστεύσας'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύσῃ'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύσῃς'" select="'πιστεύω'"/>
+         <xsl:map-entry key="'πιστευτικὴν'" select="'πιστευτικός'"/>
+         <xsl:map-entry key="'πιστευτικός'" select="'πιστευτικός'"/>
          <xsl:map-entry key="'πιστεύω'" select="'πιστεύω'"/>
          <xsl:map-entry key="'Πιστεύω'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πιστεύων'" select="'πιστεύω'"/>
          <xsl:map-entry key="'πίστεως'" select="'πίστις'"/>
          <xsl:map-entry key="'πίστεώς'" select="'πίστις'"/>
+         <xsl:map-entry key="'Πίστεως'" select="'πίστις'"/>
          <xsl:map-entry key="'Πιστὴ'" select="'πιστός'"/>
          <xsl:map-entry key="'πιστῆς'" select="'πιστός'"/>
          <xsl:map-entry key="'πίστιν'" select="'πίστις'"/>
@@ -20754,6 +22357,8 @@
          <xsl:map-entry key="'Πιστοὶ'" select="'πιστός'"/>
          <xsl:map-entry key="'πιστὸν'" select="'πιστός'"/>
          <xsl:map-entry key="'πιστόν'" select="'πιστός'"/>
+         <xsl:map-entry key="'πιστοποίησιν'" select="'πιστοποίησις'"/>
+         <xsl:map-entry key="'πιστοποίησις'" select="'πιστοποίησις'"/>
          <xsl:map-entry key="'πιστὸς'" select="'πιστός'"/>
          <xsl:map-entry key="'πιστός'" select="'πιστός'"/>
          <xsl:map-entry key="'πιστουμένων'" select="'πιστόω'"/>
@@ -20762,10 +22367,12 @@
          <xsl:map-entry key="'πλάγιοι'" select="'πλάγιος'"/>
          <xsl:map-entry key="'πλάγιος'" select="'πλάγιος'"/>
          <xsl:map-entry key="'πλαγίῳ'" select="'πλάγιος'"/>
+         <xsl:map-entry key="'πλάναις'" select="'πλάνη'"/>
          <xsl:map-entry key="'πλανᾶται'" select="'πλανάω'"/>
          <xsl:map-entry key="'πλανάω'" select="'πλανάω'"/>
          <xsl:map-entry key="'πλανη'" select="'πλάνη'"/>
          <xsl:map-entry key="'πλάνη'" select="'πλάνη'"/>
+         <xsl:map-entry key="'Πλάνη'" select="'πλάνη'"/>
          <xsl:map-entry key="'πλανηθεις'" select="'πλανάω'"/>
          <xsl:map-entry key="'πλανηθεὶς'" select="'πλανάω'"/>
          <xsl:map-entry key="'πλανηθεῖσαν'" select="'πλανάω'"/>
@@ -20788,6 +22395,7 @@
          <xsl:map-entry key="'Πλὰξ'" select="'πλάξ'"/>
          <xsl:map-entry key="'πλάξ'" select="'πλάξ'"/>
          <xsl:map-entry key="'πλαξὶ'" select="'πλάξ'"/>
+         <xsl:map-entry key="'πλάσαντι'" select="'πλάσσω'"/>
          <xsl:map-entry key="'πλάσας'" select="'πλάσσω'"/>
          <xsl:map-entry key="'πλασθήσονται'" select="'πλάσσω'"/>
          <xsl:map-entry key="'πλάσμα'" select="'πλάσμα'"/>
@@ -20797,6 +22405,7 @@
          <xsl:map-entry key="'πλάσσω'" select="'πλάσσω'"/>
          <xsl:map-entry key="'πλατει'" select="'πλάτος'"/>
          <xsl:map-entry key="'πλατεῖα'" select="'πλατεῖα'"/>
+         <xsl:map-entry key="'πλατείᾳ'" select="'πλατύς'"/>
          <xsl:map-entry key="'πλατείαις'" select="'πλατεῖα'"/>
          <xsl:map-entry key="'πλατεῖαν'" select="'πλατύς'"/>
          <xsl:map-entry key="'πλατειῶν'" select="'πλατεῖα'"/>
@@ -20828,7 +22437,7 @@
          <xsl:map-entry key="'πλείονας'" select="'πλείων'"/>
          <xsl:map-entry key="'πλείονος'" select="'πλείων'"/>
          <xsl:map-entry key="'πλειόνων'" select="'πλείων'"/>
-         <xsl:map-entry key="'πλειόνως'" select="'πλείων'"/>
+         <xsl:map-entry key="'πλειόνως'" select="'πλειόνως'"/>
          <xsl:map-entry key="'πλείοσι'" select="'πλείων'"/>
          <xsl:map-entry key="'πλείοσιν'" select="'πλείων'"/>
          <xsl:map-entry key="'πλείους'" select="'πλείων'"/>
@@ -20845,11 +22454,19 @@
          <xsl:map-entry key="'πλεονάζω'" select="'πλεονάζω'"/>
          <xsl:map-entry key="'πλεονάκις'" select="'πλεονάκις'"/>
          <xsl:map-entry key="'πλεονάσαν'" select="'πλεονάζω'"/>
+         <xsl:map-entry key="'πλεονάσασα'" select="'πλεονάζω'"/>
+         <xsl:map-entry key="'πλεονάσῃ'" select="'πλεονάζω'"/>
+         <xsl:map-entry key="'πλεονασθέντα'" select="'πλεονάζω'"/>
+         <xsl:map-entry key="'πλεονασμὸν'" select="'πλεονασμός'"/>
+         <xsl:map-entry key="'πλεονασμός'" select="'πλεονασμός'"/>
+         <xsl:map-entry key="'πλεονασμῶν'" select="'πλεονασμός'"/>
+         <xsl:map-entry key="'πλεονεκτεῖ'" select="'πλεονεκτέω'"/>
          <xsl:map-entry key="'πλεονεκτέω'" select="'πλεονεκτέω'"/>
          <xsl:map-entry key="'πλεονεκτοῦντας'" select="'πλεονεκτέω'"/>
          <xsl:map-entry key="'πλεονεξία'" select="'πλεονεξία'"/>
          <xsl:map-entry key="'πλεονεξίαν'" select="'πλεονεξία'"/>
          <xsl:map-entry key="'πλεονεξίας'" select="'πλεονεξία'"/>
+         <xsl:map-entry key="'Πλεονεξίας'" select="'πλεονεξία'"/>
          <xsl:map-entry key="'πλέοντα'" select="'πλέω'"/>
          <xsl:map-entry key="'πλέοντας'" select="'πλέω'"/>
          <xsl:map-entry key="'πλέοντες'" select="'πλέω'"/>
@@ -20881,9 +22498,12 @@
          <xsl:map-entry key="'πληθὺν'" select="'πληθύς'"/>
          <xsl:map-entry key="'πληθύνει'" select="'πληθύνω'"/>
          <xsl:map-entry key="'πληθυνθήσονται'" select="'πληθύνω'"/>
+         <xsl:map-entry key="'πληθύνοντες'" select="'πληθύνω'"/>
          <xsl:map-entry key="'Πληθυνουσης'" select="'πληθύνω'"/>
          <xsl:map-entry key="'πληθυνοῦσι'" select="'πληθύνω'"/>
+         <xsl:map-entry key="'πληθύνουσι'" select="'πληθύνω'"/>
          <xsl:map-entry key="'πληθύνω'" select="'πληθύνω'"/>
+         <xsl:map-entry key="'πληθύνων'" select="'πληθύνω'"/>
          <xsl:map-entry key="'πληθύος'" select="'πληθύς'"/>
          <xsl:map-entry key="'πληθύς'" select="'πληθύς'"/>
          <xsl:map-entry key="'πλημμέλεια'" select="'πλημμέλεια'"/>
@@ -20926,16 +22546,19 @@
          <xsl:map-entry key="'πληροφορία'" select="'πληροφορία'"/>
          <xsl:map-entry key="'πληροφορίαν'" select="'πληροφορία'"/>
          <xsl:map-entry key="'πληροφοροῦσάν'" select="'πληροφορέω'"/>
+         <xsl:map-entry key="'πληροφοροῦσαν'" select="'πληροφορέω'"/>
          <xsl:map-entry key="'πληρόω'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθεις'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθεὶς'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθῇ'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθηναι'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθῆναι'" select="'πληρόω'"/>
+         <xsl:map-entry key="'πληρωθήσεται'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωθήσονται'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρωμα'" select="'πλήρωμα'"/>
          <xsl:map-entry key="'πλήρωμα'" select="'πλήρωμα'"/>
          <xsl:map-entry key="'πλήρῶμα'" select="'πλήρωμα'"/>
+         <xsl:map-entry key="'πληρώματα'" select="'πλήρωμα'"/>
          <xsl:map-entry key="'πληρώματος'" select="'πλήρωμα'"/>
          <xsl:map-entry key="'πληρῶν'" select="'πληρόω'"/>
          <xsl:map-entry key="'πληρῶσαι'" select="'πληρόω'"/>
@@ -20949,6 +22572,7 @@
          <xsl:map-entry key="'πληρωτικός'" select="'πληρωτικός'"/>
          <xsl:map-entry key="'πλῆσαι'" select="'πίμπλημι'"/>
          <xsl:map-entry key="'πλησθεὶς'" select="'πίμπλημι'"/>
+         <xsl:map-entry key="'πλησθῆναι'" select="'πίμπλημι'"/>
          <xsl:map-entry key="'πλησθῇς'" select="'πίμπλημι'"/>
          <xsl:map-entry key="'πλησθήσεται'" select="'πίμπλημι'"/>
          <xsl:map-entry key="'πλησθήσονται'" select="'πίμπλημι'"/>
@@ -20960,6 +22584,8 @@
          <xsl:map-entry key="'πλησίον'" select="'πλησίος'"/>
          <xsl:map-entry key="'Πλησίον'" select="'πλησίος'"/>
          <xsl:map-entry key="'πλησίος'" select="'πλησίος'"/>
+         <xsl:map-entry key="'πλησιφαὴς'" select="'πλησιφαής'"/>
+         <xsl:map-entry key="'πλησιφαής'" select="'πλησιφαής'"/>
          <xsl:map-entry key="'πλήσσοντες'" select="'πλήσσω'"/>
          <xsl:map-entry key="'πλήσσω'" select="'πλήσσω'"/>
          <xsl:map-entry key="'πλίνθος'" select="'πλίνθος'"/>
@@ -20974,17 +22600,21 @@
          <xsl:map-entry key="'πλουσίαις'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλούσιοι'" select="'πλούσιος'"/>
          <xsl:map-entry key="'Πλούσιον'" select="'πλούσιος'"/>
+         <xsl:map-entry key="'πλούσιον'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλουσιος'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλούσιος'" select="'πλούσιος'"/>
+         <xsl:map-entry key="'πλούσιός'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλουσίους'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλουσίῳ'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλουσίων'" select="'πλούσιος'"/>
          <xsl:map-entry key="'πλουτει'" select="'πλουτέω'"/>
          <xsl:map-entry key="'πλουτεῖν'" select="'πλουτέω'"/>
          <xsl:map-entry key="'πλουτέω'" select="'πλουτέω'"/>
+         <xsl:map-entry key="'πλουτῆσαι'" select="'πλουτέω'"/>
          <xsl:map-entry key="'πλουτήσας'" select="'πλουτέω'"/>
          <xsl:map-entry key="'πλουτήσουσι'" select="'πλουτέω'"/>
          <xsl:map-entry key="'πλουτίζω'" select="'πλουτίζω'"/>
+         <xsl:map-entry key="'πλουτισθέντα'" select="'πλουτίζω'"/>
          <xsl:map-entry key="'πλουτισθέντες'" select="'πλουτίζω'"/>
          <xsl:map-entry key="'πλουτίσωμεν'" select="'πλουτίζω'"/>
          <xsl:map-entry key="'πλουτον'" select="'πλοῦτος'"/>
@@ -21014,6 +22644,7 @@
          <xsl:map-entry key="'πνεύματί'" select="'πνεῦμα'"/>
          <xsl:map-entry key="'πνευματικα'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικὰ'" select="'πνευματικός'"/>
+         <xsl:map-entry key="'πνευματικά'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικαὶ'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικαῖς'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικας'" select="'πνευματικός'"/>
@@ -21045,8 +22676,8 @@
          <xsl:map-entry key="'πνευματικωι'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικων'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματικῶν'" select="'πνευματικός'"/>
-         <xsl:map-entry key="'πνευματικως'" select="'πνευματικός'"/>
-         <xsl:map-entry key="'πνευματικῶς'" select="'πνευματικός'"/>
+         <xsl:map-entry key="'πνευματικως'" select="'πνευματικῶς'"/>
+         <xsl:map-entry key="'πνευματικῶς'" select="'πνευματικῶς'"/>
          <xsl:map-entry key="'πνευματικώτερα'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματκη'" select="'πνευματικός'"/>
          <xsl:map-entry key="'πνευματκης'" select="'πνευματικός'"/>
@@ -21094,6 +22725,7 @@
          <xsl:map-entry key="'πόθου'" select="'πόθος'"/>
          <xsl:map-entry key="'ποθουμένην'" select="'ποθέω'"/>
          <xsl:map-entry key="'ποθοῦντες'" select="'ποθέω'"/>
+         <xsl:map-entry key="'ποθοῦσι'" select="'ποθέω'"/>
          <xsl:map-entry key="'ποθοῦσιν'" select="'ποθέω'"/>
          <xsl:map-entry key="'πόθῳ'" select="'πόθος'"/>
          <xsl:map-entry key="'ποθῶν'" select="'ποθέω'"/>
@@ -21116,8 +22748,12 @@
          <xsl:map-entry key="'ποιηι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποίημα'" select="'ποίημα'"/>
          <xsl:map-entry key="'ποιήμασι'" select="'ποίημα'"/>
+         <xsl:map-entry key="'ποιήμασιν'" select="'ποίημα'"/>
+         <xsl:map-entry key="'ποιήματα'" select="'ποίημα'"/>
+         <xsl:map-entry key="'ποιήματος'" select="'ποίημα'"/>
          <xsl:map-entry key="'ποιηματων'" select="'ποίημα'"/>
          <xsl:map-entry key="'ποιημάτων'" select="'ποίημα'"/>
+         <xsl:map-entry key="'ποιῇς'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιῆσαι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιῆσαί'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιησάμενος'" select="'ποιέω'"/>
@@ -21133,6 +22769,7 @@
          <xsl:map-entry key="'ποιήση'" select="'ποίησις'"/>
          <xsl:map-entry key="'ποιήσῃ'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιήσῃς'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ποιήσηται'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποίησις'" select="'ποίησις'"/>
          <xsl:map-entry key="'ποιήσοι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιήσομεν'" select="'ποιέω'"/>
@@ -21143,6 +22780,7 @@
          <xsl:map-entry key="'ποιησώμεθα'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιήσωμεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'Ποιήσωμεν'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ποιήσων'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιήσωσι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιήσωσιν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιηταὶ'" select="'ποιητής'"/>
@@ -21155,6 +22793,7 @@
          <xsl:map-entry key="'ποιητικόν'" select="'ποιητικός'"/>
          <xsl:map-entry key="'ποιητικός'" select="'ποιητικός'"/>
          <xsl:map-entry key="'Ποιητον'" select="'ποιητής'"/>
+         <xsl:map-entry key="'ποικίλα'" select="'ποικίλος'"/>
          <xsl:map-entry key="'ποικίλαις'" select="'ποικίλος'"/>
          <xsl:map-entry key="'ποικιλας'" select="'ποικίλος'"/>
          <xsl:map-entry key="'ποικίλη'" select="'ποικίλος'"/>
@@ -21192,6 +22831,7 @@
          <xsl:map-entry key="'ποίμνιον'" select="'ποίμνιον'"/>
          <xsl:map-entry key="'ποῖοι'" select="'ποῖος'"/>
          <xsl:map-entry key="'ποιοίμεθα'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ποιοῖτο'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποῖον'" select="'ποῖος'"/>
          <xsl:map-entry key="'ποῖος'" select="'ποῖος'"/>
          <xsl:map-entry key="'ποιός'" select="'ποιός'"/>
@@ -21201,6 +22841,7 @@
          <xsl:map-entry key="'ποιότησιν'" select="'ποιότης'"/>
          <xsl:map-entry key="'ποιοτησιν'" select="'ποιότης'"/>
          <xsl:map-entry key="'ποιοτητα'" select="'ποιότης'"/>
+         <xsl:map-entry key="'ποιότητα'" select="'ποιότης'"/>
          <xsl:map-entry key="'ποιότητας'" select="'ποιότης'"/>
          <xsl:map-entry key="'ποιοτητες'" select="'ποιότης'"/>
          <xsl:map-entry key="'ποιότητες'" select="'ποιότης'"/>
@@ -21221,6 +22862,7 @@
          <xsl:map-entry key="'ποιούντων'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιοῦσα'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιοῦσαι'" select="'ποιέω'"/>
+         <xsl:map-entry key="'ποιούσης'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιουσι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιοῦσι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιοῦσιν'" select="'ποιέω'"/>
@@ -21242,6 +22884,8 @@
          <xsl:map-entry key="'πολεμεῖται'" select="'πολεμέω'"/>
          <xsl:map-entry key="'πολεμείτω'" select="'πολεμέω'"/>
          <xsl:map-entry key="'πολεμέω'" select="'πολεμέω'"/>
+         <xsl:map-entry key="'πολεμῆσαι'" select="'πολεμέω'"/>
+         <xsl:map-entry key="'πολεμήσει'" select="'πολεμέω'"/>
          <xsl:map-entry key="'πολεμήσω'" select="'πολεμέω'"/>
          <xsl:map-entry key="'πολεμία'" select="'πολέμιος'"/>
          <xsl:map-entry key="'πολεμιζοντας'" select="'πολεμίζω'"/>
@@ -21303,6 +22947,7 @@
          <xsl:map-entry key="'πολιτειας'" select="'πολιτεία'"/>
          <xsl:map-entry key="'πολίτευμα'" select="'πολίτευμα'"/>
          <xsl:map-entry key="'πολιτευόμενος'" select="'πολιτεύω'"/>
+         <xsl:map-entry key="'πολιτευομένου'" select="'πολιτεύω'"/>
          <xsl:map-entry key="'πολιτεύσεται'" select="'πολιτεύω'"/>
          <xsl:map-entry key="'πολιτεύω'" select="'πολιτεύω'"/>
          <xsl:map-entry key="'Πολιῶν'" select="'πολιός'"/>
@@ -21310,6 +22955,7 @@
          <xsl:map-entry key="'Πολλα'" select="'πολύς'"/>
          <xsl:map-entry key="'Πολλὰ'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλά'" select="'πολύς'"/>
+         <xsl:map-entry key="'Πολλά'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλαι'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλαὶ'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλαις'" select="'πολύς'"/>
@@ -21319,6 +22965,7 @@
          <xsl:map-entry key="'πολλας'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλὰς'" select="'πολύς'"/>
          <xsl:map-entry key="'Πολλὰς'" select="'πολύς'"/>
+         <xsl:map-entry key="'πολλάς'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλαχοῦ'" select="'πολλαχοῦ'"/>
          <xsl:map-entry key="'πολλή'" select="'πολύς'"/>
          <xsl:map-entry key="'πολλῇ'" select="'πολύς'"/>
@@ -21354,6 +23001,7 @@
          <xsl:map-entry key="'πολύθεοι'" select="'πολύθεος'"/>
          <xsl:map-entry key="'πολύθεον'" select="'πολύθεος'"/>
          <xsl:map-entry key="'πολύθεος'" select="'πολύθεος'"/>
+         <xsl:map-entry key="'πολυθέου'" select="'πολύθεος'"/>
          <xsl:map-entry key="'Πολυκτήμων'" select="'πολυκτήμων'"/>
          <xsl:map-entry key="'πολυκτήμων'" select="'πολυκτήμων'"/>
          <xsl:map-entry key="'πολυλογία'" select="'πολυλογία'"/>
@@ -21368,6 +23016,8 @@
          <xsl:map-entry key="'πολυόμματος'" select="'πολυόμματος'"/>
          <xsl:map-entry key="'πολυπαθείᾳ'" select="'πολυπάθεια'"/>
          <xsl:map-entry key="'πολυπάθεια'" select="'πολυπάθεια'"/>
+         <xsl:map-entry key="'πολύπαιδος'" select="'πολύπαις'"/>
+         <xsl:map-entry key="'πολύπαις'" select="'πολύπαις'"/>
          <xsl:map-entry key="'πολύπλοκα'" select="'πολύπλοκος'"/>
          <xsl:map-entry key="'πολύπλοκος'" select="'πολύπλοκος'"/>
          <xsl:map-entry key="'πολυποικιλον'" select="'πολυποίκιλος'"/>
@@ -21393,13 +23043,16 @@
          <xsl:map-entry key="'πολυτελῆ'" select="'πολυτελής'"/>
          <xsl:map-entry key="'πολυτελής'" select="'πολυτελής'"/>
          <xsl:map-entry key="'πολυτελῶν'" select="'πολυτελής'"/>
+         <xsl:map-entry key="'πολύτροπα'" select="'πολύτροπος'"/>
          <xsl:map-entry key="'πολύτροπος'" select="'πολύτροπος'"/>
-         <xsl:map-entry key="'πολυτρόπως'" select="'πολύτροπος'"/>
+         <xsl:map-entry key="'πολυτρόπως'" select="'πολυτρόπως'"/>
          <xsl:map-entry key="'πολύϋλοι'" select="'πολύυλος'"/>
          <xsl:map-entry key="'πολύυλος'" select="'πολύυλος'"/>
          <xsl:map-entry key="'πολύϋλος'" select="'πολύυλος'"/>
+         <xsl:map-entry key="'πολύϋλός'" select="'πολύυλος'"/>
          <xsl:map-entry key="'πολυφαγία'" select="'πολυφαγία'"/>
          <xsl:map-entry key="'πολυφαγίας'" select="'πολυφαγία'"/>
+         <xsl:map-entry key="'πολυχρόνιοί'" select="'πολυχρόνιος'"/>
          <xsl:map-entry key="'πολυχρόνιος'" select="'πολυχρόνιος'"/>
          <xsl:map-entry key="'πολυχρονιώτερον'" select="'πολυχρόνιος'"/>
          <xsl:map-entry key="'πολυωρέω'" select="'πολυωρέω'"/>
@@ -21427,6 +23080,7 @@
          <xsl:map-entry key="'πονηρᾶς'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρία'" select="'πονηρία'"/>
          <xsl:map-entry key="'πονηρίᾳ'" select="'πονηρία'"/>
+         <xsl:map-entry key="'Πονηρία'" select="'πονηρία'"/>
          <xsl:map-entry key="'πονηρίαι'" select="'πονηρία'"/>
          <xsl:map-entry key="'πονηρίαν'" select="'πονηρία'"/>
          <xsl:map-entry key="'πονηρίας'" select="'πονηρία'"/>
@@ -21437,6 +23091,7 @@
          <xsl:map-entry key="'πονηρον'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρόν'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρὸν'" select="'πονηρός'"/>
+         <xsl:map-entry key="'Πονηρὸν'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρός'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρὸς'" select="'πονηρός'"/>
          <xsl:map-entry key="'Πονηρὸς'" select="'πονηρός'"/>
@@ -21452,7 +23107,7 @@
          <xsl:map-entry key="'πονηρων'" select="'πονηρός'"/>
          <xsl:map-entry key="'πονηρῶν'" select="'πονηρός'"/>
          <xsl:map-entry key="'ΠΟΝΗΡΩΝ'" select="'πονηρός'"/>
-         <xsl:map-entry key="'πονηρῶς'" select="'πονηρός'"/>
+         <xsl:map-entry key="'πονηρῶς'" select="'πονηρῶς'"/>
          <xsl:map-entry key="'πονήσας'" select="'πονέω'"/>
          <xsl:map-entry key="'πονικός'" select="'πονικός'"/>
          <xsl:map-entry key="'πονικώτατοι'" select="'πονικός'"/>
@@ -21483,8 +23138,12 @@
          <xsl:map-entry key="'πορείαν'" select="'πορεία'"/>
          <xsl:map-entry key="'πορεύεσθαι'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορεύεται'" select="'πορεύω'"/>
+         <xsl:map-entry key="'πορεύῃ'" select="'πορεύω'"/>
+         <xsl:map-entry key="'πορευθῇ'" select="'πορεύω'"/>
+         <xsl:map-entry key="'πορευθῆναι'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορευθῶ'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορευομενον'" select="'πορεύω'"/>
+         <xsl:map-entry key="'πορευόμενον'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορευόμενος'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορευομένων'" select="'πορεύω'"/>
          <xsl:map-entry key="'πορεύονται'" select="'πορεύω'"/>
@@ -21505,7 +23164,9 @@
          <xsl:map-entry key="'πορνεῖον'" select="'πορνεῖον'"/>
          <xsl:map-entry key="'πορνεύει'" select="'πορνεύω'"/>
          <xsl:map-entry key="'Πορνεύει'" select="'πορνεύω'"/>
+         <xsl:map-entry key="'πορνεύσας'" select="'πορνεύω'"/>
          <xsl:map-entry key="'πορνεύω'" select="'πορνεύω'"/>
+         <xsl:map-entry key="'πορνεύων'" select="'πορνεύω'"/>
          <xsl:map-entry key="'πόρνῃ'" select="'πόρνη'"/>
          <xsl:map-entry key="'πόρνη'" select="'πόρνη'"/>
          <xsl:map-entry key="'πόρνην'" select="'πόρνη'"/>
@@ -21515,6 +23176,7 @@
          <xsl:map-entry key="'πορνικοὺς'" select="'πορνικός'"/>
          <xsl:map-entry key="'πόρνον'" select="'πόρνος'"/>
          <xsl:map-entry key="'πόρνος'" select="'πόρνος'"/>
+         <xsl:map-entry key="'πόρνους'" select="'πόρνος'"/>
          <xsl:map-entry key="'ποροι'" select="'πόρος'"/>
          <xsl:map-entry key="'πόρον'" select="'πόρος'"/>
          <xsl:map-entry key="'πόρος'" select="'πόρος'"/>
@@ -21525,6 +23187,7 @@
          <xsl:map-entry key="'ποση'" select="'ποσός'"/>
          <xsl:map-entry key="'ποσί'" select="'πούς'"/>
          <xsl:map-entry key="'ποσὶν'" select="'πούς'"/>
+         <xsl:map-entry key="'πόσις'" select="'πόσις'"/>
          <xsl:map-entry key="'πόσον'" select="'πόσος'"/>
          <xsl:map-entry key="'ποσὸν'" select="'ποσός'"/>
          <xsl:map-entry key="'ποσόν'" select="'ποσός'"/>
@@ -21533,8 +23196,8 @@
          <xsl:map-entry key="'ποσότης'" select="'ποσότης'"/>
          <xsl:map-entry key="'ποσοῦ'" select="'ποσός'"/>
          <xsl:map-entry key="'πόσῳ'" select="'πόσος'"/>
-         <xsl:map-entry key="'ποσῶς'" select="'ποσός'"/>
-         <xsl:map-entry key="'ποσως'" select="'ποσός'"/>
+         <xsl:map-entry key="'ποσῶς'" select="'ποσῶς'"/>
+         <xsl:map-entry key="'ποσως'" select="'ποσῶς'"/>
          <xsl:map-entry key="'Ποταμοὶ'" select="'ποταμός'"/>
          <xsl:map-entry key="'ποταμοὶ'" select="'ποταμός'"/>
          <xsl:map-entry key="'ποταμοί'" select="'ποταμός'"/>
@@ -21549,6 +23212,8 @@
          <xsl:map-entry key="'ποταμοὺς'" select="'ποταμός'"/>
          <xsl:map-entry key="'ποταμούς'" select="'ποταμός'"/>
          <xsl:map-entry key="'ποταμῶν'" select="'ποταμός'"/>
+         <xsl:map-entry key="'ποταπὸν'" select="'ποταπός'"/>
+         <xsl:map-entry key="'ποταπός'" select="'ποταπός'"/>
          <xsl:map-entry key="'ποτὲ'" select="'ποτέ'"/>
          <xsl:map-entry key="'ποτε'" select="'ποτέ'"/>
          <xsl:map-entry key="'ποτέ'" select="'ποτέ'"/>
@@ -21567,6 +23232,7 @@
          <xsl:map-entry key="'ποτίζω'" select="'ποτίζω'"/>
          <xsl:map-entry key="'ποτίζων'" select="'ποτίζω'"/>
          <xsl:map-entry key="'ποτισαι'" select="'ποτίζω'"/>
+         <xsl:map-entry key="'ποτίσαι'" select="'ποτίζω'"/>
          <xsl:map-entry key="'ποτίσαντες'" select="'ποτίζω'"/>
          <xsl:map-entry key="'ποτὸν'" select="'ποτός'"/>
          <xsl:map-entry key="'ποτός'" select="'ποτός'"/>
@@ -21581,6 +23247,7 @@
          <xsl:map-entry key="'πράγμασι'" select="'πρᾶγμα'"/>
          <xsl:map-entry key="'πραγμασιν'" select="'πρᾶγμα'"/>
          <xsl:map-entry key="'πράγμασιν'" select="'πρᾶγμα'"/>
+         <xsl:map-entry key="'πράγμασίν'" select="'πρᾶγμα'"/>
          <xsl:map-entry key="'πράγματα'" select="'πρᾶγμα'"/>
          <xsl:map-entry key="'πραγματα'" select="'πρᾶγμα'"/>
          <xsl:map-entry key="'πραγματεία'" select="'πραγματεία'"/>
@@ -21658,13 +23325,16 @@
          <xsl:map-entry key="'πρᾶον'" select="'πρᾶος'"/>
          <xsl:map-entry key="'πρᾶος'" select="'πρᾶος'"/>
          <xsl:map-entry key="'πρᾶός'" select="'πρᾶος'"/>
+         <xsl:map-entry key="'πρᾷος'" select="'πρᾶος'"/>
          <xsl:map-entry key="'πραότης'" select="'πραότης'"/>
+         <xsl:map-entry key="'Πραότης'" select="'πραότης'"/>
          <xsl:map-entry key="'πραότητα'" select="'πραότης'"/>
          <xsl:map-entry key="'πραότητι'" select="'πραότης'"/>
          <xsl:map-entry key="'πραότητος'" select="'πραότης'"/>
          <xsl:map-entry key="'πράου'" select="'πρᾶος'"/>
          <xsl:map-entry key="'πρασσόμενα'" select="'πράσσω'"/>
          <xsl:map-entry key="'πράσσω'" select="'πράσσω'"/>
+         <xsl:map-entry key="'πράσσων'" select="'πράσσω'"/>
          <xsl:map-entry key="'πρᾶττε'" select="'πράσσω'"/>
          <xsl:map-entry key="'πράττει'" select="'πράσσω'"/>
          <xsl:map-entry key="'πράττειν'" select="'πράσσω'"/>
@@ -21694,7 +23364,8 @@
          <xsl:map-entry key="'πραύτητος'" select="'πραότης'"/>
          <xsl:map-entry key="'πραΰτητος'" select="'πραότης'"/>
          <xsl:map-entry key="'πραχθέντα'" select="'πράσσω'"/>
-         <xsl:map-entry key="'πράως'" select="'πρᾶος'"/>
+         <xsl:map-entry key="'πράως'" select="'πράως'"/>
+         <xsl:map-entry key="'πρᾴως'" select="'πράως'"/>
          <xsl:map-entry key="'πρεπει'" select="'πρέπω'"/>
          <xsl:map-entry key="'πρέπει'" select="'πρέπω'"/>
          <xsl:map-entry key="'πρεπον'" select="'πρέπω'"/>
@@ -21707,27 +23378,40 @@
          <xsl:map-entry key="'πρεσβυτερα'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβυτέρα'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβύτεροι'" select="'πρέσβυς'"/>
+         <xsl:map-entry key="'πρεσβυτέροις'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβυτερον'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβύτερόν'" select="'πρέσβυς'"/>
+         <xsl:map-entry key="'πρεσβύτερον'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβυτερος'" select="'πρέσβυς'"/>
+         <xsl:map-entry key="'πρεσβύτερος'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβυτέρων'" select="'πρέσβυς'"/>
          <xsl:map-entry key="'πρεσβύτην'" select="'πρεσβύτης'"/>
          <xsl:map-entry key="'πρεσβύτης'" select="'πρεσβύτης'"/>
+         <xsl:map-entry key="'πρίαμαι'" select="'πρίαμαι'"/>
+         <xsl:map-entry key="'πριαμένου'" select="'πρίαμαι'"/>
          <xsl:map-entry key="'πρὶν'" select="'πρίν'"/>
          <xsl:map-entry key="'πρίν'" select="'πρίν'"/>
+         <xsl:map-entry key="'Πρὶν'" select="'πρίν'"/>
          <xsl:map-entry key="'πριτομει'" select="'περιτομή'"/>
          <xsl:map-entry key="'προάγει'" select="'προάγω'"/>
          <xsl:map-entry key="'προάγω'" select="'προάγω'"/>
          <xsl:map-entry key="'προαιρεῖται'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιρεσει'" select="'προαίρεσις'"/>
+         <xsl:map-entry key="'προαιρέσει'" select="'προαίρεσις'"/>
          <xsl:map-entry key="'προαιρέσεως'" select="'προαίρεσις'"/>
          <xsl:map-entry key="'προαιρεσιν'" select="'προαίρεσις'"/>
          <xsl:map-entry key="'προαίρεσίν'" select="'προαίρεσις'"/>
          <xsl:map-entry key="'προαίρεσιν'" select="'προαίρεσις'"/>
          <xsl:map-entry key="'προαίρεσις'" select="'προαίρεσις'"/>
+         <xsl:map-entry key="'προαίρεσίς'" select="'προαίρεσις'"/>
+         <xsl:map-entry key="'προαιρετικός'" select="'προαιρετικός'"/>
+         <xsl:map-entry key="'προαιρετικῶς'" select="'προαιρετικῶς'"/>
+         <xsl:map-entry key="'προαιρετὸν'" select="'προαιρετός'"/>
+         <xsl:map-entry key="'προαιρετός'" select="'προαιρετός'"/>
          <xsl:map-entry key="'προαιρέω'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιρούμεθα'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιρουμένη'" select="'προαιρέω'"/>
+         <xsl:map-entry key="'προαιρουμένοις'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιρούμενος'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιροῦνται'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προαιώνιον'" select="'προαιώνιος'"/>
@@ -21735,6 +23419,7 @@
          <xsl:map-entry key="'προαπόκειμαι'" select="'προαπόκειμαι'"/>
          <xsl:map-entry key="'προαποκειμενης'" select="'προαπόκειμαι'"/>
          <xsl:map-entry key="'προβαίνω'" select="'προβαίνω'"/>
+         <xsl:map-entry key="'προβαίνων'" select="'προβαίνω'"/>
          <xsl:map-entry key="'προβάλλεται'" select="'προβάλλω'"/>
          <xsl:map-entry key="'προβαλλόμενος'" select="'προβάλλω'"/>
          <xsl:map-entry key="'προβάλλουσα'" select="'προβάλλω'"/>
@@ -21753,22 +23438,29 @@
          <xsl:map-entry key="'πρόβλημα'" select="'πρόβλημα'"/>
          <xsl:map-entry key="'προβληματα'" select="'πρόβλημα'"/>
          <xsl:map-entry key="'προβλημάτων'" select="'πρόβλημα'"/>
+         <xsl:map-entry key="'προγεγονόσι'" select="'προγίγνομαι'"/>
+         <xsl:map-entry key="'προγεγονόσιν'" select="'προγίγνομαι'"/>
+         <xsl:map-entry key="'προγεγραμμένα'" select="'προγράφω'"/>
+         <xsl:map-entry key="'προγίγνομαι'" select="'προγίγνομαι'"/>
          <xsl:map-entry key="'προγιγνώσκω'" select="'προγιγνώσκω'"/>
          <xsl:map-entry key="'προγνώσει'" select="'πρόγνωσις'"/>
          <xsl:map-entry key="'πρόγνωσις'" select="'πρόγνωσις'"/>
          <xsl:map-entry key="'προγράφω'" select="'προγράφω'"/>
          <xsl:map-entry key="'προγυμνάζω'" select="'προγυμνάζω'"/>
          <xsl:map-entry key="'προγυμνάζωμεν'" select="'προγυμνάζω'"/>
+         <xsl:map-entry key="'προδεδωκὼς'" select="'προδίδωμι'"/>
+         <xsl:map-entry key="'πρόδηλοί'" select="'πρόδηλος'"/>
          <xsl:map-entry key="'πρόδηλον'" select="'πρόδηλος'"/>
          <xsl:map-entry key="'Πρόδηλον'" select="'πρόδηλος'"/>
          <xsl:map-entry key="'πρόδηλός'" select="'πρόδηλος'"/>
          <xsl:map-entry key="'πρόδηλος'" select="'πρόδηλος'"/>
-         <xsl:map-entry key="'προδήλως'" select="'πρόδηλος'"/>
+         <xsl:map-entry key="'προδήλως'" select="'προδήλως'"/>
          <xsl:map-entry key="'προδιδόντος'" select="'προδίδωμι'"/>
          <xsl:map-entry key="'προδίδοσθαι'" select="'προδίδωμι'"/>
          <xsl:map-entry key="'προδίδωμι'" select="'προδίδωμι'"/>
          <xsl:map-entry key="'προδοθήσεται'" select="'προδίδωμι'"/>
          <xsl:map-entry key="'προδοσία'" select="'προδοσία'"/>
+         <xsl:map-entry key="'προδοσίαν'" select="'προδοσία'"/>
          <xsl:map-entry key="'προδότην'" select="'προδότης'"/>
          <xsl:map-entry key="'προδότης'" select="'προδότης'"/>
          <xsl:map-entry key="'πρόδρομος'" select="'πρόδρομος'"/>
@@ -21788,14 +23480,18 @@
          <xsl:map-entry key="'προεῖπον'" select="'προεῖπον'"/>
          <xsl:map-entry key="'προειρημένα'" select="'προερέω'"/>
          <xsl:map-entry key="'προειρημένοις'" select="'προερέω'"/>
+         <xsl:map-entry key="'προειρημένον'" select="'προερέω'"/>
          <xsl:map-entry key="'προειρημένῳ'" select="'προερέω'"/>
+         <xsl:map-entry key="'προειρημένων'" select="'προερέω'"/>
          <xsl:map-entry key="'προείρηται'" select="'προερέω'"/>
          <xsl:map-entry key="'προεκδίδωμι'" select="'προεκδίδωμι'"/>
          <xsl:map-entry key="'προεκδώσωμεν'" select="'προεκδίδωμι'"/>
          <xsl:map-entry key="'προεκηρυξεν'" select="'προκηρύσσω'"/>
+         <xsl:map-entry key="'προέκριναν'" select="'προκρίνω'"/>
          <xsl:map-entry key="'προέλθοι'" select="'προέρχομαι'"/>
          <xsl:map-entry key="'προελθόντα'" select="'προέρχομαι'"/>
          <xsl:map-entry key="'προελθὼν'" select="'προέρχομαι'"/>
+         <xsl:map-entry key="'προελόμενοι'" select="'προαιρέω'"/>
          <xsl:map-entry key="'προενέγκῃς'" select="'προφέρω'"/>
          <xsl:map-entry key="'προενεχθείς'" select="'προφέρω'"/>
          <xsl:map-entry key="'προεπινενόηται'" select="'προεπινοέω'"/>
@@ -21814,10 +23510,18 @@
          <xsl:map-entry key="'προηγειται'" select="'προηγέομαι'"/>
          <xsl:map-entry key="'προηγεῖται'" select="'προηγέομαι'"/>
          <xsl:map-entry key="'προηγέομαι'" select="'προηγέομαι'"/>
+         <xsl:map-entry key="'προηγούμενα'" select="'προηγέομαι'"/>
+         <xsl:map-entry key="'προηγούμενοι'" select="'προηγέομαι'"/>
+         <xsl:map-entry key="'προηγούμενοί'" select="'προηγέομαι'"/>
+         <xsl:map-entry key="'προηγούμενον'" select="'προηγέομαι'"/>
          <xsl:map-entry key="'προηγοῦνται'" select="'προηγέομαι'"/>
          <xsl:map-entry key="'προηγώμεθα'" select="'προηγέομαι'"/>
          <xsl:map-entry key="'προῃρημένος'" select="'προαιρέω'"/>
+         <xsl:map-entry key="'προησσάω'" select="'προησσάω'"/>
+         <xsl:map-entry key="'προηττήθη'" select="'προησσάω'"/>
+         <xsl:map-entry key="'προθεὶς'" select="'προτίθημι'"/>
          <xsl:map-entry key="'προθεμελιουμένη'" select="'προθεμελιόω'"/>
+         <xsl:map-entry key="'προθεμελιόω'" select="'προθεμελιόω'"/>
          <xsl:map-entry key="'προθέσει'" select="'πρόθεσις'"/>
          <xsl:map-entry key="'προθέσεις'" select="'πρόθεσις'"/>
          <xsl:map-entry key="'προθεσεως'" select="'πρόθεσις'"/>
@@ -21828,17 +23532,19 @@
          <xsl:map-entry key="'προθεσμίας'" select="'προθεσμία'"/>
          <xsl:map-entry key="'προθυμέομαι'" select="'προθυμέομαι'"/>
          <xsl:map-entry key="'προθυμία'" select="'προθυμία'"/>
+         <xsl:map-entry key="'προθυμίᾳ'" select="'προθυμία'"/>
          <xsl:map-entry key="'προθυμίαν'" select="'προθυμία'"/>
          <xsl:map-entry key="'προθυμιας'" select="'προθυμία'"/>
          <xsl:map-entry key="'προθυμίας'" select="'προθυμία'"/>
          <xsl:map-entry key="'πρόθυμος'" select="'πρόθυμος'"/>
          <xsl:map-entry key="'προθυμούμενον'" select="'προθυμέομαι'"/>
          <xsl:map-entry key="'προθυμούμενόν'" select="'προθυμέομαι'"/>
-         <xsl:map-entry key="'προθύμως'" select="'πρόθυμος'"/>
+         <xsl:map-entry key="'προθύμως'" select="'προθύμως'"/>
          <xsl:map-entry key="'προϊδοῦσα'" select="'προεῖδον'"/>
          <xsl:map-entry key="'προϊέμενος'" select="'προίημι'"/>
          <xsl:map-entry key="'προίημι'" select="'προίημι'"/>
          <xsl:map-entry key="'Προΐσασι'" select="'πρόοιδα'"/>
+         <xsl:map-entry key="'προϊστάμενοι'" select="'προίστημι'"/>
          <xsl:map-entry key="'προίστημι'" select="'προίστημι'"/>
          <xsl:map-entry key="'προΐστημι'" select="'προίστημι'"/>
          <xsl:map-entry key="'προκαθέζεσθαι'" select="'προκαθέζομαι'"/>
@@ -21850,9 +23556,11 @@
          <xsl:map-entry key="'προκάλυμμα'" select="'προκάλυμμα'"/>
          <xsl:map-entry key="'προκαταλαβὼν'" select="'προκαταλαμβάνω'"/>
          <xsl:map-entry key="'προκαταλαμβάνω'" select="'προκαταλαμβάνω'"/>
+         <xsl:map-entry key="'προκαταληφθέντας'" select="'προκαταλαμβάνω'"/>
          <xsl:map-entry key="'πρόκειμαι'" select="'πρόκειμαι'"/>
          <xsl:map-entry key="'προκείμενον'" select="'πρόκειμαι'"/>
          <xsl:map-entry key="'προκειμένου'" select="'πρόκειμαι'"/>
+         <xsl:map-entry key="'προκειμένων'" select="'πρόκειμαι'"/>
          <xsl:map-entry key="'πρόκειται'" select="'πρόκειμαι'"/>
          <xsl:map-entry key="'Πρόκειται'" select="'πρόκειμαι'"/>
          <xsl:map-entry key="'προκεκοφότας'" select="'προκόπτω'"/>
@@ -21871,8 +23579,10 @@
          <xsl:map-entry key="'προκόπτω'" select="'προκόπτω'"/>
          <xsl:map-entry key="'προκόπτωμεν'" select="'προκόπτω'"/>
          <xsl:map-entry key="'προκόπτων'" select="'προκόπτω'"/>
+         <xsl:map-entry key="'Προκόπτων'" select="'προκόπτω'"/>
          <xsl:map-entry key="'προκόψουσιν'" select="'προκόπτω'"/>
          <xsl:map-entry key="'προκόψωμεν'" select="'προκόπτω'"/>
+         <xsl:map-entry key="'προκρίνω'" select="'προκρίνω'"/>
          <xsl:map-entry key="'προκύπτοντας'" select="'προκύπτω'"/>
          <xsl:map-entry key="'προκύπτω'" select="'προκύπτω'"/>
          <xsl:map-entry key="'προλαβόντες'" select="'προλαμβάνω'"/>
@@ -21882,6 +23592,8 @@
          <xsl:map-entry key="'προλαμβάνω'" select="'προλαμβάνω'"/>
          <xsl:map-entry key="'προλέγει'" select="'προλέγω'"/>
          <xsl:map-entry key="'προλέγω'" select="'προλέγω'"/>
+         <xsl:map-entry key="'προλέγων'" select="'προλέγω'"/>
+         <xsl:map-entry key="'προλεχθεῖσι'" select="'προλέγω'"/>
          <xsl:map-entry key="'προμαλακτὴρ'" select="'προμαλακτήρ'"/>
          <xsl:map-entry key="'προμαλακτήρ'" select="'προμαλακτήρ'"/>
          <xsl:map-entry key="'προμαντεύεται'" select="'προμαντεύομαι'"/>
@@ -21896,15 +23608,23 @@
          <xsl:map-entry key="'προνοέω'" select="'προνοέω'"/>
          <xsl:map-entry key="'προνοήσει'" select="'προνοέω'"/>
          <xsl:map-entry key="'προνοητῇ'" select="'προνοητής'"/>
+         <xsl:map-entry key="'προνοητήν'" select="'προνοητής'"/>
          <xsl:map-entry key="'προνοητης'" select="'προνοητής'"/>
          <xsl:map-entry key="'προνοητής'" select="'προνοητής'"/>
          <xsl:map-entry key="'προνοητὴς'" select="'προνοητής'"/>
+         <xsl:map-entry key="'προνοητικὸν'" select="'προνοητικός'"/>
+         <xsl:map-entry key="'προνοητικός'" select="'προνοητικός'"/>
+         <xsl:map-entry key="'προνοητοῦ'" select="'προνοητής'"/>
          <xsl:map-entry key="'πρόνοια'" select="'πρόνοια'"/>
+         <xsl:map-entry key="'προνοίᾳ'" select="'πρόνοια'"/>
          <xsl:map-entry key="'πρόνοιαν'" select="'πρόνοια'"/>
          <xsl:map-entry key="'προνοιας'" select="'πρόνοια'"/>
          <xsl:map-entry key="'προνοίας'" select="'πρόνοια'"/>
          <xsl:map-entry key="'προνοοῦ'" select="'προνοέω'"/>
+         <xsl:map-entry key="'προνοούμενος'" select="'προνοέω'"/>
          <xsl:map-entry key="'προνοουμένου'" select="'προνοέω'"/>
+         <xsl:map-entry key="'προνοοῦντες'" select="'προνοέω'"/>
+         <xsl:map-entry key="'προνοῶν'" select="'προνοέω'"/>
          <xsl:map-entry key="'πρόξεινος'" select="'πρόξενος'"/>
          <xsl:map-entry key="'πρόξενα'" select="'πρόξενος'"/>
          <xsl:map-entry key="'προξενέω'" select="'προξενέω'"/>
@@ -21916,30 +23636,40 @@
          <xsl:map-entry key="'προοδευσάντων'" select="'προοδεύω'"/>
          <xsl:map-entry key="'προοδεύω'" select="'προοδεύω'"/>
          <xsl:map-entry key="'πρόοιδα'" select="'πρόοιδα'"/>
+         <xsl:map-entry key="'προοίμια'" select="'προοίμιον'"/>
          <xsl:map-entry key="'προοίμιόν'" select="'προοίμιον'"/>
          <xsl:map-entry key="'ΠΡΟΟΙΜΙΟΝ'" select="'προοίμιον'"/>
          <xsl:map-entry key="'προοίμιον'" select="'προοίμιον'"/>
          <xsl:map-entry key="'προοίσει'" select="'προφέρω'"/>
+         <xsl:map-entry key="'προπαρασκευάζω'" select="'προπαρασκευάζω'"/>
+         <xsl:map-entry key="'προπαρασκευασθῇ'" select="'προπαρασκευάζω'"/>
+         <xsl:map-entry key="'προπαρασκευή'" select="'προπαρασκευή'"/>
+         <xsl:map-entry key="'προπαρασκευῆς'" select="'προπαρασκευή'"/>
          <xsl:map-entry key="'προπεποίωται'" select="'προποιόω'"/>
          <xsl:map-entry key="'προπεσοῦνται'" select="'προπίπτω'"/>
+         <xsl:map-entry key="'προπετής'" select="'προπετής'"/>
+         <xsl:map-entry key="'προπετῶς'" select="'προπετῶς'"/>
          <xsl:map-entry key="'προπίπτω'" select="'προπίτνω'"/>
          <xsl:map-entry key="'προποιόω'" select="'προποιόω'"/>
          <xsl:map-entry key="'προπορεύομαι'" select="'προπορεύομαι'"/>
          <xsl:map-entry key="'Προπορεύονται'" select="'προπορεύομαι'"/>
          <xsl:map-entry key="'προῤῥηθείσαις'" select="'προερέω'"/>
          <xsl:map-entry key="'προςκαιρου'" select="'πρόσκαιρον'"/>
+         <xsl:map-entry key="'προσαγαγοῦσα'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγει'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαγειν'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγειν'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαγομένη'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαγόμενοι'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαγόμενον'" select="'προσάγω'"/>
+         <xsl:map-entry key="'προσαγομένων'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγονται'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγοντες'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγοντι'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαγορεύεται'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσαγορευομένους'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσαγορευοντι'" select="'προσαγορεύω'"/>
+         <xsl:map-entry key="'προσαγορεύσειεν'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσαγορευται'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσαγόρευται'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσαγορεύω'" select="'προσαγορεύω'"/>
@@ -21948,6 +23678,7 @@
          <xsl:map-entry key="'προσαγουσιν'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσάγουσιν'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσάγω'" select="'προσάγω'"/>
+         <xsl:map-entry key="'προσάγων'" select="'προσάγω'"/>
          <xsl:map-entry key="'προσαναβαίνω'" select="'προσαναβαίνω'"/>
          <xsl:map-entry key="'προσαναβηθι'" select="'προσαναβαίνω'"/>
          <xsl:map-entry key="'προσανάβηθι'" select="'προσαναβαίνω'"/>
@@ -21979,7 +23710,9 @@
          <xsl:map-entry key="'προσδεδεται'" select="'προσδέω'"/>
          <xsl:map-entry key="'προσδέδεται'" select="'προσδέω'"/>
          <xsl:map-entry key="'προσδέεται'" select="'προσδέομαι'"/>
+         <xsl:map-entry key="'προσδεηθεὶς'" select="'προσδέομαι'"/>
          <xsl:map-entry key="'προσδεῖται'" select="'προσδέομαι'"/>
+         <xsl:map-entry key="'προσδέξασθαι'" select="'προσδέχομαι'"/>
          <xsl:map-entry key="'προσδέομαι'" select="'προσδέομαι'"/>
          <xsl:map-entry key="'προσδέονται'" select="'προσδέω'"/>
          <xsl:map-entry key="'προσδεσμέω'" select="'προσδεσμέω'"/>
@@ -21999,6 +23732,7 @@
          <xsl:map-entry key="'προσδοκίᾳ'" select="'προσδοκία'"/>
          <xsl:map-entry key="'προσδοκία'" select="'προσδοκία'"/>
          <xsl:map-entry key="'προσδοκίαν'" select="'προσδοκία'"/>
+         <xsl:map-entry key="'προσδοκωμένην'" select="'προσδοκάω'"/>
          <xsl:map-entry key="'προσδοκωμένης'" select="'προσδοκάω'"/>
          <xsl:map-entry key="'προσδοκων'" select="'προσδοκάω'"/>
          <xsl:map-entry key="'προσεγγίζειν'" select="'προσεγγίζω'"/>
@@ -22020,7 +23754,6 @@
          <xsl:map-entry key="'προσείληφεν'" select="'προσλαμβάνω'"/>
          <xsl:map-entry key="'προσειλκοντο'" select="'προσέλκω'"/>
          <xsl:map-entry key="'πρόσειμι'" select="'πρόσειμι'"/>
-         <xsl:map-entry key="'πρόσειμι1'" select="'πρόσειμι'"/>
          <xsl:map-entry key="'προσεῖπεν'" select="'προσεῖπον'"/>
          <xsl:map-entry key="'προσεῖπον'" select="'προσεῖπον'"/>
          <xsl:map-entry key="'προσεῖχεν'" select="'προσέχω'"/>
@@ -22053,6 +23786,7 @@
          <xsl:map-entry key="'προσερχόμενος'" select="'προσέρχομαι'"/>
          <xsl:map-entry key="'προσερχονται'" select="'προσέρχομαι'"/>
          <xsl:map-entry key="'προσέρχονται'" select="'προσέρχομαι'"/>
+         <xsl:map-entry key="'προσετάγη'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προσέταξεν'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προσέταττε'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προσετάττοντο'" select="'προστάσσω'"/>
@@ -22064,6 +23798,7 @@
          <xsl:map-entry key="'προσεύξῃ'" select="'πρόσευξις'"/>
          <xsl:map-entry key="'πρόσευξις'" select="'πρόσευξις'"/>
          <xsl:map-entry key="'προσευξόμεθα'" select="'προσεύχομαι'"/>
+         <xsl:map-entry key="'προσευξώμεθα'" select="'προσεύχομαι'"/>
          <xsl:map-entry key="'προσευχαὶ'" select="'προσευχή'"/>
          <xsl:map-entry key="'προσευχαί'" select="'προσευχή'"/>
          <xsl:map-entry key="'προσευχαῖς'" select="'προσευχή'"/>
@@ -22125,6 +23860,7 @@
          <xsl:map-entry key="'προσηγόρευσε'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσηγόρευσεν'" select="'προσαγορεύω'"/>
          <xsl:map-entry key="'προσηγορία'" select="'προσηγορία'"/>
+         <xsl:map-entry key="'προσηγορίαν'" select="'προσηγορία'"/>
          <xsl:map-entry key="'προσηκει'" select="'προσήκω'"/>
          <xsl:map-entry key="'προσήκει'" select="'προσήκω'"/>
          <xsl:map-entry key="'προσηκόντων'" select="'προσήκω'"/>
@@ -22151,12 +23887,14 @@
          <xsl:map-entry key="'προσθήκης'" select="'προσθήκη'"/>
          <xsl:map-entry key="'προσθῇς'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προσθήσει'" select="'προστίθημι'"/>
+         <xsl:map-entry key="'προσθήσω'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προσίασι'" select="'πρόσειμι'"/>
+         <xsl:map-entry key="'προσιεμένας'" select="'προσίημι'"/>
          <xsl:map-entry key="'προσίεσθαι'" select="'προσίημι'"/>
          <xsl:map-entry key="'προσίεται'" select="'προσίημι'"/>
          <xsl:map-entry key="'προσίημι'" select="'προσίημι'"/>
          <xsl:map-entry key="'πρόσιθι'" select="'πρόσειμι'"/>
-         <xsl:map-entry key="'προσιόντα'" select="'πρόσειμι1'"/>
+         <xsl:map-entry key="'προσιόντα'" select="'πρόσειμι'"/>
          <xsl:map-entry key="'προσιοντας'" select="'πρόσειμι'"/>
          <xsl:map-entry key="'προσιόντας'" select="'πρόσειμι'"/>
          <xsl:map-entry key="'προσιοῦσαι'" select="'πρόσειμι'"/>
@@ -22167,6 +23905,7 @@
          <xsl:map-entry key="'πρόσκαιρα'" select="'πρόσκαιρος'"/>
          <xsl:map-entry key="'πρόσκαιροι'" select="'πρόσκαιρος'"/>
          <xsl:map-entry key="'πρόσκαιρον'" select="'πρόσκαιρος'"/>
+         <xsl:map-entry key="'Πρόσκαιρον'" select="'πρόσκαιρος'"/>
          <xsl:map-entry key="'πρόσκαιρος'" select="'πρόσκαιρος'"/>
          <xsl:map-entry key="'προσκαίρου'" select="'πρόσκαιρος'"/>
          <xsl:map-entry key="'προσκαλεῖται'" select="'προσκαλέω'"/>
@@ -22216,9 +23955,11 @@
          <xsl:map-entry key="'προσκυνητὸς'" select="'προσκυνητός'"/>
          <xsl:map-entry key="'Προσκυνοῦμεν'" select="'προσκυνέω'"/>
          <xsl:map-entry key="'προσκυνουμένου'" select="'προσκυνέω'"/>
+         <xsl:map-entry key="'προσκυνοῦντες'" select="'προσκυνέω'"/>
          <xsl:map-entry key="'προσκυνῶν'" select="'προσκυνέω'"/>
          <xsl:map-entry key="'προσλαμβάνει'" select="'προσλαμβάνω'"/>
          <xsl:map-entry key="'προσλαμβάνομεν'" select="'προσλαμβάνω'"/>
+         <xsl:map-entry key="'προσλαμβάνοντος'" select="'προσλαμβάνω'"/>
          <xsl:map-entry key="'προσλαμβάνω'" select="'προσλαμβάνω'"/>
          <xsl:map-entry key="'προσμαίνοντες'" select="'προσβαίνω'"/>
          <xsl:map-entry key="'προσμειδιᾷ'" select="'προσμειδιάω'"/>
@@ -22244,6 +23985,7 @@
          <xsl:map-entry key="'προσομιλήσωμεν'" select="'προσομιλέω'"/>
          <xsl:map-entry key="'προσομιλῶν'" select="'προσομιλέω'"/>
          <xsl:map-entry key="'προσοῦσαν'" select="'πρόσειμι'"/>
+         <xsl:map-entry key="'προσούσης'" select="'πρόσειμι'"/>
          <xsl:map-entry key="'Προσοχὴ'" select="'προσοχή'"/>
          <xsl:map-entry key="'προσοχῇ'" select="'προσοχή'"/>
          <xsl:map-entry key="'προσοχή'" select="'προσοχή'"/>
@@ -22255,20 +23997,20 @@
          <xsl:map-entry key="'προσπεισμάτων'" select="'πρόσπεισμα'"/>
          <xsl:map-entry key="'προσπελάζω'" select="'προσπελάζω'"/>
          <xsl:map-entry key="'προσπελάσας'" select="'προσπελάζω'"/>
-         <xsl:map-entry key="'προσπεσόντα'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπεσόντος'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπεσόντων'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπεσοῦσαν'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπέσωσιν'" select="'προσπίτνω'"/>
+         <xsl:map-entry key="'προσπεσόντα'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπεσόντος'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπεσόντων'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπεσοῦσαν'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπέσωσιν'" select="'προσπίπτω'"/>
          <xsl:map-entry key="'προσπηδᾷ'" select="'προσπηδάω'"/>
          <xsl:map-entry key="'προσπηδάω'" select="'προσπηδάω'"/>
          <xsl:map-entry key="'προσπηδῶσαι'" select="'προσπηδάω'"/>
-         <xsl:map-entry key="'προσπίπτει'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπίπτεις'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπίπτοντα'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπίπτουσι'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπίπτων'" select="'προσπίτνω'"/>
-         <xsl:map-entry key="'προσπίτνω'" select="'προσπίτνω'"/>
+         <xsl:map-entry key="'προσπίπτει'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπίπτεις'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπίπτοντα'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπίπτουσι'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπίπτων'" select="'προσπίπτω'"/>
+         <xsl:map-entry key="'προσπίπτω'" select="'προσπίπτω'"/>
          <xsl:map-entry key="'προσποιεῖται'" select="'προσποιέω'"/>
          <xsl:map-entry key="'προσποιέω'" select="'προσποιέω'"/>
          <xsl:map-entry key="'προσποίησις'" select="'προσποίησις'"/>
@@ -22292,15 +24034,17 @@
          <xsl:map-entry key="'προσρίψαντες'" select="'προσρίπτω'"/>
          <xsl:map-entry key="'προσσκηνόω'" select="'προσσκηνόω'"/>
          <xsl:map-entry key="'Προσσκήνωσον'" select="'προσσκηνόω'"/>
-         <xsl:map-entry key="'προσστάζω'" select="'προσστάζω'"/>
          <xsl:map-entry key="'πρόσταγμα'" select="'πρόσταγμα'"/>
          <xsl:map-entry key="'προστάγματα'" select="'πρόσταγμα'"/>
          <xsl:map-entry key="'προστάγματι'" select="'πρόσταγμα'"/>
          <xsl:map-entry key="'προσταγμάτων'" select="'πρόσταγμα'"/>
          <xsl:map-entry key="'προστάξας'" select="'προστάσσω'"/>
          <xsl:map-entry key="'πρόσταξίν'" select="'πρόσταξις'"/>
+         <xsl:map-entry key="'πρόσταξιν'" select="'πρόσταξις'"/>
          <xsl:map-entry key="'πρόσταξις'" select="'πρόσταξις'"/>
-         <xsl:map-entry key="'προστάσσει'" select="'προσστάζω'"/>
+         <xsl:map-entry key="'προστασία'" select="'προστασία'"/>
+         <xsl:map-entry key="'προστασίαν'" select="'προστασία'"/>
+         <xsl:map-entry key="'προστάσσει'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προστασσεται'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προστάσσεται'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προστασσόμεθα'" select="'προστάσσω'"/>
@@ -22310,11 +24054,14 @@
          <xsl:map-entry key="'προστάσσω'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προστατεία'" select="'προστατεία'"/>
          <xsl:map-entry key="'προστατειαν'" select="'προστατεία'"/>
+         <xsl:map-entry key="'προστάττει'" select="'προστάσσω'"/>
          <xsl:map-entry key="'προστεθεικὼς'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστέθειται'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστεθήσεται'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστεθήσεταί'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστετάγμεθα'" select="'προστάσσω'"/>
+         <xsl:map-entry key="'προστῆναι'" select="'προίστημι'"/>
+         <xsl:map-entry key="'προστιθεμένων'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστίθεται'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστίθημι'" select="'προστίθημι'"/>
          <xsl:map-entry key="'προστίθησι'" select="'προστίθημι'"/>
@@ -22331,6 +24078,7 @@
          <xsl:map-entry key="'προσφέρειν'" select="'προσφέρω'"/>
          <xsl:map-entry key="'προσφέρεις'" select="'προσφέρω'"/>
          <xsl:map-entry key="'προσφερεσθαι'" select="'προσφέρω'"/>
+         <xsl:map-entry key="'προσφέρεται'" select="'προσφέρω'"/>
          <xsl:map-entry key="'προσφέρομεν'" select="'προσφέρω'"/>
          <xsl:map-entry key="'προσφερόμενα'" select="'προσφέρω'"/>
          <xsl:map-entry key="'προσφερομένη'" select="'προσφέρω'"/>
@@ -22356,6 +24104,8 @@
          <xsl:map-entry key="'προσχαίρει'" select="'προσχαίρω'"/>
          <xsl:map-entry key="'προσχαίρω'" select="'προσχαίρω'"/>
          <xsl:map-entry key="'πρόσχες'" select="'προέχω'"/>
+         <xsl:map-entry key="'πρόσχημα'" select="'πρόσχημα'"/>
+         <xsl:map-entry key="'προσχήματι'" select="'πρόσχημα'"/>
          <xsl:map-entry key="'πρόσχῃς'" select="'προέχω'"/>
          <xsl:map-entry key="'πρόσχωμεν'" select="'προέχω'"/>
          <xsl:map-entry key="'πρόσω'" select="'πρόσω'"/>
@@ -22364,6 +24114,7 @@
          <xsl:map-entry key="'προσώποις'" select="'πρόσωπον'"/>
          <xsl:map-entry key="'προσωπολήπτην'" select="'προσωπολήπτης'"/>
          <xsl:map-entry key="'προσωπολήπτης'" select="'προσωπολήπτης'"/>
+         <xsl:map-entry key="'προσωποληψία'" select="'προσωποληψία'"/>
          <xsl:map-entry key="'πρόσωπον'" select="'πρόσωπον'"/>
          <xsl:map-entry key="'Πρόσωπον'" select="'πρόσωπον'"/>
          <xsl:map-entry key="'πρόσωπόν'" select="'πρόσωπον'"/>
@@ -22377,11 +24128,14 @@
          <xsl:map-entry key="'προταράσσω'" select="'προταράσσω'"/>
          <xsl:map-entry key="'προταραχθείς'" select="'προταράσσω'"/>
          <xsl:map-entry key="'προταραχθέντας'" select="'προταράσσω'"/>
+         <xsl:map-entry key="'προτάσεις'" select="'πρότασις'"/>
          <xsl:map-entry key="'προτασις'" select="'πρότασις'"/>
          <xsl:map-entry key="'πρότασις'" select="'πρότασις'"/>
          <xsl:map-entry key="'προτάσσω'" select="'προτάσσω'"/>
          <xsl:map-entry key="'προτέρᾳ'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέρα'" select="'πρότερος'"/>
+         <xsl:map-entry key="'πρότερα'" select="'πρότερος'"/>
+         <xsl:map-entry key="'πρότερά'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτεραν'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέραν'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέρας'" select="'πρότερος'"/>
@@ -22394,6 +24148,7 @@
          <xsl:map-entry key="'Πρότερον'" select="'πρότερος'"/>
          <xsl:map-entry key="'πρότερόν'" select="'πρότερος'"/>
          <xsl:map-entry key="'πρότερος'" select="'πρότερος'"/>
+         <xsl:map-entry key="'πρότερός'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέρου'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέρους'" select="'πρότερος'"/>
          <xsl:map-entry key="'προτέρων'" select="'πρότερος'"/>
@@ -22401,13 +24156,19 @@
          <xsl:map-entry key="'προτης'" select="'πρῶτος'"/>
          <xsl:map-entry key="'προτιθέσθω'" select="'προτίθημι'"/>
          <xsl:map-entry key="'προτίθημι'" select="'προτίθημι'"/>
+         <xsl:map-entry key="'προτίθησι'" select="'προτίθημι'"/>
          <xsl:map-entry key="'προτίκτω'" select="'προτίκτω'"/>
          <xsl:map-entry key="'προτιμᾷ'" select="'προτιμάω'"/>
+         <xsl:map-entry key="'προτιμᾶν'" select="'προτιμάω'"/>
          <xsl:map-entry key="'προτιμᾶσθαι'" select="'προτιμάω'"/>
          <xsl:map-entry key="'προτιμαται'" select="'προτιμάω'"/>
+         <xsl:map-entry key="'προτιμᾶται'" select="'προτιμάω'"/>
          <xsl:map-entry key="'προτιμάω'" select="'προτιμάω'"/>
+         <xsl:map-entry key="'προτιμήσασι'" select="'προτιμάω'"/>
          <xsl:map-entry key="'πρότιμος'" select="'πρότιμος'"/>
          <xsl:map-entry key="'προτιμοτέρα'" select="'πρότιμος'"/>
+         <xsl:map-entry key="'προτιμότερον'" select="'πρότιμος'"/>
+         <xsl:map-entry key="'προτιμότερος'" select="'πρότιμος'"/>
          <xsl:map-entry key="'προτιμων'" select="'πρότιμος'"/>
          <xsl:map-entry key="'προτιμῶντες'" select="'προτιμάω'"/>
          <xsl:map-entry key="'προτιμῶσα'" select="'προτιμάω'"/>
@@ -22420,10 +24181,13 @@
          <xsl:map-entry key="'Προτρεπτικὸν'" select="'προτρεπτικός'"/>
          <xsl:map-entry key="'προτρεπτικός'" select="'προτρεπτικός'"/>
          <xsl:map-entry key="'προτρέπω'" select="'προτρέπω'"/>
+         <xsl:map-entry key="'προτρέπων'" select="'προτρέπω'"/>
          <xsl:map-entry key="'προτροπή'" select="'προτροπή'"/>
          <xsl:map-entry key="'προὐβάλλετο'" select="'προβάλλω'"/>
+         <xsl:map-entry key="'προὔθετο'" select="'προτίθημι'"/>
          <xsl:map-entry key="'προυλαβε'" select="'προλαμβάνω'"/>
          <xsl:map-entry key="'Προϋπάρξαι'" select="'προυπάρχω'"/>
+         <xsl:map-entry key="'προϋπάρχει'" select="'προυπάρχω'"/>
          <xsl:map-entry key="'προυπαρχοντι'" select="'προϋπάρχω'"/>
          <xsl:map-entry key="'προϋπάρχουσιν'" select="'προυπάρχω'"/>
          <xsl:map-entry key="'προυπαρχουσων'" select="'προϋπάρχω'"/>
@@ -22446,6 +24210,7 @@
          <xsl:map-entry key="'πρόφασις'" select="'πρόφασις'"/>
          <xsl:map-entry key="'προφασίσεται'" select="'προφασίζομαι'"/>
          <xsl:map-entry key="'προφέρει'" select="'προφέρω'"/>
+         <xsl:map-entry key="'προφέρειν'" select="'προφέρω'"/>
          <xsl:map-entry key="'προφερομένους'" select="'προφέρω'"/>
          <xsl:map-entry key="'προφέροντος'" select="'προφέρω'"/>
          <xsl:map-entry key="'προφεροντων'" select="'προφέρω'"/>
@@ -22463,10 +24228,12 @@
          <xsl:map-entry key="'προφητειαι'" select="'προφητεία'"/>
          <xsl:map-entry key="'προφητειαν'" select="'προφητεία'"/>
          <xsl:map-entry key="'προφητείαν'" select="'προφητεία'"/>
+         <xsl:map-entry key="'προφητείας'" select="'προφητεία'"/>
          <xsl:map-entry key="'Προφητεύει'" select="'προφητεύω'"/>
          <xsl:map-entry key="'προφητεύεσθαι'" select="'προφητεύω'"/>
          <xsl:map-entry key="'προφητευόμενα'" select="'προφητεύω'"/>
          <xsl:map-entry key="'προφητεύουσα'" select="'προφητεύω'"/>
+         <xsl:map-entry key="'προφητεύσαντες'" select="'προφητεύω'"/>
          <xsl:map-entry key="'προφητεύω'" select="'προφητεύω'"/>
          <xsl:map-entry key="'προφήτῃ'" select="'προφήτης'"/>
          <xsl:map-entry key="'προφητηι'" select="'προφήτης'"/>
@@ -22474,14 +24241,19 @@
          <xsl:map-entry key="'προφήτης'" select="'προφήτης'"/>
          <xsl:map-entry key="'προφητικὸν'" select="'προφητικός'"/>
          <xsl:map-entry key="'προφητικός'" select="'προφητικός'"/>
+         <xsl:map-entry key="'προφητικὸς'" select="'προφητικός'"/>
          <xsl:map-entry key="'προφητικῷ'" select="'προφητικός'"/>
-         <xsl:map-entry key="'προφητικῶς'" select="'προφητικός'"/>
+         <xsl:map-entry key="'προφητικῶς'" select="'προφητικῶς'"/>
          <xsl:map-entry key="'προφήτου'" select="'προφήτης'"/>
          <xsl:map-entry key="'προφητων'" select="'προφήτης'"/>
          <xsl:map-entry key="'προφητῶν'" select="'προφήτης'"/>
+         <xsl:map-entry key="'προφορικὸν'" select="'προφορικός'"/>
          <xsl:map-entry key="'προφορικός'" select="'προφορικός'"/>
          <xsl:map-entry key="'προφορικὸς'" select="'προφορικός'"/>
          <xsl:map-entry key="'προφορικοῦ'" select="'προφορικός'"/>
+         <xsl:map-entry key="'προφορικῶς'" select="'προφορικῶς'"/>
+         <xsl:map-entry key="'προφυλακτικὰ'" select="'προφυλακτικός'"/>
+         <xsl:map-entry key="'προφυλακτικός'" select="'προφυλακτικός'"/>
          <xsl:map-entry key="'προχειρίζῃ'" select="'προχειρίζω'"/>
          <xsl:map-entry key="'προχειρίζω'" select="'προχειρίζω'"/>
          <xsl:map-entry key="'πρόχειρόν'" select="'πρόχειρος'"/>
@@ -22552,7 +24324,7 @@
          <xsl:map-entry key="'πρωτωι'" select="'πρῶτος'"/>
          <xsl:map-entry key="'πρωτων'" select="'πρῶτος'"/>
          <xsl:map-entry key="'πρώτων'" select="'πρῶτος'"/>
-         <xsl:map-entry key="'πρώτως'" select="'πρῶτος'"/>
+         <xsl:map-entry key="'πρώτως'" select="'πρώτως'"/>
          <xsl:map-entry key="'πταίειν'" select="'πταίω'"/>
          <xsl:map-entry key="'πταίοντί'" select="'πταίω'"/>
          <xsl:map-entry key="'πταίουσιν'" select="'πταίω'"/>
@@ -22590,12 +24362,12 @@
          <xsl:map-entry key="'πτερωτός'" select="'πτερωτός'"/>
          <xsl:map-entry key="'πτερωτοὺς'" select="'πτερωτός'"/>
          <xsl:map-entry key="'πτευματικη'" select="'πνευματικός'"/>
-         <xsl:map-entry key="'πτηνά'" select="'πτηνός'"/>
+         <xsl:map-entry key="'πτηνά'" select="'πτηνόν'"/>
          <xsl:map-entry key="'πτῆναι'" select="'πέτομαι'"/>
-         <xsl:map-entry key="'πτηνὸν'" select="'πτηνός'"/>
-         <xsl:map-entry key="'πτηνός'" select="'πτηνός'"/>
-         <xsl:map-entry key="'πτηνοῦ'" select="'πτηνός'"/>
-         <xsl:map-entry key="'πτηνῶν'" select="'πτηνός'"/>
+         <xsl:map-entry key="'πτηνὸν'" select="'πτηνόν'"/>
+		 <xsl:map-entry key="'πτηνόν'" select="'πτηνόν'"/>
+         <xsl:map-entry key="'πτηνοῦ'" select="'πτηνόν'"/>
+         <xsl:map-entry key="'πτηνῶν'" select="'πτηνόν'"/>
          <xsl:map-entry key="'πτήσεως'" select="'πτῆσις'"/>
          <xsl:map-entry key="'πτῆσις'" select="'πτῆσις'"/>
          <xsl:map-entry key="'πτοέω'" select="'πτοέω'"/>
@@ -22604,12 +24376,16 @@
          <xsl:map-entry key="'πτόησιν'" select="'πτόησις'"/>
          <xsl:map-entry key="'πτόησις'" select="'πτόησις'"/>
          <xsl:map-entry key="'πτοήσουσιν'" select="'πτοέω'"/>
+         <xsl:map-entry key="'πτύελον'" select="'πτύελος'"/>
+         <xsl:map-entry key="'πτύελος'" select="'πτύελος'"/>
          <xsl:map-entry key="'πτύξας'" select="'πτύσσω'"/>
          <xsl:map-entry key="'πτύσσω'" select="'πτύσσω'"/>
          <xsl:map-entry key="'πτῶμα'" select="'πτῶμα'"/>
          <xsl:map-entry key="'πτώμασιν'" select="'πτῶμα'"/>
          <xsl:map-entry key="'πτώματα'" select="'πτῶμα'"/>
          <xsl:map-entry key="'πτώματι'" select="'πτῶμα'"/>
+         <xsl:map-entry key="'πτωματίζεται'" select="'πτωματίζω'"/>
+         <xsl:map-entry key="'πτωματίζω'" select="'πτωματίζω'"/>
          <xsl:map-entry key="'πτώματος'" select="'πτῶμα'"/>
          <xsl:map-entry key="'πτώσεως'" select="'πτῶσις'"/>
          <xsl:map-entry key="'πτῶσις'" select="'πτῶσις'"/>
@@ -22641,9 +24417,10 @@
          <xsl:map-entry key="'πυκνότερον'" select="'πυκνός'"/>
          <xsl:map-entry key="'Πυκνότερον'" select="'πυκνός'"/>
          <xsl:map-entry key="'πυκνόω'" select="'πυκνόω'"/>
-         <xsl:map-entry key="'πυκνῶς'" select="'πυκνός'"/>
+         <xsl:map-entry key="'πυκνῶς'" select="'πυκνῶς'"/>
          <xsl:map-entry key="'πυκνώσας'" select="'πυκνόω'"/>
          <xsl:map-entry key="'πυκτεύει'" select="'πυκτεύω'"/>
+         <xsl:map-entry key="'πυκτεύῃ'" select="'πυκτεύω'"/>
          <xsl:map-entry key="'πυκτεύω'" select="'πυκτεύω'"/>
          <xsl:map-entry key="'πυκτεύων'" select="'πυκτεύω'"/>
          <xsl:map-entry key="'Πυλαι'" select="'πύλη'"/>
@@ -22661,8 +24438,8 @@
          <xsl:map-entry key="'πυρ'" select="'πῦρ'"/>
          <xsl:map-entry key="'πῦρ'" select="'πῦρ'"/>
          <xsl:map-entry key="'Πῦρ'" select="'πῦρ'"/>
-         <xsl:map-entry key="'πυρᾷ'" select="'πυρή'"/>
-         <xsl:map-entry key="'πυρὰν'" select="'πυρή'"/>
+         <xsl:map-entry key="'πυρᾷ'" select="'πυρά'"/>
+         <xsl:map-entry key="'πυρὰν'" select="'πυρά'"/>
          <xsl:map-entry key="'Πυργόβαρίς'" select="'πυργόβαρις'"/>
          <xsl:map-entry key="'πυργόβαρις'" select="'πυργόβαρις'"/>
          <xsl:map-entry key="'πυργον'" select="'πύργος'"/>
@@ -22680,7 +24457,7 @@
          <xsl:map-entry key="'πυρετὸς'" select="'πυρετός'"/>
          <xsl:map-entry key="'πυρετοῦ'" select="'πυρετός'"/>
          <xsl:map-entry key="'Πυρέττοντά'" select="'πυρέσσω'"/>
-         <xsl:map-entry key="'πυρή'" select="'πυρή'"/>
+         <xsl:map-entry key="'πυρά'" select="'πυρά'"/>
          <xsl:map-entry key="'πυρὶ'" select="'πῦρ'"/>
          <xsl:map-entry key="'πυρος'" select="'πῦρ'"/>
          <xsl:map-entry key="'πυρὸς'" select="'πῦρ'"/>
@@ -22704,6 +24481,7 @@
          <xsl:map-entry key="'πυρωτικός'" select="'πυρωτικός'"/>
          <xsl:map-entry key="'πώγων'" select="'πώγων'"/>
          <xsl:map-entry key="'πώγωνα'" select="'πώγων'"/>
+         <xsl:map-entry key="'πωλεῖ'" select="'πωλέω'"/>
          <xsl:map-entry key="'πωλεῖς'" select="'πωλέω'"/>
          <xsl:map-entry key="'πωλεῖται'" select="'πωλέομαι'"/>
          <xsl:map-entry key="'πωλέομαι'" select="'πωλέομαι'"/>
@@ -22713,6 +24491,7 @@
          <xsl:map-entry key="'πωλήσῃς'" select="'πωλέω'"/>
          <xsl:map-entry key="'πώλησόν'" select="'πωλέω'"/>
          <xsl:map-entry key="'πῶλος'" select="'πῶλος'"/>
+         <xsl:map-entry key="'Πῶλος'" select="'πῶλος'"/>
          <xsl:map-entry key="'πωλων'" select="'πωλέω'"/>
          <xsl:map-entry key="'πωρόω'" select="'πωρόω'"/>
          <xsl:map-entry key="'πώρωμα'" select="'πώρωμα'"/>
@@ -22722,12 +24501,13 @@
          <xsl:map-entry key="'πως'" select="'πως'"/>
          <xsl:map-entry key="'ῥάβδον'" select="'ῥάβδος'"/>
          <xsl:map-entry key="'ῥάβδος'" select="'ῥάβδος'"/>
+         <xsl:map-entry key="'Ῥάβδος'" select="'ῥάβδος'"/>
          <xsl:map-entry key="'ῥαγεῖσα'" select="'ῥήγνυμι'"/>
          <xsl:map-entry key="'ῥαγήσεται'" select="'ῥήγνυμι'"/>
          <xsl:map-entry key="'ῥᾴδιος'" select="'ῥᾴδιος'"/>
-         <xsl:map-entry key="'ῥᾳδίως'" select="'ῥᾴδιος'"/>
-         <xsl:map-entry key="'ραδιως'" select="'ῥᾴδιος'"/>
-         <xsl:map-entry key="'ῥαδίως'" select="'ῥᾴδιος'"/>
+         <xsl:map-entry key="'ῥᾳδίως'" select="'ῥᾳδίως'"/>
+         <xsl:map-entry key="'ραδιως'" select="'ῥᾳδίως'"/>
+         <xsl:map-entry key="'ῥαδίως'" select="'ῥᾳδίως'"/>
          <xsl:map-entry key="'ῥαθυμέω'" select="'ῥαθυμέω'"/>
          <xsl:map-entry key="'ῥαθυμία'" select="'ῥαθυμία'"/>
          <xsl:map-entry key="'ῥᾳθυμία'" select="'ῥᾳθυμία'"/>
@@ -22735,7 +24515,7 @@
          <xsl:map-entry key="'ῥᾳθυμίας'" select="'ῥᾳθυμία'"/>
          <xsl:map-entry key="'ῥᾴθυμος'" select="'ῥᾴθυμος'"/>
          <xsl:map-entry key="'ῥαθυμούσης'" select="'ῥαθυμέω'"/>
-         <xsl:map-entry key="'ῥαθύμων'" select="'ῥάθυμος'"/>
+         <xsl:map-entry key="'ῥαθύμων'" select="'ῥᾴθυμος'"/>
          <xsl:map-entry key="'ῥακῶδες'" select="'ῥακώδης'"/>
          <xsl:map-entry key="'ῥακώδης'" select="'ῥακώδης'"/>
          <xsl:map-entry key="'ῥαντίζουσι'" select="'ῥαντίζω'"/>
@@ -22779,12 +24559,13 @@
          <xsl:map-entry key="'ῥεῦμα'" select="'ῥεῦμα'"/>
          <xsl:map-entry key="'ῥευσάτωσαν'" select="'ῥέω'"/>
          <xsl:map-entry key="'ῥεύσουσιν'" select="'ῥέω'"/>
+         <xsl:map-entry key="'ῥέψαι'" select="'ῥέπω'"/>
          <xsl:map-entry key="'ῥέω'" select="'ῥέω'"/>
          <xsl:map-entry key="'ῥηγνυμένη'" select="'ῥήγνυμι'"/>
          <xsl:map-entry key="'ῥήγνυμι'" select="'ῥήγνυμι'"/>
          <xsl:map-entry key="'ῥηθέντα'" select="'ῥέομαι'"/>
          <xsl:map-entry key="'ῥηθῆναι'" select="'λέγω'"/>
-         <xsl:map-entry key="'ῥηθήσεται'" select="'ἐρῶ'"/>
+         <xsl:map-entry key="'ῥηθήσεται'" select="'λέγω'"/>
          <xsl:map-entry key="'ῥῆμα'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ρημα'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥῆμά'" select="'ῥῆμα'"/>
@@ -22793,10 +24574,13 @@
          <xsl:map-entry key="'ῥήματα'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ρηματα'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥήματά'" select="'ῥῆμα'"/>
+         <xsl:map-entry key="'Ῥήματα'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥήματι'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥήματος'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥημάτων'" select="'ῥῆμα'"/>
          <xsl:map-entry key="'ῥῆξαι'" select="'ῥήγνυμι'"/>
+         <xsl:map-entry key="'ῥῆξιν'" select="'ῥῆξις'"/>
+         <xsl:map-entry key="'ῥῆξις'" select="'ῥῆξις'"/>
          <xsl:map-entry key="'ῥῆξον'" select="'ῥήγνυμι'"/>
          <xsl:map-entry key="'Ῥήσεις'" select="'ῥῆσις'"/>
          <xsl:map-entry key="'ῥήσεις'" select="'ῥῆσις'"/>
@@ -22841,10 +24625,12 @@
          <xsl:map-entry key="'Ῥομφαία'" select="'ῥομφαία'"/>
          <xsl:map-entry key="'ῥομφαίᾳ'" select="'ῥομφαία'"/>
          <xsl:map-entry key="'ῥομφαίαν'" select="'ῥομφαία'"/>
+         <xsl:map-entry key="'ῥόος'" select="'ῥόος'"/>
          <xsl:map-entry key="'ῥοπή'" select="'ῥοπή'"/>
          <xsl:map-entry key="'ῥοπῇ'" select="'ῥοπή'"/>
          <xsl:map-entry key="'ῥοπήν'" select="'ῥοπή'"/>
          <xsl:map-entry key="'ῥοπὴν'" select="'ῥοπή'"/>
+         <xsl:map-entry key="'Ῥούθ'" select="'Ῥούθ'"/>
          <xsl:map-entry key="'ῥοῦς'" select="'ῥόος'"/>
          <xsl:map-entry key="'ῥύεται'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥύεταί'" select="'ῥύομαι'"/>
@@ -22875,12 +24661,12 @@
          <xsl:map-entry key="'ῥύσεταί'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥύσῃ'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥυσθείημεν'" select="'ῥύομαι'"/>
+         <xsl:map-entry key="'ῥυσθέντας'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥυσθῆναι'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥύσονται'" select="'ῥύομαι'"/>
          <xsl:map-entry key="'ῥυτός'" select="'ῥυτός'"/>
          <xsl:map-entry key="'ῥυτοῦ'" select="'ῥυτός'"/>
-         <xsl:map-entry key="'Ῥωμαικός'" select="'Ῥωμαικός'"/>
-         <xsl:map-entry key="'Ῥωμαῖοι'" select="'Ῥωμαικός'"/>
+         <xsl:map-entry key="'Ῥωμαῖοι'" select="'Ῥωμαῖος'"/>
          <xsl:map-entry key="'Ῥώμη'" select="'Ῥώμη'"/>
          <xsl:map-entry key="'ῥώννυμι'" select="'ῥώννυμι'"/>
          <xsl:map-entry key="'Ῥώννυσι'" select="'ῥώννυμι'"/>
@@ -22888,11 +24674,15 @@
          <xsl:map-entry key="'Σαβά'" select="'Σαβά'"/>
          <xsl:map-entry key="'Σαβαὼθ'" select="'σαβαώθ'"/>
          <xsl:map-entry key="'σαβαώθ'" select="'σαβαώθ'"/>
+         <xsl:map-entry key="'Σαβαώθ'" select="'σαβαώθ'"/>
          <xsl:map-entry key="'Σαββατον'" select="'σάββατον'"/>
          <xsl:map-entry key="'σάββατόν'" select="'σάββατον'"/>
          <xsl:map-entry key="'σάββατον'" select="'σάββατον'"/>
+         <xsl:map-entry key="'Σαδδαΐ'" select="'Σαδδαΐ'"/>
          <xsl:map-entry key="'σαθρὰν'" select="'σαθρός'"/>
          <xsl:map-entry key="'σαθρός'" select="'σαθρός'"/>
+         <xsl:map-entry key="'σαθρόω'" select="'σαθρόω'"/>
+         <xsl:map-entry key="'σαθρῶσαι'" select="'σαθρόω'"/>
          <xsl:map-entry key="'σαίνει'" select="'σαίνω'"/>
          <xsl:map-entry key="'σαίνω'" select="'σαίνω'"/>
          <xsl:map-entry key="'σάκκος'" select="'σάκκος'"/>
@@ -22918,13 +24708,16 @@
          <xsl:map-entry key="'σαλπίζειν'" select="'σαλπίζω'"/>
          <xsl:map-entry key="'σαλπίζω'" select="'σαλπίζω'"/>
          <xsl:map-entry key="'Σαμαρείτης'" select="'Σαμαρείτης'"/>
+         <xsl:map-entry key="'σαμαρείτης'" select="'Σαμαρείτης'"/>
          <xsl:map-entry key="'Σαμαρεῖτις'" select="'Σαμαρείτης'"/>
          <xsl:map-entry key="'Σαμουηλ'" select="'Σαμουήλ'"/>
          <xsl:map-entry key="'Σαμουήλ'" select="'Σαμουήλ'"/>
          <xsl:map-entry key="'Σαμουὴλ'" select="'Σαμουήλ'"/>
+         <xsl:map-entry key="'σανίδι'" select="'σανίς'"/>
          <xsl:map-entry key="'σανίδος'" select="'σανίς'"/>
          <xsl:map-entry key="'Σανίρ'" select="'Σανίρ'"/>
          <xsl:map-entry key="'σανίς'" select="'σανίς'"/>
+         <xsl:map-entry key="'σανὶς'" select="'σανίς'"/>
          <xsl:map-entry key="'Σανιώρ'" select="'Σανιώρ'"/>
          <xsl:map-entry key="'Σαοὺλ'" select="'Σαούλ'"/>
          <xsl:map-entry key="'Σαούλ'" select="'Σαούλ'"/>
@@ -22972,11 +24765,18 @@
          <xsl:map-entry key="'σατανᾷ'" select="'Σατάν'"/>
          <xsl:map-entry key="'σατανᾶ'" select="'Σατάν'"/>
          <xsl:map-entry key="'σατανᾶν'" select="'Σατάν'"/>
+         <xsl:map-entry key="'Σατανᾶν'" select="'Σατάν'"/>
          <xsl:map-entry key="'Σατανᾶς'" select="'Σατάν'"/>
          <xsl:map-entry key="'σατανᾶς'" select="'Σατάν'"/>
-         <xsl:map-entry key="'σαῦλε'" select="'σαῦλος'"/>
-         <xsl:map-entry key="'Σαῦλε'" select="'σαῦλος'"/>
-         <xsl:map-entry key="'σαῦλος'" select="'σαῦλος'"/>
+         <xsl:map-entry key="'σατανικῆς'" select="'Σατανικός'"/>
+         <xsl:map-entry key="'Σατανικός'" select="'Σατανικός'"/>
+         <xsl:map-entry key="'σατράπαι'" select="'σατράπης'"/>
+         <xsl:map-entry key="'σατραπεία'" select="'σατραπεία'"/>
+         <xsl:map-entry key="'σατραπείας'" select="'σατραπεία'"/>
+         <xsl:map-entry key="'σατράπης'" select="'σατράπης'"/>
+         <xsl:map-entry key="'σαῦλε'" select="'Σαῦλος'"/>
+         <xsl:map-entry key="'Σαῦλε'" select="'Σαῦλος'"/>
+         <xsl:map-entry key="'Σαῦλος'" select="'Σαῦλος'"/>
          <xsl:map-entry key="'σαφεῖς'" select="'σαφής'"/>
          <xsl:map-entry key="'σαφὲς'" select="'σαφής'"/>
          <xsl:map-entry key="'σαφέστερον'" select="'σαφής'"/>
@@ -22984,9 +24784,10 @@
          <xsl:map-entry key="'σαφηνίζω'" select="'σαφηνίζω'"/>
          <xsl:map-entry key="'σαφηνισθῆναί'" select="'σαφηνίζω'"/>
          <xsl:map-entry key="'σαφής'" select="'σαφής'"/>
-         <xsl:map-entry key="'σαφῶς'" select="'σαφής'"/>
+         <xsl:map-entry key="'σαφῶς'" select="'σαφῶς'"/>
          <xsl:map-entry key="'σβέννυμι'" select="'σβέννυμι'"/>
          <xsl:map-entry key="'σβέννυσι'" select="'σβέννυμι'"/>
+         <xsl:map-entry key="'σβέννυσιν'" select="'σβέννυμι'"/>
          <xsl:map-entry key="'σβέννυται'" select="'σβέννυμι'"/>
          <xsl:map-entry key="'σβεσθεῖσα'" select="'σβέννυμι'"/>
          <xsl:map-entry key="'σβεσθεισῶν'" select="'σβέννυμι'"/>
@@ -23002,6 +24803,7 @@
          <xsl:map-entry key="'σειραὶ'" select="'σειρά'"/>
          <xsl:map-entry key="'σειραῖς'" select="'σειρά'"/>
          <xsl:map-entry key="'σεισμός'" select="'σεισμός'"/>
+         <xsl:map-entry key="'σεισμὸς'" select="'σεισμός'"/>
          <xsl:map-entry key="'σεισμοῦ'" select="'σεισμός'"/>
          <xsl:map-entry key="'σεισμῶν'" select="'σεισμός'"/>
          <xsl:map-entry key="'σείω '" select="'σείω'"/>
@@ -23015,7 +24817,7 @@
          <xsl:map-entry key="'σεμνὸς'" select="'σεμνός'"/>
          <xsl:map-entry key="'σεμνύνει'" select="'σεμνύνω'"/>
          <xsl:map-entry key="'σεμνύνω'" select="'σεμνύνω'"/>
-         <xsl:map-entry key="'σεμνῶς'" select="'σεμνός'"/>
+         <xsl:map-entry key="'σεμνῶς'" select="'σεμνῶς'"/>
          <xsl:map-entry key="'Σεραπιων'" select="'Σαραπίων'"/>
          <xsl:map-entry key="'σεσαρωμένος'" select="'σαρόω'"/>
          <xsl:map-entry key="'σεσημειωται'" select="'σημαίνω'"/>
@@ -23030,6 +24832,7 @@
          <xsl:map-entry key="'σημαινει'" select="'σημαίνω'"/>
          <xsl:map-entry key="'σημαίνει'" select="'σημαίνω'"/>
          <xsl:map-entry key="'σημαίνειν'" select="'σημαίνω'"/>
+         <xsl:map-entry key="'σημαίνεται'" select="'σημαίνω'"/>
          <xsl:map-entry key="'σημαινομένην'" select="'σημαίνω'"/>
          <xsl:map-entry key="'σημαινομένοις'" select="'σημαίνω'"/>
          <xsl:map-entry key="'σημαινόμενον'" select="'σημαίνω'"/>
@@ -23091,9 +24894,9 @@
          <xsl:map-entry key="'σιγή'" select="'σιγή'"/>
          <xsl:map-entry key="'Σιγὴν'" select="'σιγή'"/>
          <xsl:map-entry key="'σιγῶν'" select="'σιγάω'"/>
-         <xsl:map-entry key="'σιδηρᾷ'" select="'σιδήρεος'"/>
-         <xsl:map-entry key="'σιδηραι'" select="'σιδήρεος'"/>
-         <xsl:map-entry key="'σιδήρεος'" select="'σιδήρεος'"/>
+         <xsl:map-entry key="'σιδηρᾷ'" select="'σίδηρος'"/>
+         <xsl:map-entry key="'σιδηραι'" select="'σίδηρος'"/>
+         <xsl:map-entry key="'σιδήρεος'" select="'σίδηρος'"/>
          <xsl:map-entry key="'σιδηρον'" select="'σίδηρος'"/>
          <xsl:map-entry key="'σίδηρον'" select="'σίδηρος'"/>
          <xsl:map-entry key="'σίδηρος'" select="'σίδηρος'"/>
@@ -23128,8 +24931,7 @@
          <xsl:map-entry key="'Σῖτος'" select="'σῖτος'"/>
          <xsl:map-entry key="'σιτου'" select="'σῖτος'"/>
          <xsl:map-entry key="'σίτου'" select="'σῖτος'"/>
-         <xsl:map-entry key="'σιφωνίζω'" select="'σιφωνίζω'"/>
-         <xsl:map-entry key="'σιφωνίσῃς'" select="'σιφωνίζω'"/>
+         <xsl:map-entry key="'σιφωνίσῃς'" select="'σιφωνέω'"/>
          <xsl:map-entry key="'Σιὼν'" select="'Σιών'"/>
          <xsl:map-entry key="'Σιων'" select="'Σιών'"/>
          <xsl:map-entry key="'Σιών'" select="'Σιών'"/>
@@ -23141,6 +24943,7 @@
          <xsl:map-entry key="'σιωπῇ'" select="'σιωπή'"/>
          <xsl:map-entry key="'σιωπηι'" select="'σιωπή'"/>
          <xsl:map-entry key="'σιωπήν'" select="'σιωπή'"/>
+         <xsl:map-entry key="'σιωπὴν'" select="'σιωπή'"/>
          <xsl:map-entry key="'σιωπῆς'" select="'σιωπή'"/>
          <xsl:map-entry key="'σιωπῶντα'" select="'σιωπάω'"/>
          <xsl:map-entry key="'σιωπώντων'" select="'σιωπάω'"/>
@@ -23204,6 +25007,7 @@
          <xsl:map-entry key="'σκηνὴν'" select="'σκηνή'"/>
          <xsl:map-entry key="'Σκηνὴν'" select="'σκηνή'"/>
          <xsl:map-entry key="'σκηνῆς'" select="'σκηνή'"/>
+         <xsl:map-entry key="'σκηνούμενον'" select="'σκηνόω'"/>
          <xsl:map-entry key="'σκηνόω'" select="'σκηνόω'"/>
          <xsl:map-entry key="'σκήνωμα'" select="'σκήνωμα'"/>
          <xsl:map-entry key="'Σκήνωμα'" select="'σκήνωμα'"/>
@@ -23216,6 +25020,7 @@
          <xsl:map-entry key="'σκιᾷ'" select="'σκιά'"/>
          <xsl:map-entry key="'σκιά'" select="'σκιά'"/>
          <xsl:map-entry key="'Σκιὰ'" select="'σκιά'"/>
+         <xsl:map-entry key="'σκιὰ'" select="'σκιά'"/>
          <xsl:map-entry key="'σκιαγράφος'" select="'σκιαγράφος'"/>
          <xsl:map-entry key="'σκιαζομένη'" select="'σκιάζω'"/>
          <xsl:map-entry key="'σκιάζοντές'" select="'σκιάζω'"/>
@@ -23232,6 +25037,8 @@
          <xsl:map-entry key="'σκιρτάω'" select="'σκιρτάω'"/>
          <xsl:map-entry key="'σκιρτῶσιν'" select="'σκιρτάω'"/>
          <xsl:map-entry key="'Σκίτει'" select="'Σκῆτις'"/>
+         <xsl:map-entry key="'σκιώδει'" select="'σκιώδης'"/>
+         <xsl:map-entry key="'σκιώδης'" select="'σκιώδης'"/>
          <xsl:map-entry key="'σκληρα'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληρὰ'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληραγωγεῖς'" select="'σκληραγωγέω'"/>
@@ -23240,6 +25047,7 @@
          <xsl:map-entry key="'σκληρόν'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληρός'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληρὸς'" select="'σκληρός'"/>
+         <xsl:map-entry key="'σκληροτάτων'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληροτερας'" select="'σκληρός'"/>
          <xsl:map-entry key="'σκληρότης'" select="'σκληρότης'"/>
          <xsl:map-entry key="'σκληρότητά'" select="'σκληρότης'"/>
@@ -23260,6 +25068,8 @@
          <xsl:map-entry key="'σκολιός'" select="'σκολιός'"/>
          <xsl:map-entry key="'σκολιότης'" select="'σκολιότης'"/>
          <xsl:map-entry key="'σκολιότητα'" select="'σκολιότης'"/>
+         <xsl:map-entry key="'σκόλοπος'" select="'σκόλοψ'"/>
+         <xsl:map-entry key="'σκόλοψ'" select="'σκόλοψ'"/>
          <xsl:map-entry key="'σκόπει'" select="'σκοπέω'"/>
          <xsl:map-entry key="'Σκόπει'" select="'σκοπέω'"/>
          <xsl:map-entry key="'σκοπεύει'" select="'σκοπεύω'"/>
@@ -23300,8 +25110,8 @@
          <xsl:map-entry key="'σκοτεινός'" select="'σκοτεινός'"/>
          <xsl:map-entry key="'σκοτεινοτεραν'" select="'σκοτεινός'"/>
          <xsl:map-entry key="'σκοτεινοὺς'" select="'σκοτεινός'"/>
-         <xsl:map-entry key="'σκοτεινως'" select="'σκοτεινός'"/>
-         <xsl:map-entry key="'σκοτεινῶς'" select="'σκοτεινός'"/>
+         <xsl:map-entry key="'σκοτεινως'" select="'σκοτεινῶς'"/>
+         <xsl:map-entry key="'σκοτεινῶς'" select="'σκοτεινῶς'"/>
          <xsl:map-entry key="'σκοτίᾳ'" select="'σκοτία'"/>
          <xsl:map-entry key="'σκοτία'" select="'σκοτία'"/>
          <xsl:map-entry key="'σκοτίζει'" select="'σκοτίζω'"/>
@@ -23361,9 +25171,10 @@
          <xsl:map-entry key="'σοβοῦντες'" select="'σοβέω'"/>
          <xsl:map-entry key="'Σόδομα'" select="'Σόδομα'"/>
          <xsl:map-entry key="'Σοδομηνός'" select="'Σοδομηνός'"/>
+         <xsl:map-entry key="'Σοδομῖται'" select="'Σοδομίτης'"/>
          <xsl:map-entry key="'Σοδομίταις'" select="'Σοδομίτης'"/>
          <xsl:map-entry key="'Σοδομίτης'" select="'Σοδομίτης'"/>
-         <xsl:map-entry key="'σοδομιτικῆς'" select="'Σοδομηνός'"/>
+         <xsl:map-entry key="'σοδομιτικῆς'" select="'σοδομιτικός'"/>
          <xsl:map-entry key="'Σοδόμων'" select="'Σόδομα'"/>
          <xsl:map-entry key="'Σολομών'" select="'Σολομών'"/>
          <xsl:map-entry key="'σολομῶν'" select="'Σολομών'"/>
@@ -23374,6 +25185,7 @@
          <xsl:map-entry key="'Σολομωντος'" select="'Σολομών'"/>
          <xsl:map-entry key="'σολομῶντος'" select="'Σολομών'"/>
          <xsl:map-entry key="'Σολομῶντος'" select="'Σολομών'"/>
+         <xsl:map-entry key="'σοφὰ'" select="'σοφός'"/>
          <xsl:map-entry key="'σοφὴν'" select="'σοφός'"/>
          <xsl:map-entry key="'σοφῆς'" select="'σοφός'"/>
          <xsl:map-entry key="'σοφίᾳ'" select="'σοφία'"/>
@@ -23413,10 +25225,13 @@
          <xsl:map-entry key="'σπάνις'" select="'σπάνις'"/>
          <xsl:map-entry key="'σπανίσαι'" select="'σπανίζω'"/>
          <xsl:map-entry key="'σπανίσωσι'" select="'σπανίζω'"/>
-         <xsl:map-entry key="'σπανίως'" select="'σπάνιος'"/>
-         <xsl:map-entry key="'Σπανίως'" select="'σπάνιος'"/>
+         <xsl:map-entry key="'σπανίων'" select="'σπάνιος'"/>
+         <xsl:map-entry key="'σπανίως'" select="'σπανίως'"/>
+         <xsl:map-entry key="'Σπανίως'" select="'σπανίως'"/>
          <xsl:map-entry key="'σπαρεῖσαν'" select="'σπείρω'"/>
          <xsl:map-entry key="'σπαρέντος'" select="'σπείρω'"/>
+         <xsl:map-entry key="'σπαρτίον'" select="'σπαρτίον'"/>
+         <xsl:map-entry key="'Σπαρτίον'" select="'σπαρτίον'"/>
          <xsl:map-entry key="'σπασάμενος'" select="'σπάω'"/>
          <xsl:map-entry key="'σπαταλᾶν'" select="'σπαταλάω'"/>
          <xsl:map-entry key="'σπαταλάω'" select="'σπαταλάω'"/>
@@ -23476,6 +25291,7 @@
          <xsl:map-entry key="'σπουδάζομεν'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδαζοντες'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδάζοντες'" select="'σπουδάζω'"/>
+         <xsl:map-entry key="'σπουδαζόντων'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδάζουσα'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδάζουσαν'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδαζούσης'" select="'σπουδάζω'"/>
@@ -23490,10 +25306,11 @@
          <xsl:map-entry key="'σπουδαιους'" select="'σπουδαῖος'"/>
          <xsl:map-entry key="'σπουδαίους'" select="'σπουδαῖος'"/>
          <xsl:map-entry key="'σπουδαίων'" select="'σπουδαῖος'"/>
-         <xsl:map-entry key="'σπουδαιως'" select="'σπουδαῖος'"/>
-         <xsl:map-entry key="'σπουδαίως'" select="'σπουδαῖος'"/>
+         <xsl:map-entry key="'σπουδαιως'" select="'σπουδαίως'"/>
+         <xsl:map-entry key="'σπουδαίως'" select="'σπουδαίως'"/>
          <xsl:map-entry key="'σπουδάσαι'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπούδασον'" select="'σπουδάζω'"/>
+         <xsl:map-entry key="'Σπούδασον'" select="'σπουδάζω'"/>
          <xsl:map-entry key="'σπουδαστέον'" select="'σπουδαστέος'"/>
          <xsl:map-entry key="'σπουδαστέος'" select="'σπουδαστέος'"/>
          <xsl:map-entry key="'σπουδάσωμεν'" select="'σπουδάζω'"/>
@@ -23512,9 +25329,12 @@
          <xsl:map-entry key="'σταγόνες'" select="'σταγών'"/>
          <xsl:map-entry key="'σταγών'" select="'σταγών'"/>
          <xsl:map-entry key="'στάδιον'" select="'στάδιον'"/>
+         <xsl:map-entry key="'σταδίων'" select="'στάδιον'"/>
+         <xsl:map-entry key="'σταθερὰ'" select="'σταθερός'"/>
          <xsl:map-entry key="'σταθερὰν'" select="'σταθερός'"/>
          <xsl:map-entry key="'σταθερὸς'" select="'σταθερός'"/>
          <xsl:map-entry key="'σταθερός'" select="'σταθερός'"/>
+         <xsl:map-entry key="'σταθῆναι'" select="'ἵστημι'"/>
          <xsl:map-entry key="'σταθηρᾷ'" select="'σταθερός'"/>
          <xsl:map-entry key="'σταθήσεται'" select="'ἵστημι'"/>
          <xsl:map-entry key="'στάθμιον'" select="'στάθμιον'"/>
@@ -23530,7 +25350,8 @@
          <xsl:map-entry key="'στάσιν'" select="'στάσις'"/>
          <xsl:map-entry key="'στάσις'" select="'στάσις'"/>
          <xsl:map-entry key="'σταυροειδής'" select="'σταυροειδής'"/>
-         <xsl:map-entry key="'σταυροειδῶς'" select="'σταυροειδής'"/>
+         <xsl:map-entry key="'σταυροειδῶς'" select="'σταυροειδῶς'"/>
+         <xsl:map-entry key="'σταυροῖς'" select="'σταυρός'"/>
          <xsl:map-entry key="'σταυρὸν'" select="'σταυρός'"/>
          <xsl:map-entry key="'σταυρόν'" select="'σταυρός'"/>
          <xsl:map-entry key="'σταυρός'" select="'σταυρός'"/>
@@ -23556,10 +25377,9 @@
          <xsl:map-entry key="'στεγναὶ'" select="'στεγνός'"/>
          <xsl:map-entry key="'στεγνός'" select="'στεγνός'"/>
          <xsl:map-entry key="'στέγω'" select="'στέγω'"/>
-         <xsl:map-entry key="'στειρα'" select="'στεῖρος'"/>
-         <xsl:map-entry key="'Στεῖρά'" select="'στεῖρος'"/>
+         <xsl:map-entry key="'στειρα'" select="'στεῖρα'"/>
+         <xsl:map-entry key="'Στεῖρά'" select="'στεῖρα'"/>
          <xsl:map-entry key="'στεῖρα'" select="'στεῖρα'"/>
-         <xsl:map-entry key="'στεῖρος'" select="'στεῖρος'"/>
          <xsl:map-entry key="'στέλεχός'" select="'στέλεχος'"/>
          <xsl:map-entry key="'στέλεχος'" select="'στέλεχος'"/>
          <xsl:map-entry key="'στεναγμός'" select="'στεναγμός'"/>
@@ -23605,12 +25425,16 @@
          <xsl:map-entry key="'στερηθέντας'" select="'στερέω'"/>
          <xsl:map-entry key="'Στερηθέντες'" select="'στερέω'"/>
          <xsl:map-entry key="'στερηθήσεται'" select="'στερέω'"/>
+         <xsl:map-entry key="'στερηθῶμέν'" select="'στερέω'"/>
          <xsl:map-entry key="'στερησάτω'" select="'στερέω'"/>
+         <xsl:map-entry key="'στερήσεως'" select="'στέρησις'"/>
          <xsl:map-entry key="'στέρησιν'" select="'στέρησις'"/>
          <xsl:map-entry key="'στέρησις'" select="'στέρησις'"/>
          <xsl:map-entry key="'στερισκομένη'" select="'στερίσκω'"/>
+         <xsl:map-entry key="'στερισκόμενοι'" select="'στερίσκω'"/>
          <xsl:map-entry key="'στερίσκονται'" select="'στερίσκω'"/>
          <xsl:map-entry key="'στερίσκω'" select="'στερίσκω'"/>
+         <xsl:map-entry key="'στερίσκων'" select="'στερίσκω'"/>
          <xsl:map-entry key="'στέρνη'" select="'στέρνον'"/>
          <xsl:map-entry key="'στέρνον'" select="'στέρνον'"/>
          <xsl:map-entry key="'Στεφανοῖ'" select="'στεφανόω'"/>
@@ -23640,6 +25464,9 @@
          <xsl:map-entry key="'Στῆθος'" select="'στῆθος'"/>
          <xsl:map-entry key="'στῆθος'" select="'στῆθος'"/>
          <xsl:map-entry key="'στηι'" select="'ἵστημι'"/>
+         <xsl:map-entry key="'στήκε'" select="'ἵστημι'"/>
+         <xsl:map-entry key="'στήκει'" select="'στήκω'"/>
+         <xsl:map-entry key="'στήκω'" select="'στήκω'"/>
          <xsl:map-entry key="'στῆναι'" select="'ἵστημι'"/>
          <xsl:map-entry key="'στηρίζω'" select="'στηρίζω'"/>
          <xsl:map-entry key="'στηριχθῆναι'" select="'στηρίζω'"/>
@@ -23665,6 +25492,7 @@
          <xsl:map-entry key="'στοιχεια'" select="'στοιχεῖον'"/>
          <xsl:map-entry key="'στοιχεία'" select="'στοιχεῖον'"/>
          <xsl:map-entry key="'στοιχειοις'" select="'στοιχεῖον'"/>
+         <xsl:map-entry key="'στοιχείοις'" select="'στοιχεῖον'"/>
          <xsl:map-entry key="'στοιχεῖον'" select="'στοιχεῖον'"/>
          <xsl:map-entry key="'στοιχειων'" select="'στοιχεῖον'"/>
          <xsl:map-entry key="'στοιχείων'" select="'στοιχεῖον'"/>
@@ -23684,6 +25512,7 @@
          <xsl:map-entry key="'στόμαχον'" select="'στόμαχος'"/>
          <xsl:map-entry key="'στόμαχος'" select="'στόμαχος'"/>
          <xsl:map-entry key="'στομάχῳ'" select="'στόμαχος'"/>
+         <xsl:map-entry key="'στοχάζομαι'" select="'στοχάζομαι'"/>
          <xsl:map-entry key="'στοχασμός'" select="'στοχασμός'"/>
          <xsl:map-entry key="'στοχασμοῦ'" select="'στοχασμός'"/>
          <xsl:map-entry key="'στρατεία'" select="'στρατεία'"/>
@@ -23701,6 +25530,7 @@
          <xsl:map-entry key="'στρατηγία'" select="'στρατηγία'"/>
          <xsl:map-entry key="'στρατηγίαις'" select="'στρατηγία'"/>
          <xsl:map-entry key="'στρατηγίας'" select="'στρατηγία'"/>
+         <xsl:map-entry key="'στρατηγοὶ'" select="'στρατηγός'"/>
          <xsl:map-entry key="'στρατηγὸν'" select="'στρατηγός'"/>
          <xsl:map-entry key="'στρατηγὸς'" select="'στρατηγός'"/>
          <xsl:map-entry key="'στρατηγός'" select="'στρατηγός'"/>
@@ -23708,6 +25538,8 @@
          <xsl:map-entry key="'στρατιώτῃ'" select="'στρατιώτης'"/>
          <xsl:map-entry key="'στρατιώτην'" select="'στρατιώτης'"/>
          <xsl:map-entry key="'στρατιώτης'" select="'στρατιώτης'"/>
+         <xsl:map-entry key="'στρατιωτικός'" select="'στρατιωτικός'"/>
+         <xsl:map-entry key="'στρατιωτικῶν'" select="'στρατιωτικός'"/>
          <xsl:map-entry key="'στρατολογέω'" select="'στρατολογέω'"/>
          <xsl:map-entry key="'στρατολογήσαντι'" select="'στρατολογέω'"/>
          <xsl:map-entry key="'στρατὸς'" select="'στρατός'"/>
@@ -23775,6 +25607,9 @@
          <xsl:map-entry key="'συγκαλύπτου'" select="'συγκαλύπτω'"/>
          <xsl:map-entry key="'συγκαλύπτω'" select="'συγκαλύπτω'"/>
          <xsl:map-entry key="'συγκαλύψαι'" select="'συγκαλύπτω'"/>
+         <xsl:map-entry key="'συγκαμεῖν'" select="'συγκάμνω'"/>
+         <xsl:map-entry key="'συγκάμνει'" select="'συγκάμνω'"/>
+         <xsl:map-entry key="'συγκάμνω'" select="'συγκάμνω'"/>
          <xsl:map-entry key="'συγκαταβάσεσιν'" select="'συγκατάβασις'"/>
          <xsl:map-entry key="'συγκαταβάσεως'" select="'συγκατάβασις'"/>
          <xsl:map-entry key="'συγκατάβασις'" select="'συγκατάβασις'"/>
@@ -23782,6 +25617,7 @@
          <xsl:map-entry key="'συγκαταθέσεως'" select="'συγκατάθεσις'"/>
          <xsl:map-entry key="'συγκατάθεσιν'" select="'συγκατάθεσις'"/>
          <xsl:map-entry key="'συγκατάθεσις'" select="'συγκατάθεσις'"/>
+         <xsl:map-entry key="'συγκαταθῆται'" select="'συγκατατίθημι'"/>
          <xsl:map-entry key="'συγκαταριθμέω'" select="'συγκαταριθμέω'"/>
          <xsl:map-entry key="'συγκαταριθμήσας'" select="'συγκαταριθμέω'"/>
          <xsl:map-entry key="'συγκατατάσσω'" select="'συγκατατάσσω'"/>
@@ -23792,6 +25628,7 @@
          <xsl:map-entry key="'σύγκειμαι'" select="'σύγκειμαι'"/>
          <xsl:map-entry key="'συγκειμενον'" select="'σύγκειμαι'"/>
          <xsl:map-entry key="'συγκείμενον'" select="'σύγκειμαι'"/>
+         <xsl:map-entry key="'συγκέκραται'" select="'συγκεράννυμι'"/>
          <xsl:map-entry key="'συγκεράννυμι'" select="'συγκεράννυμι'"/>
          <xsl:map-entry key="'συγκεράσῃς'" select="'συγκεράννυμι'"/>
          <xsl:map-entry key="'Συγκέχυται'" select="'συγχέω'"/>
@@ -23837,6 +25674,8 @@
          <xsl:map-entry key="'συγχωρήσατε'" select="'συγχωρέω'"/>
          <xsl:map-entry key="'συγχωρήσῃ'" select="'συγχωρέω'"/>
          <xsl:map-entry key="'συγχωρήσῃς'" select="'συγχωρέω'"/>
+         <xsl:map-entry key="'συγχώρησιν'" select="'συγχώρησις'"/>
+         <xsl:map-entry key="'συγχώρησις'" select="'συγχώρησις'"/>
          <xsl:map-entry key="'συγχωρήσωμεν'" select="'συγχωρέω'"/>
          <xsl:map-entry key="'συγχωρούμενοι'" select="'συγχωρέω'"/>
          <xsl:map-entry key="'συγχωροῦντα'" select="'συγχωρέω'"/>
@@ -23846,6 +25685,7 @@
          <xsl:map-entry key="'συζάω'" select="'συζάω'"/>
          <xsl:map-entry key="'συζεύγνυμι'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συζεύξας'" select="'συζεύγνυμι'"/>
+         <xsl:map-entry key="'συζευχθεῖσα'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συζευχθεῖσαν'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συζέω'" select="'συζέω'"/>
          <xsl:map-entry key="'συζήσομεν'" select="'συζάω'"/>
@@ -23855,21 +25695,32 @@
          <xsl:map-entry key="'συζῶντας'" select="'συζάω'"/>
          <xsl:map-entry key="'συζῶντες'" select="'συζάω'"/>
          <xsl:map-entry key="'συζώσας'" select="'συζάω'"/>
+         <xsl:map-entry key="'συκαμινέα'" select="'συκαμινέα'"/>
+         <xsl:map-entry key="'συκαμίνη'" select="'συκαμίνη'"/>
          <xsl:map-entry key="'συκῆ'" select="'συκῆ'"/>
+         <xsl:map-entry key="'συκῇ'" select="'συκῆ'"/>
          <xsl:map-entry key="'συκοφάνται'" select="'συκοφάντης'"/>
          <xsl:map-entry key="'συκοφαντεῖ'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντεῖν'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντέω'" select="'συκοφαντέω'"/>
+         <xsl:map-entry key="'συκοφάντην'" select="'συκοφάντης'"/>
          <xsl:map-entry key="'συκοφάντης'" select="'συκοφάντης'"/>
+         <xsl:map-entry key="'συκοφαντησάτωσάν'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντήσωσι'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντία'" select="'συκοφαντία'"/>
          <xsl:map-entry key="'συκοφαντίαις'" select="'συκοφαντία'"/>
+         <xsl:map-entry key="'συκοφαντίαν'" select="'συκοφαντία'"/>
          <xsl:map-entry key="'συκοφαντίας'" select="'συκοφαντία'"/>
+         <xsl:map-entry key="'Συκοφαντίας'" select="'συκοφαντία'"/>
          <xsl:map-entry key="'συκοφαντοῦμεν'" select="'συκοφαντέω'"/>
+         <xsl:map-entry key="'συκοφαντούμενοι'" select="'συκοφαντέω'"/>
+         <xsl:map-entry key="'συκοφαντουμένους'" select="'συκοφαντέω'"/>
+         <xsl:map-entry key="'συκοφαντοῦντα'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντουντας'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντοῦντας'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντουντες'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συκοφαντοῦντες'" select="'συκοφαντέω'"/>
+         <xsl:map-entry key="'συκοφαντούντων'" select="'συκοφαντέω'"/>
          <xsl:map-entry key="'συλᾶσθαι'" select="'συλάω'"/>
          <xsl:map-entry key="'συλάω'" select="'συλάω'"/>
          <xsl:map-entry key="'συλήσας'" select="'συλάω'"/>
@@ -23887,6 +25738,9 @@
          <xsl:map-entry key="'συλλεξας'" select="'συλλέγω'"/>
          <xsl:map-entry key="'συλλήβδην'" select="'συλλήβδην'"/>
          <xsl:map-entry key="'συλληφθήσεται'" select="'συλλαμβάνω'"/>
+         <xsl:map-entry key="'σύλληψις'" select="'σύλληψις'"/>
+         <xsl:map-entry key="'συλλογιστικός'" select="'συλλογιστικός'"/>
+         <xsl:map-entry key="'συλλογιστικῶς'" select="'συλλογιστικῶς'"/>
          <xsl:map-entry key="'σύλλογον'" select="'σύλλογος'"/>
          <xsl:map-entry key="'σύλλογος'" select="'σύλλογος'"/>
          <xsl:map-entry key="'συλλόγῳ'" select="'σύλλογος'"/>
@@ -23906,9 +25760,12 @@
          <xsl:map-entry key="'Συμβάλλεται'" select="'συμβάλλω'"/>
          <xsl:map-entry key="'συμβαλλομένους'" select="'συμβάλλω'"/>
          <xsl:map-entry key="'συμβάλλω'" select="'συμβάλλω'"/>
+         <xsl:map-entry key="'συμβαλόντες'" select="'συμβάλλω'"/>
          <xsl:map-entry key="'συμβασιλεύοντας'" select="'συμβασιλεύω'"/>
+         <xsl:map-entry key="'συμβασιλεύω'" select="'συμβασιλεύω'"/>
          <xsl:map-entry key="'συμβᾶσιν'" select="'συμβαίνω'"/>
          <xsl:map-entry key="'συμβέβηκε'" select="'συμβαίνω'"/>
+         <xsl:map-entry key="'συμβέβηκεν'" select="'συμβαίνω'"/>
          <xsl:map-entry key="'συμβεβηκός'" select="'συμβαίνω'"/>
          <xsl:map-entry key="'συμβεβηκότων'" select="'συμβαίνω'"/>
          <xsl:map-entry key="'συμβεβηκυια'" select="'συμβαίνω'"/>
@@ -23919,6 +25776,8 @@
          <xsl:map-entry key="'συμβιώτας'" select="'συμβιωτής'"/>
          <xsl:map-entry key="'συμβιώτης'" select="'συμβιωτής'"/>
          <xsl:map-entry key="'συμβιωτής'" select="'συμβιωτής'"/>
+         <xsl:map-entry key="'συμβοηθεῖ'" select="'συμβοηθέω'"/>
+         <xsl:map-entry key="'συμβοηθέω'" select="'συμβοηθέω'"/>
          <xsl:map-entry key="'σύμβολα'" select="'σύμβολον'"/>
          <xsl:map-entry key="'συμβολα'" select="'σύμβολον'"/>
          <xsl:map-entry key="'σύμβολά'" select="'σύμβολον'"/>
@@ -23926,7 +25785,7 @@
          <xsl:map-entry key="'συμβολικὸν'" select="'συμβολικός'"/>
          <xsl:map-entry key="'συμβολικός'" select="'συμβολικός'"/>
          <xsl:map-entry key="'συμβολικοῦ'" select="'συμβολικός'"/>
-         <xsl:map-entry key="'συμβολικῶς'" select="'συμβολικός'"/>
+         <xsl:map-entry key="'συμβολικῶς'" select="'συμβολικῶς'"/>
          <xsl:map-entry key="'σύμβολόν'" select="'σύμβολον'"/>
          <xsl:map-entry key="'σύμβολον'" select="'σύμβολον'"/>
          <xsl:map-entry key="'συμβολον'" select="'σύμβολον'"/>
@@ -23935,6 +25794,7 @@
          <xsl:map-entry key="'συμβόλων'" select="'σύμβολον'"/>
          <xsl:map-entry key="'συμβουλεύει'" select="'συμβουλεύω'"/>
          <xsl:map-entry key="'συμβουλεύοντας'" select="'συμβουλεύω'"/>
+         <xsl:map-entry key="'συμβουλεύουσι'" select="'συμβουλεύω'"/>
          <xsl:map-entry key="'συμβουλεύω'" select="'συμβουλεύω'"/>
          <xsl:map-entry key="'συμβουλή'" select="'συμβουλή'"/>
          <xsl:map-entry key="'συμβουλήν'" select="'συμβουλή'"/>
@@ -23944,6 +25804,7 @@
          <xsl:map-entry key="'Συμεών'" select="'Συμεών'"/>
          <xsl:map-entry key="'συμμαχία'" select="'συμμαχία'"/>
          <xsl:map-entry key="'συμμαχίαν'" select="'συμμαχία'"/>
+         <xsl:map-entry key="'Σύμμαχον'" select="'Σύμμαχος'"/>
          <xsl:map-entry key="'Σύμμαχος'" select="'Σύμμαχος'"/>
          <xsl:map-entry key="'συμμετοχος'" select="'συμμέτοχος'"/>
          <xsl:map-entry key="'συμμέτοχος'" select="'συμμέτοχος'"/>
@@ -23962,17 +25823,21 @@
          <xsl:map-entry key="'συμμύστης'" select="'συμμύστης'"/>
          <xsl:map-entry key="'σύμμυστος'" select="'σύμμυστος'"/>
          <xsl:map-entry key="'συμπάθεια'" select="'συμπάθεια'"/>
+         <xsl:map-entry key="'συμπαθείᾳ'" select="'συμπάθεια'"/>
          <xsl:map-entry key="'συμπάθειαν'" select="'συμπάθεια'"/>
          <xsl:map-entry key="'συμπαθείας'" select="'συμπάθεια'"/>
          <xsl:map-entry key="'συμπαθής'" select="'συμπαθής'"/>
-         <xsl:map-entry key="'συμπαθῶς'" select="'συμπαθής'"/>
+         <xsl:map-entry key="'συμπαθῶς'" select="'συμπαθῶς'"/>
          <xsl:map-entry key="'σύμπαντά'" select="'σύμπας'"/>
          <xsl:map-entry key="'σύμπαντα'" select="'σύμπας'"/>
+         <xsl:map-entry key="'συμπαραβάλλω'" select="'συμπαραβάλλω'"/>
+         <xsl:map-entry key="'συμπαραβληθέντα'" select="'συμπαραβάλλω'"/>
          <xsl:map-entry key="'συμπαραλαμβάνω'" select="'συμπαραλαμβάνω'"/>
          <xsl:map-entry key="'συμπαραληφθῇς'" select="'συμπαραλαμβάνω'"/>
          <xsl:map-entry key="'συμπαραλήψεται'" select="'συμπαραλαμβάνω'"/>
          <xsl:map-entry key="'συμπαραλήψεως'" select="'συμπαράληψις'"/>
          <xsl:map-entry key="'συμπαράληψις'" select="'συμπαράληψις'"/>
+         <xsl:map-entry key="'συμπαραμενεῖ'" select="'συμπαραμένω'"/>
          <xsl:map-entry key="'συμπαραμένουσιν'" select="'συμπαραμένω'"/>
          <xsl:map-entry key="'συμπαραμένω'" select="'συμπαραμένω'"/>
          <xsl:map-entry key="'συμπάρειμι'" select="'συμπάρειμι'"/>
@@ -23998,17 +25863,19 @@
          <xsl:map-entry key="'συμπεποδισμένος'" select="'συμποδίζω'"/>
          <xsl:map-entry key="'συμπεριπολεῖ'" select="'συμπεριπολέω'"/>
          <xsl:map-entry key="'συμπεριπολέω'" select="'συμπεριπολέω'"/>
-         <xsl:map-entry key="'συμπεσεῖται'" select="'συμπίτνω'"/>
-         <xsl:map-entry key="'συμπεσὼν'" select="'συμπίτνω'"/>
+         <xsl:map-entry key="'συμπεσεῖται'" select="'συμπίπτω'"/>
+         <xsl:map-entry key="'συμπεσὼν'" select="'συμπίπτω'"/>
          <xsl:map-entry key="'συμπετάομαι'" select="'συμπετάομαι'"/>
          <xsl:map-entry key="'συμπετεῖται'" select="'συμπετάομαι'"/>
-         <xsl:map-entry key="'συμπίπτειν'" select="'συμπίτνω'"/>
-         <xsl:map-entry key="'συμπίτνω'" select="'συμπίτνω'"/>
+         <xsl:map-entry key="'συμπίπτειν'" select="'συμπίπτω'"/>
+         <xsl:map-entry key="'συμπίπτω'" select="'συμπίπτω'"/>
          <xsl:map-entry key="'συμπλέκειν'" select="'συμπλέκω'"/>
          <xsl:map-entry key="'συμπλέκεται'" select="'συμπλέκω'"/>
          <xsl:map-entry key="'συμπλεκόμενος'" select="'συμπλέκω'"/>
          <xsl:map-entry key="'συμπλέκω'" select="'συμπλέκω'"/>
          <xsl:map-entry key="'συμπλέκων'" select="'συμπλέκω'"/>
+         <xsl:map-entry key="'συμπληρουμένων'" select="'συμπληρόω'"/>
+         <xsl:map-entry key="'συμπληρόω'" select="'συμπληρόω'"/>
          <xsl:map-entry key="'συμπλοκή'" select="'συμπλοκή'"/>
          <xsl:map-entry key="'Συμποδίζεται'" select="'συμποδίζω'"/>
          <xsl:map-entry key="'συμποδίζω'" select="'συμποδίζω'"/>
@@ -24042,6 +25909,7 @@
          <xsl:map-entry key="'σύμφορος'" select="'σύμφορος'"/>
          <xsl:map-entry key="'συμφορων'" select="'συμφορά'"/>
          <xsl:map-entry key="'συμφορῶν'" select="'συμφορά'"/>
+         <xsl:map-entry key="'συμφορώτερον'" select="'σύμφορος'"/>
          <xsl:map-entry key="'συμφύρεται'" select="'συμφύρω'"/>
          <xsl:map-entry key="'συμφύρω'" select="'συμφύρω'"/>
          <xsl:map-entry key="'σύμφυτος'" select="'σύμφυτος'"/>
@@ -24088,6 +25956,8 @@
          <xsl:map-entry key="'συναντᾷ'" select="'συναντάω'"/>
          <xsl:map-entry key="'συνανται'" select="'συναντάω'"/>
          <xsl:map-entry key="'συναντάω'" select="'συναντάω'"/>
+         <xsl:map-entry key="'Συνάντημα'" select="'συνάντημα'"/>
+         <xsl:map-entry key="'συνάντημα'" select="'συνάντημα'"/>
          <xsl:map-entry key="'συναντησάσης'" select="'συναντάω'"/>
          <xsl:map-entry key="'συνάντησίν'" select="'συνάντησις'"/>
          <xsl:map-entry key="'συνάντησις'" select="'συνάντησις'"/>
@@ -24101,11 +25971,14 @@
          <xsl:map-entry key="'συνάξωσι'" select="'συνάγω'"/>
          <xsl:map-entry key="'συναπάγω'" select="'συναπάγω'"/>
          <xsl:map-entry key="'συναπαχθῇς'" select="'συναπάγω'"/>
+         <xsl:map-entry key="'συναπαχθήσεται'" select="'συναπάγω'"/>
          <xsl:map-entry key="'συναπεθάνομεν'" select="'συναποθνήσκω'"/>
          <xsl:map-entry key="'συναπέρχεται'" select="'συναπέρχομαι'"/>
          <xsl:map-entry key="'συναπέρχομαι'" select="'συναπέρχομαι'"/>
+         <xsl:map-entry key="'συναποθανόντας'" select="'συναποθνήσκω'"/>
          <xsl:map-entry key="'συναποθανὼν'" select="'συναποθνήσκω'"/>
          <xsl:map-entry key="'συναποθνῄσκοντες'" select="'συναποθνήσκω'"/>
+         <xsl:map-entry key="'συναποθνῄσκουσιν'" select="'συναποθνήσκω'"/>
          <xsl:map-entry key="'συναποθνήσκω'" select="'συναποθνήσκω'"/>
          <xsl:map-entry key="'συναπολαύει'" select="'συναπολαύω'"/>
          <xsl:map-entry key="'συναπολαύη'" select="'συναπολαύω'"/>
@@ -24119,6 +25992,7 @@
          <xsl:map-entry key="'Συνάπτει'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συνάπτει'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συνάπτειν'" select="'συνάπτω'"/>
+         <xsl:map-entry key="'συνάπτεσθαι'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συναπτόμεθα'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συναπτόμενόν'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συναπτόμενός'" select="'συνάπτω'"/>
@@ -24141,9 +26015,11 @@
          <xsl:map-entry key="'συναυξάνω'" select="'συναυξάνω'"/>
          <xsl:map-entry key="'συναύξουσι'" select="'συναυξάνω'"/>
          <xsl:map-entry key="'συνάφεια'" select="'συνάφεια'"/>
+         <xsl:map-entry key="'συναφείας'" select="'συνάφεια'"/>
          <xsl:map-entry key="'συναφθῆναι'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συναχθεὶς'" select="'συνάγω'"/>
          <xsl:map-entry key="'συνάψας'" select="'συνάπτω'"/>
+         <xsl:map-entry key="'συνδεδεμένῃ'" select="'συνδέω'"/>
          <xsl:map-entry key="'συνδεδεμένων'" select="'συνδέω'"/>
          <xsl:map-entry key="'συνδεθεὶς'" select="'συνδέω'"/>
          <xsl:map-entry key="'συνδεθέντα'" select="'συνδέω'"/>
@@ -24175,13 +26051,20 @@
          <xsl:map-entry key="'συνεδριάζω'" select="'συνεδριάζω'"/>
          <xsl:map-entry key="'συνέδριον'" select="'συνέδριον'"/>
          <xsl:map-entry key="'Συνέδριον'" select="'συνέδριον'"/>
+         <xsl:map-entry key="'συνεζευγμένα'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συνεζευγμένον'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συνεζευγμένου'" select="'συζεύγνυμι'"/>
          <xsl:map-entry key="'συνέζευκται'" select="'συζεύγνυμι'"/>
+         <xsl:map-entry key="'συνέζευξε'" select="'συζεύγνυμι'"/>
+         <xsl:map-entry key="'συνεζεύχθην'" select="'συζεύγνυμι'"/>
+         <xsl:map-entry key="'συνεθίζουσι'" select="'συνεθίζω'"/>
+         <xsl:map-entry key="'συνεθίζω'" select="'συνεθίζω'"/>
+         <xsl:map-entry key="'συνειδήσεως'" select="'συνείδησις'"/>
          <xsl:map-entry key="'συνείδησιν'" select="'συνείδησις'"/>
          <xsl:map-entry key="'συνείδησίν'" select="'συνείδησις'"/>
          <xsl:map-entry key="'συνειδησις'" select="'συνείδησις'"/>
          <xsl:map-entry key="'συνείδησις'" select="'συνείδησις'"/>
+         <xsl:map-entry key="'συνείδησίς'" select="'συνείδησις'"/>
          <xsl:map-entry key="'συνειδὸς'" select="'σύνοιδα'"/>
          <xsl:map-entry key="'συνειδός'" select="'σύνοιδα'"/>
          <xsl:map-entry key="'συνειλημμέναι'" select="'συλλαμβάνω'"/>
@@ -24190,7 +26073,7 @@
          <xsl:map-entry key="'συνεισφέρει'" select="'συνεισφέρω'"/>
          <xsl:map-entry key="'συνεισφέρω'" select="'συνεισφέρω'"/>
          <xsl:map-entry key="'συνεκδοχικός'" select="'συνεκδοχικός'"/>
-         <xsl:map-entry key="'συνεκδοχικῶς'" select="'συνεκδοχικός'"/>
+         <xsl:map-entry key="'συνεκδοχικῶς'" select="'συνεκδοχικῶς'"/>
          <xsl:map-entry key="'συνέλαβεν'" select="'συλλαμβάνω'"/>
          <xsl:map-entry key="'συνελαύνει'" select="'συνελαύνω'"/>
          <xsl:map-entry key="'συνελαύνω'" select="'συνελαύνω'"/>
@@ -24201,15 +26084,22 @@
          <xsl:map-entry key="'συνεπαίρω'" select="'συνεπαίρω'"/>
          <xsl:map-entry key="'συνεπεμβαίνουσι'" select="'συνεπεμβαίνω'"/>
          <xsl:map-entry key="'συνεπεμβαίνω'" select="'συνεπεμβαίνω'"/>
+         <xsl:map-entry key="'συνεπισκοπεῖν'" select="'συνεπισκοπέω'"/>
+         <xsl:map-entry key="'συνεπισκοπέω'" select="'συνεπισκοπέω'"/>
          <xsl:map-entry key="'συνεπισπάω'" select="'συνεπισπάω'"/>
          <xsl:map-entry key="'συνεπισπῶνται'" select="'συνεπισπάω'"/>
+         <xsl:map-entry key="'συνεργάζεται'" select="'συνεργάζομαι'"/>
+         <xsl:map-entry key="'συνεργάζομαι'" select="'συνεργάζομαι'"/>
+         <xsl:map-entry key="'συνεργεῖν'" select="'συνεργέω'"/>
          <xsl:map-entry key="'συνεργέω'" select="'συνεργέω'"/>
+         <xsl:map-entry key="'συνεργοί'" select="'συνεργός'"/>
          <xsl:map-entry key="'συνεργοῖς'" select="'συνεργός'"/>
          <xsl:map-entry key="'συνεργὸν'" select="'συνεργός'"/>
          <xsl:map-entry key="'συνεργός'" select="'συνεργός'"/>
          <xsl:map-entry key="'συνεργὸς'" select="'συνεργός'"/>
          <xsl:map-entry key="'συνεργοῦντος'" select="'συνεργέω'"/>
          <xsl:map-entry key="'συνεργοῦσιν'" select="'συνεργέω'"/>
+         <xsl:map-entry key="'συνεργῶν'" select="'συνεργέω'"/>
          <xsl:map-entry key="'συνερυμμένος'" select="'συνερύω'"/>
          <xsl:map-entry key="'συνερύω'" select="'συνερύω'"/>
          <xsl:map-entry key="'συνέρχομαι'" select="'συνέρχομαι'"/>
@@ -24256,13 +26146,14 @@
          <xsl:map-entry key="'συνετάξω'" select="'συντάσσω'"/>
          <xsl:map-entry key="'συνετῇ'" select="'συνετός'"/>
          <xsl:map-entry key="'συνετὴ'" select="'συνετός'"/>
+         <xsl:map-entry key="'συνετίθεσαν'" select="'συντίθημι'"/>
          <xsl:map-entry key="'συνετόν'" select="'συνετός'"/>
          <xsl:map-entry key="'συνετὸν'" select="'συνετός'"/>
          <xsl:map-entry key="'συνετός'" select="'συνετός'"/>
          <xsl:map-entry key="'Συνετὸς'" select="'συνετός'"/>
          <xsl:map-entry key="'Συνέτριψαν'" select="'συντρίβω'"/>
          <xsl:map-entry key="'συνέτριψεν'" select="'συντρίβω'"/>
-         <xsl:map-entry key="'συνετῶς'" select="'συνετός'"/>
+         <xsl:map-entry key="'συνετῶς'" select="'συνετῶς'"/>
          <xsl:map-entry key="'συνευδοκία'" select="'συνευδοκία'"/>
          <xsl:map-entry key="'συνεχεῖ'" select="'συνεχής'"/>
          <xsl:map-entry key="'συνεχεῖς'" select="'συνεχής'"/>
@@ -24270,11 +26161,12 @@
          <xsl:map-entry key="'συνεχεται'" select="'συνέχω'"/>
          <xsl:map-entry key="'συνεχής'" select="'συνεχής'"/>
          <xsl:map-entry key="'συνεχὴς'" select="'συνεχής'"/>
-         <xsl:map-entry key="'συνέχοντα'" select="'συνόχωκα'"/>
+         <xsl:map-entry key="'συνέχοντα'" select="'συνέχω'"/>
          <xsl:map-entry key="'συνεχονται'" select="'συνέχω'"/>
-         <xsl:map-entry key="'συνέχοντας'" select="'συνόχωκα'"/>
+         <xsl:map-entry key="'συνέχοντας'" select="'συνέχω'"/>
          <xsl:map-entry key="'συνέχω'" select="'συνέχω'"/>
-         <xsl:map-entry key="'συνεχῶς'" select="'συνεχής'"/>
+         <xsl:map-entry key="'συνεχωρήθησάν'" select="'συγχωρέω'"/>
+         <xsl:map-entry key="'συνεχῶς'" select="'συνεχῶς'"/>
          <xsl:map-entry key="'συνήγαγε'" select="'συνάγω'"/>
          <xsl:map-entry key="'συνήγαγες'" select="'συνάγω'"/>
          <xsl:map-entry key="'συνήθεια'" select="'συνήθεια'"/>
@@ -24286,7 +26178,7 @@
          <xsl:map-entry key="'συνήθη'" select="'συνήθης'"/>
          <xsl:map-entry key="'συνήθης'" select="'συνήθης'"/>
          <xsl:map-entry key="'συνήθους'" select="'συνήθης'"/>
-         <xsl:map-entry key="'συνήθως'" select="'συνήθης'"/>
+         <xsl:map-entry key="'συνήθως'" select="'συνήθως'"/>
          <xsl:map-entry key="'συνῆκαν'" select="'συνίημι'"/>
          <xsl:map-entry key="'συνήπτετο'" select="'συνάπτω'"/>
          <xsl:map-entry key="'συνηρμοσμένος'" select="'συναρμόζω'"/>
@@ -24337,6 +26229,7 @@
          <xsl:map-entry key="'σύννοια'" select="'σύννοια'"/>
          <xsl:map-entry key="'σύννους'" select="'σύννους'"/>
          <xsl:map-entry key="'συνόδευε'" select="'συνοδεύω'"/>
+         <xsl:map-entry key="'συνοδεύει'" select="'συνοδεύω'"/>
          <xsl:map-entry key="'συνοδεύω'" select="'συνοδεύω'"/>
          <xsl:map-entry key="'συνοδία'" select="'συνοδία'"/>
          <xsl:map-entry key="'συνοδίαις'" select="'συνοδία'"/>
@@ -24345,6 +26238,7 @@
          <xsl:map-entry key="'συνοδοιποροῦντες'" select="'συνοδοιπορέω'"/>
          <xsl:map-entry key="'σύνοδον'" select="'σύνοδος'"/>
          <xsl:map-entry key="'σύνοδος'" select="'σύνοδος'"/>
+         <xsl:map-entry key="'συνόδου'" select="'σύνοδος'"/>
          <xsl:map-entry key="'σύνοιδα'" select="'σύνοιδα'"/>
          <xsl:map-entry key="'συνοικέω'" select="'συνοικέω'"/>
          <xsl:map-entry key="'συνοικήσῃς'" select="'συνοικέω'"/>
@@ -24357,6 +26251,7 @@
          <xsl:map-entry key="'συνομιλέω'" select="'συνομιλέω'"/>
          <xsl:map-entry key="'συνόμιλος'" select="'συνόμιλος'"/>
          <xsl:map-entry key="'συνοῦσά'" select="'σύνειμι'"/>
+         <xsl:map-entry key="'συνοῦσα'" select="'σύνειμι'"/>
          <xsl:map-entry key="'συνουσίᾳ'" select="'συνουσία'"/>
          <xsl:map-entry key="'συνουσία'" select="'συνουσία'"/>
          <xsl:map-entry key="'συνουσίας'" select="'συνουσία'"/>
@@ -24388,7 +26283,10 @@
          <xsl:map-entry key="'συντηρεῖν'" select="'συντηρέω'"/>
          <xsl:map-entry key="'συντηρέω'" select="'συντηρέω'"/>
          <xsl:map-entry key="'συντηρουμένη'" select="'συντηρέω'"/>
+         <xsl:map-entry key="'συντηροῦντα'" select="'συντηρέω'"/>
          <xsl:map-entry key="'συντίθημι'" select="'συντίθημι'"/>
+         <xsl:map-entry key="'σύντομον'" select="'σύντομος'"/>
+         <xsl:map-entry key="'σύντομος'" select="'σύντομος'"/>
          <xsl:map-entry key="'σύντονος'" select="'σύντονος'"/>
          <xsl:map-entry key="'συντόνου'" select="'σύντονος'"/>
          <xsl:map-entry key="'συντόνους'" select="'σύντονος'"/>
@@ -24428,8 +26326,10 @@
          <xsl:map-entry key="'συνυπουργέω'" select="'συνυπουργέω'"/>
          <xsl:map-entry key="'συνυφίσταται'" select="'συνυφίστημι'"/>
          <xsl:map-entry key="'συνυφίστημι'" select="'συνυφίστημι'"/>
+         <xsl:map-entry key="'συνῳδὰ'" select="'συνῳδός'"/>
          <xsl:map-entry key="'συνωδίνει'" select="'συνωδίνω'"/>
          <xsl:map-entry key="'συνωδίνω'" select="'συνωδίνω'"/>
+         <xsl:map-entry key="'συνῳδός'" select="'συνῳδός'"/>
          <xsl:map-entry key="'Συρία'" select="'Συρία'"/>
          <xsl:map-entry key="'Συρίαν'" select="'Συρία'"/>
          <xsl:map-entry key="'συρίγγων'" select="'σῦριγξ'"/>
@@ -24453,7 +26353,7 @@
          <xsl:map-entry key="'συστρεβλούμενος'" select="'συστρεβλόω'"/>
          <xsl:map-entry key="'συστρεβλοῦται'" select="'συστρεβλόω'"/>
          <xsl:map-entry key="'συστρεβλόω'" select="'συστρεβλόω'"/>
-         <xsl:map-entry key="'συσχεῖν'" select="'συνόχωκα'"/>
+         <xsl:map-entry key="'συσχεῖν'" select="'συνέχω'"/>
          <xsl:map-entry key="'συσχηματίζεσθαι'" select="'συσχηματίζω'"/>
          <xsl:map-entry key="'Συσχηματίζονται'" select="'συσχηματίζω'"/>
          <xsl:map-entry key="'συσχηματίζω'" select="'συσχηματίζω'"/>
@@ -24462,9 +26362,10 @@
          <xsl:map-entry key="'συφεών'" select="'συφεών'"/>
          <xsl:map-entry key="'συφεώνων'" select="'συφεών'"/>
          <xsl:map-entry key="'συχνός'" select="'συχνός'"/>
-         <xsl:map-entry key="'συχνῶς'" select="'συχνός'"/>
+         <xsl:map-entry key="'συχνῶς'" select="'συχνῶς'"/>
          <xsl:map-entry key="'σφαγὴ'" select="'σφαγή'"/>
          <xsl:map-entry key="'σφαγή'" select="'σφαγή'"/>
+         <xsl:map-entry key="'σφαγῇ'" select="'σφαγή'"/>
          <xsl:map-entry key="'σφαγῆς'" select="'σφαγή'"/>
          <xsl:map-entry key="'σφαίρᾳ'" select="'σφαῖρα'"/>
          <xsl:map-entry key="'σφαῖρα'" select="'σφαῖρα'"/>
@@ -24477,13 +26378,14 @@
          <xsl:map-entry key="'σφακελλισμός'" select="'σφακελλισμός'"/>
          <xsl:map-entry key="'σφαλέντα'" select="'σφάλλω'"/>
          <xsl:map-entry key="'σφαλερός'" select="'σφαλερός'"/>
-         <xsl:map-entry key="'σφαλερῶς'" select="'σφαλερός'"/>
+         <xsl:map-entry key="'σφαλερῶς'" select="'σφαλερῶς'"/>
          <xsl:map-entry key="'σφάλλω'" select="'σφάλλω'"/>
          <xsl:map-entry key="'σφάλμα'" select="'σφάλμα'"/>
          <xsl:map-entry key="'σφενδόνῃ'" select="'σφενδόνη'"/>
          <xsl:map-entry key="'σφενδόνη'" select="'σφενδόνη'"/>
          <xsl:map-entry key="'σφενδόνης'" select="'σφενδόνη'"/>
          <xsl:map-entry key="'σφενδόνι'" select="'σφενδών'"/>
+         <xsl:map-entry key="'σφενδών'" select="'σφενδών'"/>
          <xsl:map-entry key="'σφίγγεται'" select="'σφίγγω'"/>
          <xsl:map-entry key="'σφιγγία'" select="'σφιγγία'"/>
          <xsl:map-entry key="'σφιγγίας'" select="'σφιγγία'"/>
@@ -24494,14 +26396,15 @@
          <xsl:map-entry key="'σφοδρός'" select="'σφοδρός'"/>
          <xsl:map-entry key="'σφοδρὸς'" select="'σφοδρός'"/>
          <xsl:map-entry key="'σφοδροτάτῃ'" select="'σφοδρός'"/>
-         <xsl:map-entry key="'σφοδροτάτως'" select="'σφοδρός'"/>
+         <xsl:map-entry key="'σφοδροτάτως'" select="'σφοδρῶς'"/>
          <xsl:map-entry key="'σφοδρότερον'" select="'σφοδρός'"/>
          <xsl:map-entry key="'σφοδρότερος'" select="'σφοδρός'"/>
          <xsl:map-entry key="'σφοδροτέρου'" select="'σφοδρός'"/>
          <xsl:map-entry key="'σφοδροτέρων'" select="'σφοδρός'"/>
-         <xsl:map-entry key="'σφοδρῶς'" select="'σφοδρός'"/>
+         <xsl:map-entry key="'σφοδρῶς'" select="'σφοδρῶς'"/>
          <xsl:map-entry key="'σφραγιδα'" select="'σφραγίς'"/>
          <xsl:map-entry key="'σφραγῖδα'" select="'σφραγίς'"/>
+         <xsl:map-entry key="'σφραγῖδος'" select="'σφραγίς'"/>
          <xsl:map-entry key="'σφραγίζειν'" select="'σφραγίζω'"/>
          <xsl:map-entry key="'σφραγίζω'" select="'σφραγίζω'"/>
          <xsl:map-entry key="'σφραγίζωμεν'" select="'σφραγίζω'"/>
@@ -24536,6 +26439,7 @@
          <xsl:map-entry key="'σχήματος'" select="'σχῆμα'"/>
          <xsl:map-entry key="'σχημάτων'" select="'σχῆμα'"/>
          <xsl:map-entry key="'σχίζω'" select="'σχίζω'"/>
+         <xsl:map-entry key="'σχίσις'" select="'σχίσις'"/>
          <xsl:map-entry key="'σχίσμα'" select="'σχίσμα'"/>
          <xsl:map-entry key="'σχίσματα'" select="'σχίσμα'"/>
          <xsl:map-entry key="'σχισματος'" select="'σχίσμα'"/>
@@ -24547,23 +26451,27 @@
          <xsl:map-entry key="'σχολάζει'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολαζειν'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολάζειν'" select="'σχολάζω'"/>
+         <xsl:map-entry key="'σχολάζουσι'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολάζω'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολάσαι'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολάσαντα'" select="'σχολάζω'"/>
          <xsl:map-entry key="'σχολή'" select="'σχολή'"/>
          <xsl:map-entry key="'Σχολῆς'" select="'σχολή'"/>
          <xsl:map-entry key="'ΣΧΟΛΙΑ'" select="'σχόλιον'"/>
+         <xsl:map-entry key="'σχολίοις'" select="'σχόλιον'"/>
          <xsl:map-entry key="'σχόλιον'" select="'σχόλιον'"/>
          <xsl:map-entry key="'σχολίου'" select="'σχόλιον'"/>
          <xsl:map-entry key="'σχολίων'" select="'σχόλιον'"/>
          <xsl:map-entry key="'σώαν'" select="'σῶς'"/>
          <xsl:map-entry key="'σώζει'" select="'σώζω'"/>
          <xsl:map-entry key="'σῴζει'" select="'σώζω'"/>
+         <xsl:map-entry key="'σῴζεσθαί'" select="'σώζω'"/>
          <xsl:map-entry key="'σῴζῃ'" select="'σώζω'"/>
          <xsl:map-entry key="'σῴζηται'" select="'σώζω'"/>
          <xsl:map-entry key="'σώζηται'" select="'σώζω'"/>
          <xsl:map-entry key="'σωζομένης'" select="'σώζω'"/>
          <xsl:map-entry key="'σῳζομένοις'" select="'σώζω'"/>
+         <xsl:map-entry key="'σωζόμενος'" select="'σώζω'"/>
          <xsl:map-entry key="'σώζοντά'" select="'σώζω'"/>
          <xsl:map-entry key="'σωζόντων'" select="'σώζω'"/>
          <xsl:map-entry key="'σῴζου'" select="'σώζω'"/>
@@ -24589,10 +26497,12 @@
          <xsl:map-entry key="'σωματικα'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικὰ'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικαὶ'" select="'σωματικός'"/>
+         <xsl:map-entry key="'Σωματικαί'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικὰς'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικη'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικῇ'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματική'" select="'σωματικός'"/>
+         <xsl:map-entry key="'σωματικὴ'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικην'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικὴν'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικης'" select="'σωματικός'"/>
@@ -24606,8 +26516,8 @@
          <xsl:map-entry key="'σωματικοὺς'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικῶν'" select="'σωματικός'"/>
          <xsl:map-entry key="'σωματικων'" select="'σωματικός'"/>
-         <xsl:map-entry key="'σωματικως'" select="'σωματικός'"/>
-         <xsl:map-entry key="'σωματικῶς'" select="'σωματικός'"/>
+         <xsl:map-entry key="'σωματικως'" select="'σωματικῶς'"/>
+         <xsl:map-entry key="'σωματικῶς'" select="'σωματικῶς'"/>
          <xsl:map-entry key="'σωματκος'" select="'σωματικός'"/>
          <xsl:map-entry key="'σώματος'" select="'σῶμα'"/>
          <xsl:map-entry key="'Σωματος'" select="'σῶμα'"/>
@@ -24647,8 +26557,11 @@
          <xsl:map-entry key="'σωτηρος'" select="'σωτήρ'"/>
          <xsl:map-entry key="'σωτῆρος'" select="'σωτήρ'"/>
          <xsl:map-entry key="'σωτήρος'" select="'σωτήρ'"/>
+         <xsl:map-entry key="'Σωφὰρ'" select="'Σωφάρ'"/>
+         <xsl:map-entry key="'Σωφάρ'" select="'Σωφάρ'"/>
          <xsl:map-entry key="'σωφιαν'" select="'σοφία'"/>
          <xsl:map-entry key="'σώφρονα'" select="'σώφρων'"/>
+         <xsl:map-entry key="'σωφρονεῖ'" select="'σωφρονέω'"/>
          <xsl:map-entry key="'σωφρονεῖν'" select="'σωφρονέω'"/>
          <xsl:map-entry key="'σώφρονες'" select="'σώφρων'"/>
          <xsl:map-entry key="'σωφρονέω'" select="'σωφρονέω'"/>
@@ -24694,8 +26607,8 @@
          <xsl:map-entry key="'ταλάντων'" select="'τάλαντον'"/>
          <xsl:map-entry key="'τάλας'" select="'τάλας'"/>
          <xsl:map-entry key="'τἀληθῆ'" select="'ἀληθής'"/>
-         <xsl:map-entry key="'ταμεῖα'" select="'ταμεῖον'"/>
-         <xsl:map-entry key="'ταμεῖον'" select="'ταμεῖον'"/>
+         <xsl:map-entry key="'ταμεῖα'" select="'ταμιεῖον'"/>
+         <xsl:map-entry key="'ταμεῖον'" select="'ταμιεῖον'"/>
          <xsl:map-entry key="'ταμιεῖα'" select="'ταμιεῖον'"/>
          <xsl:map-entry key="'ταμιεῖον'" select="'ταμιεῖον'"/>
          <xsl:map-entry key="'ταμιεύεται'" select="'ταμιεύω'"/>
@@ -24706,6 +26619,7 @@
          <xsl:map-entry key="'ταξει'" select="'τάξις'"/>
          <xsl:map-entry key="'τάξει'" select="'τάξις'"/>
          <xsl:map-entry key="'ταξεων'" select="'τάξις'"/>
+         <xsl:map-entry key="'ταξιάρχης'" select="'ταξιάρχης'"/>
          <xsl:map-entry key="'τάξιν'" select="'τάξις'"/>
          <xsl:map-entry key="'τάξις'" select="'τάξις'"/>
          <xsl:map-entry key="'Τάξον'" select="'τάσσω'"/>
@@ -24740,6 +26654,7 @@
          <xsl:map-entry key="'ταπεινόω'" select="'ταπεινόω'"/>
          <xsl:map-entry key="'ταπεινωθεὶς'" select="'ταπεινόω'"/>
          <xsl:map-entry key="'ταπεινωθεῖσα'" select="'ταπεινόω'"/>
+         <xsl:map-entry key="'ταπεινωθέντων'" select="'ταπεινόω'"/>
          <xsl:map-entry key="'Ταπεινώμεθα'" select="'ταπεινόω'"/>
          <xsl:map-entry key="'ταπεινῶν'">
             <matches pattern="ταπεινῶν\sἑαυτὸν">ταπεινόω</matches>
@@ -24819,7 +26734,7 @@
          <xsl:map-entry key="'ταχεα'" select="'ταχύς'"/>
          <xsl:map-entry key="'τάχει'" select="'τάχος'"/>
          <xsl:map-entry key="'ταχεῖαν'" select="'ταχύς'"/>
-         <xsl:map-entry key="'ταχέως'" select="'ταχύς'"/>
+         <xsl:map-entry key="'ταχέως'" select="'ταχέως'"/>
          <xsl:map-entry key="'τάχιον'" select="'τάχα'"/>
          <xsl:map-entry key="'τάχος'" select="'τάχος'"/>
          <xsl:map-entry key="'ταχους'" select="'ταχύς'"/>
@@ -24835,13 +26750,16 @@
          <xsl:map-entry key="'τέθεικε'" select="'τίθημι'"/>
          <xsl:map-entry key="'τέθεικεν'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθεικέναι'" select="'τίθημι'"/>
+         <xsl:map-entry key="'τεθείσας'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθεῖσθαι'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθείσθω'" select="'τίθημι'"/>
          <xsl:map-entry key="'τέθειται'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθέντι'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθέντος'" select="'τίθημι'"/>
          <xsl:map-entry key="'τεθέντων'" select="'τίθημι'"/>
+         <xsl:map-entry key="'τεθεωρηκότων'" select="'θεωρέω'"/>
          <xsl:map-entry key="'τεθλιμμένης'" select="'θλίβω'"/>
+         <xsl:map-entry key="'τεθνάναι'" select="'θνήσκω'"/>
          <xsl:map-entry key="'Τέθνηκε'" select="'θνήσκω'"/>
          <xsl:map-entry key="'τέθνηκεν'" select="'θνήσκω'"/>
          <xsl:map-entry key="'τεθνηκέναι'" select="'θνήσκω'"/>
@@ -24868,16 +26786,20 @@
          <xsl:map-entry key="'τέκνα'" select="'τέκνον'"/>
          <xsl:map-entry key="'τέκνοις'" select="'τέκνον'"/>
          <xsl:map-entry key="'τέκνον'" select="'τέκνον'"/>
+         <xsl:map-entry key="'Τέκνον'" select="'τέκνον'"/>
+         <xsl:map-entry key="'τεκνοποιέω'" select="'τεκνοποιέω'"/>
          <xsl:map-entry key="'τέκνων'" select="'τέκνον'"/>
          <xsl:map-entry key="'τεκοῦσά'" select="'τίκτω'"/>
          <xsl:map-entry key="'τεκοῦσα'" select="'τίκτω'"/>
          <xsl:map-entry key="'τεκοῦσαν'" select="'τίκτω'"/>
          <xsl:map-entry key="'τεκούσης'" select="'τίκτω'"/>
+         <xsl:map-entry key="'τεκταίνεται'" select="'τεκταίνομαι'"/>
          <xsl:map-entry key="'τεκταίνομαι'" select="'τεκταίνομαι'"/>
          <xsl:map-entry key="'τεκταίνουσιν'" select="'τεκταίνομαι'"/>
          <xsl:map-entry key="'τέκτονα'" select="'τέκτων'"/>
          <xsl:map-entry key="'τεκτονα'" select="'τέκτων'"/>
          <xsl:map-entry key="'Τέκτονες'" select="'τέκτων'"/>
+         <xsl:map-entry key="'τέκτονι'" select="'τέκτων'"/>
          <xsl:map-entry key="'τεκτονική'" select="'τεκτονικός'"/>
          <xsl:map-entry key="'τεκτονικός'" select="'τεκτονικός'"/>
          <xsl:map-entry key="'τέκτονος'" select="'τέκτων'"/>
@@ -24887,6 +26809,7 @@
          <xsl:map-entry key="'τέλει'" select="'τέλος'"/>
          <xsl:map-entry key="'τελεία'" select="'τέλειος'"/>
          <xsl:map-entry key="'Τελεια'" select="'τέλειος'"/>
+         <xsl:map-entry key="'τέλειαι'" select="'τέλειος'"/>
          <xsl:map-entry key="'τελείαν'" select="'τέλειος'"/>
          <xsl:map-entry key="'τελείας'" select="'τέλειος'"/>
          <xsl:map-entry key="'τελειοι'" select="'τέλειος'"/>
@@ -24908,12 +26831,13 @@
          <xsl:map-entry key="'τελειται'" select="'τελέω'"/>
          <xsl:map-entry key="'τελειωθέντες'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειωθηναι'" select="'τελειόω'"/>
+         <xsl:map-entry key="'τελειωθῆναι'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειωθησεται'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειωθωμεν'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειωθωσιν'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελείων'" select="'τέλειος'"/>
-         <xsl:map-entry key="'τελείως'" select="'τέλειος'"/>
-         <xsl:map-entry key="'τελειως'" select="'τέλειος'"/>
+         <xsl:map-entry key="'τελείως'" select="'τελείως'"/>
+         <xsl:map-entry key="'τελειως'" select="'τελείως'"/>
          <xsl:map-entry key="'τελειῶσαι'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειώσαντι'" select="'τελειόω'"/>
          <xsl:map-entry key="'τελειωσει'" select="'τελειόω'"/>
@@ -24927,6 +26851,8 @@
          <xsl:map-entry key="'τελέσας'" select="'τελέω'"/>
          <xsl:map-entry key="'τελέσῃ'" select="'τελέω'"/>
          <xsl:map-entry key="'τελέσῃς'" select="'τελέω'"/>
+         <xsl:map-entry key="'τελεσθῇ'" select="'τελέω'"/>
+         <xsl:map-entry key="'τελεσθῆναι'" select="'τελέω'"/>
          <xsl:map-entry key="'τελεσιουργει'" select="'τελεσιουργέω'"/>
          <xsl:map-entry key="'τελεσιουργέω'" select="'τελεσιουργέω'"/>
          <xsl:map-entry key="'τελεσωσι'" select="'τελέω'"/>
@@ -24946,13 +26872,15 @@
          <xsl:map-entry key="'τέλη'" select="'τέλος'"/>
          <xsl:map-entry key="'τέλος'" select="'τέλος'"/>
          <xsl:map-entry key="'τελος'" select="'τέλος'"/>
+         <xsl:map-entry key="'Τέλος'" select="'τέλος'"/>
          <xsl:map-entry key="'τέλους'" select="'τέλος'"/>
          <xsl:map-entry key="'τελώνην'" select="'τελώνης'"/>
          <xsl:map-entry key="'τελώνης'" select="'τελώνης'"/>
          <xsl:map-entry key="'τελωνικός'" select="'τελωνικός'"/>
-         <xsl:map-entry key="'τελωνικῶς'" select="'τελωνικός'"/>
+         <xsl:map-entry key="'τελωνικῶς'" select="'τελωνικῶς'"/>
          <xsl:map-entry key="'τελώνου'" select="'τελώνης'"/>
          <xsl:map-entry key="'τέμνει'" select="'τέμνω'"/>
+         <xsl:map-entry key="'τέμνειν'" select="'τέμνω'"/>
          <xsl:map-entry key="'τέμνεται'" select="'τέμνω'"/>
          <xsl:map-entry key="'Τέμνεται'" select="'τέμνω'"/>
          <xsl:map-entry key="'τέμνομεν'" select="'τέμνω'"/>
@@ -24968,6 +26896,8 @@
          <xsl:map-entry key="'τέξεται'" select="'τίκτω'"/>
          <xsl:map-entry key="'τέρας'" select="'τέρας'"/>
          <xsl:map-entry key="'τερασι'" select="'τέρας'"/>
+         <xsl:map-entry key="'τεράστιος'" select="'τεράστιος'"/>
+         <xsl:map-entry key="'τεραστίους'" select="'τεράστιος'"/>
          <xsl:map-entry key="'τερατεύομαι'" select="'τερατεύομαι'"/>
          <xsl:map-entry key="'τερατεύονται'" select="'τερατεύομαι'"/>
          <xsl:map-entry key="'τεράτων'" select="'τέρας'"/>
@@ -24990,14 +26920,18 @@
          <xsl:map-entry key="'τεσσαρακοντα'" select="'τεσσαράκοντα'"/>
          <xsl:map-entry key="'τεσσαράκοντα'" select="'τεσσαράκοντα'"/>
          <xsl:map-entry key="'τεσσαρακοστή'" select="'τεσσαρακοστός'"/>
+         <xsl:map-entry key="'τεσσαρακοστός'" select="'τεσσαρακοστός'"/>
          <xsl:map-entry key="'Τέσσαρας'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'τεσσαρας'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'τέσσαρες'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'Τέσσαρες'" select="'τέσσαρες'"/>
+         <xsl:map-entry key="'τεσσαρεσκαιδεκάτην'" select="'τεσσαρεσκαιδέκατος'"/>
+         <xsl:map-entry key="'τεσσαρεσκαιδέκατος'" select="'τεσσαρεσκαιδέκατος'"/>
          <xsl:map-entry key="'τεσσαρσι'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'τεσσάρων'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'τεσσαρων'" select="'τέσσαρες'"/>
          <xsl:map-entry key="'Τεσσαρων'" select="'τέσσαρες'"/>
+         <xsl:map-entry key="'τεταγμένος'" select="'τάσσω'"/>
          <xsl:map-entry key="'τεταπείνωνται'" select="'ταπεινόω'"/>
          <xsl:map-entry key="'τεταραγμένα'" select="'ταράσσω'"/>
          <xsl:map-entry key="'τεταραγμένας'" select="'ταράσσω'"/>
@@ -25023,6 +26957,8 @@
          <xsl:map-entry key="'Τετήρηται'" select="'τηρέω'"/>
          <xsl:map-entry key="'τετήρηται'" select="'τηρέω'"/>
          <xsl:map-entry key="'τετόλμηκα'" select="'τολμάω'"/>
+         <xsl:map-entry key="'τετραγράμματον'" select="'τετραγράμματος'"/>
+         <xsl:map-entry key="'τετραγράμματος'" select="'τετραγράμματος'"/>
          <xsl:map-entry key="'τετράγωνον'" select="'τετράγωνος'"/>
          <xsl:map-entry key="'τετράγωνός'" select="'τετράγωνος'"/>
          <xsl:map-entry key="'τετράγωνος'" select="'τετράγωνος'"/>
@@ -25039,7 +26975,10 @@
          <xsl:map-entry key="'τετρὰς'" select="'τετράς'"/>
          <xsl:map-entry key="'τετρασελίδιον'" select="'τετρασελίδιον'"/>
          <xsl:map-entry key="'τετρασελίδῳ'" select="'τετρασελίδιον'"/>
+         <xsl:map-entry key="'Τετρασελίδῳ'" select="'τετρασελίδιον'"/>
          <xsl:map-entry key="'τέτρασι'" select="'τέσσαρες'"/>
+         <xsl:map-entry key="'τετράστοιχος'" select="'τετράστοιχος'"/>
+         <xsl:map-entry key="'τετραστοίχου'" select="'τετράστοιχος'"/>
          <xsl:map-entry key="'τέτραχα'" select="'τέτραχα'"/>
          <xsl:map-entry key="'τετραχῇ'" select="'τέτραχα'"/>
          <xsl:map-entry key="'Τετραχῶς'" select="'τετραχῶς'"/>
@@ -25086,6 +27025,7 @@
          <xsl:map-entry key="'τηνικαῦτα'" select="'τηνικαῦτα'"/>
          <xsl:map-entry key="'Τηνικαῦτα'" select="'τηνικαῦτα'"/>
          <xsl:map-entry key="'τῆξίν'" select="'τῆξις'"/>
+         <xsl:map-entry key="'τῆξιν'" select="'τῆξις'"/>
          <xsl:map-entry key="'τῆξις'" select="'τῆξις'"/>
          <xsl:map-entry key="'Τῆξις'" select="'τῆξις'"/>
          <xsl:map-entry key="'τηρει'" select="'τηρέω'"/>
@@ -25095,6 +27035,7 @@
          <xsl:map-entry key="'τηρείσθω'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρείτω'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρέω'" select="'τηρέω'"/>
+         <xsl:map-entry key="'τηρηθήσῃ'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρῆσαι'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρήσας'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρήσει'" select="'τηρέω'"/>
@@ -25103,14 +27044,18 @@
          <xsl:map-entry key="'τηρησιν'" select="'τήρησις'"/>
          <xsl:map-entry key="'τήρησις'" select="'τήρησις'"/>
          <xsl:map-entry key="'τηρήσομεν'" select="'τηρέω'"/>
+         <xsl:map-entry key="'τηρήσω'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρητέον'" select="'τηρητέον'"/>
          <xsl:map-entry key="'τηροῦντες'" select="'τηρέω'"/>
+         <xsl:map-entry key="'τηροῦντος'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρούσῃ'" select="'τηρέω'"/>
          <xsl:map-entry key="'τηρῶν'" select="'τηρέω'"/>
          <xsl:map-entry key="'τίγρις'" select="'τίγρις'"/>
          <xsl:map-entry key="'τιθέασι'" select="'τίθημι'"/>
          <xsl:map-entry key="'τιθεὶς'" select="'τίθημι'"/>
          <xsl:map-entry key="'τίθεμεν'" select="'τίθημι'"/>
+         <xsl:map-entry key="'τιθέμενα'" select="'τίθημι'"/>
+         <xsl:map-entry key="'τιθέμεναι'" select="'τίθημι'"/>
          <xsl:map-entry key="'τίθεται'" select="'τίθημι'"/>
          <xsl:map-entry key="'τίθημι'" select="'τίθημι'"/>
          <xsl:map-entry key="'τιθησι'" select="'τίθημι'"/>
@@ -25121,6 +27066,7 @@
          <xsl:map-entry key="'τίκτεσθαι'" select="'τίκτω'"/>
          <xsl:map-entry key="'τίκτεται'" select="'τίκτω'"/>
          <xsl:map-entry key="'τικτομένη'" select="'τίκτω'"/>
+         <xsl:map-entry key="'τικτόμενος'" select="'τίκτω'"/>
          <xsl:map-entry key="'τικτομένων'" select="'τίκτω'"/>
          <xsl:map-entry key="'τικτονται'" select="'τίκτω'"/>
          <xsl:map-entry key="'τίκτουσα'" select="'τίκτω'"/>
@@ -25129,6 +27075,7 @@
          <xsl:map-entry key="'τικτουσι'" select="'τίκτω'"/>
          <xsl:map-entry key="'τικτουσιν'" select="'τίκτω'"/>
          <xsl:map-entry key="'τίκτω'" select="'τίκτω'"/>
+         <xsl:map-entry key="'τίλλω'" select="'τίλλω'"/>
          <xsl:map-entry key="'Τίμα'" select="'τιμάω'"/>
          <xsl:map-entry key="'τίμα'" select="'τιμάω'"/>
          <xsl:map-entry key="'τιμᾷ'" select="'τιμάω'"/>
@@ -25152,7 +27099,9 @@
          <xsl:map-entry key="'τίμιος'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμίου'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμίους'" select="'τίμιος'"/>
+         <xsl:map-entry key="'τιμίων'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμιώτατον'" select="'τίμιος'"/>
+         <xsl:map-entry key="'τιμιωτάτῳ'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμιωτέρα'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμιωτερα'" select="'τίμιος'"/>
          <xsl:map-entry key="'τιμιώτερον'" select="'τίμιος'"/>
@@ -25187,6 +27136,9 @@
          <xsl:map-entry key="'Τίτῳ'" select="'Τίτος'"/>
          <xsl:map-entry key="'τοιαύτῃ'" select="'τοιοῦτος'"/>
          <xsl:map-entry key="'τοιοῦτος'" select="'τοιοῦτος'"/>
+         <xsl:map-entry key="'τοιουτότροπα'" select="'τοιουτότροπος'"/>
+         <xsl:map-entry key="'τοιουτότροπος'" select="'τοιουτότροπος'"/>
+         <xsl:map-entry key="'τοιουτοτρόπως'" select="'τοιουτοτρόπως'"/>
          <xsl:map-entry key="'τοῖχοι'" select="'τοῖχος'"/>
          <xsl:map-entry key="'τοίχοις'" select="'τοῖχος'"/>
          <xsl:map-entry key="'τοῖχον'" select="'τοῖχος'"/>
@@ -25195,6 +27147,7 @@
          <xsl:map-entry key="'τοίχῳ'" select="'τοῖχος'"/>
          <xsl:map-entry key="'τοκετόν'" select="'τοκετός'"/>
          <xsl:map-entry key="'τοκετός'" select="'τοκετός'"/>
+         <xsl:map-entry key="'τοκίζειν'" select="'τοκίζω'"/>
          <xsl:map-entry key="'τοκιζόμεθα'" select="'τοκίζω'"/>
          <xsl:map-entry key="'τοκίζω'" select="'τοκίζω'"/>
          <xsl:map-entry key="'τοκιστὰς'" select="'τοκιστής'"/>
@@ -25202,7 +27155,9 @@
          <xsl:map-entry key="'τόκον'" select="'τόκος'"/>
          <xsl:map-entry key="'τόκος'" select="'τόκος'"/>
          <xsl:map-entry key="'τόκους'" select="'τόκος'"/>
+         <xsl:map-entry key="'τόκων'" select="'τόκος'"/>
          <xsl:map-entry key="'τολμαν'" select="'τολμάω'"/>
+         <xsl:map-entry key="'τολμᾶν'" select="'τολμάω'"/>
          <xsl:map-entry key="'τολμᾷς'" select="'τολμάω'"/>
          <xsl:map-entry key="'τολμάω'" select="'τολμάω'"/>
          <xsl:map-entry key="'τολμηρὸν'" select="'τολμηρός'"/>
@@ -25253,7 +27208,7 @@
          <xsl:map-entry key="'τράγου'" select="'τράγος'"/>
          <xsl:map-entry key="'τρανής'" select="'τρανής'"/>
          <xsl:map-entry key="'τρανους'" select="'τρανής'"/>
-         <xsl:map-entry key="'τρανως'" select="'τρανής'"/>
+         <xsl:map-entry key="'τρανως'" select="'τρανῶς'"/>
          <xsl:map-entry key="'τράπεζα'" select="'τράπεζα'"/>
          <xsl:map-entry key="'Τράπεζα'" select="'τράπεζα'"/>
          <xsl:map-entry key="'τράπεζαν'" select="'τράπεζα'"/>
@@ -25267,6 +27222,7 @@
          <xsl:map-entry key="'τραπῆναι'" select="'τρέπω'"/>
          <xsl:map-entry key="'τραῦμα'" select="'τραῦμα'"/>
          <xsl:map-entry key="'τραύματα'" select="'τραῦμα'"/>
+         <xsl:map-entry key="'τραυματίας'" select="'τραυματίας'"/>
          <xsl:map-entry key="'τραυματίζω'" select="'τραυματίζω'"/>
          <xsl:map-entry key="'τραυματισθεῖσαν'" select="'τραυματίζω'"/>
          <xsl:map-entry key="'τραυμάτων'" select="'τραῦμα'"/>
@@ -25280,7 +27236,7 @@
          <xsl:map-entry key="'τράχηλος'" select="'τράχηλος'"/>
          <xsl:map-entry key="'τραχήλῳ'" select="'τράχηλος'"/>
          <xsl:map-entry key="'τραχύς'" select="'τραχύς'"/>
-         <xsl:map-entry key="'τραχυτέρως'" select="'τραχύς'"/>
+         <xsl:map-entry key="'τραχυτέρως'" select="'τραχῶς'"/>
          <xsl:map-entry key="'τραχύτης'" select="'τραχύτης'"/>
          <xsl:map-entry key="'τραχύτητα'" select="'τραχύτης'"/>
          <xsl:map-entry key="'τρεις'" select="'τρεῖς'"/>
@@ -25291,7 +27247,9 @@
          <xsl:map-entry key="'τρέμω'" select="'τρέμω'"/>
          <xsl:map-entry key="'τρέπε'" select="'τρέπω'"/>
          <xsl:map-entry key="'τρέπειν'" select="'τρέπω'"/>
+         <xsl:map-entry key="'τρέπεται'" select="'τρέπω'"/>
          <xsl:map-entry key="'τρεπόμενος'" select="'τρέπω'"/>
+         <xsl:map-entry key="'τρεπτὴ'" select="'τρεπτός'"/>
          <xsl:map-entry key="'τρεπτὴν'" select="'τρεπτός'"/>
          <xsl:map-entry key="'τρεπτός'" select="'τρεπτός'"/>
          <xsl:map-entry key="'τρέπω'" select="'τρέπω'"/>
@@ -25321,6 +27279,7 @@
          <xsl:map-entry key="'τρεχει'" select="'τρέχω'"/>
          <xsl:map-entry key="'τρέχεις'" select="'τρέχω'"/>
          <xsl:map-entry key="'τρέχετε'" select="'τρέχω'"/>
+         <xsl:map-entry key="'τρέχοντος'" select="'τρέχω'"/>
          <xsl:map-entry key="'τρέχουσαν'" select="'τρέχω'"/>
          <xsl:map-entry key="'τρέχω'" select="'τρέχω'"/>
          <xsl:map-entry key="'τρεχων'" select="'τρέχων'"/>
@@ -25333,6 +27292,7 @@
          <xsl:map-entry key="'τρια'" select="'τρεῖς'"/>
          <xsl:map-entry key="'τρία'" select="'τρεῖς'"/>
          <xsl:map-entry key="'Τρία'" select="'τρεῖς'"/>
+         <xsl:map-entry key="'τριά'" select="'τριάς'"/>
          <xsl:map-entry key="'Τριάδα'" select="'τριάς'"/>
          <xsl:map-entry key="'τριάδα'" select="'τριάς'"/>
          <xsl:map-entry key="'Τριαδα'" select="'τριάς'"/>
@@ -25362,6 +27322,7 @@
          <xsl:map-entry key="'τρίβου'" select="'τρίβος'"/>
          <xsl:map-entry key="'τριβοῦνοι'" select="'τριβοῦνος'"/>
          <xsl:map-entry key="'τριβοῦνος'" select="'τριβοῦνος'"/>
+         <xsl:map-entry key="'τριβούνῳ'" select="'τριβοῦνος'"/>
          <xsl:map-entry key="'τρίβους'" select="'τρίβος'"/>
          <xsl:map-entry key="'τρίβω'" select="'τρίβω'"/>
          <xsl:map-entry key="'τρίβῳ'" select="'τρίβος'"/>
@@ -25369,6 +27330,8 @@
          <xsl:map-entry key="'τρίγωνος'" select="'τρίγωνος'"/>
          <xsl:map-entry key="'τρίζουσι'" select="'τρίζω'"/>
          <xsl:map-entry key="'τρίζω'" select="'τρίζω'"/>
+         <xsl:map-entry key="'τριήμερος'" select="'τριήμερος'"/>
+         <xsl:map-entry key="'τριημέρου'" select="'τριήμερος'"/>
          <xsl:map-entry key="'τρίθεον'" select="'τρίθεος'"/>
          <xsl:map-entry key="'τρίθεος'" select="'τρίθεος'"/>
          <xsl:map-entry key="'τριμερής'" select="'τριμερής'"/>
@@ -25381,8 +27344,9 @@
          <xsl:map-entry key="'τρισὶν'" select="'τρεῖς'"/>
          <xsl:map-entry key="'τρισμός'" select="'τρισμός'"/>
          <xsl:map-entry key="'τρισμοῦ'" select="'τρισμός'"/>
+         <xsl:map-entry key="'τρισσός'" select="'τρισσός'"/>
          <xsl:map-entry key="'τρισσως'" select="'τρισσῶς'"/>
-         <xsl:map-entry key="'τρισσῶς'" select="'τρισσός'"/>
+         <xsl:map-entry key="'τρισσῶς'" select="'τρισσῶς'"/>
          <xsl:map-entry key="'τρίτειχος'" select="'τρίτειχος'"/>
          <xsl:map-entry key="'τρίτη'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτη'" select="'τρίτος'"/>
@@ -25392,12 +27356,14 @@
          <xsl:map-entry key="'τρίτης'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτης'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτοι'" select="'τρίτος'"/>
+         <xsl:map-entry key="'Τρίτοι'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτοις'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτον'" select="'τρίτος'"/>
          <xsl:map-entry key="'τρίτον'" select="'τρίτος'"/>
          <xsl:map-entry key="'τρίτος'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριτου'" select="'τρίτος'"/>
          <xsl:map-entry key="'τρίτου'" select="'τρίτος'"/>
+         <xsl:map-entry key="'Τριττὸν'" select="'τρισσός'"/>
          <xsl:map-entry key="'τρίτῳ'" select="'τρίτος'"/>
          <xsl:map-entry key="'τριφάρμακον'" select="'τριφάρμακος'"/>
          <xsl:map-entry key="'τριφάρμακος'" select="'τριφάρμακος'"/>
@@ -25405,6 +27371,7 @@
          <xsl:map-entry key="'τρίχες'" select="'θρίξ'"/>
          <xsl:map-entry key="'τριχῶν'" select="'θρίξ'"/>
          <xsl:map-entry key="'τριχῶς'" select="'τριχῶς'"/>
+         <xsl:map-entry key="'Τριχῶς'" select="'τριχῶς'"/>
          <xsl:map-entry key="'τριων'" select="'τρεῖς'"/>
          <xsl:map-entry key="'τριῶν'" select="'τρεῖς'"/>
          <xsl:map-entry key="'τρόμος'" select="'τρόμος'"/>
@@ -25415,10 +27382,12 @@
          <xsl:map-entry key="'τροπας'" select="'τρόπος'"/>
          <xsl:map-entry key="'τροπέω'" select="'τροπέω'"/>
          <xsl:map-entry key="'τροπη'" select="'τρόπος'"/>
+         <xsl:map-entry key="'τροπή'" select="'τροπή'"/>
+         <xsl:map-entry key="'τροπῆς'" select="'τροπή'"/>
          <xsl:map-entry key="'τροπικα'" select="'τροπικός'"/>
          <xsl:map-entry key="'τροπικός'" select="'τροπικός'"/>
-         <xsl:map-entry key="'τροπικως'" select="'τροπικός'"/>
-         <xsl:map-entry key="'τροπικῶς'" select="'τροπικός'"/>
+         <xsl:map-entry key="'τροπικως'" select="'τροπικῶς'"/>
+         <xsl:map-entry key="'τροπικῶς'" select="'τροπικῶς'"/>
          <xsl:map-entry key="'τρόποι'" select="'τρόπος'"/>
          <xsl:map-entry key="'τρόποις'" select="'τρόπος'"/>
          <xsl:map-entry key="'τροποις'" select="'τρόπος'"/>
@@ -25430,6 +27399,7 @@
          <xsl:map-entry key="'τροπόω'" select="'τροπόω'"/>
          <xsl:map-entry key="'τρόπῳ'" select="'τρόπος'"/>
          <xsl:map-entry key="'τρόπων'" select="'τρόπος'"/>
+         <xsl:map-entry key="'Τροφαὶ'" select="'τροφή'"/>
          <xsl:map-entry key="'τροφάς'" select="'τροφή'"/>
          <xsl:map-entry key="'τροφὰς'" select="'τροφή'"/>
          <xsl:map-entry key="'τροφεῖ'" select="'τροφέω'"/>
@@ -25447,7 +27417,7 @@
          <xsl:map-entry key="'Τροφῶν'" select="'τροφή'"/>
          <xsl:map-entry key="'τροφῶν'" select="'τροφή'"/>
          <xsl:map-entry key="'τροχαλός'" select="'τροχαλός'"/>
-         <xsl:map-entry key="'τροχαλῶς'" select="'τροχαλός'"/>
+         <xsl:map-entry key="'τροχαλῶς'" select="'τροχαλῶς'"/>
          <xsl:map-entry key="'τροχιά'" select="'τροχιά'"/>
          <xsl:map-entry key="'τροχιαί'" select="'τροχιά'"/>
          <xsl:map-entry key="'τροχόν'" select="'τροχός'"/>
@@ -25465,33 +27435,42 @@
          <xsl:map-entry key="'τρυγὼν'" select="'τρυγών'"/>
          <xsl:map-entry key="'τρυγών'" select="'τρυγών'"/>
          <xsl:map-entry key="'τρυγῶντες'" select="'τρυγάω'"/>
+         <xsl:map-entry key="'τρυφάω'" select="'τρυφάω'"/>
          <xsl:map-entry key="'τρυφή'" select="'τρυφή'"/>
          <xsl:map-entry key="'Τρυφὴ'" select="'τρυφή'"/>
          <xsl:map-entry key="'τρυφὴ'" select="'τρυφή'"/>
          <xsl:map-entry key="'τρυφήν'" select="'τρυφή'"/>
          <xsl:map-entry key="'τρυφὴν'" select="'τρυφή'"/>
          <xsl:map-entry key="'τρυφῆς'" select="'τρυφή'"/>
+         <xsl:map-entry key="'τρυφῶσι'" select="'τρυφάω'"/>
          <xsl:map-entry key="'τρώγει'" select="'τρώγω'"/>
+         <xsl:map-entry key="'τρώγειν'" select="'τρώγω'"/>
          <xsl:map-entry key="'τρώγομεν'" select="'τρώγω'"/>
          <xsl:map-entry key="'Τρώγομεν'" select="'τρώγω'"/>
          <xsl:map-entry key="'τρώγοντες'" select="'τρώγω'"/>
+         <xsl:map-entry key="'Τρώγοντες'" select="'τρώγω'"/>
          <xsl:map-entry key="'τρώγω'" select="'τρώγω'"/>
          <xsl:map-entry key="'τρώγων'" select="'τρώγω'"/>
          <xsl:map-entry key="'τρωθεῖσα'" select="'τιτρώσκω'"/>
          <xsl:map-entry key="'τρωθέντα'" select="'τιτρώσκω'"/>
          <xsl:map-entry key="'τρωθῆναι'" select="'τιτρώσκω'"/>
+         <xsl:map-entry key="'τρώσασα'" select="'τιτρώσκω'"/>
          <xsl:map-entry key="'τρώσῃ'" select="'τιτρώσκω'"/>
          <xsl:map-entry key="'τυγχάνει'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνεις'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνῃς'" select="'τυγχάνω'"/>
+         <xsl:map-entry key="'τυγχάνον'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνοντα'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνοντες'" select="'τυγχάνω'"/>
+         <xsl:map-entry key="'τυγχανούσης'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνουσιν'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνω'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνων'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυγχάνωσιν'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'Τύμπανόν'" select="'τύμπανος'"/>
          <xsl:map-entry key="'τύμπανος'" select="'τύμπανος'"/>
+         <xsl:map-entry key="'τυπικός'" select="'τυπικός'"/>
+         <xsl:map-entry key="'τυπικῶς'" select="'τυπικῶς'"/>
          <xsl:map-entry key="'τυποι'" select="'τύπος'"/>
          <xsl:map-entry key="'τυποῖ'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυπον'" select="'τύπος'"/>
@@ -25505,12 +27484,15 @@
          <xsl:map-entry key="'τυποῦν'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυποῦντα'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυπούντων'" select="'τυπόω'"/>
+         <xsl:map-entry key="'τύπους'" select="'τύπος'"/>
          <xsl:map-entry key="'τυποῦσθαι'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυποῦσι'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυποῦσιν'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυποῦσίν'" select="'τυπόω'"/>
+         <xsl:map-entry key="'τυποῦται'" select="'τυπόω'"/>
          <xsl:map-entry key="'τυπόω'" select="'τυπόω'"/>
          <xsl:map-entry key="'Τύπτει'" select="'τύπτω'"/>
+         <xsl:map-entry key="'τύπτει'" select="'τύπτω'"/>
          <xsl:map-entry key="'τύπτεις'" select="'τύπτω'"/>
          <xsl:map-entry key="'τυπτηθησόμενον'" select="'τύπτω'"/>
          <xsl:map-entry key="'τύπτοι'" select="'τύπτω'"/>
@@ -25541,7 +27523,9 @@
          <xsl:map-entry key="'τυφλός'" select="'τυφλός'"/>
          <xsl:map-entry key="'Τυφλότης'" select="'τυφλότης'"/>
          <xsl:map-entry key="'τυφλότης'" select="'τυφλότης'"/>
+         <xsl:map-entry key="'τυφλοῦ'" select="'τυφλός'"/>
          <xsl:map-entry key="'τυφλουν'" select="'τυφλόω'"/>
+         <xsl:map-entry key="'τυφλοῦντες'" select="'τυφλόω'"/>
          <xsl:map-entry key="'τυφλοὺς'" select="'τυφλός'"/>
          <xsl:map-entry key="'τυφλοῦσι'" select="'τυφλόω'"/>
          <xsl:map-entry key="'τυφλόω'" select="'τυφλόω'"/>
@@ -25559,6 +27543,7 @@
          <xsl:map-entry key="'τύχη'" select="'τύχη'"/>
          <xsl:map-entry key="'τυχικα'" select="'τυχικός'"/>
          <xsl:map-entry key="'τυχικός'" select="'τυχικός'"/>
+         <xsl:map-entry key="'τυχόντες'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυχόντος'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυχοῦσα'" select="'τυγχάνω'"/>
          <xsl:map-entry key="'τυχουσαν'" select="'τυγχάνω'"/>
@@ -25575,7 +27560,9 @@
          <xsl:map-entry key="'ὕβρεων'" select="'ὕβρις'"/>
          <xsl:map-entry key="'ὕβρεως'" select="'ὕβρις'"/>
          <xsl:map-entry key="'ὑβρίζει'" select="'ὑβρίζω'"/>
+         <xsl:map-entry key="'ὑβρίζειν'" select="'ὑβρίζω'"/>
          <xsl:map-entry key="'ὑβριζομένη'" select="'ὑβρίζω'"/>
+         <xsl:map-entry key="'ὑβριζόμενον'" select="'ὑβρίζω'"/>
          <xsl:map-entry key="'ὑβριζόμενος'" select="'ὑβρίζω'"/>
          <xsl:map-entry key="'ὑβριζομένους'" select="'ὑβρίζω'"/>
          <xsl:map-entry key="'ὑβρίζω'" select="'ὑβρίζω'"/>
@@ -25593,12 +27580,15 @@
          <xsl:map-entry key="'ὕβριστος'" select="'ὕβριστος'"/>
          <xsl:map-entry key="'ὑβριστοῦ'" select="'ὑβριστής'"/>
          <xsl:map-entry key="'ὑγεία'" select="'ὑγεία'"/>
+         <xsl:map-entry key="'ὑγείᾳ'" select="'ὑγεία'"/>
          <xsl:map-entry key="'ὑγεῖαι'" select="'ὑγεία'"/>
          <xsl:map-entry key="'ὑγείαν'" select="'ὑγεία'"/>
          <xsl:map-entry key="'ὑγείας'" select="'ὑγεία'"/>
+         <xsl:map-entry key="'ὑγιαίνει'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαίνειν'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαίνῃ'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαίνοντα'" select="'ὑγιαίνω'"/>
+         <xsl:map-entry key="'ὑγιαίνοντι'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαινόντων'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαίνουσιν'" select="'ὑγιαίνω'"/>
          <xsl:map-entry key="'ὑγιαίνω'" select="'ὑγιαίνω'"/>
@@ -25613,11 +27603,12 @@
          <xsl:map-entry key="'ὑγιὴς'" select="'ὑγιής'"/>
          <xsl:map-entry key="'ὑγιής'" select="'ὑγιής'"/>
          <xsl:map-entry key="'ὑγιοῦς'" select="'ὑγιής'"/>
-         <xsl:map-entry key="'ὑγιῶς'" select="'ὑγιής'"/>
+         <xsl:map-entry key="'ὑγιῶς'" select="'ὑγιῶς'"/>
          <xsl:map-entry key="'ὑγρὸς'" select="'ὑγρός'"/>
          <xsl:map-entry key="'ὑγρός'" select="'ὑγρός'"/>
          <xsl:map-entry key="'ὑγρότης'" select="'ὑγρότης'"/>
          <xsl:map-entry key="'ὑγρότητος'" select="'ὑγρότης'"/>
+         <xsl:map-entry key="'ὑγρῷ'" select="'ὑγρός'"/>
          <xsl:map-entry key="'ὕδασι'" select="'ὕδωρ'"/>
          <xsl:map-entry key="'ὕδασιν'" select="'ὕδωρ'"/>
          <xsl:map-entry key="'ὕδατα'" select="'ὕδωρ'"/>
@@ -25667,6 +27658,8 @@
          <xsl:map-entry key="'υἱῶν'" select="'υἱός'"/>
          <xsl:map-entry key="'υλαι'" select="'ὕλη'"/>
          <xsl:map-entry key="'ὕλαι'" select="'ὕλη'"/>
+         <xsl:map-entry key="'ὗλαι'" select="'ὕλη'"/>
+         <xsl:map-entry key="'ὗλαί'" select="'ὕλη'"/>
          <xsl:map-entry key="'υλαις'" select="'ὕλη'"/>
          <xsl:map-entry key="'ὕλαις'" select="'ὕλη'"/>
          <xsl:map-entry key="'ὑλακτεῖ'" select="'ὑλακτέω'"/>
@@ -25686,6 +27679,8 @@
          <xsl:map-entry key="'ὑλικῶν'" select="'ὑλικός'"/>
          <xsl:map-entry key="'ὑλοχαρὴς'" select="'ὑλοχαρής'"/>
          <xsl:map-entry key="'ὑλοχαρής'" select="'ὑλοχαρής'"/>
+         <xsl:map-entry key="'ὑλώδης'" select="'ὑλώδης'"/>
+         <xsl:map-entry key="'ὑλώδους'" select="'ὑλώδης'"/>
          <xsl:map-entry key="'ὑλῶν'" select="'ὕλη'"/>
          <xsl:map-entry key="'υλων'" select="'ὕλη'"/>
          <xsl:map-entry key="'Ὑμέναιον'" select="'ὑμέναιος'"/>
@@ -25713,9 +27708,8 @@
          <xsl:map-entry key="'ὑπαγορεύει'" select="'ὑπαγορεύω'"/>
          <xsl:map-entry key="'ὑπαγορεύω'" select="'ὑπαγορεύω'"/>
          <xsl:map-entry key="'ὑπάγω'" select="'ὑπάγω'"/>
-         <xsl:map-entry key="'ὑπαίθριος'" select="'ὑπαίθριος'"/>
          <xsl:map-entry key="'ὕπαιθρον'" select="'ὕπαιθρος'"/>
-         <xsl:map-entry key="'ὕπαιθρος'" select="'ὑπαίθριος'"/>
+         <xsl:map-entry key="'ὕπαιθρος'" select="'ὕπαιθρος'"/>
          <xsl:map-entry key="'ὕπαιθρός'" select="'ὕπαιθρος'"/>
          <xsl:map-entry key="'ὑπακοή'" select="'ὑπακοή'"/>
          <xsl:map-entry key="'ὑπακοὴν'" select="'ὑπακοή'"/>
@@ -25759,6 +27753,7 @@
          <xsl:map-entry key="'ὑπάρχοντας'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπάρχοντος'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπαρχόντων'" select="'ὑπάρχω'"/>
+         <xsl:map-entry key="'ὕπαρχος'" select="'ὕπαρχος'"/>
          <xsl:map-entry key="'υπαρχουσα'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπάρχουσαν'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπάρχω'" select="'ὑπάρχω'"/>
@@ -25772,9 +27767,9 @@
          <xsl:map-entry key="'υπεδεξατο'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑπεδέξατο'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑπέθηκε'" select="'ὑποτίθημι'"/>
-         <xsl:map-entry key="'ὑπεἰσειμι'" select="'ὑπεἰσειμι'"/>
-         <xsl:map-entry key="'ὑπεισήει'" select="'ὑπεἰσειμι'"/>
-         <xsl:map-entry key="'ὑπεισῄει'" select="'ὑπεἰσειμι'"/>
+         <xsl:map-entry key="'ὑπείσειμι'" select="'ὑπείσειμι'"/>
+         <xsl:map-entry key="'ὑπεισήει'" select="'ὑπείσειμι'"/>
+         <xsl:map-entry key="'ὑπεισῄει'" select="'ὑπείσειμι'"/>
          <xsl:map-entry key="'ὑπεκκόπτουσι'" select="'ὑπεκκόπτω'"/>
          <xsl:map-entry key="'ὑπεκκόπτω'" select="'ὑπεκκόπτω'"/>
          <xsl:map-entry key="'ὑπεκκόψῃ'" select="'ὑπεκκόπτω'"/>
@@ -25783,6 +27778,7 @@
          <xsl:map-entry key="'ὑπελθὼν'" select="'ὑπέρχομαι'"/>
          <xsl:map-entry key="'ὑπέμεινά'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'υπεμεινε'" select="'ὑπομένω'"/>
+         <xsl:map-entry key="'ὑπέμεινε'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπέμεινεν'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπεμφαῖνον'" select="'ὑπεμφαίνω'"/>
          <xsl:map-entry key="'ὑπεμφαίνουσί'" select="'ὑπεμφαίνω'"/>
@@ -25825,13 +27821,15 @@
          <xsl:map-entry key="'υπερβαλλουσης'" select="'ὑπερβάλλω'"/>
          <xsl:map-entry key="'ὑπερβαλλούσης'" select="'ὑπερβάλλω'"/>
          <xsl:map-entry key="'ὑπερβάλλω'" select="'ὑπερβάλλω'"/>
+         <xsl:map-entry key="'ὑπερβατός'" select="'ὑπερβατός'"/>
+         <xsl:map-entry key="'Ὑπερβατῶς'" select="'ὑπερβατῶς'"/>
          <xsl:map-entry key="'ὑπερβεβηκυῖαν'" select="'ὑπερβαίνω'"/>
          <xsl:map-entry key="'ὑπερβολὰς'" select="'ὑπερβολή'"/>
          <xsl:map-entry key="'ὑπερβολή'" select="'ὑπερβολή'"/>
          <xsl:map-entry key="'ὑπερβολὴν'" select="'ὑπερβολή'"/>
          <xsl:map-entry key="'υπερβολης'" select="'ὑπερβολή'"/>
          <xsl:map-entry key="'ὑπερβολικός'" select="'ὑπερβολικός'"/>
-         <xsl:map-entry key="'ὑπερβολικῶς'" select="'ὑπερβολικός'"/>
+         <xsl:map-entry key="'ὑπερβολικῶς'" select="'ὑπερβολικῶς'"/>
          <xsl:map-entry key="'ὑπερεῖδον'" select="'ὑπερείδω'"/>
          <xsl:map-entry key="'ὑπερεπαινετὴ'" select="'ὑπερεπαινετός'"/>
          <xsl:map-entry key="'ὑπερεπαινετός'" select="'ὑπερεπαινετός'"/>
@@ -25850,6 +27848,7 @@
          <xsl:map-entry key="'ὑπερηφάνου'" select="'ὑπερήφανος'"/>
          <xsl:map-entry key="'ὑπερηφάνῳ'" select="'ὑπερήφανος'"/>
          <xsl:map-entry key="'ὑπερηφάνων'" select="'ὑπερήφανος'"/>
+         <xsl:map-entry key="'ὑπέρθεσις'" select="'ὑπέρθεσις'"/>
          <xsl:map-entry key="'ὑπεριδόντα'" select="'ὑπερεῖδον'"/>
          <xsl:map-entry key="'υπερισχυει'" select="'ὑπερισχύω'"/>
          <xsl:map-entry key="'ὑπερισχύω'" select="'ὑπερισχύω'"/>
@@ -25879,6 +27878,7 @@
          <xsl:map-entry key="'Ὑπερῷον'" select="'ὑπερῷον'"/>
          <xsl:map-entry key="'ὑπερῷον'" select="'ὑπερῷον'"/>
          <xsl:map-entry key="'ὑπέστη'" select="'ὑφίστημι'"/>
+         <xsl:map-entry key="'ὑπέστησαν'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑπέσχετο'" select="'ὑπέχω'"/>
          <xsl:map-entry key="'ὑπετάγη'" select="'ὑποτάσσω'"/>
          <xsl:map-entry key="'ὑπετάξαμεν'" select="'ὑποτάσσω'"/>
@@ -25891,6 +27891,7 @@
          <xsl:map-entry key="'ὑπήκοος'" select="'ὑπήκοος'"/>
          <xsl:map-entry key="'ὑπήντησαν'" select="'ὑπαντάω'"/>
          <xsl:map-entry key="'ὑπηρεσία'" select="'ὑπηρεσία'"/>
+         <xsl:map-entry key="'ὑπηρεσίαις'" select="'ὑπηρεσία'"/>
          <xsl:map-entry key="'ὑπηρέτας'" select="'ὑπηρέτης'"/>
          <xsl:map-entry key="'ὑπηρετέω'" select="'ὑπηρετέω'"/>
          <xsl:map-entry key="'ὑπηρέτης'" select="'ὑπηρέτης'"/>
@@ -25901,6 +27902,7 @@
          <xsl:map-entry key="'ὑπηρετῶν'" select="'ὑπηρέτης'"/>
          <xsl:map-entry key="'υπηρξαν'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπῆρχέν'" select="'ὑπάρχω'"/>
+         <xsl:map-entry key="'ὑπῆρχεν'" select="'ὑπάρχω'"/>
          <xsl:map-entry key="'ὑπισχνείσθωσαν'" select="'ὑπισχνέομαι'"/>
          <xsl:map-entry key="'ὑπισχνέομαι'" select="'ὑπισχνέομαι'"/>
          <xsl:map-entry key="'ὑπισχνούμενος'" select="'ὑπισχνέομαι'"/>
@@ -25910,6 +27912,7 @@
          <xsl:map-entry key="'ὕπνοις'" select="'ὕπνος'"/>
          <xsl:map-entry key="'ὑπνοῖς'" select="'ὑπνόω'"/>
          <xsl:map-entry key="'ὕπνον'" select="'ὕπνος'"/>
+         <xsl:map-entry key="'Ὕπνον'" select="'ὕπνος'"/>
          <xsl:map-entry key="'ὕπνος'" select="'ὕπνος'"/>
          <xsl:map-entry key="'Ὕπνος'" select="'ὕπνος'"/>
          <xsl:map-entry key="'ὕπνου'" select="'ὕπνος'"/>
@@ -25918,12 +27921,16 @@
          <xsl:map-entry key="'ὕπνους'" select="'ὕπνος'"/>
          <xsl:map-entry key="'ὑπνόω'" select="'ὑπνόω'"/>
          <xsl:map-entry key="'ὕπνῳ'" select="'ὕπνος'"/>
+         <xsl:map-entry key="'Ὕπνῳ'" select="'ὕπνος'"/>
          <xsl:map-entry key="'ὑπνώδης'" select="'ὑπνώδης'"/>
          <xsl:map-entry key="'ὑπνώσεις'" select="'ὑπνόω'"/>
+         <xsl:map-entry key="'ὑπνώσω'" select="'ὑπνόω'"/>
          <xsl:map-entry key="'ὑπνωτικὸν'" select="'ὑπνωτικός'"/>
          <xsl:map-entry key="'ὑπνωτικός'" select="'ὑπνωτικός'"/>
          <xsl:map-entry key="'ὑποβαλεῖ'" select="'ὑποβάλλω'"/>
+         <xsl:map-entry key="'ὑποβαλεῖν'" select="'ὑποβάλλω'"/>
          <xsl:map-entry key="'ὑποβάλλει'" select="'ὑποβάλλω'"/>
+         <xsl:map-entry key="'ὑποβάλλεσθαι'" select="'ὑποβάλλω'"/>
          <xsl:map-entry key="'ὑποβάλλοντα'" select="'ὑποβάλλω'"/>
          <xsl:map-entry key="'ὑποβάλλοντες'" select="'ὑποβάλλω'"/>
          <xsl:map-entry key="'ὑποβάλλοντος'" select="'ὑποβάλλω'"/>
@@ -25938,6 +27945,7 @@
          <xsl:map-entry key="'ὑπογογγυζόντων'" select="'ὑπογογγύζω'"/>
          <xsl:map-entry key="'ὑπογογγύζω'" select="'ὑπογογγύζω'"/>
          <xsl:map-entry key="'ὑπογραμμοί'" select="'ὑπογραμμός'"/>
+         <xsl:map-entry key="'ὑπογραμμὸν'" select="'ὑπογραμμός'"/>
          <xsl:map-entry key="'ὑπογραμμός'" select="'ὑπογραμμός'"/>
          <xsl:map-entry key="'ὑπογράφει'" select="'ὑπογράφω'"/>
          <xsl:map-entry key="'ὑπογράφειν'" select="'ὑπογράφω'"/>
@@ -25945,6 +27953,7 @@
          <xsl:map-entry key="'ὑπογραφή'" select="'ὑπογραφή'"/>
          <xsl:map-entry key="'ὑπογράφω'" select="'ὑπογράφω'"/>
          <xsl:map-entry key="'ὑπογράφωσιν'" select="'ὑπογράφω'"/>
+         <xsl:map-entry key="'ὑποδεέστερόν'" select="'ὑποδεής'"/>
          <xsl:map-entry key="'ὑποδεεστέρους'" select="'ὑποδεής'"/>
          <xsl:map-entry key="'ὑποδεής'" select="'ὑποδεής'"/>
          <xsl:map-entry key="'ὑπόδειγμα'" select="'ὑπόδειγμα'"/>
@@ -25960,10 +27969,12 @@
          <xsl:map-entry key="'υποδεξασθαι'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδέξασθαι'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδέξῃ'" select="'ὑποδέχομαι'"/>
+         <xsl:map-entry key="'ὑποδέξηται'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδεξώμεθα'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδέχεται'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδέχομαι'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδεχόμεθα'" select="'ὑποδέχομαι'"/>
+         <xsl:map-entry key="'ὑποδεχόμεναι'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδεχομένη'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδεχομένοις'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'υποδεχομενον'" select="'ὑποδέχομαι'"/>
@@ -25972,6 +27983,8 @@
          <xsl:map-entry key="'ὑποδεχομένους'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑποδέχονται'" select="'ὑποδέχομαι'"/>
          <xsl:map-entry key="'ὑπόδημα'" select="'ὑπόδημα'"/>
+         <xsl:map-entry key="'ὑποδιάκονος'" select="'ὑποδιάκονος'"/>
+         <xsl:map-entry key="'ὑποδιακόνους'" select="'ὑποδιάκονος'"/>
          <xsl:map-entry key="'ὑπόδουλον'" select="'ὑπόδουλος'"/>
          <xsl:map-entry key="'ὑπόδουλος'" select="'ὑπόδουλος'"/>
          <xsl:map-entry key="'ὑποδοχή'" select="'ὑποδοχή'"/>
@@ -25993,6 +28006,10 @@
          <xsl:map-entry key="'ὑποκείμενα'" select="'ὑπόκειμαι'"/>
          <xsl:map-entry key="'ὑποκειμένου'" select="'ὑπόκειμαι'"/>
          <xsl:map-entry key="'υποκειμενωι'" select="'ὑπόκειμαι'"/>
+         <xsl:map-entry key="'ὑπόκεινται'" select="'ὑπόκειμαι'"/>
+         <xsl:map-entry key="'ὑποκεῖσθαι'" select="'ὑπόκειμαι'"/>
+         <xsl:map-entry key="'Ὑπόκειται'" select="'ὑπόκειμαι'"/>
+         <xsl:map-entry key="'ὑπόκειται'" select="'ὑπόκειμαι'"/>
          <xsl:map-entry key="'υποκεται'" select="'ὑπόκειμαι '"/>
          <xsl:map-entry key="'υποκινειν'" select="'ὑποκινέω'"/>
          <xsl:map-entry key="'ὑποκινέω'" select="'ὑποκινέω'"/>
@@ -26008,6 +28025,7 @@
          <xsl:map-entry key="'ὑποκριτής'" select="'ὑποκριτής'"/>
          <xsl:map-entry key="'ὑποκρουέτω'" select="'ὑποκρούω'"/>
          <xsl:map-entry key="'ὑποκρούω'" select="'ὑποκρούω'"/>
+         <xsl:map-entry key="'ὑπολαβόντες'" select="'ὑπολαμβάνω'"/>
          <xsl:map-entry key="'υπολαβουσι'" select="'ὑπολαμβάνω'"/>
          <xsl:map-entry key="'ὑπολαμβάνει'" select="'ὑπολαμβάνω'"/>
          <xsl:map-entry key="'υπολαμβανεται'" select="'ὑπολαμβάνω'"/>
@@ -26018,6 +28036,8 @@
          <xsl:map-entry key="'ὑπολελημμένου'" select="'ὑπολαμβάνω'"/>
          <xsl:map-entry key="'ὑποληπτέον'" select="'ὑποληπτέος'"/>
          <xsl:map-entry key="'ὑποληπτέος'" select="'ὑποληπτέος'"/>
+         <xsl:map-entry key="'ὑπολήψεται'" select="'ὑπολαμβάνω'"/>
+         <xsl:map-entry key="'ὑπολήψεως'" select="'ὑπόληψις'"/>
          <xsl:map-entry key="'ὑπόληψις'" select="'ὑπόληψις'"/>
          <xsl:map-entry key="'ὑπομείναντας'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπομείνας'" select="'ὑπομένω'"/>
@@ -26028,6 +28048,7 @@
          <xsl:map-entry key="'ὑπομένειν'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'υπομενετωσαν'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπομενέτωσαν'" select="'ὑπομένω'"/>
+         <xsl:map-entry key="'ὑπομένοντος'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπομένω'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπομένωμεν'" select="'ὑπομένω'"/>
          <xsl:map-entry key="'ὑπομένων'" select="'ὑπομένω'"/>
@@ -26057,6 +28078,7 @@
          <xsl:map-entry key="'ὑποπιάζειν'" select="'ὑποπιάζω'"/>
          <xsl:map-entry key="'ὑποπιάζω'" select="'ὑποπιάζω'"/>
          <xsl:map-entry key="'ὑποπιάζων'" select="'ὑποπιάζω'"/>
+         <xsl:map-entry key="'ὑποπιάσαντες'" select="'ὑποπιάζω'"/>
          <xsl:map-entry key="'ὑποπιπτει'" select="'ὑποπίπτω'"/>
          <xsl:map-entry key="'ὑποπίπτει'" select="'ὑποπίπτω'"/>
          <xsl:map-entry key="'ὑποπίπτειν'" select="'ὑποπίπτω'"/>
@@ -26070,6 +28092,9 @@
          <xsl:map-entry key="'ὑποσπείροντες'" select="'ὑποσπείρω'"/>
          <xsl:map-entry key="'ὑποσπείρω'" select="'ὑποσπείρω'"/>
          <xsl:map-entry key="'ὑποστάσει'" select="'ὑπόστασις'"/>
+         <xsl:map-entry key="'ὑποστάσεις'" select="'ὑπόστασις'"/>
+         <xsl:map-entry key="'ὑποστάσεων'" select="'ὑπόστασις'"/>
+         <xsl:map-entry key="'ὑποστάσεως'" select="'ὑπόστασις'"/>
          <xsl:map-entry key="'ὑπόστασιν'" select="'ὑπόστασις'"/>
          <xsl:map-entry key="'ὑπόστασις'" select="'ὑπόστασις'"/>
          <xsl:map-entry key="'Ὑποστηρίζει'" select="'ὑποστηρίζω'"/>
@@ -26083,12 +28108,16 @@
          <xsl:map-entry key="'ὑποστροφή'" select="'ὑποστροφή'"/>
          <xsl:map-entry key="'ὑποστροφῆς'" select="'ὑποστροφή'"/>
          <xsl:map-entry key="'ὑπόστρωμα'" select="'ὑπόστρωμα'"/>
+         <xsl:map-entry key="'ὑποσύρῃ'" select="'ὑποσύρω'"/>
          <xsl:map-entry key="'ὑποσυρίζουσιν'" select="'ὑποσυρίζω'"/>
          <xsl:map-entry key="'ὑποσυρίζω'" select="'ὑποσυρίζω'"/>
          <xsl:map-entry key="'ὑποσύρουσα'" select="'ὑποσύρω'"/>
          <xsl:map-entry key="'ὑποσύρω'" select="'ὑποσύρω'"/>
+         <xsl:map-entry key="'ὑποσχέσεως'" select="'ὑπόσχεσις'"/>
+         <xsl:map-entry key="'ὑποσχέσθαι'" select="'ὑπισχνέομαι'"/>
          <xsl:map-entry key="'ὑπόσχεσις'" select="'ὑπόσχεσις'"/>
          <xsl:map-entry key="'ὑπόσχοιτο'" select="'ὑπέχω'"/>
+         <xsl:map-entry key="'ὑποσχόμενος'" select="'ὑπισχνέομαι'"/>
          <xsl:map-entry key="'ὑποταγὴ'" select="'ὑποταγή'"/>
          <xsl:map-entry key="'υποταγη'" select="'ὑποταγή'"/>
          <xsl:map-entry key="'Υποταγη'" select="'ὑποταγή'"/>
@@ -26109,12 +28138,16 @@
          <xsl:map-entry key="'ὑποταράττοντες'" select="'ὑποταράσσω'"/>
          <xsl:map-entry key="'ὑποτασσόμενός'" select="'ὑποτάσσω'"/>
          <xsl:map-entry key="'ὑποτάσσω'" select="'ὑποτάσσω'"/>
+         <xsl:map-entry key="'ὑποτάττεσθαι'" select="'ὑποτάσσω'"/>
          <xsl:map-entry key="'ὑποτιθεμένων'" select="'ὑποτίθημι'"/>
          <xsl:map-entry key="'ὑποτίθενται'" select="'ὑποτίθημι'"/>
          <xsl:map-entry key="'ὑποτίθημι'" select="'ὑποτίθημι'"/>
+         <xsl:map-entry key="'ὑποτρέχει'" select="'ὑποτρέχω'"/>
+         <xsl:map-entry key="'ὑποτρέχουσα'" select="'ὑποτρέχω'"/>
          <xsl:map-entry key="'ὑποτρέχω'" select="'ὑποτρέχω'"/>
          <xsl:map-entry key="'ὑποτύπωσιν'" select="'ὑποτύπωσις'"/>
          <xsl:map-entry key="'ὑποτύπωσις'" select="'ὑποτύπωσις'"/>
+         <xsl:map-entry key="'ὑπουράνιος'" select="'ὑπουράνιος'"/>
          <xsl:map-entry key="'ὑποφαῖνον'" select="'ὑποφαίνω'"/>
          <xsl:map-entry key="'ὑποφαίνω'" select="'ὑποφαίνω'"/>
          <xsl:map-entry key="'ὑποφέρει'" select="'ὑποφέρω'"/>
@@ -26137,7 +28170,9 @@
          <xsl:map-entry key="'ὑποχωροῦσιν'" select="'ὑποχωρέω'"/>
          <xsl:map-entry key="'ὑποχωρῶν'" select="'ὑποχωρέω'"/>
          <xsl:map-entry key="'ὑπόψια'" select="'ὑπόψιος'"/>
+         <xsl:map-entry key="'ὑποψία'" select="'ὑποψία'"/>
          <xsl:map-entry key="'υποψιαν'" select="'ὑπόψια'"/>
+         <xsl:map-entry key="'ὑποψίας'" select="'ὑποψία'"/>
          <xsl:map-entry key="'ὑπόψυχροι'" select="'ὑπόψυχρος'"/>
          <xsl:map-entry key="'ὑπόψυχρος'" select="'ὑπόψυχρος'"/>
          <xsl:map-entry key="'υπωπιαζεν'" select="'ὑπωπιάζω'"/>
@@ -26166,6 +28201,7 @@
          <xsl:map-entry key="'υστερων'" select="'ὑστερέω'"/>
          <xsl:map-entry key="'ὕφαιμοι'" select="'ὕφαιμος'"/>
          <xsl:map-entry key="'ὕφαιμος'" select="'ὕφαιμος'"/>
+         <xsl:map-entry key="'ὑφαιρεῖ'" select="'ὑφαιρέω'"/>
          <xsl:map-entry key="'ὑφαιρέω'" select="'ὑφαιρέω'"/>
          <xsl:map-entry key="'ὑφαιρούμενος'" select="'ὑφαιρέω'"/>
          <xsl:map-entry key="'ὕφαλος'" select="'ὕφαλος'"/>
@@ -26173,10 +28209,13 @@
          <xsl:map-entry key="'ὑφάπτω'" select="'ὑφάπτω'"/>
          <xsl:map-entry key="'ὑφαρπάζουσιν'" select="'ὑφαρπάζω'"/>
          <xsl:map-entry key="'ὑφαρπάζω'" select="'ὑφαρπάζω'"/>
+         <xsl:map-entry key="'ὑφέστηκεν'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑφεστὸς'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑφεστὼς'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'υφισταμενη'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'υφισταμενου'" select="'ὑφίστημι'"/>
+         <xsl:map-entry key="'ὑφιστάνομεν'" select="'ὑφίστημι'"/>
+         <xsl:map-entry key="'ὑφίσταται'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑφίστατο'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑφίστημι'" select="'ὑφίστημι'"/>
          <xsl:map-entry key="'ὑφοράω'" select="'ὑφοράω'"/>
@@ -26193,6 +28232,7 @@
          <xsl:map-entry key="'ὑψηλοτέρους'" select="'ὑψηλός'"/>
          <xsl:map-entry key="'ὑψηλοῦ'" select="'ὑψηλός'"/>
          <xsl:map-entry key="'ὑψηλοὺς'" select="'ὑψηλός'"/>
+         <xsl:map-entry key="'Ὑψηλοὺς'" select="'ὑψηλός'"/>
          <xsl:map-entry key="'ὑψηλῶν'" select="'ὑψηλός'"/>
          <xsl:map-entry key="'ὑψιπέτης'" select="'ὑψιπέτης'"/>
          <xsl:map-entry key="'ὑψίστοις'" select="'ὕψιστος'"/>
@@ -26223,6 +28263,8 @@
          <xsl:map-entry key="'ὑψωθεῖσαν'" select="'ὑψόω'"/>
          <xsl:map-entry key="'ὑψωθέντα'" select="'ὑψόω'"/>
          <xsl:map-entry key="'ὑψωθέντας'" select="'ὑψόω'"/>
+         <xsl:map-entry key="'ὑψωθέντων'" select="'ὑψόω'"/>
+         <xsl:map-entry key="'ὑψωθῇ'" select="'ὑψόω'"/>
          <xsl:map-entry key="'υψωθηναι'" select="'ὑψόω'"/>
          <xsl:map-entry key="'ὑψωθήσεται'" select="'ὑψόω'"/>
          <xsl:map-entry key="'ὑψωθῶ'" select="'ὑψόω'"/>
@@ -26241,6 +28283,7 @@
          <xsl:map-entry key="'φαγεῖν'" select="'ἐσθίω'"/>
          <xsl:map-entry key="'φάγεσθε'" select="'ἐσθίω'"/>
          <xsl:map-entry key="'φάγεται'" select="'ἐσθίω'"/>
+         <xsl:map-entry key="'φάγετε'" select="'ἐσθίω'"/>
          <xsl:map-entry key="'φάγητε'" select="'ἐσθίω'"/>
          <xsl:map-entry key="'φάγοι'" select="'ἐσθίω'"/>
          <xsl:map-entry key="'φάγομαι'" select="'ἐσθίω'"/>
@@ -26286,13 +28329,14 @@
          <xsl:map-entry key="'φανερὸν'" select="'φανερός'"/>
          <xsl:map-entry key="'φανερος'" select="'φανερός'"/>
          <xsl:map-entry key="'φανερός'" select="'φανερός'"/>
+         <xsl:map-entry key="'φανεροῦνται'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανερουσαν'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανεροῦσαν'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανεροῦσι'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανερόω'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανερωθήσεται'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανερων'" select="'φανερός'"/>
-         <xsl:map-entry key="'φανερῶς'" select="'φανερός'"/>
+         <xsl:map-entry key="'φανερῶς'" select="'φανερῶς'"/>
          <xsl:map-entry key="'φανερώση'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανερώσῃ'" select="'φανερόω'"/>
          <xsl:map-entry key="'φανέρωσον'" select="'φανερόω'"/>
@@ -26330,6 +28374,7 @@
          <xsl:map-entry key="'φάος'" select="'φάος'"/>
          <xsl:map-entry key="'φάραγγα'" select="'φάραγξ'"/>
          <xsl:map-entry key="'Φάραγγες'" select="'φάραγξ'"/>
+         <xsl:map-entry key="'Φάραγγές'" select="'φάραγξ'"/>
          <xsl:map-entry key="'φαράγγων'" select="'φάραγξ'"/>
          <xsl:map-entry key="'φάραγξ'" select="'φάραγξ'"/>
          <xsl:map-entry key="'Φαραὼ'" select="'Φαραώ'"/>
@@ -26339,6 +28384,7 @@
          <xsl:map-entry key="'φαρισαῖος'" select="'φαρισαῖος'"/>
          <xsl:map-entry key="'φαρισαίους'" select="'φαρισαῖος'"/>
          <xsl:map-entry key="'φαρισαίων'" select="'φαρισαῖος'"/>
+         <xsl:map-entry key="'φάρμακα'" select="'φάρμακον'"/>
          <xsl:map-entry key="'φαρμακεύω'" select="'φαρμακεύω'"/>
          <xsl:map-entry key="'φαρμάκοις'" select="'φάρμακον'"/>
          <xsl:map-entry key="'φαρμακον'" select="'φάρμακον'"/>
@@ -26355,19 +28401,23 @@
          <xsl:map-entry key="'φασιν'" select="'φημί'"/>
          <xsl:map-entry key="'φασὶν'" select="'φημί'"/>
          <xsl:map-entry key="'φάσκοντος'" select="'φάσκω'"/>
+         <xsl:map-entry key="'φασκούσης'" select="'φάσκω'"/>
          <xsl:map-entry key="'φάσκω'" select="'φάσκω'"/>
          <xsl:map-entry key="'φάσκωμεν'" select="'φάσκω'"/>
+         <xsl:map-entry key="'φάσκων'" select="'φάσκω'"/>
          <xsl:map-entry key="'φάσμα'" select="'φάσμα'"/>
          <xsl:map-entry key="'φάσμασι'" select="'φάσμα'"/>
          <xsl:map-entry key="'φάσμασιν'" select="'φάσμα'"/>
          <xsl:map-entry key="'φάσματα'" select="'φάσμα'"/>
          <xsl:map-entry key="'φασμάτων'" select="'φάσμα'"/>
          <xsl:map-entry key="'φασματων'" select="'φάσμα'"/>
+         <xsl:map-entry key="'Φάτναι'" select="'φάτνη'"/>
          <xsl:map-entry key="'φάτνη'" select="'φάτνη'"/>
          <xsl:map-entry key="'φάτνην'" select="'φάτνη'"/>
          <xsl:map-entry key="'φαῦλα'" select="'φαῦλος'"/>
          <xsl:map-entry key="'φαύλας'" select="'φαῦλος'"/>
          <xsl:map-entry key="'φαύλη'" select="'φαῦλος'"/>
+         <xsl:map-entry key="'Φαύλη'" select="'φαῦλος'"/>
          <xsl:map-entry key="'φαυλίζει'" select="'φαυλίζω'"/>
          <xsl:map-entry key="'φαυλίζω'" select="'φαυλίζω'"/>
          <xsl:map-entry key="'φαύλοις'" select="'φαῦλος'"/>
@@ -26375,7 +28425,7 @@
          <xsl:map-entry key="'φαῦλος'" select="'φαῦλος'"/>
          <xsl:map-entry key="'φαύλους'" select="'φαῦλος'"/>
          <xsl:map-entry key="'φαύλων'" select="'φαῦλος'"/>
-         <xsl:map-entry key="'φαύλως'" select="'φαῦλος'"/>
+         <xsl:map-entry key="'φαύλως'" select="'φαύλως'"/>
          <xsl:map-entry key="'Φαῦσιν'" select="'φαῦσις'"/>
          <xsl:map-entry key="'φαῦσις'" select="'φαῦσις'"/>
          <xsl:map-entry key="'φδινοπωρινόν'" select="'φθινοπωρινός'"/>
@@ -26436,6 +28486,7 @@
          <xsl:map-entry key="'φήμης'" select="'φήμη'"/>
          <xsl:map-entry key="'φημί'" select="'φημί'"/>
          <xsl:map-entry key="'Φημὶ'" select="'φημί'"/>
+         <xsl:map-entry key="'φήσαντος'" select="'φημί'"/>
          <xsl:map-entry key="'φήσας'" select="'φημί'"/>
          <xsl:map-entry key="'φήσι'" select="'φημί'"/>
          <xsl:map-entry key="'φησί'" select="'φημί'"/>
@@ -26453,6 +28504,7 @@
          <xsl:map-entry key="'φθαρήσεται'" select="'φθείρω'"/>
          <xsl:map-entry key="'φθαρτα'" select="'φθαρτός'"/>
          <xsl:map-entry key="'φθαρτὰς'" select="'φθαρτός'"/>
+         <xsl:map-entry key="'φθαρτήν'" select="'φθαρτός'"/>
          <xsl:map-entry key="'φθαρτῆς'" select="'φθαρτός'"/>
          <xsl:map-entry key="'φθαρτικαὶ'" select="'φθαρτικός'"/>
          <xsl:map-entry key="'φθαρτικὴ'" select="'φθαρτικός'"/>
@@ -26471,6 +28523,8 @@
          <xsl:map-entry key="'φθαρτων'" select="'φθαρτός'"/>
          <xsl:map-entry key="'φθαρτῶν'" select="'φθαρτός'"/>
          <xsl:map-entry key="'φθάσαι'" select="'φθάνω'"/>
+         <xsl:map-entry key="'φθάσαντες'" select="'φθάνω'"/>
+         <xsl:map-entry key="'φθασάντων'" select="'φθάνω'"/>
          <xsl:map-entry key="'φθάσει'" select="'φθάνω'"/>
          <xsl:map-entry key="'φθάσῃ'" select="'φθάνω'"/>
          <xsl:map-entry key="'φθάσωσιν'" select="'φθάνω'"/>
@@ -26488,6 +28542,7 @@
          <xsl:map-entry key="'φθείρ'" select="'φθείρ'"/>
          <xsl:map-entry key="'φθειρει'" select="'φθείρω'"/>
          <xsl:map-entry key="'φθείρει'" select="'φθείρω'"/>
+         <xsl:map-entry key="'φθείρεται'" select="'φθείρω'"/>
          <xsl:map-entry key="'φθειρόμενον'" select="'φθείρω'"/>
          <xsl:map-entry key="'φθειρόμενος'" select="'φθείρω'"/>
          <xsl:map-entry key="'φθειρομένου'" select="'φθείρω'"/>
@@ -26499,8 +28554,10 @@
          <xsl:map-entry key="'φθινοπωρινός'" select="'φθινοπωρινός'"/>
          <xsl:map-entry key="'φθονεῖ'" select="'φθονέω'"/>
          <xsl:map-entry key="'φθονεῖν'" select="'φθονέω'"/>
+         <xsl:map-entry key="'φθονεῖται'" select="'φθονέω'"/>
          <xsl:map-entry key="'φθονερὸς'" select="'φθονερός'"/>
          <xsl:map-entry key="'φθονερός'" select="'φθονερός'"/>
+         <xsl:map-entry key="'φθονεροῦ'" select="'φθονερός'"/>
          <xsl:map-entry key="'φθονερώτατος'" select="'φθονερός'"/>
          <xsl:map-entry key="'φθονέω'" select="'φθονέω'"/>
          <xsl:map-entry key="'φθόνον'" select="'φθόνος'"/>
@@ -26508,6 +28565,7 @@
          <xsl:map-entry key="'φθόνος'" select="'φθόνος'"/>
          <xsl:map-entry key="'φθόνου'" select="'φθόνος'"/>
          <xsl:map-entry key="'φθονούμενον'" select="'φθονέω'"/>
+         <xsl:map-entry key="'φθονοῦντα'" select="'φθονέω'"/>
          <xsl:map-entry key="'φθονοῦντος'" select="'φθονέω'"/>
          <xsl:map-entry key="'φθόνῳ'" select="'φθόνος'"/>
          <xsl:map-entry key="'φθονῶν'" select="'φθονέω'"/>
@@ -26536,7 +28594,7 @@
          <xsl:map-entry key="'Φιλάνθρωπος'" select="'φιλάνθρωπος'"/>
          <xsl:map-entry key="'φιλανθρώπους'" select="'φιλάνθρωπος'"/>
          <xsl:map-entry key="'φιλανθρώπῳ'" select="'φιλάνθρωπος'"/>
-         <xsl:map-entry key="'φιλανθρώπως'" select="'φιλάνθρωπος'"/>
+         <xsl:map-entry key="'φιλανθρώπως'" select="'φιλανθρώπως'"/>
          <xsl:map-entry key="'φιλαργυρία'" select="'φιλαργυρία'"/>
          <xsl:map-entry key="'Φιλαργυρία'" select="'φιλαργυρία'"/>
          <xsl:map-entry key="'φιλαργυρίαν'" select="'φιλαργυρία'"/>
@@ -26552,8 +28610,15 @@
          <xsl:map-entry key="'φιλάρετος'" select="'φιλάρετος'"/>
          <xsl:map-entry key="'φιλαρχία'" select="'φιλαρχία φιλαρχιάω'"/>
          <xsl:map-entry key="'φιλαρχίας'" select="'φιλαρχία'"/>
+         <xsl:map-entry key="'φίλαρχον'" select="'φίλαρχος'"/>
+         <xsl:map-entry key="'φίλαρχος'" select="'φίλαρχος'"/>
+         <xsl:map-entry key="'φιλαυτεῖν'" select="'φιλαυτέω'"/>
+         <xsl:map-entry key="'φιλαυτέω'" select="'φιλαυτέω'"/>
          <xsl:map-entry key="'φιλαυτία'" select="'φιλαυτία'"/>
+         <xsl:map-entry key="'φιλαυτίᾳ'" select="'φιλαυτία'"/>
          <xsl:map-entry key="'φιλαυτίας'" select="'φιλαυτία'"/>
+         <xsl:map-entry key="'φίλαυτοι'" select="'φίλαυτος'"/>
+         <xsl:map-entry key="'φίλαυτος'" select="'φίλαυτος'"/>
          <xsl:map-entry key="'φιλε'" select="'φίλος'"/>
          <xsl:map-entry key="'φίλε'" select="'φίλος'"/>
          <xsl:map-entry key="'φιλεῖς'" select="'φιλέω'"/>
@@ -26565,6 +28630,12 @@
          <xsl:map-entry key="'φιλεργός'" select="'φιλεργός'"/>
          <xsl:map-entry key="'φιλέω'" select="'φιλέω'"/>
          <xsl:map-entry key="'φίλη'" select="'φίλος'"/>
+         <xsl:map-entry key="'φιληδονεῖν'" select="'φιληδονέω'"/>
+         <xsl:map-entry key="'φιληδονέω'" select="'φιληδονέω'"/>
+         <xsl:map-entry key="'φιληδονία'" select="'φιληδονία'"/>
+         <xsl:map-entry key="'φιληδονίαν'" select="'φιληδονία'"/>
+         <xsl:map-entry key="'φιληδονίας'" select="'φιληδονία'"/>
+         <xsl:map-entry key="'φιλήδονοι'" select="'φιλήδονος'"/>
          <xsl:map-entry key="'φιλήδονον'" select="'φιλήδονος'"/>
          <xsl:map-entry key="'φιλήδονος'" select="'φιλήδονος'"/>
          <xsl:map-entry key="'Φιληδόνῳ'" select="'φιλήδονος'"/>
@@ -26588,6 +28659,7 @@
          <xsl:map-entry key="'Φιλισταιος'" select="'Φιλισταῖος'"/>
          <xsl:map-entry key="'Φιλισταῖος'" select="'Φιλισταῖος'"/>
          <xsl:map-entry key="'φιλοδοξία'" select="'φιλοδοξία'"/>
+         <xsl:map-entry key="'φιλόδοξον'" select="'φιλόδοξος'"/>
          <xsl:map-entry key="'φιλόδοξος'" select="'φιλόδοξος'"/>
          <xsl:map-entry key="'Φιλόδοξος'" select="'φιλόδοξος'"/>
          <xsl:map-entry key="'φιλοδόξῳ'" select="'φιλόδοξος'"/>
@@ -26595,6 +28667,7 @@
          <xsl:map-entry key="'φιλοθείας'" select="'φιλοθεΐα'"/>
          <xsl:map-entry key="'φιλόθεος'" select="'φιλόθεος'"/>
          <xsl:map-entry key="'φιλοθέῳ'" select="'φιλόθεος'"/>
+         <xsl:map-entry key="'φιλοθέων'" select="'φιλόθεος'"/>
          <xsl:map-entry key="'φίλοι'" select="'φίλος'"/>
          <xsl:map-entry key="'φίλοις'" select="'φίλος'"/>
          <xsl:map-entry key="'Φιλοκάλει'" select="'φιλοκαλέω'"/>
@@ -26608,6 +28681,7 @@
          <xsl:map-entry key="'φιλονεικίαν'" select="'φιλονεικία'"/>
          <xsl:map-entry key="'φιλονεικίας'" select="'φιλονεικία'"/>
          <xsl:map-entry key="'φιλονεικοῦντι'" select="'φιλονεικέω'"/>
+         <xsl:map-entry key="'φιλονεικοῦσιν'" select="'φιλονεικέω'"/>
          <xsl:map-entry key="'φιλοξενεῖν'" select="'φιλοξενέω'"/>
          <xsl:map-entry key="'φιλοξενεῖσθαι'" select="'φιλοξενέω'"/>
          <xsl:map-entry key="'φιλοξενέω'" select="'φιλοξενέω'"/>
@@ -26628,11 +28702,14 @@
          <xsl:map-entry key="'φιλόπτωχον'" select="'φιλόπτωχος'"/>
          <xsl:map-entry key="'φιλόπτωχος'" select="'φιλόπτωχος'"/>
          <xsl:map-entry key="'φίλος'" select="'φίλος'"/>
+         <xsl:map-entry key="'Φίλος'" select="'φίλος'"/>
          <xsl:map-entry key="'φιλοσκώπτης'" select="'φιλοσκώπτης'"/>
          <xsl:map-entry key="'φιλόσοφε'" select="'φιλόσοφος'"/>
          <xsl:map-entry key="'φιλοσόφει'" select="'φιλοσοφέω'"/>
          <xsl:map-entry key="'φιλοσοφεῖς'" select="'φιλοσοφέω'"/>
          <xsl:map-entry key="'φιλοσοφέω'" select="'φιλοσοφέω'"/>
+         <xsl:map-entry key="'φιλοσοφῆσαι'" select="'φιλοσοφέω'"/>
+         <xsl:map-entry key="'φιλοσοφήσει'" select="'φιλοσοφέω'"/>
          <xsl:map-entry key="'φιλοσοφήσῃς'" select="'φιλοσοφέω'"/>
          <xsl:map-entry key="'φιλοσοφία'" select="'φιλοσοφία'"/>
          <xsl:map-entry key="'φιλοσοφίαν'" select="'φιλοσοφία'"/>
@@ -26648,6 +28725,7 @@
          <xsl:map-entry key="'φιλοῦσιν'" select="'φιλέω'"/>
          <xsl:map-entry key="'φιλόω'" select="'φιλόω'"/>
          <xsl:map-entry key="'φίλτρον'" select="'φίλτρον'"/>
+         <xsl:map-entry key="'φίλτρου'" select="'φίλτρον'"/>
          <xsl:map-entry key="'φίλτρῳ'" select="'φίλτρον'"/>
          <xsl:map-entry key="'φιλυπόστροφον'" select="'φιλυπόστροφος'"/>
          <xsl:map-entry key="'φιλυπόστροφος'" select="'φιλυπόστροφος'"/>
@@ -26700,6 +28778,7 @@
          <xsl:map-entry key="'φοβέω'" select="'φοβέω'"/>
          <xsl:map-entry key="'φοβῆ'" select="'φοβέω'"/>
          <xsl:map-entry key="'φοβῇ'" select="'φοβέω'"/>
+         <xsl:map-entry key="'φοβηθείημεν'" select="'φοβέω'"/>
          <xsl:map-entry key="'φοβηθεντες'" select="'φοβέω'"/>
          <xsl:map-entry key="'φοβηθέντες'" select="'φοβέω'"/>
          <xsl:map-entry key="'φοβηθῇ'" select="'φοβέω'"/>
@@ -26749,8 +28828,11 @@
          <xsl:map-entry key="'φορβαίαν'" select="'φορβαῖος'"/>
          <xsl:map-entry key="'φορβαῖος'" select="'φορβαῖος'"/>
          <xsl:map-entry key="'φορεῖ'" select="'φορέω'"/>
+         <xsl:map-entry key="'φορεῖν'" select="'φορέω'"/>
          <xsl:map-entry key="'φορέω'" select="'φορέω'"/>
          <xsl:map-entry key="'φορήσας'" select="'φορέω'"/>
+         <xsl:map-entry key="'φόρος'" select="'φόρος'"/>
+         <xsl:map-entry key="'φόρου'" select="'φόρος'"/>
          <xsl:map-entry key="'φοροῦνται'" select="'φορέω'"/>
          <xsl:map-entry key="'φορτίζω'" select="'φορτίζω'"/>
          <xsl:map-entry key="'φορτικὴν'" select="'φορτικός'"/>
@@ -26760,6 +28842,9 @@
          <xsl:map-entry key="'φορτίων'" select="'φορτίον'"/>
          <xsl:map-entry key="'φόρτον'" select="'φόρτος'"/>
          <xsl:map-entry key="'φόρτος'" select="'φόρτος'"/>
+         <xsl:map-entry key="'φορῶν'" select="'φορέω'"/>
+         <xsl:map-entry key="'φραγγέλλιον'" select="'φραγγέλλιον'"/>
+         <xsl:map-entry key="'φραγγελλίου'" select="'φραγγέλλιον'"/>
          <xsl:map-entry key="'φραγμὸν'" select="'φραγμός'"/>
          <xsl:map-entry key="'φραγμὸς'" select="'φραγμός'"/>
          <xsl:map-entry key="'φραγμός'" select="'φραγμός'"/>
@@ -26881,6 +28966,7 @@
          <xsl:map-entry key="'φυλακῶν'" select="'φυλακή'"/>
          <xsl:map-entry key="'φύλαξ'" select="'φύλαξ'"/>
          <xsl:map-entry key="'φυλάξαι'" select="'φυλάσσω'"/>
+         <xsl:map-entry key="'φυλάξας'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάξασθαι'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάξασι'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάξει'" select="'φυλάσσω'"/>
@@ -26903,11 +28989,14 @@
          <xsl:map-entry key="'φυλάττειν'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάττεσθε'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλαττέσθωσαν'" select="'φυλάσσω'"/>
+         <xsl:map-entry key="'φυλαττέτωσαν'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλαττομενη'" select="'φυλάσσω'"/>
+         <xsl:map-entry key="'φυλαττομένοις'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάττου'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'Φυλάττου'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάττουσιν'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλάττων'" select="'φυλάσσω'"/>
+         <xsl:map-entry key="'φυλαχθήσῃ'" select="'φυλάσσω'"/>
          <xsl:map-entry key="'φυλή'" select="'φυλή'"/>
          <xsl:map-entry key="'Φυλιστεύς'" select="'Φιλισταῖος'"/>
          <xsl:map-entry key="'Φυλιστιαῖος'" select="'Φιλισταῖος'"/>
@@ -26922,6 +29011,7 @@
          <xsl:map-entry key="'φυλωμ'" select="'φύλλον'"/>
          <xsl:map-entry key="'φυλῶν'" select="'φυλή'"/>
          <xsl:map-entry key="'φυόμενα'" select="'φύω'"/>
+         <xsl:map-entry key="'φυομένων'" select="'φύω'"/>
          <xsl:map-entry key="'φύρονται'" select="'φύρω'"/>
          <xsl:map-entry key="'φύρω'" select="'φύρω'"/>
          <xsl:map-entry key="'φυσάω'" select="'φυσάω'"/>
@@ -26947,6 +29037,7 @@
          <xsl:map-entry key="'φυσικὴ'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσική'" select="'φυσικός'"/>
          <xsl:map-entry key="'Φυσικὴ'" select="'φυσικός'"/>
+         <xsl:map-entry key="'φυσικῇ'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικηι'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικην'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικὴν'" select="'φυσικός'"/>
@@ -26960,10 +29051,12 @@
          <xsl:map-entry key="'φυσικός'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικὸς'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικου'" select="'φυσικός'"/>
+         <xsl:map-entry key="'φυσικοῦ'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικοὺς'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικωι'" select="'φυσικός'"/>
          <xsl:map-entry key="'φυσικῶν'" select="'φυσικός'"/>
-         <xsl:map-entry key="'φυσικως'" select="'φυσικός'"/>
+         <xsl:map-entry key="'φυσικως'" select="'φυσικῶς'"/>
+         <xsl:map-entry key="'φυσικῶς'" select="'φυσικῶς'"/>
          <xsl:map-entry key="'φύσιν'" select="'φύσις'"/>
          <xsl:map-entry key="'Φύσιν'" select="'φύσις'"/>
          <xsl:map-entry key="'φυσιολογία'" select="'φυσιολογία'"/>
@@ -27040,6 +29133,7 @@
          <xsl:map-entry key="'φωτισθήσονται'" select="'φωτίζω'"/>
          <xsl:map-entry key="'φωτισμὸς'" select="'φωτισμός'"/>
          <xsl:map-entry key="'φωτισμός'" select="'φωτισμός'"/>
+         <xsl:map-entry key="'φώτισον'" select="'φωτίζω'"/>
          <xsl:map-entry key="'φωτοειδὴς'" select="'φωτοειδής'"/>
          <xsl:map-entry key="'φωτοειδής'" select="'φωτοειδής'"/>
          <xsl:map-entry key="'φωτὸς'" select="'φάος'"/>
@@ -27047,6 +29141,7 @@
          <xsl:map-entry key="'χαῖρε'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαίρει'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαίρειν'" select="'χαίρω'"/>
+         <xsl:map-entry key="'χαίρονται'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαίροντες'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαίρουσαι'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαίρουσι'" select="'χαίρω'"/>
@@ -27068,7 +29163,7 @@
          <xsl:map-entry key="'χαλεπον'" select="'χαλεπός'"/>
          <xsl:map-entry key="'χαλεπὸν'" select="'χαλεπός'"/>
          <xsl:map-entry key="'χαλεπός'" select="'χαλεπός'"/>
-         <xsl:map-entry key="'χαλεπῶς'" select="'χαλεπός'"/>
+         <xsl:map-entry key="'χαλεπῶς'" select="'χαλεπῶς'"/>
          <xsl:map-entry key="'χαλεπωτάτης'" select="'χαλεπός'"/>
          <xsl:map-entry key="'Χαλεπώτατόν'" select="'χαλεπός'"/>
          <xsl:map-entry key="'χαλεπώτεροι'" select="'χαλεπός'"/>
@@ -27076,7 +29171,7 @@
          <xsl:map-entry key="'χαλεπώτερον'" select="'χαλεπός'"/>
          <xsl:map-entry key="'χαλεπώτερος'" select="'χαλεπός'"/>
          <xsl:map-entry key="'χαλεπωτέρους'" select="'χαλεπός'"/>
-         <xsl:map-entry key="'χαλεπωτέρως'" select="'χαλεπός'"/>
+         <xsl:map-entry key="'χαλεπωτέρως'" select="'χαλεπῶς'"/>
          <xsl:map-entry key="'χαλινός'" select="'χαλινός'"/>
          <xsl:map-entry key="'χαλινοῦν'" select="'χαλινόω'"/>
          <xsl:map-entry key="'χαλινοὺς'" select="'χαλινός'"/>
@@ -27085,13 +29180,18 @@
          <xsl:map-entry key="'χαλκᾶς'" select="'χάλκεος'"/>
          <xsl:map-entry key="'χαλκεῖον'" select="'χαλκεῖον'"/>
          <xsl:map-entry key="'χάλκεος'" select="'χάλκεος'"/>
-         <xsl:map-entry key="'χαλκίον'" select="'χαλκίον'"/>
+         <xsl:map-entry key="'χαλκεὺς'" select="'χαλκεύς'"/>
+         <xsl:map-entry key="'χαλκεύς'" select="'χαλκεύς'"/>
+         <xsl:map-entry key="'χαλκίον'" select="'χαλκεῖον'"/>
          <xsl:map-entry key="'χαλκόν'" select="'χαλκός'"/>
          <xsl:map-entry key="'χαλκός'" select="'χαλκός'"/>
          <xsl:map-entry key="'χαλκὸς'" select="'χαλκός'"/>
          <xsl:map-entry key="'χαλκῷ'" select="'χαλκός'"/>
          <xsl:map-entry key="'χαμαίζηλον'" select="'χαμαίζηλος'"/>
          <xsl:map-entry key="'χαμαίζηλος'" select="'χαμαίζηλος'"/>
+         <xsl:map-entry key="'χαμαιζήλως'" select="'χαμαίζηλος'"/>
+         <xsl:map-entry key="'χαμαιπετής'" select="'χαμαιπετής'"/>
+         <xsl:map-entry key="'χαμαιπετοῦς'" select="'χαμαιπετής'"/>
          <xsl:map-entry key="'χαμευνείαις'" select="'χαμευνία'"/>
          <xsl:map-entry key="'χαμευνία'" select="'χαμευνία'"/>
          <xsl:map-entry key="'χαμευνίαις'" select="'χαμευνία'"/>
@@ -27119,6 +29219,7 @@
          <xsl:map-entry key="'χαράσσω'" select="'χαράσσω'"/>
          <xsl:map-entry key="'χαραχθεῖσα'" select="'χαράσσω'"/>
          <xsl:map-entry key="'χαρέντα'" select="'χαίρω'"/>
+         <xsl:map-entry key="'χαρῆναι'" select="'χαίρω'"/>
          <xsl:map-entry key="'χαρίζεται'" select="'χαρίζομαι'"/>
          <xsl:map-entry key="'χαρίζῃ'" select="'χαρίζομαι'"/>
          <xsl:map-entry key="'χαρίζομαι'" select="'χαρίζομαι'"/>
@@ -27127,6 +29228,7 @@
          <xsl:map-entry key="'χαρίζω'" select="'χαρίζω'"/>
          <xsl:map-entry key="'χάριν'" select="'χάρις'"/>
          <xsl:map-entry key="'χάρις'" select="'χάρις'"/>
+         <xsl:map-entry key="'Χάρις'" select="'χάρις'"/>
          <xsl:map-entry key="'χαρίσασθαι'" select="'χαρίζομαι'"/>
          <xsl:map-entry key="'χαρίσηται'" select="'χαρίζομαι'"/>
          <xsl:map-entry key="'χαρισμα'" select="'χάρισμα'"/>
@@ -27137,6 +29239,7 @@
          <xsl:map-entry key="'χαρίσματος'" select="'χάρισμα'"/>
          <xsl:map-entry key="'χαρισμάτων'" select="'χάρισμα'"/>
          <xsl:map-entry key="'χάριτας'" select="'χάρις'"/>
+         <xsl:map-entry key="'Χάριτες'" select="'χάρις'"/>
          <xsl:map-entry key="'χάριτι'" select="'χάρις'"/>
          <xsl:map-entry key="'χαριτι'" select="'χάρις'"/>
          <xsl:map-entry key="'χάριτος'" select="'χάρις'"/>
@@ -27167,6 +29270,7 @@
          <xsl:map-entry key="'χείλεσι'" select="'χεῖλος'"/>
          <xsl:map-entry key="'χείλεσί'" select="'χεῖλος'"/>
          <xsl:map-entry key="'χείλη'" select="'χεῖλος'"/>
+         <xsl:map-entry key="'Χείλη'" select="'χεῖλος'"/>
          <xsl:map-entry key="'χεῖλος'" select="'χεῖλος'"/>
          <xsl:map-entry key="'χειμάζει'" select="'χειμάζω'"/>
          <xsl:map-entry key="'χειμαζομένη'" select="'χειμάζω'"/>
@@ -27178,16 +29282,21 @@
          <xsl:map-entry key="'χειμάρρους'" select="'χείμαρρος'"/>
          <xsl:map-entry key="'χειματίζεται'" select="'χειμάζω'"/>
          <xsl:map-entry key="'χειμών'" select="'χειμών'"/>
+         <xsl:map-entry key="'χειμὼν'" select="'χειμών'"/>
          <xsl:map-entry key="'χειμῶνα'" select="'χειμών'"/>
+         <xsl:map-entry key="'χειμῶνος'" select="'χειμών'"/>
          <xsl:map-entry key="'χείρ'" select="'χείρ'"/>
          <xsl:map-entry key="'χεὶρ'" select="'χείρ'"/>
          <xsl:map-entry key="'Χείρ'" select="'χείρ'"/>
+         <xsl:map-entry key="'χεῖρ'" select="'χείρ'"/>
          <xsl:map-entry key="'χεῖρα'" select="'χείρ'"/>
          <xsl:map-entry key="'Χεῖρα'" select="'χείρ'"/>
          <xsl:map-entry key="'χειραγωγός'" select="'χειραγωγός'"/>
          <xsl:map-entry key="'χεῖρας'" select="'χείρ'"/>
+         <xsl:map-entry key="'χεῖράς'" select="'χείρ'"/>
          <xsl:map-entry key="'χεῖρες'" select="'χείρ'"/>
          <xsl:map-entry key="'χειρὶ'" select="'χείρ'"/>
+         <xsl:map-entry key="'χείρισται'" select="'χείριστος'"/>
          <xsl:map-entry key="'χειρίστας'" select="'χείριστος'"/>
          <xsl:map-entry key="'χειρίστη'" select="'χείρων'"/>
          <xsl:map-entry key="'χειρίστην'" select="'κακός'"/>
@@ -27200,6 +29309,9 @@
          <xsl:map-entry key="'χείρονος'" select="'χείρων'"/>
          <xsl:map-entry key="'χειρόνων'" select="'χείρων'"/>
          <xsl:map-entry key="'χειρὸς'" select="'χείρ'"/>
+         <xsl:map-entry key="'χειροτονέω'" select="'χειροτονέω'"/>
+         <xsl:map-entry key="'χειροτονηθεὶς'" select="'χειροτονέω'"/>
+         <xsl:map-entry key="'χειροτονοῦνται'" select="'χειροτονέω'"/>
          <xsl:map-entry key="'χειροῦνται'" select="'χειρόω'"/>
          <xsl:map-entry key="'χειρόω'" select="'χειρόω'"/>
          <xsl:map-entry key="'χειρῶν'" select="'χείρ'"/>
@@ -27225,6 +29337,8 @@
          <xsl:map-entry key="'χήρας'" select="'χήρα'"/>
          <xsl:map-entry key="'χθές'" select="'χθές'"/>
          <xsl:map-entry key="'χθὲς'" select="'χθές'"/>
+         <xsl:map-entry key="'χθεσινός'" select="'χθεσινός'"/>
+         <xsl:map-entry key="'χθεσινοῦ'" select="'χθεσινός'"/>
          <xsl:map-entry key="'χιλίας'" select="'χίλιος'"/>
          <xsl:map-entry key="'χίλιος'" select="'χίλιος'"/>
          <xsl:map-entry key="'χιλιοστὸς'" select="'χιλιοστός'"/>
@@ -27245,6 +29359,7 @@
          <xsl:map-entry key="'χοϊκός'" select="'χοικός'"/>
          <xsl:map-entry key="'χοϊκὸς'" select="'χοικός'"/>
          <xsl:map-entry key="'χοικός'" select="'χοικός'"/>
+         <xsl:map-entry key="'χοϊκοῦ'" select="'χοικός'"/>
          <xsl:map-entry key="'χοϊκοὺς'" select="'χοικός'"/>
          <xsl:map-entry key="'Χοιρογρύλλιοι'" select="'χοιρογρύλλιος'"/>
          <xsl:map-entry key="'χοιρογρύλλιος'" select="'χοιρογρύλλιος'"/>
@@ -27258,6 +29373,7 @@
          <xsl:map-entry key="'χολὴν'" select="'χολή'"/>
          <xsl:map-entry key="'Χολὴν'" select="'χολή'"/>
          <xsl:map-entry key="'χολῆς'" select="'χολή'"/>
+         <xsl:map-entry key="'χοὸς'" select="'χοῦς'"/>
          <xsl:map-entry key="'Χοραζίν'" select="'Χοραζίν'"/>
          <xsl:map-entry key="'Χορδαί'" select="'χορδή'"/>
          <xsl:map-entry key="'χορδάς'" select="'χορδή'"/>
@@ -27288,17 +29404,23 @@
          <xsl:map-entry key="'χοῦν'" select="'χοῦς'"/>
          <xsl:map-entry key="'χοῦς'" select="'χοῦς'"/>
          <xsl:map-entry key="'Χρ'" select="'χριστός'"/>
-         <xsl:map-entry key="'χράομαι'" select="'χράομαι'"/>
-         <xsl:map-entry key="'χρᾶται'" select="'χράομαι'"/>
+         <xsl:map-entry key="'χράομαι'" select="'χράω'"/>
+         <xsl:map-entry key="'χρᾶσθαι'" select="'χράω'"/>
+         <xsl:map-entry key="'χρᾶται'" select="'χράω'"/>
          <xsl:map-entry key="'χράω'" select="'χράω'"/>
          <xsl:map-entry key="'χρεία'" select="'χρεία'"/>
          <xsl:map-entry key="'χρείᾳ'" select="'χρεία'"/>
+         <xsl:map-entry key="'χρεῖα'" select="'χρεῖος'"/>
          <xsl:map-entry key="'χρείαν'" select="'χρεία'"/>
          <xsl:map-entry key="'χρείας'" select="'χρεία'"/>
+         <xsl:map-entry key="'χρεῖος'" select="'χρεῖος'"/>
          <xsl:map-entry key="'χρεμετίζοντες'" select="'χρεμετίζω'"/>
          <xsl:map-entry key="'χρεμετίζω'" select="'χρεμετίζω'"/>
          <xsl:map-entry key="'χρεμετίσει'" select="'χρεμετίζω'"/>
          <xsl:map-entry key="'χρέος'" select="'χρέος'"/>
+         <xsl:map-entry key="'χρεωστεῖς'" select="'χρεωστέω'"/>
+         <xsl:map-entry key="'χρεωστέω'" select="'χρεωστέω'"/>
+         <xsl:map-entry key="'χρεωστοῦμεν'" select="'χρεωστέω'"/>
          <xsl:map-entry key="'χρεωφειλέτης'" select="'χρεωφειλέτης'"/>
          <xsl:map-entry key="'χρὴ'" select="'χρή'"/>
          <xsl:map-entry key="'χρή'" select="'χρή'"/>
@@ -27311,6 +29433,7 @@
          <xsl:map-entry key="'χρήμασι'" select="'χρῆμα'"/>
          <xsl:map-entry key="'χρήματα'" select="'χρῆμα'"/>
          <xsl:map-entry key="'Χρήματα'" select="'χρῆμα'"/>
+         <xsl:map-entry key="'χρήματά'" select="'χρῆμα'"/>
          <xsl:map-entry key="'χρηματιζει'" select="'χρηματίζω'"/>
          <xsl:map-entry key="'χρηματίζειν'" select="'χρηματίζω'"/>
          <xsl:map-entry key="'χρηματίζοντες'" select="'χρηματίζω'"/>
@@ -27325,10 +29448,12 @@
          <xsl:map-entry key="'χρήσασθαι'" select="'χράω'"/>
          <xsl:map-entry key="'Χρήσει'" select="'χράω'"/>
          <xsl:map-entry key="'χρησεως'" select="'χρῆσις'"/>
+         <xsl:map-entry key="'χρήσεως'" select="'χρῆσις'"/>
          <xsl:map-entry key="'χρήσῃ'" select="'χράω'"/>
          <xsl:map-entry key="'Χρήσῃ'" select="'χράω'"/>
+         <xsl:map-entry key="'χρήσηται'" select="'χράω'"/>
          <xsl:map-entry key="'χρησθαι'" select="'χράω'"/>
-         <xsl:map-entry key="'χρῆσθαι'" select="'χράομαι'"/>
+         <xsl:map-entry key="'χρῆσθαι'" select="'χράω'"/>
          <xsl:map-entry key="'χρήσιμα'" select="'χρήσιμος'"/>
          <xsl:map-entry key="'χρησιμεύει'" select="'χρησιμεύω'"/>
          <xsl:map-entry key="'χρησιμεύῃ'" select="'χρησιμεύω'"/>
@@ -27346,6 +29471,8 @@
          <xsl:map-entry key="'χρηστέον'" select="'χρηστέον'"/>
          <xsl:map-entry key="'χρηστεύεται'" select="'χρηστεύομαι'"/>
          <xsl:map-entry key="'χρηστεύομαι'" select="'χρηστεύομαι'"/>
+         <xsl:map-entry key="'χρηστήρια'" select="'χρηστήριον'"/>
+         <xsl:map-entry key="'χρηστήριον'" select="'χρηστήριον'"/>
          <xsl:map-entry key="'χρηστοποιέομαι'" select="'χρηστοποιέομαι'"/>
          <xsl:map-entry key="'χρηστοποιώμεθα'" select="'χρηστοποιέομαι'"/>
          <xsl:map-entry key="'χρηστὸς'" select="'χρηστός'"/>
@@ -27358,19 +29485,19 @@
          <xsl:map-entry key="'χρησώμεθα'" select="'χράω'"/>
          <xsl:map-entry key="'Χρησώμεθα'" select="'χράω'"/>
          <xsl:map-entry key="'χρίζει'" select="'χρίω'"/>
-         <xsl:map-entry key="'χρίσεως'" select="'χρῖσις'"/>
-         <xsl:map-entry key="'χρῖσις'" select="'χρῖσις'"/>
          <xsl:map-entry key="'Χρισμα'" select="'χρῖσμα'"/>
          <xsl:map-entry key="'χρισμα'" select="'χρῖσμα'"/>
          <xsl:map-entry key="'χρῖσμα'" select="'χρῖσμα'"/>
+         <xsl:map-entry key="'Χρῖσμα'" select="'χρῖσμα'"/>
          <xsl:map-entry key="'Χριστὲ'" select="'χριστός'"/>
+         <xsl:map-entry key="'χρίστης'" select="'χρίστης'"/>
          <xsl:map-entry key="'Χριστιανισμός'" select="'Χριστιανισμός'"/>
          <xsl:map-entry key="'Χριστιανὸν'" select="'Χριστιανός'"/>
          <xsl:map-entry key="'Χριστιανός'" select="'Χριστιανός'"/>
-         <xsl:map-entry key="'χριστιανός'" select="'χριστιανός'"/>
+         <xsl:map-entry key="'χριστιανός'" select="'Χριστιανός'"/>
          <xsl:map-entry key="'Χριστιανοῦ'" select="'Χριστιανός'"/>
-         <xsl:map-entry key="'χριστιανῶν'" select="'χριστιανός'"/>
-         <xsl:map-entry key="'Χριστιανῶν'" select="'χριστιανός'"/>
+         <xsl:map-entry key="'χριστιανῶν'" select="'Χριστιανός'"/>
+         <xsl:map-entry key="'Χριστιανῶν'" select="'Χριστιανός'"/>
          <xsl:map-entry key="'χριστοὶ'" select="'χριστός'"/>
          <xsl:map-entry key="'χριστοί'" select="'χριστός'"/>
          <xsl:map-entry key="'Χριστόν'" select="'χριστός'"/>
@@ -27384,7 +29511,7 @@
          <xsl:map-entry key="'χριστὸς'" select="'χριστός'"/>
          <xsl:map-entry key="'Χριστοῦ'" select="'χριστός'"/>
          <xsl:map-entry key="'χριστοῦ'" select="'χριστός'"/>
-         <xsl:map-entry key="'Χρίστου'" select="'χρίστης'"/>
+         <xsl:map-entry key="'Χρίστου'" select="'χριστός'"/>
          <xsl:map-entry key="'Χριστούς'" select="'χριστός'"/>
          <xsl:map-entry key="'χριστοφόρος'" select="'χριστοφόρος'"/>
          <xsl:map-entry key="'χριστοφόρου'" select="'χριστοφόρος'"/>
@@ -27404,13 +29531,17 @@
          <xsl:map-entry key="'χρονίζουσαι'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίζω'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίζων'" select="'χρονίζω'"/>
+         <xsl:map-entry key="'χρονική'" select="'χρονικός'"/>
+         <xsl:map-entry key="'χρονικός'" select="'χρονικός'"/>
          <xsl:map-entry key="'χρόνιος'" select="'χρόνιος'"/>
+         <xsl:map-entry key="'χρονίσαι'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσαν'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσαντες'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσας'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσει'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσῃ'" select="'χρονίζω'"/>
          <xsl:map-entry key="'χρονίσῃς'" select="'χρονίζω'"/>
+         <xsl:map-entry key="'χρονισμός'" select="'χρονισμός'"/>
          <xsl:map-entry key="'χρόνοις'" select="'χρόνος'"/>
          <xsl:map-entry key="'χρόνον'" select="'χρόνος'"/>
          <xsl:map-entry key="'χρονον'" select="'χρόνος'"/>
@@ -27442,8 +29573,9 @@
          <xsl:map-entry key="'χρυσοῦν'" select="'χρύσεος'"/>
          <xsl:map-entry key="'χρυσοφορέω'" select="'χρυσοφορέω'"/>
          <xsl:map-entry key="'χρυσοφοροῦνται'" select="'χρυσοφορέω'"/>
-         <xsl:map-entry key="'χρῶ'" select="'χράομαι'"/>
-         <xsl:map-entry key="'Χρῶ'" select="'χράομαι'"/>
+         <xsl:map-entry key="'χρυσῷ'" select="'χρυσός'"/>
+         <xsl:map-entry key="'χρῶ'" select="'χράω'"/>
+         <xsl:map-entry key="'Χρῶ'" select="'χράω'"/>
          <xsl:map-entry key="'χρωμα'" select="'χρῶμα'"/>
          <xsl:map-entry key="'χρῶμα'" select="'χρῶμα'"/>
          <xsl:map-entry key="'χρωμασι'" select="'χρῶμα'"/>
@@ -27454,9 +29586,9 @@
          <xsl:map-entry key="'χρώματος'" select="'χρῶμα'"/>
          <xsl:map-entry key="'χρωματων'" select="'χρῶμα'"/>
          <xsl:map-entry key="'χρωμάτων'" select="'χρῶμα'"/>
-         <xsl:map-entry key="'χρώμενοι'" select="'χράομαι'"/>
+         <xsl:map-entry key="'χρώμενοι'" select="'χράω'"/>
          <xsl:map-entry key="'χρώμενος'" select="'χράω'"/>
-         <xsl:map-entry key="'χρωμένου'" select="'χράομαι'"/>
+         <xsl:map-entry key="'χρωμένου'" select="'χράω'"/>
          <xsl:map-entry key="'χυλός'" select="'χυλός'"/>
          <xsl:map-entry key="'χυλῶν'" select="'χυλός'"/>
          <xsl:map-entry key="'χυμοί'" select="'χυμός'"/>
@@ -27486,6 +29618,7 @@
          <xsl:map-entry key="'χωρέω'" select="'χωρέω'"/>
          <xsl:map-entry key="'Χωρὴβ'" select="'Χωρήβ'"/>
          <xsl:map-entry key="'Χωρήβ'" select="'Χωρήβ'"/>
+         <xsl:map-entry key="'χωρήσας'" select="'χωρέω'"/>
          <xsl:map-entry key="'χωρήσει'" select="'χώρησις'"/>
          <xsl:map-entry key="'χώρησις'" select="'χώρησις'"/>
          <xsl:map-entry key="'χωρήσομεν'" select="'χωρέω'"/>
@@ -27497,7 +29630,10 @@
          <xsl:map-entry key="'χωρίζειν'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωρίζεσθαι'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωρίζεται'" select="'χωρίζω'"/>
+         <xsl:map-entry key="'χωριζόμενοι'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωριζονται'" select="'χωρίζω'"/>
+         <xsl:map-entry key="'χωρίζοντος'" select="'χωρίζω'"/>
+         <xsl:map-entry key="'χωρίζουσα'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωρίζουσαν'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωριζούσης'" select="'χωρίζω'"/>
          <xsl:map-entry key="'χωριζουσι'" select="'χωρίζω'"/>
@@ -27517,7 +29653,9 @@
          <xsl:map-entry key="'χωρισμός'" select="'χωρισμός'"/>
          <xsl:map-entry key="'χῶρον'" select="'χῶρος'"/>
          <xsl:map-entry key="'χῶρος'" select="'χῶρος'"/>
+         <xsl:map-entry key="'χώρου'" select="'χῶρος'"/>
          <xsl:map-entry key="'χωροῦντα'" select="'χωρέω'"/>
+         <xsl:map-entry key="'χωροῦσαι'" select="'χωρέω'"/>
          <xsl:map-entry key="'χωροῦσι'" select="'χωρέω'"/>
          <xsl:map-entry key="'ψάλατε'" select="'ψάλλω'"/>
          <xsl:map-entry key="'ψαλέτω'" select="'ψάλλω'"/>
@@ -27527,6 +29665,8 @@
          <xsl:map-entry key="'ψάλλειν'" select="'ψάλλω'"/>
          <xsl:map-entry key="'ψαλλέτω'" select="'ψάλλω'"/>
          <xsl:map-entry key="'Ψαλλέτω'" select="'ψάλλω'"/>
+         <xsl:map-entry key="'ψάλλοντα'" select="'ψάλλω'"/>
+         <xsl:map-entry key="'ψάλλοντες'" select="'ψάλλω'"/>
          <xsl:map-entry key="'Ψάλλοντος'" select="'ψάλλω'"/>
          <xsl:map-entry key="'ψαλλόντων'" select="'ψάλλω'"/>
          <xsl:map-entry key="'ψάλλουσι'" select="'ψάλλω'"/>
@@ -27539,12 +29679,12 @@
          <xsl:map-entry key="'ψαλμοῦ'" select="'ψαλμός'"/>
          <xsl:map-entry key="'ψαλμοὺς'" select="'ψαλμός'"/>
          <xsl:map-entry key="'ψαλμῷ'" select="'ψαλμός'"/>
-         <xsl:map-entry key="'ψαλμῳδία'" select="'ψαλμωδία'"/>
-         <xsl:map-entry key="'ψαλμωδία'" select="'ψαλμωδία'"/>
-         <xsl:map-entry key="'ψαλμωδίᾳ'" select="'ψαλμωδία'"/>
-         <xsl:map-entry key="'ψαλμῳδίᾳ'" select="'ψαλμωδία'"/>
-         <xsl:map-entry key="'ψαλμῳδίαν'" select="'ψαλμωδία'"/>
-         <xsl:map-entry key="'ψαλμωδιας'" select="'ψαλμωδία'"/>
+         <xsl:map-entry key="'ψαλμῳδία'" select="'ψαλμῳδία'"/>
+         <xsl:map-entry key="'ψαλμωδία'" select="'ψαλμῳδία'"/>
+         <xsl:map-entry key="'ψαλμωδίᾳ'" select="'ψαλμῳδία'"/>
+         <xsl:map-entry key="'ψαλμῳδίᾳ'" select="'ψαλμῳδία'"/>
+         <xsl:map-entry key="'ψαλμῳδίαν'" select="'ψαλμῳδία'"/>
+         <xsl:map-entry key="'ψαλμωδιας'" select="'ψαλμῳδία'"/>
          <xsl:map-entry key="'ψαλμῳδιάς'" select="'ψαλμῳδία'"/>
          <xsl:map-entry key="'ψαλμῳδίας'" select="'ψαλμῳδία'"/>
          <xsl:map-entry key="'ψαλμῳδόν'" select="'ψαλμῳδός'"/>
@@ -27570,19 +29710,23 @@
          <xsl:map-entry key="'ψέγων'" select="'ψέγω'"/>
          <xsl:map-entry key="'ψεκτὰς'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτὴ'" select="'ψεκτός'"/>
+         <xsl:map-entry key="'ψεκτήν'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτῆς'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτοὶ'" select="'ψεκτός'"/>
+         <xsl:map-entry key="'ψεκτοῖς'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτὸν'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτός'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτοῦ'" select="'ψεκτός'"/>
          <xsl:map-entry key="'ψεκτῶν'" select="'ψεκτός'"/>
-         <xsl:map-entry key="'ψεκτῶς'" select="'ψεκτός'"/>
+         <xsl:map-entry key="'ψεκτῶς'" select="'ψεκτῶς'"/>
          <xsl:map-entry key="'ψέλιον'" select="'ψέλιον'"/>
          <xsl:map-entry key="'ψελλίῳ'" select="'ψέλιον'"/>
          <xsl:map-entry key="'ψευδεῖ'" select="'ψευδής'"/>
          <xsl:map-entry key="'ψευδεῖς'" select="'ψευδής'"/>
          <xsl:map-entry key="'ψευδὲς'" select="'ψευδής'"/>
+         <xsl:map-entry key="'ψεύδεσθαι'" select="'ψεύδω'"/>
          <xsl:map-entry key="'ψευδέσι'" select="'ψευδής'"/>
+         <xsl:map-entry key="'ψεύδεται'" select="'ψεύδω'"/>
          <xsl:map-entry key="'ψευδῆ'" select="'ψευδής'"/>
          <xsl:map-entry key="'ψευδης'" select="'ψευδής'"/>
          <xsl:map-entry key="'ψευδὴς'" select="'ψευδής'"/>
@@ -27599,7 +29743,7 @@
          <xsl:map-entry key="'ψευδώνυμος'" select="'ψευδώνυμος'"/>
          <xsl:map-entry key="'ψευδωνυμου'" select="'ψευδώνυμος'"/>
          <xsl:map-entry key="'ψευδωνύμου'" select="'ψευδώνυμος'"/>
-         <xsl:map-entry key="'ψευδῶς'" select="'ψευδής'"/>
+         <xsl:map-entry key="'ψευδῶς'" select="'ψευδῶς'"/>
          <xsl:map-entry key="'ψευσάμενος'" select="'ψεύδω'"/>
          <xsl:map-entry key="'ψεύσταις'" select="'ψεύστης'"/>
          <xsl:map-entry key="'ψεύστην'" select="'ψεύστης'"/>
@@ -27608,6 +29752,7 @@
          <xsl:map-entry key="'ψηλαφήσας'" select="'ψηλαφάω'"/>
          <xsl:map-entry key="'ψηλάφηση'" select="'ψηλάφωσις'"/>
          <xsl:map-entry key="'ψηλαφήσουσι'" select="'ψηλαφάω'"/>
+         <xsl:map-entry key="'ψηλαφῶν'" select="'ψηλαφάω'"/>
          <xsl:map-entry key="'ψηλαφῶντας'" select="'ψηλαφάω'"/>
          <xsl:map-entry key="'ψηλαφῶσα'" select="'ψηλαφάω'"/>
          <xsl:map-entry key="'ψηλαφωσεως'" select="'ψηλάφωσις'"/>
@@ -27619,6 +29764,7 @@
          <xsl:map-entry key="'ψηφίζω'" select="'ψηφίζω'"/>
          <xsl:map-entry key="'ψηφίς'" select="'ψηφίς'"/>
          <xsl:map-entry key="'ψήφισμα'" select="'ψήφισμα'"/>
+         <xsl:map-entry key="'ψῆφον'" select="'ψῆφος'"/>
          <xsl:map-entry key="'ψῆφος'" select="'ψῆφος'"/>
          <xsl:map-entry key="'ψηχὴν'" select="'ψυχή'"/>
          <xsl:map-entry key="'ψιάθιον'" select="'ψιάθιον'"/>
@@ -27627,6 +29773,7 @@
          <xsl:map-entry key="'ψιλαί'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλὰς'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλῇ'" select="'ψιλός'"/>
+         <xsl:map-entry key="'ψιλή'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλὴν'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλήν'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλοῖς'" select="'ψιλός'"/>
@@ -27636,6 +29783,9 @@
          <xsl:map-entry key="'ψιλοῦ'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλοὺς'" select="'ψιλός'"/>
          <xsl:map-entry key="'ψιλῷ'" select="'ψιλός'"/>
+         <xsl:map-entry key="'ψιλῶν'" select="'ψιλός'"/>
+         <xsl:map-entry key="'ψιττακὸς'" select="'ψιττακός'"/>
+         <xsl:map-entry key="'ψιττακός'" select="'ψιττακός'"/>
          <xsl:map-entry key="'ψόα'" select="'ψόα'"/>
          <xsl:map-entry key="'ψόαις'" select="'ψόα'"/>
          <xsl:map-entry key="'ψόγος'" select="'ψόγος'"/>
@@ -27673,6 +29823,7 @@
          <xsl:map-entry key="'Ψυχὴν'" select="'ψυχή'"/>
          <xsl:map-entry key="'ψυχῆς'" select="'ψυχή'"/>
          <xsl:map-entry key="'ψυχης'" select="'ψυχή'"/>
+         <xsl:map-entry key="'Ψυχῆς'" select="'ψυχή'"/>
          <xsl:map-entry key="'ψυχικα'" select="'ψυχικός'"/>
          <xsl:map-entry key="'ψυχικὰ'" select="'ψυχικός'"/>
          <xsl:map-entry key="'ψυχικαὶ'" select="'ψυχικός'"/>
@@ -27709,6 +29860,7 @@
          <xsl:map-entry key="'ᾠδαῖς'" select="'ᾠδή'"/>
          <xsl:map-entry key="'ᾠδὰς'" select="'ᾠδή'"/>
          <xsl:map-entry key="'ᾠδή'" select="'ᾠδή'"/>
+         <xsl:map-entry key="'ὡδήγει'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὡδήγησε'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὡδήγουν'" select="'ὁδηγέω'"/>
          <xsl:map-entry key="'ὠδίνας'" select="'ὠδίς'"/>
@@ -27734,6 +29886,8 @@
          <xsl:map-entry key="'ὡμοιώθην'" select="'ὁμοιόω'"/>
          <xsl:map-entry key="'Ὡμοιώθην'" select="'ὁμοιόω'"/>
          <xsl:map-entry key="'ὡμολόγησε'" select="'ὁμολογέω'"/>
+         <xsl:map-entry key="'ὡμολόγηται'" select="'ὁμολογέω'"/>
+         <xsl:map-entry key="'ὡμολόγητο'" select="'ὁμολογέω'"/>
          <xsl:map-entry key="'ὦμος'" select="'ὦμος'"/>
          <xsl:map-entry key="'Ὠμὸς'" select="'ὠμός'"/>
          <xsl:map-entry key="'ὠμός'" select="'ὠμός'"/>
@@ -27741,6 +29895,7 @@
          <xsl:map-entry key="'Ὤμοσα'" select="'ὄμνυμι'"/>
          <xsl:map-entry key="'ὤμοσε'" select="'ὄμνυμι'"/>
          <xsl:map-entry key="'ὤμοσεν'" select="'ὄμνυμι'"/>
+         <xsl:map-entry key="'ὠμοῦ'" select="'ὠμός'"/>
          <xsl:map-entry key="'ὠνείδισαν'" select="'ὀνειδίζω'"/>
          <xsl:map-entry key="'ὠνόμαζε'" select="'ὀνομάζω'"/>
          <xsl:map-entry key="'ὠνόμασε'" select="'ὀνομάζω'"/>
@@ -27757,17 +29912,22 @@
          <xsl:map-entry key="'ὡραιότητί'" select="'ὡραιότης'"/>
          <xsl:map-entry key="'ὥραν'" select="'ὥρα'"/>
          <xsl:map-entry key="'ὥρας'" select="'ὥρα'"/>
+         <xsl:map-entry key="'ὠργιζόμεθά'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὠργίσθη'" select="'ὀργίζω'"/>
+         <xsl:map-entry key="'ὠργίσθης'" select="'ὀργίζω'"/>
          <xsl:map-entry key="'ὤρθριζον'" select="'ὀρθρίζω'"/>
          <xsl:map-entry key="'ὥριμον'" select="'ὥριμος'"/>
          <xsl:map-entry key="'ὥριμος'" select="'ὥριμος'"/>
          <xsl:map-entry key="'ὡρισμένα'" select="'ὁρίζω'"/>
+         <xsl:map-entry key="'ὡρισμένην'" select="'ὁρίζω'"/>
          <xsl:map-entry key="'ὥρμησεν'" select="'ὁρμάω'"/>
+         <xsl:map-entry key="'ὡρμῆσθαι'" select="'ὁρμάω'"/>
          <xsl:map-entry key="'ὡρολόγιον'" select="'ὡρολόγιον'"/>
          <xsl:map-entry key="'ὠρύεσθαι'" select="'ὠρύομαι'"/>
          <xsl:map-entry key="'ὤρυξαν'" select="'ὀρύσσω'"/>
          <xsl:map-entry key="'ὠρύομαι'" select="'ὠρύομαι'"/>
          <xsl:map-entry key="'ὠρυόμενοι'" select="'ὠρύομαι'"/>
+         <xsl:map-entry key="'ὡρῶν'" select="'ὥρα'"/>
          <xsl:map-entry key="'Ὡσανεὶ'" select="'ὡσανεί'"/>
          <xsl:map-entry key="'ὡσανεὶ'" select="'ὡσανεί'"/>
          <xsl:map-entry key="'ὡσανεί'" select="'ὡσανεί'"/>
@@ -27776,11 +29936,13 @@
          <xsl:map-entry key="'ὥσπερ'" select="'ὥσπερ'"/>
          <xsl:map-entry key="'ὦτα'" select="'οὖς'"/>
          <xsl:map-entry key="'ὦτά'" select="'οὖς'"/>
-         <xsl:map-entry key="'Ὦτος'" select="'Ὦτος'"/>
+         <xsl:map-entry key="'Ὦτος'" select="'ὦτος'"/>
          <xsl:map-entry key="'ὠτὸς'" select="'οὖς'"/>
          <xsl:map-entry key="'Ὠτότμησις'" select="'ὠτότμησις'"/>
          <xsl:map-entry key="'ὠτότμησις'" select="'ὠτότμησις'"/>
-         <xsl:map-entry key="'Ὤτων'" select="'Ὦτος'"/>
+         <xsl:map-entry key="'Ὤτων'" select="'ὦτος'"/>
+         <xsl:map-entry key="'ὠφείλομεν'" select="'ὀφείλω'"/>
+         <xsl:map-entry key="'ὤφειλον'" select="'ὀφείλω'"/>
          <xsl:map-entry key="'ὠφελεῖ'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφέλεια'" select="'ὠφέλεια'"/>
          <xsl:map-entry key="'ωφελειαν'" select="'ὠφέλεια'"/>
@@ -27790,15 +29952,19 @@
          <xsl:map-entry key="'ωφελεις'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφέλεῖς'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφελέω'" select="'ὠφελέω'"/>
+         <xsl:map-entry key="'ὠφεληθῆναι'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφεληθήσεται'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ωφελημα'" select="'ὠφέλημα'"/>
          <xsl:map-entry key="'ὠφέλημα'" select="'ὠφέλημα'"/>
          <xsl:map-entry key="'ὠφελημένους'" select="'ὠφελέω'"/>
+         <xsl:map-entry key="'ὠφελῆσαι'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφέλησας'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφελήσει'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφέλησεν'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφελήσῃς'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφελήσουσι'" select="'ὠφελέω'"/>
+         <xsl:map-entry key="'ὠφελητὴν'" select="'ὠφελητής'"/>
+         <xsl:map-entry key="'ὠφελητής'" select="'ὠφελητής'"/>
          <xsl:map-entry key="'ὠφέλιμα'" select="'ὠφέλιμος'"/>
          <xsl:map-entry key="'ὠφελίμοις'" select="'ὠφέλιμος'"/>
          <xsl:map-entry key="'ὠφέλιμον'" select="'ὠφέλιμος'"/>
@@ -27808,6 +29974,7 @@
          <xsl:map-entry key="'ὠφελούμενος'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ὠφελουμένων'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ωφελουντα'" select="'ὠφελέω'"/>
+         <xsl:map-entry key="'ὠφελοῦνται'" select="'ὠφελέω'"/>
          <xsl:map-entry key="'ωφθη'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὤφθη'" select="'ὁράω'"/>
          <xsl:map-entry key="'ὤφθην'" select="'ὁράω'"/>
@@ -27817,62 +29984,460 @@
          <xsl:map-entry key="'ὠχρείας'" select="'ὠχρεία'"/>
          <xsl:map-entry key="'ὠχρότης'" select="'ὠχρότης'"/>
          <xsl:map-entry key="'ὠχρότητα'" select="'ὠχρότης'"/>
-         <xsl:map-entry key="'Ἀγγεῖα'" select="'ἀγγεῖον'"/>
-         <xsl:map-entry key="'Ἀλεκτρυών'" select="'ἀλεκτρυών'"/>
-         <xsl:map-entry key="'ἀλεξικάκου'" select="'ἀλεξίκακος'"/>
-         <xsl:map-entry key="'ἀληθινόν'" select="'ἀληθινός'"/>
-         <xsl:map-entry key="'Ἀπώλεια'" select="'ἀπώλεια'"/>
-         <xsl:map-entry key="'ἀριστερὰ'" select="'ἀριστερός'"/>
-         <xsl:map-entry key="'Βακτηρία'" select="'βακτηρία'"/>
-         <xsl:map-entry key="'βασιλευόμεναι'" select="'βασιλεύω'"/>
-         <xsl:map-entry key="'Βασιλεύς'" select="'βασιλεύς'"/>
-         <xsl:map-entry key="'Βλέφαρα'" select="'βλέφαρον'"/>
-         <xsl:map-entry key="'Βόες'" select="'βοῦς'"/>
-         <xsl:map-entry key="'Γενήματα'" select="'γένημα'"/>
-         <xsl:map-entry key="'Γινώσκει'" select="'γιγνώσκω'"/>
-         <xsl:map-entry key="'γραφαῖς'" select="'γραφή'"/>
-         <xsl:map-entry key="'Γυνή'" select="'γυνή'"/>
-         <xsl:map-entry key="'διαλεκτική'" select="'διαλεκτικός'"/>
-         <xsl:map-entry key="'Ἔλαφος'" select="'ἔλαφος'"/>
-         <xsl:map-entry key="'ἐνεργήματα'" select="'ἐνέργημα'"/>
-         <xsl:map-entry key="'ἑτεροδόξων'" select="'ἑτερόδοξος'"/>
-         <xsl:map-entry key="'εὔθυμα'" select="'εὔθυμος'"/>
-         <xsl:map-entry key="'εὐρύτερα'" select="'εὐρύς'"/>
-         <xsl:map-entry key="'ἠθικὰ'" select="'ἠθικός'"/>
-         <xsl:map-entry key="'Κόρακές'" select="'κόραξ'"/>
-         <xsl:map-entry key="'κρείττονα'" select="'κρείσσων'"/>
-         <xsl:map-entry key="'λέοντός'" select="'λέων'"/>
-         <xsl:map-entry key="'νόθοι'" select="'νόθος'"/>
-         <xsl:map-entry key="'ὀρθοὶ'" select="'ὀρθός'"/>
-         <xsl:map-entry key="'Παῖδες'" select="'παῖς'"/>
-         <xsl:map-entry key="'παιδεύματα'" select="'παίδευμα'"/>
-         <xsl:map-entry key="'παντελείας'" select="'παντέλεια'"/>
-         <xsl:map-entry key="'πεπαιδευμένος'" select="'παιδεύω'"/>
-         <xsl:map-entry key="'Πλάνη'" select="'πλάνη'"/>
-         <xsl:map-entry key="'Πονηρία'" select="'πονηρία'"/>
-         <xsl:map-entry key="'Πῶλος'" select="'πῶλος'"/>
-         <xsl:map-entry key="'Ῥάβδος'" select="'ῥάβδος'"/>
-         <xsl:map-entry key="'σοφὰ'" select="'σοφός'"/>
-         <xsl:map-entry key="'Τροφαὶ'" select="'τροφή'"/>
-         <xsl:map-entry key="'ὑποδεχόμεναι'" select="'ὑποδέχομαι'"/>
-         <xsl:map-entry key="'Φάραγγές'" select="'φάραγξ'"/>
-         <xsl:map-entry key="'Φάτναι'" select="'φάτνη'"/>
-         <xsl:map-entry key="'Φαύλη'" select="'φαῦλος'"/>
-         <xsl:map-entry key="'Φίλος'" select="'φίλος'"/>
-         <xsl:map-entry key="'Χάρις'" select="'χάρις'"/>
-         <xsl:map-entry key="'Χάριτες'" select="'χάρις'"/>
-         <xsl:map-entry key="'Χείλη'" select="'χεῖλος'"/>
-         <xsl:map-entry key="'χωροῦσαι'" select="'χωρέω'"/>
-         <xsl:map-entry key="'ἀλεξίκακος'" select="'ἀλεξίκακος'"/>
-         <xsl:map-entry key="'γένημα'" select="'γένημα'"/>
-         <xsl:map-entry key="'διδάσκαλοι'" select="'διδάσκαλος'"/>
-         <xsl:map-entry key="'ἐνέργημα'" select="'ἐνέργημα'"/>
-         <xsl:map-entry key="'ἑτερόδοξος'" select="'ἑτερόδοξος'"/>
-         <xsl:map-entry key="'εὐρύς'" select="'εὐρύς'"/>
-         <xsl:map-entry key="'νόθος'" select="'νόθος'"/>
-         <xsl:map-entry key="'παίδευμα'" select="'παίδευμα'"/>
-         <xsl:map-entry key="'παντέλεια'" select="'παντέλεια'"/>
-
+         <xsl:map-entry key="'Αβιεσερ'" select="'Ἀβιέζερ'"/>
+         <xsl:map-entry key="'αβρααμ'" select="'Ἀβραάμ'"/>
+         <xsl:map-entry key="'αγαθοτητι'" select="'ἀγαθότης'"/>
+         <xsl:map-entry key="'αγαλλιασαι'" select="'ἀγαλλιάω'"/>
+         <xsl:map-entry key="'αγαλλιασομαι'" select="'ἀγαλλιάω'"/>
+         <xsl:map-entry key="'αγαπαι'" select="'ἀγάπη'"/>
+         <xsl:map-entry key="'αγαπαις'" select="'ἀγάπη'"/>
+         <xsl:map-entry key="'αγαπαται'" select="'ἀγαπητός'"/>
+         <xsl:map-entry key="'αγαπηι'" select="'ἀγάπη'"/>
+         <xsl:map-entry key="'αγαπηται'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'αγαπητως'" select="'ἀγαπητῶς'"/>
+         <xsl:map-entry key="'αγαπωντας'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'αγαπωντων'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'αγαπωσαν'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'αγαπωσιν'" select="'ἀγαπάω'"/>
+         <xsl:map-entry key="'αγγελεκην'" select="'ἀγγελικός'"/>
+         <xsl:map-entry key="'αγγελωι'" select="'ἄγγελος'"/>
+         <xsl:map-entry key="'αγελην'" select="'ἀγέλη'"/>
+         <xsl:map-entry key="'αγιασθεντων'" select="'ἁγιάζω'"/>
+         <xsl:map-entry key="'αγιασμωι'" select="'ἁγιασμός'"/>
+         <xsl:map-entry key="'αγιε'" select="'ἅγιος'"/>
+         <xsl:map-entry key="'αγνισασθε'" select="'ἁγνίζω'"/>
+         <xsl:map-entry key="'αγνον'" select="'ἁγνός'"/>
+         <xsl:map-entry key="'αγνοουμενος'" select="'ἀγνοέω'"/>
+         <xsl:map-entry key="'αγνων'" select="'ἀγνοέω'"/>
+         <xsl:map-entry key="'αγομενηι'" select="'ἄγω'"/>
+         <xsl:map-entry key="'αγοντες'" select="'ἄγω'"/>
+         <xsl:map-entry key="'αγοραζεσθαι'" select="'ἀγοράζω'"/>
+         <xsl:map-entry key="'αγορας'" select="'ἀγορά'"/>
+         <xsl:map-entry key="'αγορασαντες'" select="'ἀγοράζω'"/>
+         <xsl:map-entry key="'αγορασεως'" select="'ἀγόρασις'"/>
+         <xsl:map-entry key="'αγορων'" select="'ἀγορά'"/>
+         <xsl:map-entry key="'αγρευειν'" select="'ἀγρεύω'"/>
+         <xsl:map-entry key="'αγρευθηις'" select="'ἀγρεύω'"/>
+         <xsl:map-entry key="'αγρια'" select="'ἄγριος'"/>
+         <xsl:map-entry key="'αγριδιον'" select="'ἀγρίδιον'"/>
+         <xsl:map-entry key="'αγρυπνιαι'" select="'ἀγρυπνία'"/>
+         <xsl:map-entry key="'αγρωι'" select="'ἀγρός'"/>
+         <xsl:map-entry key="'αγωγην'" select="'ἀγωγή'"/>
+         <xsl:map-entry key="'αγωμα'" select="'ἀγών'"/>
+         <xsl:map-entry key="'αγωνιζηι'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'αγωνιζομενους'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'αγωνιζομενων'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'αγωνιζωμαι'" select="'ἀγωνίζομαι'"/>
+         <xsl:map-entry key="'αἴσθεται'" select="'αἰσθάνομαι'"/>
+         <xsl:map-entry key="'Αἰτία'" select="'αἰτία'"/>
+         <xsl:map-entry key="'Ἀκαταφρόνητος'" select="'ἀκαταφρόνητος'"/>
+         <xsl:map-entry key="'ἀκοπωτέρως'" select="'ἄκοπος'"/>
+         <xsl:map-entry key="'ἀκούσασα'" select="'ἀκούω'"/>
+         <xsl:map-entry key="'ἀκρῖδες'" select="'ἀκρίς'"/>
+         <xsl:map-entry key="'Ἀκροώμενος'" select="'ἀκροάομαι'"/>
+         <xsl:map-entry key="'ἀκρωτηρῶν'" select="'ἀκρωτήρ'"/>
+         <xsl:map-entry key="'ἁμαυροῦται'" select="'ἀμαυρόω'"/>
+         <xsl:map-entry key="'ἀμελήσαντος'" select="'ἀμελέω'"/>
+         <xsl:map-entry key="'ἀμνησικακεῖ'" select="'ἀμνησικακέω'"/>
+         <xsl:map-entry key="'ἀναζωγράφει'" select="'ἀναζωγραφέω'"/>
+         <xsl:map-entry key="'ἀνακλάσαντες'" select="'ἀνακλάω'"/>
+         <xsl:map-entry key="'ἀναστάτους'" select="'ἀνάστατος'"/>
+         <xsl:map-entry key="'ἀνασφάλτως'" select="'ἀνασφάλτως'"/>
+         <xsl:map-entry key="'ἀνδρωπαρεσκεία'" select="'ἀνδρωπαρεσκεία'"/>
+         <xsl:map-entry key="'ἀνηρπάσθησαν'" select="'ἀναρπάζω'"/>
+         <xsl:map-entry key="'Ἄνθρακες'" select="'ἄνθραξ'"/>
+         <xsl:map-entry key="'ἀνθρωπαρέσκῳ'" select="'ἀνθρωπάρεσκος'"/>
+         <xsl:map-entry key="'ἀνιστάμεθα'" select="'ἀνίστημι'"/>
+         <xsl:map-entry key="'ἀνταγωνίζοιτο'" select="'ἀνταγωνίζομαι'"/>
+         <xsl:map-entry key="'ἀνταίρῃ'" select="'ἀνταίρω'"/>
+         <xsl:map-entry key="'ἀντικρὺ'" select="'ἀντικρύ'"/>
+         <xsl:map-entry key="'ἀντιμετρήσεις'" select="'ἀντιμετρέω'"/>
+         <xsl:map-entry key="'ἀντιπάλοις'" select="'ἀντίπαλος'"/>
+         <xsl:map-entry key="'ἀντιπαράττεσθαι'" select="'ἀντιπαραίσσω'"/>
+         <xsl:map-entry key="'ἀντιστηρίζειν'" select="'ἀντιστηρίζω'"/>
+         <xsl:map-entry key="'ἀντύβριζε'" select="'ἀνθυβρίζω'"/>
+         <xsl:map-entry key="'Ἀπαθὴς'" select="'ἀπαθής'"/>
+         <xsl:map-entry key="'ἀπαλειφή'" select="'ἀπαλειφή'"/>
+         <xsl:map-entry key="'ἀπαστράπτουσι'" select="'ἀπαστράπτω'"/>
+         <xsl:map-entry key="'ἀπέδρασε'" select="'ἀποδράω'"/>
+         <xsl:map-entry key="'ἀπεζευγμέναι'" select="'ἀποζεύγνυμαι'"/>
+         <xsl:map-entry key="'ἀπειλοῦσι'" select="'ἀπειλέω'"/>
+         <xsl:map-entry key="'ἀπερεύγονται'" select="'ἀπερεύγομαι'"/>
+         <xsl:map-entry key="'ἀπέρρηξε'" select="'ἀπορρήγνυμι'"/>
+         <xsl:map-entry key="'ἄπιθι'" select="'ἄπειμι'"/>
+         <xsl:map-entry key="'ἀποκαρτερίαις'" select="'ἀποκαρτερία'"/>
+         <xsl:map-entry key="'ἀποκοιμίζουσιν'" select="'ἀποκοιμίζω'"/>
+         <xsl:map-entry key="'Ἀποκριθήσῃ'" select="'ἀποκρίνω'"/>
+         <xsl:map-entry key="'ἀποπέσοι'" select="'ἀποπίπτω'"/>
+         <xsl:map-entry key="'ἀποπλανήσωσι'" select="'ἀποπλανάω'"/>
+         <xsl:map-entry key="'ἀποστομῶντες'" select="'ἀποστομόω'"/>
+         <xsl:map-entry key="'ἀποσῴζων'" select="'ἀποσῴζω'"/>
+         <xsl:map-entry key="'ἀποταξίας'" select="'ἀποταξία'"/>
+         <xsl:map-entry key="'ἀποῦσι'" select="'ἄπειμι'"/>
+         <xsl:map-entry key="'Ἀρκείσθω'" select="'ἀρκέω'"/>
+         <xsl:map-entry key="'ἀρρωστίαν'" select="'ἀρρωστία'"/>
+         <xsl:map-entry key="'ἀρχιλῄστης'" select="'ἀρχιλῃστής'"/>
+         <xsl:map-entry key="'ἄσαρκον'" select="'ἄσαρκος'"/>
+         <xsl:map-entry key="'ἀσελγείᾳ'" select="'ἀσέλγεια'"/>
+         <xsl:map-entry key="'ἀσιτίων'" select="'ἀσιτία'"/>
+         <xsl:map-entry key="'ἀτενίζουσιν'" select="'ἀτενίζω'"/>
+         <xsl:map-entry key="'ἁτονήσῃ'" select="'ἀτονέω'"/>
+         <xsl:map-entry key="'ἄτονοι'" select="'ἄτονος'"/>
+         <xsl:map-entry key="'ἁτόποις'" select="'ἄτοπος'"/>
+         <xsl:map-entry key="'αὐγῆς'" select="'αὐγή'"/>
+         <xsl:map-entry key="'αὐταρεσκίας'" select="'αὐταρεσκίας'"/>
+         <xsl:map-entry key="'αὐτοβοηθὸν'" select="'αὐτοβοηθός'"/>
+         <xsl:map-entry key="'ἀφάλλεται'" select="'ἀφάλλομαι'"/>
+         <xsl:map-entry key="'Ἀφῄρηται'" select="'ἀφαιρέω'"/>
+         <xsl:map-entry key="'ἀφιπταμένη'" select="'ἀποπέτομαι'"/>
+         <xsl:map-entry key="'ἀφομοιωμένος'" select="'ἀφομοιόω'"/>
+         <xsl:map-entry key="'ἁψίδα'" select="'ἁψίς'"/>
+         <xsl:map-entry key="'βαραθρόσωσιν'" select="'βαραθρόω'"/>
+         <xsl:map-entry key="'βαρὺς'" select="'βαρύς'"/>
+         <xsl:map-entry key="'βελτίστοις'" select="'βέλτιστος'"/>
+         <xsl:map-entry key="'βότρυν'" select="'βότρυς'"/>
+         <xsl:map-entry key="'βραδυτῆτος'" select="'βραδυτής'"/>
+         <xsl:map-entry key="'βροντήν'" select="'βροντή'"/>
+         <xsl:map-entry key="'γενέτης'" select="'γενέτης'"/>
+         <xsl:map-entry key="'γνώριμον'" select="'γνώριμος'"/>
+         <xsl:map-entry key="'γνωστικωτέρων'" select="'γνωστικός'"/>
+         <xsl:map-entry key="'γυμνάζουσιν'" select="'γυμνάζω'"/>
+         <xsl:map-entry key="'δειγματίσωσιν'" select="'δειγματίζω'"/>
+         <xsl:map-entry key="'δεινά'" select="'δεινός'"/>
+         <xsl:map-entry key="'δελέασι'" select="'δέλεαρ'"/>
+         <xsl:map-entry key="'διαδρᾶς'" select="'διαδράω'"/>
+         <xsl:map-entry key="'διακόψουσιν'" select="'διακόπτω'"/>
+         <xsl:map-entry key="'διαπραττόμεθα'" select="'διαπράσσω'"/>
+         <xsl:map-entry key="'διαρπαγάς'" select="'διαρπαγή'"/>
+         <xsl:map-entry key="'διαρπαγήν'" select="'διαρπαγή'"/>
+         <xsl:map-entry key="'διαρρῆξαι'" select="'διαρρήγνυμι'"/>
+         <xsl:map-entry key="'δίγλωσσοι'" select="'δίγλωσσος'"/>
+         <xsl:map-entry key="'διερευνῶν'" select="'διερευνάω'"/>
+         <xsl:map-entry key="'δικαστήν'" select="'δικαστής'"/>
+         <xsl:map-entry key="'διϋπνισθέντες'" select="'διυπνίζω'"/>
+         <xsl:map-entry key="'διχοτομήσωμεν'" select="'διχοτομέω'"/>
+         <xsl:map-entry key="'δολερὸς'" select="'δολερός'"/>
+         <xsl:map-entry key="'δολουργῶς'" select="'δολουργῶς'"/>
+         <xsl:map-entry key="'δολοφόνων'" select="'δολοφόνος'"/>
+         <xsl:map-entry key="'δολοφόνως'" select="'δολοφόνως'"/>
+         <xsl:map-entry key="'δότην'" select="'δότης'"/>
+         <xsl:map-entry key="'δρασόντων'" select="'δράω'"/>
+         <xsl:map-entry key="'ἐγκλήματι'" select="'ἔγκλημα'"/>
+         <xsl:map-entry key="'εἱλκοῦτο'" select="'ἑλκόω'"/>
+         <xsl:map-entry key="'εἵνεχεν'" select="'ἕνεκεν'"/>
+         <xsl:map-entry key="'εἰρηνεύσῃς'" select="'εἰρηνεύω'"/>
+         <xsl:map-entry key="'εἰσακούειν'" select="'εἰσακούω'"/>
+         <xsl:map-entry key="'Εἰσβάλλουσι'" select="'εἰσβάλλω'"/>
+         <xsl:map-entry key="'εἰσοπτρίζων'" select="'εἰσοπτρίζω'"/>
+         <xsl:map-entry key="'ἐκδημοίη'" select="'ἐκδημέω'"/>
+         <xsl:map-entry key="'ἐκδημοίῃς'" select="'ἐκδημέω'"/>
+         <xsl:map-entry key="'ἐκδήμους'" select="'ἔκδημος'"/>
+         <xsl:map-entry key="'ἐκπλαγῆς'" select="'ἐκπλαγής'"/>
+         <xsl:map-entry key="'ἐκπολημήσῃς'" select="'ἐκπολεμέω'"/>
+         <xsl:map-entry key="'ἐκτενέστερον'" select="'ἐκτενής'"/>
+         <xsl:map-entry key="'ἐκτυποῦντες'" select="'ἐκτυπόω'"/>
+         <xsl:map-entry key="'εκφημισθῇ'" select="'ἐκφημίζω'"/>
+         <xsl:map-entry key="'ἐλάσῃς'" select="'ἐλαύνω'"/>
+         <xsl:map-entry key="'Ἐλισαῖε'" select="'Ἐλισαιέ'"/>
+         <xsl:map-entry key="'ἐλλάμπεσθαι'" select="'ἐλλάμπω'"/>
+         <xsl:map-entry key="'ἔλλαμψιν'" select="'ἔλλαμψις'"/>
+         <xsl:map-entry key="'ἔμπυρον'" select="'ἔμπυρος'"/>
+         <xsl:map-entry key="'ἐνδελεχεῖν'" select="'ἐνδελεχέω'"/>
+         <xsl:map-entry key="'ἐνέδραν'" select="'ἐνέδρα'"/>
+         <xsl:map-entry key="'ἐνθησαυρίζων'" select="'ἐνθησαυρίζω'"/>
+         <xsl:map-entry key="'ἐξηφάντωσε'" select="'ἐξαφαντόω'"/>
+         <xsl:map-entry key="'ἐξιὼν'" select="'ἔξειμι'"/>
+         <xsl:map-entry key="'ἐξορίζουσα'" select="'ἐξορίζω'"/>
+         <xsl:map-entry key="'ἐξουδενοῦσι'" select="'ἐξουδενόω'"/>
+         <xsl:map-entry key="'ἐξουδενώσῃ'" select="'ἐξουδενόω'"/>
+         <xsl:map-entry key="'ἐξυψοῦσθαι'" select="'ἐξυψόω'"/>
+         <xsl:map-entry key="'ἐπαισθανόμενος'" select="'ἐπαισθάνομαι'"/>
+         <xsl:map-entry key="'ἐπαπορητικῶς'" select="'ἐπαπορητικός'"/>
+         <xsl:map-entry key="'ἐπεδείκνυ'" select="'ἐπιδείκνυμι'"/>
+         <xsl:map-entry key="'ἐπερωτηθεὶς'" select="'ἐπερωτάω'"/>
+         <xsl:map-entry key="'ἐπιβουλεύει'" select="'ἐπιβουλεύω'"/>
+         <xsl:map-entry key="'ἐπιδικίαν'" select="'ἐπιδικία'"/>
+         <xsl:map-entry key="'ἐπιεικές'" select="'ἐπιεικής'"/>
+         <xsl:map-entry key="'Ἐπιζήτει'" select="'ἐπιζητέω'"/>
+         <xsl:map-entry key="'ἐπιπέσοι'" select="'ἐπιπίπτω'"/>
+         <xsl:map-entry key="'ἐπισκοτίζει'" select="'ἐπισκοτίζω'"/>
+         <xsl:map-entry key="'ἐπιστάσα'" select="'ἐπιστάζω'"/>
+         <xsl:map-entry key="'ἐπισυνάγωμεν'" select="'ἐπισυνάγω'"/>
+         <xsl:map-entry key="'ἐπιτήρει'" select="'ἐπιτηρέω'"/>
+         <xsl:map-entry key="'ἐποξύνουσι'" select="'ἐποξύνω'"/>
+         <xsl:map-entry key="'ἐρᾶν'" select="'ἐράω'"/>
+         <xsl:map-entry key="'ἐρευνᾶν'" select="'ἐρευνάω'"/>
+         <xsl:map-entry key="'ἐρήμης'" select="'ἐρῆμος'"/>
+         <xsl:map-entry key="'ἐσοπτριζόμενος'" select="'εἰσοπτρίζω'"/>
+         <xsl:map-entry key="'ἕστηκας'" select="'ἵστημι'"/>
+         <xsl:map-entry key="'ἐτύγχανεν'" select="'τυγχάνω'"/>
+         <xsl:map-entry key="'Εὐλόγιον'" select="'Εὐλόγιος'"/>
+         <xsl:map-entry key="'εὑρὸν'" select="'εὑρίσκω'"/>
+         <xsl:map-entry key="'εὐρύνετο'" select="'εὐρύνω'"/>
+         <xsl:map-entry key="'εὐρύνωσιν'" select="'εὐρύνω'"/>
+         <xsl:map-entry key="'εὐφημηθέντες'" select="'εὐφημέω'"/>
+         <xsl:map-entry key="'Εὐχῆς'" select="'εὐχή'"/>
+         <xsl:map-entry key="'ἐφέλκονται'" select="'ἐφέλκω'"/>
+         <xsl:map-entry key="'ἐφίπταται'" select="'ἐφίπταμαι'"/>
+         <xsl:map-entry key="'Ἐφίσταται'" select="'ἐφίστημι'"/>
+         <xsl:map-entry key="'ἐφίστατο'" select="'ἐφίστημι'"/>
+         <xsl:map-entry key="'ἐφυβρικότα'" select="'ἐφυβρίζω'"/>
+         <xsl:map-entry key="'ἐχάρῃ'" select="'χαίρω'"/>
+         <xsl:map-entry key="'ἐψοῦσιν'" select="'ἕψω'"/>
+         <xsl:map-entry key="'ζέμα'" select="'ζέμα'"/>
+         <xsl:map-entry key="'ζηλοῦσιν'" select="'ζηλόω'"/>
+         <xsl:map-entry key="'ζητοῦντος'" select="'ζητέω'"/>
+         <xsl:map-entry key="'ζωγρηθείς'" select="'ζωγρέω'"/>
+         <xsl:map-entry key="'ἡλαύνετο'" select="'ἐλαύνω'"/>
+         <xsl:map-entry key="'θάρρυνε'" select="'θαρσύνω'"/>
+         <xsl:map-entry key="'θέᾳ'" select="'θέα'"/>
+         <xsl:map-entry key="'Θῆγε'" select="'θήγω'"/>
+         <xsl:map-entry key="'θῆρα'" select="'θήρ'"/>
+         <xsl:map-entry key="'θλίβουσιν'" select="'θλίβω'"/>
+         <xsl:map-entry key="'θράσος'" select="'θράσος'"/>
+         <xsl:map-entry key="'θράσους'" select="'θράσος'"/>
+         <xsl:map-entry key="'θροοῦσιν'" select="'θροέω'"/>
+         <xsl:map-entry key="'θρυλούμενοι'" select="'θρυλέω'"/>
+         <xsl:map-entry key="'Θυμομαχοῦντας'" select="'θυμομαχέω'"/>
+         <xsl:map-entry key="'ἱκετεύσασα'" select="'ἱκετεύω'"/>
+         <xsl:map-entry key="'Ἰοθὼρ'" select="'Ἰοθώρ'"/>
+         <xsl:map-entry key="'ἱστάμεθα'" select="'ἵστημι'"/>
+         <xsl:map-entry key="'καθίστανται'" select="'καθίστημι'"/>
+         <xsl:map-entry key="'καμπτομένους'" select="'κάμπτω'"/>
+         <xsl:map-entry key="'καταληφθεὶς'" select="'καταλαμβάνω'"/>
+         <xsl:map-entry key="'καταρράξῃ'" select="'καταρρήγνυμι'"/>
+         <xsl:map-entry key="'καταρράξῃς'" select="'καταρρήγνυμι'"/>
+         <xsl:map-entry key="'κατεπείγων'" select="'κατεπείγω'"/>
+         <xsl:map-entry key="'κατέστελλεν'" select="'καταστέλλω'"/>
+         <xsl:map-entry key="'καυχήσῃ'" select="'καυχάομαι'"/>
+         <xsl:map-entry key="'κέκτησαι'" select="'κτάομαι'"/>
+         <xsl:map-entry key="'κινηθείη'" select="'κινέω'"/>
+         <xsl:map-entry key="'κλαύσασα'" select="'κλαίω'"/>
+         <xsl:map-entry key="'κλίνοιτο'" select="'κλίνω'"/>
+         <xsl:map-entry key="'κοιμήσῃς'" select="'κοιμάω'"/>
+         <xsl:map-entry key="'κρημνισθείη'" select="'κρημνίζω'"/>
+         <xsl:map-entry key="'λαμβανέτω'" select="'λαμβάνω'"/>
+         <xsl:map-entry key="'λαμπρὰν'" select="'λαμπρός'"/>
+         <xsl:map-entry key="'λήπτορα'" select="'λήπτωρ'"/>
+         <xsl:map-entry key="'λιθάζει'" select="'λιθάζω'"/>
+         <xsl:map-entry key="'Λοιδορούμενος'" select="'λοιδορέω'"/>
+         <xsl:map-entry key="'Λύπην'" select="'λύπη'"/>
+         <xsl:map-entry key="'μάθῃ'" select="'μανθάνω'"/>
+         <xsl:map-entry key="'μαχητήν'" select="'μαχητής'"/>
+         <xsl:map-entry key="'μεγαλύνας'" select="'μεγαλύνω'"/>
+         <xsl:map-entry key="'μέλεσι'" select="'μέλος'"/>
+         <xsl:map-entry key="'μεμενηκός'" select="'μένω'"/>
+         <xsl:map-entry key="'μύσος'" select="'μύσος'"/>
+         <xsl:map-entry key="'νεάνισιν'" select="'νεᾶνις'"/>
+         <xsl:map-entry key="'νέηλυν'" select="'νέηλυς'"/>
+         <xsl:map-entry key="'νομίζῃ'" select="'νομίζω'"/>
+         <xsl:map-entry key="'νομισθῶσιν'" select="'νομίζω'"/>
+         <xsl:map-entry key="'νομίσωμεν'" select="'νομίζω'"/>
+         <xsl:map-entry key="'ξενῆς'" select="'ξενή'"/>
+         <xsl:map-entry key="'ξένιζε'" select="'ξενίζω'"/>
+         <xsl:map-entry key="'ξιφαίους'" select="'ξίφαιος'"/>
+         <xsl:map-entry key="'ξῖφος'" select="'ξίφος'"/>
+         <xsl:map-entry key="'οἴδας'" select="'οἶδα'"/>
+         <xsl:map-entry key="'οἰκοδομείσθω'" select="'οἰκοδομέω'"/>
+         <xsl:map-entry key="'Ὅπλισαι'" select="'ὁπλίζω'"/>
+         <xsl:map-entry key="'ὁπτανομένων'" select="'ὀπτάνομαι'"/>
+         <xsl:map-entry key="'ὀφθαλμιῶσιν'" select="'ὀφθαλμιάω'"/>
+         <xsl:map-entry key="'παγὰς'" select="'πηγή'"/>
+         <xsl:map-entry key="'παίοντί'" select="'παίω'"/>
+         <xsl:map-entry key="'παίων'" select="'παίω'"/>
+         <xsl:map-entry key="'παραδιδοῖ'" select="'παραδίδωμι'"/>
+         <xsl:map-entry key="'παραπετάζει'" select="'παραπετάζω'"/>
+         <xsl:map-entry key="'παραστῶμεν'" select="'παρίστημι'"/>
+         <xsl:map-entry key="'παρεισδύνει'" select="'παρεισδύνω'"/>
+         <xsl:map-entry key="'παρεμβάλλει'" select="'παρεμβάλλω'"/>
+         <xsl:map-entry key="'παρεμποδιζούσης'" select="'παρεμποδίζω'"/>
+         <xsl:map-entry key="'παρῃτησάμην'" select="'παραιτέομαι'"/>
+         <xsl:map-entry key="'παρθένῳ'" select="'παρθένος'"/>
+         <xsl:map-entry key="'παροξύνοντα'" select="'παροξύνω'"/>
+         <xsl:map-entry key="'πασσομένου'" select="'πάσσω'"/>
+         <xsl:map-entry key="'παῦσαί'" select="'παύω'"/>
+         <xsl:map-entry key="'πειθομένους'" select="'πείθω'"/>
+         <xsl:map-entry key="'περιβαλοῦ'" select="'περιβάλλω'"/>
+         <xsl:map-entry key="'περιδράσονται'" select="'περιδράω'"/>
+         <xsl:map-entry key="'πιστοὶ'" select="'πιστός'"/>
+         <xsl:map-entry key="'πλατύνουσιν'" select="'πλατύνω'"/>
+         <xsl:map-entry key="'πλησίων'" select="'πλησίος'"/>
+         <xsl:map-entry key="'πλουτήσωσι'" select="'πλουτέω'"/>
+         <xsl:map-entry key="'πολυετή'" select="'πολυετής'"/>
+         <xsl:map-entry key="'πολυμήχανον'" select="'πολυμήχανος'"/>
+         <xsl:map-entry key="'πολύρρημον'" select="'πολυρρήμων'"/>
+         <xsl:map-entry key="'ποντοθείη'" select="'ποντόω'"/>
+         <xsl:map-entry key="'πορφυρίδα'" select="'πορφυρίς'"/>
+         <xsl:map-entry key="'προαποσμήχει'" select="'προαποσμήχω'"/>
+         <xsl:map-entry key="'προβάλλουσι'" select="'προβάλλω'"/>
+         <xsl:map-entry key="'προγυμνάζων'" select="'προγυμνάζω'"/>
+         <xsl:map-entry key="'προηγούμεθα'" select="'προηγέομαι'"/>
+         <xsl:map-entry key="'προκοπήν'" select="'προκοπή'"/>
+         <xsl:map-entry key="'προπηδᾷ'" select="'προπηδάω'"/>
+         <xsl:map-entry key="'προπηδῶσαι'" select="'προπηδάω'"/>
+         <xsl:map-entry key="'προπυρώσαντες'" select="'προπυρόω'"/>
+         <xsl:map-entry key="'προρρηθείσαις'" select="'προερέω'"/>
+         <xsl:map-entry key="'προσέχοντος'" select="'προσέχω'"/>
+         <xsl:map-entry key="'προσιᾶσι'" select="'προσίημι'"/>
+         <xsl:map-entry key="'προσσείοντας'" select="'προσείω'"/>
+         <xsl:map-entry key="'πτέρα'" select="'πτερόν'"/>
+         <xsl:map-entry key="'πύθωνα'" select="'πύθων'"/>
+         <xsl:map-entry key="'ῥᾳθυμίᾳ'" select="'ῥᾳθυμία'"/>
+         <xsl:map-entry key="'ῥημάτῶν'" select="'ῥῆμα'"/>
+         <xsl:map-entry key="'σαλεύειν'" select="'σαλεύω'"/>
+         <xsl:map-entry key="'σβέσεις'" select="'σβέννυμι'"/>
+         <xsl:map-entry key="'σιαγόσιν'" select="'σιαγών'"/>
+         <xsl:map-entry key="'σιγῶντος'" select="'σιγάω'"/>
+         <xsl:map-entry key="'σιφωνήσῃς'" select="'σιφωνέω'"/>
+         <xsl:map-entry key="'σκορπίσωσιν'" select="'σκορπίζω'"/>
+         <xsl:map-entry key="'σκώπτε'" select="'σκώπτω'"/>
+         <xsl:map-entry key="'σκώπτειν'" select="'σκώπτω'"/>
+         <xsl:map-entry key="'σκώψεις'" select="'σκώπτω'"/>
+         <xsl:map-entry key="'σμικρύνουσι'" select="'σμικρύνω'"/>
+         <xsl:map-entry key="'στένε'" select="'στένω'"/>
+         <xsl:map-entry key="'στήλην'" select="'στήλη'"/>
+         <xsl:map-entry key="'στολήν'" select="'στολή'"/>
+         <xsl:map-entry key="'συγκατακάμπτου'" select="'συγκατακάμπτω'"/>
+         <xsl:map-entry key="'συγκεράσεις'" select="'συγκεράννυμι'"/>
+         <xsl:map-entry key="'συγκροτοῦσι'" select="'συγκροτέω'"/>
+         <xsl:map-entry key="'συμβιωτάς'" select="'συμβιωτής'"/>
+         <xsl:map-entry key="'συμβιωτὴς'" select="'συμβιωτής'"/>
+         <xsl:map-entry key="'συμπλέκεσθαι'" select="'συμπλέκω'"/>
+         <xsl:map-entry key="'συμπλοκὰς'" select="'συμπλοκή'"/>
+         <xsl:map-entry key="'συναγέτω'" select="'συνάγω'"/>
+         <xsl:map-entry key="'συνεσθία'" select="'συνεστιάω'"/>
+         <xsl:map-entry key="'συνήσωμεν'" select="'συνίημι'"/>
+         <xsl:map-entry key="'συνόντες'" select="'σύνειμι'"/>
+         <xsl:map-entry key="'σφραγίζομεν'" select="'σφραγίζω'"/>
+         <xsl:map-entry key="'σῶαν'" select="'σῶος'"/>
+         <xsl:map-entry key="'σωματικούς'" select="'σωματικός'"/>
+         <xsl:map-entry key="'Ταπεινούμεθα'" select="'ταπεινόω'"/>
+         <xsl:map-entry key="'ταραχαί'" select="'ταραχή'"/>
+         <xsl:map-entry key="'τιμᾶν'" select="'τιμάω'"/>
+         <xsl:map-entry key="'Τιμῆς'" select="'τιμή'"/>
+         <xsl:map-entry key="'τροπώσῃ'" select="'τροπόω'"/>
+         <xsl:map-entry key="'τρυφυλίας'" select="'τρυφυλία'"/>
+         <xsl:map-entry key="'τυπώσασα'" select="'τυπόω'"/>
+         <xsl:map-entry key="'τυφλούς'" select="'τυφλός'"/>
+         <xsl:map-entry key="'τύχοι'" select="'τυγχάνω'"/>
+         <xsl:map-entry key="'Ὕβριν'" select="'ὕβρις'"/>
+         <xsl:map-entry key="'ὑβρισταῖς'" select="'ὑβριστής'"/>
+         <xsl:map-entry key="'ὑπεισβάλλων'" select="'ὑπεισβάλλω'"/>
+         <xsl:map-entry key="'ὑπεισφέρει'" select="'ὑπεισφέρω'"/>
+         <xsl:map-entry key="'ὑπεκκόπτουσιν'" select="'ὑπεκκόπτω'"/>
+         <xsl:map-entry key="'ὑπερβατῶς'" select="'ὑπερβατός'"/>
+         <xsl:map-entry key="'ὑπερετῶν'" select="'ὑπερετής'"/>
+         <xsl:map-entry key="'ὑπηγόρευσε'" select="'ὑπαγορεύω'"/>
+         <xsl:map-entry key="'ὑποβάλλοντές'" select="'ὑποβάλλω'"/>
+         <xsl:map-entry key="'ὑποβολάς'" select="'ὑποβολή'"/>
+         <xsl:map-entry key="'ὑποβολῶν'" select="'ὑποβολή'"/>
+         <xsl:map-entry key="'ὑπορράψωσιν'" select="'ὑπορράπτω'"/>
+         <xsl:map-entry key="'ὑποσυρίζοντες'" select="'ὑποσυρίζω'"/>
+         <xsl:map-entry key="'ὑποτοπίζοντες'" select="'ὑποτοπίζω'"/>
+         <xsl:map-entry key="'ὑπόχρειοι'" select="'ὑπόχρειος'"/>
+         <xsl:map-entry key="'ὕψιστον'" select="'ὕψιστος'"/>
+         <xsl:map-entry key="'φαντάζει'" select="'φαντάζομαι'"/>
+         <xsl:map-entry key="'φαντασθέντος'" select="'φαντάζομαι'"/>
+         <xsl:map-entry key="'φᾶσμα'" select="'φάσμα'"/>
+         <xsl:map-entry key="'φράσσε'" select="'φράσσω'"/>
+         <xsl:map-entry key="'φυγαδεύσει'" select="'φυγαδεύω'"/>
+         <xsl:map-entry key="'χαλινὸν'" select="'χαλινός'"/>
+         <xsl:map-entry key="'χάρισαι'" select="'χαρίζομαι'"/>
+         <xsl:map-entry key="'χαρίσμασι'" select="'χάρισμα'"/>
+         <xsl:map-entry key="'χειμάζεται'" select="'χειμάζω'"/>
+         <xsl:map-entry key="'χρήσοιτο'" select="'χράω'"/>
+         <xsl:map-entry key="'χρηστεύεταί'" select="'χρηστεύομαι'"/>
+         <xsl:map-entry key="'ψαλμῳδεῖν'" select="'ψαλμῳδέω'"/>
+         <xsl:map-entry key="'ψέγειν'" select="'ψέγω'"/>
+         <xsl:map-entry key="'ψηφίζοντες'" select="'ψηφίζω'"/>
+         <xsl:map-entry key="'ἀθῶον'" select="'ἀθῷος'"/>
+         <xsl:map-entry key="'ἀκρωτήρ'" select="'ἀκρωτήρ'"/>
+         <xsl:map-entry key="'ἀμνησικακέω'" select="'ἀμνησικακέω'"/>
+         <xsl:map-entry key="'ἀναζωγραφέω'" select="'ἀναζωγραφέω'"/>
+         <xsl:map-entry key="'ἀνακλάω'" select="'ἀνακλάω'"/>
+         <xsl:map-entry key="'ἀνάστατος'" select="'ἀνάστατος'"/>
+         <xsl:map-entry key="'ἀνταγωνίζομαι'" select="'ἀνταγωνίζομαι'"/>
+         <xsl:map-entry key="'ἀνταίρω'" select="'ἀνταίρω'"/>
+         <xsl:map-entry key="'ἀντιπαραίσσω'" select="'ἀντιπαραίσσω'"/>
+         <xsl:map-entry key="'ἀπαστράπτω'" select="'ἀπαστράπτω'"/>
+         <xsl:map-entry key="'ἀπερεύγομαι'" select="'ἀπερεύγομαι'"/>
+         <xsl:map-entry key="'ἀποκαρτερία'" select="'ἀποκαρτερία'"/>
+         <xsl:map-entry key="'ἀποταξία'" select="'ἀποταξία'"/>
+         <xsl:map-entry key="'ἀρετάω'" select="'ἀρετάω'"/>
+         <xsl:map-entry key="'ἀσιτέω'" select="'ἀσιτέω'"/>
+         <xsl:map-entry key="'ἄτονος'" select="'ἄτονος'"/>
+         <xsl:map-entry key="'βαραθρόω'" select="'βαραθρόω'"/>
+         <xsl:map-entry key="'βέλτιστος'" select="'βέλτιστος'"/>
+         <xsl:map-entry key="'δολοφόνος'" select="'δολοφόνος'"/>
+         <xsl:map-entry key="'ἔκδημος'" select="'ἔκδημος'"/>
+         <xsl:map-entry key="'ἐκπλαγής'" select="'ἐκπλαγής'"/>
+         <xsl:map-entry key="'ἐκφημισθῇ'" select="'ἐκφημίζω'"/>
+         <xsl:map-entry key="'ἐλλάμπω'" select="'ἐλλάμπω'"/>
+         <xsl:map-entry key="'ἔλλαμψις'" select="'ἔλλαμψις'"/>
+         <xsl:map-entry key="'ἐνθησαυρίζω'" select="'ἐνθησαυρίζω'"/>
+         <xsl:map-entry key="'ἐξαφαντόω'" select="'ἐξαφαντόω'"/>
+         <xsl:map-entry key="'ἐπερωτάω'" select="'ἐπερωτάω'"/>
+         <xsl:map-entry key="'ἐπιδικία'" select="'ἐπιδικία'"/>
+         <xsl:map-entry key="'ἐπισκοτίζω'" select="'ἐπισκοτίζω'"/>
+         <xsl:map-entry key="'ἐπιστάζω'" select="'ἐπιστάζω'"/>
+         <xsl:map-entry key="'ἐφίπταμαι'" select="'ἐφίπταμαι'"/>
+         <xsl:map-entry key="'ἐφυβρίζω'" select="'ἐφυβρίζω'"/>
+         <xsl:map-entry key="'ἕψω'" select="'ἕψω'"/>
+         <xsl:map-entry key="'θήγω'" select="'θήγω'"/>
+         <xsl:map-entry key="'Ἰοθώρ'" select="'Ἰοθώρ'"/>
+         <xsl:map-entry key="'κατειληφώς'" select="'καταλαμβάνω'"/>
+         <xsl:map-entry key="'κατεπείγω'" select="'κατεπείγω'"/>
+         <xsl:map-entry key="'κατερραγμένους'" select="'καταρρήγνυμι'"/>
+         <xsl:map-entry key="'κρημνίζω'" select="'κρημνίζω'"/>
+         <xsl:map-entry key="'λιθάζω'" select="'λιθάζω'"/>
+         <xsl:map-entry key="'νεᾶνις'" select="'νεᾶνις'"/>
+         <xsl:map-entry key="'ξενή'" select="'ξενή'"/>
+         <xsl:map-entry key="'ξίφαιος'" select="'ξίφαιος'"/>
+         <xsl:map-entry key="'οἰδάω'" select="'οἰδάω'"/>
+         <xsl:map-entry key="'ὀπτάνομαι'" select="'ὀπτάζομαι'"/>
+         <xsl:map-entry key="'παίω'" select="'παίω'"/>
+         <xsl:map-entry key="'παραπετάζω'" select="'παραπετάζω'"/>
+         <xsl:map-entry key="'παρεμποδίζω'" select="'παρεμποδίζω'"/>
+         <xsl:map-entry key="'πάσσω'" select="'πάσσω'"/>
+         <xsl:map-entry key="'περιδράω'" select="'περιδράω'"/>
+         <xsl:map-entry key="'πολυμήχανος'" select="'πολυμήχανος'"/>
+         <xsl:map-entry key="'πορφυρίς'" select="'πορφυρίς'"/>
+         <xsl:map-entry key="'προαποσμήχω'" select="'προαποσμήχω'"/>
+         <xsl:map-entry key="'προπηδάω'" select="'προπηδάω'"/>
+         <xsl:map-entry key="'προπυρόω'" select="'προπυρόω'"/>
+         <xsl:map-entry key="'προσείω'" select="'προσείω'"/>
+         <xsl:map-entry key="'πτέρον'" select="'πτερόν'"/>
+         <xsl:map-entry key="'πύθων'" select="'πύθων'"/>
+         <xsl:map-entry key="'σιφωνέω'" select="'σιφωνέω'"/>
+         <xsl:map-entry key="'σμικρίνω'" select="'σμικρίνω'"/>
+         <xsl:map-entry key="'στήλη'" select="'στήλη'"/>
+         <xsl:map-entry key="'συγκατακάμπτω'" select="'συγκατακάμπτω'"/>
+         <xsl:map-entry key="'συνήδομαι'" select="'συνήδομαι'"/>
+         <xsl:map-entry key="'σῶος'" select="'σῶος'"/>
+         <xsl:map-entry key="'τραχῶς'" select="'τραχῶς'"/>
+         <xsl:map-entry key="'τρυφυλία'" select="'τρυφυλία'"/>
+         <xsl:map-entry key="'ὑπεισβάλλω'" select="'ὑπεισβάλλω'"/>
+         <xsl:map-entry key="'ὑπεισφέρω'" select="'ὑπεισφέρω'"/>
+         <xsl:map-entry key="'ὑπερετής'" select="'ὑπερετής'"/>
+         <xsl:map-entry key="'ὑποβολή'" select="'ὑποβολή'"/>
+         <xsl:map-entry key="'ὑπορράπτω'" select="'ὑπορράπτω'"/>
+         <xsl:map-entry key="'ὑποτοπίζω'" select="'ὑποτοπίζω'"/>
+         <xsl:map-entry key="'ὑπόχρειος'" select="'ὑπόχρειος'"/>
+         <xsl:map-entry key="'χρυσίτην'" select="'χρυσίτης'"/>
+         <xsl:map-entry key="'ψαλμῳδέω'" select="'ψαλμῳδέω'"/>
+         <xsl:map-entry key="'ἀνώτατος'" select="'ἀνώτατος'"/>
+         <xsl:map-entry key="'ἁρπάζοντας'" select="'ἁρπάζω'"/>
+         <xsl:map-entry key="'ἀκμητί'" select="'ἀκμητί'"/>
+         <xsl:map-entry key="'ἀτιμάω'" select="'ἀτιμάω'"/>
+         <xsl:map-entry key="'βιός'" select="'βιός'"/>
+         <xsl:map-entry key="'ἐκφημίζω'" select="'ἐκφημίζω'"/>
+         <xsl:map-entry key="'διόλου'" select="'διόλου'"/>
+         <xsl:map-entry key="'δισσῶς'" select="'δισσῶς'"/>
+         <xsl:map-entry key="'καταλείπω'" select="'καταλείπω'"/>
+         <xsl:map-entry key="'Ῥωμαῖος'" select="'Ῥωμαῖος'"/>
+         <xsl:map-entry key="'σοδομιτικός'" select="'Σοδομιτικός'"/>
+		 <xsl:map-entry key="'ὦ'" select="'ὦ'"/>
+		 <xsl:map-entry key="'ὦτος'" select="ὦτος"/>
       </xsl:map>
    </xsl:variable>
 </xsl:stylesheet>
