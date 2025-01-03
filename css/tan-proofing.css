@@ -1,0 +1,12 @@
+@font-face
+{
+   font-family: gentium;
+   src: url('../../fonts/GentiumPlus-R.ttf') format('truetype');
+}
+body {
+    font-family: 'gentium';
+}
+div {
+    display: block;
+    font-size: 12pt;
+}

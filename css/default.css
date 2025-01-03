@@ -17,6 +17,53 @@
    }
 }
 
+/* FONTS */
+@font-face
+{
+   font-family: "GentiumBookPlus";
+   src: url('../fonts/GentiumBookPlus-Regular.ttf');
+}
+@font-face{
+   font-family: "GentiumBookPlus";
+   src: url("../fonts/GentiumBookPlus-Bold.ttf");
+   font-weight: bold;
+}
+@font-face{
+   font-family: "GentiumBookPlus";
+   src: url("../fonts/GentiumBookPlus-Italic.ttf");
+   font-style: italic;
+}
+@font-face{
+   font-family: "GentiumBookPlus";
+   src: url("../fonts/GentiumBookPlus-BoldItalic.ttf");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face
+{
+   font-family: "GentiumPlus";
+   src: url('../fonts/GentiumPlus-Regular.ttf');
+}
+@font-face{
+   font-family: "GentiumPlus";
+   src: url("../fonts/GentiumPlus-Bold.ttf");
+   font-weight: bold;
+}
+@font-face{
+   font-family: "GentiumPlus";
+   src: url("../fonts/GentiumPlus-Italic.ttf");
+   font-style: italic;
+}
+@font-face{
+   font-family: "GentiumPlus";
+   src: url("../fonts/GentiumPlus-BoldItalic.ttf");
+   font-weight: bold;
+   font-style: italic;
+}
+
+
+
+
 /* general: header  */
 header {
    font-family: tahoma, geneva, sans-serif;
@@ -99,7 +146,7 @@ footer > * {
 /* general: main text */
 body {
    background-color: #FCFCFF;
-   font-family: 'garamond-premier-pro', garamond, serif;
+   font-family: GentiumBookPlus;
    color: #1A001A;
    line-height: 150%;
    font-size: 20px;
@@ -164,7 +211,7 @@ thead {
    text-align: center
 }
 table > tbody {
-   font-family: 'garamond-premier-pro', garamond, serif;
+   font-family: GentiumBook, 'garamond-premier-pro', garamond, serif;
    font-size: 20px;
    line-height: 140%
 }
