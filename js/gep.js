@@ -8,3 +8,7 @@ $(".hideNext").click(function () {
   $(this).toggleClass("hideNext");
   $(this).next().toggleClass("hidden");
 });
+$(".stub").click(function () {
+  $(this).nextAll().toggleClass('inl hidden');
+  $(this).toggleClass('closed open')
+});
