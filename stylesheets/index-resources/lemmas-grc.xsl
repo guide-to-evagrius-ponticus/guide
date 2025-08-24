@@ -22852,7 +22852,11 @@
          <xsl:map-entry key="'ποιοῦμεν'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιούμενοι'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιούμενον'" select="'ποιέω'"/>
-         <xsl:map-entry key="'ποιούμενος'" select="'ποιέω'"/>
+         <!--<xsl:map-entry key="'ποιούμενος'" select="'ποιέω'"/>-->
+         <xsl:map-entry key="'ποιούμενος'">
+            <matches pattern="ποιούμενος θεωρήμασιν">ποιόω</matches>
+            <otherwise>ποιέω</otherwise>
+         </xsl:map-entry>
          <xsl:map-entry key="'ποιουμένους'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιουμένῳ'" select="'ποιέω'"/>
          <xsl:map-entry key="'ποιοῦντα'" select="'ποιέω'"/>
