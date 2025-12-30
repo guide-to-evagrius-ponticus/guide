@@ -15,10 +15,24 @@
     <!-- Primary output: perhaps diagnostics -->
     <!-- Secondary output: one index file per letter per language, with KWIC and links -->
     
+    <!-- When you run this stylesheet, it will produce diagnostics that are very important.
+        Words for which lemmas are not defined will be searched through local or online 
+        databases for a lemma. These need to be manually inspected. Sometimes a stopword 
+        needs to be introduced. Sometimes there's a typo in the source text that needs to 
+        be fixed. Sometimes the lemmas-*.xsl file needs to be updated. That's normally the
+        case, and it's set up so that you can simply correct/update output xsl:map-entry 
+        elements, then paste them into the relevant lemmas-*.xsl file. There is a helper
+        stylesheet, re-sort-files.xsl, which takes a long lemmas file and re-alphabetizes
+        the lemma entries. So you can paste new entries at the end of the lemmas, file,
+        then re-sort as needed.
+        When you do a run, edit the lemmas, then re-run, you'll still get items back, mainly
+        to make sure the lemmas themselves have lemmas.
+    -->
+    
     <!-- To check:
         
         To do: 
-        why won't the current group snap out and snap in in the nav-banner?
+        Why isn't nocpg11 showing up in the results?
         
         Proofread Greek from Frankenberg's edition of the Letters and Antirrhetikos, then make an 
         attempt to include Frankenberg in the index.
@@ -45,14 +59,20 @@
     
     
     <!-- 'cpg24\d[0-9]\.eng'  \.grc| -->
+    <!-- \.(eng|grc) -->
     <xsl:param name="TAN-uris-must-match" as="xs:string?" select="'\.(eng|grc)'"/>
     
-    <!-- We ignore specific versions, e.g., Joest (identical with Gressmann, and outside the 
+    <!-- We ignore specific versions, e.g., Joest (identical with Gressmann, who does not use the 
         standard reference system), Frankenberg (something in the future), Vat. Gr. 754 (imperfect
         transcription of imperfect manuscript, superseded by critical edition), logical form of the
-        PG (preferring another version with the modern reference system). -->
+        PG (preferring another version with the modern reference system).
+        Ignore the letter from Loukios.
+        The 2025 edition of the letters supersedes the 20th c. studies, but Mai's 1837 fragment was
+        not included.
+    -->
     <xsl:param name="TAN-uris-must-not-match" as="xs:string?" 
-        select="'TAN-A|franken|scriptum|vat_gr_754|1858\.pg\.ref-logical|243[56].+joest'"/>
+        select="'TAN-A|franken|scriptum|vat_gr_754|1858\.pg\.ref-logical|243[56].+joest|nocpg01|
+        cpg2437.*grc\.19\d\d|do_not_release|%20Copy'"/>
     
     <xsl:param name="KWIC-length" as="xs:integer" select="4"/>
     
@@ -736,7 +756,23 @@
         
         <xsl:if test="exists($letter-data)">
             <xsl:element name="h2" namespace="http://www.w3.org/1999/xhtml">{$letter-data/@key}</xsl:element>
+            
+            <!-- Create a quick list of lemmas, for easy navigation -->
+            <xsl:element name="div" namespace="http://www.w3.org/1999/xhtml">
+                <xsl:attribute name="class" select="'lemma-list'"/>
+                <xsl:for-each select="$letter-data/entry">
+                    <xsl:element name="div" namespace="http://www.w3.org/1999/xhtml">
+                        <xsl:element name="a" namespace="http://www.w3.org/1999/xhtml">
+                            <xsl:attribute name="href" select="'#' || @key"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:element>
+                    </xsl:element>
+                </xsl:for-each>
+            </xsl:element>
+            
+            <!-- Here comes the good stuff. -->
             <xsl:apply-templates select="$letter-data/*" mode="#current"/>
+            
             <xsl:apply-templates select="$nav-banner" mode="#current">
                 <xsl:with-param name="curr-letter" tunnel="yes" select="$letter-data/@key"/>
                 <xsl:with-param name="prev-letter" tunnel="yes" select="$letter-data/preceding-sibling::*[1]/@key"/>
@@ -1021,6 +1057,22 @@
                 <xsl:copy-of select="$all-nav-banners"/>
             </nav-banners>
             <xsl:copy-of select="tan:trim-long-tree($raw-index, 20, 40)"/>
+            <unique-vocabulary>
+                <!-- Find words that are attested in only one of his works, and no others, useful for
+                    authorship questions, esp. 6583. -->
+                <xsl:for-each-group select="
+                        $raw-index/index[@xml:lang='grc']//entry[not(work[2])
+                        or (every $i in work
+                            satisfies ($i/@key = ('cpg6583a', 'cpg6583b')))]"
+                    group-by="work[1]/@key">
+                    <xsl:sort select="current-grouping-key()"/>
+                    <work key="{current-grouping-key()}" count="{count(current-group())}">
+                        <xsl:copy-of select="current-group()"/>
+                    </work>
+                </xsl:for-each-group> 
+                
+                <xsl:copy-of select="$raw-index//entry[not(work[2])]"/>
+            </unique-vocabulary>
             <!--<most-common-entries>
                 <!-\- I want to know which lemmata have the greatest quantity in each language, to make sure I haven't
                 captured overly common words. -\->

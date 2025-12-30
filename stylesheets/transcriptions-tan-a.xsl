@@ -22,6 +22,7 @@
     <xsl:output method="xhtml"/>
     
     <xsl:import href="../../TAN/TAN-2021/applications/Parabola/Parabola.xsl"/>
+    <!--<xsl:import href="../../TAN/TAN-2022/applications/Parabola/Parabola.xsl"/>-->
     <xsl:include href="incl/transcriptions-core.xsl"/>
     
     <xsl:variable name="full-edition-for-reading-target-uri" as="xs:string"

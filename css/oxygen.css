@@ -1,0 +1,16 @@
+/* Oxygen editor CSS */
+div {
+    display:block
+}
+*:lang(syr){
+    text-align: right;
+    font-family: noto;
+}
+
+*:lang(chu-Cyrl){
+    font-family: Monomakh;
+}
+
+*:lang(chu-Glag){
+    font-family: Shafarik;
+}

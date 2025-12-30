@@ -60,7 +60,26 @@
    font-weight: bold;
    font-style: italic;
 }
+@font-face{
+   font-family: "SegoeUIHist";
+   src: url("../fonts/seguihis.ttf");
+}
+@font-face{
+   font-family: "Monomakh";
+   src: url("../fonts/Monomakh-Regular.otf");
+}
+@font-face{
+   font-family: "Shafarik";
+   src: url("../fonts/Shafarik-Regular.otf");
+}
 
+*:lang(chu-Cyrl){
+    font-family: Monomakh;
+}
+
+*:lang(chu-Glag){
+    font-family: Shafarik;
+}
 
 
 
@@ -516,7 +535,8 @@ div.e-head .e-licensor > div.e-item,
 div.e-ref,
 div.a-rend,
 .e-milestone *,
-.e-item > .label.info {
+.e-item > .label.info
+{
    display: inline;
 }
 div.e-head .e-which > div.e-item > *,
@@ -577,15 +597,62 @@ div.version-wrapper > div.e-item {
 
 /* Items that might need to be migrated to the standard TAN css */
 .a-break,
-.e-pb > .a-ed{
+.e-pb > .a-ed,
+.a-next,
+.a-prev{
    display: none;
 }
 .ns-tei .e-head{
    display: inherit;
 }
-.ns-tei .e-div{
+.ns-tei .e-div,
+div.e-p.ns-tei{
    display: block;
 }
 .ns-tei .e-div > .e-ref{
    font-size:inherit;
+}
+.e-tei > .e-p > .a-n {
+    display: inline-block;
+    font-size: smaller;
+    background-color: white;
+    margin: 0px 5px;
+}
+div.e-p:has(div.a-next)::after {
+    content: "...";
+    color: blue;
+}
+div.e-p:has(div.a-prev)::before {
+    content: "...";
+    color: blue;
+}
+div.e-p:has(div.a-prev) > div.a-n::after {
+    content: " (cont'd)";
+    font-size: small;
+}
+/* We do not want reference numerals to be small caps */
+div.dcap > div.a-n {
+    display: none;
+}
+/* Let the sources boxes be seen, and given some margin before the body */
+body > div > div.options > div.label ~ * {
+    display: block;
+}
+body > div > div.options {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000066; 
+}
+/* Antirrhetikos */
+div.sender > div.e-ref,
+div.recipient > div.e-ref,
+div.book_ref > div.e-ref,
+div.situation > div.e-ref,
+div.scripture > div.e-ref {
+    display: none;
+}
+div.book_ref {
+    font-weight:700;
+}
+div.section > div.scripture {
+    margin-left: 20px;
 }

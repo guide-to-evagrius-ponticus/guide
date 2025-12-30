@@ -445,7 +445,9 @@
                                     <xsl:for-each select="current-group()/tan:subject">
                                         <!-- The date needs to be finagled a bit, because some dc:date values are ranges of years. -->
                                         <xsl:sort order="descending"
-                                            select="number(replace(($bibliography-rdf-file/*/*[dc:description = current()/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])/tan:IRI]/dc:date)[1],'^\D*(\d+)\D.*$','$1'))"/>
+                                            select="number(replace(($bibliography-rdf-file/*/*[dc:description 
+                                            = current()/(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element 
+                                            = 'scriptum'])/tan:IRI]/dc:date)[1],'^\D*(\d+)\D.*$','$1'))"/>
                                         
                                         <!--<subject xmlns="tag:textalign.net,2015:ns" scriptum="BL_Add_14578" q="d41e592">
                                             <scriptum attr="">BL_Add_14578<item include="scripta">
@@ -485,7 +487,7 @@
                                             select="(self::*, tan:which)/(tan:scriptum, tan:item[tan:affects-element = 'scriptum'])//tan:IRI"/>
                                         <xsl:variable name="these-bib-records" select="
                                                 $bibliography-rdf-file/*/*[dc:description[some $i in $these-scriptum-iris
-                                                    satisfies contains(., $i)]]"
+                                                    satisfies contains-token(., $i)]]"
                                         />
                                         <xsl:variable name="this-date"
                                             select="(($these-bib-records/dc:date), '?')[1]"/>
@@ -680,7 +682,7 @@
             </div>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="tan:claim[not(tan:adverb/text() = 'not')]" mode="template-to-corpus-authorship-claim">
+    <xsl:template match="tan:claim" mode="template-to-corpus-authorship-claim">
         <xsl:variable name="this-subject" select="ancestor-or-self::*[tan:subject][1]/tan:subject"/>
         <xsl:variable name="this-adverb" select="ancestor-or-self::*[tan:adverb][1]/tan:adverb"/>
         <xsl:variable name="this-claim-is-trivial"
@@ -690,7 +692,7 @@
                 <xsl:apply-templates select="$this-subject" mode="#current"/>
                 <xsl:apply-templates select="$this-adverb" mode="#current"/>
                 <xsl:choose>
-                    <xsl:when test="$this-adverb/text() = 'improbably'">
+                    <xsl:when test="$this-adverb/text() = ('improbably', 'not')">
                         <xsl:text> write this work.</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
@@ -710,6 +712,9 @@
         <xsl:choose>
             <xsl:when test="text() = 'improbably'">
                 <xsl:text>probably did not</xsl:text>
+            </xsl:when>
+            <xsl:when test="text() = 'not'">
+                <xsl:text>did not</xsl:text>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="text()"/>

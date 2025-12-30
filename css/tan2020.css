@@ -518,43 +518,43 @@ caption,
 @font-face
 {
    font-family: "Rosario";
-   src: url('../../fonts/Rosario-Regular.ttf');
+   src: url('../fonts/Rosario-Regular.ttf');
 }
 @font-face {
    font-family: "Rosario";
-   src: url("../../fonts/Rosario-Bold.ttf");
+   src: url("../fonts/Rosario-Bold.ttf");
    font-weight: bold;
 }
 @font-face {
    font-family: "Rosario";
-   src: url("../../fonts/Rosario-Italic.ttf");
-   font-style: italic, oblique;
+   src: url("../fonts/Rosario-Italic.ttf");
+   font-style: italic;
 }
 @font-face {
    font-family: "Rosario";
-   src: url("../../fonts/Rosario-BoldItalic.ttf");
+   src: url("../fonts/Rosario-BoldItalic.ttf");
    font-weight: bold;
    font-style: italic;
 }
 @font-face {
    font-family: "Sorts Mill Goudy";
-   src: url("../../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+   src: url("../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
    font-style: normal;
 }
 @font-face {
    font-family: "Sorts Mill Goudy";
-   src: url("../../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+   src: url("../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
    font-style: italic;
 }
 @font-face
 {
    font-family: noto;
-   src: url('../../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
+   src: url('../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
 }
 @font-face
 {
    font-family: antinoou;
-   src: url('../../fonts/Antinoou.ttf') format('truetype');
+   src: url('../fonts/Antinoou.ttf') format('truetype');
 }
 body {
    font-family: 'Sorts Mill Goudy';
@@ -668,7 +668,7 @@ div.a-n ~ div.a-n
 }
 
 .scholion,
-.e-scholion {
+.e-scholion{
    margin-left: 3em;
 }
 
@@ -685,7 +685,8 @@ div.a-n ~ div.a-n
 .bibl-item > .desc,
 .meta > .claim .label ~ div,
 .meta > .e-claim .label ~ div,
-.option-item {
+.option-item,
+div.e-ref > div.a-cRef{
    margin-left: 0.5em;
 }
 .tok,
@@ -852,7 +853,7 @@ div.e-ref
 .ns-tei .e-wit,
 .signal,
 .tei .ref,
-.ns-tei .e-ref,
+div.ns-tei div.e-ref,
 .tei .milestone,
 .ns-tei .e-milestone,
 .ns-tei.e-milestone

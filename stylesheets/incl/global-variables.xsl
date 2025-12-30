@@ -22,7 +22,7 @@
     <xsl:variable name="main-tan-voc-uri-resolved" select="resolve-uri('../../tan/TAN-voc/evagrius.TAN-voc.xml', static-base-uri())"/>
     <xsl:variable name="tan-folder-uris-resolved" select="uri-collection($tan-collection-base-uri)"/>
     <xsl:variable name="corpus-collection" select="collection('../../tan/?select=cpg*.xml')"/>
-    <!--<xsl:variable name="corpus-collection" select="collection('../../tan/?select=cpg2475*.xml')"/>-->
+    <!--<xsl:variable name="corpus-collection" select="collection('../../tan/?select=cpg6583*.xml')"/>-->
     <xsl:variable name="corpus-collection-resolved" as="document-node()*"
         select="
             for $i in $corpus-collection

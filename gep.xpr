@@ -30,13 +30,47 @@
                                 <field name="authorExtensionDescriptor">
                                     <authorExtension>
                                         <field name="cssDescriptors">
-                                            <cssFile-array/>
+                                            <cssFile-array>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${pdu}/css/tan2020.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String>TAN 2020</String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${pdu}/css/oxygen.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String>Oxygen Author</String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${pdu}/css/default.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String>GEP default</String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                            </cssFile-array>
                                         </field>
                                         <field name="mergeCSSsFromDocument">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="multipleAlternateSelectionEnabled">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="actionDescriptors">
                                             <action-array/>
@@ -387,7 +421,639 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tan/TAN-A/cpg2431.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg6583b.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.syr.1983.bettiolo.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.lat.1858.pg.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.lat.1858.pg.b.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.lat.1569.grynaeus.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.lat.1559.neandro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.kat.2024.tkebuchava.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.hye.1855.venice.b.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.hye.1855.venice.a.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.grc.1858.pg.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.grc.1858.pg.b.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.grc.1569.grynaeus.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.grc.1559.neandro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.chu-glag.2008.veder.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583b/cpg6583b.chu-cyrl.2008.veder.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg6583a.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.lat.1559.neandro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.chu-cyrl.2008.veder.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.grc.1559.neandro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.lat.1858.pg.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.syr.1983.bettiolo.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.grc.1858.pg.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.grc.1569.grynaeus.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg6583a/cpg6583a.chu-glag.2008.veder.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../TAN/library-arithmeticus/evagrius/transformations/private-morozov-to-TAN.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself, XML to output</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>stylesheets/content.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Create GEP content</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2455.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/create-word-indexes.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself, XML to output</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>atom.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -427,70 +1093,47 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>tan/cpg2455/cpg2455.grc.2021.rondeau.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2455/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>tan/TAN-A/cpg2433.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML for reading</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2449.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML for reading</String>
-                                        <String>TAN-A to HTML for search</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2431.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML for reading - diagnostics</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2430.TAN-A.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -570,11 +1213,34 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>atom.xml</String>
+                                    <String>tan/TAN-A/cpg2437.TAN-A.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Create GEP content</String>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2437/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -590,7 +1256,96 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2455/cpg2455.grc.2021.rondeau.xml</String>
+                                    <String>tan/TAN-A/cpg2434.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>stylesheets/transcriptions-tan-a-old.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>run XSLT against itself</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2448.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2447.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2447/cpg2447.kat.1984.makharashvili.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -604,6 +1359,89 @@
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2448/cpg2448.kat.1984.makharashvili.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2447/</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/cpg2430/cpg2430.eng.1990.dysinger.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-T to HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>tan/TAN-A/cpg2449.TAN-A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TAN-A to HTML for reading</String>
+                                        <String>TAN-A to HTML for search</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -631,66 +1469,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>tan/cpg2462/cpg2462.lat.1864.pg65.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/transcriptions.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>run XSLT against itself</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/create-word-indexes.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>run XSLT against itself, XML to output</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2455/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -862,26 +1640,6 @@
                                 <field name="scenarioStorageLocations">
                                     <list>
                                         <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/transcriptions-tan-a-old.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>run XSLT against itself</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -1408,26 +2166,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2447/</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>tan/cpg2442/</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -1508,47 +2246,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>tan/cpg2437/</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>tan/cpg2433/cpg2433.eng.1990.dysinger.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-T to HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/cpg2430/cpg2430.eng.1990.dysinger.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -1582,29 +2280,6 @@
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>tan/TAN-A/cpg2437.TAN-A.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TAN-A to HTML for reading</String>
-                                        <String>TAN-A to HTML for search</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -4054,6 +4729,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>stylesheets/transcriptions.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>XSLT and declared schemas</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>tan/cpg2458.6/cpg2458.6.grc.1825.mai.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -4075,26 +4770,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>stylesheets/transcriptions-tan-a-old.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>XSLT and declared schemas</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>stylesheets/transcriptions.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
